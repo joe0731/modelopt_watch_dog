@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ README.md archives/
+          git add data/ README.md archives/ tags_archives/
           if git diff --staged --quiet; then
             echo "no changes to commit"
           else

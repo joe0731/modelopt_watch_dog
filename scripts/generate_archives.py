@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-generate monthly archive reports from data/changelog.json.
+generate archive reports from data/changelog.json.
 
-for each month with entries, creates:
-  archives/YYYY-MM/report.md
+two types of archives:
+  1. monthly:  archives/YYYY-MM/report.md       (grouped by month)
+  2. per-tag:  tags_archives/<tag>/README.md     (grouped by tag)
 
 rows containing high-priority tags (eval, vllm, vlm, onnx) are visually
-highlighted with emoji markers and bold text so they stand out.
+highlighted with emoji markers and bold text in monthly archives.
 """
 
 import json
@@ -18,6 +19,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent
 CHANGELOG_PATH = ROOT_DIR / "data" / "changelog.json"
 ARCHIVES_DIR = ROOT_DIR / "archives"
+TAG_ARCHIVES_DIR = ROOT_DIR / "tags_archives"
 CONFIG_PATH = ROOT_DIR / "config" / "directory_tags.json"
 
 HIGHLIGHT_TAGS = {
@@ -37,10 +39,10 @@ def load_changelog():
         return json.load(f)
 
 
-def load_repo_name():
-    """read watched_repo from config."""
+def load_config():
+    """read config including watched_repo and tag_definitions."""
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)["watched_repo"]
+        return json.load(f)
 
 
 def group_by_month(entries):
@@ -130,14 +132,85 @@ def generate_report(month_key, entries, repo):
     return "\n".join(lines)
 
 
-def main():
-    repo = load_repo_name()
-    entries = load_changelog()
+# ---------------------------------------------------------------------------
+# per-tag archives
+# ---------------------------------------------------------------------------
 
-    if not entries:
-        print("[info] no entries in changelog.json")
-        return 0
+def group_by_tag(entries):
+    """group entries by tag. each entry appears in every tag it carries."""
+    buckets = defaultdict(list)
+    for entry in entries:
+        for tag in entry["tags"]:
+            buckets[tag].append(entry)
+    return buckets
 
+
+def generate_tag_report(tag, description, entries, repo):
+    """generate a markdown report for a single tag."""
+    lines = []
+    lines.append(f"# `{tag}` — {description}\n")
+    lines.append(
+        f"> All merged PRs in [{repo}](https://github.com/{repo}) "
+        f"that touched **{tag}** related code.\n"
+    )
+
+    lines.append("| Date | Commit | PR | Author | All Tags | Description |")
+    lines.append("|------|--------|-------|--------|----------|-------------|")
+
+    sorted_entries = sorted(entries, key=lambda x: x["date"], reverse=True)
+
+    for entry in sorted_entries:
+        commit_short = entry["commit"][:8]
+        commit_url = f"https://github.com/{repo}/commit/{entry['commit']}"
+        pr_url = f"https://github.com/{repo}/pull/{entry['pr_number']}"
+        author_url = f"https://github.com/{entry['author']}"
+        tags_str = " ".join(f"`{t}`" for t in entry["tags"])
+        title = sanitize_title(entry["title"])
+
+        row = (
+            f"| {entry['date']} "
+            f"| [{commit_short}]({commit_url}) "
+            f"| [#{entry['pr_number']}]({pr_url}) "
+            f"| [@{entry['author']}]({author_url}) "
+            f"| {tags_str} "
+            f"| {title} |"
+        )
+        lines.append(row)
+
+    lines.append("")
+    lines.append(f"---\n**Total: {len(sorted_entries)} PRs**")
+    lines.append("")
+
+    return "\n".join(lines)
+
+
+def generate_tag_index(tag_counts, tag_definitions):
+    """generate tags_archives/README.md as a directory index."""
+    lines = []
+    lines.append("# Tag Archives\n")
+    lines.append(
+        "Each directory below contains all commits related to that tag.\n"
+        "Click a tag to see its full history.\n"
+    )
+
+    lines.append("| Tag | Description | PRs |")
+    lines.append("|-----|-------------|:---:|")
+
+    for tag in sorted(tag_counts.keys()):
+        desc = tag_definitions.get(tag, "")
+        count = tag_counts[tag]
+        lines.append(f"| [`{tag}`]({tag}/) | {desc} | {count} |")
+
+    lines.append("")
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# main
+# ---------------------------------------------------------------------------
+
+def generate_monthly_archives(entries, repo):
+    """generate archives/YYYY-MM/report.md for each month."""
     buckets = group_by_month(entries)
     generated = 0
 
@@ -153,6 +226,48 @@ def main():
         generated += 1
 
     print(f"[done] generated {generated} monthly archives")
+
+
+def generate_all_tag_archives(entries, repo, tag_definitions):
+    """generate tags_archives/<tag>/README.md for each tag."""
+    buckets = group_by_tag(entries)
+    generated = 0
+    tag_counts = {}
+
+    for tag in sorted(buckets.keys()):
+        tag_entries = buckets[tag]
+        description = tag_definitions.get(tag, "")
+        report = generate_tag_report(tag, description, tag_entries, repo)
+
+        out_dir = TAG_ARCHIVES_DIR / tag
+        out_dir.mkdir(parents=True, exist_ok=True)
+        out_path = out_dir / "README.md"
+        out_path.write_text(report, encoding="utf-8")
+        print(f"[ok] {out_path.relative_to(ROOT_DIR)}  ({len(tag_entries)} PRs)")
+        tag_counts[tag] = len(tag_entries)
+        generated += 1
+
+    # generate index page
+    index = generate_tag_index(tag_counts, tag_definitions)
+    index_path = TAG_ARCHIVES_DIR / "README.md"
+    TAG_ARCHIVES_DIR.mkdir(parents=True, exist_ok=True)
+    index_path.write_text(index, encoding="utf-8")
+
+    print(f"[done] generated {generated} tag archives + index")
+
+
+def main():
+    config = load_config()
+    repo = config["watched_repo"]
+    tag_definitions = config.get("tag_definitions", {})
+    entries = load_changelog()
+
+    if not entries:
+        print("[info] no entries in changelog.json")
+        return 0
+
+    generate_monthly_archives(entries, repo)
+    generate_all_tag_archives(entries, repo, tag_definitions)
     return 0
 
 

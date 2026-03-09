@@ -51,7 +51,7 @@
     "modelopt/deploy":                            ["deploy"],
     "modelopt/deploy/llm":                        ["deploy"],
 
-    "examples/llm_ptq":                           ["example", "torch", "quantization"],
+    "examples/llm_ptq":                           ["example", "torch", "quantization", "eval"],
     "examples/llm_qat":                           ["example", "torch", "quantization"],
     "examples/llm_qad":                           ["example", "torch", "quantization"],
     "examples/cnn_qat":                           ["example", "torch", "quantization"],

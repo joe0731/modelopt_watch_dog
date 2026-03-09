@@ -55,11 +55,24 @@ maps to exactly one tag via longest-prefix matching.
 See [`config/directory_tags.json`](config/directory_tags.json) for the
 full mapping of every Model-Optimizer directory to its tag.
 
-## Monthly Archives
+## Archives
+
+### By Month
 
 Per-month reports with **highlighted rows** for high-priority tags
 (🟡 `eval`  🔵 `vllm`  🟣 `vlm`  🟠 `onnx`) are stored under
 [`archives/`](archives/), named by `YYYY-MM/report.md`.
+
+### By Tag
+
+Per-tag filtered views are stored under [`tags_archives/`](tags_archives/).
+Click any tag directory to see **only** the commits belonging to that tag:
+
+> e.g. [`tags_archives/eval/`](tags_archives/eval/) — all eval-related commits
+> e.g. [`tags_archives/vllm/`](tags_archives/vllm/) — all vLLM-related commits
+> e.g. [`tags_archives/vlm/`](tags_archives/vlm/) — all VLM-related commits
+
+See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 
 ## Changelog
 
