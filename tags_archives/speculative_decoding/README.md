@@ -1,0 +1,21 @@
+# `speculative_decoding` — speculative decoding, Eagle, Medusa, draft models
+
+> All merged PRs in [NVIDIA/Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer) that touched **speculative_decoding** related code.
+
+| Date | Commit | PR | Author | All Tags | Description |
+|------|--------|-------|--------|----------|-------------|
+| 2026-03-05 | [dd16a96f](https://github.com/NVIDIA/Model-Optimizer/commit/dd16a96fdac19958bddd7f2d77eda8733e7bcb5e) | [#965](https://github.com/NVIDIA/Model-Optimizer/pull/965) | [@skierat](https://github.com/skierat) | `example` `speculative_decoding` `torch` | example demonstrating how to train CosmosReason2 Eagle3 |
+| 2026-03-04 | [a34d613d](https://github.com/NVIDIA/Model-Optimizer/commit/a34d613d3ce9d23258e1853bc7b01824374666b6) | [#913](https://github.com/NVIDIA/Model-Optimizer/pull/913) | [@h-guo18](https://github.com/h-guo18) | `eval` `example` `export` `quantization` `speculative_decoding` `tests` `torch` | Feat: Speculatice Decoding export with quantization support |
+| 2026-03-03 | [edde087b](https://github.com/NVIDIA/Model-Optimizer/commit/edde087bbd89a9c3110d65f6fc89fc6be7cf7b0d) | [#950](https://github.com/NVIDIA/Model-Optimizer/pull/950) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `speculative_decoding` `torch` | Adding a special list to handle HF models that require |
+| 2026-02-26 | [4a11486f](https://github.com/NVIDIA/Model-Optimizer/commit/4a11486f6c9ddf46e60097a38596291587595b97) | [#922](https://github.com/NVIDIA/Model-Optimizer/pull/922) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `tests` `torch` | Enable multinode training for HF speculative decoding |
+| 2026-02-24 | [2802302b](https://github.com/NVIDIA/Model-Optimizer/commit/2802302bf93d7fb0a6d6809d77ed4a1bb99affdc) | [#875](https://github.com/NVIDIA/Model-Optimizer/pull/875) | [@IzzyPutterman](https://github.com/IzzyPutterman) | `example` `infra` `speculative_decoding` `torch` | SpecDec Bench: February Update |
+| 2026-02-24 | [75b5da9b](https://github.com/NVIDIA/Model-Optimizer/commit/75b5da9b832f799ebea85c2a5e3be758bf8eb7f8) | [#925](https://github.com/NVIDIA/Model-Optimizer/pull/925) | [@h-guo18](https://github.com/h-guo18) | `speculative_decoding` `torch` | Fix: quant config error on quantized offline eagle |
+| 2026-02-19 | [eb99488d](https://github.com/NVIDIA/Model-Optimizer/commit/eb99488da1a5992033f6fe5ad948324e83691764) | [#907](https://github.com/NVIDIA/Model-Optimizer/pull/907) | [@h-guo18](https://github.com/h-guo18) | `example` `speculative_decoding` `tests` `torch` | Fix: restore requires_grad in transformers5 reloading |
+| 2026-02-18 | [b8a45867](https://github.com/NVIDIA/Model-Optimizer/commit/b8a458670214227371c338c1785f383b7ecd3afe) | [#668](https://github.com/NVIDIA/Model-Optimizer/pull/668) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `speculative_decoding` `tests` `torch` | Refactor: Eagle data loading |
+| 2026-02-09 | [a8f5314c](https://github.com/NVIDIA/Model-Optimizer/commit/a8f5314c93d50edc3eea3affe6a3863eb21aaea4) | [#863](https://github.com/NVIDIA/Model-Optimizer/pull/863) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `infra` `speculative_decoding` `tests` `torch` | fix the path change in torch v2.10 for spec dec |
+| 2026-01-29 | [81b67ddf](https://github.com/NVIDIA/Model-Optimizer/commit/81b67ddf06f22e2af45835dd3458751a854e392e) | [#818](https://github.com/NVIDIA/Model-Optimizer/pull/818) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `infra` `speculative_decoding` `torch` | Context parallelism for Megatron core models |
+| 2026-01-24 | [3036a9ea](https://github.com/NVIDIA/Model-Optimizer/commit/3036a9ea9fa45da4da53cd8bedba8ffd42097db0) | [#745](https://github.com/NVIDIA/Model-Optimizer/pull/745) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | Feat: Context Parallel for Eagle3 Training |
+| 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
+
+---
+**Total: 12 PRs**

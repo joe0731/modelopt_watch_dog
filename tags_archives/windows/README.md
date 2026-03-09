@@ -1,0 +1,15 @@
+# `windows` — Windows platform-specific code and examples
+
+> All merged PRs in [NVIDIA/Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer) that touched **windows** related code.
+
+| Date | Commit | PR | Author | All Tags | Description |
+|------|--------|-------|--------|----------|-------------|
+| 2026-03-06 | [296a865c](https://github.com/NVIDIA/Model-Optimizer/commit/296a865c70cd4373f0ec6585354c563b8b9d61b6) | [#933](https://github.com/NVIDIA/Model-Optimizer/pull/933) | [@ynankani](https://github.com/ynankani) | `example` `export` `torch` `windows` | sample QAD example script |
+| 2026-03-03 | [860d0b4a](https://github.com/NVIDIA/Model-Optimizer/commit/860d0b4a7010a3a2750265d0571529dfc1f44c7b) | [#954](https://github.com/NVIDIA/Model-Optimizer/pull/954) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `docs` `example` `infra` `windows` | Merge Linux and Windows Changelog |
+| 2026-03-02 | [82f1d216](https://github.com/NVIDIA/Model-Optimizer/commit/82f1d216d1a9022e60b8e1143a77f36c00b885a4) | [#935](https://github.com/NVIDIA/Model-Optimizer/pull/935) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `infra` `onnx` `quantization` `sparsity` `torch` `windows` | Add Security and IP related contributing guide and configure coderabbit to catch such issues |
+| 2026-02-02 | [fc6a211b](https://github.com/NVIDIA/Model-Optimizer/commit/fc6a211b4af7ef51a2db4f1fbcb837753da0f65f) | [#811](https://github.com/NVIDIA/Model-Optimizer/pull/811) | [@hthadicherla](https://github.com/hthadicherla) | `example` `onnx` `quantization` `tests` `windows` | Added column-major storage of weights and scales in INT4 quantization for model load time improvement in TRT-RTX |
+| 2026-01-28 | [4a848c4f](https://github.com/NVIDIA/Model-Optimizer/commit/4a848c4f52ef897d94a39e7bd13ceb0f749bd8e6) | [#812](https://github.com/NVIDIA/Model-Optimizer/pull/812) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `docs` `example` `export` `infra` `onnx` `quantization` `torch` `windows` | Modelopt-windows documentation update |
+| 2026-01-25 | [5cc2a545](https://github.com/NVIDIA/Model-Optimizer/commit/5cc2a5451984ba0f1225153c7df68746313118f5) | [#762](https://github.com/NVIDIA/Model-Optimizer/pull/762) | [@ynankani](https://github.com/ynankani) | `example` `onnx` `quantization` `windows` | Ynankani/update windows benchmark md |
+
+---
+**Total: 6 PRs**

@@ -1,108 +1,22 @@
-# ModelOpt Watch Dog
+# `torch` — modelopt.torch - PyTorch optimization core library
 
-Automated tracking and classification of merged PRs in
-[NVIDIA/Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer).
+> All merged PRs in [NVIDIA/Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer) that touched **torch** related code.
 
-A GitHub Action runs daily (and can be triggered manually) to fetch newly
-merged PRs, classify the changes by module tags, and append the results to the
-changelog table below.
-
-## Tag Definitions
-
-All tags are **flat** (same hierarchy level). Each directory in Model-Optimizer
-maps to exactly one tag via longest-prefix matching.
-
-### Framework Tags
-
-| Tag | Description |
-|-----|-------------|
-| `torch` | modelopt.torch — PyTorch optimization core library |
-| `onnx` | modelopt.onnx — ONNX graph optimization, autocast |
-| `deploy` | modelopt.deploy — deployment, serving, vLLM / TensorRT-LLM |
-
-### Feature Tags
-
-| Tag | Description |
-|-----|-------------|
-| `quantization` | PTQ, QAT, QAD, calibration, quantized layers |
-| `distillation` | Knowledge distillation, teacher-student training |
-| `pruning` | Model pruning (structured / unstructured) |
-| `sparsity` | Weight sparsity, attention sparsity |
-| `speculative_decoding` | Speculative decoding, Eagle, Medusa, draft models |
-| `export` | Model export, Torch-to-ONNX conversion |
-| `nas` | Neural architecture search |
-| `peft` | LoRA, adapters, parameter-efficient fine-tuning |
-| `diffusers` | Diffusion model optimization (SD, FLUX, etc.) |
-| `eval` | Model evaluation, benchmarking, accuracy metrics |
-| `vllm` | vLLM serving and integration |
-| `sglang` | SGLang serving and integration |
-| `vlm` | Vision-language model optimization |
-| `core` | Core utilities, tracing, optimization pipeline |
-
-### Scope Tags
-
-| Tag | Description |
-|-----|-------------|
-| `example` | Example scripts and notebooks |
-| `infra` | CI/CD, build system, packaging, config |
-| `docs` | Documentation, guides, API reference |
-| `tests` | Test infrastructure, test utilities |
-| `experimental` | Experimental / research features |
-| `windows` | Windows platform-specific |
-
-## Directory → Tag Mapping
-
-See [`config/directory_tags.json`](config/directory_tags.json) for the
-full mapping of every Model-Optimizer directory to its tag.
-
-## Archives
-
-### By Month
-
-Per-month reports with **highlighted rows** for high-priority tags
-(🟡 `eval`  🔵 `vllm`  🟣 `vlm`  🟠 `onnx`) are stored under
-[`archives/`](archives/), named by `YYYY-MM/report.md`.
-
-### By Tag
-
-Per-tag filtered views are stored under [`tags_archives/`](tags_archives/).
-Click any tag directory to see **only** the commits belonging to that tag:
-
-> e.g. [`tags_archives/eval/`](tags_archives/eval/) — all eval-related commits
-> e.g. [`tags_archives/vllm/`](tags_archives/vllm/) — all vLLM-related commits
-> e.g. [`tags_archives/vlm/`](tags_archives/vlm/) — all VLM-related commits
-
-See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
-
-## Changelog
-
-<!-- CHANGELOG_TABLE -->
-| Date | Commit | PR | Author | Tags | Description |
-|------|--------|-------|--------|------|-------------|
+| Date | Commit | PR | Author | All Tags | Description |
+|------|--------|-------|--------|----------|-------------|
 | 2026-03-06 | [42482b1b](https://github.com/NVIDIA/Model-Optimizer/commit/42482b1b0f3993253369d868f54b579c69108b1e) | [#973](https://github.com/NVIDIA/Model-Optimizer/pull/973) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add nvfp4_omlp_only config and simplify the config.py |
 | 2026-03-06 | [296a865c](https://github.com/NVIDIA/Model-Optimizer/commit/296a865c70cd4373f0ec6585354c563b8b9d61b6) | [#933](https://github.com/NVIDIA/Model-Optimizer/pull/933) | [@ynankani](https://github.com/ynankani) | `example` `export` `torch` `windows` | sample QAD example script |
 | 2026-03-06 | [37d3f10c](https://github.com/NVIDIA/Model-Optimizer/commit/37d3f10cbd0676ec31e15fa42807c2bdbc8e9b4e) | [#972](https://github.com/NVIDIA/Model-Optimizer/pull/972) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | To support LTX2 ComfyUI format |
-| 2026-03-06 | [0dfefa14](https://github.com/NVIDIA/Model-Optimizer/commit/0dfefa146c79501f1866a90151746cacd9055411) | [#980](https://github.com/NVIDIA/Model-Optimizer/pull/980) | [@chochowski](https://github.com/chochowski) | `infra` | fix eval by adding patched lm_eval_anymodel from_string |
-| 2026-03-06 | [025fc4bb](https://github.com/NVIDIA/Model-Optimizer/commit/025fc4bbd1d819e452f01b68b82533e5d1b652d1) | [#991](https://github.com/NVIDIA/Model-Optimizer/pull/991) | [@chochowski](https://github.com/chochowski) | `infra` `tests` | Update naming of gpt-oss descriptor/converter, fix pytest for gpt-oss, make pytest run on num_gpus\>2 |
 | 2026-03-06 | [e2a4a8bf](https://github.com/NVIDIA/Model-Optimizer/commit/e2a4a8bf682bf3ddb30a64363a791650b9e4f11f) | [#984](https://github.com/NVIDIA/Model-Optimizer/pull/984) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `tests` `torch` | Remove unused diffusers/cache_diffusion/pipeline and cuda-python dependency |
 | 2026-03-06 | [1ccd945a](https://github.com/NVIDIA/Model-Optimizer/commit/1ccd945a5159a7e37a84ecd004daf2b52908c3ba) | [#996](https://github.com/NVIDIA/Model-Optimizer/pull/996) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `example` `infra` `tests` `torch` | Remove unused diffusers/cache_diffusion/pipeline and cuda-python dependency |
-| 2026-03-06 | [a007820a](https://github.com/NVIDIA/Model-Optimizer/commit/a007820afa98a6e644e283eaa6ff7a65b9593ed7) | [#956](https://github.com/NVIDIA/Model-Optimizer/pull/956) | [@rohansjoshi](https://github.com/rohansjoshi) | `infra` | Add CLAUDE.md |
-| 2026-03-06 | [be6dfad9](https://github.com/NVIDIA/Model-Optimizer/commit/be6dfad9201c1a03c9fce301e31a99f13b1a98c4) | [#978](https://github.com/NVIDIA/Model-Optimizer/pull/978) | [@willg-nv](https://github.com/willg-nv) | `onnx` `quantization` | \[5951713\] Fix benchmark allocation failure |
 | 2026-03-06 | [22423041](https://github.com/NVIDIA/Model-Optimizer/commit/22423041f74ee092ac0c3be58ad6aab27441db0f) | [#940](https://github.com/NVIDIA/Model-Optimizer/pull/940) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | API to measure MSE for target quantizers |
-| 2026-03-05 | [31f0783e](https://github.com/NVIDIA/Model-Optimizer/commit/31f0783e3569702dfee29971bf1d9f7760cf1ef0) | [#938](https://github.com/NVIDIA/Model-Optimizer/pull/938) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | add new cases for ckpts on HF |
 | 2026-03-05 | [dd16a96f](https://github.com/NVIDIA/Model-Optimizer/commit/dd16a96fdac19958bddd7f2d77eda8733e7bcb5e) | [#965](https://github.com/NVIDIA/Model-Optimizer/pull/965) | [@skierat](https://github.com/skierat) | `example` `speculative_decoding` `torch` | example demonstrating how to train CosmosReason2 Eagle3 |
 | 2026-03-04 | [a34d613d](https://github.com/NVIDIA/Model-Optimizer/commit/a34d613d3ce9d23258e1853bc7b01824374666b6) | [#913](https://github.com/NVIDIA/Model-Optimizer/pull/913) | [@h-guo18](https://github.com/h-guo18) | `eval` `example` `export` `quantization` `speculative_decoding` `tests` `torch` | Feat: Speculatice Decoding export with quantization support |
-| 2026-03-04 | [2bab3fa8](https://github.com/NVIDIA/Model-Optimizer/commit/2bab3fa8b0edb0bd3c8bdda702ae2dbef8e748be) | [#969](https://github.com/NVIDIA/Model-Optimizer/pull/969) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Dkorzekwa/any model mbridge distillation |
-| 2026-03-04 | [e8f9687a](https://github.com/NVIDIA/Model-Optimizer/commit/e8f9687a608ac290c2590e0775760a1fae5305db) | [#841](https://github.com/NVIDIA/Model-Optimizer/pull/841) | [@willg-nv](https://github.com/willg-nv) | `example` `infra` `onnx` | Add Automated QDQ placement example - Part 4.1 |
 | 2026-03-03 | [edde087b](https://github.com/NVIDIA/Model-Optimizer/commit/edde087bbd89a9c3110d65f6fc89fc6be7cf7b0d) | [#950](https://github.com/NVIDIA/Model-Optimizer/pull/950) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `speculative_decoding` `torch` | Adding a special list to handle HF models that require |
-| 2026-03-03 | [860d0b4a](https://github.com/NVIDIA/Model-Optimizer/commit/860d0b4a7010a3a2750265d0571529dfc1f44c7b) | [#954](https://github.com/NVIDIA/Model-Optimizer/pull/954) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `docs` `example` `infra` `windows` | Merge Linux and Windows Changelog |
-| 2026-03-03 | [d780fa59](https://github.com/NVIDIA/Model-Optimizer/commit/d780fa593fe2ba593980fa800aff30018066860e) | [#964](https://github.com/NVIDIA/Model-Optimizer/pull/964) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `experimental` | Add uv.lock for experimental/dms |
 | 2026-03-03 | [a076e6c2](https://github.com/NVIDIA/Model-Optimizer/commit/a076e6c218ba024323b46cf2b3094fd9f1f67072) | [#958](https://github.com/NVIDIA/Model-Optimizer/pull/958) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Make GPU tests \>2x faster by reusing spawn processes between tests |
 | 2026-03-03 | [78779f4a](https://github.com/NVIDIA/Model-Optimizer/commit/78779f4a94e9806c500ae842b7f3c1e9af6bd7d5) | [#955](https://github.com/NVIDIA/Model-Optimizer/pull/955) | [@yueshen2016](https://github.com/yueshen2016) | `core` `torch` | \[OMNIML-3495\] Fix megatron_generate to pass position_ids for MTP model support |
 | 2026-03-03 | [a4fde491](https://github.com/NVIDIA/Model-Optimizer/commit/a4fde491cc6c3c7c747c7c946416ae09d2c6fa5d) | [#962](https://github.com/NVIDIA/Model-Optimizer/pull/962) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `quantization` `tests` `torch` | Update MOE block detection logic and enable in huggingface_script.sh |
 | 2026-03-02 | [fcdaf651](https://github.com/NVIDIA/Model-Optimizer/commit/fcdaf6519d63bd2b42775b972527e06d9f1eff55) | [#924](https://github.com/NVIDIA/Model-Optimizer/pull/924) | [@sugunav14](https://github.com/sugunav14) | `core` `quantization` `tests` `torch` | Support decoder block-level sequential calibration |
-| 2026-03-02 | [94b2cb27](https://github.com/NVIDIA/Model-Optimizer/commit/94b2cb272dbb19986f7391bac3f3c28341dc2c78) | [#839](https://github.com/NVIDIA/Model-Optimizer/pull/839) | [@willg-nv](https://github.com/willg-nv) | `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 3.3 |
-| 2026-03-02 | [0f668a31](https://github.com/NVIDIA/Model-Optimizer/commit/0f668a312f65ce3f29f328331d14ed93dc1e7eb5) | [#945](https://github.com/NVIDIA/Model-Optimizer/pull/945) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Replace setup.py with uv-compatible pyproject.toml and add uv.lock for nspect scanning |
 | 2026-03-02 | [ba29ad70](https://github.com/NVIDIA/Model-Optimizer/commit/ba29ad706d8c36966d67560aa697b852f89f0e86) | [#944](https://github.com/NVIDIA/Model-Optimizer/pull/944) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `infra` `onnx` `quantization` `tests` `torch` | Enable RTX Pro 6000 Blackwell runners for CI/CD |
 | 2026-03-02 | [f26b9c3a](https://github.com/NVIDIA/Model-Optimizer/commit/f26b9c3a2fcfe7ceb98a16356147a0f9b86ffd2a) | [#942](https://github.com/NVIDIA/Model-Optimizer/pull/942) | [@arendu](https://github.com/arendu) | `eval` `example` `quantization` `torch` | skip generate option for large models and mxfp8 |
 | 2026-03-02 | [82f1d216](https://github.com/NVIDIA/Model-Optimizer/commit/82f1d216d1a9022e60b8e1143a77f36c00b885a4) | [#935](https://github.com/NVIDIA/Model-Optimizer/pull/935) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `infra` `onnx` `quantization` `sparsity` `torch` `windows` | Add Security and IP related contributing guide and configure coderabbit to catch such issues |
@@ -111,16 +25,13 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 | 2026-02-28 | [56e97c80](https://github.com/NVIDIA/Model-Optimizer/commit/56e97c809648ed472994518cea7cc28e94567dd0) | [#865](https://github.com/NVIDIA/Model-Optimizer/pull/865) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `torch` | Bug fix 5875873 |
 | 2026-02-28 | [2905cb0f](https://github.com/NVIDIA/Model-Optimizer/commit/2905cb0f2e2bd46e4327e125978fc22852707586) | [#937](https://github.com/NVIDIA/Model-Optimizer/pull/937) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Updated the diffusion config issue and more test cases |
 | 2026-02-27 | [a4156679](https://github.com/NVIDIA/Model-Optimizer/commit/a415667992828b2345f088cd4786ec25781fa264) | [#897](https://github.com/NVIDIA/Model-Optimizer/pull/897) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `eval` `example` `export` `infra` `quantization` `torch` | Enable Qwen3.5-MoE PTQ |
-| 2026-02-27 | [35e60991](https://github.com/NVIDIA/Model-Optimizer/commit/35e60991c788756dd0e777a0b793a95b762033f0) | [#838](https://github.com/NVIDIA/Model-Optimizer/pull/838) | [@willg-nv](https://github.com/willg-nv) | `onnx` `quantization` `tests` | Integrate Automated QDQ autotuner - part 3.2 |
 | 2026-02-27 | [2409ac80](https://github.com/NVIDIA/Model-Optimizer/commit/2409ac80e7ad069ec2ce5485e2db0c4a9b805f94) | [#889](https://github.com/NVIDIA/Model-Optimizer/pull/889) | [@chochowski](https://github.com/chochowski) | `infra` `nas` `torch` | gpt-oss 20b support |
 | 2026-02-27 | [a538f2e2](https://github.com/NVIDIA/Model-Optimizer/commit/a538f2e256f13c4b7021fc8dcd81354342fa49b9) | [#923](https://github.com/NVIDIA/Model-Optimizer/pull/923) | [@rohansjoshi](https://github.com/rohansjoshi) | `sparsity` `torch` | Fix skip softmax calibration memory issue |
 | 2026-02-26 | [6b0ea4d4](https://github.com/NVIDIA/Model-Optimizer/commit/6b0ea4d43d657f2d9276403595d915a1660c17fd) | [#936](https://github.com/NVIDIA/Model-Optimizer/pull/936) | [@jenchen13](https://github.com/jenchen13) | `core` `tests` `torch` | Fix MOE layer sync test |
 | 2026-02-26 | [ef5a2dfc](https://github.com/NVIDIA/Model-Optimizer/commit/ef5a2dfc5dff78e4d4a2f4c34809a2f5bc208bc6) | [#851](https://github.com/NVIDIA/Model-Optimizer/pull/851) | [@michaelfeil](https://github.com/michaelfeil) | `core` `torch` | feat: Baseten contrib third-party-dataset support |
 | 2026-02-26 | [4a11486f](https://github.com/NVIDIA/Model-Optimizer/commit/4a11486f6c9ddf46e60097a38596291587595b97) | [#922](https://github.com/NVIDIA/Model-Optimizer/pull/922) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `tests` `torch` | Enable multinode training for HF speculative decoding |
-| 2026-02-26 | [3fe7e65b](https://github.com/NVIDIA/Model-Optimizer/commit/3fe7e65b706e524766f47116d692685b6538b2a0) | [#928](https://github.com/NVIDIA/Model-Optimizer/pull/928) | [@gcunhase](https://github.com/gcunhase) | `docs` `infra` `onnx` `tests` | \[5615343,5597780,5371126\] Upgrade ORT to 1.24 |
 | 2026-02-26 | [dfe705aa](https://github.com/NVIDIA/Model-Optimizer/commit/dfe705aab5e66cd20d133a9e87dd0734cef85f1e) | [#858](https://github.com/NVIDIA/Model-Optimizer/pull/858) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | support static NVFP4 HF export |
 | 2026-02-26 | [a6cbcbad](https://github.com/NVIDIA/Model-Optimizer/commit/a6cbcbad0a3ecff97d6794dab80c8d8782e96897) | [#929](https://github.com/NVIDIA/Model-Optimizer/pull/929) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `torch` | Support mixed-precision per layer quant config in config.json |
-| 2026-02-25 | [e589ac80](https://github.com/NVIDIA/Model-Optimizer/commit/e589ac80f66e833e1100ba9acb4b670d43dcfbc4) | [#837](https://github.com/NVIDIA/Model-Optimizer/pull/837) | [@willg-nv](https://github.com/willg-nv) | `onnx` `quantization` `tests` | Integrate Automated QDQ benchmark - part 3.1 |
 | 2026-02-25 | [4eacb0da](https://github.com/NVIDIA/Model-Optimizer/commit/4eacb0da723ab60e0bc4edd28dbf25ad7064be06) | [#934](https://github.com/NVIDIA/Model-Optimizer/pull/934) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `torch` | Add trust_remote_code cli option for mbridge distillation |
 | 2026-02-24 | [c689ea11](https://github.com/NVIDIA/Model-Optimizer/commit/c689ea1176fa1c905ee8fb45e3085cef02dccdec) | [#927](https://github.com/NVIDIA/Model-Optimizer/pull/927) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `torch` | flush print megatron tokenization stats and update readme |
 | 2026-02-24 | [2802302b](https://github.com/NVIDIA/Model-Optimizer/commit/2802302bf93d7fb0a6d6809d77ed4a1bb99affdc) | [#875](https://github.com/NVIDIA/Model-Optimizer/pull/875) | [@IzzyPutterman](https://github.com/IzzyPutterman) | `example` `infra` `speculative_decoding` `torch` | SpecDec Bench: February Update |
@@ -131,10 +42,8 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 | 2026-02-23 | [f78385e7](https://github.com/NVIDIA/Model-Optimizer/commit/f78385e70e992775fe7e29e849ccbb3e8bcb1328) | [#918](https://github.com/NVIDIA/Model-Optimizer/pull/918) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `pruning` `tests` `torch` | Improve megatron dataset preprocessing script and update docs |
 | 2026-02-23 | [52e662dd](https://github.com/NVIDIA/Model-Optimizer/commit/52e662dd1de239dccc537d5b41098ad922a00093) | [#915](https://github.com/NVIDIA/Model-Optimizer/pull/915) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `quantization` `torch` | Fix test_transformers_tp for torch 2.10 env |
 | 2026-02-21 | [9e23c6c3](https://github.com/NVIDIA/Model-Optimizer/commit/9e23c6c312b4308fb2ef145311ea2178f32cbbaa) | [#891](https://github.com/NVIDIA/Model-Optimizer/pull/891) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `infra` `quantization` `tests` `torch` | Upgrade Dev containers for CICD to latest |
-| 2026-02-21 | [70ffb6f8](https://github.com/NVIDIA/Model-Optimizer/commit/70ffb6f87cf03f636e457e20b7d1bdb92ef267f1) | [#914](https://github.com/NVIDIA/Model-Optimizer/pull/914) | [@kaix-nv](https://github.com/kaix-nv) | `tests` | Remove test_llama_eval_sparse_attention |
 | 2026-02-21 | [02fa3623](https://github.com/NVIDIA/Model-Optimizer/commit/02fa3623d812dc81af4e180b28af1bd2cd16ec0a) | [#903](https://github.com/NVIDIA/Model-Optimizer/pull/903) | [@jenchen13](https://github.com/jenchen13) | `core` `quantization` `tests` `torch` | Sync MOE layer input quantizer only \[OMNIML-3515\] |
 | 2026-02-20 | [adcce614](https://github.com/NVIDIA/Model-Optimizer/commit/adcce614cb8cb610b4d1ae9ba412e7365071a6bc) | [#788](https://github.com/NVIDIA/Model-Optimizer/pull/788) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | add local hessian calibration |
-| 2026-02-20 | [7c4c9fdb](https://github.com/NVIDIA/Model-Optimizer/commit/7c4c9fdbc99a88ee9bd89085ce5c63c78928ef80) | [#760](https://github.com/NVIDIA/Model-Optimizer/pull/760) | [@byte-deve](https://github.com/byte-deve) | `onnx` `tests` | Support multiple-batch input for autocast calibration. |
 | 2026-02-20 | [9975ba10](https://github.com/NVIDIA/Model-Optimizer/commit/9975ba10650512f6f9b4787b54efa22ccd29be69) | [#912](https://github.com/NVIDIA/Model-Optimizer/pull/912) | [@cjluo-nv](https://github.com/cjluo-nv) | `example` `quantization` `torch` | Fix DeepSeek PTQ script |
 | 2026-02-19 | [eb99488d](https://github.com/NVIDIA/Model-Optimizer/commit/eb99488da1a5992033f6fe5ad948324e83691764) | [#907](https://github.com/NVIDIA/Model-Optimizer/pull/907) | [@h-guo18](https://github.com/h-guo18) | `example` `speculative_decoding` `tests` `torch` | Fix: restore requires_grad in transformers5 reloading |
 | 2026-02-19 | [c4b662fb](https://github.com/NVIDIA/Model-Optimizer/commit/c4b662fbc8bd793ddeae42ebfce622393b1bfe94) | [#906](https://github.com/NVIDIA/Model-Optimizer/pull/906) | [@realAsma](https://github.com/realAsma) | `quantization` `tests` `torch` | \[Bug fix\] Fake quantized model save after HF accelerate hooks are added |
@@ -142,29 +51,18 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 | 2026-02-18 | [9e38041d](https://github.com/NVIDIA/Model-Optimizer/commit/9e38041d346d8ee95bc17825ec59f7b91a3e59fc) | [#538](https://github.com/NVIDIA/Model-Optimizer/pull/538) | [@kaix-nv](https://github.com/kaix-nv) | `eval` `example` `export` `infra` `sparsity` `tests` `torch` | \[OMNIML-2850\] \[3/n\] Adds sparse attention calibration |
 | 2026-02-18 | [b8a45867](https://github.com/NVIDIA/Model-Optimizer/commit/b8a458670214227371c338c1785f383b7ecd3afe) | [#668](https://github.com/NVIDIA/Model-Optimizer/pull/668) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `speculative_decoding` `tests` `torch` | Refactor: Eagle data loading |
 | 2026-02-18 | [3dd52bf1](https://github.com/NVIDIA/Model-Optimizer/commit/3dd52bf106568c4195ba4fd0ec83e2d106745f53) | [#901](https://github.com/NVIDIA/Model-Optimizer/pull/901) | [@jingyu-ml](https://github.com/jingyu-ml) | `export` `torch` | Diffusion export bug fixed for model_index.json |
-| 2026-02-17 | [f69fc7a9](https://github.com/NVIDIA/Model-Optimizer/commit/f69fc7a901cd9ce84f58e231221d4c604d225c7f) | [#894](https://github.com/NVIDIA/Model-Optimizer/pull/894) | [@j-rausch](https://github.com/j-rausch) | `infra` | Add support and documentation for AnyModel checkpoints with Nemo evaluator |
-| 2026-02-17 | [97635059](https://github.com/NVIDIA/Model-Optimizer/commit/976350598149274bcb87d418d25390606ac8ebe6) | [#890](https://github.com/NVIDIA/Model-Optimizer/pull/890) | [@galagam](https://github.com/galagam) | `infra` `onnx` | \[fix\]\[5889686\] AutoCast: Fix logger |
-| 2026-02-17 | [22c6070c](https://github.com/NVIDIA/Model-Optimizer/commit/22c6070c23c21628402781224a12791236d1e170) | [#899](https://github.com/NVIDIA/Model-Optimizer/pull/899) | [@j-rausch](https://github.com/j-rausch) | `infra` | Update license of lm_eval_anymodel.py |
 | 2026-02-17 | [590f9fc6](https://github.com/NVIDIA/Model-Optimizer/commit/590f9fc662202b0ec09a24886d42b004fdb97b39) | [#882](https://github.com/NVIDIA/Model-Optimizer/pull/882) | [@jenchen13](https://github.com/jenchen13) | `quantization` `torch` | Mamba MOE Quant Configs + Fix Export Bug |
 | 2026-02-17 | [3801923e](https://github.com/NVIDIA/Model-Optimizer/commit/3801923e9d7a94a5f37c952479606cbfb6c53fdb) | [#817](https://github.com/NVIDIA/Model-Optimizer/pull/817) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `quantization` `torch` | Support MiniMax M2.1 (FP8 checkpoint) |
-| 2026-02-17 | [e66824e3](https://github.com/NVIDIA/Model-Optimizer/commit/e66824e3e8b4da594fee046c661edc64466ef7e0) | [#898](https://github.com/NVIDIA/Model-Optimizer/pull/898) | [@j-rausch](https://github.com/j-rausch) | `infra` | Add support for AnyModel evaluation via lm-eval |
 | 2026-02-14 | [5c4ef8e9](https://github.com/NVIDIA/Model-Optimizer/commit/5c4ef8e9a2a5e73692352e1ce4fb33df76454b11) | [#884](https://github.com/NVIDIA/Model-Optimizer/pull/884) | [@yueshen2016](https://github.com/yueshen2016) | `export` `torch` | \[OMNIML-3232\] Support full TE spec for NemotronH HF-to-Megatron import |
 | 2026-02-14 | [ca1f9687](https://github.com/NVIDIA/Model-Optimizer/commit/ca1f9687bd741a0c73791c093692eff0f95d2d46) | [#892](https://github.com/NVIDIA/Model-Optimizer/pull/892) | [@mxinO](https://github.com/mxinO) | `diffusers` `distillation` `example` `infra` `torch` | \[OMNIML-3505\] LTX-2 Distillation Trainer |
 | 2026-02-13 | [95511a0b](https://github.com/NVIDIA/Model-Optimizer/commit/95511a0bc9ae7b56a276e08d0f1183fab4c7e3ee) | [#786](https://github.com/NVIDIA/Model-Optimizer/pull/786) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `export` `infra` `quantization` `torch` | Add Nemotron parse PTQ support |
 | 2026-02-13 | [b43ae641](https://github.com/NVIDIA/Model-Optimizer/commit/b43ae641a46c6c202a43e24e86d1edb449992f3e) | [#887](https://github.com/NVIDIA/Model-Optimizer/pull/887) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `torch` | MBridge pruning minor fix for saving pruned NemotronH |
 | 2026-02-13 | [ae69d5d9](https://github.com/NVIDIA/Model-Optimizer/commit/ae69d5d9b9ca46e94a7ade148ddbbd3ffff4c8dd) | [#888](https://github.com/NVIDIA/Model-Optimizer/pull/888) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `tests` `torch` | Separate CI job for Megatron GPU tests |
-| 2026-02-12 | [1ebb6b3f](https://github.com/NVIDIA/Model-Optimizer/commit/1ebb6b3fe1a9b75440df1d442364b3484f8bd043) | [#845](https://github.com/NVIDIA/Model-Optimizer/pull/845) | [@willg-nv](https://github.com/willg-nv) | `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 2.2 |
-| 2026-02-12 | [3e95d9fd](https://github.com/NVIDIA/Model-Optimizer/commit/3e95d9fd770be3a24b322b5fb3e498473d3e76f4) | [#846](https://github.com/NVIDIA/Model-Optimizer/pull/846) | [@willg-nv](https://github.com/willg-nv) | `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 2.3 |
 | 2026-02-12 | [f9d9a71d](https://github.com/NVIDIA/Model-Optimizer/commit/f9d9a71de241e15a7ebe3b75db77a1ffe427f2ba) | [#881](https://github.com/NVIDIA/Model-Optimizer/pull/881) | [@ChenhanYu](https://github.com/ChenhanYu) | `export` `torch` | Chenhany/megatron export per layer |
 | 2026-02-11 | [10efcb65](https://github.com/NVIDIA/Model-Optimizer/commit/10efcb65f69df2742aea153c8b457a88b768c404) | [#855](https://github.com/NVIDIA/Model-Optimizer/pull/855) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `docs` `example` `infra` `quantization` `torch` | \[3.1/4\] Diffusion Quantized ckpt export - WAN 2.2 14B |
-| 2026-02-11 | [eb3e6edb](https://github.com/NVIDIA/Model-Optimizer/commit/eb3e6edb504eeddadc8763f5a12019827cbe06da) | [#878](https://github.com/NVIDIA/Model-Optimizer/pull/878) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `example` | \[fix\]\[5875912\] Fix autoquant-autodeploy example |
 | 2026-02-11 | [8d67cb08](https://github.com/NVIDIA/Model-Optimizer/commit/8d67cb08d5ca42049ffc52512cb4d3244a9c459c) | [#861](https://github.com/NVIDIA/Model-Optimizer/pull/861) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `torch` | Add Megatron-Bridge recipe-free distillation example script |
-| 2026-02-10 | [549cea8c](https://github.com/NVIDIA/Model-Optimizer/commit/549cea8c980dc413aa45cd6675cf2d23a9db1c2e) | [#877](https://github.com/NVIDIA/Model-Optimizer/pull/877) | [@kstaniszewsknv](https://github.com/kstaniszewsknv) | `experimental` `infra` | Add Dynamic Memory Sparsification (DMS) training and inference implementation |
-| 2026-02-09 | [24e35878](https://github.com/NVIDIA/Model-Optimizer/commit/24e358789dd2e484fd602aaf387fb1d30051ebc1) | [#859](https://github.com/NVIDIA/Model-Optimizer/pull/859) | [@gcunhase](https://github.com/gcunhase) | `onnx` | \[5868890\]\[ONNX\]\[Autocast\] Fix: failure when checking input shape with unknown dimension |
 | 2026-02-09 | [a8f5314c](https://github.com/NVIDIA/Model-Optimizer/commit/a8f5314c93d50edc3eea3affe6a3863eb21aaea4) | [#863](https://github.com/NVIDIA/Model-Optimizer/pull/863) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `infra` `speculative_decoding` `tests` `torch` | fix the path change in torch v2.10 for spec dec |
 | 2026-02-09 | [5e43b2a5](https://github.com/NVIDIA/Model-Optimizer/commit/5e43b2a5f586c2b34824c344a8b681e6c50378c4) | [#860](https://github.com/NVIDIA/Model-Optimizer/pull/860) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `quantization` `torch` | Support Qwen3 Next MTP load and export |
-| 2026-02-07 | [e53ca61b](https://github.com/NVIDIA/Model-Optimizer/commit/e53ca61b71ee0e6d6fe30afd0cc944c913561a46) | [#867](https://github.com/NVIDIA/Model-Optimizer/pull/867) | [@kaix-nv](https://github.com/kaix-nv) | `experimental` | Add contribution guidelines for experimental features |
-| 2026-02-06 | [0225e527](https://github.com/NVIDIA/Model-Optimizer/commit/0225e5273fe713babb86b8ea4a347ec020cb9605) | [#844](https://github.com/NVIDIA/Model-Optimizer/pull/844) | [@willg-nv](https://github.com/willg-nv) | `infra` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 2.1 |
 | 2026-02-06 | [3393e981](https://github.com/NVIDIA/Model-Optimizer/commit/3393e981e653b2cc52de1d4997621b745d46745d) | [#833](https://github.com/NVIDIA/Model-Optimizer/pull/833) | [@yueshen2016](https://github.com/yueshen2016) | `quantization` `torch` | Fix TEGroupedLinear quantization for expert parallelism (EP \> 1) |
 | 2026-02-06 | [ac30686c](https://github.com/NVIDIA/Model-Optimizer/commit/ac30686c82c5fea46d288550c2991e9f483d99f9) | [#849](https://github.com/NVIDIA/Model-Optimizer/pull/849) | [@realAsma](https://github.com/realAsma) | `quantization` `tests` `torch` | Track global_amax for weight FP4 MSE sweep; Refactor to NVFP4StaticQantizer, NVFP4MSECalibrator |
 | 2026-02-06 | [62c2799b](https://github.com/NVIDIA/Model-Optimizer/commit/62c2799be276e62407b68595e3545ab47d9dc97d) | [#862](https://github.com/NVIDIA/Model-Optimizer/pull/862) | [@ChenhanYu](https://github.com/ChenhanYu) | `quantization` `torch` | Fix Sequential MLP amax sync deadlock  |
@@ -174,10 +72,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 | 2026-02-04 | [8a8c250d](https://github.com/NVIDIA/Model-Optimizer/commit/8a8c250d12f33abb6a741dc5663fede80d021f22) | [#830](https://github.com/NVIDIA/Model-Optimizer/pull/830) | [@jenchen13](https://github.com/jenchen13) | `export` `quantization` `tests` `torch` | Latent MOE & Repeated MTP support for NemotronH; fix KV cache quant export |
 | 2026-02-04 | [944dd1a2](https://github.com/NVIDIA/Model-Optimizer/commit/944dd1a284b8ea174b0172bf00f19f9ca67fe103) | [#854](https://github.com/NVIDIA/Model-Optimizer/pull/854) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `quantization` `torch` | Move parallel_state init and warnings to Quant DynamicModule + MBridge pruning doc update |
 | 2026-02-04 | [452c5a09](https://github.com/NVIDIA/Model-Optimizer/commit/452c5a09b03f8db34a39151aae4f7a4b01efd9cd) | [#792](https://github.com/NVIDIA/Model-Optimizer/pull/792) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `export` `infra` `quantization` `torch` | GLM-4.7 MTP support |
-| 2026-02-04 | [9de9b8f2](https://github.com/NVIDIA/Model-Optimizer/commit/9de9b8f20c429902cfe769c00c486da346751e7b) | [#827](https://github.com/NVIDIA/Model-Optimizer/pull/827) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add test cases for the newly added checkpoints on HF |
-| 2026-02-03 | [23278a44](https://github.com/NVIDIA/Model-Optimizer/commit/23278a44dbcea6281b4e297b2f761628465f3768) | [#701](https://github.com/NVIDIA/Model-Optimizer/pull/701) | [@willg-nv](https://github.com/willg-nv) | `infra` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - Part 1 |
 | 2026-02-03 | [fb5923c8](https://github.com/NVIDIA/Model-Optimizer/commit/fb5923c89e745b54d9d63693f2f492aed6608c1d) | [#800](https://github.com/NVIDIA/Model-Optimizer/pull/800) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `torch` | Add Megatron-Bridge pruning example scripts |
-| 2026-02-02 | [fc6a211b](https://github.com/NVIDIA/Model-Optimizer/commit/fc6a211b4af7ef51a2db4f1fbcb837753da0f65f) | [#811](https://github.com/NVIDIA/Model-Optimizer/pull/811) | [@hthadicherla](https://github.com/hthadicherla) | `example` `onnx` `quantization` `tests` `windows` | Added column-major storage of weights and scales in INT4 quantization for model load time improvement in TRT-RTX |
 | 2026-02-02 | [2a467531](https://github.com/NVIDIA/Model-Optimizer/commit/2a467531f25a4389f8bec0c8654706aa8ccffccf) | [#802](https://github.com/NVIDIA/Model-Optimizer/pull/802) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Layerwise KD mode |
 | 2026-01-30 | [02c5f292](https://github.com/NVIDIA/Model-Optimizer/commit/02c5f292f0b707c3cb98f45a7f8dcd2e14fac8a9) | [#555](https://github.com/NVIDIA/Model-Optimizer/pull/555) | [@sugunav14](https://github.com/sugunav14) | `core` `quantization` `tests` `torch` | GPTQ Lite implementation |
 | 2026-01-29 | [770962b3](https://github.com/NVIDIA/Model-Optimizer/commit/770962b32c3ef0520761fc255ff9d32ff0fcf690) | [#829](https://github.com/NVIDIA/Model-Optimizer/pull/829) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `example` `quantization` `torch` | Rename MLM teacher arg |
@@ -187,12 +82,9 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 | 2026-01-28 | [4227bb73](https://github.com/NVIDIA/Model-Optimizer/commit/4227bb7366210548cf2ebaf0032b9ab612454c29) | [#736](https://github.com/NVIDIA/Model-Optimizer/pull/736) | [@danisereb](https://github.com/danisereb) | `eval` `example` `export` `quantization` `tests` `torch` | Add support for MXFP8 PTQ |
 | 2026-01-28 | [9857e0a4](https://github.com/NVIDIA/Model-Optimizer/commit/9857e0a48c6f7b2874c3ddf19ad5c9c8e94c449f) | [#823](https://github.com/NVIDIA/Model-Optimizer/pull/823) | [@ChenhanYu](https://github.com/ChenhanYu) | `quantization` `torch` | Nenotrom Nano PTQ fix where MoELayer forward has additional named arguments |
 | 2026-01-27 | [1c7a928d](https://github.com/NVIDIA/Model-Optimizer/commit/1c7a928df8731392b73ed33df4b427b4aa677f99) | [#819](https://github.com/NVIDIA/Model-Optimizer/pull/819) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `sparsity` `torch` | Change cnn_dailymail to abisee/cnn_dailymail |
-| 2026-01-27 | [2c73de04](https://github.com/NVIDIA/Model-Optimizer/commit/2c73de0405892b2b55ffd59378840926e1eb9a4e) | [#809](https://github.com/NVIDIA/Model-Optimizer/pull/809) | [@galagam](https://github.com/galagam) | `infra` `onnx` `quantization` `tests` | \[5525939\] Allow user to select target opset in MOQ |
-| 2026-01-26 | [8c36f5a2](https://github.com/NVIDIA/Model-Optimizer/commit/8c36f5a2f7cede90f2ae1a511bfab3f203a06611) | [#815](https://github.com/NVIDIA/Model-Optimizer/pull/815) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `quantization` | \[5676209\]\[ONNX\]\[Autocast\] Add support for single \`npz\` file with multiple samples |
 | 2026-01-26 | [38403095](https://github.com/NVIDIA/Model-Optimizer/commit/38403095c4a9829b14e0ce45c9b067c16a502b46) | [#731](https://github.com/NVIDIA/Model-Optimizer/pull/731) | [@galagam](https://github.com/galagam) | `deploy` `infra` `onnx` `torch` | \[5725362\] AutoCast Fixes for models with external data |
 | 2026-01-26 | [aafd3883](https://github.com/NVIDIA/Model-Optimizer/commit/aafd3883942a564f1ac08a1e5f363abd61d383cf) | [#758](https://github.com/NVIDIA/Model-Optimizer/pull/758) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | add FP8 sweep option for static NVFP4 MSE |
 | 2026-01-26 | [0ebcd708](https://github.com/NVIDIA/Model-Optimizer/commit/0ebcd708787c22e54226fe613f5370cdd554dc22) | [#755](https://github.com/NVIDIA/Model-Optimizer/pull/755) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `eval` `example` `quantization` `torch` | Support VLM calibration with image-text data |
-| 2026-01-25 | [5cc2a545](https://github.com/NVIDIA/Model-Optimizer/commit/5cc2a5451984ba0f1225153c7df68746313118f5) | [#762](https://github.com/NVIDIA/Model-Optimizer/pull/762) | [@ynankani](https://github.com/ynankani) | `example` `onnx` `quantization` `windows` | Ynankani/update windows benchmark md |
 | 2026-01-24 | [3036a9ea](https://github.com/NVIDIA/Model-Optimizer/commit/3036a9ea9fa45da4da53cd8bedba8ffd42097db0) | [#745](https://github.com/NVIDIA/Model-Optimizer/pull/745) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | Feat: Context Parallel for Eagle3 Training |
 | 2026-01-23 | [2a086220](https://github.com/NVIDIA/Model-Optimizer/commit/2a086220591b18e3d98c25d5e614bdd3019fa2fa) | [#808](https://github.com/NVIDIA/Model-Optimizer/pull/808) | [@ChenhanYu](https://github.com/ChenhanYu) | `quantization` `torch` | Fix moe amax remedy for dsr1 and remove global barrier in quantization megatron plugins |
 | 2026-01-23 | [4f4558ad](https://github.com/NVIDIA/Model-Optimizer/commit/4f4558adbbe93ed0b14968301641c2346d47fcdc) | [#785](https://github.com/NVIDIA/Model-Optimizer/pull/785) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `torch` | Fix a nvfp4 weight amax attribute issue during export |
@@ -200,50 +92,23 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 | 2026-01-23 | [044c4bc4](https://github.com/NVIDIA/Model-Optimizer/commit/044c4bc4eb76afb4de6026864f46d68606d569c5) | [#773](https://github.com/NVIDIA/Model-Optimizer/pull/773) | [@yueshen2016](https://github.com/yueshen2016) | `core` `torch` | Support megatron generate for vlm |
 | 2026-01-22 | [b44c60ad](https://github.com/NVIDIA/Model-Optimizer/commit/b44c60ad345e988b242f89fb09dbf4396a6ae000) | [#754](https://github.com/NVIDIA/Model-Optimizer/pull/754) | [@sychen52](https://github.com/sychen52) | `eval` `example` `export` `quantization` `tests` `torch` | Svdquant huggingface checkpoint export support |
 | 2026-01-21 | [615f99e7](https://github.com/NVIDIA/Model-Optimizer/commit/615f99e746273c36e8ab3e3ace043da8693b336a) | [#669](https://github.com/NVIDIA/Model-Optimizer/pull/669) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `torch` | Support KIMI K2 Thinking int4 checkpoint PTQ |
-| 2026-01-21 | [67576d20](https://github.com/NVIDIA/Model-Optimizer/commit/67576d20baf4a891e356d1cae8ae79a2c1a05df4) | [#801](https://github.com/NVIDIA/Model-Optimizer/pull/801) | [@hthadicherla](https://github.com/hthadicherla) | `infra` | Revert onnxruntime-gpu version to 1.22.0 for Windows |
-| 2026-01-21 | [792806f0](https://github.com/NVIDIA/Model-Optimizer/commit/792806f00e685f31631ccaad3c95d3d72910d855) | [#803](https://github.com/NVIDIA/Model-Optimizer/pull/803) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `docs` | Add Security considerations in docs |
 | 2026-01-21 | [563a1e09](https://github.com/NVIDIA/Model-Optimizer/commit/563a1e09c60f7bbcb8af07f0ed39ea400ac998c9) | [#720](https://github.com/NVIDIA/Model-Optimizer/pull/720) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Add NAS to Minitron pruning for parameter based auto-pruning |
 | 2026-01-21 | [668b8a19](https://github.com/NVIDIA/Model-Optimizer/commit/668b8a19e8690aad0353255f91008bad19555835) | [#781](https://github.com/NVIDIA/Model-Optimizer/pull/781) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | \[1/3\] Diffusion ckpt export for NVFP4 & FP8 |
 | 2026-01-21 | [945ee02f](https://github.com/NVIDIA/Model-Optimizer/commit/945ee02f8dce07a37e87518422ff4ce60c6afa07) | [#804](https://github.com/NVIDIA/Model-Optimizer/pull/804) | [@jingyu-ml](https://github.com/jingyu-ml) | `quantization` `torch` | \[1/3\] Add the fastvideo support |
 | 2026-01-20 | [b0e7d9fd](https://github.com/NVIDIA/Model-Optimizer/commit/b0e7d9fd96c3ac706d5251808021359abe853da4) | [#790](https://github.com/NVIDIA/Model-Optimizer/pull/790) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `torch` | Define kv cache scaling factor as amax / 448 |
 | 2026-01-20 | [21a40103](https://github.com/NVIDIA/Model-Optimizer/commit/21a4010348ac46240ac456e1c7ea5cc962baec85) | [#666](https://github.com/NVIDIA/Model-Optimizer/pull/666) | [@soodoshll](https://github.com/soodoshll) | `quantization` `torch` | Add Quantizers for Qwen3VLMoeTextDecoderLayer |
-| 2026-01-19 | [1cc8e6bf](https://github.com/NVIDIA/Model-Optimizer/commit/1cc8e6bf3917f61500e81d4ded0af5d5a00e2e25) | [#794](https://github.com/NVIDIA/Model-Optimizer/pull/794) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `quantization` | \[5676209\] Fix duplicated calib data |
 | 2026-01-18 | [38fb1203](https://github.com/NVIDIA/Model-Optimizer/commit/38fb12037d05d6f09de91e41cd15d4c8f93c7023) | [#793](https://github.com/NVIDIA/Model-Optimizer/pull/793) | [@meenchen](https://github.com/meenchen) | `export` `torch` | \[NVBug 5702186\] Fix awq model export for Gemma3 |
-| 2026-01-18 | [391f6cb0](https://github.com/NVIDIA/Model-Optimizer/commit/391f6cb004edd5eb6ac7ae9fa5a92248ea67d4d0) | [#719](https://github.com/NVIDIA/Model-Optimizer/pull/719) | [@galagam](https://github.com/galagam) | `docs` `infra` `onnx` `tests` | \[5750013\]\[5591945\]\[5360813\]: AutoCast standalone implementation for type inference |
-| 2026-01-16 | [c1956b8e](https://github.com/NVIDIA/Model-Optimizer/commit/c1956b8e2b69dc0864beb58c8c4b03c1e36059ec) | [#789](https://github.com/NVIDIA/Model-Optimizer/pull/789) | [@gcunhase](https://github.com/gcunhase) | `onnx` | \[5763424\]\[ONNX\]\[Autocast\] Fix ConstantOfShape layer output precision |
 | 2026-01-15 | [0f05d676](https://github.com/NVIDIA/Model-Optimizer/commit/0f05d676d36eb7fc2bb5a5d67f44b6b9e10ce7ad) | [#753](https://github.com/NVIDIA/Model-Optimizer/pull/753) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `quantization` `torch` | Remove quantization_config in config.json from original deepseek models |
-| 2026-01-15 | [4c30bd5d](https://github.com/NVIDIA/Model-Optimizer/commit/4c30bd5d73efb2d92c1f33c6d9fbeea41fa7d165) | [#784](https://github.com/NVIDIA/Model-Optimizer/pull/784) | [@LianaMikael](https://github.com/LianaMikael) | `infra` | Add NeMo Conversion Scripts to Puzzletron |
 | 2026-01-15 | [849a3501](https://github.com/NVIDIA/Model-Optimizer/commit/849a3501c50cd1cde53d13ff342839e990208fe3) | [#787](https://github.com/NVIDIA/Model-Optimizer/pull/787) | [@ChenhanYu](https://github.com/ChenhanYu) | `export` `torch` | Change trust_remote_code default to False for security reason |
 | 2026-01-15 | [e6e4efd6](https://github.com/NVIDIA/Model-Optimizer/commit/e6e4efd61efcc87de10a6a72274e2017cbc13438) | [#783](https://github.com/NVIDIA/Model-Optimizer/pull/783) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `eval` `example` `export` `quantization` `torch` | \[0.5/3\] Diffusion ckpt export for NVFP4 & FP8 |
-| 2026-01-14 | [951c6aad](https://github.com/NVIDIA/Model-Optimizer/commit/951c6aad5d4dbf38c4e5bfb40441313922437f6f) | [#757](https://github.com/NVIDIA/Model-Optimizer/pull/757) | [@gcunhase](https://github.com/gcunhase) | `onnx` `quantization` `tests` | \[5763448\]\[ONNX\]\[Autocast\] Fix Resize input type mismatch error |
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 | 2026-01-14 | [db76b1ed](https://github.com/NVIDIA/Model-Optimizer/commit/db76b1edebcefc5f6b7762a4049438a95e9aadb9) | [#721](https://github.com/NVIDIA/Model-Optimizer/pull/721) | [@meenchen](https://github.com/meenchen) | `export` `torch` | Fix AWQ export when quantization of some layers are disabled |
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 | 2026-01-14 | [406c18ce](https://github.com/NVIDIA/Model-Optimizer/commit/406c18ce3b92fc1aa12b80b285c9ccc028d05f5c) | [#778](https://github.com/NVIDIA/Model-Optimizer/pull/778) | [@ChenhanYu](https://github.com/ChenhanYu) | `export` `torch` | chg: passing through trust_remote_code |
 | 2026-01-13 | [b813ab54](https://github.com/NVIDIA/Model-Optimizer/commit/b813ab548b97db9c0780459f1fe743bb88031d99) | [#747](https://github.com/NVIDIA/Model-Optimizer/pull/747) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Top-K KL Divergence loss |
-| 2026-01-13 | [5e0d3655](https://github.com/NVIDIA/Model-Optimizer/commit/5e0d36551a414c1ac87f2ba44adb54809f089fca) | [#767](https://github.com/NVIDIA/Model-Optimizer/pull/767) | [@gcunhase](https://github.com/gcunhase) | `onnx` | \[5796745\]\[ONNX\]\[Autocast\] Fix opset check for model with custom ops |
-| 2026-01-13 | [0eecfc6e](https://github.com/NVIDIA/Model-Optimizer/commit/0eecfc6e9fb3939b6cb73a36fefbef56a643f963) | [#772](https://github.com/NVIDIA/Model-Optimizer/pull/772) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `tests` | Fix test assertions for 2-gpu |
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
-| 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
-| 2025-12-30 | [883c8731](https://github.com/NVIDIA/Model-Optimizer/commit/883c8731aa000e0dcdf719fe252a431c2eebe2b2) | [#728](https://github.com/NVIDIA/Model-Optimizer/pull/728) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new cases for newly added checkpoints on HF |
-| 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
-<!-- CHANGELOG_TABLE_END -->
 
-## Usage
-
-### Automatic (GitHub Action)
-
-The workflow `.github/workflows/classify_commits.yml` runs daily at 08:00 UTC.
-It can also be triggered manually from the **Actions** tab with an optional
-`lookback_days` parameter.
-
-### Manual
-
-```bash
-export GITHUB_TOKEN="ghp_..."
-python scripts/classify_mr.py --lookback-days 30
-```
-
-Use `--dry-run` to preview without writing files.
+---
+**Total: 105 PRs**

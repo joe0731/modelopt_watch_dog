@@ -1,0 +1,20 @@
+# `diffusers` — diffusion model optimization (Stable Diffusion, FLUX, etc.)
+
+> All merged PRs in [NVIDIA/Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer) that touched **diffusers** related code.
+
+| Date | Commit | PR | Author | All Tags | Description |
+|------|--------|-------|--------|----------|-------------|
+| 2026-03-06 | [37d3f10c](https://github.com/NVIDIA/Model-Optimizer/commit/37d3f10cbd0676ec31e15fa42807c2bdbc8e9b4e) | [#972](https://github.com/NVIDIA/Model-Optimizer/pull/972) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | To support LTX2 ComfyUI format |
+| 2026-03-06 | [e2a4a8bf](https://github.com/NVIDIA/Model-Optimizer/commit/e2a4a8bf682bf3ddb30a64363a791650b9e4f11f) | [#984](https://github.com/NVIDIA/Model-Optimizer/pull/984) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `tests` `torch` | Remove unused diffusers/cache_diffusion/pipeline and cuda-python dependency |
+| 2026-03-06 | [1ccd945a](https://github.com/NVIDIA/Model-Optimizer/commit/1ccd945a5159a7e37a84ecd004daf2b52908c3ba) | [#996](https://github.com/NVIDIA/Model-Optimizer/pull/996) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `example` `infra` `tests` `torch` | Remove unused diffusers/cache_diffusion/pipeline and cuda-python dependency |
+| 2026-03-02 | [82f1d216](https://github.com/NVIDIA/Model-Optimizer/commit/82f1d216d1a9022e60b8e1143a77f36c00b885a4) | [#935](https://github.com/NVIDIA/Model-Optimizer/pull/935) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `infra` `onnx` `quantization` `sparsity` `torch` `windows` | Add Security and IP related contributing guide and configure coderabbit to catch such issues |
+| 2026-02-28 | [2905cb0f](https://github.com/NVIDIA/Model-Optimizer/commit/2905cb0f2e2bd46e4327e125978fc22852707586) | [#937](https://github.com/NVIDIA/Model-Optimizer/pull/937) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Updated the diffusion config issue and more test cases |
+| 2026-02-24 | [d78797b4](https://github.com/NVIDIA/Model-Optimizer/commit/d78797b466bb21028d267b4ef2ac4bc7bbadc511) | [#926](https://github.com/NVIDIA/Model-Optimizer/pull/926) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | Update the LTX2 API calls during the calibration |
+| 2026-02-14 | [ca1f9687](https://github.com/NVIDIA/Model-Optimizer/commit/ca1f9687bd741a0c73791c093692eff0f95d2d46) | [#892](https://github.com/NVIDIA/Model-Optimizer/pull/892) | [@mxinO](https://github.com/mxinO) | `diffusers` `distillation` `example` `infra` `torch` | \[OMNIML-3505\] LTX-2 Distillation Trainer |
+| 2026-02-11 | [10efcb65](https://github.com/NVIDIA/Model-Optimizer/commit/10efcb65f69df2742aea153c8b457a88b768c404) | [#855](https://github.com/NVIDIA/Model-Optimizer/pull/855) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `docs` `example` `infra` `quantization` `torch` | \[3.1/4\] Diffusion Quantized ckpt export - WAN 2.2 14B |
+| 2026-02-04 | [2e43c806](https://github.com/NVIDIA/Model-Optimizer/commit/2e43c806097f332eba20147fd4d5587ec7da80de) | [#810](https://github.com/NVIDIA/Model-Optimizer/pull/810) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `torch` | \[2/4\] Diffusion Quantized ckpt export |
+| 2026-01-21 | [668b8a19](https://github.com/NVIDIA/Model-Optimizer/commit/668b8a19e8690aad0353255f91008bad19555835) | [#781](https://github.com/NVIDIA/Model-Optimizer/pull/781) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | \[1/3\] Diffusion ckpt export for NVFP4 & FP8 |
+| 2026-01-15 | [e6e4efd6](https://github.com/NVIDIA/Model-Optimizer/commit/e6e4efd61efcc87de10a6a72274e2017cbc13438) | [#783](https://github.com/NVIDIA/Model-Optimizer/pull/783) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `eval` `example` `export` `quantization` `torch` | \[0.5/3\] Diffusion ckpt export for NVFP4 & FP8 |
+
+---
+**Total: 11 PRs**

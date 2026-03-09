@@ -1,0 +1,1877 @@
+[
+  {
+    "date": "2026-03-06",
+    "commit": "42482b1b0f3993253369d868f54b579c69108b1e",
+    "pr_number": 973,
+    "author": "cjluo-nv",
+    "title": "Add nvfp4_omlp_only config and simplify the config.py",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "commit": "296a865c70cd4373f0ec6585354c563b8b9d61b6",
+    "pr_number": 933,
+    "author": "ynankani",
+    "title": "sample QAD example script",
+    "tags": [
+      "example",
+      "export",
+      "torch",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "commit": "37d3f10cbd0676ec31e15fa42807c2bdbc8e9b4e",
+    "pr_number": 972,
+    "author": "jingyu-ml",
+    "title": "To support LTX2 ComfyUI format",
+    "tags": [
+      "diffusers",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "commit": "0dfefa146c79501f1866a90151746cacd9055411",
+    "pr_number": 980,
+    "author": "chochowski",
+    "title": "fix eval by adding patched lm_eval_anymodel from_string",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "commit": "025fc4bbd1d819e452f01b68b82533e5d1b652d1",
+    "pr_number": 991,
+    "author": "chochowski",
+    "title": "Update naming of gpt-oss descriptor/converter, fix pytest for gpt-oss, make pytest run on num_gpus>2",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "commit": "e2a4a8bf682bf3ddb30a64363a791650b9e4f11f",
+    "pr_number": 984,
+    "author": "jingyu-ml",
+    "title": "Remove unused diffusers/cache_diffusion/pipeline and cuda-python dependency",
+    "tags": [
+      "diffusers",
+      "example",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "commit": "1ccd945a5159a7e37a84ecd004daf2b52908c3ba",
+    "pr_number": 996,
+    "author": "kevalmorabia97",
+    "title": "Remove unused diffusers/cache_diffusion/pipeline and cuda-python dependency",
+    "tags": [
+      "diffusers",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "commit": "a007820afa98a6e644e283eaa6ff7a65b9593ed7",
+    "pr_number": 956,
+    "author": "rohansjoshi",
+    "title": "Add CLAUDE.md",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "commit": "be6dfad9201c1a03c9fce301e31a99f13b1a98c4",
+    "pr_number": 978,
+    "author": "willg-nv",
+    "title": "[5951713] Fix benchmark allocation failure",
+    "tags": [
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
+    "date": "2026-03-06",
+    "commit": "22423041f74ee092ac0c3be58ad6aab27441db0f",
+    "pr_number": 940,
+    "author": "meenchen",
+    "title": "API to measure MSE for target quantizers",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-05",
+    "commit": "31f0783e3569702dfee29971bf1d9f7760cf1ef0",
+    "pr_number": 938,
+    "author": "noeyy-mino",
+    "title": "add new cases for ckpts on HF",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-05",
+    "commit": "dd16a96fdac19958bddd7f2d77eda8733e7bcb5e",
+    "pr_number": 965,
+    "author": "skierat",
+    "title": "example demonstrating how to train CosmosReason2 Eagle3",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-04",
+    "commit": "a34d613d3ce9d23258e1853bc7b01824374666b6",
+    "pr_number": 913,
+    "author": "h-guo18",
+    "title": "Feat: Speculatice Decoding export with quantization support",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "quantization",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-04",
+    "commit": "2bab3fa8b0edb0bd3c8bdda702ae2dbef8e748be",
+    "pr_number": 969,
+    "author": "danielkorzekwa",
+    "title": "Dkorzekwa/any model mbridge distillation",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-04",
+    "commit": "e8f9687a608ac290c2590e0775760a1fae5305db",
+    "pr_number": 841,
+    "author": "willg-nv",
+    "title": "Add Automated QDQ placement example - Part 4.1",
+    "tags": [
+      "example",
+      "infra",
+      "onnx"
+    ]
+  },
+  {
+    "date": "2026-03-03",
+    "commit": "edde087bbd89a9c3110d65f6fc89fc6be7cf7b0d",
+    "pr_number": 950,
+    "author": "ChenhanYu",
+    "title": "Adding a special list to handle HF models that require",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-03",
+    "commit": "860d0b4a7010a3a2750265d0571529dfc1f44c7b",
+    "pr_number": 954,
+    "author": "kevalmorabia97",
+    "title": "Merge Linux and Windows Changelog",
+    "tags": [
+      "docs",
+      "example",
+      "infra",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-03-03",
+    "commit": "d780fa593fe2ba593980fa800aff30018066860e",
+    "pr_number": 964,
+    "author": "kevalmorabia97",
+    "title": "Add uv.lock for experimental/dms",
+    "tags": [
+      "experimental"
+    ]
+  },
+  {
+    "date": "2026-03-03",
+    "commit": "a076e6c218ba024323b46cf2b3094fd9f1f67072",
+    "pr_number": 958,
+    "author": "kevalmorabia97",
+    "title": "Make GPU tests >2x faster by reusing spawn processes between tests",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "nas",
+      "pruning",
+      "quantization",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-03",
+    "commit": "78779f4a94e9806c500ae842b7f3c1e9af6bd7d5",
+    "pr_number": 955,
+    "author": "yueshen2016",
+    "title": "[OMNIML-3495] Fix megatron_generate to pass position_ids for MTP model support",
+    "tags": [
+      "core",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-03",
+    "commit": "a4fde491cc6c3c7c747c7c946416ae09d2c6fa5d",
+    "pr_number": 962,
+    "author": "cjluo-nv",
+    "title": "Update MOE block detection logic and enable in huggingface_script.sh",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-02",
+    "commit": "fcdaf6519d63bd2b42775b972527e06d9f1eff55",
+    "pr_number": 924,
+    "author": "sugunav14",
+    "title": "Support decoder block-level sequential calibration",
+    "tags": [
+      "core",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-02",
+    "commit": "94b2cb272dbb19986f7391bac3f3c28341dc2c78",
+    "pr_number": 839,
+    "author": "willg-nv",
+    "title": "Integrate Automated QDQ placement tool - part 3.3",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-02",
+    "commit": "0f668a312f65ce3f29f328331d14ed93dc1e7eb5",
+    "pr_number": 945,
+    "author": "kevalmorabia97",
+    "title": "Replace setup.py with uv-compatible pyproject.toml and add uv.lock for nspect scanning",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-03-02",
+    "commit": "ba29ad706d8c36966d67560aa697b852f89f0e86",
+    "pr_number": 944,
+    "author": "kevalmorabia97",
+    "title": "Enable RTX Pro 6000 Blackwell runners for CI/CD",
+    "tags": [
+      "core",
+      "deploy",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-02",
+    "commit": "f26b9c3a2fcfe7ceb98a16356147a0f9b86ffd2a",
+    "pr_number": 942,
+    "author": "arendu",
+    "title": "skip generate option for large models and mxfp8",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-02",
+    "commit": "82f1d216d1a9022e60b8e1143a77f36c00b885a4",
+    "pr_number": 935,
+    "author": "kevalmorabia97",
+    "title": "Add Security and IP related contributing guide and configure coderabbit to catch such issues",
+    "tags": [
+      "core",
+      "diffusers",
+      "distillation",
+      "docs",
+      "eval",
+      "example",
+      "infra",
+      "onnx",
+      "quantization",
+      "sparsity",
+      "torch",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-02-28",
+    "commit": "6f094d7fa574dc914dbfa77d646d3a51e97819e2",
+    "pr_number": 779,
+    "author": "mxinO",
+    "title": "[For RL] Keep attrs after folding weight and fix empty extra state for Megatron",
+    "tags": [
+      "core",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-28",
+    "commit": "110a44c81e069cdfcc1fb26fd6523861f009c0fd",
+    "pr_number": 911,
+    "author": "ynankani",
+    "title": "Add support for export ComfyUI compatible checkpoint for diffusion  model(e.g., LTX-2)",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-28",
+    "commit": "56e97c809648ed472994518cea7cc28e94567dd0",
+    "pr_number": 865,
+    "author": "sugunav14",
+    "title": "Bug fix 5875873",
+    "tags": [
+      "core",
+      "example",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-28",
+    "commit": "2905cb0f2e2bd46e4327e125978fc22852707586",
+    "pr_number": 937,
+    "author": "jingyu-ml",
+    "title": "Updated the diffusion config issue and more test cases",
+    "tags": [
+      "diffusers",
+      "example",
+      "export",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-27",
+    "commit": "a415667992828b2345f088cd4786ec25781fa264",
+    "pr_number": 897,
+    "author": "Edwardf0t1",
+    "title": "Enable Qwen3.5-MoE PTQ",
+    "tags": [
+      "core",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-27",
+    "commit": "35e60991c788756dd0e777a0b793a95b762033f0",
+    "pr_number": 838,
+    "author": "willg-nv",
+    "title": "Integrate Automated QDQ autotuner - part 3.2",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-02-27",
+    "commit": "2409ac80e7ad069ec2ce5485e2db0c4a9b805f94",
+    "pr_number": 889,
+    "author": "chochowski",
+    "title": "gpt-oss 20b support",
+    "tags": [
+      "infra",
+      "nas",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-27",
+    "commit": "a538f2e256f13c4b7021fc8dcd81354342fa49b9",
+    "pr_number": 923,
+    "author": "rohansjoshi",
+    "title": "Fix skip softmax calibration memory issue",
+    "tags": [
+      "sparsity",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-26",
+    "commit": "6b0ea4d43d657f2d9276403595d915a1660c17fd",
+    "pr_number": 936,
+    "author": "jenchen13",
+    "title": "Fix MOE layer sync test",
+    "tags": [
+      "core",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-26",
+    "commit": "ef5a2dfc5dff78e4d4a2f4c34809a2f5bc208bc6",
+    "pr_number": 851,
+    "author": "michaelfeil",
+    "title": "feat: Baseten contrib third-party-dataset support",
+    "tags": [
+      "core",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-26",
+    "commit": "4a11486f6c9ddf46e60097a38596291587595b97",
+    "pr_number": 922,
+    "author": "yeyu-nvidia",
+    "title": "Enable multinode training for HF speculative decoding",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-26",
+    "commit": "3fe7e65b706e524766f47116d692685b6538b2a0",
+    "pr_number": 928,
+    "author": "gcunhase",
+    "title": "[5615343,5597780,5371126] Upgrade ORT to 1.24",
+    "tags": [
+      "docs",
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-02-26",
+    "commit": "dfe705aab5e66cd20d133a9e87dd0734cef85f1e",
+    "pr_number": 858,
+    "author": "Fridah-nv",
+    "title": "support static NVFP4 HF export",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-26",
+    "commit": "a6cbcbad0a3ecff97d6794dab80c8d8782e96897",
+    "pr_number": 929,
+    "author": "Edwardf0t1",
+    "title": "Support mixed-precision per layer quant config in config.json",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-25",
+    "commit": "e589ac80f66e833e1100ba9acb4b670d43dcfbc4",
+    "pr_number": 837,
+    "author": "willg-nv",
+    "title": "Integrate Automated QDQ benchmark - part 3.1",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-02-25",
+    "commit": "4eacb0da723ab60e0bc4edd28dbf25ad7064be06",
+    "pr_number": 934,
+    "author": "kevalmorabia97",
+    "title": "Add trust_remote_code cli option for mbridge distillation",
+    "tags": [
+      "core",
+      "example",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-24",
+    "commit": "c689ea1176fa1c905ee8fb45e3085cef02dccdec",
+    "pr_number": 927,
+    "author": "kevalmorabia97",
+    "title": "flush print megatron tokenization stats and update readme",
+    "tags": [
+      "core",
+      "example",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-24",
+    "commit": "2802302bf93d7fb0a6d6809d77ed4a1bb99affdc",
+    "pr_number": 875,
+    "author": "IzzyPutterman",
+    "title": "SpecDec Bench: February Update",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-24",
+    "commit": "75b5da9b832f799ebea85c2a5e3be758bf8eb7f8",
+    "pr_number": 925,
+    "author": "h-guo18",
+    "title": "Fix: quant config error on quantized offline eagle",
+    "tags": [
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-24",
+    "commit": "d78797b466bb21028d267b4ef2ac4bc7bbadc511",
+    "pr_number": 926,
+    "author": "jingyu-ml",
+    "title": "Update the LTX2 API calls during the calibration",
+    "tags": [
+      "diffusers",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-24",
+    "commit": "03a1899dda024fa9425118d0711e4ac2b53e0fe2",
+    "pr_number": 910,
+    "author": "cjluo-nv",
+    "title": "Support force tokens to % of total experts during calibration",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-23",
+    "commit": "df47e816a739718d3ed01491ad8db62e770b0cc5",
+    "pr_number": 885,
+    "author": "kinjalpatel27",
+    "title": "Added support to rotate in fp32 (optional)",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-23",
+    "commit": "f78385e70e992775fe7e29e849ccbb3e8bcb1328",
+    "pr_number": 918,
+    "author": "kevalmorabia97",
+    "title": "Improve megatron dataset preprocessing script and update docs",
+    "tags": [
+      "core",
+      "example",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-23",
+    "commit": "52e662dd1de239dccc537d5b41098ad922a00093",
+    "pr_number": 915,
+    "author": "kevalmorabia97",
+    "title": "Fix test_transformers_tp for torch 2.10 env",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-21",
+    "commit": "9e23c6c312b4308fb2ef145311ea2178f32cbbaa",
+    "pr_number": 891,
+    "author": "kevalmorabia97",
+    "title": "Upgrade Dev containers for CICD to latest",
+    "tags": [
+      "core",
+      "docs",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-21",
+    "commit": "70ffb6f87cf03f636e457e20b7d1bdb92ef267f1",
+    "pr_number": 914,
+    "author": "kaix-nv",
+    "title": "Remove test_llama_eval_sparse_attention",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-02-21",
+    "commit": "02fa3623d812dc81af4e180b28af1bd2cd16ec0a",
+    "pr_number": 903,
+    "author": "jenchen13",
+    "title": "Sync MOE layer input quantizer only [OMNIML-3515]",
+    "tags": [
+      "core",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-20",
+    "commit": "adcce614cb8cb610b4d1ae9ba412e7365071a6bc",
+    "pr_number": 788,
+    "author": "Fridah-nv",
+    "title": "add local hessian calibration",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-20",
+    "commit": "7c4c9fdbc99a88ee9bd89085ce5c63c78928ef80",
+    "pr_number": 760,
+    "author": "byte-deve",
+    "title": "Support multiple-batch input for autocast calibration.",
+    "tags": [
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-02-20",
+    "commit": "9975ba10650512f6f9b4787b54efa22ccd29be69",
+    "pr_number": 912,
+    "author": "cjluo-nv",
+    "title": "Fix DeepSeek PTQ script",
+    "tags": [
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-19",
+    "commit": "eb99488da1a5992033f6fe5ad948324e83691764",
+    "pr_number": 907,
+    "author": "h-guo18",
+    "title": "Fix: restore requires_grad in transformers5 reloading",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-19",
+    "commit": "c4b662fbc8bd793ddeae42ebfce622393b1bfe94",
+    "pr_number": 906,
+    "author": "realAsma",
+    "title": "[Bug fix] Fake quantized model save after HF accelerate hooks are added",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-19",
+    "commit": "ac7c985d963b43ab2f10ac9457090e77ecd833a2",
+    "pr_number": 900,
+    "author": "cjluo-nv",
+    "title": "[NVBUG: 5804406] Auto detect MOE layers",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-18",
+    "commit": "9e38041d346d8ee95bc17825ec59f7b91a3e59fc",
+    "pr_number": 538,
+    "author": "kaix-nv",
+    "title": "[OMNIML-2850] [3/n] Adds sparse attention calibration",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-18",
+    "commit": "b8a458670214227371c338c1785f383b7ecd3afe",
+    "pr_number": 668,
+    "author": "h-guo18",
+    "title": "Refactor: Eagle data loading",
+    "tags": [
+      "core",
+      "example",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-18",
+    "commit": "3dd52bf106568c4195ba4fd0ec83e2d106745f53",
+    "pr_number": 901,
+    "author": "jingyu-ml",
+    "title": "Diffusion export bug fixed for model_index.json",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-17",
+    "commit": "f69fc7a901cd9ce84f58e231221d4c604d225c7f",
+    "pr_number": 894,
+    "author": "j-rausch",
+    "title": "Add support and documentation for AnyModel checkpoints with Nemo evaluator",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-02-17",
+    "commit": "976350598149274bcb87d418d25390606ac8ebe6",
+    "pr_number": 890,
+    "author": "galagam",
+    "title": "[fix][5889686] AutoCast: Fix logger",
+    "tags": [
+      "infra",
+      "onnx"
+    ]
+  },
+  {
+    "date": "2026-02-17",
+    "commit": "22c6070c23c21628402781224a12791236d1e170",
+    "pr_number": 899,
+    "author": "j-rausch",
+    "title": "Update license of lm_eval_anymodel.py",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-02-17",
+    "commit": "590f9fc662202b0ec09a24886d42b004fdb97b39",
+    "pr_number": 882,
+    "author": "jenchen13",
+    "title": "Mamba MOE Quant Configs + Fix Export Bug",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-17",
+    "commit": "3801923e9d7a94a5f37c952479606cbfb6c53fdb",
+    "pr_number": 817,
+    "author": "cjluo-nv",
+    "title": "Support MiniMax M2.1 (FP8 checkpoint)",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-17",
+    "commit": "e66824e3e8b4da594fee046c661edc64466ef7e0",
+    "pr_number": 898,
+    "author": "j-rausch",
+    "title": "Add support for AnyModel evaluation via lm-eval",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-02-14",
+    "commit": "5c4ef8e9a2a5e73692352e1ce4fb33df76454b11",
+    "pr_number": 884,
+    "author": "yueshen2016",
+    "title": "[OMNIML-3232] Support full TE spec for NemotronH HF-to-Megatron import",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-14",
+    "commit": "ca1f9687bd741a0c73791c093692eff0f95d2d46",
+    "pr_number": 892,
+    "author": "mxinO",
+    "title": "[OMNIML-3505] LTX-2 Distillation Trainer",
+    "tags": [
+      "diffusers",
+      "distillation",
+      "example",
+      "infra",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-13",
+    "commit": "95511a0bc9ae7b56a276e08d0f1183fab4c7e3ee",
+    "pr_number": 786,
+    "author": "Edwardf0t1",
+    "title": "Add Nemotron parse PTQ support",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-13",
+    "commit": "b43ae641a46c6c202a43e24e86d1edb449992f3e",
+    "pr_number": 887,
+    "author": "kevalmorabia97",
+    "title": "MBridge pruning minor fix for saving pruned NemotronH",
+    "tags": [
+      "core",
+      "example",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-13",
+    "commit": "ae69d5d9b9ca46e94a7ade148ddbbd3ffff4c8dd",
+    "pr_number": 888,
+    "author": "kevalmorabia97",
+    "title": "Separate CI job for Megatron GPU tests",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-12",
+    "commit": "1ebb6b3fe1a9b75440df1d442364b3484f8bd043",
+    "pr_number": 845,
+    "author": "willg-nv",
+    "title": "Integrate Automated QDQ placement tool - part 2.2",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-02-12",
+    "commit": "3e95d9fd770be3a24b322b5fb3e498473d3e76f4",
+    "pr_number": 846,
+    "author": "willg-nv",
+    "title": "Integrate Automated QDQ placement tool - part 2.3",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-02-12",
+    "commit": "f9d9a71de241e15a7ebe3b75db77a1ffe427f2ba",
+    "pr_number": 881,
+    "author": "ChenhanYu",
+    "title": "Chenhany/megatron export per layer",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-11",
+    "commit": "10efcb65f69df2742aea153c8b457a88b768c404",
+    "pr_number": 855,
+    "author": "jingyu-ml",
+    "title": "[3.1/4] Diffusion Quantized ckpt export - WAN 2.2 14B",
+    "tags": [
+      "diffusers",
+      "docs",
+      "example",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-11",
+    "commit": "eb3e6edb504eeddadc8763f5a12019827cbe06da",
+    "pr_number": 878,
+    "author": "Fridah-nv",
+    "title": "[fix][5875912] Fix autoquant-autodeploy example",
+    "tags": [
+      "deploy",
+      "example"
+    ]
+  },
+  {
+    "date": "2026-02-11",
+    "commit": "8d67cb08d5ca42049ffc52512cb4d3244a9c459c",
+    "pr_number": 861,
+    "author": "kevalmorabia97",
+    "title": "Add Megatron-Bridge recipe-free distillation example script",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-10",
+    "commit": "549cea8c980dc413aa45cd6675cf2d23a9db1c2e",
+    "pr_number": 877,
+    "author": "kstaniszewsknv",
+    "title": "Add Dynamic Memory Sparsification (DMS) training and inference implementation",
+    "tags": [
+      "experimental",
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-02-09",
+    "commit": "24e358789dd2e484fd602aaf387fb1d30051ebc1",
+    "pr_number": 859,
+    "author": "gcunhase",
+    "title": "[5868890][ONNX][Autocast] Fix: failure when checking input shape with unknown dimension",
+    "tags": [
+      "onnx"
+    ]
+  },
+  {
+    "date": "2026-02-09",
+    "commit": "a8f5314c93d50edc3eea3affe6a3863eb21aaea4",
+    "pr_number": 863,
+    "author": "yeyu-nvidia",
+    "title": "fix the path change in torch v2.10 for spec dec",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-09",
+    "commit": "5e43b2a5f586c2b34824c344a8b681e6c50378c4",
+    "pr_number": 860,
+    "author": "cjluo-nv",
+    "title": "Support Qwen3 Next MTP load and export",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-07",
+    "commit": "e53ca61b71ee0e6d6fe30afd0cc944c913561a46",
+    "pr_number": 867,
+    "author": "kaix-nv",
+    "title": "Add contribution guidelines for experimental features",
+    "tags": [
+      "experimental"
+    ]
+  },
+  {
+    "date": "2026-02-06",
+    "commit": "0225e5273fe713babb86b8ea4a347ec020cb9605",
+    "pr_number": 844,
+    "author": "willg-nv",
+    "title": "Integrate Automated QDQ placement tool - part 2.1",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-02-06",
+    "commit": "3393e981e653b2cc52de1d4997621b745d46745d",
+    "pr_number": 833,
+    "author": "yueshen2016",
+    "title": "Fix TEGroupedLinear quantization for expert parallelism (EP > 1)",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-06",
+    "commit": "ac30686c82c5fea46d288550c2991e9f483d99f9",
+    "pr_number": 849,
+    "author": "realAsma",
+    "title": "Track global_amax for weight FP4 MSE sweep; Refactor to NVFP4StaticQantizer, NVFP4MSECalibrator",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-06",
+    "commit": "62c2799be276e62407b68595e3545ab47d9dc97d",
+    "pr_number": 862,
+    "author": "ChenhanYu",
+    "title": "Fix Sequential MLP amax sync deadlock ",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-04",
+    "commit": "e247f5d0e4fd0196a098c1c1266cc5c8eea0585a",
+    "pr_number": 831,
+    "author": "realAsma",
+    "title": "Fixes for Megatron Expert Parallel, GroupedMLP and SequentialMLP",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-04",
+    "commit": "87237e7dd1ec2988c3f368ebb935491cc28c8227",
+    "pr_number": 824,
+    "author": "jingyu-ml",
+    "title": "Update on the QuantModule & DynamicModule to accept external forward",
+    "tags": [
+      "core",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-04",
+    "commit": "2e43c806097f332eba20147fd4d5587ec7da80de",
+    "pr_number": 810,
+    "author": "jingyu-ml",
+    "title": "[2/4] Diffusion Quantized ckpt export",
+    "tags": [
+      "diffusers",
+      "example",
+      "export",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-04",
+    "commit": "8a8c250d12f33abb6a741dc5663fede80d021f22",
+    "pr_number": 830,
+    "author": "jenchen13",
+    "title": "Latent MOE & Repeated MTP support for NemotronH; fix KV cache quant export",
+    "tags": [
+      "export",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-04",
+    "commit": "944dd1a284b8ea174b0172bf00f19f9ca67fe103",
+    "pr_number": 854,
+    "author": "kevalmorabia97",
+    "title": "Move parallel_state init and warnings to Quant DynamicModule + MBridge pruning doc update",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-04",
+    "commit": "452c5a09b03f8db34a39151aae4f7a4b01efd9cd",
+    "pr_number": 792,
+    "author": "Edwardf0t1",
+    "title": "GLM-4.7 MTP support",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-04",
+    "commit": "9de9b8f20c429902cfe769c00c486da346751e7b",
+    "pr_number": 827,
+    "author": "noeyy-mino",
+    "title": "Noeyy/add test cases for the newly added checkpoints on HF",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-02-03",
+    "commit": "23278a44dbcea6281b4e297b2f761628465f3768",
+    "pr_number": 701,
+    "author": "willg-nv",
+    "title": "Integrate Automated QDQ placement tool - Part 1",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-02-03",
+    "commit": "fb5923c89e745b54d9d63693f2f492aed6608c1d",
+    "pr_number": 800,
+    "author": "kevalmorabia97",
+    "title": "Add Megatron-Bridge pruning example scripts",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "pruning",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-02-02",
+    "commit": "fc6a211b4af7ef51a2db4f1fbcb837753da0f65f",
+    "pr_number": 811,
+    "author": "hthadicherla",
+    "title": "Added column-major storage of weights and scales in INT4 quantization for model load time improvement in TRT-RTX",
+    "tags": [
+      "example",
+      "onnx",
+      "quantization",
+      "tests",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-02-02",
+    "commit": "2a467531f25a4389f8bec0c8654706aa8ccffccf",
+    "pr_number": 802,
+    "author": "AAnoosheh",
+    "title": "Layerwise KD mode",
+    "tags": [
+      "distillation",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-30",
+    "commit": "02c5f292f0b707c3cb98f45a7f8dcd2e14fac8a9",
+    "pr_number": 555,
+    "author": "sugunav14",
+    "title": "GPTQ Lite implementation",
+    "tags": [
+      "core",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-29",
+    "commit": "770962b32c3ef0520761fc255ff9d32ff0fcf690",
+    "pr_number": 829,
+    "author": "AAnoosheh",
+    "title": "Rename MLM teacher arg",
+    "tags": [
+      "distillation",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-29",
+    "commit": "81b67ddf06f22e2af45835dd3458751a854e392e",
+    "pr_number": 818,
+    "author": "yeyu-nvidia",
+    "title": "Context parallelism for Megatron core models",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-29",
+    "commit": "58abdc2f38142f8049f09e4f7e332cbec5a50963",
+    "pr_number": 582,
+    "author": "binghanc",
+    "title": "Support MLA nvfp4 quant for Deepseek for max perf",
+    "tags": [
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-28",
+    "commit": "4a848c4f52ef897d94a39e7bd13ceb0f749bd8e6",
+    "pr_number": 812,
+    "author": "vishalpandya1990",
+    "title": "Modelopt-windows documentation update",
+    "tags": [
+      "docs",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "torch",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-01-28",
+    "commit": "4227bb7366210548cf2ebaf0032b9ab612454c29",
+    "pr_number": 736,
+    "author": "danisereb",
+    "title": "Add support for MXFP8 PTQ",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-28",
+    "commit": "9857e0a48c6f7b2874c3ddf19ad5c9c8e94c449f",
+    "pr_number": 823,
+    "author": "ChenhanYu",
+    "title": "Nenotrom Nano PTQ fix where MoELayer forward has additional named arguments",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-27",
+    "commit": "1c7a928df8731392b73ed33df4b427b4aa677f99",
+    "pr_number": 819,
+    "author": "kevalmorabia97",
+    "title": "Change cnn_dailymail to abisee/cnn_dailymail",
+    "tags": [
+      "core",
+      "example",
+      "sparsity",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-27",
+    "commit": "2c73de0405892b2b55ffd59378840926e1eb9a4e",
+    "pr_number": 809,
+    "author": "galagam",
+    "title": "[5525939] Allow user to select target opset in MOQ",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-01-26",
+    "commit": "8c36f5a2f7cede90f2ae1a511bfab3f203a06611",
+    "pr_number": 815,
+    "author": "gcunhase",
+    "title": "[5676209][ONNX][Autocast] Add support for single `npz` file with multiple samples",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
+    "date": "2026-01-26",
+    "commit": "38403095c4a9829b14e0ce45c9b067c16a502b46",
+    "pr_number": 731,
+    "author": "galagam",
+    "title": "[5725362] AutoCast Fixes for models with external data",
+    "tags": [
+      "deploy",
+      "infra",
+      "onnx",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-26",
+    "commit": "aafd3883942a564f1ac08a1e5f363abd61d383cf",
+    "pr_number": 758,
+    "author": "Fridah-nv",
+    "title": "add FP8 sweep option for static NVFP4 MSE",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-26",
+    "commit": "0ebcd708787c22e54226fe613f5370cdd554dc22",
+    "pr_number": 755,
+    "author": "Edwardf0t1",
+    "title": "Support VLM calibration with image-text data",
+    "tags": [
+      "core",
+      "eval",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-25",
+    "commit": "5cc2a5451984ba0f1225153c7df68746313118f5",
+    "pr_number": 762,
+    "author": "ynankani",
+    "title": "Ynankani/update windows benchmark md",
+    "tags": [
+      "example",
+      "onnx",
+      "quantization",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-01-24",
+    "commit": "3036a9ea9fa45da4da53cd8bedba8ffd42097db0",
+    "pr_number": 745,
+    "author": "h-guo18",
+    "title": "Feat: Context Parallel for Eagle3 Training",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-23",
+    "commit": "2a086220591b18e3d98c25d5e614bdd3019fa2fa",
+    "pr_number": 808,
+    "author": "ChenhanYu",
+    "title": "Fix moe amax remedy for dsr1 and remove global barrier in quantization megatron plugins",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-23",
+    "commit": "4f4558adbbe93ed0b14968301641c2346d47fcdc",
+    "pr_number": 785,
+    "author": "Edwardf0t1",
+    "title": "Fix a nvfp4 weight amax attribute issue during export",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-23",
+    "commit": "04165ace5992cc791099077ba7eade69be919628",
+    "pr_number": 814,
+    "author": "realAsma",
+    "title": "[Minor] Force 'fuse_wgrad_accumulation' to false for TE GroupedLinear",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-23",
+    "commit": "044c4bc4eb76afb4de6026864f46d68606d569c5",
+    "pr_number": 773,
+    "author": "yueshen2016",
+    "title": "Support megatron generate for vlm",
+    "tags": [
+      "core",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-22",
+    "commit": "b44c60ad345e988b242f89fb09dbf4396a6ae000",
+    "pr_number": 754,
+    "author": "sychen52",
+    "title": "Svdquant huggingface checkpoint export support",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-21",
+    "commit": "615f99e746273c36e8ab3e3ace043da8693b336a",
+    "pr_number": 669,
+    "author": "cjluo-nv",
+    "title": "Support KIMI K2 Thinking int4 checkpoint PTQ",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-21",
+    "commit": "67576d20baf4a891e356d1cae8ae79a2c1a05df4",
+    "pr_number": 801,
+    "author": "hthadicherla",
+    "title": "Revert onnxruntime-gpu version to 1.22.0 for Windows",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-01-21",
+    "commit": "792806f00e685f31631ccaad3c95d3d72910d855",
+    "pr_number": 803,
+    "author": "kevalmorabia97",
+    "title": "Add Security considerations in docs",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "date": "2026-01-21",
+    "commit": "563a1e09c60f7bbcb8af07f0ed39ea400ac998c9",
+    "pr_number": 720,
+    "author": "kevalmorabia97",
+    "title": "Add NAS to Minitron pruning for parameter based auto-pruning",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "nas",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-21",
+    "commit": "668b8a19e8690aad0353255f91008bad19555835",
+    "pr_number": 781,
+    "author": "jingyu-ml",
+    "title": "[1/3] Diffusion ckpt export for NVFP4 & FP8",
+    "tags": [
+      "diffusers",
+      "example",
+      "export",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-21",
+    "commit": "945ee02f8dce07a37e87518422ff4ce60c6afa07",
+    "pr_number": 804,
+    "author": "jingyu-ml",
+    "title": "[1/3] Add the fastvideo support",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-20",
+    "commit": "b0e7d9fd96c3ac706d5251808021359abe853da4",
+    "pr_number": 790,
+    "author": "cjluo-nv",
+    "title": "Define kv cache scaling factor as amax / 448",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-20",
+    "commit": "21a4010348ac46240ac456e1c7ea5cc962baec85",
+    "pr_number": 666,
+    "author": "soodoshll",
+    "title": "Add Quantizers for Qwen3VLMoeTextDecoderLayer",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-19",
+    "commit": "1cc8e6bf3917f61500e81d4ded0af5d5a00e2e25",
+    "pr_number": 794,
+    "author": "gcunhase",
+    "title": "[5676209] Fix duplicated calib data",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
+    "date": "2026-01-18",
+    "commit": "38fb12037d05d6f09de91e41cd15d4c8f93c7023",
+    "pr_number": 793,
+    "author": "meenchen",
+    "title": "[NVBug 5702186] Fix awq model export for Gemma3",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-18",
+    "commit": "391f6cb004edd5eb6ac7ae9fa5a92248ea67d4d0",
+    "pr_number": 719,
+    "author": "galagam",
+    "title": "[5750013][5591945][5360813]: AutoCast standalone implementation for type inference",
+    "tags": [
+      "docs",
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-01-16",
+    "commit": "c1956b8e2b69dc0864beb58c8c4b03c1e36059ec",
+    "pr_number": 789,
+    "author": "gcunhase",
+    "title": "[5763424][ONNX][Autocast] Fix ConstantOfShape layer output precision",
+    "tags": [
+      "onnx"
+    ]
+  },
+  {
+    "date": "2026-01-15",
+    "commit": "0f05d676d36eb7fc2bb5a5d67f44b6b9e10ce7ad",
+    "pr_number": 753,
+    "author": "Edwardf0t1",
+    "title": "Remove quantization_config in config.json from original deepseek models",
+    "tags": [
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-15",
+    "commit": "4c30bd5d73efb2d92c1f33c6d9fbeea41fa7d165",
+    "pr_number": 784,
+    "author": "LianaMikael",
+    "title": "Add NeMo Conversion Scripts to Puzzletron",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-01-15",
+    "commit": "849a3501c50cd1cde53d13ff342839e990208fe3",
+    "pr_number": 787,
+    "author": "ChenhanYu",
+    "title": "Change trust_remote_code default to False for security reason",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-15",
+    "commit": "e6e4efd61efcc87de10a6a72274e2017cbc13438",
+    "pr_number": 783,
+    "author": "jingyu-ml",
+    "title": "[0.5/3] Diffusion ckpt export for NVFP4 & FP8",
+    "tags": [
+      "diffusers",
+      "eval",
+      "example",
+      "export",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-14",
+    "commit": "951c6aad5d4dbf38c4e5bfb40441313922437f6f",
+    "pr_number": 757,
+    "author": "gcunhase",
+    "title": "[5763448][ONNX][Autocast] Fix Resize input type mismatch error",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-01-14",
+    "commit": "43b3cfa0205b2da2f590ec26048473f9c9120168",
+    "pr_number": 776,
+    "author": "kevalmorabia97",
+    "title": "Rename compress to puzzletron",
+    "tags": [
+      "example",
+      "infra",
+      "nas",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-14",
+    "commit": "db76b1edebcefc5f6b7762a4049438a95e9aadb9",
+    "pr_number": 721,
+    "author": "meenchen",
+    "title": "Fix AWQ export when quantization of some layers are disabled",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-14",
+    "commit": "60384517799771989f29b910701c22c357f1876a",
+    "pr_number": 749,
+    "author": "meenchen",
+    "title": "Fix Qwen3 recipe and update autoquant example cmd",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-14",
+    "commit": "406c18ce3b92fc1aa12b80b285c9ccc028d05f5c",
+    "pr_number": 778,
+    "author": "ChenhanYu",
+    "title": "chg: passing through trust_remote_code",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-13",
+    "commit": "b813ab548b97db9c0780459f1fe743bb88031d99",
+    "pr_number": 747,
+    "author": "AAnoosheh",
+    "title": "Top-K KL Divergence loss",
+    "tags": [
+      "distillation",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-13",
+    "commit": "5e0d36551a414c1ac87f2ba44adb54809f089fca",
+    "pr_number": 767,
+    "author": "gcunhase",
+    "title": "[5796745][ONNX][Autocast] Fix opset check for model with custom ops",
+    "tags": [
+      "onnx"
+    ]
+  },
+  {
+    "date": "2026-01-13",
+    "commit": "0eecfc6e9fb3939b6cb73a36fefbef56a643f963",
+    "pr_number": 772,
+    "author": "kevalmorabia97",
+    "title": "Fix test assertions for 2-gpu",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-01-13",
+    "commit": "90fa48ce143c280b5429020033d239665039a6b4",
+    "pr_number": 774,
+    "author": "yeyu-nvidia",
+    "title": "remove duplicated RMSNorm and use LlamaRMSNorm from transformers",
+    "tags": [
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-13",
+    "commit": "9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d",
+    "pr_number": 626,
+    "author": "kevalmorabia97",
+    "title": "[1/2] Address security concerns in code",
+    "tags": [
+      "core",
+      "docs",
+      "example",
+      "export",
+      "onnx",
+      "quantization",
+      "sparsity",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-01-13",
+    "commit": "b4c77c0d9b79a2ffdae554720ab70aa8d428aab5",
+    "pr_number": 777,
+    "author": "ajrasane",
+    "title": "[NVBUG 5801937] Disable dq_only by default",
+    "tags": [
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
+    "date": "2026-01-13",
+    "commit": "18d9b1eea40465f73760db3b1a37cd210d553d40",
+    "pr_number": 613,
+    "author": "Fridah-nv",
+    "title": "Add static per block MSE for NVFP4 weight",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2025-12-30",
+    "commit": "883c8731aa000e0dcdf719fe252a431c2eebe2b2",
+    "pr_number": 728,
+    "author": "noeyy-mino",
+    "title": "Noeyy/add new cases for newly added checkpoints on HF",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2025-12-10",
+    "commit": "c77eebcaccaf3b603f03b7900a972a57249e2e17",
+    "pr_number": 650,
+    "author": "noeyy-mino",
+    "title": "Noeyy/add new ckpts test cases",
+    "tags": [
+      "tests"
+    ]
+  }
+]
