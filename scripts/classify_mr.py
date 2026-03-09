@@ -29,6 +29,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT_DIR = SCRIPT_DIR.parent
 CONFIG_PATH = ROOT_DIR / "config" / "directory_tags.json"
 STATE_PATH = ROOT_DIR / "data" / "state.json"
+CHANGELOG_PATH = ROOT_DIR / "data" / "changelog.json"
 README_PATH = ROOT_DIR / "README.md"
 
 
@@ -231,7 +232,10 @@ def update_readme(repo, new_entries):
         pr_url = f"https://github.com/{repo}/pull/{entry['pr_number']}"
         author_url = f"https://github.com/{entry['author']}"
         tags_str = " ".join(f"`{t}`" for t in entry["tags"])
-        title = entry["title"].replace("|", "\\|")
+        # sanitize external PR title for markdown table safety
+        title = entry["title"]
+        for ch in ("\\", "|", "[", "]", "<", ">", "`"):
+            title = title.replace(ch, f"\\{ch}")
 
         row = (
             f"| {entry['date']} "
@@ -250,6 +254,26 @@ def update_readme(repo, new_entries):
     after = content[end_idx:]
     README_PATH.write_text(f"{before}\n{table_block}\n{after}", encoding="utf-8")
     print(f"[ok] appended {len(new_entries)} entries to README.md")
+
+
+def append_changelog(new_entries):
+    """append *new_entries* to the persistent changelog.json for archiving."""
+    existing = []
+    if CHANGELOG_PATH.exists():
+        with open(CHANGELOG_PATH, "r", encoding="utf-8") as f:
+            existing = json.load(f)
+
+    seen_prs = {e["pr_number"] for e in existing}
+    for entry in new_entries:
+        if entry["pr_number"] not in seen_prs:
+            existing.append(entry)
+
+    existing.sort(key=lambda x: x["date"], reverse=True)
+
+    CHANGELOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(CHANGELOG_PATH, "w", encoding="utf-8") as f:
+        json.dump(existing, f, indent=2, ensure_ascii=False)
+    print(f"[ok] changelog.json now has {len(existing)} total entries")
 
 
 # ---------------------------------------------------------------------------
@@ -333,6 +357,7 @@ def main():
         return 0
 
     update_readme(repo, new_entries)
+    append_changelog(new_entries)
 
     if skipped == 0:
         latest_date = max(pr["merged_at"] for pr in merged_prs)

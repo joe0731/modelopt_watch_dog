@@ -55,6 +55,12 @@ maps to exactly one tag via longest-prefix matching.
 See [`config/directory_tags.json`](config/directory_tags.json) for the
 full mapping of every Model-Optimizer directory to its tag.
 
+## Monthly Archives
+
+Per-month reports with **highlighted rows** for high-priority tags
+(🟡 `eval`  🔵 `vllm`  🟣 `vlm`  🟠 `onnx`) are stored under
+[`archives/`](archives/), named by `YYYY-MM/report.md`.
+
 ## Changelog
 
 <!-- CHANGELOG_TABLE -->
