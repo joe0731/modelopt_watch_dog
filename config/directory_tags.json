@@ -1,0 +1,137 @@
+{
+  "watched_repo": "NVIDIA/Model-Optimizer",
+
+  "tag_definitions": {
+    "torch": "modelopt.torch - PyTorch optimization core library",
+    "onnx": "modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization",
+    "deploy": "modelopt.deploy - deployment tools, serving, vLLM, TensorRT-LLM integration",
+    "quantization": "post-training quantization (PTQ), QAT, QAD, calibration, quantized layers",
+    "distillation": "knowledge distillation, teacher-student training",
+    "pruning": "model pruning, structured and unstructured",
+    "sparsity": "weight sparsity, attention sparsity",
+    "speculative_decoding": "speculative decoding, Eagle, Medusa, draft models",
+    "export": "model export, torch-to-ONNX conversion",
+    "nas": "neural architecture search, hyperparameter optimization",
+    "peft": "parameter-efficient fine-tuning, LoRA, adapters",
+    "diffusers": "diffusion model optimization (Stable Diffusion, FLUX, etc.)",
+    "core": "core utilities, tracing, optimization pipeline, common infrastructure",
+    "infra": "CI/CD, build system, GitHub/GitLab config, packaging",
+    "docs": "documentation, guides, API reference",
+    "tests": "test infrastructure, test utilities",
+    "experimental": "experimental features, research prototypes",
+    "windows": "Windows platform-specific code and examples"
+  },
+
+  "directory_to_tag": {
+    "modelopt/torch/quantization":                ["torch", "quantization"],
+    "modelopt/torch/distill":                     ["torch", "distillation"],
+    "modelopt/torch/prune":                       ["torch", "pruning"],
+    "modelopt/torch/sparsity":                    ["torch", "sparsity"],
+    "modelopt/torch/sparsity/attention_sparsity": ["torch", "sparsity"],
+    "modelopt/torch/sparsity/weight_sparsity":    ["torch", "sparsity"],
+    "modelopt/torch/speculative":                 ["torch", "speculative_decoding"],
+    "modelopt/torch/export":                      ["torch", "export"],
+    "modelopt/torch/nas":                         ["torch", "nas"],
+    "modelopt/torch/peft":                        ["torch", "peft"],
+    "modelopt/torch/opt":                         ["torch", "core"],
+    "modelopt/torch/trace":                       ["torch", "core"],
+    "modelopt/torch/utils":                       ["torch", "core"],
+    "modelopt/torch/_deploy":                     ["torch", "deploy"],
+
+    "modelopt/onnx/quantization":                 ["onnx", "quantization"],
+    "modelopt/onnx/autocast":                     ["onnx"],
+    "modelopt/onnx/export":                       ["onnx", "export"],
+    "modelopt/onnx/llm_export_utils":             ["onnx", "export"],
+
+    "modelopt/deploy":                            ["deploy"],
+    "modelopt/deploy/llm":                        ["deploy"],
+
+    "examples/llm_ptq":                           ["torch", "quantization"],
+    "examples/llm_qat":                           ["torch", "quantization"],
+    "examples/llm_qad":                           ["torch", "quantization"],
+    "examples/cnn_qat":                           ["torch", "quantization"],
+    "examples/vlm_ptq":                           ["torch", "quantization"],
+    "examples/deepseek":                          ["torch", "quantization"],
+
+    "examples/onnx_ptq":                          ["onnx", "quantization"],
+
+    "examples/llm_distill":                       ["torch", "distillation"],
+
+    "examples/pruning":                           ["torch", "pruning"],
+
+    "examples/llm_sparsity":                      ["torch", "sparsity"],
+    "examples/llm_sparsity/attention_sparsity":   ["torch", "sparsity"],
+    "examples/llm_sparsity/weight_sparsity":      ["torch", "sparsity"],
+
+    "examples/speculative_decoding":              ["torch", "speculative_decoding"],
+    "examples/specdec_bench":                     ["torch", "speculative_decoding"],
+
+    "examples/torch_onnx":                        ["torch", "onnx", "export"],
+    "examples/onnx":                              ["onnx"],
+    "examples/onnx/autoqdq":                      ["onnx"],
+
+    "examples/llm_autodeploy":                    ["deploy"],
+    "examples/vllm_serve":                        ["deploy"],
+
+    "examples/diffusers":                         ["torch", "diffusers"],
+    "examples/diffusers/cache_diffusion":         ["torch", "diffusers"],
+    "examples/diffusers/eval":                    ["torch", "diffusers"],
+    "examples/diffusers/quantization":            ["torch", "diffusers", "quantization"],
+    "examples/diffusers/distillation":            ["torch", "diffusers", "distillation"],
+
+    "examples/nemo_run":                          ["torch", "core"],
+    "examples/nemo_run/qat":                      ["torch", "quantization"],
+    "examples/nemo_run/prune_distill":            ["torch", "pruning"],
+    "examples/nemo_run/common":                   ["torch", "core"],
+
+    "examples/chained_optimizations":             ["torch", "core"],
+    "examples/model_hub":                         ["torch", "core"],
+    "examples/llm_eval":                          ["torch", "core"],
+    "examples/megatron_bridge":                   ["torch", "core"],
+    "examples/gpt-oss":                           ["torch", "core"],
+
+    "examples/windows":                           ["windows"],
+    "examples/windows/onnx_ptq":                  ["windows", "onnx", "quantization"],
+    "examples/windows/torch_onnx":                ["windows", "torch", "export"],
+    "examples/windows/accuracy_benchmark":        ["windows", "core"],
+
+    "experimental":                               ["experimental"],
+    "experimental/dms":                           ["experimental"],
+
+    "docs":                                       ["docs"],
+    "docs/source":                                ["docs"],
+
+    "tests":                                      ["tests"],
+    "tests/_test_utils":                          ["tests"],
+    "tests/examples":                             ["tests"],
+
+    "tests/unit/torch/quantization":              ["tests", "torch", "quantization"],
+    "tests/unit/torch/distill":                   ["tests", "torch", "distillation"],
+    "tests/unit/torch/prune":                     ["tests", "torch", "pruning"],
+    "tests/unit/torch/sparsity":                  ["tests", "torch", "sparsity"],
+    "tests/unit/torch/speculative":               ["tests", "torch", "speculative_decoding"],
+    "tests/unit/torch/export":                    ["tests", "torch", "export"],
+    "tests/unit/torch/deploy":                    ["tests", "torch", "deploy"],
+    "tests/unit/torch/nas":                       ["tests", "torch", "nas"],
+    "tests/unit/torch/opt":                       ["tests", "torch", "core"],
+    "tests/unit/torch/trace":                     ["tests", "torch", "core"],
+    "tests/unit/torch/utils":                     ["tests", "torch", "core"],
+    "tests/unit/onnx":                            ["tests", "onnx"],
+    "tests/unit/deploy":                          ["tests", "deploy"],
+
+    "tests/gpu/torch/quantization":               ["tests", "torch", "quantization"],
+    "tests/gpu/torch/sparsity":                   ["tests", "torch", "sparsity"],
+    "tests/gpu/torch/export":                     ["tests", "torch", "export"],
+    "tests/gpu/torch/deploy":                     ["tests", "torch", "deploy"],
+    "tests/gpu/torch/nas":                        ["tests", "torch", "nas"],
+    "tests/gpu/torch/opt":                        ["tests", "torch", "core"],
+    "tests/gpu/onnx/quantization":                ["tests", "onnx", "quantization"],
+
+    "tests/gpu_megatron":                         ["tests", "torch", "core"],
+    "tests/gpu_trtllm":                           ["tests", "deploy"],
+
+    ".github":                                    ["infra"],
+    ".gitlab":                                    ["infra"],
+    ".vscode":                                    ["infra"]
+  }
+}
