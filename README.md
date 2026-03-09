@@ -33,12 +33,17 @@ maps to exactly one tag via longest-prefix matching.
 | `nas` | Neural architecture search |
 | `peft` | LoRA, adapters, parameter-efficient fine-tuning |
 | `diffusers` | Diffusion model optimization (SD, FLUX, etc.) |
+| `eval` | Model evaluation, benchmarking, accuracy metrics |
+| `vllm` | vLLM serving and integration |
+| `sglang` | SGLang serving and integration |
+| `vlm` | Vision-language model optimization |
 | `core` | Core utilities, tracing, optimization pipeline |
 
 ### Scope Tags
 
 | Tag | Description |
 |-----|-------------|
+| `example` | Example scripts and notebooks |
 | `infra` | CI/CD, build system, packaging, config |
 | `docs` | Documentation, guides, API reference |
 | `tests` | Test infrastructure, test utilities |
