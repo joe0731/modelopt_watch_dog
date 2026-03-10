@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-09 | [6d77ce75](https://github.com/NVIDIA/Model-Optimizer/commit/6d77ce754fa8c563b84dc5d37865589594b3f72d) | [#961](https://github.com/NVIDIA/Model-Optimizer/pull/961) | [@willg-nv](https://github.com/willg-nv) | `infra` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 4.4 |
+| 2026-03-09 | [0ad287ca](https://github.com/NVIDIA/Model-Optimizer/commit/0ad287ca7bb6acc1d9cf5b7f11241981d5c16b6b) | [#998](https://github.com/NVIDIA/Model-Optimizer/pull/998) | [@gcunhase](https://github.com/gcunhase) | `onnx` `quantization` `tests` | \[ONNX\]\[Autotune\] Replace CUDA memory management from CUDART to PyTorch |
+| 2026-03-09 | [a56b6f35](https://github.com/NVIDIA/Model-Optimizer/commit/a56b6f356b4017847f9ef9850cf81bd0203ce5a3) | [#1001](https://github.com/NVIDIA/Model-Optimizer/pull/1001) | [@chadvoegele](https://github.com/chadvoegele) | `quantization` `torch` | Use os.path.join for quant_summary path |
 | 2026-03-06 | [42482b1b](https://github.com/NVIDIA/Model-Optimizer/commit/42482b1b0f3993253369d868f54b579c69108b1e) | [#973](https://github.com/NVIDIA/Model-Optimizer/pull/973) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add nvfp4_omlp_only config and simplify the config.py |
 | 2026-03-06 | [37d3f10c](https://github.com/NVIDIA/Model-Optimizer/commit/37d3f10cbd0676ec31e15fa42807c2bdbc8e9b4e) | [#972](https://github.com/NVIDIA/Model-Optimizer/pull/972) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | To support LTX2 ComfyUI format |
 | 2026-03-06 | [be6dfad9](https://github.com/NVIDIA/Model-Optimizer/commit/be6dfad9201c1a03c9fce301e31a99f13b1a98c4) | [#978](https://github.com/NVIDIA/Model-Optimizer/pull/978) | [@willg-nv](https://github.com/willg-nv) | `onnx` `quantization` | \[5951713\] Fix benchmark allocation failure |
@@ -79,4 +82,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 73 PRs**
+**Total: 76 PRs**

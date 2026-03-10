@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-09 | [6d77ce75](https://github.com/NVIDIA/Model-Optimizer/commit/6d77ce754fa8c563b84dc5d37865589594b3f72d) | [#961](https://github.com/NVIDIA/Model-Optimizer/pull/961) | [@willg-nv](https://github.com/willg-nv) | `infra` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 4.4 |
+| 2026-03-09 | [d3748c2c](https://github.com/NVIDIA/Model-Optimizer/commit/d3748c2c601914dcd3a2b9f25c70a047258c4531) | [#997](https://github.com/NVIDIA/Model-Optimizer/pull/997) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `example` `tests` `torch` | Allow basename of dataset paths to match registered names |
+| 2026-03-09 | [0ad287ca](https://github.com/NVIDIA/Model-Optimizer/commit/0ad287ca7bb6acc1d9cf5b7f11241981d5c16b6b) | [#998](https://github.com/NVIDIA/Model-Optimizer/pull/998) | [@gcunhase](https://github.com/gcunhase) | `onnx` `quantization` `tests` | \[ONNX\]\[Autotune\] Replace CUDA memory management from CUDART to PyTorch |
+| 2026-03-09 | [5d0e0127](https://github.com/NVIDIA/Model-Optimizer/commit/5d0e012751a34f7498c851515d610e6ccfe82a2e) | [#946](https://github.com/NVIDIA/Model-Optimizer/pull/946) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `example` `speculative_decoding` `tests` `torch` | inplement mix hidden_states for eagle3; deprecate eagle1 |
 | 2026-03-06 | [42482b1b](https://github.com/NVIDIA/Model-Optimizer/commit/42482b1b0f3993253369d868f54b579c69108b1e) | [#973](https://github.com/NVIDIA/Model-Optimizer/pull/973) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add nvfp4_omlp_only config and simplify the config.py |
 | 2026-03-06 | [025fc4bb](https://github.com/NVIDIA/Model-Optimizer/commit/025fc4bbd1d819e452f01b68b82533e5d1b652d1) | [#991](https://github.com/NVIDIA/Model-Optimizer/pull/991) | [@chochowski](https://github.com/chochowski) | `infra` `tests` | Update naming of gpt-oss descriptor/converter, fix pytest for gpt-oss, make pytest run on num_gpus\>2 |
 | 2026-03-06 | [e2a4a8bf](https://github.com/NVIDIA/Model-Optimizer/commit/e2a4a8bf682bf3ddb30a64363a791650b9e4f11f) | [#984](https://github.com/NVIDIA/Model-Optimizer/pull/984) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `tests` `torch` | Remove unused diffusers/cache_diffusion/pipeline and cuda-python dependency |
@@ -66,4 +70,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 60 PRs**
+**Total: 64 PRs**

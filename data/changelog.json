@@ -1,5 +1,89 @@
 [
   {
+    "date": "2026-03-09",
+    "commit": "6d77ce754fa8c563b84dc5d37865589594b3f72d",
+    "pr_number": 961,
+    "author": "willg-nv",
+    "title": "Integrate Automated QDQ placement tool - part 4.4",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-09",
+    "commit": "d3748c2c601914dcd3a2b9f25c70a047258c4531",
+    "pr_number": 997,
+    "author": "AAnoosheh",
+    "title": "Allow basename of dataset paths to match registered names",
+    "tags": [
+      "core",
+      "example",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-09",
+    "commit": "0ad287ca7bb6acc1d9cf5b7f11241981d5c16b6b",
+    "pr_number": 998,
+    "author": "gcunhase",
+    "title": "[ONNX][Autotune] Replace CUDA memory management from CUDART to PyTorch",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-09",
+    "commit": "5d0e012751a34f7498c851515d610e6ccfe82a2e",
+    "pr_number": 946,
+    "author": "yeyu-nvidia",
+    "title": "inplement mix hidden_states for eagle3; deprecate eagle1",
+    "tags": [
+      "core",
+      "example",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-09",
+    "commit": "2bb404ebd8f3281a53fe0fa15913cc1c9bd38b31",
+    "pr_number": 1006,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-03-09)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-03-09",
+    "commit": "1d6ec895ffa4ee158597773b254d7a9d53448f5c",
+    "pr_number": 967,
+    "author": "yueshen2016",
+    "title": "[OMNIML-3495] Add TEGroupedMLP export support for NemotronH models",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-09",
+    "commit": "a56b6f356b4017847f9ef9850cf81bd0203ce5a3",
+    "pr_number": 1001,
+    "author": "chadvoegele",
+    "title": "Use os.path.join for quant_summary path",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-03-06",
     "commit": "42482b1b0f3993253369d868f54b579c69108b1e",
     "pr_number": 973,

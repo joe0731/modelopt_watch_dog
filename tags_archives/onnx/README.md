@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-09 | [6d77ce75](https://github.com/NVIDIA/Model-Optimizer/commit/6d77ce754fa8c563b84dc5d37865589594b3f72d) | [#961](https://github.com/NVIDIA/Model-Optimizer/pull/961) | [@willg-nv](https://github.com/willg-nv) | `infra` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 4.4 |
+| 2026-03-09 | [0ad287ca](https://github.com/NVIDIA/Model-Optimizer/commit/0ad287ca7bb6acc1d9cf5b7f11241981d5c16b6b) | [#998](https://github.com/NVIDIA/Model-Optimizer/pull/998) | [@gcunhase](https://github.com/gcunhase) | `onnx` `quantization` `tests` | \[ONNX\]\[Autotune\] Replace CUDA memory management from CUDART to PyTorch |
 | 2026-03-06 | [be6dfad9](https://github.com/NVIDIA/Model-Optimizer/commit/be6dfad9201c1a03c9fce301e31a99f13b1a98c4) | [#978](https://github.com/NVIDIA/Model-Optimizer/pull/978) | [@willg-nv](https://github.com/willg-nv) | `onnx` `quantization` | \[5951713\] Fix benchmark allocation failure |
 | 2026-03-04 | [e8f9687a](https://github.com/NVIDIA/Model-Optimizer/commit/e8f9687a608ac290c2590e0775760a1fae5305db) | [#841](https://github.com/NVIDIA/Model-Optimizer/pull/841) | [@willg-nv](https://github.com/willg-nv) | `example` `infra` `onnx` | Add Automated QDQ placement example - Part 4.1 |
 | 2026-03-02 | [94b2cb27](https://github.com/NVIDIA/Model-Optimizer/commit/94b2cb272dbb19986f7391bac3f3c28341dc2c78) | [#839](https://github.com/NVIDIA/Model-Optimizer/pull/839) | [@willg-nv](https://github.com/willg-nv) | `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 3.3 |
@@ -34,4 +36,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 28 PRs**
+**Total: 30 PRs**

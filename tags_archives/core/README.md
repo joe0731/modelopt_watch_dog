@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-09 | [d3748c2c](https://github.com/NVIDIA/Model-Optimizer/commit/d3748c2c601914dcd3a2b9f25c70a047258c4531) | [#997](https://github.com/NVIDIA/Model-Optimizer/pull/997) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `example` `tests` `torch` | Allow basename of dataset paths to match registered names |
+| 2026-03-09 | [5d0e0127](https://github.com/NVIDIA/Model-Optimizer/commit/5d0e012751a34f7498c851515d610e6ccfe82a2e) | [#946](https://github.com/NVIDIA/Model-Optimizer/pull/946) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `example` `speculative_decoding` `tests` `torch` | inplement mix hidden_states for eagle3; deprecate eagle1 |
 | 2026-03-03 | [a076e6c2](https://github.com/NVIDIA/Model-Optimizer/commit/a076e6c218ba024323b46cf2b3094fd9f1f67072) | [#958](https://github.com/NVIDIA/Model-Optimizer/pull/958) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Make GPU tests \>2x faster by reusing spawn processes between tests |
 | 2026-03-03 | [78779f4a](https://github.com/NVIDIA/Model-Optimizer/commit/78779f4a94e9806c500ae842b7f3c1e9af6bd7d5) | [#955](https://github.com/NVIDIA/Model-Optimizer/pull/955) | [@yueshen2016](https://github.com/yueshen2016) | `core` `torch` | \[OMNIML-3495\] Fix megatron_generate to pass position_ids for MTP model support |
 | 2026-03-02 | [fcdaf651](https://github.com/NVIDIA/Model-Optimizer/commit/fcdaf6519d63bd2b42775b972527e06d9f1eff55) | [#924](https://github.com/NVIDIA/Model-Optimizer/pull/924) | [@sugunav14](https://github.com/sugunav14) | `core` `quantization` `tests` `torch` | Support decoder block-level sequential calibration |
@@ -34,4 +36,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 28 PRs**
+**Total: 30 PRs**

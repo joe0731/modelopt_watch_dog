@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-09 | [6d77ce75](https://github.com/NVIDIA/Model-Optimizer/commit/6d77ce754fa8c563b84dc5d37865589594b3f72d) | [#961](https://github.com/NVIDIA/Model-Optimizer/pull/961) | [@willg-nv](https://github.com/willg-nv) | `infra` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 4.4 |
+| 2026-03-09 | [2bb404eb](https://github.com/NVIDIA/Model-Optimizer/commit/2bb404ebd8f3281a53fe0fa15913cc1c9bd38b31) | [#1006](https://github.com/NVIDIA/Model-Optimizer/pull/1006) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-03-09) |
 | 2026-03-06 | [42482b1b](https://github.com/NVIDIA/Model-Optimizer/commit/42482b1b0f3993253369d868f54b579c69108b1e) | [#973](https://github.com/NVIDIA/Model-Optimizer/pull/973) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add nvfp4_omlp_only config and simplify the config.py |
 | 2026-03-06 | [0dfefa14](https://github.com/NVIDIA/Model-Optimizer/commit/0dfefa146c79501f1866a90151746cacd9055411) | [#980](https://github.com/NVIDIA/Model-Optimizer/pull/980) | [@chochowski](https://github.com/chochowski) | `infra` | fix eval by adding patched lm_eval_anymodel from_string |
 | 2026-03-06 | [025fc4bb](https://github.com/NVIDIA/Model-Optimizer/commit/025fc4bbd1d819e452f01b68b82533e5d1b652d1) | [#991](https://github.com/NVIDIA/Model-Optimizer/pull/991) | [@chochowski](https://github.com/chochowski) | `infra` `tests` | Update naming of gpt-oss descriptor/converter, fix pytest for gpt-oss, make pytest run on num_gpus\>2 |
@@ -58,4 +60,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 52 PRs**
+**Total: 54 PRs**
