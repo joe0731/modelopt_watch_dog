@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-11 | [fe832701](https://github.com/NVIDIA/Model-Optimizer/commit/fe8327013974801d8e9dad00cbb4f3f95175e5c4) | [#970](https://github.com/NVIDIA/Model-Optimizer/pull/970) | [@realAsma](https://github.com/realAsma) | `quantization` `tests` `torch` | Refactor HF _QuantSparseMoe: config-driven token counting, NemotronH detection |
+| 2026-03-10 | [cbab3779](https://github.com/NVIDIA/Model-Optimizer/commit/cbab377983374a43b6d3f7d7d25ab8411b0598a3) | [#1008](https://github.com/NVIDIA/Model-Optimizer/pull/1008) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `pruning` `tests` `torch` | Fix Mcore test utils for M-LM main |
+| 2026-03-10 | [fff65b06](https://github.com/NVIDIA/Model-Optimizer/commit/fff65b06d65adffa0fa03ba3a131ccb706a637d3) | [#1009](https://github.com/NVIDIA/Model-Optimizer/pull/1009) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `torch` | Allow HF trainer to mask sequences prior to reduction |
+| 2026-03-10 | [a5d46ff1](https://github.com/NVIDIA/Model-Optimizer/commit/a5d46ff12b20dbe1195e90b21b3b5fdcf4067049) | [#953](https://github.com/NVIDIA/Model-Optimizer/pull/953) | [@realAsma](https://github.com/realAsma) | `core` `infra` `quantization` `tests` `torch` | Auto Quantize improvements and bug fixes for large sparse MoEs |
+| 2026-03-10 | [358ee830](https://github.com/NVIDIA/Model-Optimizer/commit/358ee83097da30b27cfe27f1621883e8067d1267) | [#999](https://github.com/NVIDIA/Model-Optimizer/pull/999) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `quantization` `torch` | updated bmm and matmul for GPT-OSS |
 | 2026-03-09 | [d3748c2c](https://github.com/NVIDIA/Model-Optimizer/commit/d3748c2c601914dcd3a2b9f25c70a047258c4531) | [#997](https://github.com/NVIDIA/Model-Optimizer/pull/997) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `example` `tests` `torch` | Allow basename of dataset paths to match registered names |
 | 2026-03-09 | [5d0e0127](https://github.com/NVIDIA/Model-Optimizer/commit/5d0e012751a34f7498c851515d610e6ccfe82a2e) | [#946](https://github.com/NVIDIA/Model-Optimizer/pull/946) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `example` `speculative_decoding` `tests` `torch` | inplement mix hidden_states for eagle3; deprecate eagle1 |
 | 2026-03-09 | [1d6ec895](https://github.com/NVIDIA/Model-Optimizer/commit/1d6ec895ffa4ee158597773b254d7a9d53448f5c) | [#967](https://github.com/NVIDIA/Model-Optimizer/pull/967) | [@yueshen2016](https://github.com/yueshen2016) | `export` `torch` | \[OMNIML-3495\] Add TEGroupedMLP export support for NemotronH models |
@@ -115,4 +120,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 109 PRs**
+**Total: 114 PRs**

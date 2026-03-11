@@ -1,5 +1,92 @@
 [
   {
+    "date": "2026-03-11",
+    "commit": "fe8327013974801d8e9dad00cbb4f3f95175e5c4",
+    "pr_number": 970,
+    "author": "realAsma",
+    "title": "Refactor HF _QuantSparseMoe: config-driven token counting, NemotronH detection",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-10",
+    "commit": "0a84bb2caf88cd8821558dd5bd7f80a8d13d5ad0",
+    "pr_number": 992,
+    "author": "hthadicherla",
+    "title": "Graph Surgery Framework for TRT-RTX",
+    "tags": [
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-10",
+    "commit": "cbab377983374a43b6d3f7d7d25ab8411b0598a3",
+    "pr_number": 1008,
+    "author": "kevalmorabia97",
+    "title": "Fix Mcore test utils for M-LM main",
+    "tags": [
+      "core",
+      "example",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-10",
+    "commit": "695c8e852288e15ee32b0ce6ecd78e62ccdd9042",
+    "pr_number": 843,
+    "author": "willg-nv",
+    "title": "Integrate Automated QDQ placement tool - part 4.3",
+    "tags": [
+      "docs",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-10",
+    "commit": "fff65b06d65adffa0fa03ba3a131ccb706a637d3",
+    "pr_number": 1009,
+    "author": "AAnoosheh",
+    "title": "Allow HF trainer to mask sequences prior to reduction",
+    "tags": [
+      "distillation",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-10",
+    "commit": "a5d46ff12b20dbe1195e90b21b3b5fdcf4067049",
+    "pr_number": 953,
+    "author": "realAsma",
+    "title": "Auto Quantize improvements and bug fixes for large sparse MoEs",
+    "tags": [
+      "core",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-10",
+    "commit": "358ee83097da30b27cfe27f1621883e8067d1267",
+    "pr_number": 999,
+    "author": "kinjalpatel27",
+    "title": "updated bmm and matmul for GPT-OSS",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-03-09",
     "commit": "6d77ce754fa8c563b84dc5d37865589594b3f72d",
     "pr_number": 961,

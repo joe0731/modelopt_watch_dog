@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-10 | [0a84bb2c](https://github.com/NVIDIA/Model-Optimizer/commit/0a84bb2caf88cd8821558dd5bd7f80a8d13d5ad0) | [#992](https://github.com/NVIDIA/Model-Optimizer/pull/992) | [@hthadicherla](https://github.com/hthadicherla) | `infra` `onnx` `tests` | Graph Surgery Framework for TRT-RTX |
+| 2026-03-10 | [695c8e85](https://github.com/NVIDIA/Model-Optimizer/commit/695c8e852288e15ee32b0ce6ecd78e62ccdd9042) | [#843](https://github.com/NVIDIA/Model-Optimizer/pull/843) | [@willg-nv](https://github.com/willg-nv) | `docs` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 4.3 |
 | 2026-03-09 | [6d77ce75](https://github.com/NVIDIA/Model-Optimizer/commit/6d77ce754fa8c563b84dc5d37865589594b3f72d) | [#961](https://github.com/NVIDIA/Model-Optimizer/pull/961) | [@willg-nv](https://github.com/willg-nv) | `infra` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 4.4 |
 | 2026-03-09 | [0ad287ca](https://github.com/NVIDIA/Model-Optimizer/commit/0ad287ca7bb6acc1d9cf5b7f11241981d5c16b6b) | [#998](https://github.com/NVIDIA/Model-Optimizer/pull/998) | [@gcunhase](https://github.com/gcunhase) | `onnx` `quantization` `tests` | \[ONNX\]\[Autotune\] Replace CUDA memory management from CUDART to PyTorch |
 | 2026-03-06 | [be6dfad9](https://github.com/NVIDIA/Model-Optimizer/commit/be6dfad9201c1a03c9fce301e31a99f13b1a98c4) | [#978](https://github.com/NVIDIA/Model-Optimizer/pull/978) | [@willg-nv](https://github.com/willg-nv) | `onnx` `quantization` | \[5951713\] Fix benchmark allocation failure |
@@ -36,4 +38,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 30 PRs**
+**Total: 32 PRs**

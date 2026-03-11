@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-11 | [fe832701](https://github.com/NVIDIA/Model-Optimizer/commit/fe8327013974801d8e9dad00cbb4f3f95175e5c4) | [#970](https://github.com/NVIDIA/Model-Optimizer/pull/970) | [@realAsma](https://github.com/realAsma) | `quantization` `tests` `torch` | Refactor HF _QuantSparseMoe: config-driven token counting, NemotronH detection |
+| 2026-03-10 | [0a84bb2c](https://github.com/NVIDIA/Model-Optimizer/commit/0a84bb2caf88cd8821558dd5bd7f80a8d13d5ad0) | [#992](https://github.com/NVIDIA/Model-Optimizer/pull/992) | [@hthadicherla](https://github.com/hthadicherla) | `infra` `onnx` `tests` | Graph Surgery Framework for TRT-RTX |
+| 2026-03-10 | [cbab3779](https://github.com/NVIDIA/Model-Optimizer/commit/cbab377983374a43b6d3f7d7d25ab8411b0598a3) | [#1008](https://github.com/NVIDIA/Model-Optimizer/pull/1008) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `pruning` `tests` `torch` | Fix Mcore test utils for M-LM main |
+| 2026-03-10 | [695c8e85](https://github.com/NVIDIA/Model-Optimizer/commit/695c8e852288e15ee32b0ce6ecd78e62ccdd9042) | [#843](https://github.com/NVIDIA/Model-Optimizer/pull/843) | [@willg-nv](https://github.com/willg-nv) | `docs` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 4.3 |
+| 2026-03-10 | [a5d46ff1](https://github.com/NVIDIA/Model-Optimizer/commit/a5d46ff12b20dbe1195e90b21b3b5fdcf4067049) | [#953](https://github.com/NVIDIA/Model-Optimizer/pull/953) | [@realAsma](https://github.com/realAsma) | `core` `infra` `quantization` `tests` `torch` | Auto Quantize improvements and bug fixes for large sparse MoEs |
 | 2026-03-09 | [6d77ce75](https://github.com/NVIDIA/Model-Optimizer/commit/6d77ce754fa8c563b84dc5d37865589594b3f72d) | [#961](https://github.com/NVIDIA/Model-Optimizer/pull/961) | [@willg-nv](https://github.com/willg-nv) | `infra` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 4.4 |
 | 2026-03-09 | [d3748c2c](https://github.com/NVIDIA/Model-Optimizer/commit/d3748c2c601914dcd3a2b9f25c70a047258c4531) | [#997](https://github.com/NVIDIA/Model-Optimizer/pull/997) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `example` `tests` `torch` | Allow basename of dataset paths to match registered names |
 | 2026-03-09 | [0ad287ca](https://github.com/NVIDIA/Model-Optimizer/commit/0ad287ca7bb6acc1d9cf5b7f11241981d5c16b6b) | [#998](https://github.com/NVIDIA/Model-Optimizer/pull/998) | [@gcunhase](https://github.com/gcunhase) | `onnx` `quantization` `tests` | \[ONNX\]\[Autotune\] Replace CUDA memory management from CUDART to PyTorch |
@@ -70,4 +75,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 64 PRs**
+**Total: 69 PRs**
