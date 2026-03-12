@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-11 | [34a9fc79](https://github.com/NVIDIA/Model-Optimizer/commit/34a9fc7924be8efed739ee4327d0aa7ac56a84e0) | [#1023](https://github.com/NVIDIA/Model-Optimizer/pull/1023) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `torch` | Add support matrix for Nemotron-3 |
 | 2026-03-06 | [42482b1b](https://github.com/NVIDIA/Model-Optimizer/commit/42482b1b0f3993253369d868f54b579c69108b1e) | [#973](https://github.com/NVIDIA/Model-Optimizer/pull/973) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add nvfp4_omlp_only config and simplify the config.py |
 | 2026-03-04 | [a34d613d](https://github.com/NVIDIA/Model-Optimizer/commit/a34d613d3ce9d23258e1853bc7b01824374666b6) | [#913](https://github.com/NVIDIA/Model-Optimizer/pull/913) | [@h-guo18](https://github.com/h-guo18) | `eval` `example` `export` `quantization` `speculative_decoding` `tests` `torch` | Feat: Speculatice Decoding export with quantization support |
 | 2026-03-03 | [a4fde491](https://github.com/NVIDIA/Model-Optimizer/commit/a4fde491cc6c3c7c747c7c946416ae09d2c6fa5d) | [#962](https://github.com/NVIDIA/Model-Optimizer/pull/962) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `quantization` `tests` `torch` | Update MOE block detection logic and enable in huggingface_script.sh |
@@ -26,4 +27,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 20 PRs**
+**Total: 21 PRs**

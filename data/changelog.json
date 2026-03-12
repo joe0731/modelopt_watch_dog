@@ -12,6 +12,77 @@
     ]
   },
   {
+    "date": "2026-03-11",
+    "commit": "b0321985167dabf8d266a096da523134c33012b7",
+    "pr_number": 1021,
+    "author": "chochowski",
+    "title": "Mchochowski/any model",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-11",
+    "commit": "82df595a34a7606914e1395687f74c701c5324c5",
+    "pr_number": 974,
+    "author": "danielkorzekwa",
+    "title": "Add anymodel-core to feature/puzzletron",
+    "tags": [
+      "infra",
+      "nas",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-11",
+    "commit": "26cad678d208853f387b3def83054a285a62c847",
+    "pr_number": 951,
+    "author": "gcunhase",
+    "title": "[OMNIML-3252][ONNX] Add real Q/DQ scales in Autotune",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-11",
+    "commit": "34a9fc7924be8efed739ee4327d0aa7ac56a84e0",
+    "pr_number": 1023,
+    "author": "meenchen",
+    "title": "Add support matrix for Nemotron-3",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-11",
+    "commit": "52f8783059fbb08b8b2f9822f4b41f01a7a120f9",
+    "pr_number": 1025,
+    "author": "yueshen2016",
+    "title": "Update news of Nemotron=3-Super is supported on Megatron-Bridge",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-03-11",
+    "commit": "72a5b3df6df10d264f401240eda5191ab2bcb37c",
+    "pr_number": 1028,
+    "author": "yueshen2016",
+    "title": "Minor fix of typo on news",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-03-10",
     "commit": "0a84bb2caf88cd8821558dd5bd7f80a8d13d5ad0",
     "pr_number": 992,

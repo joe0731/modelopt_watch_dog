@@ -4,6 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-11 | [b0321985](https://github.com/NVIDIA/Model-Optimizer/commit/b0321985167dabf8d266a096da523134c33012b7) | [#1021](https://github.com/NVIDIA/Model-Optimizer/pull/1021) | [@chochowski](https://github.com/chochowski) | `infra` `tests` | Mchochowski/any model |
+| 2026-03-11 | [82df595a](https://github.com/NVIDIA/Model-Optimizer/commit/82df595a34a7606914e1395687f74c701c5324c5) | [#974](https://github.com/NVIDIA/Model-Optimizer/pull/974) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `nas` `tests` `torch` | Add anymodel-core to feature/puzzletron |
+| 2026-03-11 | [26cad678](https://github.com/NVIDIA/Model-Optimizer/commit/26cad678d208853f387b3def83054a285a62c847) | [#951](https://github.com/NVIDIA/Model-Optimizer/pull/951) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `quantization` `tests` | \[OMNIML-3252\]\[ONNX\] Add real Q/DQ scales in Autotune |
+| 2026-03-11 | [34a9fc79](https://github.com/NVIDIA/Model-Optimizer/commit/34a9fc7924be8efed739ee4327d0aa7ac56a84e0) | [#1023](https://github.com/NVIDIA/Model-Optimizer/pull/1023) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `torch` | Add support matrix for Nemotron-3 |
+| 2026-03-11 | [52f87830](https://github.com/NVIDIA/Model-Optimizer/commit/52f8783059fbb08b8b2f9822f4b41f01a7a120f9) | [#1025](https://github.com/NVIDIA/Model-Optimizer/pull/1025) | [@yueshen2016](https://github.com/yueshen2016) | `infra` | Update news of Nemotron=3-Super is supported on Megatron-Bridge |
+| 2026-03-11 | [72a5b3df](https://github.com/NVIDIA/Model-Optimizer/commit/72a5b3df6df10d264f401240eda5191ab2bcb37c) | [#1028](https://github.com/NVIDIA/Model-Optimizer/pull/1028) | [@yueshen2016](https://github.com/yueshen2016) | `infra` | Minor fix of typo on news |
 | 2026-03-10 | [0a84bb2c](https://github.com/NVIDIA/Model-Optimizer/commit/0a84bb2caf88cd8821558dd5bd7f80a8d13d5ad0) | [#992](https://github.com/NVIDIA/Model-Optimizer/pull/992) | [@hthadicherla](https://github.com/hthadicherla) | `infra` `onnx` `tests` | Graph Surgery Framework for TRT-RTX |
 | 2026-03-10 | [a5d46ff1](https://github.com/NVIDIA/Model-Optimizer/commit/a5d46ff12b20dbe1195e90b21b3b5fdcf4067049) | [#953](https://github.com/NVIDIA/Model-Optimizer/pull/953) | [@realAsma](https://github.com/realAsma) | `core` `infra` `quantization` `tests` `torch` | Auto Quantize improvements and bug fixes for large sparse MoEs |
 | 2026-03-09 | [6d77ce75](https://github.com/NVIDIA/Model-Optimizer/commit/6d77ce754fa8c563b84dc5d37865589594b3f72d) | [#961](https://github.com/NVIDIA/Model-Optimizer/pull/961) | [@willg-nv](https://github.com/willg-nv) | `infra` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 4.4 |
@@ -62,4 +68,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 56 PRs**
+**Total: 62 PRs**

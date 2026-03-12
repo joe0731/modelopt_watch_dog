@@ -5,6 +5,9 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-03-11 | [fe832701](https://github.com/NVIDIA/Model-Optimizer/commit/fe8327013974801d8e9dad00cbb4f3f95175e5c4) | [#970](https://github.com/NVIDIA/Model-Optimizer/pull/970) | [@realAsma](https://github.com/realAsma) | `quantization` `tests` `torch` | Refactor HF _QuantSparseMoe: config-driven token counting, NemotronH detection |
+| 2026-03-11 | [b0321985](https://github.com/NVIDIA/Model-Optimizer/commit/b0321985167dabf8d266a096da523134c33012b7) | [#1021](https://github.com/NVIDIA/Model-Optimizer/pull/1021) | [@chochowski](https://github.com/chochowski) | `infra` `tests` | Mchochowski/any model |
+| 2026-03-11 | [82df595a](https://github.com/NVIDIA/Model-Optimizer/commit/82df595a34a7606914e1395687f74c701c5324c5) | [#974](https://github.com/NVIDIA/Model-Optimizer/pull/974) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `nas` `tests` `torch` | Add anymodel-core to feature/puzzletron |
+| 2026-03-11 | [26cad678](https://github.com/NVIDIA/Model-Optimizer/commit/26cad678d208853f387b3def83054a285a62c847) | [#951](https://github.com/NVIDIA/Model-Optimizer/pull/951) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `quantization` `tests` | \[OMNIML-3252\]\[ONNX\] Add real Q/DQ scales in Autotune |
 | 2026-03-10 | [0a84bb2c](https://github.com/NVIDIA/Model-Optimizer/commit/0a84bb2caf88cd8821558dd5bd7f80a8d13d5ad0) | [#992](https://github.com/NVIDIA/Model-Optimizer/pull/992) | [@hthadicherla](https://github.com/hthadicherla) | `infra` `onnx` `tests` | Graph Surgery Framework for TRT-RTX |
 | 2026-03-10 | [cbab3779](https://github.com/NVIDIA/Model-Optimizer/commit/cbab377983374a43b6d3f7d7d25ab8411b0598a3) | [#1008](https://github.com/NVIDIA/Model-Optimizer/pull/1008) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `pruning` `tests` `torch` | Fix Mcore test utils for M-LM main |
 | 2026-03-10 | [695c8e85](https://github.com/NVIDIA/Model-Optimizer/commit/695c8e852288e15ee32b0ce6ecd78e62ccdd9042) | [#843](https://github.com/NVIDIA/Model-Optimizer/pull/843) | [@willg-nv](https://github.com/willg-nv) | `docs` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 4.3 |
@@ -75,4 +78,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 69 PRs**
+**Total: 72 PRs**
