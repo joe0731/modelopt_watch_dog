@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-12 | [69c0d479](https://github.com/NVIDIA/Model-Optimizer/commit/69c0d47946086d032e665ecf59a9ff28dc32f5b8) | [#1026](https://github.com/NVIDIA/Model-Optimizer/pull/1026) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3252\]\[ONNX\] MOQ + Autotune moq integration docs |
 | 2026-03-10 | [695c8e85](https://github.com/NVIDIA/Model-Optimizer/commit/695c8e852288e15ee32b0ce6ecd78e62ccdd9042) | [#843](https://github.com/NVIDIA/Model-Optimizer/pull/843) | [@willg-nv](https://github.com/willg-nv) | `docs` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 4.3 |
 | 2026-03-03 | [860d0b4a](https://github.com/NVIDIA/Model-Optimizer/commit/860d0b4a7010a3a2750265d0571529dfc1f44c7b) | [#954](https://github.com/NVIDIA/Model-Optimizer/pull/954) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `docs` `example` `infra` `windows` | Merge Linux and Windows Changelog |
 | 2026-03-02 | [82f1d216](https://github.com/NVIDIA/Model-Optimizer/commit/82f1d216d1a9022e60b8e1143a77f36c00b885a4) | [#935](https://github.com/NVIDIA/Model-Optimizer/pull/935) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `infra` `onnx` `quantization` `sparsity` `torch` `windows` | Add Security and IP related contributing guide and configure coderabbit to catch such issues |
@@ -16,4 +17,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 10 PRs**
+**Total: 11 PRs**

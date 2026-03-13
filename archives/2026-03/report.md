@@ -8,6 +8,12 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-03-13 | [bc879818](https://github.com/NVIDIA/Model-Optimizer/commit/bc8798182da42859fec7a7632928f15f0649f3f7) | [#943](https://github.com/NVIDIA/Model-Optimizer/pull/943) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `torch` | \[minor\]: fix NemotronH model export in HF path |
+|  | 2026-03-12 | [4dc99325](https://github.com/NVIDIA/Model-Optimizer/commit/4dc99325c3dbf93f34a8286f159bd2979b2517a2) | [#989](https://github.com/NVIDIA/Model-Optimizer/pull/989) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Draft: anymodel activation scoring |
+|  | 2026-03-12 | [d358eb3b](https://github.com/NVIDIA/Model-Optimizer/commit/d358eb3bf5d614287f785aad9c0a231e2d15c967) | [#990](https://github.com/NVIDIA/Model-Optimizer/pull/990) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` | Draft: Merge anymodel pruning |
+|  | 2026-03-12 | [8e827f34](https://github.com/NVIDIA/Model-Optimizer/commit/8e827f34b682a29361978438daea17aeda38aef2) | [#993](https://github.com/NVIDIA/Model-Optimizer/pull/993) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` | Draft: Merging anymodel:build_library_and_stats |
+| 🟠 | **2026-03-12** | **[69c0d479](https://github.com/NVIDIA/Model-Optimizer/commit/69c0d47946086d032e665ecf59a9ff28dc32f5b8)** | **[#1026](https://github.com/NVIDIA/Model-Optimizer/pull/1026)** | **[@gcunhase](https://github.com/gcunhase)** | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | **\[OMNIML-3252\]\[ONNX\] MOQ + Autotune moq integration docs** |
+|  | 2026-03-12 | [eb4b210e](https://github.com/NVIDIA/Model-Optimizer/commit/eb4b210ee94927ffca43416cc680ae2b6d8b73d4) | [#994](https://github.com/NVIDIA/Model-Optimizer/pull/994) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` | Draft: merge any model calc one block scores |
 |  | 2026-03-11 | [fe832701](https://github.com/NVIDIA/Model-Optimizer/commit/fe8327013974801d8e9dad00cbb4f3f95175e5c4) | [#970](https://github.com/NVIDIA/Model-Optimizer/pull/970) | [@realAsma](https://github.com/realAsma) | `quantization` `tests` `torch` | Refactor HF _QuantSparseMoe: config-driven token counting, NemotronH detection |
 |  | 2026-03-11 | [b0321985](https://github.com/NVIDIA/Model-Optimizer/commit/b0321985167dabf8d266a096da523134c33012b7) | [#1021](https://github.com/NVIDIA/Model-Optimizer/pull/1021) | [@chochowski](https://github.com/chochowski) | `infra` `tests` | Mchochowski/any model |
 |  | 2026-03-11 | [82df595a](https://github.com/NVIDIA/Model-Optimizer/commit/82df595a34a7606914e1395687f74c701c5324c5) | [#974](https://github.com/NVIDIA/Model-Optimizer/pull/974) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `nas` `tests` `torch` | Add anymodel-core to feature/puzzletron |
@@ -57,4 +63,4 @@
 | 🟡🟠 | **2026-03-02** | **[82f1d216](https://github.com/NVIDIA/Model-Optimizer/commit/82f1d216d1a9022e60b8e1143a77f36c00b885a4)** | **[#935](https://github.com/NVIDIA/Model-Optimizer/pull/935)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `core` `diffusers` `distillation` `docs` `eval` `example` `infra` `onnx` `quantization` `sparsity` `torch` `windows` | **Add Security and IP related contributing guide and configure coderabbit to catch such issues** |
 
 ---
-**Total: 47 PRs** | **Highlighted: 15**
+**Total: 53 PRs** | **Highlighted: 16**

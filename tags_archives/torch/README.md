@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-13 | [bc879818](https://github.com/NVIDIA/Model-Optimizer/commit/bc8798182da42859fec7a7632928f15f0649f3f7) | [#943](https://github.com/NVIDIA/Model-Optimizer/pull/943) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `torch` | \[minor\]: fix NemotronH model export in HF path |
+| 2026-03-12 | [69c0d479](https://github.com/NVIDIA/Model-Optimizer/commit/69c0d47946086d032e665ecf59a9ff28dc32f5b8) | [#1026](https://github.com/NVIDIA/Model-Optimizer/pull/1026) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3252\]\[ONNX\] MOQ + Autotune moq integration docs |
 | 2026-03-11 | [fe832701](https://github.com/NVIDIA/Model-Optimizer/commit/fe8327013974801d8e9dad00cbb4f3f95175e5c4) | [#970](https://github.com/NVIDIA/Model-Optimizer/pull/970) | [@realAsma](https://github.com/realAsma) | `quantization` `tests` `torch` | Refactor HF _QuantSparseMoe: config-driven token counting, NemotronH detection |
 | 2026-03-11 | [82df595a](https://github.com/NVIDIA/Model-Optimizer/commit/82df595a34a7606914e1395687f74c701c5324c5) | [#974](https://github.com/NVIDIA/Model-Optimizer/pull/974) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `nas` `tests` `torch` | Add anymodel-core to feature/puzzletron |
 | 2026-03-11 | [34a9fc79](https://github.com/NVIDIA/Model-Optimizer/commit/34a9fc7924be8efed739ee4327d0aa7ac56a84e0) | [#1023](https://github.com/NVIDIA/Model-Optimizer/pull/1023) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `torch` | Add support matrix for Nemotron-3 |
@@ -122,4 +124,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 116 PRs**
+**Total: 118 PRs**

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-13 | [bc879818](https://github.com/NVIDIA/Model-Optimizer/commit/bc8798182da42859fec7a7632928f15f0649f3f7) | [#943](https://github.com/NVIDIA/Model-Optimizer/pull/943) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `torch` | \[minor\]: fix NemotronH model export in HF path |
 | 2026-03-09 | [1d6ec895](https://github.com/NVIDIA/Model-Optimizer/commit/1d6ec895ffa4ee158597773b254d7a9d53448f5c) | [#967](https://github.com/NVIDIA/Model-Optimizer/pull/967) | [@yueshen2016](https://github.com/yueshen2016) | `export` `torch` | \[OMNIML-3495\] Add TEGroupedMLP export support for NemotronH models |
 | 2026-03-06 | [42482b1b](https://github.com/NVIDIA/Model-Optimizer/commit/42482b1b0f3993253369d868f54b579c69108b1e) | [#973](https://github.com/NVIDIA/Model-Optimizer/pull/973) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add nvfp4_omlp_only config and simplify the config.py |
 | 2026-03-06 | [296a865c](https://github.com/NVIDIA/Model-Optimizer/commit/296a865c70cd4373f0ec6585354c563b8b9d61b6) | [#933](https://github.com/NVIDIA/Model-Optimizer/pull/933) | [@ynankani](https://github.com/ynankani) | `example` `export` `torch` `windows` | sample QAD example script |
@@ -41,4 +42,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 35 PRs**
+**Total: 36 PRs**

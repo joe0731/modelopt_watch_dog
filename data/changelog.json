@@ -1,5 +1,73 @@
 [
   {
+    "date": "2026-03-13",
+    "commit": "bc8798182da42859fec7a7632928f15f0649f3f7",
+    "pr_number": 943,
+    "author": "Fridah-nv",
+    "title": "[minor]: fix NemotronH model export in HF path",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-12",
+    "commit": "4dc99325c3dbf93f34a8286f159bd2979b2517a2",
+    "pr_number": 989,
+    "author": "danielkorzekwa",
+    "title": "Draft: anymodel activation scoring",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-12",
+    "commit": "d358eb3bf5d614287f785aad9c0a231e2d15c967",
+    "pr_number": 990,
+    "author": "danielkorzekwa",
+    "title": "Draft: Merge anymodel pruning",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-03-12",
+    "commit": "8e827f34b682a29361978438daea17aeda38aef2",
+    "pr_number": 993,
+    "author": "danielkorzekwa",
+    "title": "Draft: Merging anymodel:build_library_and_stats",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-03-12",
+    "commit": "69c0d47946086d032e665ecf59a9ff28dc32f5b8",
+    "pr_number": 1026,
+    "author": "gcunhase",
+    "title": "[OMNIML-3252][ONNX] MOQ + Autotune moq integration docs",
+    "tags": [
+      "docs",
+      "example",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-12",
+    "commit": "eb4b210ee94927ffca43416cc680ae2b6d8b73d4",
+    "pr_number": 994,
+    "author": "danielkorzekwa",
+    "title": "Draft: merge any model calc one block scores",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-03-11",
     "commit": "fe8327013974801d8e9dad00cbb4f3f95175e5c4",
     "pr_number": 970,

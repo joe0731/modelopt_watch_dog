@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-12 | [69c0d479](https://github.com/NVIDIA/Model-Optimizer/commit/69c0d47946086d032e665ecf59a9ff28dc32f5b8) | [#1026](https://github.com/NVIDIA/Model-Optimizer/pull/1026) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3252\]\[ONNX\] MOQ + Autotune moq integration docs |
 | 2026-03-11 | [34a9fc79](https://github.com/NVIDIA/Model-Optimizer/commit/34a9fc7924be8efed739ee4327d0aa7ac56a84e0) | [#1023](https://github.com/NVIDIA/Model-Optimizer/pull/1023) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `torch` | Add support matrix for Nemotron-3 |
 | 2026-03-10 | [cbab3779](https://github.com/NVIDIA/Model-Optimizer/commit/cbab377983374a43b6d3f7d7d25ab8411b0598a3) | [#1008](https://github.com/NVIDIA/Model-Optimizer/pull/1008) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `pruning` `tests` `torch` | Fix Mcore test utils for M-LM main |
 | 2026-03-09 | [d3748c2c](https://github.com/NVIDIA/Model-Optimizer/commit/d3748c2c601914dcd3a2b9f25c70a047258c4531) | [#997](https://github.com/NVIDIA/Model-Optimizer/pull/997) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `example` `tests` `torch` | Allow basename of dataset paths to match registered names |
@@ -71,4 +72,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 65 PRs**
+**Total: 66 PRs**

@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-12 | [4dc99325](https://github.com/NVIDIA/Model-Optimizer/commit/4dc99325c3dbf93f34a8286f159bd2979b2517a2) | [#989](https://github.com/NVIDIA/Model-Optimizer/pull/989) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Draft: anymodel activation scoring |
+| 2026-03-12 | [69c0d479](https://github.com/NVIDIA/Model-Optimizer/commit/69c0d47946086d032e665ecf59a9ff28dc32f5b8) | [#1026](https://github.com/NVIDIA/Model-Optimizer/pull/1026) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3252\]\[ONNX\] MOQ + Autotune moq integration docs |
 | 2026-03-11 | [fe832701](https://github.com/NVIDIA/Model-Optimizer/commit/fe8327013974801d8e9dad00cbb4f3f95175e5c4) | [#970](https://github.com/NVIDIA/Model-Optimizer/pull/970) | [@realAsma](https://github.com/realAsma) | `quantization` `tests` `torch` | Refactor HF _QuantSparseMoe: config-driven token counting, NemotronH detection |
 | 2026-03-11 | [b0321985](https://github.com/NVIDIA/Model-Optimizer/commit/b0321985167dabf8d266a096da523134c33012b7) | [#1021](https://github.com/NVIDIA/Model-Optimizer/pull/1021) | [@chochowski](https://github.com/chochowski) | `infra` `tests` | Mchochowski/any model |
 | 2026-03-11 | [82df595a](https://github.com/NVIDIA/Model-Optimizer/commit/82df595a34a7606914e1395687f74c701c5324c5) | [#974](https://github.com/NVIDIA/Model-Optimizer/pull/974) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `nas` `tests` `torch` | Add anymodel-core to feature/puzzletron |
@@ -78,4 +80,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 72 PRs**
+**Total: 74 PRs**
