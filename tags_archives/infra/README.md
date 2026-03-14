@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-14 | [bc96f1ce](https://github.com/NVIDIA/Model-Optimizer/commit/bc96f1ce39d28e2073fda076c119263094b619ee) | [#1012](https://github.com/NVIDIA/Model-Optimizer/pull/1012) | [@meenchen](https://github.com/meenchen) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-3277\] Update kv cache behavior |
+| 2026-03-14 | [5b417377](https://github.com/NVIDIA/Model-Optimizer/commit/5b417377a80f7c6d7e9c479ca3f15b20a0bd684d) | [#820](https://github.com/NVIDIA/Model-Optimizer/pull/820) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `infra` `quantization` `torch` | Support Kimi-K2.5 PTQ |
+| 2026-03-13 | [8fe318d4](https://github.com/NVIDIA/Model-Optimizer/commit/8fe318d46436927cbae53cdffb9319b9b9a88f0d) | [#995](https://github.com/NVIDIA/Model-Optimizer/pull/995) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Draft: merge any_model: mip_and_realize_models |
+| 2026-03-13 | [58417e50](https://github.com/NVIDIA/Model-Optimizer/commit/58417e50147884c19b516aa161df824d377885a8) | [#1014](https://github.com/NVIDIA/Model-Optimizer/pull/1014) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `infra` `quantization` `tests` `torch` | Added block wise RHT |
 | 2026-03-12 | [4dc99325](https://github.com/NVIDIA/Model-Optimizer/commit/4dc99325c3dbf93f34a8286f159bd2979b2517a2) | [#989](https://github.com/NVIDIA/Model-Optimizer/pull/989) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Draft: anymodel activation scoring |
 | 2026-03-12 | [d358eb3b](https://github.com/NVIDIA/Model-Optimizer/commit/d358eb3bf5d614287f785aad9c0a231e2d15c967) | [#990](https://github.com/NVIDIA/Model-Optimizer/pull/990) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` | Draft: Merge anymodel pruning |
 | 2026-03-12 | [8e827f34](https://github.com/NVIDIA/Model-Optimizer/commit/8e827f34b682a29361978438daea17aeda38aef2) | [#993](https://github.com/NVIDIA/Model-Optimizer/pull/993) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` | Draft: Merging anymodel:build_library_and_stats |
@@ -73,4 +77,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 67 PRs**
+**Total: 71 PRs**

@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-14 | [bc96f1ce](https://github.com/NVIDIA/Model-Optimizer/commit/bc96f1ce39d28e2073fda076c119263094b619ee) | [#1012](https://github.com/NVIDIA/Model-Optimizer/pull/1012) | [@meenchen](https://github.com/meenchen) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-3277\] Update kv cache behavior |
+| 2026-03-13 | [8fe318d4](https://github.com/NVIDIA/Model-Optimizer/commit/8fe318d46436927cbae53cdffb9319b9b9a88f0d) | [#995](https://github.com/NVIDIA/Model-Optimizer/pull/995) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Draft: merge any_model: mip_and_realize_models |
+| 2026-03-13 | [d0abca79](https://github.com/NVIDIA/Model-Optimizer/commit/d0abca79812eae28de2bc57d30c1458c79cdaad8) | [#1018](https://github.com/NVIDIA/Model-Optimizer/pull/1018) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Support megatron tokenization for post training datasets |
+| 2026-03-13 | [58417e50](https://github.com/NVIDIA/Model-Optimizer/commit/58417e50147884c19b516aa161df824d377885a8) | [#1014](https://github.com/NVIDIA/Model-Optimizer/pull/1014) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `infra` `quantization` `tests` `torch` | Added block wise RHT |
+| 2026-03-13 | [2d7d1ec3](https://github.com/NVIDIA/Model-Optimizer/commit/2d7d1ec345870829cd53f99c6536dd16ad3f7ce5) | [#987](https://github.com/NVIDIA/Model-Optimizer/pull/987) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `sparsity` `tests` `torch` | Skip softmax calibration with list of thresholds |
 | 2026-03-12 | [4dc99325](https://github.com/NVIDIA/Model-Optimizer/commit/4dc99325c3dbf93f34a8286f159bd2979b2517a2) | [#989](https://github.com/NVIDIA/Model-Optimizer/pull/989) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Draft: anymodel activation scoring |
 | 2026-03-12 | [69c0d479](https://github.com/NVIDIA/Model-Optimizer/commit/69c0d47946086d032e665ecf59a9ff28dc32f5b8) | [#1026](https://github.com/NVIDIA/Model-Optimizer/pull/1026) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3252\]\[ONNX\] MOQ + Autotune moq integration docs |
 | 2026-03-11 | [fe832701](https://github.com/NVIDIA/Model-Optimizer/commit/fe8327013974801d8e9dad00cbb4f3f95175e5c4) | [#970](https://github.com/NVIDIA/Model-Optimizer/pull/970) | [@realAsma](https://github.com/realAsma) | `quantization` `tests` `torch` | Refactor HF _QuantSparseMoe: config-driven token counting, NemotronH detection |
@@ -80,4 +85,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 74 PRs**
+**Total: 79 PRs**

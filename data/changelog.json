@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-03-14",
+    "commit": "812e8c60a2ce8fb538eae9905cf64a0a95502ae2",
+    "pr_number": 1010,
+    "author": "jingyu-ml",
+    "title": "Minor update on the LTX2 NVFP4 recipe",
+    "tags": [
+      "diffusers",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-14",
+    "commit": "6f32d242fc6851a6cb871989e2377159fee38a39",
+    "pr_number": 886,
+    "author": "jingyu-ml",
+    "title": "Implicit Gemm NVFP4 on Conv3D",
+    "tags": [
+      "experimental"
+    ]
+  },
+  {
+    "date": "2026-03-14",
+    "commit": "bc96f1ce39d28e2073fda076c119263094b619ee",
+    "pr_number": 1012,
+    "author": "meenchen",
+    "title": "[OMNIML-3277] Update kv cache behavior",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-14",
+    "commit": "5b417377a80f7c6d7e9c479ca3f15b20a0bd684d",
+    "pr_number": 820,
+    "author": "Edwardf0t1",
+    "title": "Support Kimi-K2.5 PTQ",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-03-13",
     "commit": "bc8798182da42859fec7a7632928f15f0649f3f7",
     "pr_number": 943,
@@ -7,6 +60,55 @@
     "title": "[minor]: fix NemotronH model export in HF path",
     "tags": [
       "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-13",
+    "commit": "8fe318d46436927cbae53cdffb9319b9b9a88f0d",
+    "pr_number": 995,
+    "author": "danielkorzekwa",
+    "title": "Draft: merge any_model: mip_and_realize_models",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-13",
+    "commit": "d0abca79812eae28de2bc57d30c1458c79cdaad8",
+    "pr_number": 1018,
+    "author": "kevalmorabia97",
+    "title": "Support megatron tokenization for post training datasets",
+    "tags": [
+      "core",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-13",
+    "commit": "58417e50147884c19b516aa161df824d377885a8",
+    "pr_number": 1014,
+    "author": "kinjalpatel27",
+    "title": "Added block wise RHT",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-13",
+    "commit": "2d7d1ec345870829cd53f99c6536dd16ad3f7ce5",
+    "pr_number": 987,
+    "author": "rohansjoshi",
+    "title": "Skip softmax calibration with list of thresholds",
+    "tags": [
+      "example",
+      "sparsity",
+      "tests",
       "torch"
     ]
   },

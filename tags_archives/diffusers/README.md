@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-14 | [812e8c60](https://github.com/NVIDIA/Model-Optimizer/commit/812e8c60a2ce8fb538eae9905cf64a0a95502ae2) | [#1010](https://github.com/NVIDIA/Model-Optimizer/pull/1010) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | Minor update on the LTX2 NVFP4 recipe |
 | 2026-03-06 | [37d3f10c](https://github.com/NVIDIA/Model-Optimizer/commit/37d3f10cbd0676ec31e15fa42807c2bdbc8e9b4e) | [#972](https://github.com/NVIDIA/Model-Optimizer/pull/972) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | To support LTX2 ComfyUI format |
 | 2026-03-06 | [e2a4a8bf](https://github.com/NVIDIA/Model-Optimizer/commit/e2a4a8bf682bf3ddb30a64363a791650b9e4f11f) | [#984](https://github.com/NVIDIA/Model-Optimizer/pull/984) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `tests` `torch` | Remove unused diffusers/cache_diffusion/pipeline and cuda-python dependency |
 | 2026-03-06 | [1ccd945a](https://github.com/NVIDIA/Model-Optimizer/commit/1ccd945a5159a7e37a84ecd004daf2b52908c3ba) | [#996](https://github.com/NVIDIA/Model-Optimizer/pull/996) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `example` `infra` `tests` `torch` | Remove unused diffusers/cache_diffusion/pipeline and cuda-python dependency |
@@ -17,4 +18,4 @@
 | 2026-01-15 | [e6e4efd6](https://github.com/NVIDIA/Model-Optimizer/commit/e6e4efd61efcc87de10a6a72274e2017cbc13438) | [#783](https://github.com/NVIDIA/Model-Optimizer/pull/783) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `eval` `example` `export` `quantization` `torch` | \[0.5/3\] Diffusion ckpt export for NVFP4 & FP8 |
 
 ---
-**Total: 11 PRs**
+**Total: 12 PRs**

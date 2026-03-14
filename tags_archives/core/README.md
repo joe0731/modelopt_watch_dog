@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-13 | [d0abca79](https://github.com/NVIDIA/Model-Optimizer/commit/d0abca79812eae28de2bc57d30c1458c79cdaad8) | [#1018](https://github.com/NVIDIA/Model-Optimizer/pull/1018) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Support megatron tokenization for post training datasets |
 | 2026-03-10 | [cbab3779](https://github.com/NVIDIA/Model-Optimizer/commit/cbab377983374a43b6d3f7d7d25ab8411b0598a3) | [#1008](https://github.com/NVIDIA/Model-Optimizer/pull/1008) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `pruning` `tests` `torch` | Fix Mcore test utils for M-LM main |
 | 2026-03-10 | [a5d46ff1](https://github.com/NVIDIA/Model-Optimizer/commit/a5d46ff12b20dbe1195e90b21b3b5fdcf4067049) | [#953](https://github.com/NVIDIA/Model-Optimizer/pull/953) | [@realAsma](https://github.com/realAsma) | `core` `infra` `quantization` `tests` `torch` | Auto Quantize improvements and bug fixes for large sparse MoEs |
 | 2026-03-09 | [d3748c2c](https://github.com/NVIDIA/Model-Optimizer/commit/d3748c2c601914dcd3a2b9f25c70a047258c4531) | [#997](https://github.com/NVIDIA/Model-Optimizer/pull/997) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `example` `tests` `torch` | Allow basename of dataset paths to match registered names |
@@ -38,4 +39,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 32 PRs**
+**Total: 33 PRs**
