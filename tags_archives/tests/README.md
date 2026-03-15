@@ -5,6 +5,8 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-03-14 | [bc96f1ce](https://github.com/NVIDIA/Model-Optimizer/commit/bc96f1ce39d28e2073fda076c119263094b619ee) | [#1012](https://github.com/NVIDIA/Model-Optimizer/pull/1012) | [@meenchen](https://github.com/meenchen) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-3277\] Update kv cache behavior |
+| 2026-03-14 | [0f8482a9](https://github.com/NVIDIA/Model-Optimizer/commit/0f8482a9826ec5ef35fc6bd796af9f5f121fe3c6) | [#1040](https://github.com/NVIDIA/Model-Optimizer/pull/1040) | [@Fridah-nv](https://github.com/Fridah-nv) | `tests` | \[minor\]: Fix AutoQuant Megatron test |
+| 2026-03-14 | [1070d895](https://github.com/NVIDIA/Model-Optimizer/commit/1070d895dcf75ae889781451bfb39e009a95bcb5) | [#947](https://github.com/NVIDIA/Model-Optimizer/pull/947) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Flux2-Dev Quantization |
 | 2026-03-13 | [8fe318d4](https://github.com/NVIDIA/Model-Optimizer/commit/8fe318d46436927cbae53cdffb9319b9b9a88f0d) | [#995](https://github.com/NVIDIA/Model-Optimizer/pull/995) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Draft: merge any_model: mip_and_realize_models |
 | 2026-03-13 | [d0abca79](https://github.com/NVIDIA/Model-Optimizer/commit/d0abca79812eae28de2bc57d30c1458c79cdaad8) | [#1018](https://github.com/NVIDIA/Model-Optimizer/pull/1018) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Support megatron tokenization for post training datasets |
 | 2026-03-13 | [58417e50](https://github.com/NVIDIA/Model-Optimizer/commit/58417e50147884c19b516aa161df824d377885a8) | [#1014](https://github.com/NVIDIA/Model-Optimizer/pull/1014) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `infra` `quantization` `tests` `torch` | Added block wise RHT |
@@ -85,4 +87,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 79 PRs**
+**Total: 81 PRs**

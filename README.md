@@ -79,6 +79,8 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-03-14 | [0f8482a9](https://github.com/NVIDIA/Model-Optimizer/commit/0f8482a9826ec5ef35fc6bd796af9f5f121fe3c6) | [#1040](https://github.com/NVIDIA/Model-Optimizer/pull/1040) | [@Fridah-nv](https://github.com/Fridah-nv) | `tests` | \[minor\]: Fix AutoQuant Megatron test |
+| 2026-03-14 | [1070d895](https://github.com/NVIDIA/Model-Optimizer/commit/1070d895dcf75ae889781451bfb39e009a95bcb5) | [#947](https://github.com/NVIDIA/Model-Optimizer/pull/947) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Flux2-Dev Quantization |
 | 2026-03-14 | [812e8c60](https://github.com/NVIDIA/Model-Optimizer/commit/812e8c60a2ce8fb538eae9905cf64a0a95502ae2) | [#1010](https://github.com/NVIDIA/Model-Optimizer/pull/1010) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | Minor update on the LTX2 NVFP4 recipe |
 | 2026-03-14 | [6f32d242](https://github.com/NVIDIA/Model-Optimizer/commit/6f32d242fc6851a6cb871989e2377159fee38a39) | [#886](https://github.com/NVIDIA/Model-Optimizer/pull/886) | [@jingyu-ml](https://github.com/jingyu-ml) | `experimental` | Implicit Gemm NVFP4 on Conv3D |
 | 2026-03-14 | [bc96f1ce](https://github.com/NVIDIA/Model-Optimizer/commit/bc96f1ce39d28e2073fda076c119263094b619ee) | [#1012](https://github.com/NVIDIA/Model-Optimizer/pull/1012) | [@meenchen](https://github.com/meenchen) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-3277\] Update kv cache behavior |

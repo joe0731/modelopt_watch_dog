@@ -53,6 +53,31 @@
     ]
   },
   {
+    "date": "2026-03-14",
+    "commit": "0f8482a9826ec5ef35fc6bd796af9f5f121fe3c6",
+    "pr_number": 1040,
+    "author": "Fridah-nv",
+    "title": "[minor]: Fix AutoQuant Megatron test",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-14",
+    "commit": "1070d895dcf75ae889781451bfb39e009a95bcb5",
+    "pr_number": 947,
+    "author": "jingyu-ml",
+    "title": "Flux2-Dev Quantization",
+    "tags": [
+      "diffusers",
+      "example",
+      "export",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-03-13",
     "commit": "bc8798182da42859fec7a7632928f15f0649f3f7",
     "pr_number": 943,

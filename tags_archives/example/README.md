@@ -7,6 +7,7 @@
 | 2026-03-14 | [812e8c60](https://github.com/NVIDIA/Model-Optimizer/commit/812e8c60a2ce8fb538eae9905cf64a0a95502ae2) | [#1010](https://github.com/NVIDIA/Model-Optimizer/pull/1010) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | Minor update on the LTX2 NVFP4 recipe |
 | 2026-03-14 | [bc96f1ce](https://github.com/NVIDIA/Model-Optimizer/commit/bc96f1ce39d28e2073fda076c119263094b619ee) | [#1012](https://github.com/NVIDIA/Model-Optimizer/pull/1012) | [@meenchen](https://github.com/meenchen) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-3277\] Update kv cache behavior |
 | 2026-03-14 | [5b417377](https://github.com/NVIDIA/Model-Optimizer/commit/5b417377a80f7c6d7e9c479ca3f15b20a0bd684d) | [#820](https://github.com/NVIDIA/Model-Optimizer/pull/820) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `infra` `quantization` `torch` | Support Kimi-K2.5 PTQ |
+| 2026-03-14 | [1070d895](https://github.com/NVIDIA/Model-Optimizer/commit/1070d895dcf75ae889781451bfb39e009a95bcb5) | [#947](https://github.com/NVIDIA/Model-Optimizer/pull/947) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Flux2-Dev Quantization |
 | 2026-03-13 | [2d7d1ec3](https://github.com/NVIDIA/Model-Optimizer/commit/2d7d1ec345870829cd53f99c6536dd16ad3f7ce5) | [#987](https://github.com/NVIDIA/Model-Optimizer/pull/987) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `sparsity` `tests` `torch` | Skip softmax calibration with list of thresholds |
 | 2026-03-12 | [69c0d479](https://github.com/NVIDIA/Model-Optimizer/commit/69c0d47946086d032e665ecf59a9ff28dc32f5b8) | [#1026](https://github.com/NVIDIA/Model-Optimizer/pull/1026) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3252\]\[ONNX\] MOQ + Autotune moq integration docs |
 | 2026-03-11 | [34a9fc79](https://github.com/NVIDIA/Model-Optimizer/commit/34a9fc7924be8efed739ee4327d0aa7ac56a84e0) | [#1023](https://github.com/NVIDIA/Model-Optimizer/pull/1023) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `torch` | Add support matrix for Nemotron-3 |
@@ -76,4 +77,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 70 PRs**
+**Total: 71 PRs**
