@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-17 | [00fa5bd7](https://github.com/NVIDIA/Model-Optimizer/commit/00fa5bd790a96866c150e85bbb48640cebe4e4b3) | [#1000](https://github.com/NVIDIA/Model-Optimizer/pull/1000) | [@shengliangxu](https://github.com/shengliangxu) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | ModelOpt Framework, Recipe Lib, converting subset of existing recipes 1/N |
 | 2026-03-14 | [bc96f1ce](https://github.com/NVIDIA/Model-Optimizer/commit/bc96f1ce39d28e2073fda076c119263094b619ee) | [#1012](https://github.com/NVIDIA/Model-Optimizer/pull/1012) | [@meenchen](https://github.com/meenchen) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-3277\] Update kv cache behavior |
 | 2026-03-14 | [5b417377](https://github.com/NVIDIA/Model-Optimizer/commit/5b417377a80f7c6d7e9c479ca3f15b20a0bd684d) | [#820](https://github.com/NVIDIA/Model-Optimizer/pull/820) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `infra` `quantization` `torch` | Support Kimi-K2.5 PTQ |
 | 2026-03-11 | [34a9fc79](https://github.com/NVIDIA/Model-Optimizer/commit/34a9fc7924be8efed739ee4327d0aa7ac56a84e0) | [#1023](https://github.com/NVIDIA/Model-Optimizer/pull/1023) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `torch` | Add support matrix for Nemotron-3 |
@@ -29,4 +30,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 23 PRs**
+**Total: 24 PRs**

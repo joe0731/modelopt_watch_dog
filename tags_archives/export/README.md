@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-17 | [e4df91bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4df91bf044861ec5615e1c6ed5e07795a3b24ca) | [#852](https://github.com/NVIDIA/Model-Optimizer/pull/852) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `tests` `torch` | OMNIML-2663\] Replace modelopt FP8 QDQ nodes with native ONNX QDQ nodes |
+| 2026-03-16 | [7b34de64](https://github.com/NVIDIA/Model-Optimizer/commit/7b34de6436deb2609a1aaa1f5c0643b545b25dbe) | [#1033](https://github.com/NVIDIA/Model-Optimizer/pull/1033) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `torch` | Unify weight_scale_2 between gate_proj/up_proj (and w1/w3) in the HF export path for MOE models |
 | 2026-03-14 | [bc96f1ce](https://github.com/NVIDIA/Model-Optimizer/commit/bc96f1ce39d28e2073fda076c119263094b619ee) | [#1012](https://github.com/NVIDIA/Model-Optimizer/pull/1012) | [@meenchen](https://github.com/meenchen) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-3277\] Update kv cache behavior |
 | 2026-03-14 | [1070d895](https://github.com/NVIDIA/Model-Optimizer/commit/1070d895dcf75ae889781451bfb39e009a95bcb5) | [#947](https://github.com/NVIDIA/Model-Optimizer/pull/947) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Flux2-Dev Quantization |
 | 2026-03-13 | [bc879818](https://github.com/NVIDIA/Model-Optimizer/commit/bc8798182da42859fec7a7632928f15f0649f3f7) | [#943](https://github.com/NVIDIA/Model-Optimizer/pull/943) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `torch` | \[minor\]: fix NemotronH model export in HF path |
@@ -44,4 +46,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 38 PRs**
+**Total: 40 PRs**

@@ -8,6 +8,11 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-03-17 | [beac6e9f](https://github.com/NVIDIA/Model-Optimizer/commit/beac6e9faac718479034c8a6a8259c8052154c92) | [#982](https://github.com/NVIDIA/Model-Optimizer/pull/982) | [@sugunav14](https://github.com/sugunav14) | `core` `quantization` `tests` `torch` | Sequential calibrate refactor |
+| 🟠 | **2026-03-17** | **[e4df91bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4df91bf044861ec5615e1c6ed5e07795a3b24ca)** | **[#852](https://github.com/NVIDIA/Model-Optimizer/pull/852)** | **[@ajrasane](https://github.com/ajrasane)** | `deploy` `export` `infra` `onnx` `tests` `torch` | **OMNIML-2663\] Replace modelopt FP8 QDQ nodes with native ONNX QDQ nodes** |
+|  | 2026-03-17 | [cb1ff321](https://github.com/NVIDIA/Model-Optimizer/commit/cb1ff321ee900cf8b55fa91d0bbec5da3d30cfb1) | [#1048](https://github.com/NVIDIA/Model-Optimizer/pull/1048) | [@ivanbasov](https://github.com/ivanbasov) | `docs` `infra` | Add Python 3.13 support |
+| 🟡 | **2026-03-17** | **[00fa5bd7](https://github.com/NVIDIA/Model-Optimizer/commit/00fa5bd790a96866c150e85bbb48640cebe4e4b3)** | **[#1000](https://github.com/NVIDIA/Model-Optimizer/pull/1000)** | **[@shengliangxu](https://github.com/shengliangxu)** | `core` `eval` `example` `infra` `quantization` `tests` `torch` | **ModelOpt Framework, Recipe Lib, converting subset of existing recipes 1/N** |
+|  | 2026-03-16 | [7b34de64](https://github.com/NVIDIA/Model-Optimizer/commit/7b34de6436deb2609a1aaa1f5c0643b545b25dbe) | [#1033](https://github.com/NVIDIA/Model-Optimizer/pull/1033) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `torch` | Unify weight_scale_2 between gate_proj/up_proj (and w1/w3) in the HF export path for MOE models |
 |  | 2026-03-14 | [812e8c60](https://github.com/NVIDIA/Model-Optimizer/commit/812e8c60a2ce8fb538eae9905cf64a0a95502ae2) | [#1010](https://github.com/NVIDIA/Model-Optimizer/pull/1010) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | Minor update on the LTX2 NVFP4 recipe |
 |  | 2026-03-14 | [6f32d242](https://github.com/NVIDIA/Model-Optimizer/commit/6f32d242fc6851a6cb871989e2377159fee38a39) | [#886](https://github.com/NVIDIA/Model-Optimizer/pull/886) | [@jingyu-ml](https://github.com/jingyu-ml) | `experimental` | Implicit Gemm NVFP4 on Conv3D |
 | 🟡 | **2026-03-14** | **[bc96f1ce](https://github.com/NVIDIA/Model-Optimizer/commit/bc96f1ce39d28e2073fda076c119263094b619ee)** | **[#1012](https://github.com/NVIDIA/Model-Optimizer/pull/1012)** | **[@meenchen](https://github.com/meenchen)** | `eval` `example` `export` `infra` `quantization` `tests` `torch` | **\[OMNIML-3277\] Update kv cache behavior** |
@@ -73,4 +78,4 @@
 | 🟡🟠 | **2026-03-02** | **[82f1d216](https://github.com/NVIDIA/Model-Optimizer/commit/82f1d216d1a9022e60b8e1143a77f36c00b885a4)** | **[#935](https://github.com/NVIDIA/Model-Optimizer/pull/935)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `core` `diffusers` `distillation` `docs` `eval` `example` `infra` `onnx` `quantization` `sparsity` `torch` `windows` | **Add Security and IP related contributing guide and configure coderabbit to catch such issues** |
 
 ---
-**Total: 63 PRs** | **Highlighted: 18**
+**Total: 68 PRs** | **Highlighted: 20**

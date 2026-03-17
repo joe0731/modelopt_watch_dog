@@ -1,5 +1,71 @@
 [
   {
+    "date": "2026-03-17",
+    "commit": "beac6e9faac718479034c8a6a8259c8052154c92",
+    "pr_number": 982,
+    "author": "sugunav14",
+    "title": "Sequential calibrate refactor",
+    "tags": [
+      "core",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-17",
+    "commit": "e4df91bf044861ec5615e1c6ed5e07795a3b24ca",
+    "pr_number": 852,
+    "author": "ajrasane",
+    "title": "OMNIML-2663] Replace modelopt FP8 QDQ nodes with native ONNX QDQ nodes",
+    "tags": [
+      "deploy",
+      "export",
+      "infra",
+      "onnx",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-17",
+    "commit": "cb1ff321ee900cf8b55fa91d0bbec5da3d30cfb1",
+    "pr_number": 1048,
+    "author": "ivanbasov",
+    "title": "Add Python 3.13 support",
+    "tags": [
+      "docs",
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-03-17",
+    "commit": "00fa5bd790a96866c150e85bbb48640cebe4e4b3",
+    "pr_number": 1000,
+    "author": "shengliangxu",
+    "title": "ModelOpt Framework, Recipe Lib, converting subset of existing recipes 1/N",
+    "tags": [
+      "core",
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "commit": "7b34de6436deb2609a1aaa1f5c0643b545b25dbe",
+    "pr_number": 1033,
+    "author": "Edwardf0t1",
+    "title": "Unify weight_scale_2 between gate_proj/up_proj (and w1/w3) in the HF export path for MOE models",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-03-14",
     "commit": "812e8c60a2ce8fb538eae9905cf64a0a95502ae2",
     "pr_number": 1010,

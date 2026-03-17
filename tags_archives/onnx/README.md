@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-17 | [e4df91bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4df91bf044861ec5615e1c6ed5e07795a3b24ca) | [#852](https://github.com/NVIDIA/Model-Optimizer/pull/852) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `tests` `torch` | OMNIML-2663\] Replace modelopt FP8 QDQ nodes with native ONNX QDQ nodes |
 | 2026-03-12 | [69c0d479](https://github.com/NVIDIA/Model-Optimizer/commit/69c0d47946086d032e665ecf59a9ff28dc32f5b8) | [#1026](https://github.com/NVIDIA/Model-Optimizer/pull/1026) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3252\]\[ONNX\] MOQ + Autotune moq integration docs |
 | 2026-03-11 | [26cad678](https://github.com/NVIDIA/Model-Optimizer/commit/26cad678d208853f387b3def83054a285a62c847) | [#951](https://github.com/NVIDIA/Model-Optimizer/pull/951) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `quantization` `tests` | \[OMNIML-3252\]\[ONNX\] Add real Q/DQ scales in Autotune |
 | 2026-03-10 | [0a84bb2c](https://github.com/NVIDIA/Model-Optimizer/commit/0a84bb2caf88cd8821558dd5bd7f80a8d13d5ad0) | [#992](https://github.com/NVIDIA/Model-Optimizer/pull/992) | [@hthadicherla](https://github.com/hthadicherla) | `infra` `onnx` `tests` | Graph Surgery Framework for TRT-RTX |
@@ -40,4 +41,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 34 PRs**
+**Total: 35 PRs**
