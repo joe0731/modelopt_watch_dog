@@ -55,6 +55,20 @@
     ]
   },
   {
+    "date": "2026-03-17",
+    "commit": "7c33d85607706ae4d7159e93f9fc6dd1cfef2ce4",
+    "pr_number": 1034,
+    "author": "kaix-nv",
+    "title": "[1/n] Add a Triton attention kernel with HF integration",
+    "tags": [
+      "example",
+      "infra",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-03-16",
     "commit": "7b34de6436deb2609a1aaa1f5c0643b545b25dbe",
     "pr_number": 1033,

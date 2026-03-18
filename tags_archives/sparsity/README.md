@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-17 | [7c33d856](https://github.com/NVIDIA/Model-Optimizer/commit/7c33d85607706ae4d7159e93f9fc6dd1cfef2ce4) | [#1034](https://github.com/NVIDIA/Model-Optimizer/pull/1034) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[1/n\] Add a Triton attention kernel with HF integration |
 | 2026-03-13 | [2d7d1ec3](https://github.com/NVIDIA/Model-Optimizer/commit/2d7d1ec345870829cd53f99c6536dd16ad3f7ce5) | [#987](https://github.com/NVIDIA/Model-Optimizer/pull/987) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `sparsity` `tests` `torch` | Skip softmax calibration with list of thresholds |
 | 2026-03-03 | [a076e6c2](https://github.com/NVIDIA/Model-Optimizer/commit/a076e6c218ba024323b46cf2b3094fd9f1f67072) | [#958](https://github.com/NVIDIA/Model-Optimizer/pull/958) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Make GPU tests \>2x faster by reusing spawn processes between tests |
 | 2026-03-02 | [82f1d216](https://github.com/NVIDIA/Model-Optimizer/commit/82f1d216d1a9022e60b8e1143a77f36c00b885a4) | [#935](https://github.com/NVIDIA/Model-Optimizer/pull/935) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `distillation` `docs` `eval` `example` `infra` `onnx` `quantization` `sparsity` `torch` `windows` | Add Security and IP related contributing guide and configure coderabbit to catch such issues |
@@ -13,4 +14,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 7 PRs**
+**Total: 8 PRs**

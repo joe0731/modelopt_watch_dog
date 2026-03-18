@@ -7,6 +7,7 @@
 | 2026-03-17 | [beac6e9f](https://github.com/NVIDIA/Model-Optimizer/commit/beac6e9faac718479034c8a6a8259c8052154c92) | [#982](https://github.com/NVIDIA/Model-Optimizer/pull/982) | [@sugunav14](https://github.com/sugunav14) | `core` `quantization` `tests` `torch` | Sequential calibrate refactor |
 | 2026-03-17 | [e4df91bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4df91bf044861ec5615e1c6ed5e07795a3b24ca) | [#852](https://github.com/NVIDIA/Model-Optimizer/pull/852) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `tests` `torch` | OMNIML-2663\] Replace modelopt FP8 QDQ nodes with native ONNX QDQ nodes |
 | 2026-03-17 | [00fa5bd7](https://github.com/NVIDIA/Model-Optimizer/commit/00fa5bd790a96866c150e85bbb48640cebe4e4b3) | [#1000](https://github.com/NVIDIA/Model-Optimizer/pull/1000) | [@shengliangxu](https://github.com/shengliangxu) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | ModelOpt Framework, Recipe Lib, converting subset of existing recipes 1/N |
+| 2026-03-17 | [7c33d856](https://github.com/NVIDIA/Model-Optimizer/commit/7c33d85607706ae4d7159e93f9fc6dd1cfef2ce4) | [#1034](https://github.com/NVIDIA/Model-Optimizer/pull/1034) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[1/n\] Add a Triton attention kernel with HF integration |
 | 2026-03-16 | [7b34de64](https://github.com/NVIDIA/Model-Optimizer/commit/7b34de6436deb2609a1aaa1f5c0643b545b25dbe) | [#1033](https://github.com/NVIDIA/Model-Optimizer/pull/1033) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `torch` | Unify weight_scale_2 between gate_proj/up_proj (and w1/w3) in the HF export path for MOE models |
 | 2026-03-14 | [812e8c60](https://github.com/NVIDIA/Model-Optimizer/commit/812e8c60a2ce8fb538eae9905cf64a0a95502ae2) | [#1010](https://github.com/NVIDIA/Model-Optimizer/pull/1010) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | Minor update on the LTX2 NVFP4 recipe |
 | 2026-03-14 | [bc96f1ce](https://github.com/NVIDIA/Model-Optimizer/commit/bc96f1ce39d28e2073fda076c119263094b619ee) | [#1012](https://github.com/NVIDIA/Model-Optimizer/pull/1012) | [@meenchen](https://github.com/meenchen) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-3277\] Update kv cache behavior |
@@ -135,4 +136,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 129 PRs**
+**Total: 130 PRs**

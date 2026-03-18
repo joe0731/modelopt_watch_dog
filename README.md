@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-03-17 | [7c33d856](https://github.com/NVIDIA/Model-Optimizer/commit/7c33d85607706ae4d7159e93f9fc6dd1cfef2ce4) | [#1034](https://github.com/NVIDIA/Model-Optimizer/pull/1034) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[1/n\] Add a Triton attention kernel with HF integration |
 | 2026-03-17 | [beac6e9f](https://github.com/NVIDIA/Model-Optimizer/commit/beac6e9faac718479034c8a6a8259c8052154c92) | [#982](https://github.com/NVIDIA/Model-Optimizer/pull/982) | [@sugunav14](https://github.com/sugunav14) | `core` `quantization` `tests` `torch` | Sequential calibrate refactor |
 | 2026-03-17 | [e4df91bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4df91bf044861ec5615e1c6ed5e07795a3b24ca) | [#852](https://github.com/NVIDIA/Model-Optimizer/pull/852) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `tests` `torch` | OMNIML-2663\] Replace modelopt FP8 QDQ nodes with native ONNX QDQ nodes |
 | 2026-03-17 | [cb1ff321](https://github.com/NVIDIA/Model-Optimizer/commit/cb1ff321ee900cf8b55fa91d0bbec5da3d30cfb1) | [#1048](https://github.com/NVIDIA/Model-Optimizer/pull/1048) | [@ivanbasov](https://github.com/ivanbasov) | `docs` `infra` | Add Python 3.13 support |

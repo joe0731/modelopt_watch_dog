@@ -7,6 +7,7 @@
 | 2026-03-17 | [e4df91bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4df91bf044861ec5615e1c6ed5e07795a3b24ca) | [#852](https://github.com/NVIDIA/Model-Optimizer/pull/852) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `tests` `torch` | OMNIML-2663\] Replace modelopt FP8 QDQ nodes with native ONNX QDQ nodes |
 | 2026-03-17 | [cb1ff321](https://github.com/NVIDIA/Model-Optimizer/commit/cb1ff321ee900cf8b55fa91d0bbec5da3d30cfb1) | [#1048](https://github.com/NVIDIA/Model-Optimizer/pull/1048) | [@ivanbasov](https://github.com/ivanbasov) | `docs` `infra` | Add Python 3.13 support |
 | 2026-03-17 | [00fa5bd7](https://github.com/NVIDIA/Model-Optimizer/commit/00fa5bd790a96866c150e85bbb48640cebe4e4b3) | [#1000](https://github.com/NVIDIA/Model-Optimizer/pull/1000) | [@shengliangxu](https://github.com/shengliangxu) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | ModelOpt Framework, Recipe Lib, converting subset of existing recipes 1/N |
+| 2026-03-17 | [7c33d856](https://github.com/NVIDIA/Model-Optimizer/commit/7c33d85607706ae4d7159e93f9fc6dd1cfef2ce4) | [#1034](https://github.com/NVIDIA/Model-Optimizer/pull/1034) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[1/n\] Add a Triton attention kernel with HF integration |
 | 2026-03-14 | [bc96f1ce](https://github.com/NVIDIA/Model-Optimizer/commit/bc96f1ce39d28e2073fda076c119263094b619ee) | [#1012](https://github.com/NVIDIA/Model-Optimizer/pull/1012) | [@meenchen](https://github.com/meenchen) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | \[OMNIML-3277\] Update kv cache behavior |
 | 2026-03-14 | [5b417377](https://github.com/NVIDIA/Model-Optimizer/commit/5b417377a80f7c6d7e9c479ca3f15b20a0bd684d) | [#820](https://github.com/NVIDIA/Model-Optimizer/pull/820) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `infra` `quantization` `torch` | Support Kimi-K2.5 PTQ |
 | 2026-03-13 | [8fe318d4](https://github.com/NVIDIA/Model-Optimizer/commit/8fe318d46436927cbae53cdffb9319b9b9a88f0d) | [#995](https://github.com/NVIDIA/Model-Optimizer/pull/995) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Draft: merge any_model: mip_and_realize_models |
@@ -80,4 +81,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 74 PRs**
+**Total: 75 PRs**
