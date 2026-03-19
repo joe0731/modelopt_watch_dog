@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-18 | [42925055](https://github.com/NVIDIA/Model-Optimizer/commit/429250551267156f72920a33d2d5e3fe926425a2) | [#684](https://github.com/NVIDIA/Model-Optimizer/pull/684) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | Refactor: Clean up EAGLE training dataset preparation |
+| 2026-03-18 | [c76633ac](https://github.com/NVIDIA/Model-Optimizer/commit/c76633ac9defab39f8d2bfd1c44247e1cac7925b) | [#1042](https://github.com/NVIDIA/Model-Optimizer/pull/1042) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | \[EAGLE\] Configurable number of TTT steps |
+| 2026-03-18 | [1dc890d9](https://github.com/NVIDIA/Model-Optimizer/commit/1dc890d97105d77574009184aa74590c6a7ae14a) | [#1062](https://github.com/NVIDIA/Model-Optimizer/pull/1062) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | Remove _moe_count_expert_calib_tokens flag; tie token counting to moe_calib_experts_ratio |
+| 2026-03-18 | [6ffe4a52](https://github.com/NVIDIA/Model-Optimizer/commit/6ffe4a52b3ccc7d8746500924599e9ffe32282ea) | [#1065](https://github.com/NVIDIA/Model-Optimizer/pull/1065) | [@sungsooha](https://github.com/sungsooha) | `eval` `example` `quantization` `torch` | Add nvfp4_local_hessian to QUANT_CFG_CHOICES |
+| 2026-03-18 | [52cfa4ec](https://github.com/NVIDIA/Model-Optimizer/commit/52cfa4ecffeda7a6137c33f3710efdeee0adf53b) | [#983](https://github.com/NVIDIA/Model-Optimizer/pull/983) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `torch` | fix: https://github.com/NVIDIA/Model-Optimizer/issues/981 |
 | 2026-03-17 | [beac6e9f](https://github.com/NVIDIA/Model-Optimizer/commit/beac6e9faac718479034c8a6a8259c8052154c92) | [#982](https://github.com/NVIDIA/Model-Optimizer/pull/982) | [@sugunav14](https://github.com/sugunav14) | `core` `quantization` `tests` `torch` | Sequential calibrate refactor |
 | 2026-03-17 | [e4df91bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4df91bf044861ec5615e1c6ed5e07795a3b24ca) | [#852](https://github.com/NVIDIA/Model-Optimizer/pull/852) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `tests` `torch` | OMNIML-2663\] Replace modelopt FP8 QDQ nodes with native ONNX QDQ nodes |
 | 2026-03-17 | [00fa5bd7](https://github.com/NVIDIA/Model-Optimizer/commit/00fa5bd790a96866c150e85bbb48640cebe4e4b3) | [#1000](https://github.com/NVIDIA/Model-Optimizer/pull/1000) | [@shengliangxu](https://github.com/shengliangxu) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | ModelOpt Framework, Recipe Lib, converting subset of existing recipes 1/N |
@@ -136,4 +141,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 130 PRs**
+**Total: 135 PRs**

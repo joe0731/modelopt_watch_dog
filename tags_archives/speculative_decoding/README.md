@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-18 | [42925055](https://github.com/NVIDIA/Model-Optimizer/commit/429250551267156f72920a33d2d5e3fe926425a2) | [#684](https://github.com/NVIDIA/Model-Optimizer/pull/684) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | Refactor: Clean up EAGLE training dataset preparation |
+| 2026-03-18 | [c76633ac](https://github.com/NVIDIA/Model-Optimizer/commit/c76633ac9defab39f8d2bfd1c44247e1cac7925b) | [#1042](https://github.com/NVIDIA/Model-Optimizer/pull/1042) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | \[EAGLE\] Configurable number of TTT steps |
 | 2026-03-09 | [5d0e0127](https://github.com/NVIDIA/Model-Optimizer/commit/5d0e012751a34f7498c851515d610e6ccfe82a2e) | [#946](https://github.com/NVIDIA/Model-Optimizer/pull/946) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `example` `speculative_decoding` `tests` `torch` | inplement mix hidden_states for eagle3; deprecate eagle1 |
 | 2026-03-05 | [dd16a96f](https://github.com/NVIDIA/Model-Optimizer/commit/dd16a96fdac19958bddd7f2d77eda8733e7bcb5e) | [#965](https://github.com/NVIDIA/Model-Optimizer/pull/965) | [@skierat](https://github.com/skierat) | `example` `speculative_decoding` `torch` | example demonstrating how to train CosmosReason2 Eagle3 |
 | 2026-03-04 | [a34d613d](https://github.com/NVIDIA/Model-Optimizer/commit/a34d613d3ce9d23258e1853bc7b01824374666b6) | [#913](https://github.com/NVIDIA/Model-Optimizer/pull/913) | [@h-guo18](https://github.com/h-guo18) | `eval` `example` `export` `quantization` `speculative_decoding` `tests` `torch` | Feat: Speculatice Decoding export with quantization support |
@@ -19,4 +21,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 13 PRs**
+**Total: 15 PRs**

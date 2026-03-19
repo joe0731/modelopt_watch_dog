@@ -1,5 +1,90 @@
 [
   {
+    "date": "2026-03-18",
+    "commit": "429250551267156f72920a33d2d5e3fe926425a2",
+    "pr_number": 684,
+    "author": "benchislett",
+    "title": "Refactor: Clean up EAGLE training dataset preparation",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "commit": "c76633ac9defab39f8d2bfd1c44247e1cac7925b",
+    "pr_number": 1042,
+    "author": "benchislett",
+    "title": "[EAGLE] Configurable number of TTT steps",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "commit": "1dc890d97105d77574009184aa74590c6a7ae14a",
+    "pr_number": 1062,
+    "author": "cjluo-nv",
+    "title": "Remove _moe_count_expert_calib_tokens flag; tie token counting to moe_calib_experts_ratio",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "commit": "6ffe4a52b3ccc7d8746500924599e9ffe32282ea",
+    "pr_number": 1065,
+    "author": "sungsooha",
+    "title": "Add nvfp4_local_hessian to QUANT_CFG_CHOICES",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "commit": "7e2e85a7e41d9bb90ebb76678473254ccc16402c",
+    "pr_number": 1067,
+    "author": "gcunhase",
+    "title": "[5991789][ONNX][Autotune] Add note about remote autotuning only being available in safety",
+    "tags": [
+      "example",
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "commit": "52cfa4ecffeda7a6137c33f3710efdeee0adf53b",
+    "pr_number": 983,
+    "author": "ChenhanYu",
+    "title": "fix: https://github.com/NVIDIA/Model-Optimizer/issues/981",
+    "tags": [
+      "core",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "commit": "839fa3d658a414735a945f9330ac48559eedc7e2",
+    "pr_number": 1031,
+    "author": "ChenhanYu",
+    "title": "add: ModelOpt Launcher for Slurm job submission",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-03-17",
     "commit": "beac6e9faac718479034c8a6a8259c8052154c92",
     "pr_number": 982,

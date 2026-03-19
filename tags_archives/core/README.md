@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-18 | [52cfa4ec](https://github.com/NVIDIA/Model-Optimizer/commit/52cfa4ecffeda7a6137c33f3710efdeee0adf53b) | [#983](https://github.com/NVIDIA/Model-Optimizer/pull/983) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `torch` | fix: https://github.com/NVIDIA/Model-Optimizer/issues/981 |
 | 2026-03-17 | [beac6e9f](https://github.com/NVIDIA/Model-Optimizer/commit/beac6e9faac718479034c8a6a8259c8052154c92) | [#982](https://github.com/NVIDIA/Model-Optimizer/pull/982) | [@sugunav14](https://github.com/sugunav14) | `core` `quantization` `tests` `torch` | Sequential calibrate refactor |
 | 2026-03-17 | [00fa5bd7](https://github.com/NVIDIA/Model-Optimizer/commit/00fa5bd790a96866c150e85bbb48640cebe4e4b3) | [#1000](https://github.com/NVIDIA/Model-Optimizer/pull/1000) | [@shengliangxu](https://github.com/shengliangxu) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | ModelOpt Framework, Recipe Lib, converting subset of existing recipes 1/N |
 | 2026-03-13 | [d0abca79](https://github.com/NVIDIA/Model-Optimizer/commit/d0abca79812eae28de2bc57d30c1458c79cdaad8) | [#1018](https://github.com/NVIDIA/Model-Optimizer/pull/1018) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Support megatron tokenization for post training datasets |
@@ -41,4 +42,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 35 PRs**
+**Total: 36 PRs**
