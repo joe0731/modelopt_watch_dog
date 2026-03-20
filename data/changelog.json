@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-03-20",
+    "commit": "acce79ffa30446cd79f80d81bf745697b062ceec",
+    "pr_number": 1030,
+    "author": "cjluo-nv",
+    "title": "Add NVFP4_EXPERTS_ONLY_CFG quantization config and YAML recipe",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-19",
+    "commit": "660dc17ef3ca40db5a691d9fac4dc0b56cb3f196",
+    "pr_number": 1035,
+    "author": "danielkorzekwa",
+    "title": "Merge any_model tutorial",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-03-18",
     "commit": "429250551267156f72920a33d2d5e3fe926425a2",
     "pr_number": 684,

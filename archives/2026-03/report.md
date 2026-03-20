@@ -8,6 +8,8 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+| 🟡 | **2026-03-20** | **[acce79ff](https://github.com/NVIDIA/Model-Optimizer/commit/acce79ffa30446cd79f80d81bf745697b062ceec)** | **[#1030](https://github.com/NVIDIA/Model-Optimizer/pull/1030)** | **[@cjluo-nv](https://github.com/cjluo-nv)** | `eval` `example` `infra` `quantization` `torch` | **Add NVFP4_EXPERTS_ONLY_CFG quantization config and YAML recipe** |
+|  | 2026-03-19 | [660dc17e](https://github.com/NVIDIA/Model-Optimizer/commit/660dc17ef3ca40db5a691d9fac4dc0b56cb3f196) | [#1035](https://github.com/NVIDIA/Model-Optimizer/pull/1035) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` | Merge any_model tutorial |
 |  | 2026-03-18 | [42925055](https://github.com/NVIDIA/Model-Optimizer/commit/429250551267156f72920a33d2d5e3fe926425a2) | [#684](https://github.com/NVIDIA/Model-Optimizer/pull/684) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | Refactor: Clean up EAGLE training dataset preparation |
 |  | 2026-03-18 | [c76633ac](https://github.com/NVIDIA/Model-Optimizer/commit/c76633ac9defab39f8d2bfd1c44247e1cac7925b) | [#1042](https://github.com/NVIDIA/Model-Optimizer/pull/1042) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | \[EAGLE\] Configurable number of TTT steps |
 | 🟡 | **2026-03-18** | **[1dc890d9](https://github.com/NVIDIA/Model-Optimizer/commit/1dc890d97105d77574009184aa74590c6a7ae14a)** | **[#1062](https://github.com/NVIDIA/Model-Optimizer/pull/1062)** | **[@cjluo-nv](https://github.com/cjluo-nv)** | `eval` `example` `infra` `quantization` `tests` `torch` | **Remove _moe_count_expert_calib_tokens flag; tie token counting to moe_calib_experts_ratio** |
@@ -86,4 +88,4 @@
 | 🟡🟠 | **2026-03-02** | **[82f1d216](https://github.com/NVIDIA/Model-Optimizer/commit/82f1d216d1a9022e60b8e1143a77f36c00b885a4)** | **[#935](https://github.com/NVIDIA/Model-Optimizer/pull/935)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `core` `diffusers` `distillation` `docs` `eval` `example` `infra` `onnx` `quantization` `sparsity` `torch` `windows` | **Add Security and IP related contributing guide and configure coderabbit to catch such issues** |
 
 ---
-**Total: 76 PRs** | **Highlighted: 23**
+**Total: 78 PRs** | **Highlighted: 24**
