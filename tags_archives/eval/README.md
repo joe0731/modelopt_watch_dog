@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-03-20 | [acce79ff](https://github.com/NVIDIA/Model-Optimizer/commit/acce79ffa30446cd79f80d81bf745697b062ceec) | [#1030](https://github.com/NVIDIA/Model-Optimizer/pull/1030) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `torch` | Add NVFP4_EXPERTS_ONLY_CFG quantization config and YAML recipe |
+| 2026-03-20 | [c3a39758](https://github.com/NVIDIA/Model-Optimizer/commit/c3a39758bcfa3b1443b5ef691e037ce44d1c8b85) | [#1086](https://github.com/NVIDIA/Model-Optimizer/pull/1086) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `quantization` `torch` | fix: add nvfp4_mse to autoquant choices |
 | 2026-03-18 | [1dc890d9](https://github.com/NVIDIA/Model-Optimizer/commit/1dc890d97105d77574009184aa74590c6a7ae14a) | [#1062](https://github.com/NVIDIA/Model-Optimizer/pull/1062) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | Remove _moe_count_expert_calib_tokens flag; tie token counting to moe_calib_experts_ratio |
 | 2026-03-18 | [6ffe4a52](https://github.com/NVIDIA/Model-Optimizer/commit/6ffe4a52b3ccc7d8746500924599e9ffe32282ea) | [#1065](https://github.com/NVIDIA/Model-Optimizer/pull/1065) | [@sungsooha](https://github.com/sungsooha) | `eval` `example` `quantization` `torch` | Add nvfp4_local_hessian to QUANT_CFG_CHOICES |
 | 2026-03-17 | [00fa5bd7](https://github.com/NVIDIA/Model-Optimizer/commit/00fa5bd790a96866c150e85bbb48640cebe4e4b3) | [#1000](https://github.com/NVIDIA/Model-Optimizer/pull/1000) | [@shengliangxu](https://github.com/shengliangxu) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | ModelOpt Framework, Recipe Lib, converting subset of existing recipes 1/N |
@@ -33,4 +34,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 27 PRs**
+**Total: 28 PRs**

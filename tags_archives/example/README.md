@@ -4,7 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-21 | [547d8fe9](https://github.com/NVIDIA/Model-Optimizer/commit/547d8fe9353849a411a573fc168a4cac72e39cdb) | [#1044](https://github.com/NVIDIA/Model-Optimizer/pull/1044) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | \[EAGLE\] Optimize EAGLE Training |
 | 2026-03-20 | [acce79ff](https://github.com/NVIDIA/Model-Optimizer/commit/acce79ffa30446cd79f80d81bf745697b062ceec) | [#1030](https://github.com/NVIDIA/Model-Optimizer/pull/1030) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `torch` | Add NVFP4_EXPERTS_ONLY_CFG quantization config and YAML recipe |
+| 2026-03-20 | [f22f4f55](https://github.com/NVIDIA/Model-Optimizer/commit/f22f4f5522dcd650b724d09e3f8d9f36e0a8b01c) | [#1024](https://github.com/NVIDIA/Model-Optimizer/pull/1024) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Add Full TE Spec support for Megatron Pruning DynamicModules + MoE bug fixes |
+| 2026-03-20 | [c3a39758](https://github.com/NVIDIA/Model-Optimizer/commit/c3a39758bcfa3b1443b5ef691e037ce44d1c8b85) | [#1086](https://github.com/NVIDIA/Model-Optimizer/pull/1086) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `quantization` `torch` | fix: add nvfp4_mse to autoquant choices |
 | 2026-03-18 | [42925055](https://github.com/NVIDIA/Model-Optimizer/commit/429250551267156f72920a33d2d5e3fe926425a2) | [#684](https://github.com/NVIDIA/Model-Optimizer/pull/684) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | Refactor: Clean up EAGLE training dataset preparation |
 | 2026-03-18 | [c76633ac](https://github.com/NVIDIA/Model-Optimizer/commit/c76633ac9defab39f8d2bfd1c44247e1cac7925b) | [#1042](https://github.com/NVIDIA/Model-Optimizer/pull/1042) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | \[EAGLE\] Configurable number of TTT steps |
 | 2026-03-18 | [1dc890d9](https://github.com/NVIDIA/Model-Optimizer/commit/1dc890d97105d77574009184aa74590c6a7ae14a) | [#1062](https://github.com/NVIDIA/Model-Optimizer/pull/1062) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | Remove _moe_count_expert_calib_tokens flag; tie token counting to moe_calib_experts_ratio |
@@ -85,4 +88,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 79 PRs**
+**Total: 82 PRs**

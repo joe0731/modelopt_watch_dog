@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-03-21",
+    "commit": "547d8fe9353849a411a573fc168a4cac72e39cdb",
+    "pr_number": 1044,
+    "author": "benchislett",
+    "title": "[EAGLE] Optimize EAGLE Training",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-03-20",
     "commit": "acce79ffa30446cd79f80d81bf745697b062ceec",
     "pr_number": 1030,
@@ -9,6 +21,79 @@
       "eval",
       "example",
       "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-20",
+    "commit": "f22f4f5522dcd650b724d09e3f8d9f36e0a8b01c",
+    "pr_number": 1024,
+    "author": "kevalmorabia97",
+    "title": "Add Full TE Spec support for Megatron Pruning DynamicModules + MoE bug fixes",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "nas",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-20",
+    "commit": "01cba6a5a456623dbfc4754090f9d433bf984ad2",
+    "pr_number": 1036,
+    "author": "danielkorzekwa",
+    "title": "Merge mbridge distillation for any_model",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-20",
+    "commit": "2b6572c00641b1e995ab07751ca3078440df0577",
+    "pr_number": 1047,
+    "author": "danielkorzekwa",
+    "title": "MR branch for the remaining difference between dkorzekwa/any_model an…",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-20",
+    "commit": "e0f8b539055c37ba33d08bdd908b403414fb58d3",
+    "pr_number": 1084,
+    "author": "ajrasane",
+    "title": "[BugFix][5997203] Update Sqrt casts to FP16",
+    "tags": [
+      "deploy",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-20",
+    "commit": "07bc4852a85c72f2712d33afa7987840d7816cd1",
+    "pr_number": 1087,
+    "author": "cjluo-nv",
+    "title": "Default limit max hf quantzed safetensors file to 10GB",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-20",
+    "commit": "c3a39758bcfa3b1443b5ef691e037ce44d1c8b85",
+    "pr_number": 1086,
+    "author": "Fridah-nv",
+    "title": "fix: add nvfp4_mse to autoquant choices",
+    "tags": [
+      "eval",
+      "example",
       "quantization",
       "torch"
     ]

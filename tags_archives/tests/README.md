@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-20 | [f22f4f55](https://github.com/NVIDIA/Model-Optimizer/commit/f22f4f5522dcd650b724d09e3f8d9f36e0a8b01c) | [#1024](https://github.com/NVIDIA/Model-Optimizer/pull/1024) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Add Full TE Spec support for Megatron Pruning DynamicModules + MoE bug fixes |
+| 2026-03-20 | [01cba6a5](https://github.com/NVIDIA/Model-Optimizer/commit/01cba6a5a456623dbfc4754090f9d433bf984ad2) | [#1036](https://github.com/NVIDIA/Model-Optimizer/pull/1036) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Merge mbridge distillation for any_model |
+| 2026-03-20 | [2b6572c0](https://github.com/NVIDIA/Model-Optimizer/commit/2b6572c00641b1e995ab07751ca3078440df0577) | [#1047](https://github.com/NVIDIA/Model-Optimizer/pull/1047) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | MR branch for the remaining difference between dkorzekwa/any_model an… |
 | 2026-03-18 | [1dc890d9](https://github.com/NVIDIA/Model-Optimizer/commit/1dc890d97105d77574009184aa74590c6a7ae14a) | [#1062](https://github.com/NVIDIA/Model-Optimizer/pull/1062) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | Remove _moe_count_expert_calib_tokens flag; tie token counting to moe_calib_experts_ratio |
 | 2026-03-17 | [beac6e9f](https://github.com/NVIDIA/Model-Optimizer/commit/beac6e9faac718479034c8a6a8259c8052154c92) | [#982](https://github.com/NVIDIA/Model-Optimizer/pull/982) | [@sugunav14](https://github.com/sugunav14) | `core` `quantization` `tests` `torch` | Sequential calibrate refactor |
 | 2026-03-17 | [e4df91bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4df91bf044861ec5615e1c6ed5e07795a3b24ca) | [#852](https://github.com/NVIDIA/Model-Optimizer/pull/852) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `tests` `torch` | OMNIML-2663\] Replace modelopt FP8 QDQ nodes with native ONNX QDQ nodes |
@@ -92,4 +95,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 86 PRs**
+**Total: 89 PRs**

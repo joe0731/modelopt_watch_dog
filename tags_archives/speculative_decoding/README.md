@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-21 | [547d8fe9](https://github.com/NVIDIA/Model-Optimizer/commit/547d8fe9353849a411a573fc168a4cac72e39cdb) | [#1044](https://github.com/NVIDIA/Model-Optimizer/pull/1044) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | \[EAGLE\] Optimize EAGLE Training |
 | 2026-03-18 | [42925055](https://github.com/NVIDIA/Model-Optimizer/commit/429250551267156f72920a33d2d5e3fe926425a2) | [#684](https://github.com/NVIDIA/Model-Optimizer/pull/684) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | Refactor: Clean up EAGLE training dataset preparation |
 | 2026-03-18 | [c76633ac](https://github.com/NVIDIA/Model-Optimizer/commit/c76633ac9defab39f8d2bfd1c44247e1cac7925b) | [#1042](https://github.com/NVIDIA/Model-Optimizer/pull/1042) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | \[EAGLE\] Configurable number of TTT steps |
 | 2026-03-09 | [5d0e0127](https://github.com/NVIDIA/Model-Optimizer/commit/5d0e012751a34f7498c851515d610e6ccfe82a2e) | [#946](https://github.com/NVIDIA/Model-Optimizer/pull/946) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `example` `speculative_decoding` `tests` `torch` | inplement mix hidden_states for eagle3; deprecate eagle1 |
@@ -21,4 +22,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 15 PRs**
+**Total: 16 PRs**
