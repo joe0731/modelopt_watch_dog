@@ -12,6 +12,18 @@
     ]
   },
   {
+    "date": "2026-03-21",
+    "commit": "08e5f9221a761ccd1641b01c70ee76b41c1c46c2",
+    "pr_number": 1058,
+    "author": "hthadicherla",
+    "title": "Protobuf 7.34 fix for model size > 2gib",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
     "date": "2026-03-20",
     "commit": "acce79ffa30446cd79f80d81bf745697b062ceec",
     "pr_number": 1030,

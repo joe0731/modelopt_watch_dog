@@ -14,11 +14,11 @@ Click a tag to see its full history.
 | [`example`](example/) | example scripts and notebooks | 82 |
 | [`experimental`](experimental/) | experimental features, research prototypes | 4 |
 | [`export`](export/) | model export, torch-to-ONNX conversion | 41 |
-| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 82 |
+| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 83 |
 | [`nas`](nas/) | neural architecture search, hyperparameter optimization | 6 |
-| [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 36 |
+| [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 37 |
 | [`pruning`](pruning/) | model pruning, structured and unstructured | 7 |
-| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 95 |
+| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 96 |
 | [`sparsity`](sparsity/) | weight sparsity, attention sparsity | 8 |
 | [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 16 |
 | [`tests`](tests/) | test infrastructure, test utilities | 89 |

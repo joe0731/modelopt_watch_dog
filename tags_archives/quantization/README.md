@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-21 | [08e5f922](https://github.com/NVIDIA/Model-Optimizer/commit/08e5f9221a761ccd1641b01c70ee76b41c1c46c2) | [#1058](https://github.com/NVIDIA/Model-Optimizer/pull/1058) | [@hthadicherla](https://github.com/hthadicherla) | `infra` `onnx` `quantization` | Protobuf 7.34 fix for model size \> 2gib |
 | 2026-03-20 | [acce79ff](https://github.com/NVIDIA/Model-Optimizer/commit/acce79ffa30446cd79f80d81bf745697b062ceec) | [#1030](https://github.com/NVIDIA/Model-Optimizer/pull/1030) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `torch` | Add NVFP4_EXPERTS_ONLY_CFG quantization config and YAML recipe |
 | 2026-03-20 | [c3a39758](https://github.com/NVIDIA/Model-Optimizer/commit/c3a39758bcfa3b1443b5ef691e037ce44d1c8b85) | [#1086](https://github.com/NVIDIA/Model-Optimizer/pull/1086) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `quantization` `torch` | fix: add nvfp4_mse to autoquant choices |
 | 2026-03-18 | [1dc890d9](https://github.com/NVIDIA/Model-Optimizer/commit/1dc890d97105d77574009184aa74590c6a7ae14a) | [#1062](https://github.com/NVIDIA/Model-Optimizer/pull/1062) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | Remove _moe_count_expert_calib_tokens flag; tie token counting to moe_calib_experts_ratio |
@@ -101,4 +102,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 95 PRs**
+**Total: 96 PRs**

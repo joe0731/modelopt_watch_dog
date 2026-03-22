@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-21 | [08e5f922](https://github.com/NVIDIA/Model-Optimizer/commit/08e5f9221a761ccd1641b01c70ee76b41c1c46c2) | [#1058](https://github.com/NVIDIA/Model-Optimizer/pull/1058) | [@hthadicherla](https://github.com/hthadicherla) | `infra` `onnx` `quantization` | Protobuf 7.34 fix for model size \> 2gib |
 | 2026-03-18 | [7e2e85a7](https://github.com/NVIDIA/Model-Optimizer/commit/7e2e85a7e41d9bb90ebb76678473254ccc16402c) | [#1067](https://github.com/NVIDIA/Model-Optimizer/pull/1067) | [@gcunhase](https://github.com/gcunhase) | `example` `onnx` `quantization` | \[5991789\]\[ONNX\]\[Autotune\] Add note about remote autotuning only being available in safety |
 | 2026-03-17 | [e4df91bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4df91bf044861ec5615e1c6ed5e07795a3b24ca) | [#852](https://github.com/NVIDIA/Model-Optimizer/pull/852) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `tests` `torch` | OMNIML-2663\] Replace modelopt FP8 QDQ nodes with native ONNX QDQ nodes |
 | 2026-03-12 | [69c0d479](https://github.com/NVIDIA/Model-Optimizer/commit/69c0d47946086d032e665ecf59a9ff28dc32f5b8) | [#1026](https://github.com/NVIDIA/Model-Optimizer/pull/1026) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3252\]\[ONNX\] MOQ + Autotune moq integration docs |
@@ -42,4 +43,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 36 PRs**
+**Total: 37 PRs**

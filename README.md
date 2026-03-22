@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-03-21 | [08e5f922](https://github.com/NVIDIA/Model-Optimizer/commit/08e5f9221a761ccd1641b01c70ee76b41c1c46c2) | [#1058](https://github.com/NVIDIA/Model-Optimizer/pull/1058) | [@hthadicherla](https://github.com/hthadicherla) | `infra` `onnx` `quantization` | Protobuf 7.34 fix for model size \> 2gib |
 | 2026-03-21 | [547d8fe9](https://github.com/NVIDIA/Model-Optimizer/commit/547d8fe9353849a411a573fc168a4cac72e39cdb) | [#1044](https://github.com/NVIDIA/Model-Optimizer/pull/1044) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | \[EAGLE\] Optimize EAGLE Training |
 | 2026-03-20 | [f22f4f55](https://github.com/NVIDIA/Model-Optimizer/commit/f22f4f5522dcd650b724d09e3f8d9f36e0a8b01c) | [#1024](https://github.com/NVIDIA/Model-Optimizer/pull/1024) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Add Full TE Spec support for Megatron Pruning DynamicModules + MoE bug fixes |
 | 2026-03-20 | [01cba6a5](https://github.com/NVIDIA/Model-Optimizer/commit/01cba6a5a456623dbfc4754090f9d433bf984ad2) | [#1036](https://github.com/NVIDIA/Model-Optimizer/pull/1036) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Merge mbridge distillation for any_model |
