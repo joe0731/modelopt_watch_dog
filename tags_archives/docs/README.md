@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-24 | [d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c) | [#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | Remove deprecated Nemo 2.0 references / examples |
 | 2026-03-17 | [cb1ff321](https://github.com/NVIDIA/Model-Optimizer/commit/cb1ff321ee900cf8b55fa91d0bbec5da3d30cfb1) | [#1048](https://github.com/NVIDIA/Model-Optimizer/pull/1048) | [@ivanbasov](https://github.com/ivanbasov) | `docs` `infra` | Add Python 3.13 support |
 | 2026-03-12 | [69c0d479](https://github.com/NVIDIA/Model-Optimizer/commit/69c0d47946086d032e665ecf59a9ff28dc32f5b8) | [#1026](https://github.com/NVIDIA/Model-Optimizer/pull/1026) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3252\]\[ONNX\] MOQ + Autotune moq integration docs |
 | 2026-03-10 | [695c8e85](https://github.com/NVIDIA/Model-Optimizer/commit/695c8e852288e15ee32b0ce6ecd78e62ccdd9042) | [#843](https://github.com/NVIDIA/Model-Optimizer/pull/843) | [@willg-nv](https://github.com/willg-nv) | `docs` `onnx` `quantization` `tests` | Integrate Automated QDQ placement tool - part 4.3 |
@@ -18,4 +19,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 12 PRs**
+**Total: 13 PRs**

@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-24 | [d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c) | [#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | Remove deprecated Nemo 2.0 references / examples |
+| 2026-03-23 | [b61fb4e1](https://github.com/NVIDIA/Model-Optimizer/commit/b61fb4e16df9a8c0cf60d55163f11e573960ca3f) | [#1091](https://github.com/NVIDIA/Model-Optimizer/pull/1091) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `pruning` `tests` `torch` | Allow searcher ckpt dir for per-rank ckpt files |
 | 2026-03-21 | [547d8fe9](https://github.com/NVIDIA/Model-Optimizer/commit/547d8fe9353849a411a573fc168a4cac72e39cdb) | [#1044](https://github.com/NVIDIA/Model-Optimizer/pull/1044) | [@benchislett](https://github.com/benchislett) | `example` `speculative_decoding` `torch` | \[EAGLE\] Optimize EAGLE Training |
 | 2026-03-20 | [acce79ff](https://github.com/NVIDIA/Model-Optimizer/commit/acce79ffa30446cd79f80d81bf745697b062ceec) | [#1030](https://github.com/NVIDIA/Model-Optimizer/pull/1030) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `torch` | Add NVFP4_EXPERTS_ONLY_CFG quantization config and YAML recipe |
 | 2026-03-20 | [f22f4f55](https://github.com/NVIDIA/Model-Optimizer/commit/f22f4f5522dcd650b724d09e3f8d9f36e0a8b01c) | [#1024](https://github.com/NVIDIA/Model-Optimizer/pull/1024) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Add Full TE Spec support for Megatron Pruning DynamicModules + MoE bug fixes |
@@ -147,4 +149,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 141 PRs**
+**Total: 143 PRs**

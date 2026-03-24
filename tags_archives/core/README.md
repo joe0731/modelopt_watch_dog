@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-24 | [d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c) | [#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | Remove deprecated Nemo 2.0 references / examples |
+| 2026-03-23 | [b61fb4e1](https://github.com/NVIDIA/Model-Optimizer/commit/b61fb4e16df9a8c0cf60d55163f11e573960ca3f) | [#1091](https://github.com/NVIDIA/Model-Optimizer/pull/1091) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `pruning` `tests` `torch` | Allow searcher ckpt dir for per-rank ckpt files |
 | 2026-03-20 | [f22f4f55](https://github.com/NVIDIA/Model-Optimizer/commit/f22f4f5522dcd650b724d09e3f8d9f36e0a8b01c) | [#1024](https://github.com/NVIDIA/Model-Optimizer/pull/1024) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Add Full TE Spec support for Megatron Pruning DynamicModules + MoE bug fixes |
 | 2026-03-18 | [52cfa4ec](https://github.com/NVIDIA/Model-Optimizer/commit/52cfa4ecffeda7a6137c33f3710efdeee0adf53b) | [#983](https://github.com/NVIDIA/Model-Optimizer/pull/983) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `torch` | fix: https://github.com/NVIDIA/Model-Optimizer/issues/981 |
 | 2026-03-17 | [beac6e9f](https://github.com/NVIDIA/Model-Optimizer/commit/beac6e9faac718479034c8a6a8259c8052154c92) | [#982](https://github.com/NVIDIA/Model-Optimizer/pull/982) | [@sugunav14](https://github.com/sugunav14) | `core` `quantization` `tests` `torch` | Sequential calibrate refactor |
@@ -43,4 +45,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 37 PRs**
+**Total: 39 PRs**

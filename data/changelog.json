@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-03-24",
+    "commit": "0708ca23ba5879c3107bcba16c24106b8855fdf7",
+    "pr_number": 1085,
+    "author": "danielkorzekwa",
+    "title": "Dkorzekwa/anymodel subblock stats",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-24",
+    "commit": "d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c",
+    "pr_number": 1098,
+    "author": "kevalmorabia97",
+    "title": "Remove deprecated Nemo 2.0 references / examples",
+    "tags": [
+      "core",
+      "distillation",
+      "docs",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "pruning",
+      "quantization",
+      "speculative_decoding",
+      "torch",
+      "vlm"
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "commit": "aad14d159cd1c0234296e551cf81d2dad888bd48",
+    "pr_number": 1075,
+    "author": "dthienan-nv",
+    "title": "[5963347] Expose iterator interface for calibration data",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "commit": "419027593a8583e3faabda41767350e2f6aebcb3",
+    "pr_number": 1073,
+    "author": "danielkorzekwa",
+    "title": "Dkorzekwa/decilm hf code cleanup 2",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "commit": "b61fb4e16df9a8c0cf60d55163f11e573960ca3f",
+    "pr_number": 1091,
+    "author": "kevalmorabia97",
+    "title": "Allow searcher ckpt dir for per-rank ckpt files",
+    "tags": [
+      "core",
+      "example",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "commit": "356c002ee8652b4c16ee948b2473ba22d20f34c7",
+    "pr_number": 1101,
+    "author": "shengliangxu",
+    "title": "Make a document preview for PRs",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "commit": "c425524be7116c8bc8de57ff3926457561896a3c",
+    "pr_number": 1097,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-03-23)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-03-21",
     "commit": "547d8fe9353849a411a573fc168a4cac72e39cdb",
     "pr_number": 1044,
