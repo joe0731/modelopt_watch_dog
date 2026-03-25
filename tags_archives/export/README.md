@@ -5,6 +5,9 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-03-24 | [d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c) | [#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | Remove deprecated Nemo 2.0 references / examples |
+| 2026-03-24 | [d6988641](https://github.com/NVIDIA/Model-Optimizer/commit/d69886413767f9126717ef90ff96fba5d5065776) | [#1109](https://github.com/NVIDIA/Model-Optimizer/pull/1109) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Add MBridge pruning distillation CICD test + min transformers bumped to 4.56 |
+| 2026-03-24 | [8f4c11aa](https://github.com/NVIDIA/Model-Optimizer/commit/8f4c11aa44bdc382a9a236e06b18187c80875396) | [#1112](https://github.com/NVIDIA/Model-Optimizer/pull/1112) | [@ajrasane](https://github.com/ajrasane) | `diffusers` `example` `export` `infra` `onnx` `quantization` `torch` | Upgrade the TensorRT container version |
+| 2026-03-24 | [3431f8be](https://github.com/NVIDIA/Model-Optimizer/commit/3431f8be21f7a5e121c3f2d692baede3a9170b82) | [#1063](https://github.com/NVIDIA/Model-Optimizer/pull/1063) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `torch` | Step3.5 MoE support |
 | 2026-03-20 | [07bc4852](https://github.com/NVIDIA/Model-Optimizer/commit/07bc4852a85c72f2712d33afa7987840d7816cd1) | [#1087](https://github.com/NVIDIA/Model-Optimizer/pull/1087) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `torch` | Default limit max hf quantzed safetensors file to 10GB |
 | 2026-03-17 | [e4df91bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4df91bf044861ec5615e1c6ed5e07795a3b24ca) | [#852](https://github.com/NVIDIA/Model-Optimizer/pull/852) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `tests` `torch` | OMNIML-2663\] Replace modelopt FP8 QDQ nodes with native ONNX QDQ nodes |
 | 2026-03-16 | [7b34de64](https://github.com/NVIDIA/Model-Optimizer/commit/7b34de6436deb2609a1aaa1f5c0643b545b25dbe) | [#1033](https://github.com/NVIDIA/Model-Optimizer/pull/1033) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `torch` | Unify weight_scale_2 between gate_proj/up_proj (and w1/w3) in the HF export path for MOE models |
@@ -48,4 +51,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 42 PRs**
+**Total: 45 PRs**

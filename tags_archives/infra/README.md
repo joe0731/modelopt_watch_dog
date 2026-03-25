@@ -4,8 +4,13 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-25 | [174f3a22](https://github.com/NVIDIA/Model-Optimizer/commit/174f3a228d86be1cc92d31274826eb673b6389e3) | [#1106](https://github.com/NVIDIA/Model-Optimizer/pull/1106) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | \[OMNIML-3779\] Add recipe into CLAUDE.md |
+| 2026-03-25 | [ae965a95](https://github.com/NVIDIA/Model-Optimizer/commit/ae965a9532afbf8586764990b9f24435f10389d6) | [#1089](https://github.com/NVIDIA/Model-Optimizer/pull/1089) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | add: HF PTQ support and modelopt_recipes mount in launcher |
 | 2026-03-24 | [0708ca23](https://github.com/NVIDIA/Model-Optimizer/commit/0708ca23ba5879c3107bcba16c24106b8855fdf7) | [#1085](https://github.com/NVIDIA/Model-Optimizer/pull/1085) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Dkorzekwa/anymodel subblock stats |
 | 2026-03-24 | [d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c) | [#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | Remove deprecated Nemo 2.0 references / examples |
+| 2026-03-24 | [d6988641](https://github.com/NVIDIA/Model-Optimizer/commit/d69886413767f9126717ef90ff96fba5d5065776) | [#1109](https://github.com/NVIDIA/Model-Optimizer/pull/1109) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Add MBridge pruning distillation CICD test + min transformers bumped to 4.56 |
+| 2026-03-24 | [8f4c11aa](https://github.com/NVIDIA/Model-Optimizer/commit/8f4c11aa44bdc382a9a236e06b18187c80875396) | [#1112](https://github.com/NVIDIA/Model-Optimizer/pull/1112) | [@ajrasane](https://github.com/ajrasane) | `diffusers` `example` `export` `infra` `onnx` `quantization` `torch` | Upgrade the TensorRT container version |
+| 2026-03-24 | [3431f8be](https://github.com/NVIDIA/Model-Optimizer/commit/3431f8be21f7a5e121c3f2d692baede3a9170b82) | [#1063](https://github.com/NVIDIA/Model-Optimizer/pull/1063) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `torch` | Step3.5 MoE support |
 | 2026-03-23 | [aad14d15](https://github.com/NVIDIA/Model-Optimizer/commit/aad14d159cd1c0234296e551cf81d2dad888bd48) | [#1075](https://github.com/NVIDIA/Model-Optimizer/pull/1075) | [@dthienan-nv](https://github.com/dthienan-nv) | `infra` `onnx` `quantization` `tests` | \[5963347\] Expose iterator interface for calibration data |
 | 2026-03-23 | [41902759](https://github.com/NVIDIA/Model-Optimizer/commit/419027593a8583e3faabda41767350e2f6aebcb3) | [#1073](https://github.com/NVIDIA/Model-Optimizer/pull/1073) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` | Dkorzekwa/decilm hf code cleanup 2 |
 | 2026-03-23 | [356c002e](https://github.com/NVIDIA/Model-Optimizer/commit/356c002ee8652b4c16ee948b2473ba22d20f34c7) | [#1101](https://github.com/NVIDIA/Model-Optimizer/pull/1101) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | Make a document preview for PRs |
@@ -95,4 +100,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 89 PRs**
+**Total: 94 PRs**

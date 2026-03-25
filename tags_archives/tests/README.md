@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-03-24 | [0708ca23](https://github.com/NVIDIA/Model-Optimizer/commit/0708ca23ba5879c3107bcba16c24106b8855fdf7) | [#1085](https://github.com/NVIDIA/Model-Optimizer/pull/1085) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Dkorzekwa/anymodel subblock stats |
+| 2026-03-24 | [d6988641](https://github.com/NVIDIA/Model-Optimizer/commit/d69886413767f9126717ef90ff96fba5d5065776) | [#1109](https://github.com/NVIDIA/Model-Optimizer/pull/1109) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Add MBridge pruning distillation CICD test + min transformers bumped to 4.56 |
 | 2026-03-23 | [aad14d15](https://github.com/NVIDIA/Model-Optimizer/commit/aad14d159cd1c0234296e551cf81d2dad888bd48) | [#1075](https://github.com/NVIDIA/Model-Optimizer/pull/1075) | [@dthienan-nv](https://github.com/dthienan-nv) | `infra` `onnx` `quantization` `tests` | \[5963347\] Expose iterator interface for calibration data |
 | 2026-03-23 | [b61fb4e1](https://github.com/NVIDIA/Model-Optimizer/commit/b61fb4e16df9a8c0cf60d55163f11e573960ca3f) | [#1091](https://github.com/NVIDIA/Model-Optimizer/pull/1091) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `pruning` `tests` `torch` | Allow searcher ckpt dir for per-rank ckpt files |
 | 2026-03-20 | [f22f4f55](https://github.com/NVIDIA/Model-Optimizer/commit/f22f4f5522dcd650b724d09e3f8d9f36e0a8b01c) | [#1024](https://github.com/NVIDIA/Model-Optimizer/pull/1024) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Add Full TE Spec support for Megatron Pruning DynamicModules + MoE bug fixes |
@@ -98,4 +99,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 92 PRs**
+**Total: 93 PRs**

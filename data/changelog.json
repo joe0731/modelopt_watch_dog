@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-03-25",
+    "commit": "174f3a228d86be1cc92d31274826eb673b6389e3",
+    "pr_number": 1106,
+    "author": "shengliangxu",
+    "title": "[OMNIML-3779] Add recipe into CLAUDE.md",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-03-25",
+    "commit": "ae965a9532afbf8586764990b9f24435f10389d6",
+    "pr_number": 1089,
+    "author": "ChenhanYu",
+    "title": "add: HF PTQ support and modelopt_recipes mount in launcher",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-03-24",
     "commit": "0708ca23ba5879c3107bcba16c24106b8855fdf7",
     "pr_number": 1085,
@@ -29,6 +49,67 @@
       "speculative_decoding",
       "torch",
       "vlm"
+    ]
+  },
+  {
+    "date": "2026-03-24",
+    "commit": "d69886413767f9126717ef90ff96fba5d5065776",
+    "pr_number": 1109,
+    "author": "kevalmorabia97",
+    "title": "Add MBridge pruning distillation CICD test + min transformers bumped to 4.56",
+    "tags": [
+      "core",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-24",
+    "commit": "a108883ccad9ae1cec059d9c0eae935d00b7d316",
+    "pr_number": 1068,
+    "author": "Fridah-nv",
+    "title": "Fridah/kinjal/vllm modelopt reload",
+    "tags": [
+      "deploy",
+      "eval",
+      "example",
+      "quantization",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-03-24",
+    "commit": "8f4c11aa44bdc382a9a236e06b18187c80875396",
+    "pr_number": 1112,
+    "author": "ajrasane",
+    "title": "Upgrade the TensorRT container version",
+    "tags": [
+      "diffusers",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-24",
+    "commit": "3431f8be21f7a5e121c3f2d692baede3a9170b82",
+    "pr_number": 1063,
+    "author": "meenchen",
+    "title": "Step3.5 MoE support",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "torch"
     ]
   },
   {
