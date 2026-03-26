@@ -8,8 +8,10 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-03-26 | [b1f9f012](https://github.com/NVIDIA/Model-Optimizer/commit/b1f9f0121b523910ee17162f02994029615e84b5) | [#1078](https://github.com/NVIDIA/Model-Optimizer/pull/1078) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[2/n\] Add sparse softmax to the Triton flash attention kernel |
 |  | 2026-03-25 | [174f3a22](https://github.com/NVIDIA/Model-Optimizer/commit/174f3a228d86be1cc92d31274826eb673b6389e3) | [#1106](https://github.com/NVIDIA/Model-Optimizer/pull/1106) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | \[OMNIML-3779\] Add recipe into CLAUDE.md |
 |  | 2026-03-25 | [ae965a95](https://github.com/NVIDIA/Model-Optimizer/commit/ae965a9532afbf8586764990b9f24435f10389d6) | [#1089](https://github.com/NVIDIA/Model-Optimizer/pull/1089) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | add: HF PTQ support and modelopt_recipes mount in launcher |
+|  | 2026-03-25 | [2f55c730](https://github.com/NVIDIA/Model-Optimizer/commit/2f55c7303b56b75599ece8f383e9531a41247c4e) | [#1115](https://github.com/NVIDIA/Model-Optimizer/pull/1115) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `infra` `nas` `pruning` `tests` `torch` | Dkorzekwa/puzzletron use importance hooks from prune |
 |  | 2026-03-24 | [0708ca23](https://github.com/NVIDIA/Model-Optimizer/commit/0708ca23ba5879c3107bcba16c24106b8855fdf7) | [#1085](https://github.com/NVIDIA/Model-Optimizer/pull/1085) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` `tests` | Dkorzekwa/anymodel subblock stats |
 | 🟡🟣 | **2026-03-24** | **[d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c)** | **[#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | **Remove deprecated Nemo 2.0 references / examples** |
 |  | 2026-03-24 | [d6988641](https://github.com/NVIDIA/Model-Optimizer/commit/d69886413767f9126717ef90ff96fba5d5065776) | [#1109](https://github.com/NVIDIA/Model-Optimizer/pull/1109) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Add MBridge pruning distillation CICD test + min transformers bumped to 4.56 |
@@ -109,4 +111,4 @@
 | 🟡🟠 | **2026-03-02** | **[82f1d216](https://github.com/NVIDIA/Model-Optimizer/commit/82f1d216d1a9022e60b8e1143a77f36c00b885a4)** | **[#935](https://github.com/NVIDIA/Model-Optimizer/pull/935)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `core` `diffusers` `distillation` `docs` `eval` `example` `infra` `onnx` `quantization` `sparsity` `torch` `windows` | **Add Security and IP related contributing guide and configure coderabbit to catch such issues** |
 
 ---
-**Total: 99 PRs** | **Highlighted: 30**
+**Total: 101 PRs** | **Highlighted: 30**
