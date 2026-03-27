@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-03-26 | [2bad66c8](https://github.com/NVIDIA/Model-Optimizer/commit/2bad66c8b2217ab7ad74b243a6e7ebe64c929b2e) | [#1081](https://github.com/NVIDIA/Model-Optimizer/pull/1081) | [@kaix-nv](https://github.com/kaix-nv) | `infra` `sparsity` `tests` `torch` | \[3/n\] Add skip-softmax to Triton flash attention kernel |
 | 2026-03-26 | [b1f9f012](https://github.com/NVIDIA/Model-Optimizer/commit/b1f9f0121b523910ee17162f02994029615e84b5) | [#1078](https://github.com/NVIDIA/Model-Optimizer/pull/1078) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[2/n\] Add sparse softmax to the Triton flash attention kernel |
 | 2026-03-25 | [2f55c730](https://github.com/NVIDIA/Model-Optimizer/commit/2f55c7303b56b75599ece8f383e9531a41247c4e) | [#1115](https://github.com/NVIDIA/Model-Optimizer/pull/1115) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `infra` `nas` `pruning` `tests` `torch` | Dkorzekwa/puzzletron use importance hooks from prune |
 | 2026-03-25 | [174f3a22](https://github.com/NVIDIA/Model-Optimizer/commit/174f3a228d86be1cc92d31274826eb673b6389e3) | [#1106](https://github.com/NVIDIA/Model-Optimizer/pull/1106) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | \[OMNIML-3779\] Add recipe into CLAUDE.md |

@@ -14,6 +14,19 @@
     ]
   },
   {
+    "date": "2026-03-26",
+    "commit": "2bad66c8b2217ab7ad74b243a6e7ebe64c929b2e",
+    "pr_number": 1081,
+    "author": "kaix-nv",
+    "title": "[3/n] Add skip-softmax to Triton flash attention kernel",
+    "tags": [
+      "infra",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-03-25",
     "commit": "174f3a228d86be1cc92d31274826eb673b6389e3",
     "pr_number": 1106,
