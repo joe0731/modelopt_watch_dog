@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-03-27",
+    "commit": "7f5fd650036305e94dee94286fb13c616430b57b",
+    "pr_number": 1052,
+    "author": "h-guo18",
+    "title": "[Feat]FakeBaseModel for offline eagle; Kimi-K2.5 fixes;",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-03-26",
     "commit": "b1f9f0121b523910ee17162f02994029615e84b5",
     "pr_number": 1078,
