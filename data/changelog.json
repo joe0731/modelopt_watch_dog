@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-03-28",
+    "commit": "610707a697eaee7256cbda197afd2477a927bab6",
+    "pr_number": 1126,
+    "author": "Fridah-nv",
+    "title": "fix: cast aq score to float64 to avoid overflow",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-28",
+    "commit": "24ceba61fe9af73e1f934cd3bb0f6a050b6ac3b1",
+    "pr_number": 1131,
+    "author": "sugunav14",
+    "title": "Bug fix: 6012573",
+    "tags": [
+      "core",
+      "example",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-03-27",
     "commit": "7f5fd650036305e94dee94286fb13c616430b57b",
     "pr_number": 1052,

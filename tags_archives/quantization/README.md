@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-28 | [610707a6](https://github.com/NVIDIA/Model-Optimizer/commit/610707a697eaee7256cbda197afd2477a927bab6) | [#1126](https://github.com/NVIDIA/Model-Optimizer/pull/1126) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `torch` | fix: cast aq score to float64 to avoid overflow |
 | 2026-03-24 | [d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c) | [#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | Remove deprecated Nemo 2.0 references / examples |
 | 2026-03-24 | [d6988641](https://github.com/NVIDIA/Model-Optimizer/commit/d69886413767f9126717ef90ff96fba5d5065776) | [#1109](https://github.com/NVIDIA/Model-Optimizer/pull/1109) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Add MBridge pruning distillation CICD test + min transformers bumped to 4.56 |
 | 2026-03-24 | [a108883c](https://github.com/NVIDIA/Model-Optimizer/commit/a108883ccad9ae1cec059d9c0eae935d00b7d316) | [#1068](https://github.com/NVIDIA/Model-Optimizer/pull/1068) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `eval` `example` `quantization` `torch` `vllm` | Fridah/kinjal/vllm modelopt reload |
@@ -108,4 +109,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 102 PRs**
+**Total: 103 PRs**

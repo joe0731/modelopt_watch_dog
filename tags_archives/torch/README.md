@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-28 | [610707a6](https://github.com/NVIDIA/Model-Optimizer/commit/610707a697eaee7256cbda197afd2477a927bab6) | [#1126](https://github.com/NVIDIA/Model-Optimizer/pull/1126) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `torch` | fix: cast aq score to float64 to avoid overflow |
+| 2026-03-28 | [24ceba61](https://github.com/NVIDIA/Model-Optimizer/commit/24ceba61fe9af73e1f934cd3bb0f6a050b6ac3b1) | [#1131](https://github.com/NVIDIA/Model-Optimizer/pull/1131) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `torch` | Bug fix: 6012573 |
 | 2026-03-27 | [7f5fd650](https://github.com/NVIDIA/Model-Optimizer/commit/7f5fd650036305e94dee94286fb13c616430b57b) | [#1052](https://github.com/NVIDIA/Model-Optimizer/pull/1052) | [@h-guo18](https://github.com/h-guo18) | `example` `speculative_decoding` `tests` `torch` | \[Feat\]FakeBaseModel for offline eagle; Kimi-K2.5 fixes; |
 | 2026-03-26 | [b1f9f012](https://github.com/NVIDIA/Model-Optimizer/commit/b1f9f0121b523910ee17162f02994029615e84b5) | [#1078](https://github.com/NVIDIA/Model-Optimizer/pull/1078) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[2/n\] Add sparse softmax to the Triton flash attention kernel |
 | 2026-03-26 | [2bad66c8](https://github.com/NVIDIA/Model-Optimizer/commit/2bad66c8b2217ab7ad74b243a6e7ebe64c929b2e) | [#1081](https://github.com/NVIDIA/Model-Optimizer/pull/1081) | [@kaix-nv](https://github.com/kaix-nv) | `infra` `sparsity` `tests` `torch` | \[3/n\] Add skip-softmax to Triton flash attention kernel |
@@ -157,4 +159,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 151 PRs**
+**Total: 153 PRs**
