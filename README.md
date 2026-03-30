@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-03-30 | [a3f5c464](https://github.com/NVIDIA/Model-Optimizer/commit/a3f5c464d04b66458263d57a37c0f671b6302529) | [#1096](https://github.com/NVIDIA/Model-Optimizer/pull/1096) | [@hthadicherla](https://github.com/hthadicherla) | `infra` | Added general graph surgery run function for easier scalability with Olive. |
 | 2026-03-28 | [610707a6](https://github.com/NVIDIA/Model-Optimizer/commit/610707a697eaee7256cbda197afd2477a927bab6) | [#1126](https://github.com/NVIDIA/Model-Optimizer/pull/1126) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `torch` | fix: cast aq score to float64 to avoid overflow |
 | 2026-03-28 | [24ceba61](https://github.com/NVIDIA/Model-Optimizer/commit/24ceba61fe9af73e1f934cd3bb0f6a050b6ac3b1) | [#1131](https://github.com/NVIDIA/Model-Optimizer/pull/1131) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `torch` | Bug fix: 6012573 |
 | 2026-03-27 | [7f5fd650](https://github.com/NVIDIA/Model-Optimizer/commit/7f5fd650036305e94dee94286fb13c616430b57b) | [#1052](https://github.com/NVIDIA/Model-Optimizer/pull/1052) | [@h-guo18](https://github.com/h-guo18) | `example` `speculative_decoding` `tests` `torch` | \[Feat\]FakeBaseModel for offline eagle; Kimi-K2.5 fixes; |

@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-03-30",
+    "commit": "a3f5c464d04b66458263d57a37c0f671b6302529",
+    "pr_number": 1096,
+    "author": "hthadicherla",
+    "title": "Added general graph surgery run function for easier scalability with Olive.",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-03-28",
     "commit": "610707a697eaee7256cbda197afd2477a927bab6",
     "pr_number": 1126,
