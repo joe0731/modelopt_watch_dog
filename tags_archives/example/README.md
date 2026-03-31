@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
+| 2026-03-30 | [d397caea](https://github.com/NVIDIA/Model-Optimizer/commit/d397caea5a5f5e604ed61d6fc32e423ca9219a70) | [#1123](https://github.com/NVIDIA/Model-Optimizer/pull/1123) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `sparsity` `tests` `torch` | Remove --skip-softmax option from hf_sa (only allow calibration option) |
+| 2026-03-30 | [58889794](https://github.com/NVIDIA/Model-Optimizer/commit/58889794c32be83e3c45b423f6b6bebc882e97b5) | [#1137](https://github.com/NVIDIA/Model-Optimizer/pull/1137) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `export` `quantization` `torch` | \[NVBug 5996631\] NemotronH models do not work correctly with accelerate |
+| 2026-03-30 | [74a8694a](https://github.com/NVIDIA/Model-Optimizer/commit/74a8694a6efac9fdb8d57e35927818066929d1cf) | [#1114](https://github.com/NVIDIA/Model-Optimizer/pull/1114) | [@ajrasane](https://github.com/ajrasane) | `example` `onnx` `quantization` | \[OMNIML-1525\] Create a folder for the plugin example |
 | 2026-03-28 | [24ceba61](https://github.com/NVIDIA/Model-Optimizer/commit/24ceba61fe9af73e1f934cd3bb0f6a050b6ac3b1) | [#1131](https://github.com/NVIDIA/Model-Optimizer/pull/1131) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `torch` | Bug fix: 6012573 |
 | 2026-03-27 | [7f5fd650](https://github.com/NVIDIA/Model-Optimizer/commit/7f5fd650036305e94dee94286fb13c616430b57b) | [#1052](https://github.com/NVIDIA/Model-Optimizer/pull/1052) | [@h-guo18](https://github.com/h-guo18) | `example` `speculative_decoding` `tests` `torch` | \[Feat\]FakeBaseModel for offline eagle; Kimi-K2.5 fixes; |
 | 2026-03-26 | [b1f9f012](https://github.com/NVIDIA/Model-Optimizer/commit/b1f9f0121b523910ee17162f02994029615e84b5) | [#1078](https://github.com/NVIDIA/Model-Optimizer/pull/1078) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[2/n\] Add sparse softmax to the Triton flash attention kernel |
@@ -96,4 +100,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 90 PRs**
+**Total: 94 PRs**

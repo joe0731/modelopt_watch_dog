@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
+| 2026-03-30 | [f04e1069](https://github.com/NVIDIA/Model-Optimizer/commit/f04e1069a7dd6822b22c0783528798ce0f9c023c) | [#1138](https://github.com/NVIDIA/Model-Optimizer/pull/1138) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `torch` | Minor update megatron tokenization script |
+| 2026-03-30 | [d397caea](https://github.com/NVIDIA/Model-Optimizer/commit/d397caea5a5f5e604ed61d6fc32e423ca9219a70) | [#1123](https://github.com/NVIDIA/Model-Optimizer/pull/1123) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `sparsity` `tests` `torch` | Remove --skip-softmax option from hf_sa (only allow calibration option) |
+| 2026-03-30 | [21aa8a9a](https://github.com/NVIDIA/Model-Optimizer/commit/21aa8a9addf07b54bb8ada839d146021ff466006) | [#1136](https://github.com/NVIDIA/Model-Optimizer/pull/1136) | [@shengliangxu](https://github.com/shengliangxu) | `quantization` `torch` | \[NVBug 5996622\] skip syncing for Llama4 experts |
+| 2026-03-30 | [58889794](https://github.com/NVIDIA/Model-Optimizer/commit/58889794c32be83e3c45b423f6b6bebc882e97b5) | [#1137](https://github.com/NVIDIA/Model-Optimizer/pull/1137) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `export` `quantization` `torch` | \[NVBug 5996631\] NemotronH models do not work correctly with accelerate |
 | 2026-03-28 | [610707a6](https://github.com/NVIDIA/Model-Optimizer/commit/610707a697eaee7256cbda197afd2477a927bab6) | [#1126](https://github.com/NVIDIA/Model-Optimizer/pull/1126) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `torch` | fix: cast aq score to float64 to avoid overflow |
 | 2026-03-28 | [24ceba61](https://github.com/NVIDIA/Model-Optimizer/commit/24ceba61fe9af73e1f934cd3bb0f6a050b6ac3b1) | [#1131](https://github.com/NVIDIA/Model-Optimizer/pull/1131) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `torch` | Bug fix: 6012573 |
 | 2026-03-27 | [7f5fd650](https://github.com/NVIDIA/Model-Optimizer/commit/7f5fd650036305e94dee94286fb13c616430b57b) | [#1052](https://github.com/NVIDIA/Model-Optimizer/pull/1052) | [@h-guo18](https://github.com/h-guo18) | `example` `speculative_decoding` `tests` `torch` | \[Feat\]FakeBaseModel for offline eagle; Kimi-K2.5 fixes; |
@@ -159,4 +164,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 153 PRs**
+**Total: 158 PRs**

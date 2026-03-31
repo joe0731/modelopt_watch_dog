@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
+| 2026-03-30 | [58889794](https://github.com/NVIDIA/Model-Optimizer/commit/58889794c32be83e3c45b423f6b6bebc882e97b5) | [#1137](https://github.com/NVIDIA/Model-Optimizer/pull/1137) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `export` `quantization` `torch` | \[NVBug 5996631\] NemotronH models do not work correctly with accelerate |
 | 2026-03-24 | [d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c) | [#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | Remove deprecated Nemo 2.0 references / examples |
 | 2026-03-24 | [a108883c](https://github.com/NVIDIA/Model-Optimizer/commit/a108883ccad9ae1cec059d9c0eae935d00b7d316) | [#1068](https://github.com/NVIDIA/Model-Optimizer/pull/1068) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `eval` `example` `quantization` `torch` `vllm` | Fridah/kinjal/vllm modelopt reload |
 | 2026-03-20 | [acce79ff](https://github.com/NVIDIA/Model-Optimizer/commit/acce79ffa30446cd79f80d81bf745697b062ceec) | [#1030](https://github.com/NVIDIA/Model-Optimizer/pull/1030) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `torch` | Add NVFP4_EXPERTS_ONLY_CFG quantization config and YAML recipe |
@@ -36,4 +38,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 30 PRs**
+**Total: 32 PRs**

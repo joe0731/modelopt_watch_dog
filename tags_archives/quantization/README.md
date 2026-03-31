@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
+| 2026-03-30 | [7c1f33c2](https://github.com/NVIDIA/Model-Optimizer/commit/7c1f33c2f83e68493c12a879bfb0c4f754b174d8) | [#1117](https://github.com/NVIDIA/Model-Optimizer/pull/1117) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` `tests` | \[BugFix\]\[5271237\]\[ONNX\] Add Q/DQ placement for Conv-\>LayerNorm patterns |
+| 2026-03-30 | [21aa8a9a](https://github.com/NVIDIA/Model-Optimizer/commit/21aa8a9addf07b54bb8ada839d146021ff466006) | [#1136](https://github.com/NVIDIA/Model-Optimizer/pull/1136) | [@shengliangxu](https://github.com/shengliangxu) | `quantization` `torch` | \[NVBug 5996622\] skip syncing for Llama4 experts |
+| 2026-03-30 | [58889794](https://github.com/NVIDIA/Model-Optimizer/commit/58889794c32be83e3c45b423f6b6bebc882e97b5) | [#1137](https://github.com/NVIDIA/Model-Optimizer/pull/1137) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `export` `quantization` `torch` | \[NVBug 5996631\] NemotronH models do not work correctly with accelerate |
+| 2026-03-30 | [74a8694a](https://github.com/NVIDIA/Model-Optimizer/commit/74a8694a6efac9fdb8d57e35927818066929d1cf) | [#1114](https://github.com/NVIDIA/Model-Optimizer/pull/1114) | [@ajrasane](https://github.com/ajrasane) | `example` `onnx` `quantization` | \[OMNIML-1525\] Create a folder for the plugin example |
 | 2026-03-28 | [610707a6](https://github.com/NVIDIA/Model-Optimizer/commit/610707a697eaee7256cbda197afd2477a927bab6) | [#1126](https://github.com/NVIDIA/Model-Optimizer/pull/1126) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `torch` | fix: cast aq score to float64 to avoid overflow |
 | 2026-03-24 | [d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c) | [#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | Remove deprecated Nemo 2.0 references / examples |
 | 2026-03-24 | [d6988641](https://github.com/NVIDIA/Model-Optimizer/commit/d69886413767f9126717ef90ff96fba5d5065776) | [#1109](https://github.com/NVIDIA/Model-Optimizer/pull/1109) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Add MBridge pruning distillation CICD test + min transformers bumped to 4.56 |
@@ -109,4 +114,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 103 PRs**
+**Total: 108 PRs**

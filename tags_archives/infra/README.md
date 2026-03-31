@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-03-30 | [a3f5c464](https://github.com/NVIDIA/Model-Optimizer/commit/a3f5c464d04b66458263d57a37c0f671b6302529) | [#1096](https://github.com/NVIDIA/Model-Optimizer/pull/1096) | [@hthadicherla](https://github.com/hthadicherla) | `infra` | Added general graph surgery run function for easier scalability with Olive. |
+| 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
 | 2026-03-26 | [b1f9f012](https://github.com/NVIDIA/Model-Optimizer/commit/b1f9f0121b523910ee17162f02994029615e84b5) | [#1078](https://github.com/NVIDIA/Model-Optimizer/pull/1078) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[2/n\] Add sparse softmax to the Triton flash attention kernel |
 | 2026-03-26 | [2bad66c8](https://github.com/NVIDIA/Model-Optimizer/commit/2bad66c8b2217ab7ad74b243a6e7ebe64c929b2e) | [#1081](https://github.com/NVIDIA/Model-Optimizer/pull/1081) | [@kaix-nv](https://github.com/kaix-nv) | `infra` `sparsity` `tests` `torch` | \[3/n\] Add skip-softmax to Triton flash attention kernel |
 | 2026-03-25 | [174f3a22](https://github.com/NVIDIA/Model-Optimizer/commit/174f3a228d86be1cc92d31274826eb673b6389e3) | [#1106](https://github.com/NVIDIA/Model-Optimizer/pull/1106) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | \[OMNIML-3779\] Add recipe into CLAUDE.md |
@@ -104,4 +105,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 98 PRs**
+**Total: 99 PRs**

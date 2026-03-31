@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
+| 2026-03-30 | [7c1f33c2](https://github.com/NVIDIA/Model-Optimizer/commit/7c1f33c2f83e68493c12a879bfb0c4f754b174d8) | [#1117](https://github.com/NVIDIA/Model-Optimizer/pull/1117) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` `tests` | \[BugFix\]\[5271237\]\[ONNX\] Add Q/DQ placement for Conv-\>LayerNorm patterns |
+| 2026-03-30 | [d397caea](https://github.com/NVIDIA/Model-Optimizer/commit/d397caea5a5f5e604ed61d6fc32e423ca9219a70) | [#1123](https://github.com/NVIDIA/Model-Optimizer/pull/1123) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `sparsity` `tests` `torch` | Remove --skip-softmax option from hf_sa (only allow calibration option) |
 | 2026-03-27 | [7f5fd650](https://github.com/NVIDIA/Model-Optimizer/commit/7f5fd650036305e94dee94286fb13c616430b57b) | [#1052](https://github.com/NVIDIA/Model-Optimizer/pull/1052) | [@h-guo18](https://github.com/h-guo18) | `example` `speculative_decoding` `tests` `torch` | \[Feat\]FakeBaseModel for offline eagle; Kimi-K2.5 fixes; |
 | 2026-03-26 | [b1f9f012](https://github.com/NVIDIA/Model-Optimizer/commit/b1f9f0121b523910ee17162f02994029615e84b5) | [#1078](https://github.com/NVIDIA/Model-Optimizer/pull/1078) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[2/n\] Add sparse softmax to the Triton flash attention kernel |
 | 2026-03-26 | [2bad66c8](https://github.com/NVIDIA/Model-Optimizer/commit/2bad66c8b2217ab7ad74b243a6e7ebe64c929b2e) | [#1081](https://github.com/NVIDIA/Model-Optimizer/pull/1081) | [@kaix-nv](https://github.com/kaix-nv) | `infra` `sparsity` `tests` `torch` | \[3/n\] Add skip-softmax to Triton flash attention kernel |
@@ -103,4 +106,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 97 PRs**
+**Total: 100 PRs**

@@ -10,6 +10,98 @@
     ]
   },
   {
+    "date": "2026-03-30",
+    "commit": "48da2812c711a933b95f8fa6d46814cb82de4df9",
+    "pr_number": 805,
+    "author": "kinjalpatel27",
+    "title": "vllm fakequant reload with modelopt state for HF",
+    "tags": [
+      "core",
+      "deploy",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "commit": "7c1f33c2f83e68493c12a879bfb0c4f754b174d8",
+    "pr_number": 1117,
+    "author": "ajrasane",
+    "title": "[BugFix][5271237][ONNX] Add Q/DQ placement for Conv->LayerNorm patterns",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "commit": "f04e1069a7dd6822b22c0783528798ce0f9c023c",
+    "pr_number": 1138,
+    "author": "kevalmorabia97",
+    "title": "Minor update megatron tokenization script",
+    "tags": [
+      "core",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "commit": "d397caea5a5f5e604ed61d6fc32e423ca9219a70",
+    "pr_number": 1123,
+    "author": "rohansjoshi",
+    "title": "Remove --skip-softmax option from hf_sa (only allow calibration option)",
+    "tags": [
+      "example",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "commit": "21aa8a9addf07b54bb8ada839d146021ff466006",
+    "pr_number": 1136,
+    "author": "shengliangxu",
+    "title": "[NVBug 5996622] skip syncing for Llama4 experts",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "commit": "58889794c32be83e3c45b423f6b6bebc882e97b5",
+    "pr_number": 1137,
+    "author": "shengliangxu",
+    "title": "[NVBug 5996631] NemotronH models do not work correctly with accelerate",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "commit": "74a8694a6efac9fdb8d57e35927818066929d1cf",
+    "pr_number": 1114,
+    "author": "ajrasane",
+    "title": "[OMNIML-1525] Create a folder for the plugin example",
+    "tags": [
+      "example",
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
     "date": "2026-03-28",
     "commit": "610707a697eaee7256cbda197afd2477a927bab6",
     "pr_number": 1126,

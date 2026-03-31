@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
+| 2026-03-30 | [f04e1069](https://github.com/NVIDIA/Model-Optimizer/commit/f04e1069a7dd6822b22c0783528798ce0f9c023c) | [#1138](https://github.com/NVIDIA/Model-Optimizer/pull/1138) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `torch` | Minor update megatron tokenization script |
 | 2026-03-28 | [24ceba61](https://github.com/NVIDIA/Model-Optimizer/commit/24ceba61fe9af73e1f934cd3bb0f6a050b6ac3b1) | [#1131](https://github.com/NVIDIA/Model-Optimizer/pull/1131) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `torch` | Bug fix: 6012573 |
 | 2026-03-25 | [2f55c730](https://github.com/NVIDIA/Model-Optimizer/commit/2f55c7303b56b75599ece8f383e9531a41247c4e) | [#1115](https://github.com/NVIDIA/Model-Optimizer/pull/1115) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `infra` `nas` `pruning` `tests` `torch` | Dkorzekwa/puzzletron use importance hooks from prune |
 | 2026-03-24 | [d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c) | [#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | Remove deprecated Nemo 2.0 references / examples |
@@ -48,4 +50,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 42 PRs**
+**Total: 44 PRs**

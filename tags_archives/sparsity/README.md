@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-30 | [d397caea](https://github.com/NVIDIA/Model-Optimizer/commit/d397caea5a5f5e604ed61d6fc32e423ca9219a70) | [#1123](https://github.com/NVIDIA/Model-Optimizer/pull/1123) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `sparsity` `tests` `torch` | Remove --skip-softmax option from hf_sa (only allow calibration option) |
 | 2026-03-26 | [b1f9f012](https://github.com/NVIDIA/Model-Optimizer/commit/b1f9f0121b523910ee17162f02994029615e84b5) | [#1078](https://github.com/NVIDIA/Model-Optimizer/pull/1078) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[2/n\] Add sparse softmax to the Triton flash attention kernel |
 | 2026-03-26 | [2bad66c8](https://github.com/NVIDIA/Model-Optimizer/commit/2bad66c8b2217ab7ad74b243a6e7ebe64c929b2e) | [#1081](https://github.com/NVIDIA/Model-Optimizer/pull/1081) | [@kaix-nv](https://github.com/kaix-nv) | `infra` `sparsity` `tests` `torch` | \[3/n\] Add skip-softmax to Triton flash attention kernel |
 | 2026-03-17 | [7c33d856](https://github.com/NVIDIA/Model-Optimizer/commit/7c33d85607706ae4d7159e93f9fc6dd1cfef2ce4) | [#1034](https://github.com/NVIDIA/Model-Optimizer/pull/1034) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[1/n\] Add a Triton attention kernel with HF integration |
@@ -16,4 +17,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 10 PRs**
+**Total: 11 PRs**

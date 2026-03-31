@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
+| 2026-03-30 | [58889794](https://github.com/NVIDIA/Model-Optimizer/commit/58889794c32be83e3c45b423f6b6bebc882e97b5) | [#1137](https://github.com/NVIDIA/Model-Optimizer/pull/1137) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `export` `quantization` `torch` | \[NVBug 5996631\] NemotronH models do not work correctly with accelerate |
 | 2026-03-24 | [d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c) | [#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | Remove deprecated Nemo 2.0 references / examples |
 | 2026-03-24 | [d6988641](https://github.com/NVIDIA/Model-Optimizer/commit/d69886413767f9126717ef90ff96fba5d5065776) | [#1109](https://github.com/NVIDIA/Model-Optimizer/pull/1109) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Add MBridge pruning distillation CICD test + min transformers bumped to 4.56 |
 | 2026-03-24 | [8f4c11aa](https://github.com/NVIDIA/Model-Optimizer/commit/8f4c11aa44bdc382a9a236e06b18187c80875396) | [#1112](https://github.com/NVIDIA/Model-Optimizer/pull/1112) | [@ajrasane](https://github.com/ajrasane) | `diffusers` `example` `export` `infra` `onnx` `quantization` `torch` | Upgrade the TensorRT container version |
@@ -51,4 +53,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 45 PRs**
+**Total: 47 PRs**
