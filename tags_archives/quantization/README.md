@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-01 | [f1beaba3](https://github.com/NVIDIA/Model-Optimizer/commit/f1beaba36f2df02304eceea2293c99c595f73711) | [#1146](https://github.com/NVIDIA/Model-Optimizer/pull/1146) | [@mxinO](https://github.com/mxinO) | `quantization` `torch` | Fix vllm quantization for new vllm \>= 0.17 |
+| 2026-03-31 | [ada1e26b](https://github.com/NVIDIA/Model-Optimizer/commit/ada1e26ba0ee1366a09f18d4bd87ec7411bc9348) | [#1142](https://github.com/NVIDIA/Model-Optimizer/pull/1142) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `torch` | \[NVBug: 6000530\] Fix AWQ crash for uncalibrated MoE experts |
 | 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
 | 2026-03-30 | [7c1f33c2](https://github.com/NVIDIA/Model-Optimizer/commit/7c1f33c2f83e68493c12a879bfb0c4f754b174d8) | [#1117](https://github.com/NVIDIA/Model-Optimizer/pull/1117) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` `tests` | \[BugFix\]\[5271237\]\[ONNX\] Add Q/DQ placement for Conv-\>LayerNorm patterns |
 | 2026-03-30 | [21aa8a9a](https://github.com/NVIDIA/Model-Optimizer/commit/21aa8a9addf07b54bb8ada839d146021ff466006) | [#1136](https://github.com/NVIDIA/Model-Optimizer/pull/1136) | [@shengliangxu](https://github.com/shengliangxu) | `quantization` `torch` | \[NVBug 5996622\] skip syncing for Llama4 experts |
@@ -114,4 +116,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 108 PRs**
+**Total: 110 PRs**

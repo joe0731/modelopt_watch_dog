@@ -8,6 +8,8 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-03-31 | [9cebe4ec](https://github.com/NVIDIA/Model-Optimizer/commit/9cebe4ec2bbcc96a14d0126f2f7ebdc702f1445f) | [#1149](https://github.com/NVIDIA/Model-Optimizer/pull/1149) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on release/0.43.0 (2026-03-31) |
+|  | 2026-03-31 | [ada1e26b](https://github.com/NVIDIA/Model-Optimizer/commit/ada1e26ba0ee1366a09f18d4bd87ec7411bc9348) | [#1142](https://github.com/NVIDIA/Model-Optimizer/pull/1142) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `torch` | \[NVBug: 6000530\] Fix AWQ crash for uncalibrated MoE experts |
 |  | 2026-03-30 | [a3f5c464](https://github.com/NVIDIA/Model-Optimizer/commit/a3f5c464d04b66458263d57a37c0f671b6302529) | [#1096](https://github.com/NVIDIA/Model-Optimizer/pull/1096) | [@hthadicherla](https://github.com/hthadicherla) | `infra` | Added general graph surgery run function for easier scalability with Olive. |
 | 🟡🔵 | **2026-03-30** | **[48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9)** | **[#805](https://github.com/NVIDIA/Model-Optimizer/pull/805)** | **[@kinjalpatel27](https://github.com/kinjalpatel27)** | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | **vllm fakequant reload with modelopt state for HF** |
 | 🟠 | **2026-03-30** | **[7c1f33c2](https://github.com/NVIDIA/Model-Optimizer/commit/7c1f33c2f83e68493c12a879bfb0c4f754b174d8)** | **[#1117](https://github.com/NVIDIA/Model-Optimizer/pull/1117)** | **[@ajrasane](https://github.com/ajrasane)** | `onnx` `quantization` `tests` | **\[BugFix\]\[5271237\]\[ONNX\] Add Q/DQ placement for Conv-\>LayerNorm patterns** |
@@ -123,4 +125,4 @@
 | 🟡🟠 | **2026-03-02** | **[82f1d216](https://github.com/NVIDIA/Model-Optimizer/commit/82f1d216d1a9022e60b8e1143a77f36c00b885a4)** | **[#935](https://github.com/NVIDIA/Model-Optimizer/pull/935)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `core` `diffusers` `distillation` `docs` `eval` `example` `infra` `onnx` `quantization` `sparsity` `torch` `windows` | **Add Security and IP related contributing guide and configure coderabbit to catch such issues** |
 
 ---
-**Total: 113 PRs** | **Highlighted: 34**
+**Total: 115 PRs** | **Highlighted: 34**

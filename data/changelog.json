@@ -1,5 +1,37 @@
 [
   {
+    "date": "2026-04-01",
+    "commit": "f1beaba36f2df02304eceea2293c99c595f73711",
+    "pr_number": 1146,
+    "author": "mxinO",
+    "title": "Fix vllm quantization for new vllm >= 0.17",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-03-31",
+    "commit": "9cebe4ec2bbcc96a14d0126f2f7ebdc702f1445f",
+    "pr_number": 1149,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on release/0.43.0 (2026-03-31)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-03-31",
+    "commit": "ada1e26ba0ee1366a09f18d4bd87ec7411bc9348",
+    "pr_number": 1142,
+    "author": "cjluo-nv",
+    "title": "[NVBug: 6000530] Fix AWQ crash for uncalibrated MoE experts",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-03-30",
     "commit": "a3f5c464d04b66458263d57a37c0f671b6302529",
     "pr_number": 1096,

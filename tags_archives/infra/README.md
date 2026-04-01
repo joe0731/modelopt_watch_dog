@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-03-31 | [9cebe4ec](https://github.com/NVIDIA/Model-Optimizer/commit/9cebe4ec2bbcc96a14d0126f2f7ebdc702f1445f) | [#1149](https://github.com/NVIDIA/Model-Optimizer/pull/1149) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on release/0.43.0 (2026-03-31) |
 | 2026-03-30 | [a3f5c464](https://github.com/NVIDIA/Model-Optimizer/commit/a3f5c464d04b66458263d57a37c0f671b6302529) | [#1096](https://github.com/NVIDIA/Model-Optimizer/pull/1096) | [@hthadicherla](https://github.com/hthadicherla) | `infra` | Added general graph surgery run function for easier scalability with Olive. |
 | 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
 | 2026-03-26 | [b1f9f012](https://github.com/NVIDIA/Model-Optimizer/commit/b1f9f0121b523910ee17162f02994029615e84b5) | [#1078](https://github.com/NVIDIA/Model-Optimizer/pull/1078) | [@kaix-nv](https://github.com/kaix-nv) | `example` `infra` `sparsity` `tests` `torch` | \[2/n\] Add sparse softmax to the Triton flash attention kernel |
@@ -105,4 +106,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 99 PRs**
+**Total: 100 PRs**
