@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-01 | [c37c74f6](https://github.com/NVIDIA/Model-Optimizer/commit/c37c74f651d78c5f5865a7bd561becb74c19e262) | [#1057](https://github.com/NVIDIA/Model-Optimizer/pull/1057) | [@hthadicherla](https://github.com/hthadicherla) | `infra` | Fused QKV add node issue for GQA graph surgery  |
+| 2026-04-01 | [45426ca8](https://github.com/NVIDIA/Model-Optimizer/commit/45426ca8c1fa5614ab2ac7e2154b61a616a8d135) | [#1122](https://github.com/NVIDIA/Model-Optimizer/pull/1122) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Remove custom DistillationProvider and simplify mbridge distillation and hf export |
+| 2026-04-01 | [09b3c0b1](https://github.com/NVIDIA/Model-Optimizer/commit/09b3c0b1564d58828635bcfbe7d5d41548189a22) | [#1145](https://github.com/NVIDIA/Model-Optimizer/pull/1145) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Add modelopt-recipes-codeowners |
+| 2026-04-01 | [2ae407c5](https://github.com/NVIDIA/Model-Optimizer/commit/2ae407c5598b90c77f04f45e37a40cec8e46be65) | [#1154](https://github.com/NVIDIA/Model-Optimizer/pull/1154) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Include gpu and example tests also in codecov coverage reporting and enable omitted folder coverage |
+| 2026-04-01 | [de55e8a9](https://github.com/NVIDIA/Model-Optimizer/commit/de55e8a94ddbf6195eca924510d318cfbf0ca168) | [#1143](https://github.com/NVIDIA/Model-Optimizer/pull/1143) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `export` `infra` `torch` | Bug fix: disable weight quantizer rotation after weight fold during vLLM fakequant export |
 | 2026-03-31 | [9cebe4ec](https://github.com/NVIDIA/Model-Optimizer/commit/9cebe4ec2bbcc96a14d0126f2f7ebdc702f1445f) | [#1149](https://github.com/NVIDIA/Model-Optimizer/pull/1149) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on release/0.43.0 (2026-03-31) |
 | 2026-03-30 | [a3f5c464](https://github.com/NVIDIA/Model-Optimizer/commit/a3f5c464d04b66458263d57a37c0f671b6302529) | [#1096](https://github.com/NVIDIA/Model-Optimizer/pull/1096) | [@hthadicherla](https://github.com/hthadicherla) | `infra` | Added general graph surgery run function for easier scalability with Olive. |
 | 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
@@ -106,4 +111,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 100 PRs**
+**Total: 105 PRs**

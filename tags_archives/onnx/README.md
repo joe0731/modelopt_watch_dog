@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-01 | [4c399afe](https://github.com/NVIDIA/Model-Optimizer/commit/4c399afee66393023ec5685114a615fbbe167c4a) | [#1135](https://github.com/NVIDIA/Model-Optimizer/pull/1135) | [@hthadicherla](https://github.com/hthadicherla) | `onnx` `quantization` | Added fallback to preload cudnn dlls from nvidia cudnn venv package or torch venv package |
 | 2026-03-30 | [7c1f33c2](https://github.com/NVIDIA/Model-Optimizer/commit/7c1f33c2f83e68493c12a879bfb0c4f754b174d8) | [#1117](https://github.com/NVIDIA/Model-Optimizer/pull/1117) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` `tests` | \[BugFix\]\[5271237\]\[ONNX\] Add Q/DQ placement for Conv-\>LayerNorm patterns |
 | 2026-03-30 | [74a8694a](https://github.com/NVIDIA/Model-Optimizer/commit/74a8694a6efac9fdb8d57e35927818066929d1cf) | [#1114](https://github.com/NVIDIA/Model-Optimizer/pull/1114) | [@ajrasane](https://github.com/ajrasane) | `example` `onnx` `quantization` | \[OMNIML-1525\] Create a folder for the plugin example |
 | 2026-03-24 | [8f4c11aa](https://github.com/NVIDIA/Model-Optimizer/commit/8f4c11aa44bdc382a9a236e06b18187c80875396) | [#1112](https://github.com/NVIDIA/Model-Optimizer/pull/1112) | [@ajrasane](https://github.com/ajrasane) | `diffusers` `example` `export` `infra` `onnx` `quantization` `torch` | Upgrade the TensorRT container version |
@@ -47,4 +48,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 41 PRs**
+**Total: 42 PRs**

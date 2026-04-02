@@ -5,6 +5,8 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-04-01 | [f1beaba3](https://github.com/NVIDIA/Model-Optimizer/commit/f1beaba36f2df02304eceea2293c99c595f73711) | [#1146](https://github.com/NVIDIA/Model-Optimizer/pull/1146) | [@mxinO](https://github.com/mxinO) | `quantization` `torch` | Fix vllm quantization for new vllm \>= 0.17 |
+| 2026-04-01 | [4c399afe](https://github.com/NVIDIA/Model-Optimizer/commit/4c399afee66393023ec5685114a615fbbe167c4a) | [#1135](https://github.com/NVIDIA/Model-Optimizer/pull/1135) | [@hthadicherla](https://github.com/hthadicherla) | `onnx` `quantization` | Added fallback to preload cudnn dlls from nvidia cudnn venv package or torch venv package |
+| 2026-04-01 | [d6c8e9d2](https://github.com/NVIDIA/Model-Optimizer/commit/d6c8e9d2b6001b5c0cbbbde62963d1bbe1eb0a89) | [#1148](https://github.com/NVIDIA/Model-Optimizer/pull/1148) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `export` `quantization` `torch` `windows` | Remove internal lustre paths |
 | 2026-03-31 | [ada1e26b](https://github.com/NVIDIA/Model-Optimizer/commit/ada1e26ba0ee1366a09f18d4bd87ec7411bc9348) | [#1142](https://github.com/NVIDIA/Model-Optimizer/pull/1142) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `torch` | \[NVBug: 6000530\] Fix AWQ crash for uncalibrated MoE experts |
 | 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
 | 2026-03-30 | [7c1f33c2](https://github.com/NVIDIA/Model-Optimizer/commit/7c1f33c2f83e68493c12a879bfb0c4f754b174d8) | [#1117](https://github.com/NVIDIA/Model-Optimizer/pull/1117) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` `tests` | \[BugFix\]\[5271237\]\[ONNX\] Add Q/DQ placement for Conv-\>LayerNorm patterns |
@@ -116,4 +118,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 110 PRs**
+**Total: 112 PRs**

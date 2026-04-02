@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-02 | [7cd7d183](https://github.com/NVIDIA/Model-Optimizer/commit/7cd7d183f478af60f6e50ca03bb8b84f9e54a186) | [#1061](https://github.com/NVIDIA/Model-Optimizer/pull/1061) | [@yueshen2016](https://github.com/yueshen2016) | `export` `torch` | \[minor\] Refactor TE fused-norm handling in GPTModelExporter |
+| 2026-04-02 | [fcb09bf1](https://github.com/NVIDIA/Model-Optimizer/commit/fcb09bf11d4a72bd8f0bfd771205941619f1fc43) | [#1155](https://github.com/NVIDIA/Model-Optimizer/pull/1155) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `torch` | \[NVBug: 6038899\] Fix MoE export crash on meta tensors with CPU offload |
+| 2026-04-01 | [d6c8e9d2](https://github.com/NVIDIA/Model-Optimizer/commit/d6c8e9d2b6001b5c0cbbbde62963d1bbe1eb0a89) | [#1148](https://github.com/NVIDIA/Model-Optimizer/pull/1148) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `export` `quantization` `torch` `windows` | Remove internal lustre paths |
+| 2026-04-01 | [de55e8a9](https://github.com/NVIDIA/Model-Optimizer/commit/de55e8a94ddbf6195eca924510d318cfbf0ca168) | [#1143](https://github.com/NVIDIA/Model-Optimizer/pull/1143) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `export` `infra` `torch` | Bug fix: disable weight quantizer rotation after weight fold during vLLM fakequant export |
 | 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
 | 2026-03-30 | [58889794](https://github.com/NVIDIA/Model-Optimizer/commit/58889794c32be83e3c45b423f6b6bebc882e97b5) | [#1137](https://github.com/NVIDIA/Model-Optimizer/pull/1137) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `export` `quantization` `torch` | \[NVBug 5996631\] NemotronH models do not work correctly with accelerate |
 | 2026-03-24 | [d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c) | [#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | Remove deprecated Nemo 2.0 references / examples |
@@ -53,4 +57,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 47 PRs**
+**Total: 51 PRs**

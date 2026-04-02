@@ -4,7 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-02 | [7cd7d183](https://github.com/NVIDIA/Model-Optimizer/commit/7cd7d183f478af60f6e50ca03bb8b84f9e54a186) | [#1061](https://github.com/NVIDIA/Model-Optimizer/pull/1061) | [@yueshen2016](https://github.com/yueshen2016) | `export` `torch` | \[minor\] Refactor TE fused-norm handling in GPTModelExporter |
+| 2026-04-02 | [fcb09bf1](https://github.com/NVIDIA/Model-Optimizer/commit/fcb09bf11d4a72bd8f0bfd771205941619f1fc43) | [#1155](https://github.com/NVIDIA/Model-Optimizer/pull/1155) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `torch` | \[NVBug: 6038899\] Fix MoE export crash on meta tensors with CPU offload |
 | 2026-04-01 | [f1beaba3](https://github.com/NVIDIA/Model-Optimizer/commit/f1beaba36f2df02304eceea2293c99c595f73711) | [#1146](https://github.com/NVIDIA/Model-Optimizer/pull/1146) | [@mxinO](https://github.com/mxinO) | `quantization` `torch` | Fix vllm quantization for new vllm \>= 0.17 |
+| 2026-04-01 | [d6c8e9d2](https://github.com/NVIDIA/Model-Optimizer/commit/d6c8e9d2b6001b5c0cbbbde62963d1bbe1eb0a89) | [#1148](https://github.com/NVIDIA/Model-Optimizer/pull/1148) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `export` `quantization` `torch` `windows` | Remove internal lustre paths |
+| 2026-04-01 | [de55e8a9](https://github.com/NVIDIA/Model-Optimizer/commit/de55e8a94ddbf6195eca924510d318cfbf0ca168) | [#1143](https://github.com/NVIDIA/Model-Optimizer/pull/1143) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `export` `infra` `torch` | Bug fix: disable weight quantizer rotation after weight fold during vLLM fakequant export |
 | 2026-03-31 | [ada1e26b](https://github.com/NVIDIA/Model-Optimizer/commit/ada1e26ba0ee1366a09f18d4bd87ec7411bc9348) | [#1142](https://github.com/NVIDIA/Model-Optimizer/pull/1142) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `torch` | \[NVBug: 6000530\] Fix AWQ crash for uncalibrated MoE experts |
 | 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
 | 2026-03-30 | [f04e1069](https://github.com/NVIDIA/Model-Optimizer/commit/f04e1069a7dd6822b22c0783528798ce0f9c023c) | [#1138](https://github.com/NVIDIA/Model-Optimizer/pull/1138) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `torch` | Minor update megatron tokenization script |
@@ -166,4 +170,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 160 PRs**
+**Total: 164 PRs**

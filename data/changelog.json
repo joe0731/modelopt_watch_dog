@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-02",
+    "commit": "7cd7d183f478af60f6e50ca03bb8b84f9e54a186",
+    "pr_number": 1061,
+    "author": "yueshen2016",
+    "title": "[minor] Refactor TE fused-norm handling in GPTModelExporter",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "commit": "fcb09bf11d4a72bd8f0bfd771205941619f1fc43",
+    "pr_number": 1155,
+    "author": "cjluo-nv",
+    "title": "[NVBug: 6038899] Fix MoE export crash on meta tensors with CPU offload",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-01",
     "commit": "f1beaba36f2df02304eceea2293c99c595f73711",
     "pr_number": 1146,
@@ -7,6 +29,84 @@
     "title": "Fix vllm quantization for new vllm >= 0.17",
     "tags": [
       "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "commit": "4c399afee66393023ec5685114a615fbbe167c4a",
+    "pr_number": 1135,
+    "author": "hthadicherla",
+    "title": "Added fallback to preload cudnn dlls from nvidia cudnn venv package or torch venv package",
+    "tags": [
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "commit": "c37c74f651d78c5f5865a7bd561becb74c19e262",
+    "pr_number": 1057,
+    "author": "hthadicherla",
+    "title": "Fused QKV add node issue for GQA graph surgery ",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "commit": "45426ca8c1fa5614ab2ac7e2154b61a616a8d135",
+    "pr_number": 1122,
+    "author": "kevalmorabia97",
+    "title": "Remove custom DistillationProvider and simplify mbridge distillation and hf export",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "commit": "d6c8e9d2b6001b5c0cbbbde62963d1bbe1eb0a89",
+    "pr_number": 1148,
+    "author": "kevalmorabia97",
+    "title": "Remove internal lustre paths",
+    "tags": [
+      "example",
+      "export",
+      "quantization",
+      "torch",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "commit": "09b3c0b1564d58828635bcfbe7d5d41548189a22",
+    "pr_number": 1145,
+    "author": "kevalmorabia97",
+    "title": "Add modelopt-recipes-codeowners",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "commit": "2ae407c5598b90c77f04f45e37a40cec8e46be65",
+    "pr_number": 1154,
+    "author": "kevalmorabia97",
+    "title": "Include gpu and example tests also in codecov coverage reporting and enable omitted folder coverage",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "commit": "de55e8a94ddbf6195eca924510d318cfbf0ca168",
+    "pr_number": 1143,
+    "author": "kinjalpatel27",
+    "title": "Bug fix: disable weight quantizer rotation after weight fold during vLLM fakequant export",
+    "tags": [
+      "export",
+      "infra",
       "torch"
     ]
   },
