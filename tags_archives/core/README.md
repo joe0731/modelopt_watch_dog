@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-02 | [665cc63a](https://github.com/NVIDIA/Model-Optimizer/commit/665cc63a993ed1f86461f39f7c4cda9885c3d77a) | [#1163](https://github.com/NVIDIA/Model-Optimizer/pull/1163) | [@LianaMikael](https://github.com/LianaMikael) | `core` `example` `torch` | Expose Distillation Parameters  |
 | 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
 | 2026-03-30 | [f04e1069](https://github.com/NVIDIA/Model-Optimizer/commit/f04e1069a7dd6822b22c0783528798ce0f9c023c) | [#1138](https://github.com/NVIDIA/Model-Optimizer/pull/1138) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `torch` | Minor update megatron tokenization script |
 | 2026-03-28 | [24ceba61](https://github.com/NVIDIA/Model-Optimizer/commit/24ceba61fe9af73e1f934cd3bb0f6a050b6ac3b1) | [#1131](https://github.com/NVIDIA/Model-Optimizer/pull/1131) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `torch` | Bug fix: 6012573 |
@@ -50,4 +51,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 44 PRs**
+**Total: 45 PRs**

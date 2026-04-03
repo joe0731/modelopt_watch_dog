@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-02 | [00c002ff](https://github.com/NVIDIA/Model-Optimizer/commit/00c002ffd1662705572f33c464fbec3aad4d8bb8) | [#1083](https://github.com/NVIDIA/Model-Optimizer/pull/1083) | [@nv-samcheng](https://github.com/nv-samcheng) | `onnx` `quantization` `tests` | Exclude small-channel Conv nodes from FP8 quantization |
+| 2026-04-02 | [cf012bf6](https://github.com/NVIDIA/Model-Optimizer/commit/cf012bf6ddce5d45b36fecec64ee847da9b2505f) | [#1169](https://github.com/NVIDIA/Model-Optimizer/pull/1169) | [@yueshen2016](https://github.com/yueshen2016) | `eval` `example` `quantization` `torch` | fix: pass include_buffers=True to init_empty_weights for Gemma-4 support |
+| 2026-04-02 | [18ddcb76](https://github.com/NVIDIA/Model-Optimizer/commit/18ddcb766c8d3c478577bfca09a07bc1476c5074) | [#1156](https://github.com/NVIDIA/Model-Optimizer/pull/1156) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `torch` | \[fix\] AutoQuant: clamp instead of use fp64 in auto quant score |
 | 2026-04-01 | [f1beaba3](https://github.com/NVIDIA/Model-Optimizer/commit/f1beaba36f2df02304eceea2293c99c595f73711) | [#1146](https://github.com/NVIDIA/Model-Optimizer/pull/1146) | [@mxinO](https://github.com/mxinO) | `quantization` `torch` | Fix vllm quantization for new vllm \>= 0.17 |
 | 2026-04-01 | [4c399afe](https://github.com/NVIDIA/Model-Optimizer/commit/4c399afee66393023ec5685114a615fbbe167c4a) | [#1135](https://github.com/NVIDIA/Model-Optimizer/pull/1135) | [@hthadicherla](https://github.com/hthadicherla) | `onnx` `quantization` | Added fallback to preload cudnn dlls from nvidia cudnn venv package or torch venv package |
 | 2026-04-01 | [d6c8e9d2](https://github.com/NVIDIA/Model-Optimizer/commit/d6c8e9d2b6001b5c0cbbbde62963d1bbe1eb0a89) | [#1148](https://github.com/NVIDIA/Model-Optimizer/pull/1148) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `export` `quantization` `torch` `windows` | Remove internal lustre paths |
@@ -118,4 +121,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 112 PRs**
+**Total: 115 PRs**

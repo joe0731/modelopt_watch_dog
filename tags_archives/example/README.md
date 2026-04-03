@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-02 | [665cc63a](https://github.com/NVIDIA/Model-Optimizer/commit/665cc63a993ed1f86461f39f7c4cda9885c3d77a) | [#1163](https://github.com/NVIDIA/Model-Optimizer/pull/1163) | [@LianaMikael](https://github.com/LianaMikael) | `core` `example` `torch` | Expose Distillation Parameters  |
+| 2026-04-02 | [cf012bf6](https://github.com/NVIDIA/Model-Optimizer/commit/cf012bf6ddce5d45b36fecec64ee847da9b2505f) | [#1169](https://github.com/NVIDIA/Model-Optimizer/pull/1169) | [@yueshen2016](https://github.com/yueshen2016) | `eval` `example` `quantization` `torch` | fix: pass include_buffers=True to init_empty_weights for Gemma-4 support |
 | 2026-04-01 | [d6c8e9d2](https://github.com/NVIDIA/Model-Optimizer/commit/d6c8e9d2b6001b5c0cbbbde62963d1bbe1eb0a89) | [#1148](https://github.com/NVIDIA/Model-Optimizer/pull/1148) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `export` `quantization` `torch` `windows` | Remove internal lustre paths |
 | 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
 | 2026-03-30 | [d397caea](https://github.com/NVIDIA/Model-Optimizer/commit/d397caea5a5f5e604ed61d6fc32e423ca9219a70) | [#1123](https://github.com/NVIDIA/Model-Optimizer/pull/1123) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `sparsity` `tests` `torch` | Remove --skip-softmax option from hf_sa (only allow calibration option) |
@@ -101,4 +103,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 95 PRs**
+**Total: 97 PRs**

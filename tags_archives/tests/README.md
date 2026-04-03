@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-02 | [00c002ff](https://github.com/NVIDIA/Model-Optimizer/commit/00c002ffd1662705572f33c464fbec3aad4d8bb8) | [#1083](https://github.com/NVIDIA/Model-Optimizer/pull/1083) | [@nv-samcheng](https://github.com/nv-samcheng) | `onnx` `quantization` `tests` | Exclude small-channel Conv nodes from FP8 quantization |
 | 2026-04-01 | [45426ca8](https://github.com/NVIDIA/Model-Optimizer/commit/45426ca8c1fa5614ab2ac7e2154b61a616a8d135) | [#1122](https://github.com/NVIDIA/Model-Optimizer/pull/1122) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Remove custom DistillationProvider and simplify mbridge distillation and hf export |
 | 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
 | 2026-03-30 | [7c1f33c2](https://github.com/NVIDIA/Model-Optimizer/commit/7c1f33c2f83e68493c12a879bfb0c4f754b174d8) | [#1117](https://github.com/NVIDIA/Model-Optimizer/pull/1117) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` `tests` | \[BugFix\]\[5271237\]\[ONNX\] Add Q/DQ placement for Conv-\>LayerNorm patterns |
@@ -107,4 +108,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 101 PRs**
+**Total: 102 PRs**

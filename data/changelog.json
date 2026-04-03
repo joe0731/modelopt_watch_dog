@@ -22,6 +22,64 @@
     ]
   },
   {
+    "date": "2026-04-02",
+    "commit": "00c002ffd1662705572f33c464fbec3aad4d8bb8",
+    "pr_number": 1083,
+    "author": "nv-samcheng",
+    "title": "Exclude small-channel Conv nodes from FP8 quantization",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "commit": "665cc63a993ed1f86461f39f7c4cda9885c3d77a",
+    "pr_number": 1163,
+    "author": "LianaMikael",
+    "title": "Expose Distillation Parameters ",
+    "tags": [
+      "core",
+      "example",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "commit": "cf012bf6ddce5d45b36fecec64ee847da9b2505f",
+    "pr_number": 1169,
+    "author": "yueshen2016",
+    "title": "fix: pass include_buffers=True to init_empty_weights for Gemma-4 support",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "commit": "87ea8babe1da439c9eeff29367c689d1129e22cc",
+    "pr_number": 1100,
+    "author": "cjluo-nv",
+    "title": "Add HuggingFace PTQ pipeline to launcher",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "commit": "18ddcb766c8d3c478577bfca09a07bc1476c5074",
+    "pr_number": 1156,
+    "author": "Fridah-nv",
+    "title": "[fix] AutoQuant: clamp instead of use fp64 in auto quant score",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-01",
     "commit": "f1beaba36f2df02304eceea2293c99c595f73711",
     "pr_number": 1146,

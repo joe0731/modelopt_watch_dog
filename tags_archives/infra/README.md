@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-02 | [87ea8bab](https://github.com/NVIDIA/Model-Optimizer/commit/87ea8babe1da439c9eeff29367c689d1129e22cc) | [#1100](https://github.com/NVIDIA/Model-Optimizer/pull/1100) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Add HuggingFace PTQ pipeline to launcher |
 | 2026-04-01 | [c37c74f6](https://github.com/NVIDIA/Model-Optimizer/commit/c37c74f651d78c5f5865a7bd561becb74c19e262) | [#1057](https://github.com/NVIDIA/Model-Optimizer/pull/1057) | [@hthadicherla](https://github.com/hthadicherla) | `infra` | Fused QKV add node issue for GQA graph surgery  |
 | 2026-04-01 | [45426ca8](https://github.com/NVIDIA/Model-Optimizer/commit/45426ca8c1fa5614ab2ac7e2154b61a616a8d135) | [#1122](https://github.com/NVIDIA/Model-Optimizer/pull/1122) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Remove custom DistillationProvider and simplify mbridge distillation and hf export |
 | 2026-04-01 | [09b3c0b1](https://github.com/NVIDIA/Model-Optimizer/commit/09b3c0b1564d58828635bcfbe7d5d41548189a22) | [#1145](https://github.com/NVIDIA/Model-Optimizer/pull/1145) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Add modelopt-recipes-codeowners |
@@ -111,4 +112,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 105 PRs**
+**Total: 106 PRs**
