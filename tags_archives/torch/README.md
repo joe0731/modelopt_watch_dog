@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-03 | [9aab38ce](https://github.com/NVIDIA/Model-Optimizer/commit/9aab38ce76f91c28555c141e3913a591e6fab28c) | [#971](https://github.com/NVIDIA/Model-Optimizer/pull/971) | [@jQizhang](https://github.com/jQizhang) | `quantization` `torch` | Fix weight-only quantization for TEGroupedMLP (MoE models) |
+| 2026-04-03 | [df80a0f7](https://github.com/NVIDIA/Model-Optimizer/commit/df80a0f7b2f20f1c97399b69e83b5b31f3775990) | [#1053](https://github.com/NVIDIA/Model-Optimizer/pull/1053) | [@kaix-nv](https://github.com/kaix-nv) | `infra` `sparsity` `tests` `torch` | \[5/n\] Add VSA for Video Diffusion |
 | 2026-04-02 | [7cd7d183](https://github.com/NVIDIA/Model-Optimizer/commit/7cd7d183f478af60f6e50ca03bb8b84f9e54a186) | [#1061](https://github.com/NVIDIA/Model-Optimizer/pull/1061) | [@yueshen2016](https://github.com/yueshen2016) | `export` `torch` | \[minor\] Refactor TE fused-norm handling in GPTModelExporter |
 | 2026-04-02 | [fcb09bf1](https://github.com/NVIDIA/Model-Optimizer/commit/fcb09bf11d4a72bd8f0bfd771205941619f1fc43) | [#1155](https://github.com/NVIDIA/Model-Optimizer/pull/1155) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `torch` | \[NVBug: 6038899\] Fix MoE export crash on meta tensors with CPU offload |
 | 2026-04-02 | [665cc63a](https://github.com/NVIDIA/Model-Optimizer/commit/665cc63a993ed1f86461f39f7c4cda9885c3d77a) | [#1163](https://github.com/NVIDIA/Model-Optimizer/pull/1163) | [@LianaMikael](https://github.com/LianaMikael) | `core` `example` `torch` | Expose Distillation Parameters  |
@@ -173,4 +175,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 167 PRs**
+**Total: 169 PRs**

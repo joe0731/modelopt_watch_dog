@@ -1,5 +1,69 @@
 [
   {
+    "date": "2026-04-03",
+    "commit": "4afac7f757ca8ebbca445197a132787f150b6797",
+    "pr_number": 1107,
+    "author": "mxinO",
+    "title": "Add Agent PTQ skill for model quantization",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "commit": "9aab38ce76f91c28555c141e3913a591e6fab28c",
+    "pr_number": 971,
+    "author": "jQizhang",
+    "title": "Fix weight-only quantization for TEGroupedMLP (MoE models)",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "commit": "f539c036ca1815d2cd1f04c546bb096432121b2c",
+    "pr_number": 1133,
+    "author": "kaix-nv",
+    "title": "Add Agent Deployment skill for model serving",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "commit": "f521cfe3fa695128d65044d0c143a6b6426b1731",
+    "pr_number": 1132,
+    "author": "kaix-nv",
+    "title": "Add Agent Evaluation skill for accuracy benchmarking",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "commit": "18ce04f1ce18308d9f217e50239aa8523cbcb51b",
+    "pr_number": 1175,
+    "author": "cjluo-nv",
+    "title": "Update the hf_ptq.yaml",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "commit": "df80a0f7b2f20f1c97399b69e83b5b31f3775990",
+    "pr_number": 1053,
+    "author": "kaix-nv",
+    "title": "[5/n] Add VSA for Video Diffusion",
+    "tags": [
+      "infra",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-02",
     "commit": "7cd7d183f478af60f6e50ca03bb8b84f9e54a186",
     "pr_number": 1061,

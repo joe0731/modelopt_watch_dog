@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-03 | [9aab38ce](https://github.com/NVIDIA/Model-Optimizer/commit/9aab38ce76f91c28555c141e3913a591e6fab28c) | [#971](https://github.com/NVIDIA/Model-Optimizer/pull/971) | [@jQizhang](https://github.com/jQizhang) | `quantization` `torch` | Fix weight-only quantization for TEGroupedMLP (MoE models) |
 | 2026-04-02 | [00c002ff](https://github.com/NVIDIA/Model-Optimizer/commit/00c002ffd1662705572f33c464fbec3aad4d8bb8) | [#1083](https://github.com/NVIDIA/Model-Optimizer/pull/1083) | [@nv-samcheng](https://github.com/nv-samcheng) | `onnx` `quantization` `tests` | Exclude small-channel Conv nodes from FP8 quantization |
 | 2026-04-02 | [cf012bf6](https://github.com/NVIDIA/Model-Optimizer/commit/cf012bf6ddce5d45b36fecec64ee847da9b2505f) | [#1169](https://github.com/NVIDIA/Model-Optimizer/pull/1169) | [@yueshen2016](https://github.com/yueshen2016) | `eval` `example` `quantization` `torch` | fix: pass include_buffers=True to init_empty_weights for Gemma-4 support |
 | 2026-04-02 | [18ddcb76](https://github.com/NVIDIA/Model-Optimizer/commit/18ddcb766c8d3c478577bfca09a07bc1476c5074) | [#1156](https://github.com/NVIDIA/Model-Optimizer/pull/1156) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `torch` | \[fix\] AutoQuant: clamp instead of use fp64 in auto quant score |
@@ -121,4 +122,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 115 PRs**
+**Total: 116 PRs**

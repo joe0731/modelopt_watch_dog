@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-03 | [4afac7f7](https://github.com/NVIDIA/Model-Optimizer/commit/4afac7f757ca8ebbca445197a132787f150b6797) | [#1107](https://github.com/NVIDIA/Model-Optimizer/pull/1107) | [@mxinO](https://github.com/mxinO) | `infra` | Add Agent PTQ skill for model quantization |
+| 2026-04-03 | [f539c036](https://github.com/NVIDIA/Model-Optimizer/commit/f539c036ca1815d2cd1f04c546bb096432121b2c) | [#1133](https://github.com/NVIDIA/Model-Optimizer/pull/1133) | [@kaix-nv](https://github.com/kaix-nv) | `infra` | Add Agent Deployment skill for model serving |
+| 2026-04-03 | [f521cfe3](https://github.com/NVIDIA/Model-Optimizer/commit/f521cfe3fa695128d65044d0c143a6b6426b1731) | [#1132](https://github.com/NVIDIA/Model-Optimizer/pull/1132) | [@kaix-nv](https://github.com/kaix-nv) | `infra` | Add Agent Evaluation skill for accuracy benchmarking |
+| 2026-04-03 | [18ce04f1](https://github.com/NVIDIA/Model-Optimizer/commit/18ce04f1ce18308d9f217e50239aa8523cbcb51b) | [#1175](https://github.com/NVIDIA/Model-Optimizer/pull/1175) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Update the hf_ptq.yaml |
+| 2026-04-03 | [df80a0f7](https://github.com/NVIDIA/Model-Optimizer/commit/df80a0f7b2f20f1c97399b69e83b5b31f3775990) | [#1053](https://github.com/NVIDIA/Model-Optimizer/pull/1053) | [@kaix-nv](https://github.com/kaix-nv) | `infra` `sparsity` `tests` `torch` | \[5/n\] Add VSA for Video Diffusion |
 | 2026-04-02 | [87ea8bab](https://github.com/NVIDIA/Model-Optimizer/commit/87ea8babe1da439c9eeff29367c689d1129e22cc) | [#1100](https://github.com/NVIDIA/Model-Optimizer/pull/1100) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Add HuggingFace PTQ pipeline to launcher |
 | 2026-04-01 | [c37c74f6](https://github.com/NVIDIA/Model-Optimizer/commit/c37c74f651d78c5f5865a7bd561becb74c19e262) | [#1057](https://github.com/NVIDIA/Model-Optimizer/pull/1057) | [@hthadicherla](https://github.com/hthadicherla) | `infra` | Fused QKV add node issue for GQA graph surgery  |
 | 2026-04-01 | [45426ca8](https://github.com/NVIDIA/Model-Optimizer/commit/45426ca8c1fa5614ab2ac7e2154b61a616a8d135) | [#1122](https://github.com/NVIDIA/Model-Optimizer/pull/1122) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Remove custom DistillationProvider and simplify mbridge distillation and hf export |
@@ -112,4 +117,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 106 PRs**
+**Total: 111 PRs**

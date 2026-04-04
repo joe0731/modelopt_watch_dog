@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-03 | [df80a0f7](https://github.com/NVIDIA/Model-Optimizer/commit/df80a0f7b2f20f1c97399b69e83b5b31f3775990) | [#1053](https://github.com/NVIDIA/Model-Optimizer/pull/1053) | [@kaix-nv](https://github.com/kaix-nv) | `infra` `sparsity` `tests` `torch` | \[5/n\] Add VSA for Video Diffusion |
 | 2026-04-02 | [00c002ff](https://github.com/NVIDIA/Model-Optimizer/commit/00c002ffd1662705572f33c464fbec3aad4d8bb8) | [#1083](https://github.com/NVIDIA/Model-Optimizer/pull/1083) | [@nv-samcheng](https://github.com/nv-samcheng) | `onnx` `quantization` `tests` | Exclude small-channel Conv nodes from FP8 quantization |
 | 2026-04-01 | [45426ca8](https://github.com/NVIDIA/Model-Optimizer/commit/45426ca8c1fa5614ab2ac7e2154b61a616a8d135) | [#1122](https://github.com/NVIDIA/Model-Optimizer/pull/1122) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Remove custom DistillationProvider and simplify mbridge distillation and hf export |
 | 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
@@ -108,4 +109,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 102 PRs**
+**Total: 103 PRs**
