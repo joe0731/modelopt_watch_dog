@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-06 | [f7557221](https://github.com/NVIDIA/Model-Optimizer/commit/f7557221e382dbd4d2d0eae35b09887add034624) | [#1174](https://github.com/NVIDIA/Model-Optimizer/pull/1174) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Add file-based command relay for remote Docker testing |
 | 2026-04-03 | [4afac7f7](https://github.com/NVIDIA/Model-Optimizer/commit/4afac7f757ca8ebbca445197a132787f150b6797) | [#1107](https://github.com/NVIDIA/Model-Optimizer/pull/1107) | [@mxinO](https://github.com/mxinO) | `infra` | Add Agent PTQ skill for model quantization |
 | 2026-04-03 | [f539c036](https://github.com/NVIDIA/Model-Optimizer/commit/f539c036ca1815d2cd1f04c546bb096432121b2c) | [#1133](https://github.com/NVIDIA/Model-Optimizer/pull/1133) | [@kaix-nv](https://github.com/kaix-nv) | `infra` | Add Agent Deployment skill for model serving |
 | 2026-04-03 | [f521cfe3](https://github.com/NVIDIA/Model-Optimizer/commit/f521cfe3fa695128d65044d0c143a6b6426b1731) | [#1132](https://github.com/NVIDIA/Model-Optimizer/pull/1132) | [@kaix-nv](https://github.com/kaix-nv) | `infra` | Add Agent Evaluation skill for accuracy benchmarking |
@@ -117,4 +118,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 111 PRs**
+**Total: 112 PRs**
