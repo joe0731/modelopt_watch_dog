@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-07 | [80d2f02a](https://github.com/NVIDIA/Model-Optimizer/commit/80d2f02a2d12ebf6ee630069c8d5359c69e3ab43) | [#1183](https://github.com/NVIDIA/Model-Optimizer/pull/1183) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Fix spec dec example tests |
+| 2026-04-06 | [c542c09b](https://github.com/NVIDIA/Model-Optimizer/commit/c542c09b11a230a9dabfad5f37321b26572587c8) | [#1124](https://github.com/NVIDIA/Model-Optimizer/pull/1124) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `quantization` `torch` | Refine _extract_layer_prefixes to better handle mtp modules |
+| 2026-04-06 | [1cceb950](https://github.com/NVIDIA/Model-Optimizer/commit/1cceb950d687d0ec106e648d282a07a119952836) | [#1094](https://github.com/NVIDIA/Model-Optimizer/pull/1094) | [@shengliangxu](https://github.com/shengliangxu) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `tests` `torch` `vllm` `windows` | \[OMNIML-3689\] PTQ quant_cfg semantic correction. Design in doc _quant_cfg.rst |
 | 2026-04-02 | [cf012bf6](https://github.com/NVIDIA/Model-Optimizer/commit/cf012bf6ddce5d45b36fecec64ee847da9b2505f) | [#1169](https://github.com/NVIDIA/Model-Optimizer/pull/1169) | [@yueshen2016](https://github.com/yueshen2016) | `eval` `example` `quantization` `torch` | fix: pass include_buffers=True to init_empty_weights for Gemma-4 support |
 | 2026-03-30 | [48da2812](https://github.com/NVIDIA/Model-Optimizer/commit/48da2812c711a933b95f8fa6d46814cb82de4df9) | [#805](https://github.com/NVIDIA/Model-Optimizer/pull/805) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `core` `deploy` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vllm` | vllm fakequant reload with modelopt state for HF |
 | 2026-03-30 | [58889794](https://github.com/NVIDIA/Model-Optimizer/commit/58889794c32be83e3c45b423f6b6bebc882e97b5) | [#1137](https://github.com/NVIDIA/Model-Optimizer/pull/1137) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `export` `quantization` `torch` | \[NVBug 5996631\] NemotronH models do not work correctly with accelerate |
@@ -39,4 +42,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 33 PRs**
+**Total: 36 PRs**

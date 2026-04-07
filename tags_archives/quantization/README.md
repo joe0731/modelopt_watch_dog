@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-07 | [80d2f02a](https://github.com/NVIDIA/Model-Optimizer/commit/80d2f02a2d12ebf6ee630069c8d5359c69e3ab43) | [#1183](https://github.com/NVIDIA/Model-Optimizer/pull/1183) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Fix spec dec example tests |
+| 2026-04-06 | [4a5ef01a](https://github.com/NVIDIA/Model-Optimizer/commit/4a5ef01accbfc8162fce6b568e87294061ec8dc2) | [#1178](https://github.com/NVIDIA/Model-Optimizer/pull/1178) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | Fixed the calib size bug |
+| 2026-04-06 | [c542c09b](https://github.com/NVIDIA/Model-Optimizer/commit/c542c09b11a230a9dabfad5f37321b26572587c8) | [#1124](https://github.com/NVIDIA/Model-Optimizer/pull/1124) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `quantization` `torch` | Refine _extract_layer_prefixes to better handle mtp modules |
+| 2026-04-06 | [1cceb950](https://github.com/NVIDIA/Model-Optimizer/commit/1cceb950d687d0ec106e648d282a07a119952836) | [#1094](https://github.com/NVIDIA/Model-Optimizer/pull/1094) | [@shengliangxu](https://github.com/shengliangxu) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `tests` `torch` `vllm` `windows` | \[OMNIML-3689\] PTQ quant_cfg semantic correction. Design in doc _quant_cfg.rst |
 | 2026-04-03 | [9aab38ce](https://github.com/NVIDIA/Model-Optimizer/commit/9aab38ce76f91c28555c141e3913a591e6fab28c) | [#971](https://github.com/NVIDIA/Model-Optimizer/pull/971) | [@jQizhang](https://github.com/jQizhang) | `quantization` `torch` | Fix weight-only quantization for TEGroupedMLP (MoE models) |
 | 2026-04-02 | [00c002ff](https://github.com/NVIDIA/Model-Optimizer/commit/00c002ffd1662705572f33c464fbec3aad4d8bb8) | [#1083](https://github.com/NVIDIA/Model-Optimizer/pull/1083) | [@nv-samcheng](https://github.com/nv-samcheng) | `onnx` `quantization` `tests` | Exclude small-channel Conv nodes from FP8 quantization |
 | 2026-04-02 | [cf012bf6](https://github.com/NVIDIA/Model-Optimizer/commit/cf012bf6ddce5d45b36fecec64ee847da9b2505f) | [#1169](https://github.com/NVIDIA/Model-Optimizer/pull/1169) | [@yueshen2016](https://github.com/yueshen2016) | `eval` `example` `quantization` `torch` | fix: pass include_buffers=True to init_empty_weights for Gemma-4 support |
@@ -122,4 +126,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 116 PRs**
+**Total: 120 PRs**

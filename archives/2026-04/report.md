@@ -8,7 +8,12 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-04-07 | [0d6fdd82](https://github.com/NVIDIA/Model-Optimizer/commit/0d6fdd82da9e28e5d662c42d6bd047d5be0c2d3d) | [#1184](https://github.com/NVIDIA/Model-Optimizer/pull/1184) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | ignore the claude local setting |
+| 🟡 | **2026-04-07** | **[80d2f02a](https://github.com/NVIDIA/Model-Optimizer/commit/80d2f02a2d12ebf6ee630069c8d5359c69e3ab43)** | **[#1183](https://github.com/NVIDIA/Model-Optimizer/pull/1183)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `eval` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | **Fix spec dec example tests** |
 |  | 2026-04-06 | [f7557221](https://github.com/NVIDIA/Model-Optimizer/commit/f7557221e382dbd4d2d0eae35b09887add034624) | [#1174](https://github.com/NVIDIA/Model-Optimizer/pull/1174) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Add file-based command relay for remote Docker testing |
+|  | 2026-04-06 | [4a5ef01a](https://github.com/NVIDIA/Model-Optimizer/commit/4a5ef01accbfc8162fce6b568e87294061ec8dc2) | [#1178](https://github.com/NVIDIA/Model-Optimizer/pull/1178) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | Fixed the calib size bug |
+| 🟡 | **2026-04-06** | **[c542c09b](https://github.com/NVIDIA/Model-Optimizer/commit/c542c09b11a230a9dabfad5f37321b26572587c8)** | **[#1124](https://github.com/NVIDIA/Model-Optimizer/pull/1124)** | **[@Edwardf0t1](https://github.com/Edwardf0t1)** | `eval` `example` `quantization` `torch` | **Refine _extract_layer_prefixes to better handle mtp modules** |
+| 🟡🔵🟠 | **2026-04-06** | **[1cceb950](https://github.com/NVIDIA/Model-Optimizer/commit/1cceb950d687d0ec106e648d282a07a119952836)** | **[#1094](https://github.com/NVIDIA/Model-Optimizer/pull/1094)** | **[@shengliangxu](https://github.com/shengliangxu)** | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `tests` `torch` `vllm` `windows` | **\[OMNIML-3689\] PTQ quant_cfg semantic correction. Design in doc _quant_cfg.rst** |
 |  | 2026-04-03 | [4afac7f7](https://github.com/NVIDIA/Model-Optimizer/commit/4afac7f757ca8ebbca445197a132787f150b6797) | [#1107](https://github.com/NVIDIA/Model-Optimizer/pull/1107) | [@mxinO](https://github.com/mxinO) | `infra` | Add Agent PTQ skill for model quantization |
 |  | 2026-04-03 | [9aab38ce](https://github.com/NVIDIA/Model-Optimizer/commit/9aab38ce76f91c28555c141e3913a591e6fab28c) | [#971](https://github.com/NVIDIA/Model-Optimizer/pull/971) | [@jQizhang](https://github.com/jQizhang) | `quantization` `torch` | Fix weight-only quantization for TEGroupedMLP (MoE models) |
 |  | 2026-04-03 | [f539c036](https://github.com/NVIDIA/Model-Optimizer/commit/f539c036ca1815d2cd1f04c546bb096432121b2c) | [#1133](https://github.com/NVIDIA/Model-Optimizer/pull/1133) | [@kaix-nv](https://github.com/kaix-nv) | `infra` | Add Agent Deployment skill for model serving |
@@ -32,4 +37,4 @@
 |  | 2026-04-01 | [de55e8a9](https://github.com/NVIDIA/Model-Optimizer/commit/de55e8a94ddbf6195eca924510d318cfbf0ca168) | [#1143](https://github.com/NVIDIA/Model-Optimizer/pull/1143) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `export` `infra` `torch` | Bug fix: disable weight quantizer rotation after weight fold during vLLM fakequant export |
 
 ---
-**Total: 22 PRs** | **Highlighted: 3**
+**Total: 27 PRs** | **Highlighted: 6**

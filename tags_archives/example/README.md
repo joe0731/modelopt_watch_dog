@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-07 | [80d2f02a](https://github.com/NVIDIA/Model-Optimizer/commit/80d2f02a2d12ebf6ee630069c8d5359c69e3ab43) | [#1183](https://github.com/NVIDIA/Model-Optimizer/pull/1183) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Fix spec dec example tests |
+| 2026-04-06 | [4a5ef01a](https://github.com/NVIDIA/Model-Optimizer/commit/4a5ef01accbfc8162fce6b568e87294061ec8dc2) | [#1178](https://github.com/NVIDIA/Model-Optimizer/pull/1178) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | Fixed the calib size bug |
+| 2026-04-06 | [c542c09b](https://github.com/NVIDIA/Model-Optimizer/commit/c542c09b11a230a9dabfad5f37321b26572587c8) | [#1124](https://github.com/NVIDIA/Model-Optimizer/pull/1124) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `quantization` `torch` | Refine _extract_layer_prefixes to better handle mtp modules |
+| 2026-04-06 | [1cceb950](https://github.com/NVIDIA/Model-Optimizer/commit/1cceb950d687d0ec106e648d282a07a119952836) | [#1094](https://github.com/NVIDIA/Model-Optimizer/pull/1094) | [@shengliangxu](https://github.com/shengliangxu) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `tests` `torch` `vllm` `windows` | \[OMNIML-3689\] PTQ quant_cfg semantic correction. Design in doc _quant_cfg.rst |
 | 2026-04-02 | [665cc63a](https://github.com/NVIDIA/Model-Optimizer/commit/665cc63a993ed1f86461f39f7c4cda9885c3d77a) | [#1163](https://github.com/NVIDIA/Model-Optimizer/pull/1163) | [@LianaMikael](https://github.com/LianaMikael) | `core` `example` `torch` | Expose Distillation Parameters  |
 | 2026-04-02 | [cf012bf6](https://github.com/NVIDIA/Model-Optimizer/commit/cf012bf6ddce5d45b36fecec64ee847da9b2505f) | [#1169](https://github.com/NVIDIA/Model-Optimizer/pull/1169) | [@yueshen2016](https://github.com/yueshen2016) | `eval` `example` `quantization` `torch` | fix: pass include_buffers=True to init_empty_weights for Gemma-4 support |
 | 2026-04-01 | [d6c8e9d2](https://github.com/NVIDIA/Model-Optimizer/commit/d6c8e9d2b6001b5c0cbbbde62963d1bbe1eb0a89) | [#1148](https://github.com/NVIDIA/Model-Optimizer/pull/1148) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `export` `quantization` `torch` `windows` | Remove internal lustre paths |
@@ -103,4 +107,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 97 PRs**
+**Total: 101 PRs**
