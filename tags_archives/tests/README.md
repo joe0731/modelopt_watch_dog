@@ -4,7 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-08 | [82d96a63](https://github.com/NVIDIA/Model-Optimizer/commit/82d96a635f42fa93e0a7d9b0c37a2666d3c55f58) | [#1134](https://github.com/NVIDIA/Model-Optimizer/pull/1134) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] Refactor EAGLE3 training to YAML-based config and recipe system |
+| 2026-04-08 | [0246041b](https://github.com/NVIDIA/Model-Optimizer/commit/0246041b0127e517965cba532071a6af9edf32e8) | [#1176](https://github.com/NVIDIA/Model-Optimizer/pull/1176) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `tests` `torch` | feat(speculative): add vLLM data synthesis pipeline and Nemotron dataset preparation scripts  |
 | 2026-04-07 | [80d2f02a](https://github.com/NVIDIA/Model-Optimizer/commit/80d2f02a2d12ebf6ee630069c8d5359c69e3ab43) | [#1183](https://github.com/NVIDIA/Model-Optimizer/pull/1183) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Fix spec dec example tests |
+| 2026-04-07 | [5dc17dfd](https://github.com/NVIDIA/Model-Optimizer/commit/5dc17dfd15d9ce5aa24553c2879ac68a4787f6bb) | [#1181](https://github.com/NVIDIA/Model-Optimizer/pull/1181) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[Security\] Enable torch.load(weights_only=True) for secure checkpoint loading + trust_remote_code fix |
+| 2026-04-07 | [4255bc6a](https://github.com/NVIDIA/Model-Optimizer/commit/4255bc6a0c6acdf82f0b827393229bba0f5626cd) | [#1158](https://github.com/NVIDIA/Model-Optimizer/pull/1158) | [@jenchen13](https://github.com/jenchen13) | `core` `quantization` `tests` `torch` | Fix MoE quantization tests and add sync_expert_weight_amax option |
+| 2026-04-07 | [bdc04f17](https://github.com/NVIDIA/Model-Optimizer/commit/bdc04f174d5b96fa046c5e68e40499a048267fdb) | [#1189](https://github.com/NVIDIA/Model-Optimizer/pull/1189) | [@gcunhase](https://github.com/gcunhase) | `onnx` `quantization` `tests` | \[6056809\] Fix TRT dependency in ModelOpt ONNX quantization |
 | 2026-04-06 | [1cceb950](https://github.com/NVIDIA/Model-Optimizer/commit/1cceb950d687d0ec106e648d282a07a119952836) | [#1094](https://github.com/NVIDIA/Model-Optimizer/pull/1094) | [@shengliangxu](https://github.com/shengliangxu) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `tests` `torch` `vllm` `windows` | \[OMNIML-3689\] PTQ quant_cfg semantic correction. Design in doc _quant_cfg.rst |
 | 2026-04-03 | [df80a0f7](https://github.com/NVIDIA/Model-Optimizer/commit/df80a0f7b2f20f1c97399b69e83b5b31f3775990) | [#1053](https://github.com/NVIDIA/Model-Optimizer/pull/1053) | [@kaix-nv](https://github.com/kaix-nv) | `infra` `sparsity` `tests` `torch` | \[5/n\] Add VSA for Video Diffusion |
 | 2026-04-02 | [00c002ff](https://github.com/NVIDIA/Model-Optimizer/commit/00c002ffd1662705572f33c464fbec3aad4d8bb8) | [#1083](https://github.com/NVIDIA/Model-Optimizer/pull/1083) | [@nv-samcheng](https://github.com/nv-samcheng) | `onnx` `quantization` `tests` | Exclude small-channel Conv nodes from FP8 quantization |
@@ -111,4 +116,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 105 PRs**
+**Total: 110 PRs**

@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-04-07 | [80d2f02a](https://github.com/NVIDIA/Model-Optimizer/commit/80d2f02a2d12ebf6ee630069c8d5359c69e3ab43) | [#1183](https://github.com/NVIDIA/Model-Optimizer/pull/1183) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Fix spec dec example tests |
+| 2026-04-07 | [5dc17dfd](https://github.com/NVIDIA/Model-Optimizer/commit/5dc17dfd15d9ce5aa24553c2879ac68a4787f6bb) | [#1181](https://github.com/NVIDIA/Model-Optimizer/pull/1181) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[Security\] Enable torch.load(weights_only=True) for secure checkpoint loading + trust_remote_code fix |
 | 2026-04-06 | [1cceb950](https://github.com/NVIDIA/Model-Optimizer/commit/1cceb950d687d0ec106e648d282a07a119952836) | [#1094](https://github.com/NVIDIA/Model-Optimizer/pull/1094) | [@shengliangxu](https://github.com/shengliangxu) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `tests` `torch` `vllm` `windows` | \[OMNIML-3689\] PTQ quant_cfg semantic correction. Design in doc _quant_cfg.rst |
 | 2026-04-02 | [7cd7d183](https://github.com/NVIDIA/Model-Optimizer/commit/7cd7d183f478af60f6e50ca03bb8b84f9e54a186) | [#1061](https://github.com/NVIDIA/Model-Optimizer/pull/1061) | [@yueshen2016](https://github.com/yueshen2016) | `export` `torch` | \[minor\] Refactor TE fused-norm handling in GPTModelExporter |
 | 2026-04-02 | [fcb09bf1](https://github.com/NVIDIA/Model-Optimizer/commit/fcb09bf11d4a72bd8f0bfd771205941619f1fc43) | [#1155](https://github.com/NVIDIA/Model-Optimizer/pull/1155) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `torch` | \[NVBug: 6038899\] Fix MoE export crash on meta tensors with CPU offload |
@@ -59,4 +60,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 53 PRs**
+**Total: 54 PRs**

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-07 | [5dc17dfd](https://github.com/NVIDIA/Model-Optimizer/commit/5dc17dfd15d9ce5aa24553c2879ac68a4787f6bb) | [#1181](https://github.com/NVIDIA/Model-Optimizer/pull/1181) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[Security\] Enable torch.load(weights_only=True) for secure checkpoint loading + trust_remote_code fix |
 | 2026-04-06 | [1cceb950](https://github.com/NVIDIA/Model-Optimizer/commit/1cceb950d687d0ec106e648d282a07a119952836) | [#1094](https://github.com/NVIDIA/Model-Optimizer/pull/1094) | [@shengliangxu](https://github.com/shengliangxu) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `tests` `torch` `vllm` `windows` | \[OMNIML-3689\] PTQ quant_cfg semantic correction. Design in doc _quant_cfg.rst |
 | 2026-04-01 | [d6c8e9d2](https://github.com/NVIDIA/Model-Optimizer/commit/d6c8e9d2b6001b5c0cbbbde62963d1bbe1eb0a89) | [#1148](https://github.com/NVIDIA/Model-Optimizer/pull/1148) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `export` `quantization` `torch` `windows` | Remove internal lustre paths |
 | 2026-03-06 | [296a865c](https://github.com/NVIDIA/Model-Optimizer/commit/296a865c70cd4373f0ec6585354c563b8b9d61b6) | [#933](https://github.com/NVIDIA/Model-Optimizer/pull/933) | [@ynankani](https://github.com/ynankani) | `example` `export` `torch` `windows` | sample QAD example script |
@@ -14,4 +15,4 @@
 | 2026-01-25 | [5cc2a545](https://github.com/NVIDIA/Model-Optimizer/commit/5cc2a5451984ba0f1225153c7df68746313118f5) | [#762](https://github.com/NVIDIA/Model-Optimizer/pull/762) | [@ynankani](https://github.com/ynankani) | `example` `onnx` `quantization` `windows` | Ynankani/update windows benchmark md |
 
 ---
-**Total: 8 PRs**
+**Total: 9 PRs**

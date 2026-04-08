@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-07 | [5dc17dfd](https://github.com/NVIDIA/Model-Optimizer/commit/5dc17dfd15d9ce5aa24553c2879ac68a4787f6bb) | [#1181](https://github.com/NVIDIA/Model-Optimizer/pull/1181) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[Security\] Enable torch.load(weights_only=True) for secure checkpoint loading + trust_remote_code fix |
+| 2026-04-07 | [bdc04f17](https://github.com/NVIDIA/Model-Optimizer/commit/bdc04f174d5b96fa046c5e68e40499a048267fdb) | [#1189](https://github.com/NVIDIA/Model-Optimizer/pull/1189) | [@gcunhase](https://github.com/gcunhase) | `onnx` `quantization` `tests` | \[6056809\] Fix TRT dependency in ModelOpt ONNX quantization |
 | 2026-04-06 | [1cceb950](https://github.com/NVIDIA/Model-Optimizer/commit/1cceb950d687d0ec106e648d282a07a119952836) | [#1094](https://github.com/NVIDIA/Model-Optimizer/pull/1094) | [@shengliangxu](https://github.com/shengliangxu) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `tests` `torch` `vllm` `windows` | \[OMNIML-3689\] PTQ quant_cfg semantic correction. Design in doc _quant_cfg.rst |
 | 2026-04-02 | [00c002ff](https://github.com/NVIDIA/Model-Optimizer/commit/00c002ffd1662705572f33c464fbec3aad4d8bb8) | [#1083](https://github.com/NVIDIA/Model-Optimizer/pull/1083) | [@nv-samcheng](https://github.com/nv-samcheng) | `onnx` `quantization` `tests` | Exclude small-channel Conv nodes from FP8 quantization |
 | 2026-04-01 | [4c399afe](https://github.com/NVIDIA/Model-Optimizer/commit/4c399afee66393023ec5685114a615fbbe167c4a) | [#1135](https://github.com/NVIDIA/Model-Optimizer/pull/1135) | [@hthadicherla](https://github.com/hthadicherla) | `onnx` `quantization` | Added fallback to preload cudnn dlls from nvidia cudnn venv package or torch venv package |
@@ -50,4 +52,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 44 PRs**
+**Total: 46 PRs**
