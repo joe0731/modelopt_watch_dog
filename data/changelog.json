@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-04-09",
+    "commit": "04cd596d79eec6b2eb87f15490269efbf8732819",
+    "pr_number": 975,
+    "author": "kevalmorabia97",
+    "title": "Add experimental support for transformers>=5.0 + min torch 2.8",
+    "tags": [
+      "core",
+      "deploy",
+      "distillation",
+      "docs",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "sparsity",
+      "speculative_decoding",
+      "tests",
+      "torch",
+      "vllm",
+      "vlm",
+      "windows"
+    ]
+  },
+  {
     "date": "2026-04-08",
     "commit": "82d96a635f42fa93e0a7d9b0c37a2666d3c55f58",
     "pr_number": 1134,
@@ -37,6 +63,87 @@
       "eval",
       "example",
       "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "commit": "abf45580daeaef701f80f7e3382d2d0a1539ec70",
+    "pr_number": 1204,
+    "author": "hthadicherla",
+    "title": "Added workaround to onnx.helper function depreciated in onnx 1.21",
+    "tags": [
+      "example",
+      "infra",
+      "onnx",
+      "quantization",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "commit": "25266b84beaa2639e0f0640e1d34bae185bfc1ca",
+    "pr_number": 1202,
+    "author": "j-rausch",
+    "title": "fix hydra config dtype resolution in puzzletron validation tools",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "commit": "3a177f6d6bd7165101e8d0bde9b5cee7f6bb28a4",
+    "pr_number": 853,
+    "author": "sugunav14",
+    "title": "GPTQ official",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "commit": "4a70040ddde0e19ef195cca902342832cfab9af3",
+    "pr_number": 1182,
+    "author": "ynankani",
+    "title": "Ynankani/fvd benchmark",
+    "tags": [
+      "eval",
+      "example",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "commit": "8428f0610aa9c9770b166b4964874d300121a37e",
+    "pr_number": 1209,
+    "author": "kevalmorabia97",
+    "title": "fix: megatron export correctness for TP>1 GQA, single-file MTP, and Hub remote code",
+    "tags": [
+      "core",
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "commit": "cccfded8a939f3b5770ee5069d386c645557c7d3",
+    "pr_number": 883,
+    "author": "yeyu-nvidia",
+    "title": "Add support for offline speculative decoding model PTQ",
+    "tags": [
+      "core",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "speculative_decoding",
+      "tests",
       "torch"
     ]
   },

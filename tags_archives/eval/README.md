@@ -4,7 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
 | 2026-04-08 | [71444821](https://github.com/NVIDIA/Model-Optimizer/commit/7144482166c060b11efb0300a1a4b5dc16ef955d) | [#1185](https://github.com/NVIDIA/Model-Optimizer/pull/1185) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `quantization` `torch` | Document missing hf_ptq.py features in PTQ README |
+| 2026-04-08 | [4a70040d](https://github.com/NVIDIA/Model-Optimizer/commit/4a70040ddde0e19ef195cca902342832cfab9af3) | [#1182](https://github.com/NVIDIA/Model-Optimizer/pull/1182) | [@ynankani](https://github.com/ynankani) | `eval` `example` `windows` | Ynankani/fvd benchmark |
+| 2026-04-08 | [cccfded8](https://github.com/NVIDIA/Model-Optimizer/commit/cccfded8a939f3b5770ee5069d386c645557c7d3) | [#883](https://github.com/NVIDIA/Model-Optimizer/pull/883) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `eval` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Add support for offline speculative decoding model PTQ |
 | 2026-04-07 | [80d2f02a](https://github.com/NVIDIA/Model-Optimizer/commit/80d2f02a2d12ebf6ee630069c8d5359c69e3ab43) | [#1183](https://github.com/NVIDIA/Model-Optimizer/pull/1183) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Fix spec dec example tests |
 | 2026-04-07 | [5dc17dfd](https://github.com/NVIDIA/Model-Optimizer/commit/5dc17dfd15d9ce5aa24553c2879ac68a4787f6bb) | [#1181](https://github.com/NVIDIA/Model-Optimizer/pull/1181) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[Security\] Enable torch.load(weights_only=True) for secure checkpoint loading + trust_remote_code fix |
 | 2026-04-06 | [c542c09b](https://github.com/NVIDIA/Model-Optimizer/commit/c542c09b11a230a9dabfad5f37321b26572587c8) | [#1124](https://github.com/NVIDIA/Model-Optimizer/pull/1124) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `quantization` `torch` | Refine _extract_layer_prefixes to better handle mtp modules |
@@ -44,4 +47,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 38 PRs**
+**Total: 41 PRs**

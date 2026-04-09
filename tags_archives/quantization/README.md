@@ -4,7 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
 | 2026-04-08 | [71444821](https://github.com/NVIDIA/Model-Optimizer/commit/7144482166c060b11efb0300a1a4b5dc16ef955d) | [#1185](https://github.com/NVIDIA/Model-Optimizer/pull/1185) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `quantization` `torch` | Document missing hf_ptq.py features in PTQ README |
+| 2026-04-08 | [abf45580](https://github.com/NVIDIA/Model-Optimizer/commit/abf45580daeaef701f80f7e3382d2d0a1539ec70) | [#1204](https://github.com/NVIDIA/Model-Optimizer/pull/1204) | [@hthadicherla](https://github.com/hthadicherla) | `example` `infra` `onnx` `quantization` `windows` | Added workaround to onnx.helper function depreciated in onnx 1.21 |
+| 2026-04-08 | [3a177f6d](https://github.com/NVIDIA/Model-Optimizer/commit/3a177f6d6bd7165101e8d0bde9b5cee7f6bb28a4) | [#853](https://github.com/NVIDIA/Model-Optimizer/pull/853) | [@sugunav14](https://github.com/sugunav14) | `infra` `quantization` `tests` `torch` | GPTQ official |
+| 2026-04-08 | [cccfded8](https://github.com/NVIDIA/Model-Optimizer/commit/cccfded8a939f3b5770ee5069d386c645557c7d3) | [#883](https://github.com/NVIDIA/Model-Optimizer/pull/883) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `eval` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Add support for offline speculative decoding model PTQ |
 | 2026-04-07 | [80d2f02a](https://github.com/NVIDIA/Model-Optimizer/commit/80d2f02a2d12ebf6ee630069c8d5359c69e3ab43) | [#1183](https://github.com/NVIDIA/Model-Optimizer/pull/1183) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Fix spec dec example tests |
 | 2026-04-07 | [5dc17dfd](https://github.com/NVIDIA/Model-Optimizer/commit/5dc17dfd15d9ce5aa24553c2879ac68a4787f6bb) | [#1181](https://github.com/NVIDIA/Model-Optimizer/pull/1181) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[Security\] Enable torch.load(weights_only=True) for secure checkpoint loading + trust_remote_code fix |
 | 2026-04-07 | [4255bc6a](https://github.com/NVIDIA/Model-Optimizer/commit/4255bc6a0c6acdf82f0b827393229bba0f5626cd) | [#1158](https://github.com/NVIDIA/Model-Optimizer/pull/1158) | [@jenchen13](https://github.com/jenchen13) | `core` `quantization` `tests` `torch` | Fix MoE quantization tests and add sync_expert_weight_amax option |
@@ -130,4 +134,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 124 PRs**
+**Total: 128 PRs**
