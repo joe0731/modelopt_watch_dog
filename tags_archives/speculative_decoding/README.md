@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
+| 2026-04-09 | [c901814f](https://github.com/NVIDIA/Model-Optimizer/commit/c901814ff9c51a86ff8a2d0d1a2430fbcaf39a1f) | [#1225](https://github.com/NVIDIA/Model-Optimizer/pull/1225) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | Fix compute_hidden_states_hf.py: handle BatchEncoding from apply_chat_template |
 | 2026-04-08 | [82d96a63](https://github.com/NVIDIA/Model-Optimizer/commit/82d96a635f42fa93e0a7d9b0c37a2666d3c55f58) | [#1134](https://github.com/NVIDIA/Model-Optimizer/pull/1134) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] Refactor EAGLE3 training to YAML-based config and recipe system |
 | 2026-04-08 | [0246041b](https://github.com/NVIDIA/Model-Optimizer/commit/0246041b0127e517965cba532071a6af9edf32e8) | [#1176](https://github.com/NVIDIA/Model-Optimizer/pull/1176) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `tests` `torch` | feat(speculative): add vLLM data synthesis pipeline and Nemotron dataset preparation scripts  |
 | 2026-04-08 | [cccfded8](https://github.com/NVIDIA/Model-Optimizer/commit/cccfded8a939f3b5770ee5069d386c645557c7d3) | [#883](https://github.com/NVIDIA/Model-Optimizer/pull/883) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `eval` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Add support for offline speculative decoding model PTQ |
@@ -32,4 +33,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 26 PRs**
+**Total: 27 PRs**

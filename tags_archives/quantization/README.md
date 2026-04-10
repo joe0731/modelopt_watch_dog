@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-10 | [3baa2da6](https://github.com/NVIDIA/Model-Optimizer/commit/3baa2da62e695e210d00f95ca7f06ac2a69bef71) | [#1207](https://github.com/NVIDIA/Model-Optimizer/pull/1207) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` `windows` | Upgrade ONNX from 1.19 to 1.21 |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
+| 2026-04-09 | [d4279920](https://github.com/NVIDIA/Model-Optimizer/commit/d4279920e056d4f1848c12b982458fe9395dfec1) | [#1187](https://github.com/NVIDIA/Model-Optimizer/pull/1187) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `quantization` `tests` `torch` | Generic Fused MoE Quantization + Export for transformers 5.0+ |
 | 2026-04-08 | [71444821](https://github.com/NVIDIA/Model-Optimizer/commit/7144482166c060b11efb0300a1a4b5dc16ef955d) | [#1185](https://github.com/NVIDIA/Model-Optimizer/pull/1185) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `quantization` `torch` | Document missing hf_ptq.py features in PTQ README |
 | 2026-04-08 | [abf45580](https://github.com/NVIDIA/Model-Optimizer/commit/abf45580daeaef701f80f7e3382d2d0a1539ec70) | [#1204](https://github.com/NVIDIA/Model-Optimizer/pull/1204) | [@hthadicherla](https://github.com/hthadicherla) | `example` `infra` `onnx` `quantization` `windows` | Added workaround to onnx.helper function depreciated in onnx 1.21 |
 | 2026-04-08 | [3a177f6d](https://github.com/NVIDIA/Model-Optimizer/commit/3a177f6d6bd7165101e8d0bde9b5cee7f6bb28a4) | [#853](https://github.com/NVIDIA/Model-Optimizer/pull/853) | [@sugunav14](https://github.com/sugunav14) | `infra` `quantization` `tests` `torch` | GPTQ official |
@@ -134,4 +136,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 128 PRs**
+**Total: 130 PRs**

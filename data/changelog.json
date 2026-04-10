@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-04-10",
+    "commit": "3249d0b0418103bd66b3f08ff0fc4c763a95fb84",
+    "pr_number": 1198,
+    "author": "Edwardf0t1",
+    "title": "[1/N] Polish PTQ skills ",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "commit": "3baa2da62e695e210d00f95ca7f06ac2a69bef71",
+    "pr_number": 1207,
+    "author": "ajrasane",
+    "title": "Upgrade ONNX from 1.19 to 1.21",
+    "tags": [
+      "example",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "windows"
+    ]
+  },
+  {
     "date": "2026-04-09",
     "commit": "04cd596d79eec6b2eb87f15490269efbf8732819",
     "pr_number": 975,
@@ -23,6 +48,83 @@
       "vllm",
       "vlm",
       "windows"
+    ]
+  },
+  {
+    "date": "2026-04-09",
+    "commit": "fd5694dc1821aeec54cb0530f60296c685cf17fc",
+    "pr_number": 1206,
+    "author": "j-rausch",
+    "title": "Consolidate lm-eval scripts: merge AnyModel auto-detection into lm_eval_hf.py",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-09",
+    "commit": "3935e1eefcaf14f4102b8ef636a8b6b649f77cb1",
+    "pr_number": 1218,
+    "author": "shengliangxu",
+    "title": "precommit check modelopt recipes",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-09",
+    "commit": "c901814ff9c51a86ff8a2d0d1a2430fbcaf39a1f",
+    "pr_number": 1225,
+    "author": "yeyu-nvidia",
+    "title": "Fix compute_hidden_states_hf.py: handle BatchEncoding from apply_chat_template",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-09",
+    "commit": "9b4f43a9cc719beeb3c46e2f30d6bcd1cd109a22",
+    "pr_number": 1221,
+    "author": "kevalmorabia97",
+    "title": "Improve Megatron Tokenization: streaming, reasoning_content support, HF in-memory tokenization, etc",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-09",
+    "commit": "b3feebfe0262e6fc33146c61499aafc21254f7f0",
+    "pr_number": 1210,
+    "author": "ajrasane",
+    "title": "Replace in-repo LLM ONNX export with TensorRT-Edge-LLM",
+    "tags": [
+      "example",
+      "export",
+      "onnx",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-09",
+    "commit": "d4279920e056d4f1848c12b982458fe9395dfec1",
+    "pr_number": 1187,
+    "author": "Edwardf0t1",
+    "title": "Generic Fused MoE Quantization + Export for transformers 5.0+",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
     ]
   },
   {

@@ -4,7 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-10 | [3baa2da6](https://github.com/NVIDIA/Model-Optimizer/commit/3baa2da62e695e210d00f95ca7f06ac2a69bef71) | [#1207](https://github.com/NVIDIA/Model-Optimizer/pull/1207) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` `windows` | Upgrade ONNX from 1.19 to 1.21 |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
+| 2026-04-09 | [9b4f43a9](https://github.com/NVIDIA/Model-Optimizer/commit/9b4f43a9cc719beeb3c46e2f30d6bcd1cd109a22) | [#1221](https://github.com/NVIDIA/Model-Optimizer/pull/1221) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Improve Megatron Tokenization: streaming, reasoning_content support, HF in-memory tokenization, etc |
+| 2026-04-09 | [b3feebfe](https://github.com/NVIDIA/Model-Optimizer/commit/b3feebfe0262e6fc33146c61499aafc21254f7f0) | [#1210](https://github.com/NVIDIA/Model-Optimizer/pull/1210) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `tests` `torch` | Replace in-repo LLM ONNX export with TensorRT-Edge-LLM |
+| 2026-04-09 | [d4279920](https://github.com/NVIDIA/Model-Optimizer/commit/d4279920e056d4f1848c12b982458fe9395dfec1) | [#1187](https://github.com/NVIDIA/Model-Optimizer/pull/1187) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `quantization` `tests` `torch` | Generic Fused MoE Quantization + Export for transformers 5.0+ |
 | 2026-04-08 | [82d96a63](https://github.com/NVIDIA/Model-Optimizer/commit/82d96a635f42fa93e0a7d9b0c37a2666d3c55f58) | [#1134](https://github.com/NVIDIA/Model-Optimizer/pull/1134) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] Refactor EAGLE3 training to YAML-based config and recipe system |
 | 2026-04-08 | [0246041b](https://github.com/NVIDIA/Model-Optimizer/commit/0246041b0127e517965cba532071a6af9edf32e8) | [#1176](https://github.com/NVIDIA/Model-Optimizer/pull/1176) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `tests` `torch` | feat(speculative): add vLLM data synthesis pipeline and Nemotron dataset preparation scripts  |
 | 2026-04-08 | [25266b84](https://github.com/NVIDIA/Model-Optimizer/commit/25266b84beaa2639e0f0640e1d34bae185bfc1ca) | [#1202](https://github.com/NVIDIA/Model-Optimizer/pull/1202) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | fix hydra config dtype resolution in puzzletron validation tools |
@@ -121,4 +125,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 115 PRs**
+**Total: 119 PRs**

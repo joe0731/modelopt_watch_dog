@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-10 | [3baa2da6](https://github.com/NVIDIA/Model-Optimizer/commit/3baa2da62e695e210d00f95ca7f06ac2a69bef71) | [#1207](https://github.com/NVIDIA/Model-Optimizer/pull/1207) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` `windows` | Upgrade ONNX from 1.19 to 1.21 |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
+| 2026-04-09 | [b3feebfe](https://github.com/NVIDIA/Model-Optimizer/commit/b3feebfe0262e6fc33146c61499aafc21254f7f0) | [#1210](https://github.com/NVIDIA/Model-Optimizer/pull/1210) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `tests` `torch` | Replace in-repo LLM ONNX export with TensorRT-Edge-LLM |
 | 2026-04-08 | [abf45580](https://github.com/NVIDIA/Model-Optimizer/commit/abf45580daeaef701f80f7e3382d2d0a1539ec70) | [#1204](https://github.com/NVIDIA/Model-Optimizer/pull/1204) | [@hthadicherla](https://github.com/hthadicherla) | `example` `infra` `onnx` `quantization` `windows` | Added workaround to onnx.helper function depreciated in onnx 1.21 |
 | 2026-04-07 | [5dc17dfd](https://github.com/NVIDIA/Model-Optimizer/commit/5dc17dfd15d9ce5aa24553c2879ac68a4787f6bb) | [#1181](https://github.com/NVIDIA/Model-Optimizer/pull/1181) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[Security\] Enable torch.load(weights_only=True) for secure checkpoint loading + trust_remote_code fix |
 | 2026-04-07 | [bdc04f17](https://github.com/NVIDIA/Model-Optimizer/commit/bdc04f174d5b96fa046c5e68e40499a048267fdb) | [#1189](https://github.com/NVIDIA/Model-Optimizer/pull/1189) | [@gcunhase](https://github.com/gcunhase) | `onnx` `quantization` `tests` | \[6056809\] Fix TRT dependency in ModelOpt ONNX quantization |
@@ -54,4 +56,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 48 PRs**
+**Total: 50 PRs**
