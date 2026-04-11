@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-04-10 | [3baa2da6](https://github.com/NVIDIA/Model-Optimizer/commit/3baa2da62e695e210d00f95ca7f06ac2a69bef71) | [#1207](https://github.com/NVIDIA/Model-Optimizer/pull/1207) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` `windows` | Upgrade ONNX from 1.19 to 1.21 |
+| 2026-04-10 | [90501880](https://github.com/NVIDIA/Model-Optimizer/commit/905018803414702e414a86716484ed4115b37ba6) | [#1234](https://github.com/NVIDIA/Model-Optimizer/pull/1234) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `tests` `torch` | Fix test_collect_hidden_states: use synthetic short conversations |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
 | 2026-04-09 | [fd5694dc](https://github.com/NVIDIA/Model-Optimizer/commit/fd5694dc1821aeec54cb0530f60296c685cf17fc) | [#1206](https://github.com/NVIDIA/Model-Optimizer/pull/1206) | [@j-rausch](https://github.com/j-rausch) | `eval` `example` `infra` `torch` | Consolidate lm-eval scripts: merge AnyModel auto-detection into lm_eval_hf.py |
 | 2026-04-09 | [c901814f](https://github.com/NVIDIA/Model-Optimizer/commit/c901814ff9c51a86ff8a2d0d1a2430fbcaf39a1f) | [#1225](https://github.com/NVIDIA/Model-Optimizer/pull/1225) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | Fix compute_hidden_states_hf.py: handle BatchEncoding from apply_chat_template |
@@ -121,4 +122,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 115 PRs**
+**Total: 116 PRs**

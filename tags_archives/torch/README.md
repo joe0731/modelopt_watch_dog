@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-10 | [da0e8ff1](https://github.com/NVIDIA/Model-Optimizer/commit/da0e8ff132785eb5fb4faba30ac37ec767289914) | [#1192](https://github.com/NVIDIA/Model-Optimizer/pull/1192) | [@shengliangxu](https://github.com/shengliangxu) | `quantization` `tests` `torch` | Validate non-empty cfg when enabling quantizers in quant_cfg |
+| 2026-04-10 | [90501880](https://github.com/NVIDIA/Model-Optimizer/commit/905018803414702e414a86716484ed4115b37ba6) | [#1234](https://github.com/NVIDIA/Model-Optimizer/pull/1234) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `tests` `torch` | Fix test_collect_hidden_states: use synthetic short conversations |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
 | 2026-04-09 | [fd5694dc](https://github.com/NVIDIA/Model-Optimizer/commit/fd5694dc1821aeec54cb0530f60296c685cf17fc) | [#1206](https://github.com/NVIDIA/Model-Optimizer/pull/1206) | [@j-rausch](https://github.com/j-rausch) | `eval` `example` `infra` `torch` | Consolidate lm-eval scripts: merge AnyModel auto-detection into lm_eval_hf.py |
 | 2026-04-09 | [c901814f](https://github.com/NVIDIA/Model-Optimizer/commit/c901814ff9c51a86ff8a2d0d1a2430fbcaf39a1f) | [#1225](https://github.com/NVIDIA/Model-Optimizer/pull/1225) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | Fix compute_hidden_states_hf.py: handle BatchEncoding from apply_chat_template |
@@ -194,4 +196,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 188 PRs**
+**Total: 190 PRs**

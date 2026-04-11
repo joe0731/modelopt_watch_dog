@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-04-11",
+    "commit": "82cf8515ebd2e12e17eb88c27924997eb1a536bb",
+    "pr_number": 1229,
+    "author": "mxinO",
+    "title": "[2/N] PTQ skill change for transformers 5.0",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-11",
+    "commit": "915262ac1dd06e6e8ff60312efba5e8d5233286a",
+    "pr_number": 1180,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-04-06)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-11",
+    "commit": "0357cb9ace0119e945edddf26a2625f336887868",
+    "pr_number": 1228,
+    "author": "hychiang-git",
+    "title": "Pre-initialize torch._dynamo  to prevent double-registration with `peft` torch.compile() call",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-04-10",
     "commit": "3249d0b0418103bd66b3f08ff0fc4c763a95fb84",
     "pr_number": 1198,
@@ -22,6 +52,53 @@
       "quantization",
       "tests",
       "windows"
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "commit": "66fccd2ee7bbaeaa449e76b78cb24185ba1cde33",
+    "pr_number": 1222,
+    "author": "j-rausch",
+    "title": "fix decoder_layer_cls failure on trust_remote_code models",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "commit": "7053c61b0906b5b258af1206488fa0ec4d11916c",
+    "pr_number": 1231,
+    "author": "j-rausch",
+    "title": "fix puzzletron container test path; add NeMo setup docs",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "commit": "da0e8ff132785eb5fb4faba30ac37ec767289914",
+    "pr_number": 1192,
+    "author": "shengliangxu",
+    "title": "Validate non-empty cfg when enabling quantizers in quant_cfg",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-10",
+    "commit": "905018803414702e414a86716484ed4115b37ba6",
+    "pr_number": 1234,
+    "author": "yeyu-nvidia",
+    "title": "Fix test_collect_hidden_states: use synthetic short conversations",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "tests",
+      "torch"
     ]
   },
   {

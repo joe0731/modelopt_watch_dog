@@ -5,6 +5,10 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-04-10 | [3baa2da6](https://github.com/NVIDIA/Model-Optimizer/commit/3baa2da62e695e210d00f95ca7f06ac2a69bef71) | [#1207](https://github.com/NVIDIA/Model-Optimizer/pull/1207) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` `windows` | Upgrade ONNX from 1.19 to 1.21 |
+| 2026-04-10 | [66fccd2e](https://github.com/NVIDIA/Model-Optimizer/commit/66fccd2ee7bbaeaa449e76b78cb24185ba1cde33) | [#1222](https://github.com/NVIDIA/Model-Optimizer/pull/1222) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | fix decoder_layer_cls failure on trust_remote_code models |
+| 2026-04-10 | [7053c61b](https://github.com/NVIDIA/Model-Optimizer/commit/7053c61b0906b5b258af1206488fa0ec4d11916c) | [#1231](https://github.com/NVIDIA/Model-Optimizer/pull/1231) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | fix puzzletron container test path; add NeMo setup docs |
+| 2026-04-10 | [da0e8ff1](https://github.com/NVIDIA/Model-Optimizer/commit/da0e8ff132785eb5fb4faba30ac37ec767289914) | [#1192](https://github.com/NVIDIA/Model-Optimizer/pull/1192) | [@shengliangxu](https://github.com/shengliangxu) | `quantization` `tests` `torch` | Validate non-empty cfg when enabling quantizers in quant_cfg |
+| 2026-04-10 | [90501880](https://github.com/NVIDIA/Model-Optimizer/commit/905018803414702e414a86716484ed4115b37ba6) | [#1234](https://github.com/NVIDIA/Model-Optimizer/pull/1234) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `tests` `torch` | Fix test_collect_hidden_states: use synthetic short conversations |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
 | 2026-04-09 | [9b4f43a9](https://github.com/NVIDIA/Model-Optimizer/commit/9b4f43a9cc719beeb3c46e2f30d6bcd1cd109a22) | [#1221](https://github.com/NVIDIA/Model-Optimizer/pull/1221) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Improve Megatron Tokenization: streaming, reasoning_content support, HF in-memory tokenization, etc |
 | 2026-04-09 | [b3feebfe](https://github.com/NVIDIA/Model-Optimizer/commit/b3feebfe0262e6fc33146c61499aafc21254f7f0) | [#1210](https://github.com/NVIDIA/Model-Optimizer/pull/1210) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `tests` `torch` | Replace in-repo LLM ONNX export with TensorRT-Edge-LLM |
@@ -125,4 +129,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 119 PRs**
+**Total: 123 PRs**

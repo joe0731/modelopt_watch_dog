@@ -4,8 +4,13 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-11 | [82cf8515](https://github.com/NVIDIA/Model-Optimizer/commit/82cf8515ebd2e12e17eb88c27924997eb1a536bb) | [#1229](https://github.com/NVIDIA/Model-Optimizer/pull/1229) | [@mxinO](https://github.com/mxinO) | `infra` | \[2/N\] PTQ skill change for transformers 5.0 |
+| 2026-04-11 | [915262ac](https://github.com/NVIDIA/Model-Optimizer/commit/915262ac1dd06e6e8ff60312efba5e8d5233286a) | [#1180](https://github.com/NVIDIA/Model-Optimizer/pull/1180) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-04-06) |
+| 2026-04-11 | [0357cb9a](https://github.com/NVIDIA/Model-Optimizer/commit/0357cb9ace0119e945edddf26a2625f336887868) | [#1228](https://github.com/NVIDIA/Model-Optimizer/pull/1228) | [@hychiang-git](https://github.com/hychiang-git) | `infra` | Pre-initialize torch._dynamo  to prevent double-registration with \`peft\` torch.compile() call |
 | 2026-04-10 | [3249d0b0](https://github.com/NVIDIA/Model-Optimizer/commit/3249d0b0418103bd66b3f08ff0fc4c763a95fb84) | [#1198](https://github.com/NVIDIA/Model-Optimizer/pull/1198) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | \[1/N\] Polish PTQ skills  |
 | 2026-04-10 | [3baa2da6](https://github.com/NVIDIA/Model-Optimizer/commit/3baa2da62e695e210d00f95ca7f06ac2a69bef71) | [#1207](https://github.com/NVIDIA/Model-Optimizer/pull/1207) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` `windows` | Upgrade ONNX from 1.19 to 1.21 |
+| 2026-04-10 | [66fccd2e](https://github.com/NVIDIA/Model-Optimizer/commit/66fccd2ee7bbaeaa449e76b78cb24185ba1cde33) | [#1222](https://github.com/NVIDIA/Model-Optimizer/pull/1222) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | fix decoder_layer_cls failure on trust_remote_code models |
+| 2026-04-10 | [7053c61b](https://github.com/NVIDIA/Model-Optimizer/commit/7053c61b0906b5b258af1206488fa0ec4d11916c) | [#1231](https://github.com/NVIDIA/Model-Optimizer/pull/1231) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | fix puzzletron container test path; add NeMo setup docs |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
 | 2026-04-09 | [fd5694dc](https://github.com/NVIDIA/Model-Optimizer/commit/fd5694dc1821aeec54cb0530f60296c685cf17fc) | [#1206](https://github.com/NVIDIA/Model-Optimizer/pull/1206) | [@j-rausch](https://github.com/j-rausch) | `eval` `example` `infra` `torch` | Consolidate lm-eval scripts: merge AnyModel auto-detection into lm_eval_hf.py |
 | 2026-04-09 | [3935e1ee](https://github.com/NVIDIA/Model-Optimizer/commit/3935e1eefcaf14f4102b8ef636a8b6b649f77cb1) | [#1218](https://github.com/NVIDIA/Model-Optimizer/pull/1218) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | precommit check modelopt recipes |
@@ -135,4 +140,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 129 PRs**
+**Total: 134 PRs**
