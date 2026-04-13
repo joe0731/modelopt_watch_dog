@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-04-13",
+    "commit": "80a77d1cc0179810089bb3ee20bc3006315042f4",
+    "pr_number": 1226,
+    "author": "kevalmorabia97",
+    "title": "Add LTX-2 third-party license notices for legal compliance",
+    "tags": [
+      "diffusers",
+      "distillation",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "torch",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "commit": "5ff1d7bc41783c442b0cff32408c19f26783c542",
+    "pr_number": 1224,
+    "author": "sugunav14",
+    "title": "added gptq nvfp4 default recipe + docstring fix",
+    "tags": [
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-11",
     "commit": "82cf8515ebd2e12e17eb88c27924997eb1a536bb",
     "pr_number": 1229,

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-13 | [80a77d1c](https://github.com/NVIDIA/Model-Optimizer/commit/80a77d1cc0179810089bb3ee20bc3006315042f4) | [#1226](https://github.com/NVIDIA/Model-Optimizer/pull/1226) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `distillation` `example` `export` `infra` `quantization` `torch` `windows` | Add LTX-2 third-party license notices for legal compliance |
 | 2026-04-10 | [3baa2da6](https://github.com/NVIDIA/Model-Optimizer/commit/3baa2da62e695e210d00f95ca7f06ac2a69bef71) | [#1207](https://github.com/NVIDIA/Model-Optimizer/pull/1207) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` `windows` | Upgrade ONNX from 1.19 to 1.21 |
 | 2026-04-10 | [90501880](https://github.com/NVIDIA/Model-Optimizer/commit/905018803414702e414a86716484ed4115b37ba6) | [#1234](https://github.com/NVIDIA/Model-Optimizer/pull/1234) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `tests` `torch` | Fix test_collect_hidden_states: use synthetic short conversations |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
@@ -122,4 +123,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 116 PRs**
+**Total: 117 PRs**

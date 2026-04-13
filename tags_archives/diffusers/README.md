@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-13 | [80a77d1c](https://github.com/NVIDIA/Model-Optimizer/commit/80a77d1cc0179810089bb3ee20bc3006315042f4) | [#1226](https://github.com/NVIDIA/Model-Optimizer/pull/1226) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `distillation` `example` `export` `infra` `quantization` `torch` `windows` | Add LTX-2 third-party license notices for legal compliance |
 | 2026-04-06 | [4a5ef01a](https://github.com/NVIDIA/Model-Optimizer/commit/4a5ef01accbfc8162fce6b568e87294061ec8dc2) | [#1178](https://github.com/NVIDIA/Model-Optimizer/pull/1178) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `quantization` `torch` | Fixed the calib size bug |
 | 2026-04-06 | [1cceb950](https://github.com/NVIDIA/Model-Optimizer/commit/1cceb950d687d0ec106e648d282a07a119952836) | [#1094](https://github.com/NVIDIA/Model-Optimizer/pull/1094) | [@shengliangxu](https://github.com/shengliangxu) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `tests` `torch` `vllm` `windows` | \[OMNIML-3689\] PTQ quant_cfg semantic correction. Design in doc _quant_cfg.rst |
 | 2026-03-24 | [8f4c11aa](https://github.com/NVIDIA/Model-Optimizer/commit/8f4c11aa44bdc382a9a236e06b18187c80875396) | [#1112](https://github.com/NVIDIA/Model-Optimizer/pull/1112) | [@ajrasane](https://github.com/ajrasane) | `diffusers` `example` `export` `infra` `onnx` `quantization` `torch` | Upgrade the TensorRT container version |
@@ -22,4 +23,4 @@
 | 2026-01-15 | [e6e4efd6](https://github.com/NVIDIA/Model-Optimizer/commit/e6e4efd61efcc87de10a6a72274e2017cbc13438) | [#783](https://github.com/NVIDIA/Model-Optimizer/pull/783) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `eval` `example` `export` `quantization` `torch` | \[0.5/3\] Diffusion ckpt export for NVFP4 & FP8 |
 
 ---
-**Total: 16 PRs**
+**Total: 17 PRs**

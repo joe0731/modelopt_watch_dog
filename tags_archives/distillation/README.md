@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-13 | [80a77d1c](https://github.com/NVIDIA/Model-Optimizer/commit/80a77d1cc0179810089bb3ee20bc3006315042f4) | [#1226](https://github.com/NVIDIA/Model-Optimizer/pull/1226) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `distillation` `example` `export` `infra` `quantization` `torch` `windows` | Add LTX-2 third-party license notices for legal compliance |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
 | 2026-03-24 | [d0bf0bef](https://github.com/NVIDIA/Model-Optimizer/commit/d0bf0bef963a0441c3d1280d8a8fca5b06c1bb0c) | [#1098](https://github.com/NVIDIA/Model-Optimizer/pull/1098) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `torch` `vlm` | Remove deprecated Nemo 2.0 references / examples |
 | 2026-03-10 | [fff65b06](https://github.com/NVIDIA/Model-Optimizer/commit/fff65b06d65adffa0fa03ba3a131ccb706a637d3) | [#1009](https://github.com/NVIDIA/Model-Optimizer/pull/1009) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `torch` | Allow HF trainer to mask sequences prior to reduction |
@@ -14,4 +15,4 @@
 | 2026-01-13 | [b813ab54](https://github.com/NVIDIA/Model-Optimizer/commit/b813ab548b97db9c0780459f1fe743bb88031d99) | [#747](https://github.com/NVIDIA/Model-Optimizer/pull/747) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Top-K KL Divergence loss |
 
 ---
-**Total: 8 PRs**
+**Total: 9 PRs**
