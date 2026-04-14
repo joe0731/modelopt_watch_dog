@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-14 | [b6c6ec34](https://github.com/NVIDIA/Model-Optimizer/commit/b6c6ec342cf675f09dd84067269c81f6124ac308) | [#1249](https://github.com/NVIDIA/Model-Optimizer/pull/1249) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `infra` `quantization` `tests` `torch` | use typed quantize config instead of a raw dict |
+| 2026-04-13 | [6395b1e5](https://github.com/NVIDIA/Model-Optimizer/commit/6395b1e587725ca46ffde7fa1754b4de2ef4284b) | [#1245](https://github.com/NVIDIA/Model-Optimizer/pull/1245) | [@j-rausch](https://github.com/j-rausch) | `core` `export` `infra` `tests` `torch` | copy custom modeling files to pruned checkpoint dirs |
+| 2026-04-13 | [d88dfcbd](https://github.com/NVIDIA/Model-Optimizer/commit/d88dfcbdc7ebce0153b1fd678bb7e56147815d9d) | [#1220](https://github.com/NVIDIA/Model-Optimizer/pull/1220) | [@j-rausch](https://github.com/j-rausch) | `core` `example` `infra` `tests` `torch` | consolidate mbridge distillation: merge distill_hf.py into distill.py |
+| 2026-04-13 | [6403389e](https://github.com/NVIDIA/Model-Optimizer/commit/6403389eb073626c064d97196a171c0f3328f6c6) | [#1238](https://github.com/NVIDIA/Model-Optimizer/pull/1238) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | Feat: Configurable Eagle ROPE scaling during export |
+| 2026-04-13 | [202c3d38](https://github.com/NVIDIA/Model-Optimizer/commit/202c3d3894b3f77b9604d33bfb1b9f037fc7caa7) | [#1235](https://github.com/NVIDIA/Model-Optimizer/pull/1235) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `onnx` `quantization` `tests` `torch` | Add SwinTransformer support for torch_onnx quantization workflow |
 | 2026-04-10 | [3baa2da6](https://github.com/NVIDIA/Model-Optimizer/commit/3baa2da62e695e210d00f95ca7f06ac2a69bef71) | [#1207](https://github.com/NVIDIA/Model-Optimizer/pull/1207) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` `windows` | Upgrade ONNX from 1.19 to 1.21 |
 | 2026-04-10 | [66fccd2e](https://github.com/NVIDIA/Model-Optimizer/commit/66fccd2ee7bbaeaa449e76b78cb24185ba1cde33) | [#1222](https://github.com/NVIDIA/Model-Optimizer/pull/1222) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | fix decoder_layer_cls failure on trust_remote_code models |
 | 2026-04-10 | [7053c61b](https://github.com/NVIDIA/Model-Optimizer/commit/7053c61b0906b5b258af1206488fa0ec4d11916c) | [#1231](https://github.com/NVIDIA/Model-Optimizer/pull/1231) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | fix puzzletron container test path; add NeMo setup docs |
@@ -129,4 +134,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 123 PRs**
+**Total: 128 PRs**

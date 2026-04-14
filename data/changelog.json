@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-14",
+    "commit": "b6c6ec342cf675f09dd84067269c81f6124ac308",
+    "pr_number": 1249,
+    "author": "shengliangxu",
+    "title": "use typed quantize config instead of a raw dict",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-13",
     "commit": "80a77d1cc0179810089bb3ee20bc3006315042f4",
     "pr_number": 1226,
@@ -25,6 +40,101 @@
     "tags": [
       "infra",
       "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "commit": "5523505b06c21c2a8028c8a38c9fba119d5f8007",
+    "pr_number": 1243,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-04-13)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "commit": "0b42c143dd83c8cd61c7fd58dae941ba58c6a80e",
+    "pr_number": 1244,
+    "author": "kevalmorabia97",
+    "title": "Update LICENSE and SPDX-License-Identifier as per OSRB guidance",
+    "tags": [
+      "core",
+      "eval",
+      "example",
+      "infra",
+      "onnx",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "commit": "6395b1e587725ca46ffde7fa1754b4de2ef4284b",
+    "pr_number": 1245,
+    "author": "j-rausch",
+    "title": "copy custom modeling files to pruned checkpoint dirs",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "commit": "d88dfcbdc7ebce0153b1fd678bb7e56147815d9d",
+    "pr_number": 1220,
+    "author": "j-rausch",
+    "title": "consolidate mbridge distillation: merge distill_hf.py into distill.py",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "commit": "14b78aed1faa0dd55fb4846bba123a7a63caa223",
+    "pr_number": 1165,
+    "author": "shengliangxu",
+    "title": "[OMNIML-3744] recipes doc",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "commit": "6403389eb073626c064d97196a171c0f3328f6c6",
+    "pr_number": 1238,
+    "author": "h-guo18",
+    "title": "Feat: Configurable Eagle ROPE scaling during export",
+    "tags": [
+      "example",
+      "export",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-13",
+    "commit": "202c3d3894b3f77b9604d33bfb1b9f037fc7caa7",
+    "pr_number": 1235,
+    "author": "ajrasane",
+    "title": "Add SwinTransformer support for torch_onnx quantization workflow",
+    "tags": [
+      "deploy",
+      "example",
+      "export",
+      "onnx",
+      "quantization",
+      "tests",
       "torch"
     ]
   },

@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-13 | [0b42c143](https://github.com/NVIDIA/Model-Optimizer/commit/0b42c143dd83c8cd61c7fd58dae941ba58c6a80e) | [#1244](https://github.com/NVIDIA/Model-Optimizer/pull/1244) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `onnx` `quantization` `torch` | Update LICENSE and SPDX-License-Identifier as per OSRB guidance |
+| 2026-04-13 | [6395b1e5](https://github.com/NVIDIA/Model-Optimizer/commit/6395b1e587725ca46ffde7fa1754b4de2ef4284b) | [#1245](https://github.com/NVIDIA/Model-Optimizer/pull/1245) | [@j-rausch](https://github.com/j-rausch) | `core` `export` `infra` `tests` `torch` | copy custom modeling files to pruned checkpoint dirs |
+| 2026-04-13 | [d88dfcbd](https://github.com/NVIDIA/Model-Optimizer/commit/d88dfcbdc7ebce0153b1fd678bb7e56147815d9d) | [#1220](https://github.com/NVIDIA/Model-Optimizer/pull/1220) | [@j-rausch](https://github.com/j-rausch) | `core` `example` `infra` `tests` `torch` | consolidate mbridge distillation: merge distill_hf.py into distill.py |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
 | 2026-04-09 | [9b4f43a9](https://github.com/NVIDIA/Model-Optimizer/commit/9b4f43a9cc719beeb3c46e2f30d6bcd1cd109a22) | [#1221](https://github.com/NVIDIA/Model-Optimizer/pull/1221) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Improve Megatron Tokenization: streaming, reasoning_content support, HF in-memory tokenization, etc |
 | 2026-04-08 | [8428f061](https://github.com/NVIDIA/Model-Optimizer/commit/8428f0610aa9c9770b166b4964874d300121a37e) | [#1209](https://github.com/NVIDIA/Model-Optimizer/pull/1209) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `tests` `torch` | fix: megatron export correctness for TP\>1 GQA, single-file MTP, and Hub remote code |
@@ -58,4 +61,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 52 PRs**
+**Total: 55 PRs**

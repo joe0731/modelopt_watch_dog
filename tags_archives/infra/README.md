@@ -4,8 +4,14 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-14 | [b6c6ec34](https://github.com/NVIDIA/Model-Optimizer/commit/b6c6ec342cf675f09dd84067269c81f6124ac308) | [#1249](https://github.com/NVIDIA/Model-Optimizer/pull/1249) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `infra` `quantization` `tests` `torch` | use typed quantize config instead of a raw dict |
 | 2026-04-13 | [80a77d1c](https://github.com/NVIDIA/Model-Optimizer/commit/80a77d1cc0179810089bb3ee20bc3006315042f4) | [#1226](https://github.com/NVIDIA/Model-Optimizer/pull/1226) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `distillation` `example` `export` `infra` `quantization` `torch` `windows` | Add LTX-2 third-party license notices for legal compliance |
 | 2026-04-13 | [5ff1d7bc](https://github.com/NVIDIA/Model-Optimizer/commit/5ff1d7bc41783c442b0cff32408c19f26783c542) | [#1224](https://github.com/NVIDIA/Model-Optimizer/pull/1224) | [@sugunav14](https://github.com/sugunav14) | `infra` `quantization` `torch` | added gptq nvfp4 default recipe + docstring fix |
+| 2026-04-13 | [5523505b](https://github.com/NVIDIA/Model-Optimizer/commit/5523505b06c21c2a8028c8a38c9fba119d5f8007) | [#1243](https://github.com/NVIDIA/Model-Optimizer/pull/1243) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-04-13) |
+| 2026-04-13 | [0b42c143](https://github.com/NVIDIA/Model-Optimizer/commit/0b42c143dd83c8cd61c7fd58dae941ba58c6a80e) | [#1244](https://github.com/NVIDIA/Model-Optimizer/pull/1244) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `onnx` `quantization` `torch` | Update LICENSE and SPDX-License-Identifier as per OSRB guidance |
+| 2026-04-13 | [6395b1e5](https://github.com/NVIDIA/Model-Optimizer/commit/6395b1e587725ca46ffde7fa1754b4de2ef4284b) | [#1245](https://github.com/NVIDIA/Model-Optimizer/pull/1245) | [@j-rausch](https://github.com/j-rausch) | `core` `export` `infra` `tests` `torch` | copy custom modeling files to pruned checkpoint dirs |
+| 2026-04-13 | [d88dfcbd](https://github.com/NVIDIA/Model-Optimizer/commit/d88dfcbdc7ebce0153b1fd678bb7e56147815d9d) | [#1220](https://github.com/NVIDIA/Model-Optimizer/pull/1220) | [@j-rausch](https://github.com/j-rausch) | `core` `example` `infra` `tests` `torch` | consolidate mbridge distillation: merge distill_hf.py into distill.py |
+| 2026-04-13 | [6403389e](https://github.com/NVIDIA/Model-Optimizer/commit/6403389eb073626c064d97196a171c0f3328f6c6) | [#1238](https://github.com/NVIDIA/Model-Optimizer/pull/1238) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | Feat: Configurable Eagle ROPE scaling during export |
 | 2026-04-11 | [82cf8515](https://github.com/NVIDIA/Model-Optimizer/commit/82cf8515ebd2e12e17eb88c27924997eb1a536bb) | [#1229](https://github.com/NVIDIA/Model-Optimizer/pull/1229) | [@mxinO](https://github.com/mxinO) | `infra` | \[2/N\] PTQ skill change for transformers 5.0 |
 | 2026-04-11 | [915262ac](https://github.com/NVIDIA/Model-Optimizer/commit/915262ac1dd06e6e8ff60312efba5e8d5233286a) | [#1180](https://github.com/NVIDIA/Model-Optimizer/pull/1180) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-04-06) |
 | 2026-04-11 | [0357cb9a](https://github.com/NVIDIA/Model-Optimizer/commit/0357cb9ace0119e945edddf26a2625f336887868) | [#1228](https://github.com/NVIDIA/Model-Optimizer/pull/1228) | [@hychiang-git](https://github.com/hychiang-git) | `infra` | Pre-initialize torch._dynamo  to prevent double-registration with \`peft\` torch.compile() call |
@@ -142,4 +148,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 136 PRs**
+**Total: 142 PRs**

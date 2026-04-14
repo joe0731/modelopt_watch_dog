@@ -4,8 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-14 | [b6c6ec34](https://github.com/NVIDIA/Model-Optimizer/commit/b6c6ec342cf675f09dd84067269c81f6124ac308) | [#1249](https://github.com/NVIDIA/Model-Optimizer/pull/1249) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `infra` `quantization` `tests` `torch` | use typed quantize config instead of a raw dict |
 | 2026-04-13 | [80a77d1c](https://github.com/NVIDIA/Model-Optimizer/commit/80a77d1cc0179810089bb3ee20bc3006315042f4) | [#1226](https://github.com/NVIDIA/Model-Optimizer/pull/1226) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `distillation` `example` `export` `infra` `quantization` `torch` `windows` | Add LTX-2 third-party license notices for legal compliance |
 | 2026-04-13 | [5ff1d7bc](https://github.com/NVIDIA/Model-Optimizer/commit/5ff1d7bc41783c442b0cff32408c19f26783c542) | [#1224](https://github.com/NVIDIA/Model-Optimizer/pull/1224) | [@sugunav14](https://github.com/sugunav14) | `infra` `quantization` `torch` | added gptq nvfp4 default recipe + docstring fix |
+| 2026-04-13 | [0b42c143](https://github.com/NVIDIA/Model-Optimizer/commit/0b42c143dd83c8cd61c7fd58dae941ba58c6a80e) | [#1244](https://github.com/NVIDIA/Model-Optimizer/pull/1244) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `onnx` `quantization` `torch` | Update LICENSE and SPDX-License-Identifier as per OSRB guidance |
+| 2026-04-13 | [202c3d38](https://github.com/NVIDIA/Model-Optimizer/commit/202c3d3894b3f77b9604d33bfb1b9f037fc7caa7) | [#1235](https://github.com/NVIDIA/Model-Optimizer/pull/1235) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `onnx` `quantization` `tests` `torch` | Add SwinTransformer support for torch_onnx quantization workflow |
 | 2026-04-10 | [3baa2da6](https://github.com/NVIDIA/Model-Optimizer/commit/3baa2da62e695e210d00f95ca7f06ac2a69bef71) | [#1207](https://github.com/NVIDIA/Model-Optimizer/pull/1207) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` `windows` | Upgrade ONNX from 1.19 to 1.21 |
 | 2026-04-10 | [da0e8ff1](https://github.com/NVIDIA/Model-Optimizer/commit/da0e8ff132785eb5fb4faba30ac37ec767289914) | [#1192](https://github.com/NVIDIA/Model-Optimizer/pull/1192) | [@shengliangxu](https://github.com/shengliangxu) | `quantization` `tests` `torch` | Validate non-empty cfg when enabling quantizers in quant_cfg |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
@@ -139,4 +142,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 133 PRs**
+**Total: 136 PRs**

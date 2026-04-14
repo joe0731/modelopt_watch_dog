@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-14 | [b6c6ec34](https://github.com/NVIDIA/Model-Optimizer/commit/b6c6ec342cf675f09dd84067269c81f6124ac308) | [#1249](https://github.com/NVIDIA/Model-Optimizer/pull/1249) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `infra` `quantization` `tests` `torch` | use typed quantize config instead of a raw dict |
+| 2026-04-13 | [0b42c143](https://github.com/NVIDIA/Model-Optimizer/commit/0b42c143dd83c8cd61c7fd58dae941ba58c6a80e) | [#1244](https://github.com/NVIDIA/Model-Optimizer/pull/1244) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `onnx` `quantization` `torch` | Update LICENSE and SPDX-License-Identifier as per OSRB guidance |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
 | 2026-04-09 | [fd5694dc](https://github.com/NVIDIA/Model-Optimizer/commit/fd5694dc1821aeec54cb0530f60296c685cf17fc) | [#1206](https://github.com/NVIDIA/Model-Optimizer/pull/1206) | [@j-rausch](https://github.com/j-rausch) | `eval` `example` `infra` `torch` | Consolidate lm-eval scripts: merge AnyModel auto-detection into lm_eval_hf.py |
 | 2026-04-08 | [71444821](https://github.com/NVIDIA/Model-Optimizer/commit/7144482166c060b11efb0300a1a4b5dc16ef955d) | [#1185](https://github.com/NVIDIA/Model-Optimizer/pull/1185) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `quantization` `torch` | Document missing hf_ptq.py features in PTQ README |
@@ -48,4 +50,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 42 PRs**
+**Total: 44 PRs**
