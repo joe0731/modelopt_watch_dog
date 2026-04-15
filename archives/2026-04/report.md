@@ -8,7 +8,12 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-04-15 | [c9b11559](https://github.com/NVIDIA/Model-Optimizer/commit/c9b11559f18f2aa1163a8e8b2ef8095ed890831d) | [#1260](https://github.com/NVIDIA/Model-Optimizer/pull/1260) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | Normalize .yml to .yaml in modelopt_recipes |
+|  | 2026-04-15 | [952a62bf](https://github.com/NVIDIA/Model-Optimizer/commit/952a62bf65c0143ca46363370247ef45605a00a3) | [#1261](https://github.com/NVIDIA/Model-Optimizer/pull/1261) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `torch` | Fix missing attention_mask in calibration dataloader |
 | 🟡 | **2026-04-14** | **[b6c6ec34](https://github.com/NVIDIA/Model-Optimizer/commit/b6c6ec342cf675f09dd84067269c81f6124ac308)** | **[#1249](https://github.com/NVIDIA/Model-Optimizer/pull/1249)** | **[@shengliangxu](https://github.com/shengliangxu)** | `eval` `example` `infra` `quantization` `tests` `torch` | **use typed quantize config instead of a raw dict** |
+| 🔵 | **2026-04-14** | **[73be8103](https://github.com/NVIDIA/Model-Optimizer/commit/73be81037d84e08a75ed3594bea870e9b34a9f6d)** | **[#1233](https://github.com/NVIDIA/Model-Optimizer/pull/1233)** | **[@kinjalpatel27](https://github.com/kinjalpatel27)** | `deploy` `example` `vllm` | ** vLLM fakequant: add recipe-based quantization support** |
+|  | 2026-04-14 | [31311952](https://github.com/NVIDIA/Model-Optimizer/commit/3131195241401238b8b7f820ce4b09f863572a81) | [#1211](https://github.com/NVIDIA/Model-Optimizer/pull/1211) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `export` `infra` `speculative_decoding` `tests` `torch` | add: DFlash block diffusion speculative decoding |
+| 🔵 | **2026-04-14** | **[16194213](https://github.com/NVIDIA/Model-Optimizer/commit/1619421383525f06a392de6a2c365454a9a2877e)** | **[#1162](https://github.com/NVIDIA/Model-Optimizer/pull/1162)** | **[@kinjalpatel27](https://github.com/kinjalpatel27)** | `deploy` `example` `quantization` `torch` `vllm` | **Added support for MoE for vllm \>= 0.14.0rc1** |
 |  | 2026-04-13 | [80a77d1c](https://github.com/NVIDIA/Model-Optimizer/commit/80a77d1cc0179810089bb3ee20bc3006315042f4) | [#1226](https://github.com/NVIDIA/Model-Optimizer/pull/1226) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `distillation` `example` `export` `infra` `quantization` `torch` `windows` | Add LTX-2 third-party license notices for legal compliance |
 |  | 2026-04-13 | [5ff1d7bc](https://github.com/NVIDIA/Model-Optimizer/commit/5ff1d7bc41783c442b0cff32408c19f26783c542) | [#1224](https://github.com/NVIDIA/Model-Optimizer/pull/1224) | [@sugunav14](https://github.com/sugunav14) | `infra` `quantization` `torch` | added gptq nvfp4 default recipe + docstring fix |
 |  | 2026-04-13 | [5523505b](https://github.com/NVIDIA/Model-Optimizer/commit/5523505b06c21c2a8028c8a38c9fba119d5f8007) | [#1243](https://github.com/NVIDIA/Model-Optimizer/pull/1243) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-04-13) |
@@ -76,4 +81,4 @@
 |  | 2026-04-01 | [de55e8a9](https://github.com/NVIDIA/Model-Optimizer/commit/de55e8a94ddbf6195eca924510d318cfbf0ca168) | [#1143](https://github.com/NVIDIA/Model-Optimizer/pull/1143) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `export` `infra` `torch` | Bug fix: disable weight quantizer rotation after weight fold during vLLM fakequant export |
 
 ---
-**Total: 66 PRs** | **Highlighted: 19**
+**Total: 71 PRs** | **Highlighted: 21**

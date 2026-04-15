@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-15 | [c9b11559](https://github.com/NVIDIA/Model-Optimizer/commit/c9b11559f18f2aa1163a8e8b2ef8095ed890831d) | [#1260](https://github.com/NVIDIA/Model-Optimizer/pull/1260) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | Normalize .yml to .yaml in modelopt_recipes |
 | 2026-04-14 | [b6c6ec34](https://github.com/NVIDIA/Model-Optimizer/commit/b6c6ec342cf675f09dd84067269c81f6124ac308) | [#1249](https://github.com/NVIDIA/Model-Optimizer/pull/1249) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `infra` `quantization` `tests` `torch` | use typed quantize config instead of a raw dict |
+| 2026-04-14 | [31311952](https://github.com/NVIDIA/Model-Optimizer/commit/3131195241401238b8b7f820ce4b09f863572a81) | [#1211](https://github.com/NVIDIA/Model-Optimizer/pull/1211) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `export` `infra` `speculative_decoding` `tests` `torch` | add: DFlash block diffusion speculative decoding |
 | 2026-04-13 | [80a77d1c](https://github.com/NVIDIA/Model-Optimizer/commit/80a77d1cc0179810089bb3ee20bc3006315042f4) | [#1226](https://github.com/NVIDIA/Model-Optimizer/pull/1226) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `distillation` `example` `export` `infra` `quantization` `torch` `windows` | Add LTX-2 third-party license notices for legal compliance |
 | 2026-04-13 | [5ff1d7bc](https://github.com/NVIDIA/Model-Optimizer/commit/5ff1d7bc41783c442b0cff32408c19f26783c542) | [#1224](https://github.com/NVIDIA/Model-Optimizer/pull/1224) | [@sugunav14](https://github.com/sugunav14) | `infra` `quantization` `torch` | added gptq nvfp4 default recipe + docstring fix |
 | 2026-04-13 | [5523505b](https://github.com/NVIDIA/Model-Optimizer/commit/5523505b06c21c2a8028c8a38c9fba119d5f8007) | [#1243](https://github.com/NVIDIA/Model-Optimizer/pull/1243) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-04-13) |
@@ -148,4 +150,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 142 PRs**
+**Total: 144 PRs**

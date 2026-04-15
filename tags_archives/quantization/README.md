@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-04-14 | [b6c6ec34](https://github.com/NVIDIA/Model-Optimizer/commit/b6c6ec342cf675f09dd84067269c81f6124ac308) | [#1249](https://github.com/NVIDIA/Model-Optimizer/pull/1249) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `infra` `quantization` `tests` `torch` | use typed quantize config instead of a raw dict |
+| 2026-04-14 | [16194213](https://github.com/NVIDIA/Model-Optimizer/commit/1619421383525f06a392de6a2c365454a9a2877e) | [#1162](https://github.com/NVIDIA/Model-Optimizer/pull/1162) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `quantization` `torch` `vllm` | Added support for MoE for vllm \>= 0.14.0rc1 |
 | 2026-04-13 | [80a77d1c](https://github.com/NVIDIA/Model-Optimizer/commit/80a77d1cc0179810089bb3ee20bc3006315042f4) | [#1226](https://github.com/NVIDIA/Model-Optimizer/pull/1226) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `distillation` `example` `export` `infra` `quantization` `torch` `windows` | Add LTX-2 third-party license notices for legal compliance |
 | 2026-04-13 | [5ff1d7bc](https://github.com/NVIDIA/Model-Optimizer/commit/5ff1d7bc41783c442b0cff32408c19f26783c542) | [#1224](https://github.com/NVIDIA/Model-Optimizer/pull/1224) | [@sugunav14](https://github.com/sugunav14) | `infra` `quantization` `torch` | added gptq nvfp4 default recipe + docstring fix |
 | 2026-04-13 | [0b42c143](https://github.com/NVIDIA/Model-Optimizer/commit/0b42c143dd83c8cd61c7fd58dae941ba58c6a80e) | [#1244](https://github.com/NVIDIA/Model-Optimizer/pull/1244) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `onnx` `quantization` `torch` | Update LICENSE and SPDX-License-Identifier as per OSRB guidance |
@@ -142,4 +143,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 136 PRs**
+**Total: 137 PRs**

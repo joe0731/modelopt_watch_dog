@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-14 | [73be8103](https://github.com/NVIDIA/Model-Optimizer/commit/73be81037d84e08a75ed3594bea870e9b34a9f6d) | [#1233](https://github.com/NVIDIA/Model-Optimizer/pull/1233) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `vllm` |  vLLM fakequant: add recipe-based quantization support |
+| 2026-04-14 | [16194213](https://github.com/NVIDIA/Model-Optimizer/commit/1619421383525f06a392de6a2c365454a9a2877e) | [#1162](https://github.com/NVIDIA/Model-Optimizer/pull/1162) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `quantization` `torch` `vllm` | Added support for MoE for vllm \>= 0.14.0rc1 |
 | 2026-04-13 | [202c3d38](https://github.com/NVIDIA/Model-Optimizer/commit/202c3d3894b3f77b9604d33bfb1b9f037fc7caa7) | [#1235](https://github.com/NVIDIA/Model-Optimizer/pull/1235) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `onnx` `quantization` `tests` `torch` | Add SwinTransformer support for torch_onnx quantization workflow |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
 | 2026-04-07 | [5dc17dfd](https://github.com/NVIDIA/Model-Optimizer/commit/5dc17dfd15d9ce5aa24553c2879ac68a4787f6bb) | [#1181](https://github.com/NVIDIA/Model-Optimizer/pull/1181) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[Security\] Enable torch.load(weights_only=True) for secure checkpoint loading + trust_remote_code fix |
@@ -17,4 +19,4 @@
 | 2026-01-26 | [38403095](https://github.com/NVIDIA/Model-Optimizer/commit/38403095c4a9829b14e0ce45c9b067c16a502b46) | [#731](https://github.com/NVIDIA/Model-Optimizer/pull/731) | [@galagam](https://github.com/galagam) | `deploy` `infra` `onnx` `torch` | \[5725362\] AutoCast Fixes for models with external data |
 
 ---
-**Total: 11 PRs**
+**Total: 13 PRs**

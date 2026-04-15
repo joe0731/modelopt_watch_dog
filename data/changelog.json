@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-04-15",
+    "commit": "c9b11559f18f2aa1163a8e8b2ef8095ed890831d",
+    "pr_number": 1260,
+    "author": "shengliangxu",
+    "title": "Normalize .yml to .yaml in modelopt_recipes",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "commit": "952a62bf65c0143ca46363370247ef45605a00a3",
+    "pr_number": 1261,
+    "author": "cjluo-nv",
+    "title": "Fix missing attention_mask in calibration dataloader",
+    "tags": [
+      "core",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-14",
     "commit": "b6c6ec342cf675f09dd84067269c81f6124ac308",
     "pr_number": 1249,
@@ -12,6 +34,48 @@
       "quantization",
       "tests",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-04-14",
+    "commit": "73be81037d84e08a75ed3594bea870e9b34a9f6d",
+    "pr_number": 1233,
+    "author": "kinjalpatel27",
+    "title": " vLLM fakequant: add recipe-based quantization support",
+    "tags": [
+      "deploy",
+      "example",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-04-14",
+    "commit": "3131195241401238b8b7f820ce4b09f863572a81",
+    "pr_number": 1211,
+    "author": "ChenhanYu",
+    "title": "add: DFlash block diffusion speculative decoding",
+    "tags": [
+      "core",
+      "example",
+      "export",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-14",
+    "commit": "1619421383525f06a392de6a2c365454a9a2877e",
+    "pr_number": 1162,
+    "author": "kinjalpatel27",
+    "title": "Added support for MoE for vllm >= 0.14.0rc1",
+    "tags": [
+      "deploy",
+      "example",
+      "quantization",
+      "torch",
+      "vllm"
     ]
   },
   {

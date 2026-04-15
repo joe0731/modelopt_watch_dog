@@ -5,6 +5,9 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-04-14 | [b6c6ec34](https://github.com/NVIDIA/Model-Optimizer/commit/b6c6ec342cf675f09dd84067269c81f6124ac308) | [#1249](https://github.com/NVIDIA/Model-Optimizer/pull/1249) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `infra` `quantization` `tests` `torch` | use typed quantize config instead of a raw dict |
+| 2026-04-14 | [73be8103](https://github.com/NVIDIA/Model-Optimizer/commit/73be81037d84e08a75ed3594bea870e9b34a9f6d) | [#1233](https://github.com/NVIDIA/Model-Optimizer/pull/1233) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `vllm` |  vLLM fakequant: add recipe-based quantization support |
+| 2026-04-14 | [31311952](https://github.com/NVIDIA/Model-Optimizer/commit/3131195241401238b8b7f820ce4b09f863572a81) | [#1211](https://github.com/NVIDIA/Model-Optimizer/pull/1211) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `export` `infra` `speculative_decoding` `tests` `torch` | add: DFlash block diffusion speculative decoding |
+| 2026-04-14 | [16194213](https://github.com/NVIDIA/Model-Optimizer/commit/1619421383525f06a392de6a2c365454a9a2877e) | [#1162](https://github.com/NVIDIA/Model-Optimizer/pull/1162) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `quantization` `torch` `vllm` | Added support for MoE for vllm \>= 0.14.0rc1 |
 | 2026-04-13 | [80a77d1c](https://github.com/NVIDIA/Model-Optimizer/commit/80a77d1cc0179810089bb3ee20bc3006315042f4) | [#1226](https://github.com/NVIDIA/Model-Optimizer/pull/1226) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `distillation` `example` `export` `infra` `quantization` `torch` `windows` | Add LTX-2 third-party license notices for legal compliance |
 | 2026-04-13 | [0b42c143](https://github.com/NVIDIA/Model-Optimizer/commit/0b42c143dd83c8cd61c7fd58dae941ba58c6a80e) | [#1244](https://github.com/NVIDIA/Model-Optimizer/pull/1244) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `onnx` `quantization` `torch` | Update LICENSE and SPDX-License-Identifier as per OSRB guidance |
 | 2026-04-13 | [d88dfcbd](https://github.com/NVIDIA/Model-Optimizer/commit/d88dfcbdc7ebce0153b1fd678bb7e56147815d9d) | [#1220](https://github.com/NVIDIA/Model-Optimizer/pull/1220) | [@j-rausch](https://github.com/j-rausch) | `core` `example` `infra` `tests` `torch` | consolidate mbridge distillation: merge distill_hf.py into distill.py |
@@ -128,4 +131,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 122 PRs**
+**Total: 125 PRs**
