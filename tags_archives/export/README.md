@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-16 | [07ae8e71](https://github.com/NVIDIA/Model-Optimizer/commit/07ae8e71281a1c17898991b0cd76db5788f490bb) | [#1060](https://github.com/NVIDIA/Model-Optimizer/pull/1060) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `speculative_decoding` `tests` `torch` | Add LoRA co-training support for HF EAGLE speculative decoding |
+| 2026-04-15 | [361f7e39](https://github.com/NVIDIA/Model-Optimizer/commit/361f7e391b802ef2a3333071035be63622639468) | [#1121](https://github.com/NVIDIA/Model-Optimizer/pull/1121) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `sparsity` `tests` `torch` | Merge puzzletron compression algorithm |
 | 2026-04-14 | [31311952](https://github.com/NVIDIA/Model-Optimizer/commit/3131195241401238b8b7f820ce4b09f863572a81) | [#1211](https://github.com/NVIDIA/Model-Optimizer/pull/1211) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `export` `infra` `speculative_decoding` `tests` `torch` | add: DFlash block diffusion speculative decoding |
 | 2026-04-13 | [80a77d1c](https://github.com/NVIDIA/Model-Optimizer/commit/80a77d1cc0179810089bb3ee20bc3006315042f4) | [#1226](https://github.com/NVIDIA/Model-Optimizer/pull/1226) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `distillation` `example` `export` `infra` `quantization` `torch` `windows` | Add LTX-2 third-party license notices for legal compliance |
 | 2026-04-13 | [6395b1e5](https://github.com/NVIDIA/Model-Optimizer/commit/6395b1e587725ca46ffde7fa1754b4de2ef4284b) | [#1245](https://github.com/NVIDIA/Model-Optimizer/pull/1245) | [@j-rausch](https://github.com/j-rausch) | `core` `export` `infra` `tests` `torch` | copy custom modeling files to pruned checkpoint dirs |
@@ -70,4 +72,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 64 PRs**
+**Total: 66 PRs**

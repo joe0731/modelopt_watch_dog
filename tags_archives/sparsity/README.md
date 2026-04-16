@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-15 | [361f7e39](https://github.com/NVIDIA/Model-Optimizer/commit/361f7e391b802ef2a3333071035be63622639468) | [#1121](https://github.com/NVIDIA/Model-Optimizer/pull/1121) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `sparsity` `tests` `torch` | Merge puzzletron compression algorithm |
 | 2026-04-09 | [04cd596d](https://github.com/NVIDIA/Model-Optimizer/commit/04cd596d79eec6b2eb87f15490269efbf8732819) | [#975](https://github.com/NVIDIA/Model-Optimizer/pull/975) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `distillation` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` `vlm` `windows` | Add experimental support for transformers\>=5.0 + min torch 2.8 |
 | 2026-04-06 | [1cceb950](https://github.com/NVIDIA/Model-Optimizer/commit/1cceb950d687d0ec106e648d282a07a119952836) | [#1094](https://github.com/NVIDIA/Model-Optimizer/pull/1094) | [@shengliangxu](https://github.com/shengliangxu) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `tests` `torch` `vllm` `windows` | \[OMNIML-3689\] PTQ quant_cfg semantic correction. Design in doc _quant_cfg.rst |
 | 2026-04-03 | [df80a0f7](https://github.com/NVIDIA/Model-Optimizer/commit/df80a0f7b2f20f1c97399b69e83b5b31f3775990) | [#1053](https://github.com/NVIDIA/Model-Optimizer/pull/1053) | [@kaix-nv](https://github.com/kaix-nv) | `infra` `sparsity` `tests` `torch` | \[5/n\] Add VSA for Video Diffusion |
@@ -20,4 +21,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 14 PRs**
+**Total: 15 PRs**

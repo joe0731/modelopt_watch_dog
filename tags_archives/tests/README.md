@@ -4,7 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-16 | [07ae8e71](https://github.com/NVIDIA/Model-Optimizer/commit/07ae8e71281a1c17898991b0cd76db5788f490bb) | [#1060](https://github.com/NVIDIA/Model-Optimizer/pull/1060) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `speculative_decoding` `tests` `torch` | Add LoRA co-training support for HF EAGLE speculative decoding |
 | 2026-04-15 | [c9b11559](https://github.com/NVIDIA/Model-Optimizer/commit/c9b11559f18f2aa1163a8e8b2ef8095ed890831d) | [#1260](https://github.com/NVIDIA/Model-Optimizer/pull/1260) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | Normalize .yml to .yaml in modelopt_recipes |
+| 2026-04-15 | [5e4c43e3](https://github.com/NVIDIA/Model-Optimizer/commit/5e4c43e3497d946e40b5b4ca033f06d4f501233f) | [#1258](https://github.com/NVIDIA/Model-Optimizer/pull/1258) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | fix hybrid model subblock param counting: all FFN sizes reported identical params |
+| 2026-04-15 | [361f7e39](https://github.com/NVIDIA/Model-Optimizer/commit/361f7e391b802ef2a3333071035be63622639468) | [#1121](https://github.com/NVIDIA/Model-Optimizer/pull/1121) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `sparsity` `tests` `torch` | Merge puzzletron compression algorithm |
 | 2026-04-14 | [b6c6ec34](https://github.com/NVIDIA/Model-Optimizer/commit/b6c6ec342cf675f09dd84067269c81f6124ac308) | [#1249](https://github.com/NVIDIA/Model-Optimizer/pull/1249) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `infra` `quantization` `tests` `torch` | use typed quantize config instead of a raw dict |
 | 2026-04-14 | [31311952](https://github.com/NVIDIA/Model-Optimizer/commit/3131195241401238b8b7f820ce4b09f863572a81) | [#1211](https://github.com/NVIDIA/Model-Optimizer/pull/1211) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `export` `infra` `speculative_decoding` `tests` `torch` | add: DFlash block diffusion speculative decoding |
 | 2026-04-13 | [6395b1e5](https://github.com/NVIDIA/Model-Optimizer/commit/6395b1e587725ca46ffde7fa1754b4de2ef4284b) | [#1245](https://github.com/NVIDIA/Model-Optimizer/pull/1245) | [@j-rausch](https://github.com/j-rausch) | `core` `export` `infra` `tests` `torch` | copy custom modeling files to pruned checkpoint dirs |
@@ -136,4 +139,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 130 PRs**
+**Total: 133 PRs**

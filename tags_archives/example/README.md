@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-16 | [07ae8e71](https://github.com/NVIDIA/Model-Optimizer/commit/07ae8e71281a1c17898991b0cd76db5788f490bb) | [#1060](https://github.com/NVIDIA/Model-Optimizer/pull/1060) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `speculative_decoding` `tests` `torch` | Add LoRA co-training support for HF EAGLE speculative decoding |
+| 2026-04-15 | [ad8cf9a1](https://github.com/NVIDIA/Model-Optimizer/commit/ad8cf9a12291411f41f97370f38af880d93c8d04) | [#1257](https://github.com/NVIDIA/Model-Optimizer/pull/1257) | [@j-rausch](https://github.com/j-rausch) | `eval` `example` `infra` `torch` | fix lm-eval version conflict in puzzletron requirements |
+| 2026-04-15 | [dec29529](https://github.com/NVIDIA/Model-Optimizer/commit/dec2952992b5c93da23973bbe8e8f95b3c2c52a6) | [#1259](https://github.com/NVIDIA/Model-Optimizer/pull/1259) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` | \[6034518\] Downgrade TRT support for remote autotuning in Autotune from 10.16 to 10.15 |
+| 2026-04-15 | [361f7e39](https://github.com/NVIDIA/Model-Optimizer/commit/361f7e391b802ef2a3333071035be63622639468) | [#1121](https://github.com/NVIDIA/Model-Optimizer/pull/1121) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `sparsity` `tests` `torch` | Merge puzzletron compression algorithm |
 | 2026-04-14 | [b6c6ec34](https://github.com/NVIDIA/Model-Optimizer/commit/b6c6ec342cf675f09dd84067269c81f6124ac308) | [#1249](https://github.com/NVIDIA/Model-Optimizer/pull/1249) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `infra` `quantization` `tests` `torch` | use typed quantize config instead of a raw dict |
 | 2026-04-14 | [73be8103](https://github.com/NVIDIA/Model-Optimizer/commit/73be81037d84e08a75ed3594bea870e9b34a9f6d) | [#1233](https://github.com/NVIDIA/Model-Optimizer/pull/1233) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `vllm` |  vLLM fakequant: add recipe-based quantization support |
 | 2026-04-14 | [31311952](https://github.com/NVIDIA/Model-Optimizer/commit/3131195241401238b8b7f820ce4b09f863572a81) | [#1211](https://github.com/NVIDIA/Model-Optimizer/pull/1211) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `export` `infra` `speculative_decoding` `tests` `torch` | add: DFlash block diffusion speculative decoding |
@@ -131,4 +135,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 125 PRs**
+**Total: 129 PRs**

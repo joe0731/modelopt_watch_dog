@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-15 | [dec29529](https://github.com/NVIDIA/Model-Optimizer/commit/dec2952992b5c93da23973bbe8e8f95b3c2c52a6) | [#1259](https://github.com/NVIDIA/Model-Optimizer/pull/1259) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` | \[6034518\] Downgrade TRT support for remote autotuning in Autotune from 10.16 to 10.15 |
 | 2026-04-13 | [0b42c143](https://github.com/NVIDIA/Model-Optimizer/commit/0b42c143dd83c8cd61c7fd58dae941ba58c6a80e) | [#1244](https://github.com/NVIDIA/Model-Optimizer/pull/1244) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `onnx` `quantization` `torch` | Update LICENSE and SPDX-License-Identifier as per OSRB guidance |
 | 2026-04-13 | [202c3d38](https://github.com/NVIDIA/Model-Optimizer/commit/202c3d3894b3f77b9604d33bfb1b9f037fc7caa7) | [#1235](https://github.com/NVIDIA/Model-Optimizer/pull/1235) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `onnx` `quantization` `tests` `torch` | Add SwinTransformer support for torch_onnx quantization workflow |
 | 2026-04-10 | [3baa2da6](https://github.com/NVIDIA/Model-Optimizer/commit/3baa2da62e695e210d00f95ca7f06ac2a69bef71) | [#1207](https://github.com/NVIDIA/Model-Optimizer/pull/1207) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` `windows` | Upgrade ONNX from 1.19 to 1.21 |
@@ -58,4 +59,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 52 PRs**
+**Total: 53 PRs**

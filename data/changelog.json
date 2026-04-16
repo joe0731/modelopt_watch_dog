@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-04-16",
+    "commit": "07ae8e71281a1c17898991b0cd76db5788f490bb",
+    "pr_number": 1060,
+    "author": "yeyu-nvidia",
+    "title": "Add LoRA co-training support for HF EAGLE speculative decoding",
+    "tags": [
+      "example",
+      "export",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-16",
+    "commit": "d45219b390624d4e414c8e99959e4199172de1b2",
+    "pr_number": 1270,
+    "author": "cjluo-nv",
+    "title": "Fix debugger server failing to detect editable-installed modelopt",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-16",
+    "commit": "9f8188db64866a2bd41b0177cfab041f6d83c2fd",
+    "pr_number": 1236,
+    "author": "Edwardf0t1",
+    "title": "[1/N] Polish deployment skills - Add a debug loop for unsupported models",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-04-15",
     "commit": "c9b11559f18f2aa1163a8e8b2ef8095ed890831d",
     "pr_number": 1260,
@@ -18,6 +52,74 @@
     "title": "Fix missing attention_mask in calibration dataloader",
     "tags": [
       "core",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "commit": "ad8cf9a12291411f41f97370f38af880d93c8d04",
+    "pr_number": 1257,
+    "author": "j-rausch",
+    "title": "fix lm-eval version conflict in puzzletron requirements",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "commit": "7c8557158dd3d1bba565ff20c3a2cee6c1dfc31c",
+    "pr_number": 1262,
+    "author": "cjluo-nv",
+    "title": "Add job cancellation support to the debugger command relay",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "commit": "5e4c43e3497d946e40b5b4ca033f06d4f501233f",
+    "pr_number": 1258,
+    "author": "j-rausch",
+    "title": "fix hybrid model subblock param counting: all FFN sizes reported identical params",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "commit": "dec2952992b5c93da23973bbe8e8f95b3c2c52a6",
+    "pr_number": 1259,
+    "author": "gcunhase",
+    "title": "[6034518] Downgrade TRT support for remote autotuning in Autotune from 10.16 to 10.15",
+    "tags": [
+      "docs",
+      "example",
+      "infra",
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
+    "date": "2026-04-15",
+    "commit": "361f7e391b802ef2a3333071035be63622639468",
+    "pr_number": 1121,
+    "author": "danielkorzekwa",
+    "title": "Merge puzzletron compression algorithm",
+    "tags": [
+      "core",
+      "docs",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "pruning",
+      "quantization",
+      "sparsity",
+      "tests",
       "torch"
     ]
   },

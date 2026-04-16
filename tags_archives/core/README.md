@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-04-15 | [952a62bf](https://github.com/NVIDIA/Model-Optimizer/commit/952a62bf65c0143ca46363370247ef45605a00a3) | [#1261](https://github.com/NVIDIA/Model-Optimizer/pull/1261) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `torch` | Fix missing attention_mask in calibration dataloader |
+| 2026-04-15 | [361f7e39](https://github.com/NVIDIA/Model-Optimizer/commit/361f7e391b802ef2a3333071035be63622639468) | [#1121](https://github.com/NVIDIA/Model-Optimizer/pull/1121) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `sparsity` `tests` `torch` | Merge puzzletron compression algorithm |
 | 2026-04-14 | [31311952](https://github.com/NVIDIA/Model-Optimizer/commit/3131195241401238b8b7f820ce4b09f863572a81) | [#1211](https://github.com/NVIDIA/Model-Optimizer/pull/1211) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `export` `infra` `speculative_decoding` `tests` `torch` | add: DFlash block diffusion speculative decoding |
 | 2026-04-13 | [0b42c143](https://github.com/NVIDIA/Model-Optimizer/commit/0b42c143dd83c8cd61c7fd58dae941ba58c6a80e) | [#1244](https://github.com/NVIDIA/Model-Optimizer/pull/1244) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `onnx` `quantization` `torch` | Update LICENSE and SPDX-License-Identifier as per OSRB guidance |
 | 2026-04-13 | [6395b1e5](https://github.com/NVIDIA/Model-Optimizer/commit/6395b1e587725ca46ffde7fa1754b4de2ef4284b) | [#1245](https://github.com/NVIDIA/Model-Optimizer/pull/1245) | [@j-rausch](https://github.com/j-rausch) | `core` `export` `infra` `tests` `torch` | copy custom modeling files to pruned checkpoint dirs |
@@ -63,4 +64,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 57 PRs**
+**Total: 58 PRs**

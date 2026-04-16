@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-16 | [07ae8e71](https://github.com/NVIDIA/Model-Optimizer/commit/07ae8e71281a1c17898991b0cd76db5788f490bb) | [#1060](https://github.com/NVIDIA/Model-Optimizer/pull/1060) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `speculative_decoding` `tests` `torch` | Add LoRA co-training support for HF EAGLE speculative decoding |
 | 2026-04-14 | [31311952](https://github.com/NVIDIA/Model-Optimizer/commit/3131195241401238b8b7f820ce4b09f863572a81) | [#1211](https://github.com/NVIDIA/Model-Optimizer/pull/1211) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `export` `infra` `speculative_decoding` `tests` `torch` | add: DFlash block diffusion speculative decoding |
 | 2026-04-13 | [6403389e](https://github.com/NVIDIA/Model-Optimizer/commit/6403389eb073626c064d97196a171c0f3328f6c6) | [#1238](https://github.com/NVIDIA/Model-Optimizer/pull/1238) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | Feat: Configurable Eagle ROPE scaling during export |
 | 2026-04-10 | [90501880](https://github.com/NVIDIA/Model-Optimizer/commit/905018803414702e414a86716484ed4115b37ba6) | [#1234](https://github.com/NVIDIA/Model-Optimizer/pull/1234) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `tests` `torch` | Fix test_collect_hidden_states: use synthetic short conversations |
@@ -36,4 +37,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 30 PRs**
+**Total: 31 PRs**
