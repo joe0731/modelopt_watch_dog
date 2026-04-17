@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-17 | [fe8c5178](https://github.com/NVIDIA/Model-Optimizer/commit/fe8c5178c7ad1faa10f1321208123fadc1bda255) | [#1275](https://github.com/NVIDIA/Model-Optimizer/pull/1275) | [@hthadicherla](https://github.com/hthadicherla) | `example` `onnx` `quantization` `windows` | Removed version fixes for torch transformers in windows ptq example requirements |
 | 2026-04-16 | [07ae8e71](https://github.com/NVIDIA/Model-Optimizer/commit/07ae8e71281a1c17898991b0cd76db5788f490bb) | [#1060](https://github.com/NVIDIA/Model-Optimizer/pull/1060) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `speculative_decoding` `tests` `torch` | Add LoRA co-training support for HF EAGLE speculative decoding |
 | 2026-04-15 | [ad8cf9a1](https://github.com/NVIDIA/Model-Optimizer/commit/ad8cf9a12291411f41f97370f38af880d93c8d04) | [#1257](https://github.com/NVIDIA/Model-Optimizer/pull/1257) | [@j-rausch](https://github.com/j-rausch) | `eval` `example` `infra` `torch` | fix lm-eval version conflict in puzzletron requirements |
 | 2026-04-15 | [dec29529](https://github.com/NVIDIA/Model-Optimizer/commit/dec2952992b5c93da23973bbe8e8f95b3c2c52a6) | [#1259](https://github.com/NVIDIA/Model-Optimizer/pull/1259) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` | \[6034518\] Downgrade TRT support for remote autotuning in Autotune from 10.16 to 10.15 |
@@ -135,4 +136,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 129 PRs**
+**Total: 130 PRs**

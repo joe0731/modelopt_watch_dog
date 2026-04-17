@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-17 | [fe8c5178](https://github.com/NVIDIA/Model-Optimizer/commit/fe8c5178c7ad1faa10f1321208123fadc1bda255) | [#1275](https://github.com/NVIDIA/Model-Optimizer/pull/1275) | [@hthadicherla](https://github.com/hthadicherla) | `example` `onnx` `quantization` `windows` | Removed version fixes for torch transformers in windows ptq example requirements |
 | 2026-04-15 | [dec29529](https://github.com/NVIDIA/Model-Optimizer/commit/dec2952992b5c93da23973bbe8e8f95b3c2c52a6) | [#1259](https://github.com/NVIDIA/Model-Optimizer/pull/1259) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` | \[6034518\] Downgrade TRT support for remote autotuning in Autotune from 10.16 to 10.15 |
 | 2026-04-15 | [361f7e39](https://github.com/NVIDIA/Model-Optimizer/commit/361f7e391b802ef2a3333071035be63622639468) | [#1121](https://github.com/NVIDIA/Model-Optimizer/pull/1121) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `sparsity` `tests` `torch` | Merge puzzletron compression algorithm |
 | 2026-04-14 | [b6c6ec34](https://github.com/NVIDIA/Model-Optimizer/commit/b6c6ec342cf675f09dd84067269c81f6124ac308) | [#1249](https://github.com/NVIDIA/Model-Optimizer/pull/1249) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `infra` `quantization` `tests` `torch` | use typed quantize config instead of a raw dict |
@@ -145,4 +146,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 139 PRs**
+**Total: 140 PRs**

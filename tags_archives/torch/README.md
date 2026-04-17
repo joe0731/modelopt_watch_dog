@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-17 | [7e82a5cb](https://github.com/NVIDIA/Model-Optimizer/commit/7e82a5cb03b0f9081882e9ad87d363df5b112a5a) | [#1279](https://github.com/NVIDIA/Model-Optimizer/pull/1279) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | \[Serialization\]: remove explicit weights_only default from safe_load to allow user to bypass if needed  |
 | 2026-04-16 | [07ae8e71](https://github.com/NVIDIA/Model-Optimizer/commit/07ae8e71281a1c17898991b0cd76db5788f490bb) | [#1060](https://github.com/NVIDIA/Model-Optimizer/pull/1060) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `speculative_decoding` `tests` `torch` | Add LoRA co-training support for HF EAGLE speculative decoding |
 | 2026-04-15 | [952a62bf](https://github.com/NVIDIA/Model-Optimizer/commit/952a62bf65c0143ca46363370247ef45605a00a3) | [#1261](https://github.com/NVIDIA/Model-Optimizer/pull/1261) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `torch` | Fix missing attention_mask in calibration dataloader |
 | 2026-04-15 | [ad8cf9a1](https://github.com/NVIDIA/Model-Optimizer/commit/ad8cf9a12291411f41f97370f38af880d93c8d04) | [#1257](https://github.com/NVIDIA/Model-Optimizer/pull/1257) | [@j-rausch](https://github.com/j-rausch) | `eval` `example` `infra` `torch` | fix lm-eval version conflict in puzzletron requirements |
@@ -210,4 +211,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 204 PRs**
+**Total: 205 PRs**

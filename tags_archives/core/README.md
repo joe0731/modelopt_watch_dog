@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-17 | [7e82a5cb](https://github.com/NVIDIA/Model-Optimizer/commit/7e82a5cb03b0f9081882e9ad87d363df5b112a5a) | [#1279](https://github.com/NVIDIA/Model-Optimizer/pull/1279) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | \[Serialization\]: remove explicit weights_only default from safe_load to allow user to bypass if needed  |
 | 2026-04-15 | [952a62bf](https://github.com/NVIDIA/Model-Optimizer/commit/952a62bf65c0143ca46363370247ef45605a00a3) | [#1261](https://github.com/NVIDIA/Model-Optimizer/pull/1261) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `torch` | Fix missing attention_mask in calibration dataloader |
 | 2026-04-15 | [361f7e39](https://github.com/NVIDIA/Model-Optimizer/commit/361f7e391b802ef2a3333071035be63622639468) | [#1121](https://github.com/NVIDIA/Model-Optimizer/pull/1121) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `sparsity` `tests` `torch` | Merge puzzletron compression algorithm |
 | 2026-04-14 | [31311952](https://github.com/NVIDIA/Model-Optimizer/commit/3131195241401238b8b7f820ce4b09f863572a81) | [#1211](https://github.com/NVIDIA/Model-Optimizer/pull/1211) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `export` `infra` `speculative_decoding` `tests` `torch` | add: DFlash block diffusion speculative decoding |
@@ -64,4 +65,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 58 PRs**
+**Total: 59 PRs**

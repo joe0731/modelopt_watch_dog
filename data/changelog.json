@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-04-17",
+    "commit": "fe8c5178c7ad1faa10f1321208123fadc1bda255",
+    "pr_number": 1275,
+    "author": "hthadicherla",
+    "title": "Removed version fixes for torch transformers in windows ptq example requirements",
+    "tags": [
+      "example",
+      "onnx",
+      "quantization",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-04-17",
+    "commit": "d073d8d8e6665dc63cafb67594696ec43779ab0a",
+    "pr_number": 1278,
+    "author": "kevalmorabia97",
+    "title": "Update codecov.yml",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-17",
+    "commit": "3162ff003f259a2bc3b3eedcc1d1a72b57a9b5af",
+    "pr_number": 1277,
+    "author": "kevalmorabia97",
+    "title": "Update 0.43 release date in CHANGELOG.rst",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-17",
+    "commit": "7e82a5cb03b0f9081882e9ad87d363df5b112a5a",
+    "pr_number": 1279,
+    "author": "kevalmorabia97",
+    "title": "[Serialization]: remove explicit weights_only default from safe_load to allow user to bypass if needed ",
+    "tags": [
+      "core",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-16",
     "commit": "07ae8e71281a1c17898991b0cd76db5788f490bb",
     "pr_number": 1060,
@@ -31,6 +76,16 @@
     "title": "[1/N] Polish deployment skills - Add a debug loop for unsupported models",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-04-16",
+    "commit": "04fcf24227e3133d05b3feb7deb08f2cf261201f",
+    "pr_number": 1273,
+    "author": "cjluo-nv",
+    "title": "Fix LLM deploy test failure by defaulting expert parallelism to 1",
+    "tags": [
+      "deploy"
     ]
   },
   {

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-17 | [7e82a5cb](https://github.com/NVIDIA/Model-Optimizer/commit/7e82a5cb03b0f9081882e9ad87d363df5b112a5a) | [#1279](https://github.com/NVIDIA/Model-Optimizer/pull/1279) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | \[Serialization\]: remove explicit weights_only default from safe_load to allow user to bypass if needed  |
 | 2026-04-16 | [07ae8e71](https://github.com/NVIDIA/Model-Optimizer/commit/07ae8e71281a1c17898991b0cd76db5788f490bb) | [#1060](https://github.com/NVIDIA/Model-Optimizer/pull/1060) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `speculative_decoding` `tests` `torch` | Add LoRA co-training support for HF EAGLE speculative decoding |
 | 2026-04-15 | [c9b11559](https://github.com/NVIDIA/Model-Optimizer/commit/c9b11559f18f2aa1163a8e8b2ef8095ed890831d) | [#1260](https://github.com/NVIDIA/Model-Optimizer/pull/1260) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | Normalize .yml to .yaml in modelopt_recipes |
 | 2026-04-15 | [5e4c43e3](https://github.com/NVIDIA/Model-Optimizer/commit/5e4c43e3497d946e40b5b4ca033f06d4f501233f) | [#1258](https://github.com/NVIDIA/Model-Optimizer/pull/1258) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | fix hybrid model subblock param counting: all FFN sizes reported identical params |
@@ -139,4 +140,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 133 PRs**
+**Total: 134 PRs**

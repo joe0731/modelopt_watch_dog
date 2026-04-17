@@ -8,9 +8,14 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+| 🟠 | **2026-04-17** | **[fe8c5178](https://github.com/NVIDIA/Model-Optimizer/commit/fe8c5178c7ad1faa10f1321208123fadc1bda255)** | **[#1275](https://github.com/NVIDIA/Model-Optimizer/pull/1275)** | **[@hthadicherla](https://github.com/hthadicherla)** | `example` `onnx` `quantization` `windows` | **Removed version fixes for torch transformers in windows ptq example requirements** |
+|  | 2026-04-17 | [d073d8d8](https://github.com/NVIDIA/Model-Optimizer/commit/d073d8d8e6665dc63cafb67594696ec43779ab0a) | [#1278](https://github.com/NVIDIA/Model-Optimizer/pull/1278) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Update codecov.yml |
+|  | 2026-04-17 | [3162ff00](https://github.com/NVIDIA/Model-Optimizer/commit/3162ff003f259a2bc3b3eedcc1d1a72b57a9b5af) | [#1277](https://github.com/NVIDIA/Model-Optimizer/pull/1277) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Update 0.43 release date in CHANGELOG.rst |
+|  | 2026-04-17 | [7e82a5cb](https://github.com/NVIDIA/Model-Optimizer/commit/7e82a5cb03b0f9081882e9ad87d363df5b112a5a) | [#1279](https://github.com/NVIDIA/Model-Optimizer/pull/1279) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | \[Serialization\]: remove explicit weights_only default from safe_load to allow user to bypass if needed  |
 |  | 2026-04-16 | [07ae8e71](https://github.com/NVIDIA/Model-Optimizer/commit/07ae8e71281a1c17898991b0cd76db5788f490bb) | [#1060](https://github.com/NVIDIA/Model-Optimizer/pull/1060) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `speculative_decoding` `tests` `torch` | Add LoRA co-training support for HF EAGLE speculative decoding |
 |  | 2026-04-16 | [d45219b3](https://github.com/NVIDIA/Model-Optimizer/commit/d45219b390624d4e414c8e99959e4199172de1b2) | [#1270](https://github.com/NVIDIA/Model-Optimizer/pull/1270) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Fix debugger server failing to detect editable-installed modelopt |
 |  | 2026-04-16 | [9f8188db](https://github.com/NVIDIA/Model-Optimizer/commit/9f8188db64866a2bd41b0177cfab041f6d83c2fd) | [#1236](https://github.com/NVIDIA/Model-Optimizer/pull/1236) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | \[1/N\] Polish deployment skills - Add a debug loop for unsupported models |
+|  | 2026-04-16 | [04fcf242](https://github.com/NVIDIA/Model-Optimizer/commit/04fcf24227e3133d05b3feb7deb08f2cf261201f) | [#1273](https://github.com/NVIDIA/Model-Optimizer/pull/1273) | [@cjluo-nv](https://github.com/cjluo-nv) | `deploy` | Fix LLM deploy test failure by defaulting expert parallelism to 1 |
 |  | 2026-04-15 | [c9b11559](https://github.com/NVIDIA/Model-Optimizer/commit/c9b11559f18f2aa1163a8e8b2ef8095ed890831d) | [#1260](https://github.com/NVIDIA/Model-Optimizer/pull/1260) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | Normalize .yml to .yaml in modelopt_recipes |
 |  | 2026-04-15 | [952a62bf](https://github.com/NVIDIA/Model-Optimizer/commit/952a62bf65c0143ca46363370247ef45605a00a3) | [#1261](https://github.com/NVIDIA/Model-Optimizer/pull/1261) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `torch` | Fix missing attention_mask in calibration dataloader |
 | 🟡 | **2026-04-15** | **[ad8cf9a1](https://github.com/NVIDIA/Model-Optimizer/commit/ad8cf9a12291411f41f97370f38af880d93c8d04)** | **[#1257](https://github.com/NVIDIA/Model-Optimizer/pull/1257)** | **[@j-rausch](https://github.com/j-rausch)** | `eval` `example` `infra` `torch` | **fix lm-eval version conflict in puzzletron requirements** |
@@ -89,4 +94,4 @@
 |  | 2026-04-01 | [de55e8a9](https://github.com/NVIDIA/Model-Optimizer/commit/de55e8a94ddbf6195eca924510d318cfbf0ca168) | [#1143](https://github.com/NVIDIA/Model-Optimizer/pull/1143) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `export` `infra` `torch` | Bug fix: disable weight quantizer rotation after weight fold during vLLM fakequant export |
 
 ---
-**Total: 79 PRs** | **Highlighted: 24**
+**Total: 84 PRs** | **Highlighted: 25**
