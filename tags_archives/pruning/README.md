@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-17 | [e4b054bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4b054bf326f72a572cb93a7d150d6ea1e9248d5) | [#1280](https://github.com/NVIDIA/Model-Optimizer/pull/1280) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `pruning` `tests` `torch` | Fix and Speedup megatron_mmlu by \>10x via prefill scoring and global batching |
 | 2026-04-15 | [361f7e39](https://github.com/NVIDIA/Model-Optimizer/commit/361f7e391b802ef2a3333071035be63622639468) | [#1121](https://github.com/NVIDIA/Model-Optimizer/pull/1121) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `sparsity` `tests` `torch` | Merge puzzletron compression algorithm |
 | 2026-04-07 | [5dc17dfd](https://github.com/NVIDIA/Model-Optimizer/commit/5dc17dfd15d9ce5aa24553c2879ac68a4787f6bb) | [#1181](https://github.com/NVIDIA/Model-Optimizer/pull/1181) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` `windows` | \[Security\] Enable torch.load(weights_only=True) for secure checkpoint loading + trust_remote_code fix |
 | 2026-03-25 | [2f55c730](https://github.com/NVIDIA/Model-Optimizer/commit/2f55c7303b56b75599ece8f383e9531a41247c4e) | [#1115](https://github.com/NVIDIA/Model-Optimizer/pull/1115) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `infra` `nas` `pruning` `tests` `torch` | Dkorzekwa/puzzletron use importance hooks from prune |
@@ -18,4 +19,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 12 PRs**
+**Total: 13 PRs**

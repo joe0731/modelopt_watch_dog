@@ -1,5 +1,72 @@
 [
   {
+    "date": "2026-04-18",
+    "commit": "2d868d3f1f208f2ea9b7f8d8cdd506d9bf1cda04",
+    "pr_number": 1251,
+    "author": "realAsma",
+    "title": "Add layerwise calibration for large models",
+    "tags": [
+      "core",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "commit": "4e894ffcba736639599d2387f5bf4a77dece62f9",
+    "pr_number": 1290,
+    "author": "kevalmorabia97",
+    "title": "Replace tox with nox for all CI test sessions",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "commit": "76b6fd51a54ab5b79bdd0d76facec0307473a237",
+    "pr_number": 1288,
+    "author": "ChenhanYu",
+    "title": "fix: DFlash regression tests and vLLM server liveness",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "commit": "feec81ad2b049d9b5f6c0dd3d5f318fbef150aa4",
+    "pr_number": 1166,
+    "author": "jingyu-ml",
+    "title": "Add the Skip softmax for diffusion",
+    "tags": [
+      "diffusers",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "commit": "92622a9aa60737ad84b62b5bdb324e6318ee4cfd",
+    "pr_number": 1113,
+    "author": "bkartal-dev",
+    "title": "Add nvfp4_mse and nvfp4_local_hessian options to the ptq script.",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-17",
     "commit": "fe8c5178c7ad1faa10f1321208123fadc1bda255",
     "pr_number": 1275,
@@ -41,6 +108,45 @@
     "tags": [
       "core",
       "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-17",
+    "commit": "4e33368dbe0bac9093a85069b745a4bb3ebe41fa",
+    "pr_number": 1285,
+    "author": "kevalmorabia97",
+    "title": "Temporarily disable latest pulp and mcore until we fix its nvidia-resiliency-ext dependency",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-17",
+    "commit": "e4b054bf326f72a572cb93a7d150d6ea1e9248d5",
+    "pr_number": 1280,
+    "author": "kevalmorabia97",
+    "title": "Fix and Speedup megatron_mmlu by >10x via prefill scoring and global batching",
+    "tags": [
+      "core",
+      "example",
+      "export",
+      "infra",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-17",
+    "commit": "dc7ad66b712855cc576312b6c5e5c6515aa61d54",
+    "pr_number": 1223,
+    "author": "sugunav14",
+    "title": "GPTQ vector",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
       "torch"
     ]
   },

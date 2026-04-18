@@ -4,7 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-18 | [2d868d3f](https://github.com/NVIDIA/Model-Optimizer/commit/2d868d3f1f208f2ea9b7f8d8cdd506d9bf1cda04) | [#1251](https://github.com/NVIDIA/Model-Optimizer/pull/1251) | [@realAsma](https://github.com/realAsma) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add layerwise calibration for large models |
+| 2026-04-18 | [feec81ad](https://github.com/NVIDIA/Model-Optimizer/commit/feec81ad2b049d9b5f6c0dd3d5f318fbef150aa4) | [#1166](https://github.com/NVIDIA/Model-Optimizer/pull/1166) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | Add the Skip softmax for diffusion |
+| 2026-04-18 | [92622a9a](https://github.com/NVIDIA/Model-Optimizer/commit/92622a9aa60737ad84b62b5bdb324e6318ee4cfd) | [#1113](https://github.com/NVIDIA/Model-Optimizer/pull/1113) | [@bkartal-dev](https://github.com/bkartal-dev) | `eval` `example` `quantization` `torch` | Add nvfp4_mse and nvfp4_local_hessian options to the ptq script. |
 | 2026-04-17 | [7e82a5cb](https://github.com/NVIDIA/Model-Optimizer/commit/7e82a5cb03b0f9081882e9ad87d363df5b112a5a) | [#1279](https://github.com/NVIDIA/Model-Optimizer/pull/1279) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | \[Serialization\]: remove explicit weights_only default from safe_load to allow user to bypass if needed  |
+| 2026-04-17 | [e4b054bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4b054bf326f72a572cb93a7d150d6ea1e9248d5) | [#1280](https://github.com/NVIDIA/Model-Optimizer/pull/1280) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `pruning` `tests` `torch` | Fix and Speedup megatron_mmlu by \>10x via prefill scoring and global batching |
+| 2026-04-17 | [dc7ad66b](https://github.com/NVIDIA/Model-Optimizer/commit/dc7ad66b712855cc576312b6c5e5c6515aa61d54) | [#1223](https://github.com/NVIDIA/Model-Optimizer/pull/1223) | [@sugunav14](https://github.com/sugunav14) | `eval` `example` `quantization` `torch` | GPTQ vector |
 | 2026-04-16 | [07ae8e71](https://github.com/NVIDIA/Model-Optimizer/commit/07ae8e71281a1c17898991b0cd76db5788f490bb) | [#1060](https://github.com/NVIDIA/Model-Optimizer/pull/1060) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `speculative_decoding` `tests` `torch` | Add LoRA co-training support for HF EAGLE speculative decoding |
 | 2026-04-15 | [952a62bf](https://github.com/NVIDIA/Model-Optimizer/commit/952a62bf65c0143ca46363370247ef45605a00a3) | [#1261](https://github.com/NVIDIA/Model-Optimizer/pull/1261) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `torch` | Fix missing attention_mask in calibration dataloader |
 | 2026-04-15 | [ad8cf9a1](https://github.com/NVIDIA/Model-Optimizer/commit/ad8cf9a12291411f41f97370f38af880d93c8d04) | [#1257](https://github.com/NVIDIA/Model-Optimizer/pull/1257) | [@j-rausch](https://github.com/j-rausch) | `eval` `example` `infra` `torch` | fix lm-eval version conflict in puzzletron requirements |
@@ -211,4 +216,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 205 PRs**
+**Total: 210 PRs**

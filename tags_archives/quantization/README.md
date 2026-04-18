@@ -4,7 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-18 | [2d868d3f](https://github.com/NVIDIA/Model-Optimizer/commit/2d868d3f1f208f2ea9b7f8d8cdd506d9bf1cda04) | [#1251](https://github.com/NVIDIA/Model-Optimizer/pull/1251) | [@realAsma](https://github.com/realAsma) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add layerwise calibration for large models |
+| 2026-04-18 | [feec81ad](https://github.com/NVIDIA/Model-Optimizer/commit/feec81ad2b049d9b5f6c0dd3d5f318fbef150aa4) | [#1166](https://github.com/NVIDIA/Model-Optimizer/pull/1166) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | Add the Skip softmax for diffusion |
+| 2026-04-18 | [92622a9a](https://github.com/NVIDIA/Model-Optimizer/commit/92622a9aa60737ad84b62b5bdb324e6318ee4cfd) | [#1113](https://github.com/NVIDIA/Model-Optimizer/pull/1113) | [@bkartal-dev](https://github.com/bkartal-dev) | `eval` `example` `quantization` `torch` | Add nvfp4_mse and nvfp4_local_hessian options to the ptq script. |
 | 2026-04-17 | [fe8c5178](https://github.com/NVIDIA/Model-Optimizer/commit/fe8c5178c7ad1faa10f1321208123fadc1bda255) | [#1275](https://github.com/NVIDIA/Model-Optimizer/pull/1275) | [@hthadicherla](https://github.com/hthadicherla) | `example` `onnx` `quantization` `windows` | Removed version fixes for torch transformers in windows ptq example requirements |
+| 2026-04-17 | [dc7ad66b](https://github.com/NVIDIA/Model-Optimizer/commit/dc7ad66b712855cc576312b6c5e5c6515aa61d54) | [#1223](https://github.com/NVIDIA/Model-Optimizer/pull/1223) | [@sugunav14](https://github.com/sugunav14) | `eval` `example` `quantization` `torch` | GPTQ vector |
 | 2026-04-15 | [dec29529](https://github.com/NVIDIA/Model-Optimizer/commit/dec2952992b5c93da23973bbe8e8f95b3c2c52a6) | [#1259](https://github.com/NVIDIA/Model-Optimizer/pull/1259) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` | \[6034518\] Downgrade TRT support for remote autotuning in Autotune from 10.16 to 10.15 |
 | 2026-04-15 | [361f7e39](https://github.com/NVIDIA/Model-Optimizer/commit/361f7e391b802ef2a3333071035be63622639468) | [#1121](https://github.com/NVIDIA/Model-Optimizer/pull/1121) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `sparsity` `tests` `torch` | Merge puzzletron compression algorithm |
 | 2026-04-14 | [b6c6ec34](https://github.com/NVIDIA/Model-Optimizer/commit/b6c6ec342cf675f09dd84067269c81f6124ac308) | [#1249](https://github.com/NVIDIA/Model-Optimizer/pull/1249) | [@shengliangxu](https://github.com/shengliangxu) | `eval` `example` `infra` `quantization` `tests` `torch` | use typed quantize config instead of a raw dict |
@@ -146,4 +150,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 140 PRs**
+**Total: 144 PRs**

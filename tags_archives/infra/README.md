@@ -4,8 +4,14 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-18 | [2d868d3f](https://github.com/NVIDIA/Model-Optimizer/commit/2d868d3f1f208f2ea9b7f8d8cdd506d9bf1cda04) | [#1251](https://github.com/NVIDIA/Model-Optimizer/pull/1251) | [@realAsma](https://github.com/realAsma) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add layerwise calibration for large models |
+| 2026-04-18 | [4e894ffc](https://github.com/NVIDIA/Model-Optimizer/commit/4e894ffcba736639599d2387f5bf4a77dece62f9) | [#1290](https://github.com/NVIDIA/Model-Optimizer/pull/1290) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Replace tox with nox for all CI test sessions |
+| 2026-04-18 | [76b6fd51](https://github.com/NVIDIA/Model-Optimizer/commit/76b6fd51a54ab5b79bdd0d76facec0307473a237) | [#1288](https://github.com/NVIDIA/Model-Optimizer/pull/1288) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | fix: DFlash regression tests and vLLM server liveness |
+| 2026-04-18 | [feec81ad](https://github.com/NVIDIA/Model-Optimizer/commit/feec81ad2b049d9b5f6c0dd3d5f318fbef150aa4) | [#1166](https://github.com/NVIDIA/Model-Optimizer/pull/1166) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | Add the Skip softmax for diffusion |
 | 2026-04-17 | [d073d8d8](https://github.com/NVIDIA/Model-Optimizer/commit/d073d8d8e6665dc63cafb67594696ec43779ab0a) | [#1278](https://github.com/NVIDIA/Model-Optimizer/pull/1278) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Update codecov.yml |
 | 2026-04-17 | [3162ff00](https://github.com/NVIDIA/Model-Optimizer/commit/3162ff003f259a2bc3b3eedcc1d1a72b57a9b5af) | [#1277](https://github.com/NVIDIA/Model-Optimizer/pull/1277) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Update 0.43 release date in CHANGELOG.rst |
+| 2026-04-17 | [4e33368d](https://github.com/NVIDIA/Model-Optimizer/commit/4e33368dbe0bac9093a85069b745a4bb3ebe41fa) | [#1285](https://github.com/NVIDIA/Model-Optimizer/pull/1285) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Temporarily disable latest pulp and mcore until we fix its nvidia-resiliency-ext dependency |
+| 2026-04-17 | [e4b054bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4b054bf326f72a572cb93a7d150d6ea1e9248d5) | [#1280](https://github.com/NVIDIA/Model-Optimizer/pull/1280) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `pruning` `tests` `torch` | Fix and Speedup megatron_mmlu by \>10x via prefill scoring and global batching |
 | 2026-04-16 | [d45219b3](https://github.com/NVIDIA/Model-Optimizer/commit/d45219b390624d4e414c8e99959e4199172de1b2) | [#1270](https://github.com/NVIDIA/Model-Optimizer/pull/1270) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Fix debugger server failing to detect editable-installed modelopt |
 | 2026-04-16 | [9f8188db](https://github.com/NVIDIA/Model-Optimizer/commit/9f8188db64866a2bd41b0177cfab041f6d83c2fd) | [#1236](https://github.com/NVIDIA/Model-Optimizer/pull/1236) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | \[1/N\] Polish deployment skills - Add a debug loop for unsupported models |
 | 2026-04-15 | [c9b11559](https://github.com/NVIDIA/Model-Optimizer/commit/c9b11559f18f2aa1163a8e8b2ef8095ed890831d) | [#1260](https://github.com/NVIDIA/Model-Optimizer/pull/1260) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | Normalize .yml to .yaml in modelopt_recipes |
@@ -159,4 +165,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 153 PRs**
+**Total: 159 PRs**
