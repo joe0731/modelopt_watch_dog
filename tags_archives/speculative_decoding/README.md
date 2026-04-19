@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-18 | [3d0f0db4](https://github.com/NVIDIA/Model-Optimizer/commit/3d0f0db49ed77bfe58d2911944271054fa32d11c) | [#1286](https://github.com/NVIDIA/Model-Optimizer/pull/1286) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `speculative_decoding` `tests` `torch` | \[CI\] Replace tox with nox, use nemo:26.04 for megatron tests, and simplify CI workflows |
 | 2026-04-16 | [07ae8e71](https://github.com/NVIDIA/Model-Optimizer/commit/07ae8e71281a1c17898991b0cd76db5788f490bb) | [#1060](https://github.com/NVIDIA/Model-Optimizer/pull/1060) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `speculative_decoding` `tests` `torch` | Add LoRA co-training support for HF EAGLE speculative decoding |
 | 2026-04-14 | [31311952](https://github.com/NVIDIA/Model-Optimizer/commit/3131195241401238b8b7f820ce4b09f863572a81) | [#1211](https://github.com/NVIDIA/Model-Optimizer/pull/1211) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `example` `export` `infra` `speculative_decoding` `tests` `torch` | add: DFlash block diffusion speculative decoding |
 | 2026-04-13 | [6403389e](https://github.com/NVIDIA/Model-Optimizer/commit/6403389eb073626c064d97196a171c0f3328f6c6) | [#1238](https://github.com/NVIDIA/Model-Optimizer/pull/1238) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | Feat: Configurable Eagle ROPE scaling during export |
@@ -37,4 +38,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 31 PRs**
+**Total: 32 PRs**

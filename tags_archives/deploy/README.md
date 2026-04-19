@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-18 | [760c9807](https://github.com/NVIDIA/Model-Optimizer/commit/760c9807279eceec120deaae3a941dd7e86c3379) | [#1263](https://github.com/NVIDIA/Model-Optimizer/pull/1263) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add ResNet50 support for torch_onnx quantization workflow |
 | 2026-04-16 | [04fcf242](https://github.com/NVIDIA/Model-Optimizer/commit/04fcf24227e3133d05b3feb7deb08f2cf261201f) | [#1273](https://github.com/NVIDIA/Model-Optimizer/pull/1273) | [@cjluo-nv](https://github.com/cjluo-nv) | `deploy` | Fix LLM deploy test failure by defaulting expert parallelism to 1 |
 | 2026-04-14 | [73be8103](https://github.com/NVIDIA/Model-Optimizer/commit/73be81037d84e08a75ed3594bea870e9b34a9f6d) | [#1233](https://github.com/NVIDIA/Model-Optimizer/pull/1233) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `vllm` |  vLLM fakequant: add recipe-based quantization support |
 | 2026-04-14 | [16194213](https://github.com/NVIDIA/Model-Optimizer/commit/1619421383525f06a392de6a2c365454a9a2877e) | [#1162](https://github.com/NVIDIA/Model-Optimizer/pull/1162) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `quantization` `torch` `vllm` | Added support for MoE for vllm \>= 0.14.0rc1 |
@@ -20,4 +21,4 @@
 | 2026-01-26 | [38403095](https://github.com/NVIDIA/Model-Optimizer/commit/38403095c4a9829b14e0ce45c9b067c16a502b46) | [#731](https://github.com/NVIDIA/Model-Optimizer/pull/731) | [@galagam](https://github.com/galagam) | `deploy` `infra` `onnx` `torch` | \[5725362\] AutoCast Fixes for models with external data |
 
 ---
-**Total: 14 PRs**
+**Total: 15 PRs**

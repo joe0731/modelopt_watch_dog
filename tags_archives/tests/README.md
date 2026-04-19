@@ -4,8 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-19 | [26ae8da5](https://github.com/NVIDIA/Model-Optimizer/commit/26ae8da51756eb081da09ea1b5253855815e022f) | [#1227](https://github.com/NVIDIA/Model-Optimizer/pull/1227) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `experimental` `infra` `quantization` `tests` `torch` | \[2/3\] Implicit Gemm NVFP4 |
 | 2026-04-18 | [2d868d3f](https://github.com/NVIDIA/Model-Optimizer/commit/2d868d3f1f208f2ea9b7f8d8cdd506d9bf1cda04) | [#1251](https://github.com/NVIDIA/Model-Optimizer/pull/1251) | [@realAsma](https://github.com/realAsma) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add layerwise calibration for large models |
 | 2026-04-18 | [feec81ad](https://github.com/NVIDIA/Model-Optimizer/commit/feec81ad2b049d9b5f6c0dd3d5f318fbef150aa4) | [#1166](https://github.com/NVIDIA/Model-Optimizer/pull/1166) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | Add the Skip softmax for diffusion |
+| 2026-04-18 | [760c9807](https://github.com/NVIDIA/Model-Optimizer/commit/760c9807279eceec120deaae3a941dd7e86c3379) | [#1263](https://github.com/NVIDIA/Model-Optimizer/pull/1263) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add ResNet50 support for torch_onnx quantization workflow |
+| 2026-04-18 | [3d0f0db4](https://github.com/NVIDIA/Model-Optimizer/commit/3d0f0db49ed77bfe58d2911944271054fa32d11c) | [#1286](https://github.com/NVIDIA/Model-Optimizer/pull/1286) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `speculative_decoding` `tests` `torch` | \[CI\] Replace tox with nox, use nemo:26.04 for megatron tests, and simplify CI workflows |
 | 2026-04-17 | [7e82a5cb](https://github.com/NVIDIA/Model-Optimizer/commit/7e82a5cb03b0f9081882e9ad87d363df5b112a5a) | [#1279](https://github.com/NVIDIA/Model-Optimizer/pull/1279) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | \[Serialization\]: remove explicit weights_only default from safe_load to allow user to bypass if needed  |
 | 2026-04-17 | [e4b054bf](https://github.com/NVIDIA/Model-Optimizer/commit/e4b054bf326f72a572cb93a7d150d6ea1e9248d5) | [#1280](https://github.com/NVIDIA/Model-Optimizer/pull/1280) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `pruning` `tests` `torch` | Fix and Speedup megatron_mmlu by \>10x via prefill scoring and global batching |
 | 2026-04-16 | [07ae8e71](https://github.com/NVIDIA/Model-Optimizer/commit/07ae8e71281a1c17898991b0cd76db5788f490bb) | [#1060](https://github.com/NVIDIA/Model-Optimizer/pull/1060) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `speculative_decoding` `tests` `torch` | Add LoRA co-training support for HF EAGLE speculative decoding |
@@ -143,4 +146,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 137 PRs**
+**Total: 140 PRs**

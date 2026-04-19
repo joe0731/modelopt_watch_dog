@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-04-19",
+    "commit": "c20f9c411d236fcba99845efe5baa9efd4f6ac37",
+    "pr_number": 1252,
+    "author": "kaix-nv",
+    "title": "Add a standalone monitor skill for persistent job tracking",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-19",
+    "commit": "26ae8da51756eb081da09ea1b5253855815e022f",
+    "pr_number": 1227,
+    "author": "jingyu-ml",
+    "title": "[2/3] Implicit Gemm NVFP4",
+    "tags": [
+      "diffusers",
+      "example",
+      "experimental",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-18",
     "commit": "2d868d3f1f208f2ea9b7f8d8cdd506d9bf1cda04",
     "pr_number": 1251,
@@ -64,6 +90,68 @@
       "example",
       "quantization",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "commit": "760c9807279eceec120deaae3a941dd7e86c3379",
+    "pr_number": 1263,
+    "author": "ajrasane",
+    "title": "Add ResNet50 support for torch_onnx quantization workflow",
+    "tags": [
+      "deploy",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "commit": "2004779a6751407be75ecab9caab25e1e596e5f4",
+    "pr_number": 879,
+    "author": "faridlazuarda",
+    "title": "Update README.md for DMS (fix cd experimental/DMS to cd Model-Optimizer/experimental/DMS)",
+    "tags": [
+      "experimental"
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "commit": "2b315eda47996b00f8bae8d9461135b28cda7605",
+    "pr_number": 663,
+    "author": "kevalmorabia97",
+    "title": "Replace mip package with pulp",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "commit": "3d0f0db49ed77bfe58d2911944271054fa32d11c",
+    "pr_number": 1286,
+    "author": "kevalmorabia97",
+    "title": "[CI] Replace tox with nox, use nemo:26.04 for megatron tests, and simplify CI workflows",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-18",
+    "commit": "e9a49890f173997b01818d104421327a72f8afb3",
+    "pr_number": 1292,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-04-18)",
+    "tags": [
+      "infra"
     ]
   },
   {
