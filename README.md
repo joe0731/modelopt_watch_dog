@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-04-20 | [010b220d](https://github.com/NVIDIA/Model-Optimizer/commit/010b220dc09890bf7646f8fad5b69fd0bc41ac5b) | [#1242](https://github.com/NVIDIA/Model-Optimizer/pull/1242) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `tests` `torch` `vllm` | vLLM fakequant export update for AWQ checkpoint |
 | 2026-04-19 | [c20f9c41](https://github.com/NVIDIA/Model-Optimizer/commit/c20f9c411d236fcba99845efe5baa9efd4f6ac37) | [#1252](https://github.com/NVIDIA/Model-Optimizer/pull/1252) | [@kaix-nv](https://github.com/kaix-nv) | `infra` | Add a standalone monitor skill for persistent job tracking |
 | 2026-04-19 | [26ae8da5](https://github.com/NVIDIA/Model-Optimizer/commit/26ae8da51756eb081da09ea1b5253855815e022f) | [#1227](https://github.com/NVIDIA/Model-Optimizer/pull/1227) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `experimental` `infra` `quantization` `tests` `torch` | \[2/3\] Implicit Gemm NVFP4 |
 | 2026-04-18 | [760c9807](https://github.com/NVIDIA/Model-Optimizer/commit/760c9807279eceec120deaae3a941dd7e86c3379) | [#1263](https://github.com/NVIDIA/Model-Optimizer/pull/1263) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add ResNet50 support for torch_onnx quantization workflow |

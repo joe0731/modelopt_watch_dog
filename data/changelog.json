@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-20",
+    "commit": "010b220dc09890bf7646f8fad5b69fd0bc41ac5b",
+    "pr_number": 1242,
+    "author": "kinjalpatel27",
+    "title": "vLLM fakequant export update for AWQ checkpoint",
+    "tags": [
+      "deploy",
+      "example",
+      "export",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
     "date": "2026-04-19",
     "commit": "c20f9c411d236fcba99845efe5baa9efd4f6ac37",
     "pr_number": 1252,
