@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-20 | [355c6b78](https://github.com/NVIDIA/Model-Optimizer/commit/355c6b7883789d738bc3b5a91bdc73d7e0313d8d) | [#1293](https://github.com/NVIDIA/Model-Optimizer/pull/1293) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | fix: PTQ 1GPU, export PP divisibility, hidden states conversations key |
 | 2026-04-19 | [c20f9c41](https://github.com/NVIDIA/Model-Optimizer/commit/c20f9c411d236fcba99845efe5baa9efd4f6ac37) | [#1252](https://github.com/NVIDIA/Model-Optimizer/pull/1252) | [@kaix-nv](https://github.com/kaix-nv) | `infra` | Add a standalone monitor skill for persistent job tracking |
 | 2026-04-19 | [26ae8da5](https://github.com/NVIDIA/Model-Optimizer/commit/26ae8da51756eb081da09ea1b5253855815e022f) | [#1227](https://github.com/NVIDIA/Model-Optimizer/pull/1227) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `experimental` `infra` `quantization` `tests` `torch` | \[2/3\] Implicit Gemm NVFP4 |
 | 2026-04-18 | [2d868d3f](https://github.com/NVIDIA/Model-Optimizer/commit/2d868d3f1f208f2ea9b7f8d8cdd506d9bf1cda04) | [#1251](https://github.com/NVIDIA/Model-Optimizer/pull/1251) | [@realAsma](https://github.com/realAsma) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add layerwise calibration for large models |
@@ -171,4 +172,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 165 PRs**
+**Total: 166 PRs**

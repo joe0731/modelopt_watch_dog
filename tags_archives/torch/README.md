@@ -5,6 +5,10 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-04-20 | [010b220d](https://github.com/NVIDIA/Model-Optimizer/commit/010b220dc09890bf7646f8fad5b69fd0bc41ac5b) | [#1242](https://github.com/NVIDIA/Model-Optimizer/pull/1242) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `tests` `torch` `vllm` | vLLM fakequant export update for AWQ checkpoint |
+| 2026-04-20 | [97d15311](https://github.com/NVIDIA/Model-Optimizer/commit/97d153118e9f43b9abc3af508d4702a6e01308a7) | [#1281](https://github.com/NVIDIA/Model-Optimizer/pull/1281) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | \[minor\] Add custom calibration backend registry |
+| 2026-04-20 | [289a239c](https://github.com/NVIDIA/Model-Optimizer/commit/289a239ca56276819074f8132410c6002729ffab) | [#1301](https://github.com/NVIDIA/Model-Optimizer/pull/1301) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `torch` | fix: use data_dir for directory paths in ShardedDataset |
+| 2026-04-20 | [355c6b78](https://github.com/NVIDIA/Model-Optimizer/commit/355c6b7883789d738bc3b5a91bdc73d7e0313d8d) | [#1293](https://github.com/NVIDIA/Model-Optimizer/pull/1293) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | fix: PTQ 1GPU, export PP divisibility, hidden states conversations key |
+| 2026-04-20 | [2fef374d](https://github.com/NVIDIA/Model-Optimizer/commit/2fef374deda8ea0374ff89e54e566af79b683a5d) | [#1302](https://github.com/NVIDIA/Model-Optimizer/pull/1302) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | fix: auto-compute dp_replicate_size from world_size |
 | 2026-04-19 | [26ae8da5](https://github.com/NVIDIA/Model-Optimizer/commit/26ae8da51756eb081da09ea1b5253855815e022f) | [#1227](https://github.com/NVIDIA/Model-Optimizer/pull/1227) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `experimental` `infra` `quantization` `tests` `torch` | \[2/3\] Implicit Gemm NVFP4 |
 | 2026-04-18 | [2d868d3f](https://github.com/NVIDIA/Model-Optimizer/commit/2d868d3f1f208f2ea9b7f8d8cdd506d9bf1cda04) | [#1251](https://github.com/NVIDIA/Model-Optimizer/pull/1251) | [@realAsma](https://github.com/realAsma) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add layerwise calibration for large models |
 | 2026-04-18 | [feec81ad](https://github.com/NVIDIA/Model-Optimizer/commit/feec81ad2b049d9b5f6c0dd3d5f318fbef150aa4) | [#1166](https://github.com/NVIDIA/Model-Optimizer/pull/1166) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | Add the Skip softmax for diffusion |
@@ -220,4 +224,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 214 PRs**
+**Total: 218 PRs**

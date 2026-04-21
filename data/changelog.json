@@ -15,6 +15,54 @@
     ]
   },
   {
+    "date": "2026-04-20",
+    "commit": "97d153118e9f43b9abc3af508d4702a6e01308a7",
+    "pr_number": 1281,
+    "author": "Fridah-nv",
+    "title": "[minor] Add custom calibration backend registry",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-20",
+    "commit": "289a239ca56276819074f8132410c6002729ffab",
+    "pr_number": 1301,
+    "author": "yeyu-nvidia",
+    "title": "fix: use data_dir for directory paths in ShardedDataset",
+    "tags": [
+      "core",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-20",
+    "commit": "355c6b7883789d738bc3b5a91bdc73d7e0313d8d",
+    "pr_number": 1293,
+    "author": "ChenhanYu",
+    "title": "fix: PTQ 1GPU, export PP divisibility, hidden states conversations key",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-20",
+    "commit": "2fef374deda8ea0374ff89e54e566af79b683a5d",
+    "pr_number": 1302,
+    "author": "yeyu-nvidia",
+    "title": "fix: auto-compute dp_replicate_size from world_size",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-19",
     "commit": "c20f9c411d236fcba99845efe5baa9efd4f6ac37",
     "pr_number": 1252,
