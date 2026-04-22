@@ -8,6 +8,7 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+| 🟠 | **2026-04-22** | **[785d3a2d](https://github.com/NVIDIA/Model-Optimizer/commit/785d3a2df68e0becbd5ff03d12b48240cde85584)** | **[#1299](https://github.com/NVIDIA/Model-Optimizer/pull/1299)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `infra` `onnx` `quantization` | **\[CI\] Bump test containers to latest** |
 | 🔵 | **2026-04-20** | **[010b220d](https://github.com/NVIDIA/Model-Optimizer/commit/010b220dc09890bf7646f8fad5b69fd0bc41ac5b)** | **[#1242](https://github.com/NVIDIA/Model-Optimizer/pull/1242)** | **[@kinjalpatel27](https://github.com/kinjalpatel27)** | `deploy` `example` `export` `tests` `torch` `vllm` | **vLLM fakequant export update for AWQ checkpoint** |
 |  | 2026-04-20 | [97d15311](https://github.com/NVIDIA/Model-Optimizer/commit/97d153118e9f43b9abc3af508d4702a6e01308a7) | [#1281](https://github.com/NVIDIA/Model-Optimizer/pull/1281) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | \[minor\] Add custom calibration backend registry |
 |  | 2026-04-20 | [289a239c](https://github.com/NVIDIA/Model-Optimizer/commit/289a239ca56276819074f8132410c6002729ffab) | [#1301](https://github.com/NVIDIA/Model-Optimizer/pull/1301) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `torch` | fix: use data_dir for directory paths in ShardedDataset |
@@ -114,4 +115,4 @@
 |  | 2026-04-01 | [de55e8a9](https://github.com/NVIDIA/Model-Optimizer/commit/de55e8a94ddbf6195eca924510d318cfbf0ca168) | [#1143](https://github.com/NVIDIA/Model-Optimizer/pull/1143) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `export` `infra` `torch` | Bug fix: disable weight quantizer rotation after weight fold during vLLM fakequant export |
 
 ---
-**Total: 104 PRs** | **Highlighted: 30**
+**Total: 105 PRs** | **Highlighted: 31**

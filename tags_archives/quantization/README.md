@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-22 | [785d3a2d](https://github.com/NVIDIA/Model-Optimizer/commit/785d3a2df68e0becbd5ff03d12b48240cde85584) | [#1299](https://github.com/NVIDIA/Model-Optimizer/pull/1299) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `onnx` `quantization` | \[CI\] Bump test containers to latest |
 | 2026-04-20 | [97d15311](https://github.com/NVIDIA/Model-Optimizer/commit/97d153118e9f43b9abc3af508d4702a6e01308a7) | [#1281](https://github.com/NVIDIA/Model-Optimizer/pull/1281) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | \[minor\] Add custom calibration backend registry |
 | 2026-04-19 | [26ae8da5](https://github.com/NVIDIA/Model-Optimizer/commit/26ae8da51756eb081da09ea1b5253855815e022f) | [#1227](https://github.com/NVIDIA/Model-Optimizer/pull/1227) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `experimental` `infra` `quantization` `tests` `torch` | \[2/3\] Implicit Gemm NVFP4 |
 | 2026-04-18 | [2d868d3f](https://github.com/NVIDIA/Model-Optimizer/commit/2d868d3f1f208f2ea9b7f8d8cdd506d9bf1cda04) | [#1251](https://github.com/NVIDIA/Model-Optimizer/pull/1251) | [@realAsma](https://github.com/realAsma) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add layerwise calibration for large models |
@@ -153,4 +154,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 147 PRs**
+**Total: 148 PRs**

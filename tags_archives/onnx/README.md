@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-22 | [785d3a2d](https://github.com/NVIDIA/Model-Optimizer/commit/785d3a2df68e0becbd5ff03d12b48240cde85584) | [#1299](https://github.com/NVIDIA/Model-Optimizer/pull/1299) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `onnx` `quantization` | \[CI\] Bump test containers to latest |
 | 2026-04-18 | [760c9807](https://github.com/NVIDIA/Model-Optimizer/commit/760c9807279eceec120deaae3a941dd7e86c3379) | [#1263](https://github.com/NVIDIA/Model-Optimizer/pull/1263) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add ResNet50 support for torch_onnx quantization workflow |
 | 2026-04-17 | [fe8c5178](https://github.com/NVIDIA/Model-Optimizer/commit/fe8c5178c7ad1faa10f1321208123fadc1bda255) | [#1275](https://github.com/NVIDIA/Model-Optimizer/pull/1275) | [@hthadicherla](https://github.com/hthadicherla) | `example` `onnx` `quantization` `windows` | Removed version fixes for torch transformers in windows ptq example requirements |
 | 2026-04-15 | [dec29529](https://github.com/NVIDIA/Model-Optimizer/commit/dec2952992b5c93da23973bbe8e8f95b3c2c52a6) | [#1259](https://github.com/NVIDIA/Model-Optimizer/pull/1259) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` | \[6034518\] Downgrade TRT support for remote autotuning in Autotune from 10.16 to 10.15 |
@@ -61,4 +62,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 55 PRs**
+**Total: 56 PRs**

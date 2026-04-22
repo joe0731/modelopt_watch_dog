@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-04-22",
+    "commit": "785d3a2df68e0becbd5ff03d12b48240cde85584",
+    "pr_number": 1299,
+    "author": "kevalmorabia97",
+    "title": "[CI] Bump test containers to latest",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
     "date": "2026-04-20",
     "commit": "010b220dc09890bf7646f8fad5b69fd0bc41ac5b",
     "pr_number": 1242,
