@@ -4,7 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-23 | [2564da73](https://github.com/NVIDIA/Model-Optimizer/commit/2564da7324ea0889ed2ded6b90cf48428b0be995) | [#1317](https://github.com/NVIDIA/Model-Optimizer/pull/1317) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` | Update vLLM deployment docs for heterogeneous models |
 | 2026-04-22 | [785d3a2d](https://github.com/NVIDIA/Model-Optimizer/commit/785d3a2df68e0becbd5ff03d12b48240cde85584) | [#1299](https://github.com/NVIDIA/Model-Optimizer/pull/1299) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `onnx` `quantization` | \[CI\] Bump test containers to latest |
+| 2026-04-22 | [c417e6f4](https://github.com/NVIDIA/Model-Optimizer/commit/c417e6f4d94efc92ceffab9f14b8867a1dc9a715) | [#1256](https://github.com/NVIDIA/Model-Optimizer/pull/1256) | [@nv-samcheng](https://github.com/nv-samcheng) | `infra` `onnx` `quantization` `tests` | Exclude small-k and small-n Matmul nodes from Int8 quantization |
+| 2026-04-22 | [e56682e3](https://github.com/NVIDIA/Model-Optimizer/commit/e56682e34a4e2da3130d5577ad9c5b2dd58265cb) | [#1322](https://github.com/NVIDIA/Model-Optimizer/pull/1322) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `docs` `infra` | docs: update installation pages with legal-approved license notices |
+| 2026-04-22 | [c7966119](https://github.com/NVIDIA/Model-Optimizer/commit/c7966119eb7fdec1bac4ad938413048f145a45fb) | [#1303](https://github.com/NVIDIA/Model-Optimizer/pull/1303) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `infra` `quantization` `sparsity` `tests` `torch` | Reorg the sparse/quant/common kernel dir |
 | 2026-04-20 | [355c6b78](https://github.com/NVIDIA/Model-Optimizer/commit/355c6b7883789d738bc3b5a91bdc73d7e0313d8d) | [#1293](https://github.com/NVIDIA/Model-Optimizer/pull/1293) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | fix: PTQ 1GPU, export PP divisibility, hidden states conversations key |
 | 2026-04-19 | [c20f9c41](https://github.com/NVIDIA/Model-Optimizer/commit/c20f9c411d236fcba99845efe5baa9efd4f6ac37) | [#1252](https://github.com/NVIDIA/Model-Optimizer/pull/1252) | [@kaix-nv](https://github.com/kaix-nv) | `infra` | Add a standalone monitor skill for persistent job tracking |
 | 2026-04-19 | [26ae8da5](https://github.com/NVIDIA/Model-Optimizer/commit/26ae8da51756eb081da09ea1b5253855815e022f) | [#1227](https://github.com/NVIDIA/Model-Optimizer/pull/1227) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `experimental` `infra` `quantization` `tests` `torch` | \[2/3\] Implicit Gemm NVFP4 |
@@ -173,4 +177,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 167 PRs**
+**Total: 171 PRs**

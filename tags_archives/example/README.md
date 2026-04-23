@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-22 | [06781363](https://github.com/NVIDIA/Model-Optimizer/commit/0678136335d205ecb01169b06a07abcbcf6c9078) | [#1305](https://github.com/NVIDIA/Model-Optimizer/pull/1305) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `quantization` `torch` `vllm` | Fix vLLM fakequant MoE megatron export bug |
+| 2026-04-22 | [c7966119](https://github.com/NVIDIA/Model-Optimizer/commit/c7966119eb7fdec1bac4ad938413048f145a45fb) | [#1303](https://github.com/NVIDIA/Model-Optimizer/pull/1303) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `infra` `quantization` `sparsity` `tests` `torch` | Reorg the sparse/quant/common kernel dir |
 | 2026-04-20 | [010b220d](https://github.com/NVIDIA/Model-Optimizer/commit/010b220dc09890bf7646f8fad5b69fd0bc41ac5b) | [#1242](https://github.com/NVIDIA/Model-Optimizer/pull/1242) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `tests` `torch` `vllm` | vLLM fakequant export update for AWQ checkpoint |
 | 2026-04-20 | [355c6b78](https://github.com/NVIDIA/Model-Optimizer/commit/355c6b7883789d738bc3b5a91bdc73d7e0313d8d) | [#1293](https://github.com/NVIDIA/Model-Optimizer/pull/1293) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | fix: PTQ 1GPU, export PP divisibility, hidden states conversations key |
 | 2026-04-20 | [2fef374d](https://github.com/NVIDIA/Model-Optimizer/commit/2fef374deda8ea0374ff89e54e566af79b683a5d) | [#1302](https://github.com/NVIDIA/Model-Optimizer/pull/1302) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | fix: auto-compute dp_replicate_size from world_size |
@@ -146,4 +148,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 140 PRs**
+**Total: 142 PRs**

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-22 | [06781363](https://github.com/NVIDIA/Model-Optimizer/commit/0678136335d205ecb01169b06a07abcbcf6c9078) | [#1305](https://github.com/NVIDIA/Model-Optimizer/pull/1305) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `quantization` `torch` `vllm` | Fix vLLM fakequant MoE megatron export bug |
 | 2026-04-20 | [010b220d](https://github.com/NVIDIA/Model-Optimizer/commit/010b220dc09890bf7646f8fad5b69fd0bc41ac5b) | [#1242](https://github.com/NVIDIA/Model-Optimizer/pull/1242) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `tests` `torch` `vllm` | vLLM fakequant export update for AWQ checkpoint |
 | 2026-04-14 | [73be8103](https://github.com/NVIDIA/Model-Optimizer/commit/73be81037d84e08a75ed3594bea870e9b34a9f6d) | [#1233](https://github.com/NVIDIA/Model-Optimizer/pull/1233) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `vllm` |  vLLM fakequant: add recipe-based quantization support |
 | 2026-04-14 | [16194213](https://github.com/NVIDIA/Model-Optimizer/commit/1619421383525f06a392de6a2c365454a9a2877e) | [#1162](https://github.com/NVIDIA/Model-Optimizer/pull/1162) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `quantization` `torch` `vllm` | Added support for MoE for vllm \>= 0.14.0rc1 |
@@ -13,4 +14,4 @@
 | 2026-03-24 | [a108883c](https://github.com/NVIDIA/Model-Optimizer/commit/a108883ccad9ae1cec059d9c0eae935d00b7d316) | [#1068](https://github.com/NVIDIA/Model-Optimizer/pull/1068) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `eval` `example` `quantization` `torch` `vllm` | Fridah/kinjal/vllm modelopt reload |
 
 ---
-**Total: 7 PRs**
+**Total: 8 PRs**

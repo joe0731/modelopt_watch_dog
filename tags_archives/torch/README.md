@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-22 | [06781363](https://github.com/NVIDIA/Model-Optimizer/commit/0678136335d205ecb01169b06a07abcbcf6c9078) | [#1305](https://github.com/NVIDIA/Model-Optimizer/pull/1305) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `quantization` `torch` `vllm` | Fix vLLM fakequant MoE megatron export bug |
+| 2026-04-22 | [c7966119](https://github.com/NVIDIA/Model-Optimizer/commit/c7966119eb7fdec1bac4ad938413048f145a45fb) | [#1303](https://github.com/NVIDIA/Model-Optimizer/pull/1303) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `infra` `quantization` `sparsity` `tests` `torch` | Reorg the sparse/quant/common kernel dir |
 | 2026-04-20 | [010b220d](https://github.com/NVIDIA/Model-Optimizer/commit/010b220dc09890bf7646f8fad5b69fd0bc41ac5b) | [#1242](https://github.com/NVIDIA/Model-Optimizer/pull/1242) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `tests` `torch` `vllm` | vLLM fakequant export update for AWQ checkpoint |
 | 2026-04-20 | [97d15311](https://github.com/NVIDIA/Model-Optimizer/commit/97d153118e9f43b9abc3af508d4702a6e01308a7) | [#1281](https://github.com/NVIDIA/Model-Optimizer/pull/1281) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | \[minor\] Add custom calibration backend registry |
 | 2026-04-20 | [289a239c](https://github.com/NVIDIA/Model-Optimizer/commit/289a239ca56276819074f8132410c6002729ffab) | [#1301](https://github.com/NVIDIA/Model-Optimizer/pull/1301) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `torch` | fix: use data_dir for directory paths in ShardedDataset |
@@ -224,4 +226,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 218 PRs**
+**Total: 220 PRs**

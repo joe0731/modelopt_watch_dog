@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-22 | [e56682e3](https://github.com/NVIDIA/Model-Optimizer/commit/e56682e34a4e2da3130d5577ad9c5b2dd58265cb) | [#1322](https://github.com/NVIDIA/Model-Optimizer/pull/1322) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `docs` `infra` | docs: update installation pages with legal-approved license notices |
 | 2026-04-15 | [dec29529](https://github.com/NVIDIA/Model-Optimizer/commit/dec2952992b5c93da23973bbe8e8f95b3c2c52a6) | [#1259](https://github.com/NVIDIA/Model-Optimizer/pull/1259) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `infra` `onnx` `quantization` | \[6034518\] Downgrade TRT support for remote autotuning in Autotune from 10.16 to 10.15 |
 | 2026-04-15 | [361f7e39](https://github.com/NVIDIA/Model-Optimizer/commit/361f7e391b802ef2a3333071035be63622639468) | [#1121](https://github.com/NVIDIA/Model-Optimizer/pull/1121) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `sparsity` `tests` `torch` | Merge puzzletron compression algorithm |
 | 2026-04-13 | [14b78aed](https://github.com/NVIDIA/Model-Optimizer/commit/14b78aed1faa0dd55fb4846bba123a7a63caa223) | [#1165](https://github.com/NVIDIA/Model-Optimizer/pull/1165) | [@shengliangxu](https://github.com/shengliangxu) | `docs` | \[OMNIML-3744\] recipes doc |
@@ -24,4 +25,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 18 PRs**
+**Total: 19 PRs**
