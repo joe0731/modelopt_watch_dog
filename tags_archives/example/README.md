@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-23 | [e4e3508f](https://github.com/NVIDIA/Model-Optimizer/commit/e4e3508f51a5ca54b88f4c2aebf41db0ffc53b36) | [#1289](https://github.com/NVIDIA/Model-Optimizer/pull/1289) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3349\] Add FP8 MHA quantization support for HuggingFace ViT |
+| 2026-04-23 | [8663678f](https://github.com/NVIDIA/Model-Optimizer/commit/8663678f12403f9a03bfe9856b8d7002bf15794b) | [#1311](https://github.com/NVIDIA/Model-Optimizer/pull/1311) | [@michaelfeil](https://github.com/michaelfeil) | `eval` `example` `quantization` `torch` | fix: bug hf_ptq.py max_length setting ignored for LLMs |
+| 2026-04-23 | [01788bb0](https://github.com/NVIDIA/Model-Optimizer/commit/01788bb007131f606a02ef4ce7fb2184c1c0272e) | [#1332](https://github.com/NVIDIA/Model-Optimizer/pull/1332) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `eval` `example` `infra` `quantization` `torch` | Deprecate Mllama support in llm_ptq/vlm_ptq examples |
+| 2026-04-23 | [fda0899e](https://github.com/NVIDIA/Model-Optimizer/commit/fda0899e40bfb6302ccaaa2b791ef5cfa1557e31) | [#1334](https://github.com/NVIDIA/Model-Optimizer/pull/1334) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(recipes): add KV cache cast variants (fp8_cast / nvfp4_cast) |
+| 2026-04-23 | [e063406e](https://github.com/NVIDIA/Model-Optimizer/commit/e063406ef00974ed87d23e1c834e94ffc557652a) | [#1295](https://github.com/NVIDIA/Model-Optimizer/pull/1295) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[2/3\]\[Feat\]: Offline DFlash training |
 | 2026-04-22 | [06781363](https://github.com/NVIDIA/Model-Optimizer/commit/0678136335d205ecb01169b06a07abcbcf6c9078) | [#1305](https://github.com/NVIDIA/Model-Optimizer/pull/1305) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `quantization` `torch` `vllm` | Fix vLLM fakequant MoE megatron export bug |
 | 2026-04-22 | [c7966119](https://github.com/NVIDIA/Model-Optimizer/commit/c7966119eb7fdec1bac4ad938413048f145a45fb) | [#1303](https://github.com/NVIDIA/Model-Optimizer/pull/1303) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `infra` `quantization` `sparsity` `tests` `torch` | Reorg the sparse/quant/common kernel dir |
 | 2026-04-20 | [010b220d](https://github.com/NVIDIA/Model-Optimizer/commit/010b220dc09890bf7646f8fad5b69fd0bc41ac5b) | [#1242](https://github.com/NVIDIA/Model-Optimizer/pull/1242) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `tests` `torch` `vllm` | vLLM fakequant export update for AWQ checkpoint |
@@ -148,4 +153,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 142 PRs**
+**Total: 147 PRs**

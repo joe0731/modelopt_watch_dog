@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-23 | [e4e3508f](https://github.com/NVIDIA/Model-Optimizer/commit/e4e3508f51a5ca54b88f4c2aebf41db0ffc53b36) | [#1289](https://github.com/NVIDIA/Model-Optimizer/pull/1289) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3349\] Add FP8 MHA quantization support for HuggingFace ViT |
 | 2026-04-22 | [785d3a2d](https://github.com/NVIDIA/Model-Optimizer/commit/785d3a2df68e0becbd5ff03d12b48240cde85584) | [#1299](https://github.com/NVIDIA/Model-Optimizer/pull/1299) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `onnx` `quantization` | \[CI\] Bump test containers to latest |
 | 2026-04-22 | [c417e6f4](https://github.com/NVIDIA/Model-Optimizer/commit/c417e6f4d94efc92ceffab9f14b8867a1dc9a715) | [#1256](https://github.com/NVIDIA/Model-Optimizer/pull/1256) | [@nv-samcheng](https://github.com/nv-samcheng) | `infra` `onnx` `quantization` `tests` | Exclude small-k and small-n Matmul nodes from Int8 quantization |
 | 2026-04-18 | [760c9807](https://github.com/NVIDIA/Model-Optimizer/commit/760c9807279eceec120deaae3a941dd7e86c3379) | [#1263](https://github.com/NVIDIA/Model-Optimizer/pull/1263) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add ResNet50 support for torch_onnx quantization workflow |
@@ -63,4 +64,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 57 PRs**
+**Total: 58 PRs**

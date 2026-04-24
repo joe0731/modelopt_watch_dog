@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-23 | [8663678f](https://github.com/NVIDIA/Model-Optimizer/commit/8663678f12403f9a03bfe9856b8d7002bf15794b) | [#1311](https://github.com/NVIDIA/Model-Optimizer/pull/1311) | [@michaelfeil](https://github.com/michaelfeil) | `eval` `example` `quantization` `torch` | fix: bug hf_ptq.py max_length setting ignored for LLMs |
+| 2026-04-23 | [01788bb0](https://github.com/NVIDIA/Model-Optimizer/commit/01788bb007131f606a02ef4ce7fb2184c1c0272e) | [#1332](https://github.com/NVIDIA/Model-Optimizer/pull/1332) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `eval` `example` `infra` `quantization` `torch` | Deprecate Mllama support in llm_ptq/vlm_ptq examples |
+| 2026-04-23 | [fda0899e](https://github.com/NVIDIA/Model-Optimizer/commit/fda0899e40bfb6302ccaaa2b791ef5cfa1557e31) | [#1334](https://github.com/NVIDIA/Model-Optimizer/pull/1334) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(recipes): add KV cache cast variants (fp8_cast / nvfp4_cast) |
 | 2026-04-18 | [2d868d3f](https://github.com/NVIDIA/Model-Optimizer/commit/2d868d3f1f208f2ea9b7f8d8cdd506d9bf1cda04) | [#1251](https://github.com/NVIDIA/Model-Optimizer/pull/1251) | [@realAsma](https://github.com/realAsma) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add layerwise calibration for large models |
 | 2026-04-18 | [92622a9a](https://github.com/NVIDIA/Model-Optimizer/commit/92622a9aa60737ad84b62b5bdb324e6318ee4cfd) | [#1113](https://github.com/NVIDIA/Model-Optimizer/pull/1113) | [@bkartal-dev](https://github.com/bkartal-dev) | `eval` `example` `quantization` `torch` | Add nvfp4_mse and nvfp4_local_hessian options to the ptq script. |
 | 2026-04-17 | [dc7ad66b](https://github.com/NVIDIA/Model-Optimizer/commit/dc7ad66b712855cc576312b6c5e5c6515aa61d54) | [#1223](https://github.com/NVIDIA/Model-Optimizer/pull/1223) | [@sugunav14](https://github.com/sugunav14) | `eval` `example` `quantization` `torch` | GPTQ vector |
@@ -55,4 +58,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 49 PRs**
+**Total: 52 PRs**

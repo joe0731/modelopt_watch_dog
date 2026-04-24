@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-23 | [e4e3508f](https://github.com/NVIDIA/Model-Optimizer/commit/e4e3508f51a5ca54b88f4c2aebf41db0ffc53b36) | [#1289](https://github.com/NVIDIA/Model-Optimizer/pull/1289) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3349\] Add FP8 MHA quantization support for HuggingFace ViT |
+| 2026-04-23 | [0a1ca5d4](https://github.com/NVIDIA/Model-Optimizer/commit/0a1ca5d48a2b4a8a4e9bab1cd0ad54363d26adb1) | [#1335](https://github.com/NVIDIA/Model-Optimizer/pull/1335) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `tests` `torch` | Fix unified_export_megatron for transformers 5.6 |
 | 2026-04-22 | [06781363](https://github.com/NVIDIA/Model-Optimizer/commit/0678136335d205ecb01169b06a07abcbcf6c9078) | [#1305](https://github.com/NVIDIA/Model-Optimizer/pull/1305) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `quantization` `torch` `vllm` | Fix vLLM fakequant MoE megatron export bug |
 | 2026-04-20 | [010b220d](https://github.com/NVIDIA/Model-Optimizer/commit/010b220dc09890bf7646f8fad5b69fd0bc41ac5b) | [#1242](https://github.com/NVIDIA/Model-Optimizer/pull/1242) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `tests` `torch` `vllm` | vLLM fakequant export update for AWQ checkpoint |
 | 2026-04-18 | [2d868d3f](https://github.com/NVIDIA/Model-Optimizer/commit/2d868d3f1f208f2ea9b7f8d8cdd506d9bf1cda04) | [#1251](https://github.com/NVIDIA/Model-Optimizer/pull/1251) | [@realAsma](https://github.com/realAsma) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add layerwise calibration for large models |
@@ -79,4 +81,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 73 PRs**
+**Total: 75 PRs**

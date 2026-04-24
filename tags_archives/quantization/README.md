@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-23 | [e4e3508f](https://github.com/NVIDIA/Model-Optimizer/commit/e4e3508f51a5ca54b88f4c2aebf41db0ffc53b36) | [#1289](https://github.com/NVIDIA/Model-Optimizer/pull/1289) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3349\] Add FP8 MHA quantization support for HuggingFace ViT |
+| 2026-04-23 | [8663678f](https://github.com/NVIDIA/Model-Optimizer/commit/8663678f12403f9a03bfe9856b8d7002bf15794b) | [#1311](https://github.com/NVIDIA/Model-Optimizer/pull/1311) | [@michaelfeil](https://github.com/michaelfeil) | `eval` `example` `quantization` `torch` | fix: bug hf_ptq.py max_length setting ignored for LLMs |
+| 2026-04-23 | [01788bb0](https://github.com/NVIDIA/Model-Optimizer/commit/01788bb007131f606a02ef4ce7fb2184c1c0272e) | [#1332](https://github.com/NVIDIA/Model-Optimizer/pull/1332) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `eval` `example` `infra` `quantization` `torch` | Deprecate Mllama support in llm_ptq/vlm_ptq examples |
+| 2026-04-23 | [fda0899e](https://github.com/NVIDIA/Model-Optimizer/commit/fda0899e40bfb6302ccaaa2b791ef5cfa1557e31) | [#1334](https://github.com/NVIDIA/Model-Optimizer/pull/1334) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(recipes): add KV cache cast variants (fp8_cast / nvfp4_cast) |
 | 2026-04-22 | [785d3a2d](https://github.com/NVIDIA/Model-Optimizer/commit/785d3a2df68e0becbd5ff03d12b48240cde85584) | [#1299](https://github.com/NVIDIA/Model-Optimizer/pull/1299) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `onnx` `quantization` | \[CI\] Bump test containers to latest |
 | 2026-04-22 | [c417e6f4](https://github.com/NVIDIA/Model-Optimizer/commit/c417e6f4d94efc92ceffab9f14b8867a1dc9a715) | [#1256](https://github.com/NVIDIA/Model-Optimizer/pull/1256) | [@nv-samcheng](https://github.com/nv-samcheng) | `infra` `onnx` `quantization` `tests` | Exclude small-k and small-n Matmul nodes from Int8 quantization |
 | 2026-04-22 | [06781363](https://github.com/NVIDIA/Model-Optimizer/commit/0678136335d205ecb01169b06a07abcbcf6c9078) | [#1305](https://github.com/NVIDIA/Model-Optimizer/pull/1305) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `export` `quantization` `torch` `vllm` | Fix vLLM fakequant MoE megatron export bug |
@@ -157,4 +161,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 151 PRs**
+**Total: 155 PRs**

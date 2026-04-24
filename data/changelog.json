@@ -10,6 +10,125 @@
     ]
   },
   {
+    "date": "2026-04-23",
+    "commit": "e4e3508f51a5ca54b88f4c2aebf41db0ffc53b36",
+    "pr_number": 1289,
+    "author": "ajrasane",
+    "title": "[OMNIML-3349] Add FP8 MHA quantization support for HuggingFace ViT",
+    "tags": [
+      "deploy",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "commit": "8663678f12403f9a03bfe9856b8d7002bf15794b",
+    "pr_number": 1311,
+    "author": "michaelfeil",
+    "title": "fix: bug hf_ptq.py max_length setting ignored for LLMs",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "commit": "01788bb007131f606a02ef4ce7fb2184c1c0272e",
+    "pr_number": 1332,
+    "author": "cjluo-nv",
+    "title": "Deprecate Mllama support in llm_ptq/vlm_ptq examples",
+    "tags": [
+      "core",
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "commit": "fda0899e40bfb6302ccaaa2b791ef5cfa1557e31",
+    "pr_number": 1334,
+    "author": "cjluo-nv",
+    "title": "feat(recipes): add KV cache cast variants (fp8_cast / nvfp4_cast)",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "commit": "0a1ca5d48a2b4a8a4e9bab1cd0ad54363d26adb1",
+    "pr_number": 1335,
+    "author": "kevalmorabia97",
+    "title": "Fix unified_export_megatron for transformers 5.6",
+    "tags": [
+      "core",
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "commit": "84d68a36d811c7930e41f9e705bce7e8f5a25a81",
+    "pr_number": 1331,
+    "author": "coderabbitai[bot]",
+    "title": "📝 Add docstrings to `gkarch/fix-incomplete-tensor-mapping`",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "commit": "5887410a6d25cdde94bc876b35c33436dd78918a",
+    "pr_number": 1104,
+    "author": "javierdejesusda",
+    "title": "fix: EAGLE mix_hidden_states in-place op crash (#1088)",
+    "tags": [
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "commit": "e063406ef00974ed87d23e1c834e94ffc557652a",
+    "pr_number": 1295,
+    "author": "h-guo18",
+    "title": "[2/3][Feat]: Offline DFlash training",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-23",
+    "commit": "ff2afe18b74d11fa46167836767a086411940e91",
+    "pr_number": 1339,
+    "author": "coderabbitai[bot]",
+    "title": "fix: CodeRabbit auto-fixes for PR #1330",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-04-22",
     "commit": "785d3a2df68e0becbd5ff03d12b48240cde85584",
     "pr_number": 1299,

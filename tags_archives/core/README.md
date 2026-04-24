@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-23 | [01788bb0](https://github.com/NVIDIA/Model-Optimizer/commit/01788bb007131f606a02ef4ce7fb2184c1c0272e) | [#1332](https://github.com/NVIDIA/Model-Optimizer/pull/1332) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `eval` `example` `infra` `quantization` `torch` | Deprecate Mllama support in llm_ptq/vlm_ptq examples |
+| 2026-04-23 | [0a1ca5d4](https://github.com/NVIDIA/Model-Optimizer/commit/0a1ca5d48a2b4a8a4e9bab1cd0ad54363d26adb1) | [#1335](https://github.com/NVIDIA/Model-Optimizer/pull/1335) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `tests` `torch` | Fix unified_export_megatron for transformers 5.6 |
 | 2026-04-20 | [289a239c](https://github.com/NVIDIA/Model-Optimizer/commit/289a239ca56276819074f8132410c6002729ffab) | [#1301](https://github.com/NVIDIA/Model-Optimizer/pull/1301) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `torch` | fix: use data_dir for directory paths in ShardedDataset |
 | 2026-04-18 | [2d868d3f](https://github.com/NVIDIA/Model-Optimizer/commit/2d868d3f1f208f2ea9b7f8d8cdd506d9bf1cda04) | [#1251](https://github.com/NVIDIA/Model-Optimizer/pull/1251) | [@realAsma](https://github.com/realAsma) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add layerwise calibration for large models |
 | 2026-04-18 | [3d0f0db4](https://github.com/NVIDIA/Model-Optimizer/commit/3d0f0db49ed77bfe58d2911944271054fa32d11c) | [#1286](https://github.com/NVIDIA/Model-Optimizer/pull/1286) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `speculative_decoding` `tests` `torch` | \[CI\] Replace tox with nox, use nemo:26.04 for megatron tests, and simplify CI workflows |
@@ -69,4 +71,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 63 PRs**
+**Total: 65 PRs**

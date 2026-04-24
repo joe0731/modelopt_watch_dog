@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-23 | [5887410a](https://github.com/NVIDIA/Model-Optimizer/commit/5887410a6d25cdde94bc876b35c33436dd78918a) | [#1104](https://github.com/NVIDIA/Model-Optimizer/pull/1104) | [@javierdejesusda](https://github.com/javierdejesusda) | `speculative_decoding` `tests` `torch` | fix: EAGLE mix_hidden_states in-place op crash (#1088) |
+| 2026-04-23 | [e063406e](https://github.com/NVIDIA/Model-Optimizer/commit/e063406ef00974ed87d23e1c834e94ffc557652a) | [#1295](https://github.com/NVIDIA/Model-Optimizer/pull/1295) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[2/3\]\[Feat\]: Offline DFlash training |
 | 2026-04-20 | [355c6b78](https://github.com/NVIDIA/Model-Optimizer/commit/355c6b7883789d738bc3b5a91bdc73d7e0313d8d) | [#1293](https://github.com/NVIDIA/Model-Optimizer/pull/1293) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | fix: PTQ 1GPU, export PP divisibility, hidden states conversations key |
 | 2026-04-20 | [2fef374d](https://github.com/NVIDIA/Model-Optimizer/commit/2fef374deda8ea0374ff89e54e566af79b683a5d) | [#1302](https://github.com/NVIDIA/Model-Optimizer/pull/1302) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | fix: auto-compute dp_replicate_size from world_size |
 | 2026-04-18 | [3d0f0db4](https://github.com/NVIDIA/Model-Optimizer/commit/3d0f0db49ed77bfe58d2911944271054fa32d11c) | [#1286](https://github.com/NVIDIA/Model-Optimizer/pull/1286) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `speculative_decoding` `tests` `torch` | \[CI\] Replace tox with nox, use nemo:26.04 for megatron tests, and simplify CI workflows |
@@ -40,4 +42,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 34 PRs**
+**Total: 36 PRs**
