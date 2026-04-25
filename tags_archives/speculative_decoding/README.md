@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-24 | [7c80d857](https://github.com/NVIDIA/Model-Optimizer/commit/7c80d85751bbadf48676b7e319c25b69057272a4) | [#1296](https://github.com/NVIDIA/Model-Optimizer/pull/1296) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | \[1/3\]\[Refactor\]: File reorg; deprecate ParallelDraft |
 | 2026-04-23 | [5887410a](https://github.com/NVIDIA/Model-Optimizer/commit/5887410a6d25cdde94bc876b35c33436dd78918a) | [#1104](https://github.com/NVIDIA/Model-Optimizer/pull/1104) | [@javierdejesusda](https://github.com/javierdejesusda) | `speculative_decoding` `tests` `torch` | fix: EAGLE mix_hidden_states in-place op crash (#1088) |
 | 2026-04-23 | [e063406e](https://github.com/NVIDIA/Model-Optimizer/commit/e063406ef00974ed87d23e1c834e94ffc557652a) | [#1295](https://github.com/NVIDIA/Model-Optimizer/pull/1295) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[2/3\]\[Feat\]: Offline DFlash training |
 | 2026-04-20 | [355c6b78](https://github.com/NVIDIA/Model-Optimizer/commit/355c6b7883789d738bc3b5a91bdc73d7e0313d8d) | [#1293](https://github.com/NVIDIA/Model-Optimizer/pull/1293) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | fix: PTQ 1GPU, export PP divisibility, hidden states conversations key |
@@ -42,4 +43,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 36 PRs**
+**Total: 37 PRs**

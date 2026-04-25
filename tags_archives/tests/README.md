@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-24 | [7c80d857](https://github.com/NVIDIA/Model-Optimizer/commit/7c80d85751bbadf48676b7e319c25b69057272a4) | [#1296](https://github.com/NVIDIA/Model-Optimizer/pull/1296) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | \[1/3\]\[Refactor\]: File reorg; deprecate ParallelDraft |
 | 2026-04-23 | [e4e3508f](https://github.com/NVIDIA/Model-Optimizer/commit/e4e3508f51a5ca54b88f4c2aebf41db0ffc53b36) | [#1289](https://github.com/NVIDIA/Model-Optimizer/pull/1289) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3349\] Add FP8 MHA quantization support for HuggingFace ViT |
 | 2026-04-23 | [fda0899e](https://github.com/NVIDIA/Model-Optimizer/commit/fda0899e40bfb6302ccaaa2b791ef5cfa1557e31) | [#1334](https://github.com/NVIDIA/Model-Optimizer/pull/1334) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(recipes): add KV cache cast variants (fp8_cast / nvfp4_cast) |
 | 2026-04-23 | [0a1ca5d4](https://github.com/NVIDIA/Model-Optimizer/commit/0a1ca5d48a2b4a8a4e9bab1cd0ad54363d26adb1) | [#1335](https://github.com/NVIDIA/Model-Optimizer/pull/1335) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `tests` `torch` | Fix unified_export_megatron for transformers 5.6 |
@@ -155,4 +156,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 149 PRs**
+**Total: 150 PRs**

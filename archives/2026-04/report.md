@@ -8,6 +8,7 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-04-24 | [7c80d857](https://github.com/NVIDIA/Model-Optimizer/commit/7c80d85751bbadf48676b7e319c25b69057272a4) | [#1296](https://github.com/NVIDIA/Model-Optimizer/pull/1296) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | \[1/3\]\[Refactor\]: File reorg; deprecate ParallelDraft |
 |  | 2026-04-23 | [2564da73](https://github.com/NVIDIA/Model-Optimizer/commit/2564da7324ea0889ed2ded6b90cf48428b0be995) | [#1317](https://github.com/NVIDIA/Model-Optimizer/pull/1317) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` | Update vLLM deployment docs for heterogeneous models |
 | 🟠 | **2026-04-23** | **[e4e3508f](https://github.com/NVIDIA/Model-Optimizer/commit/e4e3508f51a5ca54b88f4c2aebf41db0ffc53b36)** | **[#1289](https://github.com/NVIDIA/Model-Optimizer/pull/1289)** | **[@ajrasane](https://github.com/ajrasane)** | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | **\[OMNIML-3349\] Add FP8 MHA quantization support for HuggingFace ViT** |
 | 🟡 | **2026-04-23** | **[8663678f](https://github.com/NVIDIA/Model-Optimizer/commit/8663678f12403f9a03bfe9856b8d7002bf15794b)** | **[#1311](https://github.com/NVIDIA/Model-Optimizer/pull/1311)** | **[@michaelfeil](https://github.com/michaelfeil)** | `eval` `example` `quantization` `torch` | **fix: bug hf_ptq.py max_length setting ignored for LLMs** |
@@ -129,4 +130,4 @@
 |  | 2026-04-01 | [de55e8a9](https://github.com/NVIDIA/Model-Optimizer/commit/de55e8a94ddbf6195eca924510d318cfbf0ca168) | [#1143](https://github.com/NVIDIA/Model-Optimizer/pull/1143) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `export` `infra` `torch` | Bug fix: disable weight quantizer rotation after weight fold during vLLM fakequant export |
 
 ---
-**Total: 119 PRs** | **Highlighted: 37**
+**Total: 120 PRs** | **Highlighted: 37**
