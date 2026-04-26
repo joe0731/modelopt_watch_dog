@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-26",
+    "commit": "1ec931c2c76c857f175ea473c0a4f0cbcfc31603",
+    "pr_number": 1343,
+    "author": "h-guo18",
+    "title": "[2/3][Feat]: Offline DFlash training",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-24",
     "commit": "7c80d85751bbadf48676b7e319c25b69057272a4",
     "pr_number": 1296,

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-26 | [1ec931c2](https://github.com/NVIDIA/Model-Optimizer/commit/1ec931c2c76c857f175ea473c0a4f0cbcfc31603) | [#1343](https://github.com/NVIDIA/Model-Optimizer/pull/1343) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[2/3\]\[Feat\]: Offline DFlash training |
 | 2026-04-24 | [7c80d857](https://github.com/NVIDIA/Model-Optimizer/commit/7c80d85751bbadf48676b7e319c25b69057272a4) | [#1296](https://github.com/NVIDIA/Model-Optimizer/pull/1296) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | \[1/3\]\[Refactor\]: File reorg; deprecate ParallelDraft |
 | 2026-04-23 | [e4e3508f](https://github.com/NVIDIA/Model-Optimizer/commit/e4e3508f51a5ca54b88f4c2aebf41db0ffc53b36) | [#1289](https://github.com/NVIDIA/Model-Optimizer/pull/1289) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3349\] Add FP8 MHA quantization support for HuggingFace ViT |
 | 2026-04-23 | [8663678f](https://github.com/NVIDIA/Model-Optimizer/commit/8663678f12403f9a03bfe9856b8d7002bf15794b) | [#1311](https://github.com/NVIDIA/Model-Optimizer/pull/1311) | [@michaelfeil](https://github.com/michaelfeil) | `eval` `example` `quantization` `torch` | fix: bug hf_ptq.py max_length setting ignored for LLMs |
@@ -154,4 +155,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 148 PRs**
+**Total: 149 PRs**
