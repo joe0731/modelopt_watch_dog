@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-04-27",
+    "commit": "4b5549b66330e23c443581d5185a108177b758f1",
+    "pr_number": 1239,
+    "author": "Edwardf0t1",
+    "title": "[1/N] Polish evaluation skills and common skills based on an E2E workflow testing, vendor two Claude skills from NeMo Evaluator",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-04-26",
     "commit": "1ec931c2c76c857f175ea473c0a4f0cbcfc31603",
     "pr_number": 1343,

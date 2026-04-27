@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-27 | [4b5549b6](https://github.com/NVIDIA/Model-Optimizer/commit/4b5549b66330e23c443581d5185a108177b758f1) | [#1239](https://github.com/NVIDIA/Model-Optimizer/pull/1239) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | \[1/N\] Polish evaluation skills and common skills based on an E2E workflow testing, vendor two Claude skills from NeMo Evaluator |
 | 2026-04-26 | [1ec931c2](https://github.com/NVIDIA/Model-Optimizer/commit/1ec931c2c76c857f175ea473c0a4f0cbcfc31603) | [#1343](https://github.com/NVIDIA/Model-Optimizer/pull/1343) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[2/3\]\[Feat\]: Offline DFlash training |
 | 2026-04-24 | [7c80d857](https://github.com/NVIDIA/Model-Optimizer/commit/7c80d85751bbadf48676b7e319c25b69057272a4) | [#1296](https://github.com/NVIDIA/Model-Optimizer/pull/1296) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | \[1/3\]\[Refactor\]: File reorg; deprecate ParallelDraft |
 | 2026-04-23 | [2564da73](https://github.com/NVIDIA/Model-Optimizer/commit/2564da7324ea0889ed2ded6b90cf48428b0be995) | [#1317](https://github.com/NVIDIA/Model-Optimizer/pull/1317) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` | Update vLLM deployment docs for heterogeneous models |
@@ -185,4 +186,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 179 PRs**
+**Total: 180 PRs**
