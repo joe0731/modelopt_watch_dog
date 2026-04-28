@@ -10,6 +10,92 @@
     ]
   },
   {
+    "date": "2026-04-27",
+    "commit": "5b41ba4c349ffba7576b0d3a60ad68859901013c",
+    "pr_number": 1351,
+    "author": "ajrasane",
+    "title": "chore: Move FP8 MHA quantization entry from 0.45 to 0.44 in CHANGELOG",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "commit": "b1ec471bd97650763947f692938d9cb5e65fe71f",
+    "pr_number": 1350,
+    "author": "kevalmorabia97",
+    "title": "[Cherry-pick] PRs #1256 #1305 #1322 #1317 #1321 #1289 #1311 #1332 #1104 #1318",
+    "tags": [
+      "core",
+      "deploy",
+      "docs",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "speculative_decoding",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "commit": "fe3042b5bba88b3ebdee76454dce3c5b65cd3215",
+    "pr_number": 1330,
+    "author": "grzegorz-k-karch",
+    "title": "fix incomplete mapping of safetensors in generated puzzletron checkpoint",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "commit": "1306841989dae454b25c8f705a9646949e5c9ae6",
+    "pr_number": 1349,
+    "author": "kevalmorabia97",
+    "title": "Enable SonarQube Static Application Security Testing (SAST)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "commit": "4f378ad27520c21ff009bbcbd6c72775f466e648",
+    "pr_number": 1352,
+    "author": "kevalmorabia97",
+    "title": "Add release-cherry-pick Claude Code skill",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "commit": "47a33db9b639c5d25baaa3e49526f9703491eb08",
+    "pr_number": 1354,
+    "author": "cjluo-nv",
+    "title": "[NVBUG: 6103846] Fix nvfp4_awq export for uncalibrated MoE experts",
+    "tags": [
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "commit": "6e08b13fe6eb78c7a8429137f8c604395c6f8174",
+    "pr_number": 1355,
+    "author": "AAnoosheh",
+    "title": "Fix regex capture for Megatron KD PP layer renaming",
+    "tags": [
+      "distillation",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-26",
     "commit": "1ec931c2c76c857f175ea473c0a4f0cbcfc31603",
     "pr_number": 1343,

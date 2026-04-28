@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-27 | [b1ec471b](https://github.com/NVIDIA/Model-Optimizer/commit/b1ec471bd97650763947f692938d9cb5e65fe71f) | [#1350](https://github.com/NVIDIA/Model-Optimizer/pull/1350) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1256 #1305 #1322 #1317 #1321 #1289 #1311 #1332 #1104 #1318 |
 | 2026-04-26 | [1ec931c2](https://github.com/NVIDIA/Model-Optimizer/commit/1ec931c2c76c857f175ea473c0a4f0cbcfc31603) | [#1343](https://github.com/NVIDIA/Model-Optimizer/pull/1343) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[2/3\]\[Feat\]: Offline DFlash training |
 | 2026-04-24 | [7c80d857](https://github.com/NVIDIA/Model-Optimizer/commit/7c80d85751bbadf48676b7e319c25b69057272a4) | [#1296](https://github.com/NVIDIA/Model-Optimizer/pull/1296) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | \[1/3\]\[Refactor\]: File reorg; deprecate ParallelDraft |
 | 2026-04-23 | [5887410a](https://github.com/NVIDIA/Model-Optimizer/commit/5887410a6d25cdde94bc876b35c33436dd78918a) | [#1104](https://github.com/NVIDIA/Model-Optimizer/pull/1104) | [@javierdejesusda](https://github.com/javierdejesusda) | `speculative_decoding` `tests` `torch` | fix: EAGLE mix_hidden_states in-place op crash (#1088) |
@@ -44,4 +45,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 38 PRs**
+**Total: 39 PRs**

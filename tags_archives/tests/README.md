@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-27 | [b1ec471b](https://github.com/NVIDIA/Model-Optimizer/commit/b1ec471bd97650763947f692938d9cb5e65fe71f) | [#1350](https://github.com/NVIDIA/Model-Optimizer/pull/1350) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1256 #1305 #1322 #1317 #1321 #1289 #1311 #1332 #1104 #1318 |
+| 2026-04-27 | [fe3042b5](https://github.com/NVIDIA/Model-Optimizer/commit/fe3042b5bba88b3ebdee76454dce3c5b65cd3215) | [#1330](https://github.com/NVIDIA/Model-Optimizer/pull/1330) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` `tests` | fix incomplete mapping of safetensors in generated puzzletron checkpoint |
 | 2026-04-26 | [1ec931c2](https://github.com/NVIDIA/Model-Optimizer/commit/1ec931c2c76c857f175ea473c0a4f0cbcfc31603) | [#1343](https://github.com/NVIDIA/Model-Optimizer/pull/1343) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[2/3\]\[Feat\]: Offline DFlash training |
 | 2026-04-24 | [7c80d857](https://github.com/NVIDIA/Model-Optimizer/commit/7c80d85751bbadf48676b7e319c25b69057272a4) | [#1296](https://github.com/NVIDIA/Model-Optimizer/pull/1296) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | \[1/3\]\[Refactor\]: File reorg; deprecate ParallelDraft |
 | 2026-04-23 | [e4e3508f](https://github.com/NVIDIA/Model-Optimizer/commit/e4e3508f51a5ca54b88f4c2aebf41db0ffc53b36) | [#1289](https://github.com/NVIDIA/Model-Optimizer/pull/1289) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3349\] Add FP8 MHA quantization support for HuggingFace ViT |
@@ -157,4 +159,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 151 PRs**
+**Total: 153 PRs**
