@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-29 | [077e29a4](https://github.com/NVIDIA/Model-Optimizer/commit/077e29a48cddc5b18a99b92ab11bdf520029f408) | [#1340](https://github.com/NVIDIA/Model-Optimizer/pull/1340) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[NVBug 6108145\] Fix PTQ calibration and export for fused-experts MoE (Qwen3.5-MoE VLM) |
+| 2026-04-28 | [8eec6d44](https://github.com/NVIDIA/Model-Optimizer/commit/8eec6d4459f088198035623a90a08c0587e433cb) | [#1342](https://github.com/NVIDIA/Model-Optimizer/pull/1342) | [@jenchen13](https://github.com/jenchen13) | `export` `quantization` `torch` | Support EP mcore import for TE  Spec and Fix mamba moe config |
+| 2026-04-28 | [e5ce0ae8](https://github.com/NVIDIA/Model-Optimizer/commit/e5ce0ae83acedfda1138b37b2f8e26cc9494ac39) | [#1324](https://github.com/NVIDIA/Model-Optimizer/pull/1324) | [@meenchen](https://github.com/meenchen) | `core` `tests` `torch` | \[NVBug 6102977\] Add _disable_use_cache context manager to fix PTQ AttributeError on custom configs |
 | 2026-04-27 | [b1ec471b](https://github.com/NVIDIA/Model-Optimizer/commit/b1ec471bd97650763947f692938d9cb5e65fe71f) | [#1350](https://github.com/NVIDIA/Model-Optimizer/pull/1350) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1256 #1305 #1322 #1317 #1321 #1289 #1311 #1332 #1104 #1318 |
 | 2026-04-27 | [47a33db9](https://github.com/NVIDIA/Model-Optimizer/commit/47a33db9b639c5d25baaa3e49526f9703491eb08) | [#1354](https://github.com/NVIDIA/Model-Optimizer/pull/1354) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `torch` | \[NVBUG: 6103846\] Fix nvfp4_awq export for uncalibrated MoE experts |
 | 2026-04-27 | [6e08b13f](https://github.com/NVIDIA/Model-Optimizer/commit/6e08b13fe6eb78c7a8429137f8c604395c6f8174) | [#1355](https://github.com/NVIDIA/Model-Optimizer/pull/1355) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `torch` | Fix regex capture for Megatron KD PP layer renaming |
@@ -238,4 +241,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 232 PRs**
+**Total: 235 PRs**

@@ -8,6 +8,10 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-04-29 | [077e29a4](https://github.com/NVIDIA/Model-Optimizer/commit/077e29a48cddc5b18a99b92ab11bdf520029f408) | [#1340](https://github.com/NVIDIA/Model-Optimizer/pull/1340) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[NVBug 6108145\] Fix PTQ calibration and export for fused-experts MoE (Qwen3.5-MoE VLM) |
+|  | 2026-04-28 | [6d330784](https://github.com/NVIDIA/Model-Optimizer/commit/6d330784a6f7b11cf26ae4d46f9312fa917bafd7) | [#1360](https://github.com/NVIDIA/Model-Optimizer/pull/1360) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` | Add required keys to attention pruning config |
+|  | 2026-04-28 | [8eec6d44](https://github.com/NVIDIA/Model-Optimizer/commit/8eec6d4459f088198035623a90a08c0587e433cb) | [#1342](https://github.com/NVIDIA/Model-Optimizer/pull/1342) | [@jenchen13](https://github.com/jenchen13) | `export` `quantization` `torch` | Support EP mcore import for TE  Spec and Fix mamba moe config |
+|  | 2026-04-28 | [e5ce0ae8](https://github.com/NVIDIA/Model-Optimizer/commit/e5ce0ae83acedfda1138b37b2f8e26cc9494ac39) | [#1324](https://github.com/NVIDIA/Model-Optimizer/pull/1324) | [@meenchen](https://github.com/meenchen) | `core` `tests` `torch` | \[NVBug 6102977\] Add _disable_use_cache context manager to fix PTQ AttributeError on custom configs |
 |  | 2026-04-27 | [4b5549b6](https://github.com/NVIDIA/Model-Optimizer/commit/4b5549b66330e23c443581d5185a108177b758f1) | [#1239](https://github.com/NVIDIA/Model-Optimizer/pull/1239) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | \[1/N\] Polish evaluation skills and common skills based on an E2E workflow testing, vendor two Claude skills from NeMo Evaluator |
 |  | 2026-04-27 | [5b41ba4c](https://github.com/NVIDIA/Model-Optimizer/commit/5b41ba4c349ffba7576b0d3a60ad68859901013c) | [#1351](https://github.com/NVIDIA/Model-Optimizer/pull/1351) | [@ajrasane](https://github.com/ajrasane) | `infra` | chore: Move FP8 MHA quantization entry from 0.45 to 0.44 in CHANGELOG |
 | 🟡🔵🟠 | **2026-04-27** | **[b1ec471b](https://github.com/NVIDIA/Model-Optimizer/commit/b1ec471bd97650763947f692938d9cb5e65fe71f)** | **[#1350](https://github.com/NVIDIA/Model-Optimizer/pull/1350)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `core` `deploy` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | **\[Cherry-pick\] PRs #1256 #1305 #1322 #1317 #1321 #1289 #1311 #1332 #1104 #1318** |
@@ -139,4 +143,4 @@
 |  | 2026-04-01 | [de55e8a9](https://github.com/NVIDIA/Model-Optimizer/commit/de55e8a94ddbf6195eca924510d318cfbf0ca168) | [#1143](https://github.com/NVIDIA/Model-Optimizer/pull/1143) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `export` `infra` `torch` | Bug fix: disable weight quantizer rotation after weight fold during vLLM fakequant export |
 
 ---
-**Total: 129 PRs** | **Highlighted: 38**
+**Total: 133 PRs** | **Highlighted: 38**

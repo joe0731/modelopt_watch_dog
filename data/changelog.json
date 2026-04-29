@@ -1,5 +1,53 @@
 [
   {
+    "date": "2026-04-29",
+    "commit": "077e29a48cddc5b18a99b92ab11bdf520029f408",
+    "pr_number": 1340,
+    "author": "meenchen",
+    "title": "[NVBug 6108145] Fix PTQ calibration and export for fused-experts MoE (Qwen3.5-MoE VLM)",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "commit": "6d330784a6f7b11cf26ae4d46f9312fa917bafd7",
+    "pr_number": 1360,
+    "author": "grzegorz-k-karch",
+    "title": "Add required keys to attention pruning config",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "commit": "8eec6d4459f088198035623a90a08c0587e433cb",
+    "pr_number": 1342,
+    "author": "jenchen13",
+    "title": "Support EP mcore import for TE  Spec and Fix mamba moe config",
+    "tags": [
+      "export",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "commit": "e5ce0ae83acedfda1138b37b2f8e26cc9494ac39",
+    "pr_number": 1324,
+    "author": "meenchen",
+    "title": "[NVBug 6102977] Add _disable_use_cache context manager to fix PTQ AttributeError on custom configs",
+    "tags": [
+      "core",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-27",
     "commit": "4b5549b66330e23c443581d5185a108177b758f1",
     "pr_number": 1239,
