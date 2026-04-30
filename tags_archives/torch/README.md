@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-30 | [bb08094f](https://github.com/NVIDIA/Model-Optimizer/commit/bb08094ff118cf27fa09374486dc294bf0985f82) | [#1325](https://github.com/NVIDIA/Model-Optimizer/pull/1325) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `torch` | Add Nemotron-Nano-9B-v2 → Pruned 7B e2e tutorial: Prune + Distill + Eval + Quantize + vLLM deployment |
 | 2026-04-29 | [077e29a4](https://github.com/NVIDIA/Model-Optimizer/commit/077e29a48cddc5b18a99b92ab11bdf520029f408) | [#1340](https://github.com/NVIDIA/Model-Optimizer/pull/1340) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[NVBug 6108145\] Fix PTQ calibration and export for fused-experts MoE (Qwen3.5-MoE VLM) |
 | 2026-04-28 | [8eec6d44](https://github.com/NVIDIA/Model-Optimizer/commit/8eec6d4459f088198035623a90a08c0587e433cb) | [#1342](https://github.com/NVIDIA/Model-Optimizer/pull/1342) | [@jenchen13](https://github.com/jenchen13) | `export` `quantization` `torch` | Support EP mcore import for TE  Spec and Fix mamba moe config |
 | 2026-04-28 | [e5ce0ae8](https://github.com/NVIDIA/Model-Optimizer/commit/e5ce0ae83acedfda1138b37b2f8e26cc9494ac39) | [#1324](https://github.com/NVIDIA/Model-Optimizer/pull/1324) | [@meenchen](https://github.com/meenchen) | `core` `tests` `torch` | \[NVBug 6102977\] Add _disable_use_cache context manager to fix PTQ AttributeError on custom configs |
@@ -241,4 +242,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 235 PRs**
+**Total: 236 PRs**

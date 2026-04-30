@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-04-30",
+    "commit": "a492fa9a1457d19a3bda40e0e094a337866ec7bb",
+    "pr_number": 1359,
+    "author": "vishalpandya1990",
+    "title": "Ensure removal of temp files on error in ONNX INT4 quantization",
+    "tags": [
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
+    "date": "2026-04-30",
+    "commit": "378366b8c901ee6528c52162bfdd8932a7563b90",
+    "pr_number": 1361,
+    "author": "dthienan-nv",
+    "title": "[6034518] Remove return statement preventing remote auto tuning",
+    "tags": [
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
+    "date": "2026-04-30",
+    "commit": "bb08094ff118cf27fa09374486dc294bf0985f82",
+    "pr_number": 1325,
+    "author": "kevalmorabia97",
+    "title": "Add Nemotron-Nano-9B-v2 → Pruned 7B e2e tutorial: Prune + Distill + Eval + Quantize + vLLM deployment",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "pruning",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-04-29",
     "commit": "077e29a48cddc5b18a99b92ab11bdf520029f408",
     "pr_number": 1340,
@@ -11,6 +47,26 @@
       "quantization",
       "tests",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-04-29",
+    "commit": "9bb917d57c65e52bbd5a2f66660b3ab253a52a61",
+    "pr_number": 1368,
+    "author": "ynankani",
+    "title": "[BUG6108338] Update windows documentation for onnxruntime quantization with Cuda13.x",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "date": "2026-04-29",
+    "commit": "c07ac215efe07e2f706f69406eae9fb409d064c2",
+    "pr_number": 1373,
+    "author": "h-guo18",
+    "title": "[Fix]: Relax Dflash Rregression Test Threshold fo 2GPUs",
+    "tags": [
+      "tests"
     ]
   },
   {

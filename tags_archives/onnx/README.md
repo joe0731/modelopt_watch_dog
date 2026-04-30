@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-04-30 | [a492fa9a](https://github.com/NVIDIA/Model-Optimizer/commit/a492fa9a1457d19a3bda40e0e094a337866ec7bb) | [#1359](https://github.com/NVIDIA/Model-Optimizer/pull/1359) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `onnx` `quantization` | Ensure removal of temp files on error in ONNX INT4 quantization |
+| 2026-04-30 | [378366b8](https://github.com/NVIDIA/Model-Optimizer/commit/378366b8c901ee6528c52162bfdd8932a7563b90) | [#1361](https://github.com/NVIDIA/Model-Optimizer/pull/1361) | [@dthienan-nv](https://github.com/dthienan-nv) | `onnx` `quantization` | \[6034518\] Remove return statement preventing remote auto tuning |
 | 2026-04-27 | [b1ec471b](https://github.com/NVIDIA/Model-Optimizer/commit/b1ec471bd97650763947f692938d9cb5e65fe71f) | [#1350](https://github.com/NVIDIA/Model-Optimizer/pull/1350) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1256 #1305 #1322 #1317 #1321 #1289 #1311 #1332 #1104 #1318 |
 | 2026-04-23 | [e4e3508f](https://github.com/NVIDIA/Model-Optimizer/commit/e4e3508f51a5ca54b88f4c2aebf41db0ffc53b36) | [#1289](https://github.com/NVIDIA/Model-Optimizer/pull/1289) | [@ajrasane](https://github.com/ajrasane) | `deploy` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[OMNIML-3349\] Add FP8 MHA quantization support for HuggingFace ViT |
 | 2026-04-22 | [785d3a2d](https://github.com/NVIDIA/Model-Optimizer/commit/785d3a2df68e0becbd5ff03d12b48240cde85584) | [#1299](https://github.com/NVIDIA/Model-Optimizer/pull/1299) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `onnx` `quantization` | \[CI\] Bump test containers to latest |
@@ -65,4 +67,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 59 PRs**
+**Total: 61 PRs**

@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-04-29 | [077e29a4](https://github.com/NVIDIA/Model-Optimizer/commit/077e29a48cddc5b18a99b92ab11bdf520029f408) | [#1340](https://github.com/NVIDIA/Model-Optimizer/pull/1340) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[NVBug 6108145\] Fix PTQ calibration and export for fused-experts MoE (Qwen3.5-MoE VLM) |
+| 2026-04-29 | [c07ac215](https://github.com/NVIDIA/Model-Optimizer/commit/c07ac215efe07e2f706f69406eae9fb409d064c2) | [#1373](https://github.com/NVIDIA/Model-Optimizer/pull/1373) | [@h-guo18](https://github.com/h-guo18) | `tests` | \[Fix\]: Relax Dflash Rregression Test Threshold fo 2GPUs |
 | 2026-04-28 | [e5ce0ae8](https://github.com/NVIDIA/Model-Optimizer/commit/e5ce0ae83acedfda1138b37b2f8e26cc9494ac39) | [#1324](https://github.com/NVIDIA/Model-Optimizer/pull/1324) | [@meenchen](https://github.com/meenchen) | `core` `tests` `torch` | \[NVBug 6102977\] Add _disable_use_cache context manager to fix PTQ AttributeError on custom configs |
 | 2026-04-27 | [b1ec471b](https://github.com/NVIDIA/Model-Optimizer/commit/b1ec471bd97650763947f692938d9cb5e65fe71f) | [#1350](https://github.com/NVIDIA/Model-Optimizer/pull/1350) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1256 #1305 #1322 #1317 #1321 #1289 #1311 #1332 #1104 #1318 |
 | 2026-04-27 | [fe3042b5](https://github.com/NVIDIA/Model-Optimizer/commit/fe3042b5bba88b3ebdee76454dce3c5b65cd3215) | [#1330](https://github.com/NVIDIA/Model-Optimizer/pull/1330) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` `tests` | fix incomplete mapping of safetensors in generated puzzletron checkpoint |
@@ -161,4 +162,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 155 PRs**
+**Total: 156 PRs**
