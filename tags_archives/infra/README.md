@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-01 | [50706d17](https://github.com/NVIDIA/Model-Optimizer/commit/50706d1750e7363c50ca22d300b1588139b9d426) | [#1372](https://github.com/NVIDIA/Model-Optimizer/pull/1372) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add closed-form MXFP4 -\> NVFP4 weight cast (--cast_mxfp4_to_nvfp4) |
+| 2026-05-01 | [9d2e6087](https://github.com/NVIDIA/Model-Optimizer/commit/9d2e6087d1c0d99a6d5441dc0c685da36af51055) | [#1365](https://github.com/NVIDIA/Model-Optimizer/pull/1365) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Fix\]: $HOME in launcher eagle example |
 | 2026-04-30 | [bb08094f](https://github.com/NVIDIA/Model-Optimizer/commit/bb08094ff118cf27fa09374486dc294bf0985f82) | [#1325](https://github.com/NVIDIA/Model-Optimizer/pull/1325) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `torch` | Add Nemotron-Nano-9B-v2 → Pruned 7B e2e tutorial: Prune + Distill + Eval + Quantize + vLLM deployment |
 | 2026-04-29 | [077e29a4](https://github.com/NVIDIA/Model-Optimizer/commit/077e29a48cddc5b18a99b92ab11bdf520029f408) | [#1340](https://github.com/NVIDIA/Model-Optimizer/pull/1340) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[NVBug 6108145\] Fix PTQ calibration and export for fused-experts MoE (Qwen3.5-MoE VLM) |
 | 2026-04-28 | [6d330784](https://github.com/NVIDIA/Model-Optimizer/commit/6d330784a6f7b11cf26ae4d46f9312fa917bafd7) | [#1360](https://github.com/NVIDIA/Model-Optimizer/pull/1360) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` | Add required keys to attention pruning config |
@@ -195,4 +197,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 189 PRs**
+**Total: 191 PRs**

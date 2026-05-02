@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-01 | [168cd828](https://github.com/NVIDIA/Model-Optimizer/commit/168cd828c19cd8e150ed69aa6b6de6713a8a153c) | [#1274](https://github.com/NVIDIA/Model-Optimizer/pull/1274) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `tests` `torch` | Add qwen3 moe experts only test |
+| 2026-05-01 | [50706d17](https://github.com/NVIDIA/Model-Optimizer/commit/50706d1750e7363c50ca22d300b1588139b9d426) | [#1372](https://github.com/NVIDIA/Model-Optimizer/pull/1372) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add closed-form MXFP4 -\> NVFP4 weight cast (--cast_mxfp4_to_nvfp4) |
 | 2026-04-30 | [bb08094f](https://github.com/NVIDIA/Model-Optimizer/commit/bb08094ff118cf27fa09374486dc294bf0985f82) | [#1325](https://github.com/NVIDIA/Model-Optimizer/pull/1325) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `torch` | Add Nemotron-Nano-9B-v2 → Pruned 7B e2e tutorial: Prune + Distill + Eval + Quantize + vLLM deployment |
 | 2026-04-29 | [077e29a4](https://github.com/NVIDIA/Model-Optimizer/commit/077e29a48cddc5b18a99b92ab11bdf520029f408) | [#1340](https://github.com/NVIDIA/Model-Optimizer/pull/1340) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[NVBug 6108145\] Fix PTQ calibration and export for fused-experts MoE (Qwen3.5-MoE VLM) |
 | 2026-04-28 | [8eec6d44](https://github.com/NVIDIA/Model-Optimizer/commit/8eec6d4459f088198035623a90a08c0587e433cb) | [#1342](https://github.com/NVIDIA/Model-Optimizer/pull/1342) | [@jenchen13](https://github.com/jenchen13) | `export` `quantization` `torch` | Support EP mcore import for TE  Spec and Fix mamba moe config |
@@ -242,4 +244,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 236 PRs**
+**Total: 238 PRs**

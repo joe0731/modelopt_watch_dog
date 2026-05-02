@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-01 | [50706d17](https://github.com/NVIDIA/Model-Optimizer/commit/50706d1750e7363c50ca22d300b1588139b9d426) | [#1372](https://github.com/NVIDIA/Model-Optimizer/pull/1372) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add closed-form MXFP4 -\> NVFP4 weight cast (--cast_mxfp4_to_nvfp4) |
 | 2026-04-30 | [bb08094f](https://github.com/NVIDIA/Model-Optimizer/commit/bb08094ff118cf27fa09374486dc294bf0985f82) | [#1325](https://github.com/NVIDIA/Model-Optimizer/pull/1325) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `torch` | Add Nemotron-Nano-9B-v2 → Pruned 7B e2e tutorial: Prune + Distill + Eval + Quantize + vLLM deployment |
 | 2026-04-27 | [b1ec471b](https://github.com/NVIDIA/Model-Optimizer/commit/b1ec471bd97650763947f692938d9cb5e65fe71f) | [#1350](https://github.com/NVIDIA/Model-Optimizer/pull/1350) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1256 #1305 #1322 #1317 #1321 #1289 #1311 #1332 #1104 #1318 |
 | 2026-04-26 | [1ec931c2](https://github.com/NVIDIA/Model-Optimizer/commit/1ec931c2c76c857f175ea473c0a4f0cbcfc31603) | [#1343](https://github.com/NVIDIA/Model-Optimizer/pull/1343) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[2/3\]\[Feat\]: Offline DFlash training |
@@ -157,4 +158,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 151 PRs**
+**Total: 152 PRs**

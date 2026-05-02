@@ -1,5 +1,43 @@
 [
   {
+    "date": "2026-05-01",
+    "commit": "168cd828c19cd8e150ed69aa6b6de6713a8a153c",
+    "pr_number": 1274,
+    "author": "cjluo-nv",
+    "title": "Add qwen3 moe experts only test",
+    "tags": [
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-01",
+    "commit": "50706d1750e7363c50ca22d300b1588139b9d426",
+    "pr_number": 1372,
+    "author": "cjluo-nv",
+    "title": "Add closed-form MXFP4 -> NVFP4 weight cast (--cast_mxfp4_to_nvfp4)",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-01",
+    "commit": "9d2e6087d1c0d99a6d5441dc0c685da36af51055",
+    "pr_number": 1365,
+    "author": "h-guo18",
+    "title": "[Fix]: $HOME in launcher eagle example",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-04-30",
     "commit": "a492fa9a1457d19a3bda40e0e094a337866ec7bb",
     "pr_number": 1359,

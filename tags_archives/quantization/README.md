@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-01 | [50706d17](https://github.com/NVIDIA/Model-Optimizer/commit/50706d1750e7363c50ca22d300b1588139b9d426) | [#1372](https://github.com/NVIDIA/Model-Optimizer/pull/1372) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add closed-form MXFP4 -\> NVFP4 weight cast (--cast_mxfp4_to_nvfp4) |
 | 2026-04-30 | [a492fa9a](https://github.com/NVIDIA/Model-Optimizer/commit/a492fa9a1457d19a3bda40e0e094a337866ec7bb) | [#1359](https://github.com/NVIDIA/Model-Optimizer/pull/1359) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `onnx` `quantization` | Ensure removal of temp files on error in ONNX INT4 quantization |
 | 2026-04-30 | [378366b8](https://github.com/NVIDIA/Model-Optimizer/commit/378366b8c901ee6528c52162bfdd8932a7563b90) | [#1361](https://github.com/NVIDIA/Model-Optimizer/pull/1361) | [@dthienan-nv](https://github.com/dthienan-nv) | `onnx` `quantization` | \[6034518\] Remove return statement preventing remote auto tuning |
 | 2026-04-29 | [077e29a4](https://github.com/NVIDIA/Model-Optimizer/commit/077e29a48cddc5b18a99b92ab11bdf520029f408) | [#1340](https://github.com/NVIDIA/Model-Optimizer/pull/1340) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[NVBug 6108145\] Fix PTQ calibration and export for fused-experts MoE (Qwen3.5-MoE VLM) |
@@ -167,4 +168,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 161 PRs**
+**Total: 162 PRs**
