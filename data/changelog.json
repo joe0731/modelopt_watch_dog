@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-05-04",
+    "commit": "e30cfab6fb1e574034b43101802df98ddfa8ac28",
+    "pr_number": 1369,
+    "author": "hthadicherla",
+    "title": "Added fallback to load extra cudnn dlls in the site packages ",
+    "tags": [
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
+    "date": "2026-05-04",
+    "commit": "acfab41d0dc781b01e87167646081e99e14a6862",
+    "pr_number": 1371,
+    "author": "yeyu-nvidia",
+    "title": "fix: guard against None chat_template in _post_process_chat_template",
+    "tags": [
+      "core",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-04",
+    "commit": "383ab4e22458ccbd48ceac23d048169a50041ed3",
+    "pr_number": 1370,
+    "author": "yeyu-nvidia",
+    "title": "fix: include medusa in data_module assignment in main.py",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-01",
     "commit": "168cd828c19cd8e150ed69aa6b6de6713a8a153c",
     "pr_number": 1274,
