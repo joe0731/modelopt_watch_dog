@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-05 | [84fe91be](https://github.com/NVIDIA/Model-Optimizer/commit/84fe91be5dacf63730c1b910c814896658550ae1) | [#1390](https://github.com/NVIDIA/Model-Optimizer/pull/1390) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `torch` | Fix gpt-oss examples trl import error |
+| 2026-05-05 | [f0eaa198](https://github.com/NVIDIA/Model-Optimizer/commit/f0eaa198df293bb13e6ad54164c4b53f045d7d98) | [#1377](https://github.com/NVIDIA/Model-Optimizer/pull/1377) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Enable active-param and memory based Minitron pruning constraint |
+| 2026-05-05 | [cc06062b](https://github.com/NVIDIA/Model-Optimizer/commit/cc06062b353c88e497081ca1a5dbed25f702c671) | [#1385](https://github.com/NVIDIA/Model-Optimizer/pull/1385) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1352 #1351 #1330 #1354 #1355 #1360 #1342 #1324 #1340 #1368 #1373 #1359 #1361 #1325 #1369 #1370 #1371 #1375 #1386 #1353 #1356 #1390 |
 | 2026-05-04 | [acfab41d](https://github.com/NVIDIA/Model-Optimizer/commit/acfab41d0dc781b01e87167646081e99e14a6862) | [#1371](https://github.com/NVIDIA/Model-Optimizer/pull/1371) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `torch` | fix: guard against None chat_template in _post_process_chat_template |
 | 2026-04-30 | [bb08094f](https://github.com/NVIDIA/Model-Optimizer/commit/bb08094ff118cf27fa09374486dc294bf0985f82) | [#1325](https://github.com/NVIDIA/Model-Optimizer/pull/1325) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `torch` | Add Nemotron-Nano-9B-v2 → Pruned 7B e2e tutorial: Prune + Distill + Eval + Quantize + vLLM deployment |
 | 2026-04-28 | [e5ce0ae8](https://github.com/NVIDIA/Model-Optimizer/commit/e5ce0ae83acedfda1138b37b2f8e26cc9494ac39) | [#1324](https://github.com/NVIDIA/Model-Optimizer/pull/1324) | [@meenchen](https://github.com/meenchen) | `core` `tests` `torch` | \[NVBug 6102977\] Add _disable_use_cache context manager to fix PTQ AttributeError on custom configs |
@@ -75,4 +78,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 69 PRs**
+**Total: 72 PRs**

@@ -1,5 +1,87 @@
 [
   {
+    "date": "2026-05-05",
+    "commit": "540cd2a357bbfb7e3a5d35b218db5761697b6b30",
+    "pr_number": 1353,
+    "author": "ajrasane",
+    "title": "[6110209] Patch zero FP16 scales in INT4_AWQ ONNX export",
+    "tags": [
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "commit": "d57faec3be7e51da384e75fbfc7578ce84097fe9",
+    "pr_number": 1356,
+    "author": "ajrasane",
+    "title": "[6106576] Restore llm_export_utils as deprecated shim for edgellm 0.6.1 compat",
+    "tags": [
+      "export",
+      "onnx"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "commit": "84fe91be5dacf63730c1b910c814896658550ae1",
+    "pr_number": 1390,
+    "author": "sugunav14",
+    "title": "Fix gpt-oss examples trl import error",
+    "tags": [
+      "core",
+      "example",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "commit": "f0eaa198df293bb13e6ad54164c4b53f045d7d98",
+    "pr_number": 1377,
+    "author": "kevalmorabia97",
+    "title": "Enable active-param and memory based Minitron pruning constraint",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "nas",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "commit": "d1ed76d0b3ad42e98c5c9f0c80abafcb5e0f142a",
+    "pr_number": 1392,
+    "author": "nvSiruiW",
+    "title": "Add new deploy model cases 0426",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "commit": "cc06062b353c88e497081ca1a5dbed25f702c671",
+    "pr_number": 1385,
+    "author": "kevalmorabia97",
+    "title": "[Cherry-pick] PRs #1352 #1351 #1330 #1354 #1355 #1360 #1342 #1324 #1340 #1368 #1373 #1359 #1361 #1325 #1369 #1370 #1371 #1375 #1386 #1353 #1356 #1390",
+    "tags": [
+      "core",
+      "distillation",
+      "docs",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "pruning",
+      "quantization",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-04",
     "commit": "e30cfab6fb1e574034b43101802df98ddfa8ac28",
     "pr_number": 1369,
@@ -31,6 +113,28 @@
       "example",
       "speculative_decoding",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-05-04",
+    "commit": "06ef935856d9229df4a2f0f1c199cbd977659fd4",
+    "pr_number": 1375,
+    "author": "kaix-nv",
+    "title": "Fix sparsity-only export emitting empty hf_quant_config.json",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-04",
+    "commit": "70546bdd6a09b1dd14710fd400dedad4f7725cf8",
+    "pr_number": 1386,
+    "author": "kevalmorabia97",
+    "title": "Enable Python 3.14 wheel support to unblock NGC PyTorch container testing on Ubuntu 26.04 + Python 3.14",
+    "tags": [
+      "docs",
+      "infra"
     ]
   },
   {

@@ -4,8 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-05 | [84fe91be](https://github.com/NVIDIA/Model-Optimizer/commit/84fe91be5dacf63730c1b910c814896658550ae1) | [#1390](https://github.com/NVIDIA/Model-Optimizer/pull/1390) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `torch` | Fix gpt-oss examples trl import error |
+| 2026-05-05 | [f0eaa198](https://github.com/NVIDIA/Model-Optimizer/commit/f0eaa198df293bb13e6ad54164c4b53f045d7d98) | [#1377](https://github.com/NVIDIA/Model-Optimizer/pull/1377) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Enable active-param and memory based Minitron pruning constraint |
+| 2026-05-05 | [cc06062b](https://github.com/NVIDIA/Model-Optimizer/commit/cc06062b353c88e497081ca1a5dbed25f702c671) | [#1385](https://github.com/NVIDIA/Model-Optimizer/pull/1385) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1352 #1351 #1330 #1354 #1355 #1360 #1342 #1324 #1340 #1368 #1373 #1359 #1361 #1325 #1369 #1370 #1371 #1375 #1386 #1353 #1356 #1390 |
 | 2026-05-04 | [acfab41d](https://github.com/NVIDIA/Model-Optimizer/commit/acfab41d0dc781b01e87167646081e99e14a6862) | [#1371](https://github.com/NVIDIA/Model-Optimizer/pull/1371) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `core` `torch` | fix: guard against None chat_template in _post_process_chat_template |
 | 2026-05-04 | [383ab4e2](https://github.com/NVIDIA/Model-Optimizer/commit/383ab4e22458ccbd48ceac23d048169a50041ed3) | [#1370](https://github.com/NVIDIA/Model-Optimizer/pull/1370) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | fix: include medusa in data_module assignment in main.py |
+| 2026-05-04 | [06ef9358](https://github.com/NVIDIA/Model-Optimizer/commit/06ef935856d9229df4a2f0f1c199cbd977659fd4) | [#1375](https://github.com/NVIDIA/Model-Optimizer/pull/1375) | [@kaix-nv](https://github.com/kaix-nv) | `export` `torch` | Fix sparsity-only export emitting empty hf_quant_config.json |
 | 2026-05-01 | [168cd828](https://github.com/NVIDIA/Model-Optimizer/commit/168cd828c19cd8e150ed69aa6b6de6713a8a153c) | [#1274](https://github.com/NVIDIA/Model-Optimizer/pull/1274) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `tests` `torch` | Add qwen3 moe experts only test |
 | 2026-05-01 | [50706d17](https://github.com/NVIDIA/Model-Optimizer/commit/50706d1750e7363c50ca22d300b1588139b9d426) | [#1372](https://github.com/NVIDIA/Model-Optimizer/pull/1372) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add closed-form MXFP4 -\> NVFP4 weight cast (--cast_mxfp4_to_nvfp4) |
 | 2026-04-30 | [bb08094f](https://github.com/NVIDIA/Model-Optimizer/commit/bb08094ff118cf27fa09374486dc294bf0985f82) | [#1325](https://github.com/NVIDIA/Model-Optimizer/pull/1325) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `torch` | Add Nemotron-Nano-9B-v2 → Pruned 7B e2e tutorial: Prune + Distill + Eval + Quantize + vLLM deployment |
@@ -246,4 +250,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 240 PRs**
+**Total: 244 PRs**

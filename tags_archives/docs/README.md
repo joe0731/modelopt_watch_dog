@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-05 | [cc06062b](https://github.com/NVIDIA/Model-Optimizer/commit/cc06062b353c88e497081ca1a5dbed25f702c671) | [#1385](https://github.com/NVIDIA/Model-Optimizer/pull/1385) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1352 #1351 #1330 #1354 #1355 #1360 #1342 #1324 #1340 #1368 #1373 #1359 #1361 #1325 #1369 #1370 #1371 #1375 #1386 #1353 #1356 #1390 |
+| 2026-05-04 | [70546bdd](https://github.com/NVIDIA/Model-Optimizer/commit/70546bdd6a09b1dd14710fd400dedad4f7725cf8) | [#1386](https://github.com/NVIDIA/Model-Optimizer/pull/1386) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `docs` `infra` | Enable Python 3.14 wheel support to unblock NGC PyTorch container testing on Ubuntu 26.04 + Python 3.14 |
 | 2026-04-29 | [9bb917d5](https://github.com/NVIDIA/Model-Optimizer/commit/9bb917d57c65e52bbd5a2f66660b3ab253a52a61) | [#1368](https://github.com/NVIDIA/Model-Optimizer/pull/1368) | [@ynankani](https://github.com/ynankani) | `docs` | \[BUG6108338\] Update windows documentation for onnxruntime quantization with Cuda13.x |
 | 2026-04-27 | [b1ec471b](https://github.com/NVIDIA/Model-Optimizer/commit/b1ec471bd97650763947f692938d9cb5e65fe71f) | [#1350](https://github.com/NVIDIA/Model-Optimizer/pull/1350) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1256 #1305 #1322 #1317 #1321 #1289 #1311 #1332 #1104 #1318 |
 | 2026-04-22 | [e56682e3](https://github.com/NVIDIA/Model-Optimizer/commit/e56682e34a4e2da3130d5577ad9c5b2dd58265cb) | [#1322](https://github.com/NVIDIA/Model-Optimizer/pull/1322) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `docs` `infra` | docs: update installation pages with legal-approved license notices |
@@ -27,4 +29,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 21 PRs**
+**Total: 23 PRs**
