@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-05-05 | [cc06062b](https://github.com/NVIDIA/Model-Optimizer/commit/cc06062b353c88e497081ca1a5dbed25f702c671) | [#1385](https://github.com/NVIDIA/Model-Optimizer/pull/1385) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1352 #1351 #1330 #1354 #1355 #1360 #1342 #1324 #1340 #1368 #1373 #1359 #1361 #1325 #1369 #1370 #1371 #1375 #1386 #1353 #1356 #1390 |
+| 2026-05-05 | [7097a691](https://github.com/NVIDIA/Model-Optimizer/commit/7097a6910ea92a729cfc30a7db95f5445065ecc8) | [#1389](https://github.com/NVIDIA/Model-Optimizer/pull/1389) | [@milesial](https://github.com/milesial) | `example` `speculative_decoding` `torch` | \[specdec_bench\] Stratify --num_requests across categories |
 | 2026-05-04 | [383ab4e2](https://github.com/NVIDIA/Model-Optimizer/commit/383ab4e22458ccbd48ceac23d048169a50041ed3) | [#1370](https://github.com/NVIDIA/Model-Optimizer/pull/1370) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | fix: include medusa in data_module assignment in main.py |
 | 2026-04-27 | [b1ec471b](https://github.com/NVIDIA/Model-Optimizer/commit/b1ec471bd97650763947f692938d9cb5e65fe71f) | [#1350](https://github.com/NVIDIA/Model-Optimizer/pull/1350) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1256 #1305 #1322 #1317 #1321 #1289 #1311 #1332 #1104 #1318 |
 | 2026-04-26 | [1ec931c2](https://github.com/NVIDIA/Model-Optimizer/commit/1ec931c2c76c857f175ea473c0a4f0cbcfc31603) | [#1343](https://github.com/NVIDIA/Model-Optimizer/pull/1343) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[2/3\]\[Feat\]: Offline DFlash training |
@@ -47,4 +48,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 41 PRs**
+**Total: 42 PRs**

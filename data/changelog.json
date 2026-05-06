@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-05-06",
+    "commit": "f34f488a83fdbc0728a0b07a5ed620f8dfd884a3",
+    "pr_number": 1253,
+    "author": "shengliangxu",
+    "title": "Add a general composable $import system for YAML configs, and use it to implement composable recipes",
+    "tags": [
+      "core",
+      "docs",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-05",
     "commit": "540cd2a357bbfb7e3a5d35b218db5761697b6b30",
     "pr_number": 1353,
@@ -77,6 +96,83 @@
       "pruning",
       "quantization",
       "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "commit": "ef326c8b9bb40e8a64b18ae202aca45c3f6c0204",
+    "pr_number": 1219,
+    "author": "yueshen2016",
+    "title": "Add Gemma4 MoE quantization support",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "commit": "b5df2a5a3caecb012d146e7ac09bbb18bad2945e",
+    "pr_number": 1394,
+    "author": "cjluo-nv",
+    "title": "Update llm_ptq requirements.txt",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "commit": "d794595bf8e697f2924afffadbc173bcfd652078",
+    "pr_number": 1393,
+    "author": "kevalmorabia97",
+    "title": "llm_sparsity: Set warmup_steps 0 instead of 0.0 for transformers 5.x compat",
+    "tags": [
+      "example",
+      "sparsity",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "commit": "7097a6910ea92a729cfc30a7db95f5445065ecc8",
+    "pr_number": 1389,
+    "author": "milesial",
+    "title": "[specdec_bench] Stratify --num_requests across categories",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "commit": "72799ab55180d58071069ff23413c94545150d22",
+    "pr_number": 1395,
+    "author": "kevalmorabia97",
+    "title": "Pin transformers<5.8 to avoid CI failures",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-05",
+    "commit": "ade956718229333ca044916c0c7cefb921539451",
+    "pr_number": 1268,
+    "author": "gcunhase",
+    "title": "Centralize 'trtexec' subprocess runs in ONNX into a single function",
+    "tags": [
+      "deploy",
+      "onnx",
+      "quantization",
       "tests",
       "torch"
     ]

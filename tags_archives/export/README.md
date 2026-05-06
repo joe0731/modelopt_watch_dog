@@ -4,8 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
 | 2026-05-05 | [d57faec3](https://github.com/NVIDIA/Model-Optimizer/commit/d57faec3be7e51da384e75fbfc7578ce84097fe9) | [#1356](https://github.com/NVIDIA/Model-Optimizer/pull/1356) | [@ajrasane](https://github.com/ajrasane) | `export` `onnx` | \[6106576\] Restore llm_export_utils as deprecated shim for edgellm 0.6.1 compat |
 | 2026-05-05 | [cc06062b](https://github.com/NVIDIA/Model-Optimizer/commit/cc06062b353c88e497081ca1a5dbed25f702c671) | [#1385](https://github.com/NVIDIA/Model-Optimizer/pull/1385) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1352 #1351 #1330 #1354 #1355 #1360 #1342 #1324 #1340 #1368 #1373 #1359 #1361 #1325 #1369 #1370 #1371 #1375 #1386 #1353 #1356 #1390 |
+| 2026-05-05 | [ef326c8b](https://github.com/NVIDIA/Model-Optimizer/commit/ef326c8b9bb40e8a64b18ae202aca45c3f6c0204) | [#1219](https://github.com/NVIDIA/Model-Optimizer/pull/1219) | [@yueshen2016](https://github.com/yueshen2016) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add Gemma4 MoE quantization support |
 | 2026-05-04 | [06ef9358](https://github.com/NVIDIA/Model-Optimizer/commit/06ef935856d9229df4a2f0f1c199cbd977659fd4) | [#1375](https://github.com/NVIDIA/Model-Optimizer/pull/1375) | [@kaix-nv](https://github.com/kaix-nv) | `export` `torch` | Fix sparsity-only export emitting empty hf_quant_config.json |
 | 2026-05-01 | [168cd828](https://github.com/NVIDIA/Model-Optimizer/commit/168cd828c19cd8e150ed69aa6b6de6713a8a153c) | [#1274](https://github.com/NVIDIA/Model-Optimizer/pull/1274) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `tests` `torch` | Add qwen3 moe experts only test |
 | 2026-05-01 | [50706d17](https://github.com/NVIDIA/Model-Optimizer/commit/50706d1750e7363c50ca22d300b1588139b9d426) | [#1372](https://github.com/NVIDIA/Model-Optimizer/pull/1372) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add closed-form MXFP4 -\> NVFP4 weight cast (--cast_mxfp4_to_nvfp4) |
@@ -90,4 +92,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 84 PRs**
+**Total: 86 PRs**

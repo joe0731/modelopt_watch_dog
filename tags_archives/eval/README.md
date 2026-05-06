@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
+| 2026-05-05 | [ef326c8b](https://github.com/NVIDIA/Model-Optimizer/commit/ef326c8b9bb40e8a64b18ae202aca45c3f6c0204) | [#1219](https://github.com/NVIDIA/Model-Optimizer/pull/1219) | [@yueshen2016](https://github.com/yueshen2016) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add Gemma4 MoE quantization support |
+| 2026-05-05 | [b5df2a5a](https://github.com/NVIDIA/Model-Optimizer/commit/b5df2a5a3caecb012d146e7ac09bbb18bad2945e) | [#1394](https://github.com/NVIDIA/Model-Optimizer/pull/1394) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `quantization` `torch` | Update llm_ptq requirements.txt |
 | 2026-05-01 | [50706d17](https://github.com/NVIDIA/Model-Optimizer/commit/50706d1750e7363c50ca22d300b1588139b9d426) | [#1372](https://github.com/NVIDIA/Model-Optimizer/pull/1372) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add closed-form MXFP4 -\> NVFP4 weight cast (--cast_mxfp4_to_nvfp4) |
 | 2026-04-27 | [b1ec471b](https://github.com/NVIDIA/Model-Optimizer/commit/b1ec471bd97650763947f692938d9cb5e65fe71f) | [#1350](https://github.com/NVIDIA/Model-Optimizer/pull/1350) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1256 #1305 #1322 #1317 #1321 #1289 #1311 #1332 #1104 #1318 |
 | 2026-04-23 | [8663678f](https://github.com/NVIDIA/Model-Optimizer/commit/8663678f12403f9a03bfe9856b8d7002bf15794b) | [#1311](https://github.com/NVIDIA/Model-Optimizer/pull/1311) | [@michaelfeil](https://github.com/michaelfeil) | `eval` `example` `quantization` `torch` | fix: bug hf_ptq.py max_length setting ignored for LLMs |
@@ -60,4 +63,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 54 PRs**
+**Total: 57 PRs**
