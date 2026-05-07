@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-05-07",
+    "commit": "fe9644eb5c2a318acc9e8b89b3bed0e500d34e1e",
+    "pr_number": 1401,
+    "author": "kevalmorabia97",
+    "title": "[CI] Fix Claude GitHub Actions setup",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "commit": "555be6c2036921f68a7328df6cc4b7c4668815f9",
+    "pr_number": 1383,
+    "author": "vishalpandya1990",
+    "title": "Add unit test for checking any leak of temporary augmented onnx files, on exception during ONNX INT4 AWQ quantization",
+    "tags": [
+      "onnx",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-05-06",
     "commit": "f34f488a83fdbc0728a0b07a5ed620f8dfd884a3",
     "pr_number": 1253,
@@ -15,6 +36,51 @@
       "onnx",
       "quantization",
       "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-06",
+    "commit": "fa05381b86acbcd98dfaa5c3205bb97c4201592d",
+    "pr_number": 1320,
+    "author": "achidiac-nv",
+    "title": "Add demo (Puzzletron vs Minitron guide) in examples/pruning/ with README and notebooks",
+    "tags": [
+      "example",
+      "pruning",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-06",
+    "commit": "097293b44d852eda03e5776a047ee93ed490ef54",
+    "pr_number": 1397,
+    "author": "cjluo-nv",
+    "title": "[Quantization] Saturate NVFP4 export FP8 scale cast to avoid NaN",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-06",
+    "commit": "1c2085f7dfb812fb53260b9c9c44f28c59df5cb5",
+    "pr_number": 1400,
+    "author": "kevalmorabia97",
+    "title": "[CI] Add Claude Code GitHub Action workflows",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-06",
+    "commit": "579fc6c319b9797293fce29614fa164cdb2f2086",
+    "pr_number": 1402,
+    "author": "meenchen",
+    "title": "[NVBug 6102977] Disable use_cache during export dummy forward for custom configs",
+    "tags": [
+      "export",
       "torch"
     ]
   },

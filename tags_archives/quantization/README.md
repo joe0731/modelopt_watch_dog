@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
+| 2026-05-06 | [097293b4](https://github.com/NVIDIA/Model-Optimizer/commit/097293b44d852eda03e5776a047ee93ed490ef54) | [#1397](https://github.com/NVIDIA/Model-Optimizer/pull/1397) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[Quantization\] Saturate NVFP4 export FP8 scale cast to avoid NaN |
 | 2026-05-05 | [540cd2a3](https://github.com/NVIDIA/Model-Optimizer/commit/540cd2a357bbfb7e3a5d35b218db5761697b6b30) | [#1353](https://github.com/NVIDIA/Model-Optimizer/pull/1353) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` `tests` | \[6110209\] Patch zero FP16 scales in INT4_AWQ ONNX export |
 | 2026-05-05 | [cc06062b](https://github.com/NVIDIA/Model-Optimizer/commit/cc06062b353c88e497081ca1a5dbed25f702c671) | [#1385](https://github.com/NVIDIA/Model-Optimizer/pull/1385) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1352 #1351 #1330 #1354 #1355 #1360 #1342 #1324 #1340 #1368 #1373 #1359 #1361 #1325 #1369 #1370 #1371 #1375 #1386 #1353 #1356 #1390 |
 | 2026-05-05 | [ef326c8b](https://github.com/NVIDIA/Model-Optimizer/commit/ef326c8b9bb40e8a64b18ae202aca45c3f6c0204) | [#1219](https://github.com/NVIDIA/Model-Optimizer/pull/1219) | [@yueshen2016](https://github.com/yueshen2016) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add Gemma4 MoE quantization support |
@@ -175,4 +176,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 169 PRs**
+**Total: 170 PRs**

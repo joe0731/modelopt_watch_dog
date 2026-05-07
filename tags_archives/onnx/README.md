@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-07 | [555be6c2](https://github.com/NVIDIA/Model-Optimizer/commit/555be6c2036921f68a7328df6cc4b7c4668815f9) | [#1383](https://github.com/NVIDIA/Model-Optimizer/pull/1383) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `onnx` `tests` | Add unit test for checking any leak of temporary augmented onnx files, on exception during ONNX INT4 AWQ quantization |
 | 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
 | 2026-05-05 | [540cd2a3](https://github.com/NVIDIA/Model-Optimizer/commit/540cd2a357bbfb7e3a5d35b218db5761697b6b30) | [#1353](https://github.com/NVIDIA/Model-Optimizer/pull/1353) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` `tests` | \[6110209\] Patch zero FP16 scales in INT4_AWQ ONNX export |
 | 2026-05-05 | [d57faec3](https://github.com/NVIDIA/Model-Optimizer/commit/d57faec3be7e51da384e75fbfc7578ce84097fe9) | [#1356](https://github.com/NVIDIA/Model-Optimizer/pull/1356) | [@ajrasane](https://github.com/ajrasane) | `export` `onnx` | \[6106576\] Restore llm_export_utils as deprecated shim for edgellm 0.6.1 compat |
@@ -73,4 +74,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 67 PRs**
+**Total: 68 PRs**

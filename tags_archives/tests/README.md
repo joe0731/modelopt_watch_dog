@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-07 | [555be6c2](https://github.com/NVIDIA/Model-Optimizer/commit/555be6c2036921f68a7328df6cc4b7c4668815f9) | [#1383](https://github.com/NVIDIA/Model-Optimizer/pull/1383) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `onnx` `tests` | Add unit test for checking any leak of temporary augmented onnx files, on exception during ONNX INT4 AWQ quantization |
 | 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
+| 2026-05-06 | [097293b4](https://github.com/NVIDIA/Model-Optimizer/commit/097293b44d852eda03e5776a047ee93ed490ef54) | [#1397](https://github.com/NVIDIA/Model-Optimizer/pull/1397) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[Quantization\] Saturate NVFP4 export FP8 scale cast to avoid NaN |
 | 2026-05-05 | [540cd2a3](https://github.com/NVIDIA/Model-Optimizer/commit/540cd2a357bbfb7e3a5d35b218db5761697b6b30) | [#1353](https://github.com/NVIDIA/Model-Optimizer/pull/1353) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` `tests` | \[6110209\] Patch zero FP16 scales in INT4_AWQ ONNX export |
 | 2026-05-05 | [f0eaa198](https://github.com/NVIDIA/Model-Optimizer/commit/f0eaa198df293bb13e6ad54164c4b53f045d7d98) | [#1377](https://github.com/NVIDIA/Model-Optimizer/pull/1377) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Enable active-param and memory based Minitron pruning constraint |
 | 2026-05-05 | [d1ed76d0](https://github.com/NVIDIA/Model-Optimizer/commit/d1ed76d0b3ad42e98c5c9f0c80abafcb5e0f142a) | [#1392](https://github.com/NVIDIA/Model-Optimizer/pull/1392) | [@nvSiruiW](https://github.com/nvSiruiW) | `tests` | Add new deploy model cases 0426 |
@@ -171,4 +173,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 165 PRs**
+**Total: 167 PRs**

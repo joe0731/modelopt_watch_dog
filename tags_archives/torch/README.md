@@ -5,6 +5,9 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
+| 2026-05-06 | [fa05381b](https://github.com/NVIDIA/Model-Optimizer/commit/fa05381b86acbcd98dfaa5c3205bb97c4201592d) | [#1320](https://github.com/NVIDIA/Model-Optimizer/pull/1320) | [@achidiac-nv](https://github.com/achidiac-nv) | `example` `pruning` `torch` | Add demo (Puzzletron vs Minitron guide) in examples/pruning/ with README and notebooks |
+| 2026-05-06 | [097293b4](https://github.com/NVIDIA/Model-Optimizer/commit/097293b44d852eda03e5776a047ee93ed490ef54) | [#1397](https://github.com/NVIDIA/Model-Optimizer/pull/1397) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[Quantization\] Saturate NVFP4 export FP8 scale cast to avoid NaN |
+| 2026-05-06 | [579fc6c3](https://github.com/NVIDIA/Model-Optimizer/commit/579fc6c319b9797293fce29614fa164cdb2f2086) | [#1402](https://github.com/NVIDIA/Model-Optimizer/pull/1402) | [@meenchen](https://github.com/meenchen) | `export` `torch` | \[NVBug 6102977\] Disable use_cache during export dummy forward for custom configs |
 | 2026-05-05 | [84fe91be](https://github.com/NVIDIA/Model-Optimizer/commit/84fe91be5dacf63730c1b910c814896658550ae1) | [#1390](https://github.com/NVIDIA/Model-Optimizer/pull/1390) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `torch` | Fix gpt-oss examples trl import error |
 | 2026-05-05 | [f0eaa198](https://github.com/NVIDIA/Model-Optimizer/commit/f0eaa198df293bb13e6ad54164c4b53f045d7d98) | [#1377](https://github.com/NVIDIA/Model-Optimizer/pull/1377) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Enable active-param and memory based Minitron pruning constraint |
 | 2026-05-05 | [cc06062b](https://github.com/NVIDIA/Model-Optimizer/commit/cc06062b353c88e497081ca1a5dbed25f702c671) | [#1385](https://github.com/NVIDIA/Model-Optimizer/pull/1385) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1352 #1351 #1330 #1354 #1355 #1360 #1342 #1324 #1340 #1368 #1373 #1359 #1361 #1325 #1369 #1370 #1371 #1375 #1386 #1353 #1356 #1390 |
@@ -256,4 +259,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 250 PRs**
+**Total: 253 PRs**
