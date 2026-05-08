@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-05-08",
+    "commit": "e2d29c869b97aae5cfacd5be4db079951a43e2ac",
+    "pr_number": 1410,
+    "author": "cjluo-nv",
+    "title": "[NVBug 6143871] Fix awq_lite uncalibrated branch leaving input_quantizer disabled",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-07",
     "commit": "fe9644eb5c2a318acc9e8b89b3bed0e500d34e1e",
     "pr_number": 1401,
@@ -18,6 +30,33 @@
     "tags": [
       "onnx",
       "tests"
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "commit": "570920be5c21d057ed993dcc0eaa81b8a02d07f1",
+    "pr_number": 1411,
+    "author": "meenchen",
+    "title": " [NVbug 6142360] Share fused gate_up amax fallback to keep weight_scale_2 consistent",
+    "tags": [
+      "export",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-07",
+    "commit": "6a3b6b832910f44a00e0323c064e84b16e227d16",
+    "pr_number": 1407,
+    "author": "cjluo-nv",
+    "title": "[Recipes][LLM PTQ] Add nvfp4 MSE+FP8-cast-KV recipes (experts_only / mlp_only) + --recipe in example scripts",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "torch"
     ]
   },
   {

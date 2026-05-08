@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-07 | [570920be](https://github.com/NVIDIA/Model-Optimizer/commit/570920be5c21d057ed993dcc0eaa81b8a02d07f1) | [#1411](https://github.com/NVIDIA/Model-Optimizer/pull/1411) | [@meenchen](https://github.com/meenchen) | `export` `quantization` `tests` `torch` |  \[NVbug 6142360\] Share fused gate_up amax fallback to keep weight_scale_2 consistent |
 | 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
 | 2026-05-06 | [579fc6c3](https://github.com/NVIDIA/Model-Optimizer/commit/579fc6c319b9797293fce29614fa164cdb2f2086) | [#1402](https://github.com/NVIDIA/Model-Optimizer/pull/1402) | [@meenchen](https://github.com/meenchen) | `export` `torch` | \[NVBug 6102977\] Disable use_cache during export dummy forward for custom configs |
 | 2026-05-05 | [d57faec3](https://github.com/NVIDIA/Model-Optimizer/commit/d57faec3be7e51da384e75fbfc7578ce84097fe9) | [#1356](https://github.com/NVIDIA/Model-Optimizer/pull/1356) | [@ajrasane](https://github.com/ajrasane) | `export` `onnx` | \[6106576\] Restore llm_export_utils as deprecated shim for edgellm 0.6.1 compat |
@@ -93,4 +94,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 87 PRs**
+**Total: 88 PRs**

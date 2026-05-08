@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-05-07 | [fe9644eb](https://github.com/NVIDIA/Model-Optimizer/commit/fe9644eb5c2a318acc9e8b89b3bed0e500d34e1e) | [#1401](https://github.com/NVIDIA/Model-Optimizer/pull/1401) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | \[CI\] Fix Claude GitHub Actions setup |
+| 2026-05-07 | [6a3b6b83](https://github.com/NVIDIA/Model-Optimizer/commit/6a3b6b832910f44a00e0323c064e84b16e227d16) | [#1407](https://github.com/NVIDIA/Model-Optimizer/pull/1407) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `torch` | \[Recipes\]\[LLM PTQ\] Add nvfp4 MSE+FP8-cast-KV recipes (experts_only / mlp_only) + --recipe in example scripts |
 | 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
 | 2026-05-06 | [1c2085f7](https://github.com/NVIDIA/Model-Optimizer/commit/1c2085f7dfb812fb53260b9c9c44f28c59df5cb5) | [#1400](https://github.com/NVIDIA/Model-Optimizer/pull/1400) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | \[CI\] Add Claude Code GitHub Action workflows |
 | 2026-05-05 | [f0eaa198](https://github.com/NVIDIA/Model-Optimizer/commit/f0eaa198df293bb13e6ad54164c4b53f045d7d98) | [#1377](https://github.com/NVIDIA/Model-Optimizer/pull/1377) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Enable active-param and memory based Minitron pruning constraint |
@@ -205,4 +206,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 199 PRs**
+**Total: 200 PRs**
