@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-09 | [a098759b](https://github.com/NVIDIA/Model-Optimizer/commit/a098759b614e42125823f80e528617b4e8c46e3a) | [#1345](https://github.com/NVIDIA/Model-Optimizer/pull/1345) | [@shengliangxu](https://github.com/shengliangxu) | `core` `infra` `tests` `torch` | \[OMNIML-4021\]: align local JSONL loading with HF datasets path + keep original behaviour |
 | 2026-05-08 | [e2d29c86](https://github.com/NVIDIA/Model-Optimizer/commit/e2d29c869b97aae5cfacd5be4db079951a43e2ac) | [#1410](https://github.com/NVIDIA/Model-Optimizer/pull/1410) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[NVBug 6143871\] Fix awq_lite uncalibrated branch leaving input_quantizer disabled |
+| 2026-05-08 | [1d796f97](https://github.com/NVIDIA/Model-Optimizer/commit/1d796f97142d0b3699d00f8303b2f2030fab8fd8) | [#1387](https://github.com/NVIDIA/Model-Optimizer/pull/1387) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[Quantization\] Fused Triton kernel for NVFP4 FP8 scale sweep search |
 | 2026-05-07 | [555be6c2](https://github.com/NVIDIA/Model-Optimizer/commit/555be6c2036921f68a7328df6cc4b7c4668815f9) | [#1383](https://github.com/NVIDIA/Model-Optimizer/pull/1383) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `onnx` `tests` | Add unit test for checking any leak of temporary augmented onnx files, on exception during ONNX INT4 AWQ quantization |
 | 2026-05-07 | [570920be](https://github.com/NVIDIA/Model-Optimizer/commit/570920be5c21d057ed993dcc0eaa81b8a02d07f1) | [#1411](https://github.com/NVIDIA/Model-Optimizer/pull/1411) | [@meenchen](https://github.com/meenchen) | `export` `quantization` `tests` `torch` |  \[NVbug 6142360\] Share fused gate_up amax fallback to keep weight_scale_2 consistent |
 | 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
@@ -175,4 +177,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 169 PRs**
+**Total: 171 PRs**

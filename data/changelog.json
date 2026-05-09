@@ -1,11 +1,37 @@
 [
   {
+    "date": "2026-05-09",
+    "commit": "a098759b614e42125823f80e528617b4e8c46e3a",
+    "pr_number": 1345,
+    "author": "shengliangxu",
+    "title": "[OMNIML-4021]: align local JSONL loading with HF datasets path + keep original behaviour",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-08",
     "commit": "e2d29c869b97aae5cfacd5be4db079951a43e2ac",
     "pr_number": 1410,
     "author": "cjluo-nv",
     "title": "[NVBug 6143871] Fix awq_lite uncalibrated branch leaving input_quantizer disabled",
     "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-08",
+    "commit": "1d796f97142d0b3699d00f8303b2f2030fab8fd8",
+    "pr_number": 1387,
+    "author": "cjluo-nv",
+    "title": "[Quantization] Fused Triton kernel for NVFP4 FP8 scale sweep search",
+    "tags": [
+      "infra",
       "quantization",
       "tests",
       "torch"
