@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-05-09 | [a098759b](https://github.com/NVIDIA/Model-Optimizer/commit/a098759b614e42125823f80e528617b4e8c46e3a) | [#1345](https://github.com/NVIDIA/Model-Optimizer/pull/1345) | [@shengliangxu](https://github.com/shengliangxu) | `core` `infra` `tests` `torch` | \[OMNIML-4021\]: align local JSONL loading with HF datasets path + keep original behaviour |
+| 2026-05-09 | [88e15433](https://github.com/NVIDIA/Model-Optimizer/commit/88e154339ba248dc77efcd693076fecbc263d905) | [#1419](https://github.com/NVIDIA/Model-Optimizer/pull/1419) | [@sugunav14](https://github.com/sugunav14) | `core` `torch` | Fix 6115282 |
 | 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
 | 2026-05-05 | [84fe91be](https://github.com/NVIDIA/Model-Optimizer/commit/84fe91be5dacf63730c1b910c814896658550ae1) | [#1390](https://github.com/NVIDIA/Model-Optimizer/pull/1390) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `torch` | Fix gpt-oss examples trl import error |
 | 2026-05-05 | [f0eaa198](https://github.com/NVIDIA/Model-Optimizer/commit/f0eaa198df293bb13e6ad54164c4b53f045d7d98) | [#1377](https://github.com/NVIDIA/Model-Optimizer/pull/1377) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Enable active-param and memory based Minitron pruning constraint |
@@ -80,4 +81,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 74 PRs**
+**Total: 75 PRs**

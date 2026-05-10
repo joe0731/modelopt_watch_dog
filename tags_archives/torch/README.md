@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-05-09 | [a098759b](https://github.com/NVIDIA/Model-Optimizer/commit/a098759b614e42125823f80e528617b4e8c46e3a) | [#1345](https://github.com/NVIDIA/Model-Optimizer/pull/1345) | [@shengliangxu](https://github.com/shengliangxu) | `core` `infra` `tests` `torch` | \[OMNIML-4021\]: align local JSONL loading with HF datasets path + keep original behaviour |
+| 2026-05-09 | [88e15433](https://github.com/NVIDIA/Model-Optimizer/commit/88e154339ba248dc77efcd693076fecbc263d905) | [#1419](https://github.com/NVIDIA/Model-Optimizer/pull/1419) | [@sugunav14](https://github.com/sugunav14) | `core` `torch` | Fix 6115282 |
 | 2026-05-08 | [e2d29c86](https://github.com/NVIDIA/Model-Optimizer/commit/e2d29c869b97aae5cfacd5be4db079951a43e2ac) | [#1410](https://github.com/NVIDIA/Model-Optimizer/pull/1410) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[NVBug 6143871\] Fix awq_lite uncalibrated branch leaving input_quantizer disabled |
 | 2026-05-08 | [1d796f97](https://github.com/NVIDIA/Model-Optimizer/commit/1d796f97142d0b3699d00f8303b2f2030fab8fd8) | [#1387](https://github.com/NVIDIA/Model-Optimizer/pull/1387) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[Quantization\] Fused Triton kernel for NVFP4 FP8 scale sweep search |
 | 2026-05-07 | [570920be](https://github.com/NVIDIA/Model-Optimizer/commit/570920be5c21d057ed993dcc0eaa81b8a02d07f1) | [#1411](https://github.com/NVIDIA/Model-Optimizer/pull/1411) | [@meenchen](https://github.com/meenchen) | `export` `quantization` `tests` `torch` |  \[NVbug 6142360\] Share fused gate_up amax fallback to keep weight_scale_2 consistent |
@@ -264,4 +265,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 258 PRs**
+**Total: 259 PRs**

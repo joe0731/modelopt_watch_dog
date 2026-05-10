@@ -13,6 +13,17 @@
     ]
   },
   {
+    "date": "2026-05-09",
+    "commit": "88e154339ba248dc77efcd693076fecbc263d905",
+    "pr_number": 1419,
+    "author": "sugunav14",
+    "title": "Fix 6115282",
+    "tags": [
+      "core",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-08",
     "commit": "e2d29c869b97aae5cfacd5be4db079951a43e2ac",
     "pr_number": 1410,

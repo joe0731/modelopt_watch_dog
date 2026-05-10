@@ -9,6 +9,7 @@
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
 |  | 2026-05-09 | [a098759b](https://github.com/NVIDIA/Model-Optimizer/commit/a098759b614e42125823f80e528617b4e8c46e3a) | [#1345](https://github.com/NVIDIA/Model-Optimizer/pull/1345) | [@shengliangxu](https://github.com/shengliangxu) | `core` `infra` `tests` `torch` | \[OMNIML-4021\]: align local JSONL loading with HF datasets path + keep original behaviour |
+|  | 2026-05-09 | [88e15433](https://github.com/NVIDIA/Model-Optimizer/commit/88e154339ba248dc77efcd693076fecbc263d905) | [#1419](https://github.com/NVIDIA/Model-Optimizer/pull/1419) | [@sugunav14](https://github.com/sugunav14) | `core` `torch` | Fix 6115282 |
 |  | 2026-05-08 | [e2d29c86](https://github.com/NVIDIA/Model-Optimizer/commit/e2d29c869b97aae5cfacd5be4db079951a43e2ac) | [#1410](https://github.com/NVIDIA/Model-Optimizer/pull/1410) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[NVBug 6143871\] Fix awq_lite uncalibrated branch leaving input_quantizer disabled |
 |  | 2026-05-08 | [1d796f97](https://github.com/NVIDIA/Model-Optimizer/commit/1d796f97142d0b3699d00f8303b2f2030fab8fd8) | [#1387](https://github.com/NVIDIA/Model-Optimizer/pull/1387) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[Quantization\] Fused Triton kernel for NVFP4 FP8 scale sweep search |
 |  | 2026-05-07 | [fe9644eb](https://github.com/NVIDIA/Model-Optimizer/commit/fe9644eb5c2a318acc9e8b89b3bed0e500d34e1e) | [#1401](https://github.com/NVIDIA/Model-Optimizer/pull/1401) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | \[CI\] Fix Claude GitHub Actions setup |
@@ -42,4 +43,4 @@
 |  | 2026-05-01 | [9d2e6087](https://github.com/NVIDIA/Model-Optimizer/commit/9d2e6087d1c0d99a6d5441dc0c685da36af51055) | [#1365](https://github.com/NVIDIA/Model-Optimizer/pull/1365) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Fix\]: $HOME in launcher eagle example |
 
 ---
-**Total: 32 PRs** | **Highlighted: 11**
+**Total: 33 PRs** | **Highlighted: 11**
