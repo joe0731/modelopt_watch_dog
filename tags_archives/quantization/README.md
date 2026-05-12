@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-11 | [f591131c](https://github.com/NVIDIA/Model-Optimizer/commit/f591131ca3da55a0276bab4f4700936e1a266d07) | [#1408](https://github.com/NVIDIA/Model-Optimizer/pull/1408) | [@ajrasane](https://github.com/ajrasane) | `export` `onnx` `quantization` `tests` | \[6106576\] Restore qdq_utils symbols used by edgellm 0.6.1 |
+| 2026-05-11 | [acabf876](https://github.com/NVIDIA/Model-Optimizer/commit/acabf8764f2a27f85995f1441cd5f39054cc279c) | [#1426](https://github.com/NVIDIA/Model-Optimizer/pull/1426) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1393 #1389 #1268 #1397 #1402 #1411 #1410 #1419 #1408 #1416 |
 | 2026-05-08 | [e2d29c86](https://github.com/NVIDIA/Model-Optimizer/commit/e2d29c869b97aae5cfacd5be4db079951a43e2ac) | [#1410](https://github.com/NVIDIA/Model-Optimizer/pull/1410) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[NVBug 6143871\] Fix awq_lite uncalibrated branch leaving input_quantizer disabled |
 | 2026-05-08 | [1d796f97](https://github.com/NVIDIA/Model-Optimizer/commit/1d796f97142d0b3699d00f8303b2f2030fab8fd8) | [#1387](https://github.com/NVIDIA/Model-Optimizer/pull/1387) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[Quantization\] Fused Triton kernel for NVFP4 FP8 scale sweep search |
 | 2026-05-07 | [570920be](https://github.com/NVIDIA/Model-Optimizer/commit/570920be5c21d057ed993dcc0eaa81b8a02d07f1) | [#1411](https://github.com/NVIDIA/Model-Optimizer/pull/1411) | [@meenchen](https://github.com/meenchen) | `export` `quantization` `tests` `torch` |  \[NVbug 6142360\] Share fused gate_up amax fallback to keep weight_scale_2 consistent |
@@ -180,4 +182,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 174 PRs**
+**Total: 176 PRs**

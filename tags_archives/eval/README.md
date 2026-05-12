@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-11 | [d30ebbd4](https://github.com/NVIDIA/Model-Optimizer/commit/d30ebbd455a16716605f4a52beb8e2b1cec0f941) | [#1416](https://github.com/NVIDIA/Model-Optimizer/pull/1416) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `tests` `torch` | fix(llm_eval): migrate lm_eval_hf.py to lm-eval \>= 0.4.10 HarnessCLI |
+| 2026-05-11 | [acabf876](https://github.com/NVIDIA/Model-Optimizer/commit/acabf8764f2a27f85995f1441cd5f39054cc279c) | [#1426](https://github.com/NVIDIA/Model-Optimizer/pull/1426) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1393 #1389 #1268 #1397 #1402 #1411 #1410 #1419 #1408 #1416 |
 | 2026-05-07 | [6a3b6b83](https://github.com/NVIDIA/Model-Optimizer/commit/6a3b6b832910f44a00e0323c064e84b16e227d16) | [#1407](https://github.com/NVIDIA/Model-Optimizer/pull/1407) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `torch` | \[Recipes\]\[LLM PTQ\] Add nvfp4 MSE+FP8-cast-KV recipes (experts_only / mlp_only) + --recipe in example scripts |
 | 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
 | 2026-05-05 | [ef326c8b](https://github.com/NVIDIA/Model-Optimizer/commit/ef326c8b9bb40e8a64b18ae202aca45c3f6c0204) | [#1219](https://github.com/NVIDIA/Model-Optimizer/pull/1219) | [@yueshen2016](https://github.com/yueshen2016) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Add Gemma4 MoE quantization support |
@@ -64,4 +66,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 58 PRs**
+**Total: 60 PRs**

@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-11 | [f591131c](https://github.com/NVIDIA/Model-Optimizer/commit/f591131ca3da55a0276bab4f4700936e1a266d07) | [#1408](https://github.com/NVIDIA/Model-Optimizer/pull/1408) | [@ajrasane](https://github.com/ajrasane) | `export` `onnx` `quantization` `tests` | \[6106576\] Restore qdq_utils symbols used by edgellm 0.6.1 |
+| 2026-05-11 | [acabf876](https://github.com/NVIDIA/Model-Optimizer/commit/acabf8764f2a27f85995f1441cd5f39054cc279c) | [#1426](https://github.com/NVIDIA/Model-Optimizer/pull/1426) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1393 #1389 #1268 #1397 #1402 #1411 #1410 #1419 #1408 #1416 |
 | 2026-05-07 | [555be6c2](https://github.com/NVIDIA/Model-Optimizer/commit/555be6c2036921f68a7328df6cc4b7c4668815f9) | [#1383](https://github.com/NVIDIA/Model-Optimizer/pull/1383) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `onnx` `tests` | Add unit test for checking any leak of temporary augmented onnx files, on exception during ONNX INT4 AWQ quantization |
 | 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
 | 2026-05-05 | [540cd2a3](https://github.com/NVIDIA/Model-Optimizer/commit/540cd2a357bbfb7e3a5d35b218db5761697b6b30) | [#1353](https://github.com/NVIDIA/Model-Optimizer/pull/1353) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` `tests` | \[6110209\] Patch zero FP16 scales in INT4_AWQ ONNX export |
@@ -74,4 +76,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 68 PRs**
+**Total: 70 PRs**

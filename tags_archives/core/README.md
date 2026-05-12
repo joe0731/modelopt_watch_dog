@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-11 | [acabf876](https://github.com/NVIDIA/Model-Optimizer/commit/acabf8764f2a27f85995f1441cd5f39054cc279c) | [#1426](https://github.com/NVIDIA/Model-Optimizer/pull/1426) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1393 #1389 #1268 #1397 #1402 #1411 #1410 #1419 #1408 #1416 |
 | 2026-05-09 | [a098759b](https://github.com/NVIDIA/Model-Optimizer/commit/a098759b614e42125823f80e528617b4e8c46e3a) | [#1345](https://github.com/NVIDIA/Model-Optimizer/pull/1345) | [@shengliangxu](https://github.com/shengliangxu) | `core` `infra` `tests` `torch` | \[OMNIML-4021\]: align local JSONL loading with HF datasets path + keep original behaviour |
 | 2026-05-09 | [88e15433](https://github.com/NVIDIA/Model-Optimizer/commit/88e154339ba248dc77efcd693076fecbc263d905) | [#1419](https://github.com/NVIDIA/Model-Optimizer/pull/1419) | [@sugunav14](https://github.com/sugunav14) | `core` `torch` | Fix 6115282 |
 | 2026-05-06 | [f34f488a](https://github.com/NVIDIA/Model-Optimizer/commit/f34f488a83fdbc0728a0b07a5ed620f8dfd884a3) | [#1253](https://github.com/NVIDIA/Model-Optimizer/pull/1253) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Add a general composable $import system for YAML configs, and use it to implement composable recipes |
@@ -81,4 +82,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 75 PRs**
+**Total: 76 PRs**

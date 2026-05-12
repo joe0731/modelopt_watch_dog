@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-11 | [acabf876](https://github.com/NVIDIA/Model-Optimizer/commit/acabf8764f2a27f85995f1441cd5f39054cc279c) | [#1426](https://github.com/NVIDIA/Model-Optimizer/pull/1426) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1393 #1389 #1268 #1397 #1402 #1411 #1410 #1419 #1408 #1416 |
 | 2026-05-05 | [cc06062b](https://github.com/NVIDIA/Model-Optimizer/commit/cc06062b353c88e497081ca1a5dbed25f702c671) | [#1385](https://github.com/NVIDIA/Model-Optimizer/pull/1385) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1352 #1351 #1330 #1354 #1355 #1360 #1342 #1324 #1340 #1368 #1373 #1359 #1361 #1325 #1369 #1370 #1371 #1375 #1386 #1353 #1356 #1390 |
 | 2026-05-05 | [7097a691](https://github.com/NVIDIA/Model-Optimizer/commit/7097a6910ea92a729cfc30a7db95f5445065ecc8) | [#1389](https://github.com/NVIDIA/Model-Optimizer/pull/1389) | [@milesial](https://github.com/milesial) | `example` `speculative_decoding` `torch` | \[specdec_bench\] Stratify --num_requests across categories |
 | 2026-05-04 | [383ab4e2](https://github.com/NVIDIA/Model-Optimizer/commit/383ab4e22458ccbd48ceac23d048169a50041ed3) | [#1370](https://github.com/NVIDIA/Model-Optimizer/pull/1370) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | fix: include medusa in data_module assignment in main.py |
@@ -48,4 +49,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 42 PRs**
+**Total: 43 PRs**

@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-12",
+    "commit": "7a11fb240fa02df15310b3d72e2eac5f47211332",
+    "pr_number": 1428,
+    "author": "kevalmorabia97",
+    "title": "docs: add deprecation policy to README",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-05-11",
     "commit": "c2641ed3ec45c64a68f6241c20ee1be812d2165f",
     "pr_number": 1425,
@@ -7,6 +17,54 @@
     "title": "[chore]: weekly bump of uv.lock on main (2026-05-11)",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-05-11",
+    "commit": "f591131ca3da55a0276bab4f4700936e1a266d07",
+    "pr_number": 1408,
+    "author": "ajrasane",
+    "title": "[6106576] Restore qdq_utils symbols used by edgellm 0.6.1",
+    "tags": [
+      "export",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-05-11",
+    "commit": "d30ebbd455a16716605f4a52beb8e2b1cec0f941",
+    "pr_number": 1416,
+    "author": "kevalmorabia97",
+    "title": "fix(llm_eval): migrate lm_eval_hf.py to lm-eval >= 0.4.10 HarnessCLI",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-11",
+    "commit": "acabf8764f2a27f85995f1441cd5f39054cc279c",
+    "pr_number": 1426,
+    "author": "kevalmorabia97",
+    "title": "[Cherry-pick] PRs #1393 #1389 #1268 #1397 #1402 #1411 #1410 #1419 #1408 #1416",
+    "tags": [
+      "core",
+      "deploy",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "sparsity",
+      "speculative_decoding",
+      "tests",
+      "torch"
     ]
   },
   {

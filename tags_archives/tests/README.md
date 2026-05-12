@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-11 | [f591131c](https://github.com/NVIDIA/Model-Optimizer/commit/f591131ca3da55a0276bab4f4700936e1a266d07) | [#1408](https://github.com/NVIDIA/Model-Optimizer/pull/1408) | [@ajrasane](https://github.com/ajrasane) | `export` `onnx` `quantization` `tests` | \[6106576\] Restore qdq_utils symbols used by edgellm 0.6.1 |
+| 2026-05-11 | [d30ebbd4](https://github.com/NVIDIA/Model-Optimizer/commit/d30ebbd455a16716605f4a52beb8e2b1cec0f941) | [#1416](https://github.com/NVIDIA/Model-Optimizer/pull/1416) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `tests` `torch` | fix(llm_eval): migrate lm_eval_hf.py to lm-eval \>= 0.4.10 HarnessCLI |
+| 2026-05-11 | [acabf876](https://github.com/NVIDIA/Model-Optimizer/commit/acabf8764f2a27f85995f1441cd5f39054cc279c) | [#1426](https://github.com/NVIDIA/Model-Optimizer/pull/1426) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1393 #1389 #1268 #1397 #1402 #1411 #1410 #1419 #1408 #1416 |
 | 2026-05-09 | [a098759b](https://github.com/NVIDIA/Model-Optimizer/commit/a098759b614e42125823f80e528617b4e8c46e3a) | [#1345](https://github.com/NVIDIA/Model-Optimizer/pull/1345) | [@shengliangxu](https://github.com/shengliangxu) | `core` `infra` `tests` `torch` | \[OMNIML-4021\]: align local JSONL loading with HF datasets path + keep original behaviour |
 | 2026-05-08 | [e2d29c86](https://github.com/NVIDIA/Model-Optimizer/commit/e2d29c869b97aae5cfacd5be4db079951a43e2ac) | [#1410](https://github.com/NVIDIA/Model-Optimizer/pull/1410) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[NVBug 6143871\] Fix awq_lite uncalibrated branch leaving input_quantizer disabled |
 | 2026-05-08 | [1d796f97](https://github.com/NVIDIA/Model-Optimizer/commit/1d796f97142d0b3699d00f8303b2f2030fab8fd8) | [#1387](https://github.com/NVIDIA/Model-Optimizer/pull/1387) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[Quantization\] Fused Triton kernel for NVFP4 FP8 scale sweep search |
@@ -177,4 +180,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 171 PRs**
+**Total: 174 PRs**

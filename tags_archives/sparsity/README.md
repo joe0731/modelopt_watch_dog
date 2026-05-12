@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-11 | [acabf876](https://github.com/NVIDIA/Model-Optimizer/commit/acabf8764f2a27f85995f1441cd5f39054cc279c) | [#1426](https://github.com/NVIDIA/Model-Optimizer/pull/1426) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1393 #1389 #1268 #1397 #1402 #1411 #1410 #1419 #1408 #1416 |
 | 2026-05-05 | [d794595b](https://github.com/NVIDIA/Model-Optimizer/commit/d794595bf8e697f2924afffadbc173bcfd652078) | [#1393](https://github.com/NVIDIA/Model-Optimizer/pull/1393) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `sparsity` `torch` | llm_sparsity: Set warmup_steps 0 instead of 0.0 for transformers 5.x compat |
 | 2026-04-22 | [c7966119](https://github.com/NVIDIA/Model-Optimizer/commit/c7966119eb7fdec1bac4ad938413048f145a45fb) | [#1303](https://github.com/NVIDIA/Model-Optimizer/pull/1303) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `infra` `quantization` `sparsity` `tests` `torch` | Reorg the sparse/quant/common kernel dir |
 | 2026-04-18 | [feec81ad](https://github.com/NVIDIA/Model-Optimizer/commit/feec81ad2b049d9b5f6c0dd3d5f318fbef150aa4) | [#1166](https://github.com/NVIDIA/Model-Optimizer/pull/1166) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | Add the Skip softmax for diffusion |
@@ -24,4 +25,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 18 PRs**
+**Total: 19 PRs**

@@ -4,7 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-12 | [7a11fb24](https://github.com/NVIDIA/Model-Optimizer/commit/7a11fb240fa02df15310b3d72e2eac5f47211332) | [#1428](https://github.com/NVIDIA/Model-Optimizer/pull/1428) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | docs: add deprecation policy to README |
 | 2026-05-11 | [c2641ed3](https://github.com/NVIDIA/Model-Optimizer/commit/c2641ed3ec45c64a68f6241c20ee1be812d2165f) | [#1425](https://github.com/NVIDIA/Model-Optimizer/pull/1425) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-05-11) |
+| 2026-05-11 | [d30ebbd4](https://github.com/NVIDIA/Model-Optimizer/commit/d30ebbd455a16716605f4a52beb8e2b1cec0f941) | [#1416](https://github.com/NVIDIA/Model-Optimizer/pull/1416) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `tests` `torch` | fix(llm_eval): migrate lm_eval_hf.py to lm-eval \>= 0.4.10 HarnessCLI |
+| 2026-05-11 | [acabf876](https://github.com/NVIDIA/Model-Optimizer/commit/acabf8764f2a27f85995f1441cd5f39054cc279c) | [#1426](https://github.com/NVIDIA/Model-Optimizer/pull/1426) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1393 #1389 #1268 #1397 #1402 #1411 #1410 #1419 #1408 #1416 |
 | 2026-05-09 | [a098759b](https://github.com/NVIDIA/Model-Optimizer/commit/a098759b614e42125823f80e528617b4e8c46e3a) | [#1345](https://github.com/NVIDIA/Model-Optimizer/pull/1345) | [@shengliangxu](https://github.com/shengliangxu) | `core` `infra` `tests` `torch` | \[OMNIML-4021\]: align local JSONL loading with HF datasets path + keep original behaviour |
 | 2026-05-08 | [1d796f97](https://github.com/NVIDIA/Model-Optimizer/commit/1d796f97142d0b3699d00f8303b2f2030fab8fd8) | [#1387](https://github.com/NVIDIA/Model-Optimizer/pull/1387) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | \[Quantization\] Fused Triton kernel for NVFP4 FP8 scale sweep search |
 | 2026-05-07 | [fe9644eb](https://github.com/NVIDIA/Model-Optimizer/commit/fe9644eb5c2a318acc9e8b89b3bed0e500d34e1e) | [#1401](https://github.com/NVIDIA/Model-Optimizer/pull/1401) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | \[CI\] Fix Claude GitHub Actions setup |
@@ -209,4 +212,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 203 PRs**
+**Total: 206 PRs**
