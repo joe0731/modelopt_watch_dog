@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-12 | [2ce745a9](https://github.com/NVIDIA/Model-Optimizer/commit/2ce745a92ecc3103df28011936a4e131accaf080) | [#1427](https://github.com/NVIDIA/Model-Optimizer/pull/1427) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Deprecate gradnas pruning and bert example |
+| 2026-05-12 | [5508c327](https://github.com/NVIDIA/Model-Optimizer/commit/5508c327fbf9cc265e3318623be55d55e85d4b2b) | [#1421](https://github.com/NVIDIA/Model-Optimizer/pull/1421) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `quantization` `tests` `torch` | \[Quantization\] MSE-calibrate every per-expert weight in fused-experts MoE |
+| 2026-05-12 | [5da4d636](https://github.com/NVIDIA/Model-Optimizer/commit/5da4d636fc367dd03ac4eeb7caffd9250c2db5b7) | [#1473](https://github.com/NVIDIA/Model-Optimizer/pull/1473) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `quantization` `torch` | fix(te-plugin): make _Linear arg indexing robust to TE signature changes |
+| 2026-05-12 | [62401e16](https://github.com/NVIDIA/Model-Optimizer/commit/62401e16df747ba82e24e66f93eb831928256630) | [#1310](https://github.com/NVIDIA/Model-Optimizer/pull/1310) | [@realAsma](https://github.com/realAsma) | `docs` `eval` `example` `infra` `quantization` `tests` `torch` | fix: layerwise calibration backward-compat, recipe split, batch-size guard |
 | 2026-05-11 | [f591131c](https://github.com/NVIDIA/Model-Optimizer/commit/f591131ca3da55a0276bab4f4700936e1a266d07) | [#1408](https://github.com/NVIDIA/Model-Optimizer/pull/1408) | [@ajrasane](https://github.com/ajrasane) | `export` `onnx` `quantization` `tests` | \[6106576\] Restore qdq_utils symbols used by edgellm 0.6.1 |
 | 2026-05-11 | [acabf876](https://github.com/NVIDIA/Model-Optimizer/commit/acabf8764f2a27f85995f1441cd5f39054cc279c) | [#1426](https://github.com/NVIDIA/Model-Optimizer/pull/1426) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1393 #1389 #1268 #1397 #1402 #1411 #1410 #1419 #1408 #1416 |
 | 2026-05-08 | [e2d29c86](https://github.com/NVIDIA/Model-Optimizer/commit/e2d29c869b97aae5cfacd5be4db079951a43e2ac) | [#1410](https://github.com/NVIDIA/Model-Optimizer/pull/1410) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[NVBug 6143871\] Fix awq_lite uncalibrated branch leaving input_quantizer disabled |
@@ -182,4 +186,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 176 PRs**
+**Total: 180 PRs**

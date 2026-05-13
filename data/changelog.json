@@ -10,6 +10,87 @@
     ]
   },
   {
+    "date": "2026-05-12",
+    "commit": "2ce745a92ecc3103df28011936a4e131accaf080",
+    "pr_number": 1427,
+    "author": "kevalmorabia97",
+    "title": "Deprecate gradnas pruning and bert example",
+    "tags": [
+      "core",
+      "docs",
+      "example",
+      "infra",
+      "nas",
+      "pruning",
+      "quantization",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-12",
+    "commit": "5508c327fbf9cc265e3318623be55d55e85d4b2b",
+    "pr_number": 1421,
+    "author": "cjluo-nv",
+    "title": "[Quantization] MSE-calibrate every per-expert weight in fused-experts MoE",
+    "tags": [
+      "export",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-12",
+    "commit": "d738995fe8c7a4c3d9a183b4d5836891e9738cd0",
+    "pr_number": 1471,
+    "author": "kevalmorabia97",
+    "title": "feat(opt): validate loaded modelopt state files",
+    "tags": [
+      "core",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-12",
+    "commit": "0e46a389ab89a263869242c1deea4e240ff27ef1",
+    "pr_number": 1357,
+    "author": "kaix-nv",
+    "title": "Add pre-built evaluation recipes for common benchmarks",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-12",
+    "commit": "5da4d636fc367dd03ac4eeb7caffd9250c2db5b7",
+    "pr_number": 1473,
+    "author": "kevalmorabia97",
+    "title": "fix(te-plugin): make _Linear arg indexing robust to TE signature changes",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-12",
+    "commit": "62401e16df747ba82e24e66f93eb831928256630",
+    "pr_number": 1310,
+    "author": "realAsma",
+    "title": "fix: layerwise calibration backward-compat, recipe split, batch-size guard",
+    "tags": [
+      "docs",
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-11",
     "commit": "c2641ed3ec45c64a68f6241c20ee1be812d2165f",
     "pr_number": 1425,

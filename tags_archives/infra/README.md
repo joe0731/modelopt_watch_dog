@@ -5,6 +5,9 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-05-12 | [7a11fb24](https://github.com/NVIDIA/Model-Optimizer/commit/7a11fb240fa02df15310b3d72e2eac5f47211332) | [#1428](https://github.com/NVIDIA/Model-Optimizer/pull/1428) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | docs: add deprecation policy to README |
+| 2026-05-12 | [2ce745a9](https://github.com/NVIDIA/Model-Optimizer/commit/2ce745a92ecc3103df28011936a4e131accaf080) | [#1427](https://github.com/NVIDIA/Model-Optimizer/pull/1427) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Deprecate gradnas pruning and bert example |
+| 2026-05-12 | [0e46a389](https://github.com/NVIDIA/Model-Optimizer/commit/0e46a389ab89a263869242c1deea4e240ff27ef1) | [#1357](https://github.com/NVIDIA/Model-Optimizer/pull/1357) | [@kaix-nv](https://github.com/kaix-nv) | `infra` | Add pre-built evaluation recipes for common benchmarks |
+| 2026-05-12 | [62401e16](https://github.com/NVIDIA/Model-Optimizer/commit/62401e16df747ba82e24e66f93eb831928256630) | [#1310](https://github.com/NVIDIA/Model-Optimizer/pull/1310) | [@realAsma](https://github.com/realAsma) | `docs` `eval` `example` `infra` `quantization` `tests` `torch` | fix: layerwise calibration backward-compat, recipe split, batch-size guard |
 | 2026-05-11 | [c2641ed3](https://github.com/NVIDIA/Model-Optimizer/commit/c2641ed3ec45c64a68f6241c20ee1be812d2165f) | [#1425](https://github.com/NVIDIA/Model-Optimizer/pull/1425) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-05-11) |
 | 2026-05-11 | [d30ebbd4](https://github.com/NVIDIA/Model-Optimizer/commit/d30ebbd455a16716605f4a52beb8e2b1cec0f941) | [#1416](https://github.com/NVIDIA/Model-Optimizer/pull/1416) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `tests` `torch` | fix(llm_eval): migrate lm_eval_hf.py to lm-eval \>= 0.4.10 HarnessCLI |
 | 2026-05-11 | [acabf876](https://github.com/NVIDIA/Model-Optimizer/commit/acabf8764f2a27f85995f1441cd5f39054cc279c) | [#1426](https://github.com/NVIDIA/Model-Optimizer/pull/1426) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1393 #1389 #1268 #1397 #1402 #1411 #1410 #1419 #1408 #1416 |
@@ -212,4 +215,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 206 PRs**
+**Total: 209 PRs**
