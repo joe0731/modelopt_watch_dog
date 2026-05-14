@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-13 | [94337ade](https://github.com/NVIDIA/Model-Optimizer/commit/94337ade75265f537e7c3fb2592ac1df1098264d) | [#1481](https://github.com/NVIDIA/Model-Optimizer/pull/1481) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `quantization` `torch` | fix(te-plugin): handle TE 2.15+ tuple return from _Linear / _GroupedLinear |
+| 2026-05-13 | [229ba618](https://github.com/NVIDIA/Model-Optimizer/commit/229ba61877a144991b4aad7e32d0209f946d4c95) | [#1479](https://github.com/NVIDIA/Model-Optimizer/pull/1479) | [@ajrasane](https://github.com/ajrasane) | `quantization` `torch` | \[OMNIML-3050\] Enable torch.compile on _get_log_softmax_dist |
 | 2026-05-12 | [2ce745a9](https://github.com/NVIDIA/Model-Optimizer/commit/2ce745a92ecc3103df28011936a4e131accaf080) | [#1427](https://github.com/NVIDIA/Model-Optimizer/pull/1427) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Deprecate gradnas pruning and bert example |
 | 2026-05-12 | [5508c327](https://github.com/NVIDIA/Model-Optimizer/commit/5508c327fbf9cc265e3318623be55d55e85d4b2b) | [#1421](https://github.com/NVIDIA/Model-Optimizer/pull/1421) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `quantization` `tests` `torch` | \[Quantization\] MSE-calibrate every per-expert weight in fused-experts MoE |
 | 2026-05-12 | [5da4d636](https://github.com/NVIDIA/Model-Optimizer/commit/5da4d636fc367dd03ac4eeb7caffd9250c2db5b7) | [#1473](https://github.com/NVIDIA/Model-Optimizer/pull/1473) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `quantization` `torch` | fix(te-plugin): make _Linear arg indexing robust to TE signature changes |
@@ -186,4 +188,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 180 PRs**
+**Total: 182 PRs**

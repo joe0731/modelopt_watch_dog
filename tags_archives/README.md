@@ -18,11 +18,11 @@ Click a tag to see its full history.
 | [`nas`](nas/) | neural architecture search, hyperparameter optimization | 9 |
 | [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 70 |
 | [`pruning`](pruning/) | model pruning, structured and unstructured | 18 |
-| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 180 |
+| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 182 |
 | [`sparsity`](sparsity/) | weight sparsity, attention sparsity | 20 |
 | [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 43 |
 | [`tests`](tests/) | test infrastructure, test utilities | 178 |
-| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 266 |
+| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 268 |
 | [`vllm`](vllm/) | vLLM serving and integration | 9 |
 | [`vlm`](vlm/) | vision-language model optimization | 2 |
 | [`windows`](windows/) | Windows platform-specific code and examples | 15 |

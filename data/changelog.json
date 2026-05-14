@@ -1,5 +1,27 @@
 [
   {
+    "date": "2026-05-13",
+    "commit": "94337ade75265f537e7c3fb2592ac1df1098264d",
+    "pr_number": 1481,
+    "author": "kevalmorabia97",
+    "title": "fix(te-plugin): handle TE 2.15+ tuple return from _Linear / _GroupedLinear",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-13",
+    "commit": "229ba61877a144991b4aad7e32d0209f946d4c95",
+    "pr_number": 1479,
+    "author": "ajrasane",
+    "title": "[OMNIML-3050] Enable torch.compile on _get_log_softmax_dist",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-12",
     "commit": "7a11fb240fa02df15310b3d72e2eac5f47211332",
     "pr_number": 1428,
