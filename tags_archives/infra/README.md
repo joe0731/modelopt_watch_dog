@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-14 | [e27f76fb](https://github.com/NVIDIA/Model-Optimizer/commit/e27f76fbfe6652da72b31a0f3ae14538163e8339) | [#1488](https://github.com/NVIDIA/Model-Optimizer/pull/1488) | [@realAsma](https://github.com/realAsma) | `infra` | Refine agent contribution guidance |
 | 2026-05-12 | [7a11fb24](https://github.com/NVIDIA/Model-Optimizer/commit/7a11fb240fa02df15310b3d72e2eac5f47211332) | [#1428](https://github.com/NVIDIA/Model-Optimizer/pull/1428) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | docs: add deprecation policy to README |
 | 2026-05-12 | [2ce745a9](https://github.com/NVIDIA/Model-Optimizer/commit/2ce745a92ecc3103df28011936a4e131accaf080) | [#1427](https://github.com/NVIDIA/Model-Optimizer/pull/1427) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Deprecate gradnas pruning and bert example |
 | 2026-05-12 | [0e46a389](https://github.com/NVIDIA/Model-Optimizer/commit/0e46a389ab89a263869242c1deea4e240ff27ef1) | [#1357](https://github.com/NVIDIA/Model-Optimizer/pull/1357) | [@kaix-nv](https://github.com/kaix-nv) | `infra` | Add pre-built evaluation recipes for common benchmarks |
@@ -215,4 +216,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 209 PRs**
+**Total: 210 PRs**

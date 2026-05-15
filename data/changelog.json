@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-05-14",
+    "commit": "e27f76fbfe6652da72b31a0f3ae14538163e8339",
+    "pr_number": 1488,
+    "author": "realAsma",
+    "title": "Refine agent contribution guidance",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-05-13",
     "commit": "94337ade75265f537e7c3fb2592ac1df1098264d",
     "pr_number": 1481,

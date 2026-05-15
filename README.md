@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-05-14 | [e27f76fb](https://github.com/NVIDIA/Model-Optimizer/commit/e27f76fbfe6652da72b31a0f3ae14538163e8339) | [#1488](https://github.com/NVIDIA/Model-Optimizer/pull/1488) | [@realAsma](https://github.com/realAsma) | `infra` | Refine agent contribution guidance |
 | 2026-05-13 | [94337ade](https://github.com/NVIDIA/Model-Optimizer/commit/94337ade75265f537e7c3fb2592ac1df1098264d) | [#1481](https://github.com/NVIDIA/Model-Optimizer/pull/1481) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `quantization` `torch` | fix(te-plugin): handle TE 2.15+ tuple return from _Linear / _GroupedLinear |
 | 2026-05-13 | [229ba618](https://github.com/NVIDIA/Model-Optimizer/commit/229ba61877a144991b4aad7e32d0209f946d4c95) | [#1479](https://github.com/NVIDIA/Model-Optimizer/pull/1479) | [@ajrasane](https://github.com/ajrasane) | `quantization` `torch` | \[OMNIML-3050\] Enable torch.compile on _get_log_softmax_dist |
 | 2026-05-12 | [2ce745a9](https://github.com/NVIDIA/Model-Optimizer/commit/2ce745a92ecc3103df28011936a4e131accaf080) | [#1427](https://github.com/NVIDIA/Model-Optimizer/pull/1427) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Deprecate gradnas pruning and bert example |

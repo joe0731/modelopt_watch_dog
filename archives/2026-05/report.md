@@ -8,6 +8,7 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-05-14 | [e27f76fb](https://github.com/NVIDIA/Model-Optimizer/commit/e27f76fbfe6652da72b31a0f3ae14538163e8339) | [#1488](https://github.com/NVIDIA/Model-Optimizer/pull/1488) | [@realAsma](https://github.com/realAsma) | `infra` | Refine agent contribution guidance |
 |  | 2026-05-13 | [94337ade](https://github.com/NVIDIA/Model-Optimizer/commit/94337ade75265f537e7c3fb2592ac1df1098264d) | [#1481](https://github.com/NVIDIA/Model-Optimizer/pull/1481) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `quantization` `torch` | fix(te-plugin): handle TE 2.15+ tuple return from _Linear / _GroupedLinear |
 |  | 2026-05-13 | [229ba618](https://github.com/NVIDIA/Model-Optimizer/commit/229ba61877a144991b4aad7e32d0209f946d4c95) | [#1479](https://github.com/NVIDIA/Model-Optimizer/pull/1479) | [@ajrasane](https://github.com/ajrasane) | `quantization` `torch` | \[OMNIML-3050\] Enable torch.compile on _get_log_softmax_dist |
 |  | 2026-05-12 | [7a11fb24](https://github.com/NVIDIA/Model-Optimizer/commit/7a11fb240fa02df15310b3d72e2eac5f47211332) | [#1428](https://github.com/NVIDIA/Model-Optimizer/pull/1428) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | docs: add deprecation policy to README |
@@ -56,4 +57,4 @@
 |  | 2026-05-01 | [9d2e6087](https://github.com/NVIDIA/Model-Optimizer/commit/9d2e6087d1c0d99a6d5441dc0c685da36af51055) | [#1365](https://github.com/NVIDIA/Model-Optimizer/pull/1365) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Fix\]: $HOME in launcher eagle example |
 
 ---
-**Total: 46 PRs** | **Highlighted: 15**
+**Total: 47 PRs** | **Highlighted: 15**
