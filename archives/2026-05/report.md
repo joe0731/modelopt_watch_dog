@@ -8,6 +8,11 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-05-16 | [81c4fb25](https://github.com/NVIDIA/Model-Optimizer/commit/81c4fb25aba3b520c5ff1a1b8c02500a6757e5b6) | [#1498](https://github.com/NVIDIA/Model-Optimizer/pull/1498) | [@Fridah-nv](https://github.com/Fridah-nv) | `core` `tests` `torch` | Add 7 nvidia/Nemotron-* calibration datasets to SUPPORTED_DATASET_CONFIG |
+| 🟡 | **2026-05-15** | **[a451a2ba](https://github.com/NVIDIA/Model-Optimizer/commit/a451a2baf85b5e5274f64772a3e9689ac28aaebe)** | **[#1313](https://github.com/NVIDIA/Model-Optimizer/pull/1313)** | **[@hychiang-git](https://github.com/hychiang-git)** | `eval` `example` `export` `infra` `quantization` `tests` `torch` | **Support NVFP4 W4A16 quantization** |
+|  | 2026-05-15 | [4e344805](https://github.com/NVIDIA/Model-Optimizer/commit/4e344805f4d70daa7ff6f51af934c798c0e88cce) | [#1500](https://github.com/NVIDIA/Model-Optimizer/pull/1500) | [@hychiang-git](https://github.com/hychiang-git) | `infra` | Move NVFP4 W4A16 weight-only quantization to 0.45 |
+|  | 2026-05-15 | [7f1f223d](https://github.com/NVIDIA/Model-Optimizer/commit/7f1f223d8f31e340563c0175788caabca62d11c6) | [#1432](https://github.com/NVIDIA/Model-Optimizer/pull/1432) | [@h-guo18](https://github.com/h-guo18) | `example` `speculative_decoding` `torch` | \[Feat\]: Add dflash in specdec-bench |
+|  | 2026-05-15 | [701934bf](https://github.com/NVIDIA/Model-Optimizer/commit/701934bf031112dbed21c7725d369a9bf28bd535) | [#1382](https://github.com/NVIDIA/Model-Optimizer/pull/1382) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | fixes for fused moe (qwen3.6, GLM5.1 + MSE calibration |
 |  | 2026-05-14 | [e27f76fb](https://github.com/NVIDIA/Model-Optimizer/commit/e27f76fbfe6652da72b31a0f3ae14538163e8339) | [#1488](https://github.com/NVIDIA/Model-Optimizer/pull/1488) | [@realAsma](https://github.com/realAsma) | `infra` | Refine agent contribution guidance |
 |  | 2026-05-13 | [94337ade](https://github.com/NVIDIA/Model-Optimizer/commit/94337ade75265f537e7c3fb2592ac1df1098264d) | [#1481](https://github.com/NVIDIA/Model-Optimizer/pull/1481) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `quantization` `torch` | fix(te-plugin): handle TE 2.15+ tuple return from _Linear / _GroupedLinear |
 |  | 2026-05-13 | [229ba618](https://github.com/NVIDIA/Model-Optimizer/commit/229ba61877a144991b4aad7e32d0209f946d4c95) | [#1479](https://github.com/NVIDIA/Model-Optimizer/pull/1479) | [@ajrasane](https://github.com/ajrasane) | `quantization` `torch` | \[OMNIML-3050\] Enable torch.compile on _get_log_softmax_dist |
@@ -57,4 +62,4 @@
 |  | 2026-05-01 | [9d2e6087](https://github.com/NVIDIA/Model-Optimizer/commit/9d2e6087d1c0d99a6d5441dc0c685da36af51055) | [#1365](https://github.com/NVIDIA/Model-Optimizer/pull/1365) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Fix\]: $HOME in launcher eagle example |
 
 ---
-**Total: 47 PRs** | **Highlighted: 15**
+**Total: 52 PRs** | **Highlighted: 16**

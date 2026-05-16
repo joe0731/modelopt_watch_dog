@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-16 | [81c4fb25](https://github.com/NVIDIA/Model-Optimizer/commit/81c4fb25aba3b520c5ff1a1b8c02500a6757e5b6) | [#1498](https://github.com/NVIDIA/Model-Optimizer/pull/1498) | [@Fridah-nv](https://github.com/Fridah-nv) | `core` `tests` `torch` | Add 7 nvidia/Nemotron-* calibration datasets to SUPPORTED_DATASET_CONFIG |
+| 2026-05-15 | [a451a2ba](https://github.com/NVIDIA/Model-Optimizer/commit/a451a2baf85b5e5274f64772a3e9689ac28aaebe) | [#1313](https://github.com/NVIDIA/Model-Optimizer/pull/1313) | [@hychiang-git](https://github.com/hychiang-git) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Support NVFP4 W4A16 quantization |
+| 2026-05-15 | [701934bf](https://github.com/NVIDIA/Model-Optimizer/commit/701934bf031112dbed21c7725d369a9bf28bd535) | [#1382](https://github.com/NVIDIA/Model-Optimizer/pull/1382) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | fixes for fused moe (qwen3.6, GLM5.1 + MSE calibration |
 | 2026-05-12 | [2ce745a9](https://github.com/NVIDIA/Model-Optimizer/commit/2ce745a92ecc3103df28011936a4e131accaf080) | [#1427](https://github.com/NVIDIA/Model-Optimizer/pull/1427) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Deprecate gradnas pruning and bert example |
 | 2026-05-12 | [5508c327](https://github.com/NVIDIA/Model-Optimizer/commit/5508c327fbf9cc265e3318623be55d55e85d4b2b) | [#1421](https://github.com/NVIDIA/Model-Optimizer/pull/1421) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `quantization` `tests` `torch` | \[Quantization\] MSE-calibrate every per-expert weight in fused-experts MoE |
 | 2026-05-12 | [d738995f](https://github.com/NVIDIA/Model-Optimizer/commit/d738995fe8c7a4c3d9a183b4d5836891e9738cd0) | [#1471](https://github.com/NVIDIA/Model-Optimizer/pull/1471) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | feat(opt): validate loaded modelopt state files |
@@ -184,4 +187,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 178 PRs**
+**Total: 181 PRs**

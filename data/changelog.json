@@ -1,5 +1,67 @@
 [
   {
+    "date": "2026-05-16",
+    "commit": "81c4fb25aba3b520c5ff1a1b8c02500a6757e5b6",
+    "pr_number": 1498,
+    "author": "Fridah-nv",
+    "title": "Add 7 nvidia/Nemotron-* calibration datasets to SUPPORTED_DATASET_CONFIG",
+    "tags": [
+      "core",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-15",
+    "commit": "a451a2baf85b5e5274f64772a3e9689ac28aaebe",
+    "pr_number": 1313,
+    "author": "hychiang-git",
+    "title": "Support NVFP4 W4A16 quantization",
+    "tags": [
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-15",
+    "commit": "4e344805f4d70daa7ff6f51af934c798c0e88cce",
+    "pr_number": 1500,
+    "author": "hychiang-git",
+    "title": "Move NVFP4 W4A16 weight-only quantization to 0.45",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-15",
+    "commit": "7f1f223d8f31e340563c0175788caabca62d11c6",
+    "pr_number": 1432,
+    "author": "h-guo18",
+    "title": "[Feat]: Add dflash in specdec-bench",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-15",
+    "commit": "701934bf031112dbed21c7725d369a9bf28bd535",
+    "pr_number": 1382,
+    "author": "Fridah-nv",
+    "title": "fixes for fused moe (qwen3.6, GLM5.1 + MSE calibration",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-14",
     "commit": "e27f76fbfe6652da72b31a0f3ae14538163e8339",
     "pr_number": 1488,

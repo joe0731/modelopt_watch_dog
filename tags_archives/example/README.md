@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-15 | [a451a2ba](https://github.com/NVIDIA/Model-Optimizer/commit/a451a2baf85b5e5274f64772a3e9689ac28aaebe) | [#1313](https://github.com/NVIDIA/Model-Optimizer/pull/1313) | [@hychiang-git](https://github.com/hychiang-git) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Support NVFP4 W4A16 quantization |
+| 2026-05-15 | [7f1f223d](https://github.com/NVIDIA/Model-Optimizer/commit/7f1f223d8f31e340563c0175788caabca62d11c6) | [#1432](https://github.com/NVIDIA/Model-Optimizer/pull/1432) | [@h-guo18](https://github.com/h-guo18) | `example` `speculative_decoding` `torch` | \[Feat\]: Add dflash in specdec-bench |
 | 2026-05-12 | [2ce745a9](https://github.com/NVIDIA/Model-Optimizer/commit/2ce745a92ecc3103df28011936a4e131accaf080) | [#1427](https://github.com/NVIDIA/Model-Optimizer/pull/1427) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Deprecate gradnas pruning and bert example |
 | 2026-05-12 | [62401e16](https://github.com/NVIDIA/Model-Optimizer/commit/62401e16df747ba82e24e66f93eb831928256630) | [#1310](https://github.com/NVIDIA/Model-Optimizer/pull/1310) | [@realAsma](https://github.com/realAsma) | `docs` `eval` `example` `infra` `quantization` `tests` `torch` | fix: layerwise calibration backward-compat, recipe split, batch-size guard |
 | 2026-05-11 | [d30ebbd4](https://github.com/NVIDIA/Model-Optimizer/commit/d30ebbd455a16716605f4a52beb8e2b1cec0f941) | [#1416](https://github.com/NVIDIA/Model-Optimizer/pull/1416) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `tests` `torch` | fix(llm_eval): migrate lm_eval_hf.py to lm-eval \>= 0.4.10 HarnessCLI |
@@ -173,4 +175,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 167 PRs**
+**Total: 169 PRs**

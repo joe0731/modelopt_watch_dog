@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-16 | [81c4fb25](https://github.com/NVIDIA/Model-Optimizer/commit/81c4fb25aba3b520c5ff1a1b8c02500a6757e5b6) | [#1498](https://github.com/NVIDIA/Model-Optimizer/pull/1498) | [@Fridah-nv](https://github.com/Fridah-nv) | `core` `tests` `torch` | Add 7 nvidia/Nemotron-* calibration datasets to SUPPORTED_DATASET_CONFIG |
+| 2026-05-15 | [a451a2ba](https://github.com/NVIDIA/Model-Optimizer/commit/a451a2baf85b5e5274f64772a3e9689ac28aaebe) | [#1313](https://github.com/NVIDIA/Model-Optimizer/pull/1313) | [@hychiang-git](https://github.com/hychiang-git) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Support NVFP4 W4A16 quantization |
+| 2026-05-15 | [7f1f223d](https://github.com/NVIDIA/Model-Optimizer/commit/7f1f223d8f31e340563c0175788caabca62d11c6) | [#1432](https://github.com/NVIDIA/Model-Optimizer/pull/1432) | [@h-guo18](https://github.com/h-guo18) | `example` `speculative_decoding` `torch` | \[Feat\]: Add dflash in specdec-bench |
+| 2026-05-15 | [701934bf](https://github.com/NVIDIA/Model-Optimizer/commit/701934bf031112dbed21c7725d369a9bf28bd535) | [#1382](https://github.com/NVIDIA/Model-Optimizer/pull/1382) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | fixes for fused moe (qwen3.6, GLM5.1 + MSE calibration |
 | 2026-05-13 | [94337ade](https://github.com/NVIDIA/Model-Optimizer/commit/94337ade75265f537e7c3fb2592ac1df1098264d) | [#1481](https://github.com/NVIDIA/Model-Optimizer/pull/1481) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `quantization` `torch` | fix(te-plugin): handle TE 2.15+ tuple return from _Linear / _GroupedLinear |
 | 2026-05-13 | [229ba618](https://github.com/NVIDIA/Model-Optimizer/commit/229ba61877a144991b4aad7e32d0209f946d4c95) | [#1479](https://github.com/NVIDIA/Model-Optimizer/pull/1479) | [@ajrasane](https://github.com/ajrasane) | `quantization` `torch` | \[OMNIML-3050\] Enable torch.compile on _get_log_softmax_dist |
 | 2026-05-12 | [2ce745a9](https://github.com/NVIDIA/Model-Optimizer/commit/2ce745a92ecc3103df28011936a4e131accaf080) | [#1427](https://github.com/NVIDIA/Model-Optimizer/pull/1427) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Deprecate gradnas pruning and bert example |
@@ -274,4 +278,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 268 PRs**
+**Total: 272 PRs**

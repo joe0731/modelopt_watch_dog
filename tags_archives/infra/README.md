@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-15 | [a451a2ba](https://github.com/NVIDIA/Model-Optimizer/commit/a451a2baf85b5e5274f64772a3e9689ac28aaebe) | [#1313](https://github.com/NVIDIA/Model-Optimizer/pull/1313) | [@hychiang-git](https://github.com/hychiang-git) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Support NVFP4 W4A16 quantization |
+| 2026-05-15 | [4e344805](https://github.com/NVIDIA/Model-Optimizer/commit/4e344805f4d70daa7ff6f51af934c798c0e88cce) | [#1500](https://github.com/NVIDIA/Model-Optimizer/pull/1500) | [@hychiang-git](https://github.com/hychiang-git) | `infra` | Move NVFP4 W4A16 weight-only quantization to 0.45 |
 | 2026-05-14 | [e27f76fb](https://github.com/NVIDIA/Model-Optimizer/commit/e27f76fbfe6652da72b31a0f3ae14538163e8339) | [#1488](https://github.com/NVIDIA/Model-Optimizer/pull/1488) | [@realAsma](https://github.com/realAsma) | `infra` | Refine agent contribution guidance |
 | 2026-05-12 | [7a11fb24](https://github.com/NVIDIA/Model-Optimizer/commit/7a11fb240fa02df15310b3d72e2eac5f47211332) | [#1428](https://github.com/NVIDIA/Model-Optimizer/pull/1428) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | docs: add deprecation policy to README |
 | 2026-05-12 | [2ce745a9](https://github.com/NVIDIA/Model-Optimizer/commit/2ce745a92ecc3103df28011936a4e131accaf080) | [#1427](https://github.com/NVIDIA/Model-Optimizer/pull/1427) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Deprecate gradnas pruning and bert example |
@@ -216,4 +218,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 210 PRs**
+**Total: 212 PRs**
