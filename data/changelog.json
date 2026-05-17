@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-17",
+    "commit": "7038dec9181f9f12d9da2b330255f1ab2763980e",
+    "pr_number": 1328,
+    "author": "h-guo18",
+    "title": "[1/2Refactor] speculative decoding: use mto config subsystem",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-16",
     "commit": "81c4fb25aba3b520c5ff1a1b8c02500a6757e5b6",
     "pr_number": 1498,
