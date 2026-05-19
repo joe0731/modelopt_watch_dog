@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-18 | [f5650bd0](https://github.com/NVIDIA/Model-Optimizer/commit/f5650bd02cd1f8180f43d31985d5b8542a602cdc) | [#1405](https://github.com/NVIDIA/Model-Optimizer/pull/1405) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `onnx` `quantization` `tests` `torch` | Schematize config loading and quantizer config entries |
+| 2026-05-18 | [bd2e8e9a](https://github.com/NVIDIA/Model-Optimizer/commit/bd2e8e9a10506ccb2ae0a452d002c7b2d3e125a8) | [#1513](https://github.com/NVIDIA/Model-Optimizer/pull/1513) | [@realAsma](https://github.com/realAsma) | `core` `quantization` `tests` `torch` | Support auto_quantize for Megatron expert parallelism |
 | 2026-05-17 | [7038dec9](https://github.com/NVIDIA/Model-Optimizer/commit/7038dec9181f9f12d9da2b330255f1ab2763980e) | [#1328](https://github.com/NVIDIA/Model-Optimizer/pull/1328) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[1/2Refactor\] speculative decoding: use mto config subsystem |
 | 2026-05-16 | [81c4fb25](https://github.com/NVIDIA/Model-Optimizer/commit/81c4fb25aba3b520c5ff1a1b8c02500a6757e5b6) | [#1498](https://github.com/NVIDIA/Model-Optimizer/pull/1498) | [@Fridah-nv](https://github.com/Fridah-nv) | `core` `tests` `torch` | Add 7 nvidia/Nemotron-* calibration datasets to SUPPORTED_DATASET_CONFIG |
 | 2026-05-15 | [a451a2ba](https://github.com/NVIDIA/Model-Optimizer/commit/a451a2baf85b5e5274f64772a3e9689ac28aaebe) | [#1313](https://github.com/NVIDIA/Model-Optimizer/pull/1313) | [@hychiang-git](https://github.com/hychiang-git) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Support NVFP4 W4A16 quantization |
@@ -279,4 +281,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 273 PRs**
+**Total: 275 PRs**

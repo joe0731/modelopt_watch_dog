@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-18 | [f5650bd0](https://github.com/NVIDIA/Model-Optimizer/commit/f5650bd02cd1f8180f43d31985d5b8542a602cdc) | [#1405](https://github.com/NVIDIA/Model-Optimizer/pull/1405) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `onnx` `quantization` `tests` `torch` | Schematize config loading and quantizer config entries |
+| 2026-05-18 | [3d4f4cc1](https://github.com/NVIDIA/Model-Optimizer/commit/3d4f4cc1c238e24ce7f63186e89a7455ee936da6) | [#1511](https://github.com/NVIDIA/Model-Optimizer/pull/1511) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-05-18) |
+| 2026-05-18 | [3f88f0d7](https://github.com/NVIDIA/Model-Optimizer/commit/3f88f0d74e2cdcb44b885c633dc245d1e522d656) | [#1515](https://github.com/NVIDIA/Model-Optimizer/pull/1515) | [@snigenigmatic](https://github.com/snigenigmatic) | `infra` | Fix README: remove TensorRT container from ModelOpt pre-installed image list |
 | 2026-05-17 | [7038dec9](https://github.com/NVIDIA/Model-Optimizer/commit/7038dec9181f9f12d9da2b330255f1ab2763980e) | [#1328](https://github.com/NVIDIA/Model-Optimizer/pull/1328) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[1/2Refactor\] speculative decoding: use mto config subsystem |
 | 2026-05-15 | [a451a2ba](https://github.com/NVIDIA/Model-Optimizer/commit/a451a2baf85b5e5274f64772a3e9689ac28aaebe) | [#1313](https://github.com/NVIDIA/Model-Optimizer/pull/1313) | [@hychiang-git](https://github.com/hychiang-git) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Support NVFP4 W4A16 quantization |
 | 2026-05-15 | [4e344805](https://github.com/NVIDIA/Model-Optimizer/commit/4e344805f4d70daa7ff6f51af934c798c0e88cce) | [#1500](https://github.com/NVIDIA/Model-Optimizer/pull/1500) | [@hychiang-git](https://github.com/hychiang-git) | `infra` | Move NVFP4 W4A16 weight-only quantization to 0.45 |
@@ -219,4 +222,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 213 PRs**
+**Total: 216 PRs**

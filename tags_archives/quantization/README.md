@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-18 | [f5650bd0](https://github.com/NVIDIA/Model-Optimizer/commit/f5650bd02cd1f8180f43d31985d5b8542a602cdc) | [#1405](https://github.com/NVIDIA/Model-Optimizer/pull/1405) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `onnx` `quantization` `tests` `torch` | Schematize config loading and quantizer config entries |
+| 2026-05-18 | [bd2e8e9a](https://github.com/NVIDIA/Model-Optimizer/commit/bd2e8e9a10506ccb2ae0a452d002c7b2d3e125a8) | [#1513](https://github.com/NVIDIA/Model-Optimizer/pull/1513) | [@realAsma](https://github.com/realAsma) | `core` `quantization` `tests` `torch` | Support auto_quantize for Megatron expert parallelism |
 | 2026-05-15 | [a451a2ba](https://github.com/NVIDIA/Model-Optimizer/commit/a451a2baf85b5e5274f64772a3e9689ac28aaebe) | [#1313](https://github.com/NVIDIA/Model-Optimizer/pull/1313) | [@hychiang-git](https://github.com/hychiang-git) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Support NVFP4 W4A16 quantization |
 | 2026-05-15 | [701934bf](https://github.com/NVIDIA/Model-Optimizer/commit/701934bf031112dbed21c7725d369a9bf28bd535) | [#1382](https://github.com/NVIDIA/Model-Optimizer/pull/1382) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | fixes for fused moe (qwen3.6, GLM5.1 + MSE calibration |
 | 2026-05-13 | [94337ade](https://github.com/NVIDIA/Model-Optimizer/commit/94337ade75265f537e7c3fb2592ac1df1098264d) | [#1481](https://github.com/NVIDIA/Model-Optimizer/pull/1481) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `quantization` `torch` | fix(te-plugin): handle TE 2.15+ tuple return from _Linear / _GroupedLinear |
@@ -190,4 +192,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 184 PRs**
+**Total: 186 PRs**

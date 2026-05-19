@@ -8,6 +8,11 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-05-19 | [2b8defc1](https://github.com/NVIDIA/Model-Optimizer/commit/2b8defc14b601491bb1479117181048912e6fdfc) | [#1472](https://github.com/NVIDIA/Model-Optimizer/pull/1472) | [@shengliangxu](https://github.com/shengliangxu) | `docs` | \[OMNIML-4158\] \[OMNIML-4159\] ModelOpt config system documentation |
+| 🟠 | **2026-05-18** | **[f5650bd0](https://github.com/NVIDIA/Model-Optimizer/commit/f5650bd02cd1f8180f43d31985d5b8542a602cdc)** | **[#1405](https://github.com/NVIDIA/Model-Optimizer/pull/1405)** | **[@shengliangxu](https://github.com/shengliangxu)** | `core` `export` `infra` `onnx` `quantization` `tests` `torch` | **Schematize config loading and quantizer config entries** |
+|  | 2026-05-18 | [bd2e8e9a](https://github.com/NVIDIA/Model-Optimizer/commit/bd2e8e9a10506ccb2ae0a452d002c7b2d3e125a8) | [#1513](https://github.com/NVIDIA/Model-Optimizer/pull/1513) | [@realAsma](https://github.com/realAsma) | `core` `quantization` `tests` `torch` | Support auto_quantize for Megatron expert parallelism |
+|  | 2026-05-18 | [3d4f4cc1](https://github.com/NVIDIA/Model-Optimizer/commit/3d4f4cc1c238e24ce7f63186e89a7455ee936da6) | [#1511](https://github.com/NVIDIA/Model-Optimizer/pull/1511) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-05-18) |
+|  | 2026-05-18 | [3f88f0d7](https://github.com/NVIDIA/Model-Optimizer/commit/3f88f0d74e2cdcb44b885c633dc245d1e522d656) | [#1515](https://github.com/NVIDIA/Model-Optimizer/pull/1515) | [@snigenigmatic](https://github.com/snigenigmatic) | `infra` | Fix README: remove TensorRT container from ModelOpt pre-installed image list |
 |  | 2026-05-17 | [7038dec9](https://github.com/NVIDIA/Model-Optimizer/commit/7038dec9181f9f12d9da2b330255f1ab2763980e) | [#1328](https://github.com/NVIDIA/Model-Optimizer/pull/1328) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[1/2Refactor\] speculative decoding: use mto config subsystem |
 |  | 2026-05-16 | [81c4fb25](https://github.com/NVIDIA/Model-Optimizer/commit/81c4fb25aba3b520c5ff1a1b8c02500a6757e5b6) | [#1498](https://github.com/NVIDIA/Model-Optimizer/pull/1498) | [@Fridah-nv](https://github.com/Fridah-nv) | `core` `tests` `torch` | Add 7 nvidia/Nemotron-* calibration datasets to SUPPORTED_DATASET_CONFIG |
 | 🟡 | **2026-05-15** | **[a451a2ba](https://github.com/NVIDIA/Model-Optimizer/commit/a451a2baf85b5e5274f64772a3e9689ac28aaebe)** | **[#1313](https://github.com/NVIDIA/Model-Optimizer/pull/1313)** | **[@hychiang-git](https://github.com/hychiang-git)** | `eval` `example` `export` `infra` `quantization` `tests` `torch` | **Support NVFP4 W4A16 quantization** |
@@ -63,4 +68,4 @@
 |  | 2026-05-01 | [9d2e6087](https://github.com/NVIDIA/Model-Optimizer/commit/9d2e6087d1c0d99a6d5441dc0c685da36af51055) | [#1365](https://github.com/NVIDIA/Model-Optimizer/pull/1365) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Fix\]: $HOME in launcher eagle example |
 
 ---
-**Total: 53 PRs** | **Highlighted: 16**
+**Total: 58 PRs** | **Highlighted: 17**

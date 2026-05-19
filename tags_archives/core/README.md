@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-18 | [f5650bd0](https://github.com/NVIDIA/Model-Optimizer/commit/f5650bd02cd1f8180f43d31985d5b8542a602cdc) | [#1405](https://github.com/NVIDIA/Model-Optimizer/pull/1405) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `onnx` `quantization` `tests` `torch` | Schematize config loading and quantizer config entries |
+| 2026-05-18 | [bd2e8e9a](https://github.com/NVIDIA/Model-Optimizer/commit/bd2e8e9a10506ccb2ae0a452d002c7b2d3e125a8) | [#1513](https://github.com/NVIDIA/Model-Optimizer/pull/1513) | [@realAsma](https://github.com/realAsma) | `core` `quantization` `tests` `torch` | Support auto_quantize for Megatron expert parallelism |
 | 2026-05-16 | [81c4fb25](https://github.com/NVIDIA/Model-Optimizer/commit/81c4fb25aba3b520c5ff1a1b8c02500a6757e5b6) | [#1498](https://github.com/NVIDIA/Model-Optimizer/pull/1498) | [@Fridah-nv](https://github.com/Fridah-nv) | `core` `tests` `torch` | Add 7 nvidia/Nemotron-* calibration datasets to SUPPORTED_DATASET_CONFIG |
 | 2026-05-12 | [2ce745a9](https://github.com/NVIDIA/Model-Optimizer/commit/2ce745a92ecc3103df28011936a4e131accaf080) | [#1427](https://github.com/NVIDIA/Model-Optimizer/pull/1427) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Deprecate gradnas pruning and bert example |
 | 2026-05-12 | [d738995f](https://github.com/NVIDIA/Model-Optimizer/commit/d738995fe8c7a4c3d9a183b4d5836891e9738cd0) | [#1471](https://github.com/NVIDIA/Model-Optimizer/pull/1471) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | feat(opt): validate loaded modelopt state files |
@@ -85,4 +87,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 79 PRs**
+**Total: 81 PRs**

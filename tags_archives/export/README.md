@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-18 | [f5650bd0](https://github.com/NVIDIA/Model-Optimizer/commit/f5650bd02cd1f8180f43d31985d5b8542a602cdc) | [#1405](https://github.com/NVIDIA/Model-Optimizer/pull/1405) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `onnx` `quantization` `tests` `torch` | Schematize config loading and quantizer config entries |
 | 2026-05-15 | [a451a2ba](https://github.com/NVIDIA/Model-Optimizer/commit/a451a2baf85b5e5274f64772a3e9689ac28aaebe) | [#1313](https://github.com/NVIDIA/Model-Optimizer/pull/1313) | [@hychiang-git](https://github.com/hychiang-git) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Support NVFP4 W4A16 quantization |
 | 2026-05-12 | [5508c327](https://github.com/NVIDIA/Model-Optimizer/commit/5508c327fbf9cc265e3318623be55d55e85d4b2b) | [#1421](https://github.com/NVIDIA/Model-Optimizer/pull/1421) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `quantization` `tests` `torch` | \[Quantization\] MSE-calibrate every per-expert weight in fused-experts MoE |
 | 2026-05-11 | [f591131c](https://github.com/NVIDIA/Model-Optimizer/commit/f591131ca3da55a0276bab4f4700936e1a266d07) | [#1408](https://github.com/NVIDIA/Model-Optimizer/pull/1408) | [@ajrasane](https://github.com/ajrasane) | `export` `onnx` `quantization` `tests` | \[6106576\] Restore qdq_utils symbols used by edgellm 0.6.1 |
@@ -98,4 +99,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 92 PRs**
+**Total: 93 PRs**
