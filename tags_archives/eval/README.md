@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-19 | [a5bc6f81](https://github.com/NVIDIA/Model-Optimizer/commit/a5bc6f812340d4267027f5fe22346b3fe779272d) | [#1508](https://github.com/NVIDIA/Model-Optimizer/pull/1508) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | Add DATASET_COMBOS for grouped calibration datasets |
 | 2026-05-15 | [a451a2ba](https://github.com/NVIDIA/Model-Optimizer/commit/a451a2baf85b5e5274f64772a3e9689ac28aaebe) | [#1313](https://github.com/NVIDIA/Model-Optimizer/pull/1313) | [@hychiang-git](https://github.com/hychiang-git) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Support NVFP4 W4A16 quantization |
 | 2026-05-12 | [62401e16](https://github.com/NVIDIA/Model-Optimizer/commit/62401e16df747ba82e24e66f93eb831928256630) | [#1310](https://github.com/NVIDIA/Model-Optimizer/pull/1310) | [@realAsma](https://github.com/realAsma) | `docs` `eval` `example` `infra` `quantization` `tests` `torch` | fix: layerwise calibration backward-compat, recipe split, batch-size guard |
 | 2026-05-11 | [d30ebbd4](https://github.com/NVIDIA/Model-Optimizer/commit/d30ebbd455a16716605f4a52beb8e2b1cec0f941) | [#1416](https://github.com/NVIDIA/Model-Optimizer/pull/1416) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `tests` `torch` | fix(llm_eval): migrate lm_eval_hf.py to lm-eval \>= 0.4.10 HarnessCLI |
@@ -68,4 +69,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 62 PRs**
+**Total: 63 PRs**

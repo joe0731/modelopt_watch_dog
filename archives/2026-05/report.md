@@ -9,6 +9,9 @@
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
 |  | 2026-05-19 | [2b8defc1](https://github.com/NVIDIA/Model-Optimizer/commit/2b8defc14b601491bb1479117181048912e6fdfc) | [#1472](https://github.com/NVIDIA/Model-Optimizer/pull/1472) | [@shengliangxu](https://github.com/shengliangxu) | `docs` | \[OMNIML-4158\] \[OMNIML-4159\] ModelOpt config system documentation |
+|  | 2026-05-19 | [8f1529ab](https://github.com/NVIDIA/Model-Optimizer/commit/8f1529abd3cca376b122a3406afcd175ec245405) | [#1519](https://github.com/NVIDIA/Model-Optimizer/pull/1519) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Consolidate coding standards in CONTRIBUTING.md; tune review automation |
+|  | 2026-05-19 | [d7733562](https://github.com/NVIDIA/Model-Optimizer/commit/d7733562dd9c7c4296fe451460cf2d3687a7b250) | [#1518](https://github.com/NVIDIA/Model-Optimizer/pull/1518) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `nas` `pruning` `torch` | fix(prune): Minitron HybridModel + GPT-family fused-TE-spec import/export |
+| 🟡 | **2026-05-19** | **[a5bc6f81](https://github.com/NVIDIA/Model-Optimizer/commit/a5bc6f812340d4267027f5fe22346b3fe779272d)** | **[#1508](https://github.com/NVIDIA/Model-Optimizer/pull/1508)** | **[@cjluo-nv](https://github.com/cjluo-nv)** | `core` `eval` `example` `infra` `quantization` `tests` `torch` | **Add DATASET_COMBOS for grouped calibration datasets** |
 | 🟠 | **2026-05-18** | **[f5650bd0](https://github.com/NVIDIA/Model-Optimizer/commit/f5650bd02cd1f8180f43d31985d5b8542a602cdc)** | **[#1405](https://github.com/NVIDIA/Model-Optimizer/pull/1405)** | **[@shengliangxu](https://github.com/shengliangxu)** | `core` `export` `infra` `onnx` `quantization` `tests` `torch` | **Schematize config loading and quantizer config entries** |
 |  | 2026-05-18 | [bd2e8e9a](https://github.com/NVIDIA/Model-Optimizer/commit/bd2e8e9a10506ccb2ae0a452d002c7b2d3e125a8) | [#1513](https://github.com/NVIDIA/Model-Optimizer/pull/1513) | [@realAsma](https://github.com/realAsma) | `core` `quantization` `tests` `torch` | Support auto_quantize for Megatron expert parallelism |
 |  | 2026-05-18 | [3d4f4cc1](https://github.com/NVIDIA/Model-Optimizer/commit/3d4f4cc1c238e24ce7f63186e89a7455ee936da6) | [#1511](https://github.com/NVIDIA/Model-Optimizer/pull/1511) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-05-18) |
@@ -68,4 +71,4 @@
 |  | 2026-05-01 | [9d2e6087](https://github.com/NVIDIA/Model-Optimizer/commit/9d2e6087d1c0d99a6d5441dc0c685da36af51055) | [#1365](https://github.com/NVIDIA/Model-Optimizer/pull/1365) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Fix\]: $HOME in launcher eagle example |
 
 ---
-**Total: 58 PRs** | **Highlighted: 17**
+**Total: 61 PRs** | **Highlighted: 18**

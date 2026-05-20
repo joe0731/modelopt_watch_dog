@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-19 | [d7733562](https://github.com/NVIDIA/Model-Optimizer/commit/d7733562dd9c7c4296fe451460cf2d3687a7b250) | [#1518](https://github.com/NVIDIA/Model-Optimizer/pull/1518) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `nas` `pruning` `torch` | fix(prune): Minitron HybridModel + GPT-family fused-TE-spec import/export |
 | 2026-05-12 | [2ce745a9](https://github.com/NVIDIA/Model-Optimizer/commit/2ce745a92ecc3103df28011936a4e131accaf080) | [#1427](https://github.com/NVIDIA/Model-Optimizer/pull/1427) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Deprecate gradnas pruning and bert example |
 | 2026-05-05 | [f0eaa198](https://github.com/NVIDIA/Model-Optimizer/commit/f0eaa198df293bb13e6ad54164c4b53f045d7d98) | [#1377](https://github.com/NVIDIA/Model-Optimizer/pull/1377) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Enable active-param and memory based Minitron pruning constraint |
 | 2026-03-25 | [2f55c730](https://github.com/NVIDIA/Model-Optimizer/commit/2f55c7303b56b75599ece8f383e9531a41247c4e) | [#1115](https://github.com/NVIDIA/Model-Optimizer/pull/1115) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `infra` `nas` `pruning` `tests` `torch` | Dkorzekwa/puzzletron use importance hooks from prune |
@@ -15,4 +16,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 9 PRs**
+**Total: 10 PRs**

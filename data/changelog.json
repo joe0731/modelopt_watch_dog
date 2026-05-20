@@ -10,6 +10,47 @@
     ]
   },
   {
+    "date": "2026-05-19",
+    "commit": "8f1529abd3cca376b122a3406afcd175ec245405",
+    "pr_number": 1519,
+    "author": "kevalmorabia97",
+    "title": "Consolidate coding standards in CONTRIBUTING.md; tune review automation",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-19",
+    "commit": "d7733562dd9c7c4296fe451460cf2d3687a7b250",
+    "pr_number": 1518,
+    "author": "kevalmorabia97",
+    "title": "fix(prune): Minitron HybridModel + GPT-family fused-TE-spec import/export",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "nas",
+      "pruning",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-19",
+    "commit": "a5bc6f812340d4267027f5fe22346b3fe779272d",
+    "pr_number": 1508,
+    "author": "cjluo-nv",
+    "title": "Add DATASET_COMBOS for grouped calibration datasets",
+    "tags": [
+      "core",
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-18",
     "commit": "f5650bd02cd1f8180f43d31985d5b8542a602cdc",
     "pr_number": 1405,

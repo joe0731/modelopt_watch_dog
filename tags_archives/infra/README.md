@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-19 | [8f1529ab](https://github.com/NVIDIA/Model-Optimizer/commit/8f1529abd3cca376b122a3406afcd175ec245405) | [#1519](https://github.com/NVIDIA/Model-Optimizer/pull/1519) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Consolidate coding standards in CONTRIBUTING.md; tune review automation |
+| 2026-05-19 | [d7733562](https://github.com/NVIDIA/Model-Optimizer/commit/d7733562dd9c7c4296fe451460cf2d3687a7b250) | [#1518](https://github.com/NVIDIA/Model-Optimizer/pull/1518) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `nas` `pruning` `torch` | fix(prune): Minitron HybridModel + GPT-family fused-TE-spec import/export |
+| 2026-05-19 | [a5bc6f81](https://github.com/NVIDIA/Model-Optimizer/commit/a5bc6f812340d4267027f5fe22346b3fe779272d) | [#1508](https://github.com/NVIDIA/Model-Optimizer/pull/1508) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | Add DATASET_COMBOS for grouped calibration datasets |
 | 2026-05-18 | [f5650bd0](https://github.com/NVIDIA/Model-Optimizer/commit/f5650bd02cd1f8180f43d31985d5b8542a602cdc) | [#1405](https://github.com/NVIDIA/Model-Optimizer/pull/1405) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `onnx` `quantization` `tests` `torch` | Schematize config loading and quantizer config entries |
 | 2026-05-18 | [3d4f4cc1](https://github.com/NVIDIA/Model-Optimizer/commit/3d4f4cc1c238e24ce7f63186e89a7455ee936da6) | [#1511](https://github.com/NVIDIA/Model-Optimizer/pull/1511) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-05-18) |
 | 2026-05-18 | [3f88f0d7](https://github.com/NVIDIA/Model-Optimizer/commit/3f88f0d74e2cdcb44b885c633dc245d1e522d656) | [#1515](https://github.com/NVIDIA/Model-Optimizer/pull/1515) | [@snigenigmatic](https://github.com/snigenigmatic) | `infra` | Fix README: remove TensorRT container from ModelOpt pre-installed image list |
@@ -222,4 +225,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 216 PRs**
+**Total: 219 PRs**
