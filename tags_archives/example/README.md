@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-21 | [3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9) | [#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522) | [@jenchen13](https://github.com/jenchen13) | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | merge main into feature branch and LM head quantization & W4A16 export in MCore |
+| 2026-05-20 | [910dc49a](https://github.com/NVIDIA/Model-Optimizer/commit/910dc49a2c042f055aaae5c7c98817ce9454921b) | [#1503](https://github.com/NVIDIA/Model-Optimizer/pull/1503) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `torch` | Add Qwen3.6 W4A16 PTQ recipe |
+| 2026-05-20 | [c9098b63](https://github.com/NVIDIA/Model-Optimizer/commit/c9098b63fb5e855958182cd760cecb50e9bef794) | [#1127](https://github.com/NVIDIA/Model-Optimizer/pull/1127) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `diffusers` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[4/n\] Add vLLM integration for modelopt sparse attention |
 | 2026-05-19 | [a5bc6f81](https://github.com/NVIDIA/Model-Optimizer/commit/a5bc6f812340d4267027f5fe22346b3fe779272d) | [#1508](https://github.com/NVIDIA/Model-Optimizer/pull/1508) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | Add DATASET_COMBOS for grouped calibration datasets |
 | 2026-05-17 | [7038dec9](https://github.com/NVIDIA/Model-Optimizer/commit/7038dec9181f9f12d9da2b330255f1ab2763980e) | [#1328](https://github.com/NVIDIA/Model-Optimizer/pull/1328) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[1/2Refactor\] speculative decoding: use mto config subsystem |
 | 2026-05-15 | [a451a2ba](https://github.com/NVIDIA/Model-Optimizer/commit/a451a2baf85b5e5274f64772a3e9689ac28aaebe) | [#1313](https://github.com/NVIDIA/Model-Optimizer/pull/1313) | [@hychiang-git](https://github.com/hychiang-git) | `eval` `example` `export` `infra` `quantization` `tests` `torch` | Support NVFP4 W4A16 quantization |
@@ -177,4 +180,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 171 PRs**
+**Total: 174 PRs**

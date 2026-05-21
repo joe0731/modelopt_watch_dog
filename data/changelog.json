@@ -1,5 +1,58 @@
 [
   {
+    "date": "2026-05-21",
+    "commit": "3e85e70111b88555746924cd5f417e91402827f9",
+    "pr_number": 1522,
+    "author": "jenchen13",
+    "title": "merge main into feature branch and LM head quantization & W4A16 export in MCore",
+    "tags": [
+      "core",
+      "docs",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "nas",
+      "onnx",
+      "pruning",
+      "quantization",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "commit": "910dc49a2c042f055aaae5c7c98817ce9454921b",
+    "pr_number": 1503,
+    "author": "meenchen",
+    "title": "Add Qwen3.6 W4A16 PTQ recipe",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-20",
+    "commit": "c9098b63fb5e855958182cd760cecb50e9bef794",
+    "pr_number": 1127,
+    "author": "kaix-nv",
+    "title": "[4/n] Add vLLM integration for modelopt sparse attention",
+    "tags": [
+      "deploy",
+      "diffusers",
+      "example",
+      "infra",
+      "sparsity",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
     "date": "2026-05-19",
     "commit": "2b8defc14b601491bb1479117181048912e6fdfc",
     "pr_number": 1472,

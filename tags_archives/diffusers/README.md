@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-20 | [c9098b63](https://github.com/NVIDIA/Model-Optimizer/commit/c9098b63fb5e855958182cd760cecb50e9bef794) | [#1127](https://github.com/NVIDIA/Model-Optimizer/pull/1127) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `diffusers` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[4/n\] Add vLLM integration for modelopt sparse attention |
 | 2026-04-22 | [c7966119](https://github.com/NVIDIA/Model-Optimizer/commit/c7966119eb7fdec1bac4ad938413048f145a45fb) | [#1303](https://github.com/NVIDIA/Model-Optimizer/pull/1303) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `infra` `quantization` `sparsity` `tests` `torch` | Reorg the sparse/quant/common kernel dir |
 | 2026-04-19 | [26ae8da5](https://github.com/NVIDIA/Model-Optimizer/commit/26ae8da51756eb081da09ea1b5253855815e022f) | [#1227](https://github.com/NVIDIA/Model-Optimizer/pull/1227) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `experimental` `infra` `quantization` `tests` `torch` | \[2/3\] Implicit Gemm NVFP4 |
 | 2026-04-18 | [feec81ad](https://github.com/NVIDIA/Model-Optimizer/commit/feec81ad2b049d9b5f6c0dd3d5f318fbef150aa4) | [#1166](https://github.com/NVIDIA/Model-Optimizer/pull/1166) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | Add the Skip softmax for diffusion |
@@ -26,4 +27,4 @@
 | 2026-01-15 | [e6e4efd6](https://github.com/NVIDIA/Model-Optimizer/commit/e6e4efd61efcc87de10a6a72274e2017cbc13438) | [#783](https://github.com/NVIDIA/Model-Optimizer/pull/783) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `eval` `example` `export` `quantization` `torch` | \[0.5/3\] Diffusion ckpt export for NVFP4 & FP8 |
 
 ---
-**Total: 20 PRs**
+**Total: 21 PRs**

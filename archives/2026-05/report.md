@@ -8,6 +8,9 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+| 🟡🟠 | **2026-05-21** | **[3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9)** | **[#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522)** | **[@jenchen13](https://github.com/jenchen13)** | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | **merge main into feature branch and LM head quantization & W4A16 export in MCore** |
+| 🟡 | **2026-05-20** | **[910dc49a](https://github.com/NVIDIA/Model-Optimizer/commit/910dc49a2c042f055aaae5c7c98817ce9454921b)** | **[#1503](https://github.com/NVIDIA/Model-Optimizer/pull/1503)** | **[@meenchen](https://github.com/meenchen)** | `eval` `example` `infra` `quantization` `torch` | **Add Qwen3.6 W4A16 PTQ recipe** |
+| 🔵 | **2026-05-20** | **[c9098b63](https://github.com/NVIDIA/Model-Optimizer/commit/c9098b63fb5e855958182cd760cecb50e9bef794)** | **[#1127](https://github.com/NVIDIA/Model-Optimizer/pull/1127)** | **[@kaix-nv](https://github.com/kaix-nv)** | `deploy` `diffusers` `example` `infra` `sparsity` `tests` `torch` `vllm` | **\[4/n\] Add vLLM integration for modelopt sparse attention** |
 |  | 2026-05-19 | [2b8defc1](https://github.com/NVIDIA/Model-Optimizer/commit/2b8defc14b601491bb1479117181048912e6fdfc) | [#1472](https://github.com/NVIDIA/Model-Optimizer/pull/1472) | [@shengliangxu](https://github.com/shengliangxu) | `docs` | \[OMNIML-4158\] \[OMNIML-4159\] ModelOpt config system documentation |
 |  | 2026-05-19 | [8f1529ab](https://github.com/NVIDIA/Model-Optimizer/commit/8f1529abd3cca376b122a3406afcd175ec245405) | [#1519](https://github.com/NVIDIA/Model-Optimizer/pull/1519) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Consolidate coding standards in CONTRIBUTING.md; tune review automation |
 |  | 2026-05-19 | [d7733562](https://github.com/NVIDIA/Model-Optimizer/commit/d7733562dd9c7c4296fe451460cf2d3687a7b250) | [#1518](https://github.com/NVIDIA/Model-Optimizer/pull/1518) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `nas` `pruning` `torch` | fix(prune): Minitron HybridModel + GPT-family fused-TE-spec import/export |
@@ -71,4 +74,4 @@
 |  | 2026-05-01 | [9d2e6087](https://github.com/NVIDIA/Model-Optimizer/commit/9d2e6087d1c0d99a6d5441dc0c685da36af51055) | [#1365](https://github.com/NVIDIA/Model-Optimizer/pull/1365) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Fix\]: $HOME in launcher eagle example |
 
 ---
-**Total: 61 PRs** | **Highlighted: 18**
+**Total: 64 PRs** | **Highlighted: 21**
