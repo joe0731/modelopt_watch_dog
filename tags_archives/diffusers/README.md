@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-22 | [3ff15cce](https://github.com/NVIDIA/Model-Optimizer/commit/3ff15ccef3f0a46703a169272f61640cea311a1c) | [#1195](https://github.com/NVIDIA/Model-Optimizer/pull/1195) | [@ynankani](https://github.com/ynankani) | `diffusers` `example` `export` `quantization` `tests` `torch` | Add support for postprocess exported model for block scale swizzling and support for different padding strategy |
 | 2026-05-20 | [c9098b63](https://github.com/NVIDIA/Model-Optimizer/commit/c9098b63fb5e855958182cd760cecb50e9bef794) | [#1127](https://github.com/NVIDIA/Model-Optimizer/pull/1127) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `diffusers` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[4/n\] Add vLLM integration for modelopt sparse attention |
 | 2026-04-22 | [c7966119](https://github.com/NVIDIA/Model-Optimizer/commit/c7966119eb7fdec1bac4ad938413048f145a45fb) | [#1303](https://github.com/NVIDIA/Model-Optimizer/pull/1303) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `infra` `quantization` `sparsity` `tests` `torch` | Reorg the sparse/quant/common kernel dir |
 | 2026-04-19 | [26ae8da5](https://github.com/NVIDIA/Model-Optimizer/commit/26ae8da51756eb081da09ea1b5253855815e022f) | [#1227](https://github.com/NVIDIA/Model-Optimizer/pull/1227) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `experimental` `infra` `quantization` `tests` `torch` | \[2/3\] Implicit Gemm NVFP4 |
@@ -27,4 +28,4 @@
 | 2026-01-15 | [e6e4efd6](https://github.com/NVIDIA/Model-Optimizer/commit/e6e4efd61efcc87de10a6a72274e2017cbc13438) | [#783](https://github.com/NVIDIA/Model-Optimizer/pull/783) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `eval` `example` `export` `quantization` `torch` | \[0.5/3\] Diffusion ckpt export for NVFP4 & FP8 |
 
 ---
-**Total: 21 PRs**
+**Total: 22 PRs**

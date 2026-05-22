@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-22 | [3ff15cce](https://github.com/NVIDIA/Model-Optimizer/commit/3ff15ccef3f0a46703a169272f61640cea311a1c) | [#1195](https://github.com/NVIDIA/Model-Optimizer/pull/1195) | [@ynankani](https://github.com/ynankani) | `diffusers` `example` `export` `quantization` `tests` `torch` | Add support for postprocess exported model for block scale swizzling and support for different padding strategy |
 | 2026-05-21 | [3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9) | [#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522) | [@jenchen13](https://github.com/jenchen13) | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | merge main into feature branch and LM head quantization & W4A16 export in MCore |
+| 2026-05-21 | [b02e8885](https://github.com/NVIDIA/Model-Optimizer/commit/b02e8885509c53b4e187f9fd5f56c5497e937d7e) | [#1528](https://github.com/NVIDIA/Model-Optimizer/pull/1528) | [@realAsma](https://github.com/realAsma) | `quantization` `tests` `torch` | fix(quantization): accept QuantizeAlgorithmConfig in get_modelike_from_algo_cfg (#201) |
 | 2026-05-20 | [910dc49a](https://github.com/NVIDIA/Model-Optimizer/commit/910dc49a2c042f055aaae5c7c98817ce9454921b) | [#1503](https://github.com/NVIDIA/Model-Optimizer/pull/1503) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `torch` | Add Qwen3.6 W4A16 PTQ recipe |
 | 2026-05-20 | [c9098b63](https://github.com/NVIDIA/Model-Optimizer/commit/c9098b63fb5e855958182cd760cecb50e9bef794) | [#1127](https://github.com/NVIDIA/Model-Optimizer/pull/1127) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `diffusers` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[4/n\] Add vLLM integration for modelopt sparse attention |
 | 2026-05-19 | [d7733562](https://github.com/NVIDIA/Model-Optimizer/commit/d7733562dd9c7c4296fe451460cf2d3687a7b250) | [#1518](https://github.com/NVIDIA/Model-Optimizer/pull/1518) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `nas` `pruning` `torch` | fix(prune): Minitron HybridModel + GPT-family fused-TE-spec import/export |
@@ -286,4 +288,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 280 PRs**
+**Total: 282 PRs**
