@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-22 | [04f58166](https://github.com/NVIDIA/Model-Optimizer/commit/04f58166abe86b2e37212247ec80f15d726ef19d) | [#1506](https://github.com/NVIDIA/Model-Optimizer/pull/1506) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `eval` `example` `infra` `quantization` `torch` | \[OMNIML-3707\] Model-specific PTQ recipes bootstrap |
 | 2026-05-21 | [3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9) | [#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522) | [@jenchen13](https://github.com/jenchen13) | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | merge main into feature branch and LM head quantization & W4A16 export in MCore |
 | 2026-05-19 | [2b8defc1](https://github.com/NVIDIA/Model-Optimizer/commit/2b8defc14b601491bb1479117181048912e6fdfc) | [#1472](https://github.com/NVIDIA/Model-Optimizer/pull/1472) | [@shengliangxu](https://github.com/shengliangxu) | `docs` | \[OMNIML-4158\] \[OMNIML-4159\] ModelOpt config system documentation |
 | 2026-05-12 | [2ce745a9](https://github.com/NVIDIA/Model-Optimizer/commit/2ce745a92ecc3103df28011936a4e131accaf080) | [#1427](https://github.com/NVIDIA/Model-Optimizer/pull/1427) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `quantization` `sparsity` `tests` `torch` | Deprecate gradnas pruning and bert example |
@@ -34,4 +35,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 28 PRs**
+**Total: 29 PRs**

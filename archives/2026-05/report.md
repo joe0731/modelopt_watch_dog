@@ -9,6 +9,9 @@
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
 |  | 2026-05-22 | [3ff15cce](https://github.com/NVIDIA/Model-Optimizer/commit/3ff15ccef3f0a46703a169272f61640cea311a1c) | [#1195](https://github.com/NVIDIA/Model-Optimizer/pull/1195) | [@ynankani](https://github.com/ynankani) | `diffusers` `example` `export` `quantization` `tests` `torch` | Add support for postprocess exported model for block scale swizzling and support for different padding strategy |
+|  | 2026-05-22 | [9ced018e](https://github.com/NVIDIA/Model-Optimizer/commit/9ced018ec420da1ee84b8260e35c27ddf05571ee) | [#1535](https://github.com/NVIDIA/Model-Optimizer/pull/1535) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | Refactor evaluation run validation guidance |
+| 🟡 | **2026-05-22** | **[04f58166](https://github.com/NVIDIA/Model-Optimizer/commit/04f58166abe86b2e37212247ec80f15d726ef19d)** | **[#1506](https://github.com/NVIDIA/Model-Optimizer/pull/1506)** | **[@shengliangxu](https://github.com/shengliangxu)** | `docs` `eval` `example` `infra` `quantization` `torch` | **\[OMNIML-3707\] Model-specific PTQ recipes bootstrap** |
+| 🟡 | **2026-05-22** | **[16a0130d](https://github.com/NVIDIA/Model-Optimizer/commit/16a0130d5fd402de8770cb1195fb27a33ade14ba)** | **[#1532](https://github.com/NVIDIA/Model-Optimizer/pull/1532)** | **[@Fridah-nv](https://github.com/Fridah-nv)** | `eval` `example` `quantization` `tests` `torch` | **fix: preserve inlined MTP layers for GLM5** |
 | 🟡🟠 | **2026-05-21** | **[3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9)** | **[#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522)** | **[@jenchen13](https://github.com/jenchen13)** | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | **merge main into feature branch and LM head quantization & W4A16 export in MCore** |
 |  | 2026-05-21 | [e2d4d739](https://github.com/NVIDIA/Model-Optimizer/commit/e2d4d73920816eb1a07a3808ffadc33e8889bb5d) | [#1493](https://github.com/NVIDIA/Model-Optimizer/pull/1493) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | Agent Skills Updates From Live Trials |
 |  | 2026-05-21 | [b02e8885](https://github.com/NVIDIA/Model-Optimizer/commit/b02e8885509c53b4e187f9fd5f56c5497e937d7e) | [#1528](https://github.com/NVIDIA/Model-Optimizer/pull/1528) | [@realAsma](https://github.com/realAsma) | `quantization` `tests` `torch` | fix(quantization): accept QuantizeAlgorithmConfig in get_modelike_from_algo_cfg (#201) |
@@ -77,4 +80,4 @@
 |  | 2026-05-01 | [9d2e6087](https://github.com/NVIDIA/Model-Optimizer/commit/9d2e6087d1c0d99a6d5441dc0c685da36af51055) | [#1365](https://github.com/NVIDIA/Model-Optimizer/pull/1365) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Fix\]: $HOME in launcher eagle example |
 
 ---
-**Total: 67 PRs** | **Highlighted: 21**
+**Total: 70 PRs** | **Highlighted: 23**

@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-05-22 | [3ff15cce](https://github.com/NVIDIA/Model-Optimizer/commit/3ff15ccef3f0a46703a169272f61640cea311a1c) | [#1195](https://github.com/NVIDIA/Model-Optimizer/pull/1195) | [@ynankani](https://github.com/ynankani) | `diffusers` `example` `export` `quantization` `tests` `torch` | Add support for postprocess exported model for block scale swizzling and support for different padding strategy |
+| 2026-05-22 | [16a0130d](https://github.com/NVIDIA/Model-Optimizer/commit/16a0130d5fd402de8770cb1195fb27a33ade14ba) | [#1532](https://github.com/NVIDIA/Model-Optimizer/pull/1532) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `quantization` `tests` `torch` | fix: preserve inlined MTP layers for GLM5 |
 | 2026-05-21 | [3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9) | [#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522) | [@jenchen13](https://github.com/jenchen13) | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | merge main into feature branch and LM head quantization & W4A16 export in MCore |
 | 2026-05-21 | [b02e8885](https://github.com/NVIDIA/Model-Optimizer/commit/b02e8885509c53b4e187f9fd5f56c5497e937d7e) | [#1528](https://github.com/NVIDIA/Model-Optimizer/pull/1528) | [@realAsma](https://github.com/realAsma) | `quantization` `tests` `torch` | fix(quantization): accept QuantizeAlgorithmConfig in get_modelike_from_algo_cfg (#201) |
 | 2026-05-20 | [c9098b63](https://github.com/NVIDIA/Model-Optimizer/commit/c9098b63fb5e855958182cd760cecb50e9bef794) | [#1127](https://github.com/NVIDIA/Model-Optimizer/pull/1127) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `diffusers` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[4/n\] Add vLLM integration for modelopt sparse attention |
@@ -195,4 +196,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 189 PRs**
+**Total: 190 PRs**

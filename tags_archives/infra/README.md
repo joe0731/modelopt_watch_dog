@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-22 | [9ced018e](https://github.com/NVIDIA/Model-Optimizer/commit/9ced018ec420da1ee84b8260e35c27ddf05571ee) | [#1535](https://github.com/NVIDIA/Model-Optimizer/pull/1535) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | Refactor evaluation run validation guidance |
+| 2026-05-22 | [04f58166](https://github.com/NVIDIA/Model-Optimizer/commit/04f58166abe86b2e37212247ec80f15d726ef19d) | [#1506](https://github.com/NVIDIA/Model-Optimizer/pull/1506) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `eval` `example` `infra` `quantization` `torch` | \[OMNIML-3707\] Model-specific PTQ recipes bootstrap |
 | 2026-05-21 | [3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9) | [#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522) | [@jenchen13](https://github.com/jenchen13) | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | merge main into feature branch and LM head quantization & W4A16 export in MCore |
 | 2026-05-21 | [e2d4d739](https://github.com/NVIDIA/Model-Optimizer/commit/e2d4d73920816eb1a07a3808ffadc33e8889bb5d) | [#1493](https://github.com/NVIDIA/Model-Optimizer/pull/1493) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | Agent Skills Updates From Live Trials |
 | 2026-05-20 | [910dc49a](https://github.com/NVIDIA/Model-Optimizer/commit/910dc49a2c042f055aaae5c7c98817ce9454921b) | [#1503](https://github.com/NVIDIA/Model-Optimizer/pull/1503) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `torch` | Add Qwen3.6 W4A16 PTQ recipe |
@@ -229,4 +231,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 223 PRs**
+**Total: 225 PRs**

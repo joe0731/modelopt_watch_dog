@@ -5,6 +5,8 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-05-22 | [3ff15cce](https://github.com/NVIDIA/Model-Optimizer/commit/3ff15ccef3f0a46703a169272f61640cea311a1c) | [#1195](https://github.com/NVIDIA/Model-Optimizer/pull/1195) | [@ynankani](https://github.com/ynankani) | `diffusers` `example` `export` `quantization` `tests` `torch` | Add support for postprocess exported model for block scale swizzling and support for different padding strategy |
+| 2026-05-22 | [04f58166](https://github.com/NVIDIA/Model-Optimizer/commit/04f58166abe86b2e37212247ec80f15d726ef19d) | [#1506](https://github.com/NVIDIA/Model-Optimizer/pull/1506) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `eval` `example` `infra` `quantization` `torch` | \[OMNIML-3707\] Model-specific PTQ recipes bootstrap |
+| 2026-05-22 | [16a0130d](https://github.com/NVIDIA/Model-Optimizer/commit/16a0130d5fd402de8770cb1195fb27a33ade14ba) | [#1532](https://github.com/NVIDIA/Model-Optimizer/pull/1532) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `quantization` `tests` `torch` | fix: preserve inlined MTP layers for GLM5 |
 | 2026-05-21 | [3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9) | [#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522) | [@jenchen13](https://github.com/jenchen13) | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | merge main into feature branch and LM head quantization & W4A16 export in MCore |
 | 2026-05-20 | [910dc49a](https://github.com/NVIDIA/Model-Optimizer/commit/910dc49a2c042f055aaae5c7c98817ce9454921b) | [#1503](https://github.com/NVIDIA/Model-Optimizer/pull/1503) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `torch` | Add Qwen3.6 W4A16 PTQ recipe |
 | 2026-05-20 | [c9098b63](https://github.com/NVIDIA/Model-Optimizer/commit/c9098b63fb5e855958182cd760cecb50e9bef794) | [#1127](https://github.com/NVIDIA/Model-Optimizer/pull/1127) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `diffusers` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[4/n\] Add vLLM integration for modelopt sparse attention |
@@ -181,4 +183,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 175 PRs**
+**Total: 177 PRs**

@@ -15,6 +15,45 @@
     ]
   },
   {
+    "date": "2026-05-22",
+    "commit": "9ced018ec420da1ee84b8260e35c27ddf05571ee",
+    "pr_number": 1535,
+    "author": "chadvoegele",
+    "title": "Refactor evaluation run validation guidance",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-22",
+    "commit": "04f58166abe86b2e37212247ec80f15d726ef19d",
+    "pr_number": 1506,
+    "author": "shengliangxu",
+    "title": "[OMNIML-3707] Model-specific PTQ recipes bootstrap",
+    "tags": [
+      "docs",
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-22",
+    "commit": "16a0130d5fd402de8770cb1195fb27a33ade14ba",
+    "pr_number": 1532,
+    "author": "Fridah-nv",
+    "title": "fix: preserve inlined MTP layers for GLM5",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-21",
     "commit": "3e85e70111b88555746924cd5f417e91402827f9",
     "pr_number": 1522,
