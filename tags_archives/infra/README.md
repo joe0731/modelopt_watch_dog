@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-25 | [f59f3ae1](https://github.com/NVIDIA/Model-Optimizer/commit/f59f3ae1c3e2702a83514bac2cb51448f3e50a2d) | [#1529](https://github.com/NVIDIA/Model-Optimizer/pull/1529) | [@h-guo18](https://github.com/h-guo18) | `infra` `tests` | \[Example\]: Dflash-Offline Launcher Example |
+| 2026-05-25 | [df68ccdc](https://github.com/NVIDIA/Model-Optimizer/commit/df68ccdcbd21db67128c5703b51874138e4e6fd3) | [#1496](https://github.com/NVIDIA/Model-Optimizer/pull/1496) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-4740\] synth_support |
+| 2026-05-25 | [2b02ab9a](https://github.com/NVIDIA/Model-Optimizer/commit/2b02ab9a163ff41f74090c624fa5f41e7d6354f9) | [#1542](https://github.com/NVIDIA/Model-Optimizer/pull/1542) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-05-25) |
 | 2026-05-22 | [9ced018e](https://github.com/NVIDIA/Model-Optimizer/commit/9ced018ec420da1ee84b8260e35c27ddf05571ee) | [#1535](https://github.com/NVIDIA/Model-Optimizer/pull/1535) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | Refactor evaluation run validation guidance |
 | 2026-05-22 | [04f58166](https://github.com/NVIDIA/Model-Optimizer/commit/04f58166abe86b2e37212247ec80f15d726ef19d) | [#1506](https://github.com/NVIDIA/Model-Optimizer/pull/1506) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `eval` `example` `infra` `quantization` `torch` | \[OMNIML-3707\] Model-specific PTQ recipes bootstrap |
 | 2026-05-21 | [3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9) | [#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522) | [@jenchen13](https://github.com/jenchen13) | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | merge main into feature branch and LM head quantization & W4A16 export in MCore |
@@ -231,4 +234,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 225 PRs**
+**Total: 228 PRs**

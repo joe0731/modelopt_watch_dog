@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-05-25",
+    "commit": "f59f3ae1c3e2702a83514bac2cb51448f3e50a2d",
+    "pr_number": 1529,
+    "author": "h-guo18",
+    "title": "[Example]: Dflash-Offline Launcher Example",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-05-25",
+    "commit": "df68ccdcbd21db67128c5703b51874138e4e6fd3",
+    "pr_number": 1496,
+    "author": "ChenhanYu",
+    "title": "[OMNIML-4740] synth_support",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-25",
+    "commit": "2b02ab9a163ff41f74090c624fa5f41e7d6354f9",
+    "pr_number": 1542,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-05-25)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-05-22",
     "commit": "3ff15ccef3f0a46703a169272f61640cea311a1c",
     "pr_number": 1195,

@@ -8,6 +8,9 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-05-25 | [f59f3ae1](https://github.com/NVIDIA/Model-Optimizer/commit/f59f3ae1c3e2702a83514bac2cb51448f3e50a2d) | [#1529](https://github.com/NVIDIA/Model-Optimizer/pull/1529) | [@h-guo18](https://github.com/h-guo18) | `infra` `tests` | \[Example\]: Dflash-Offline Launcher Example |
+|  | 2026-05-25 | [df68ccdc](https://github.com/NVIDIA/Model-Optimizer/commit/df68ccdcbd21db67128c5703b51874138e4e6fd3) | [#1496](https://github.com/NVIDIA/Model-Optimizer/pull/1496) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-4740\] synth_support |
+|  | 2026-05-25 | [2b02ab9a](https://github.com/NVIDIA/Model-Optimizer/commit/2b02ab9a163ff41f74090c624fa5f41e7d6354f9) | [#1542](https://github.com/NVIDIA/Model-Optimizer/pull/1542) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-05-25) |
 |  | 2026-05-22 | [3ff15cce](https://github.com/NVIDIA/Model-Optimizer/commit/3ff15ccef3f0a46703a169272f61640cea311a1c) | [#1195](https://github.com/NVIDIA/Model-Optimizer/pull/1195) | [@ynankani](https://github.com/ynankani) | `diffusers` `example` `export` `quantization` `tests` `torch` | Add support for postprocess exported model for block scale swizzling and support for different padding strategy |
 |  | 2026-05-22 | [9ced018e](https://github.com/NVIDIA/Model-Optimizer/commit/9ced018ec420da1ee84b8260e35c27ddf05571ee) | [#1535](https://github.com/NVIDIA/Model-Optimizer/pull/1535) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | Refactor evaluation run validation guidance |
 | 🟡 | **2026-05-22** | **[04f58166](https://github.com/NVIDIA/Model-Optimizer/commit/04f58166abe86b2e37212247ec80f15d726ef19d)** | **[#1506](https://github.com/NVIDIA/Model-Optimizer/pull/1506)** | **[@shengliangxu](https://github.com/shengliangxu)** | `docs` `eval` `example` `infra` `quantization` `torch` | **\[OMNIML-3707\] Model-specific PTQ recipes bootstrap** |
@@ -80,4 +83,4 @@
 |  | 2026-05-01 | [9d2e6087](https://github.com/NVIDIA/Model-Optimizer/commit/9d2e6087d1c0d99a6d5441dc0c685da36af51055) | [#1365](https://github.com/NVIDIA/Model-Optimizer/pull/1365) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Fix\]: $HOME in launcher eagle example |
 
 ---
-**Total: 70 PRs** | **Highlighted: 23**
+**Total: 73 PRs** | **Highlighted: 23**
