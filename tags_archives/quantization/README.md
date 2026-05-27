@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-26 | [cd2ea46e](https://github.com/NVIDIA/Model-Optimizer/commit/cd2ea46e1d1562a62f87876d5b3ecd442b5158a7) | [#1495](https://github.com/NVIDIA/Model-Optimizer/pull/1495) | [@ajrasane](https://github.com/ajrasane) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-4730\] Support quantized nn.Embedding |
+| 2026-05-26 | [9d0d9782](https://github.com/NVIDIA/Model-Optimizer/commit/9d0d97829a739a90fce16030d835acca207e053e) | [#1537](https://github.com/NVIDIA/Model-Optimizer/pull/1537) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` | chore(lint): modernize typing (PEP 604/585) and enable UP032 |
 | 2026-05-22 | [3ff15cce](https://github.com/NVIDIA/Model-Optimizer/commit/3ff15ccef3f0a46703a169272f61640cea311a1c) | [#1195](https://github.com/NVIDIA/Model-Optimizer/pull/1195) | [@ynankani](https://github.com/ynankani) | `diffusers` `example` `export` `quantization` `tests` `torch` | Add support for postprocess exported model for block scale swizzling and support for different padding strategy |
 | 2026-05-22 | [04f58166](https://github.com/NVIDIA/Model-Optimizer/commit/04f58166abe86b2e37212247ec80f15d726ef19d) | [#1506](https://github.com/NVIDIA/Model-Optimizer/pull/1506) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `eval` `example` `infra` `quantization` `torch` | \[OMNIML-3707\] Model-specific PTQ recipes bootstrap |
 | 2026-05-22 | [16a0130d](https://github.com/NVIDIA/Model-Optimizer/commit/16a0130d5fd402de8770cb1195fb27a33ade14ba) | [#1532](https://github.com/NVIDIA/Model-Optimizer/pull/1532) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `quantization` `tests` `torch` | fix: preserve inlined MTP layers for GLM5 |
@@ -199,4 +201,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 193 PRs**
+**Total: 195 PRs**

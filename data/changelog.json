@@ -1,5 +1,68 @@
 [
   {
+    "date": "2026-05-27",
+    "commit": "48fbac0ed79bb577f9dd973dab79742701bad051",
+    "pr_number": 1544,
+    "author": "chochowski",
+    "title": "config for expert removal in nemotron3",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-26",
+    "commit": "cd2ea46e1d1562a62f87876d5b3ecd442b5158a7",
+    "pr_number": 1495,
+    "author": "ajrasane",
+    "title": "[OMNIML-4730] Support quantized nn.Embedding",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-26",
+    "commit": "45893f7f8df7d73ddff5ddafe57946d2eb73180d",
+    "pr_number": 1543,
+    "author": "danielkorzekwa",
+    "title": "Update README with recent pruning/nas news",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-26",
+    "commit": "6fed3a62a99881e41875b059b1601cb1ccd0b7fa",
+    "pr_number": 1546,
+    "author": "shengliangxu",
+    "title": "[chore]: update vscode extension recommendations",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-26",
+    "commit": "9d0d97829a739a90fce16030d835acca207e053e",
+    "pr_number": 1537,
+    "author": "shengliangxu",
+    "title": "chore(lint): modernize typing (PEP 604/585) and enable UP032",
+    "tags": [
+      "core",
+      "distillation",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-25",
     "commit": "f59f3ae1c3e2702a83514bac2cb51448f3e50a2d",
     "pr_number": 1529,
