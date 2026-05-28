@@ -10,6 +10,16 @@
     ]
   },
   {
+    "date": "2026-05-27",
+    "commit": "b49f9b9e2d747af992d78a3aa7f10efe5a8847e1",
+    "pr_number": 1516,
+    "author": "jenchen13",
+    "title": "Megatron-Bridge import example in launcher for Nemotron Super V3 [OMNIML-4827]",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-05-26",
     "commit": "cd2ea46e1d1562a62f87876d5b3ecd442b5158a7",
     "pr_number": 1495,
