@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-28 | [5d0441ae](https://github.com/NVIDIA/Model-Optimizer/commit/5d0441ae3d613333ce1274e685e3b595aff08936) | [#1501](https://github.com/NVIDIA/Model-Optimizer/pull/1501) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Create shared Megatron calibration forward loop for prune / quantize with megatron pretraining data style sequence packing |
+| 2026-05-28 | [999c9991](https://github.com/NVIDIA/Model-Optimizer/commit/999c99913ecde96e5bd3c7b84249c4c03faa909e) | [#1376](https://github.com/NVIDIA/Model-Optimizer/pull/1376) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Add Nemotron-3-Nano-30B-A3B-BF16 e2e tutorial: Prune + Distill + Quantize + Nemo Evaluator + vLLM deployment |
+| 2026-05-28 | [a2c496af](https://github.com/NVIDIA/Model-Optimizer/commit/a2c496af0dfe6ab699ae3392e0522e35c021e6fd) | [#1531](https://github.com/NVIDIA/Model-Optimizer/pull/1531) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `tests` `torch` | \[OMNIML-4788\] specdec_bench: configuration.json provenance + upload_to_s3 |
 | 2026-05-26 | [9d0d9782](https://github.com/NVIDIA/Model-Optimizer/commit/9d0d97829a739a90fce16030d835acca207e053e) | [#1537](https://github.com/NVIDIA/Model-Optimizer/pull/1537) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` | chore(lint): modernize typing (PEP 604/585) and enable UP032 |
 | 2026-05-22 | [3ff15cce](https://github.com/NVIDIA/Model-Optimizer/commit/3ff15ccef3f0a46703a169272f61640cea311a1c) | [#1195](https://github.com/NVIDIA/Model-Optimizer/pull/1195) | [@ynankani](https://github.com/ynankani) | `diffusers` `example` `export` `quantization` `tests` `torch` | Add support for postprocess exported model for block scale swizzling and support for different padding strategy |
 | 2026-05-22 | [04f58166](https://github.com/NVIDIA/Model-Optimizer/commit/04f58166abe86b2e37212247ec80f15d726ef19d) | [#1506](https://github.com/NVIDIA/Model-Optimizer/pull/1506) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `eval` `example` `infra` `quantization` `torch` | \[OMNIML-3707\] Model-specific PTQ recipes bootstrap |
@@ -184,4 +187,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 178 PRs**
+**Total: 181 PRs**

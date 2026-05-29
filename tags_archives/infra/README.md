@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-29 | [7ae18651](https://github.com/NVIDIA/Model-Optimizer/commit/7ae18651a5782ca434c7b85d5e345e5ed989ba29) | [#1556](https://github.com/NVIDIA/Model-Optimizer/pull/1556) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Fix puzzletron tests and make FFN pruning check robust |
+| 2026-05-28 | [a5b7d3e8](https://github.com/NVIDIA/Model-Optimizer/commit/a5b7d3e82431a098e0c665684adfc3ed74a338cc) | [#1559](https://github.com/NVIDIA/Model-Optimizer/pull/1559) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | ci: authenticate nvcr.io container pulls with NGC API key |
+| 2026-05-28 | [5d0441ae](https://github.com/NVIDIA/Model-Optimizer/commit/5d0441ae3d613333ce1274e685e3b595aff08936) | [#1501](https://github.com/NVIDIA/Model-Optimizer/pull/1501) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Create shared Megatron calibration forward loop for prune / quantize with megatron pretraining data style sequence packing |
+| 2026-05-28 | [999c9991](https://github.com/NVIDIA/Model-Optimizer/commit/999c99913ecde96e5bd3c7b84249c4c03faa909e) | [#1376](https://github.com/NVIDIA/Model-Optimizer/pull/1376) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Add Nemotron-3-Nano-30B-A3B-BF16 e2e tutorial: Prune + Distill + Quantize + Nemo Evaluator + vLLM deployment |
+| 2026-05-28 | [a2c496af](https://github.com/NVIDIA/Model-Optimizer/commit/a2c496af0dfe6ab699ae3392e0522e35c021e6fd) | [#1531](https://github.com/NVIDIA/Model-Optimizer/pull/1531) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `tests` `torch` | \[OMNIML-4788\] specdec_bench: configuration.json provenance + upload_to_s3 |
 | 2026-05-27 | [48fbac0e](https://github.com/NVIDIA/Model-Optimizer/commit/48fbac0ed79bb577f9dd973dab79742701bad051) | [#1544](https://github.com/NVIDIA/Model-Optimizer/pull/1544) | [@chochowski](https://github.com/chochowski) | `infra` | config for expert removal in nemotron3 |
 | 2026-05-27 | [b49f9b9e](https://github.com/NVIDIA/Model-Optimizer/commit/b49f9b9e2d747af992d78a3aa7f10efe5a8847e1) | [#1516](https://github.com/NVIDIA/Model-Optimizer/pull/1516) | [@jenchen13](https://github.com/jenchen13) | `infra` | Megatron-Bridge import example in launcher for Nemotron Super V3 \[OMNIML-4827\] |
 | 2026-05-26 | [cd2ea46e](https://github.com/NVIDIA/Model-Optimizer/commit/cd2ea46e1d1562a62f87876d5b3ecd442b5158a7) | [#1495](https://github.com/NVIDIA/Model-Optimizer/pull/1495) | [@ajrasane](https://github.com/ajrasane) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-4730\] Support quantized nn.Embedding |
@@ -240,4 +245,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 234 PRs**
+**Total: 239 PRs**

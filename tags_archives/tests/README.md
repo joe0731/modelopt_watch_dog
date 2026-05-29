@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-29 | [e012f064](https://github.com/NVIDIA/Model-Optimizer/commit/e012f064e1ebc2256f368a84d8e435baa6f10a27) | [#1557](https://github.com/NVIDIA/Model-Optimizer/pull/1557) | [@edmundshieh](https://github.com/edmundshieh) | `quantization` `tests` `torch` | \[Quant\] Fix padded NVFP4 MSE calibration |
+| 2026-05-29 | [7ae18651](https://github.com/NVIDIA/Model-Optimizer/commit/7ae18651a5782ca434c7b85d5e345e5ed989ba29) | [#1556](https://github.com/NVIDIA/Model-Optimizer/pull/1556) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Fix puzzletron tests and make FFN pruning check robust |
+| 2026-05-28 | [5d0441ae](https://github.com/NVIDIA/Model-Optimizer/commit/5d0441ae3d613333ce1274e685e3b595aff08936) | [#1501](https://github.com/NVIDIA/Model-Optimizer/pull/1501) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Create shared Megatron calibration forward loop for prune / quantize with megatron pretraining data style sequence packing |
+| 2026-05-28 | [999c9991](https://github.com/NVIDIA/Model-Optimizer/commit/999c99913ecde96e5bd3c7b84249c4c03faa909e) | [#1376](https://github.com/NVIDIA/Model-Optimizer/pull/1376) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Add Nemotron-3-Nano-30B-A3B-BF16 e2e tutorial: Prune + Distill + Quantize + Nemo Evaluator + vLLM deployment |
+| 2026-05-28 | [a2c496af](https://github.com/NVIDIA/Model-Optimizer/commit/a2c496af0dfe6ab699ae3392e0522e35c021e6fd) | [#1531](https://github.com/NVIDIA/Model-Optimizer/pull/1531) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `tests` `torch` | \[OMNIML-4788\] specdec_bench: configuration.json provenance + upload_to_s3 |
 | 2026-05-26 | [cd2ea46e](https://github.com/NVIDIA/Model-Optimizer/commit/cd2ea46e1d1562a62f87876d5b3ecd442b5158a7) | [#1495](https://github.com/NVIDIA/Model-Optimizer/pull/1495) | [@ajrasane](https://github.com/ajrasane) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-4730\] Support quantized nn.Embedding |
 | 2026-05-26 | [9d0d9782](https://github.com/NVIDIA/Model-Optimizer/commit/9d0d97829a739a90fce16030d835acca207e053e) | [#1537](https://github.com/NVIDIA/Model-Optimizer/pull/1537) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` | chore(lint): modernize typing (PEP 604/585) and enable UP032 |
 | 2026-05-25 | [f59f3ae1](https://github.com/NVIDIA/Model-Optimizer/commit/f59f3ae1c3e2702a83514bac2cb51448f3e50a2d) | [#1529](https://github.com/NVIDIA/Model-Optimizer/pull/1529) | [@h-guo18](https://github.com/h-guo18) | `infra` `tests` | \[Example\]: Dflash-Offline Launcher Example |
@@ -199,4 +204,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 193 PRs**
+**Total: 198 PRs**

@@ -1,5 +1,90 @@
 [
   {
+    "date": "2026-05-29",
+    "commit": "e012f064e1ebc2256f368a84d8e435baa6f10a27",
+    "pr_number": 1557,
+    "author": "edmundshieh",
+    "title": "[Quant] Fix padded NVFP4 MSE calibration",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "commit": "7ae18651a5782ca434c7b85d5e345e5ed989ba29",
+    "pr_number": 1556,
+    "author": "kevalmorabia97",
+    "title": "Fix puzzletron tests and make FFN pruning check robust",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-05-28",
+    "commit": "8bca173f85fde11d04d982dd3f32a2e925a98aee",
+    "pr_number": 1555,
+    "author": "kevalmorabia97",
+    "title": "Fix puzzletron tests for transformers 5.9 + robustness",
+    "tags": []
+  },
+  {
+    "date": "2026-05-28",
+    "commit": "a5b7d3e82431a098e0c665684adfc3ed74a338cc",
+    "pr_number": 1559,
+    "author": "kevalmorabia97",
+    "title": "ci: authenticate nvcr.io container pulls with NGC API key",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-28",
+    "commit": "5d0441ae3d613333ce1274e685e3b595aff08936",
+    "pr_number": 1501,
+    "author": "kevalmorabia97",
+    "title": "Create shared Megatron calibration forward loop for prune / quantize with megatron pretraining data style sequence packing",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-28",
+    "commit": "999c99913ecde96e5bd3c7b84249c4c03faa909e",
+    "pr_number": 1376,
+    "author": "kevalmorabia97",
+    "title": "Add Nemotron-3-Nano-30B-A3B-BF16 e2e tutorial: Prune + Distill + Quantize + Nemo Evaluator + vLLM deployment",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-28",
+    "commit": "a2c496af0dfe6ab699ae3392e0522e35c021e6fd",
+    "pr_number": 1531,
+    "author": "ChenhanYu",
+    "title": "[OMNIML-4788] specdec_bench: configuration.json provenance + upload_to_s3",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-27",
     "commit": "48fbac0ed79bb577f9dd973dab79742701bad051",
     "pr_number": 1544,
