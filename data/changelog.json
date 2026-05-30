@@ -23,6 +23,140 @@
     ]
   },
   {
+    "date": "2026-05-29",
+    "commit": "a9c156e24a9076d2a7c91c26e07b2a9be78afe3c",
+    "pr_number": 1468,
+    "author": "Separius",
+    "title": "Split bypass prerequisites",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "commit": "5eba879002cb1b9e392c8fe6d71af2859e5827e0",
+    "pr_number": 1567,
+    "author": "kevalmorabia97",
+    "title": "Launcher nvrx install from PyPI; specdec_bench guard modelopt import",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "commit": "eb5ed2df68689690f27231ca614f689d57fb0ea7",
+    "pr_number": 1554,
+    "author": "kevalmorabia97",
+    "title": "[CI] Bump torch, transformers and dev containers to latest",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "torch",
+      "vlm"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "commit": "dd8314b02cff333475312ad87fb594721ad152a3",
+    "pr_number": 1568,
+    "author": "yeyu-nvidia",
+    "title": "Fix EAGLE3 Nemotron-3-Nano-30B deploy test (NVBugs 6130106)",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "commit": "f99d83eeab48dcab090060850a235569dcfe2506",
+    "pr_number": 1565,
+    "author": "gcunhase",
+    "title": "[Auto-23/24][ONNX][Autocast] Clear stale Cast-output type metadata before ORT InferenceSession load",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "commit": "ed0a4b175d2f2e724822dc7008bd3d3256567ebc",
+    "pr_number": 1561,
+    "author": "cjluo-nv",
+    "title": "Refactor evaluation skill: vLLM cross-check, MLflow defaults, walltime cap",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "commit": "7aa0c956465d49da37ee0a3ce66bc49ff28e71d9",
+    "pr_number": 1517,
+    "author": "kinjalpatel27",
+    "title": "adding vllm unit tests",
+    "tags": [
+      "deploy",
+      "example",
+      "infra",
+      "tests",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "commit": "d7e72f42eddb1a6aa63c2dd097af9811255ff74e",
+    "pr_number": 1536,
+    "author": "realAsma",
+    "title": "Refine static NVFP4 MSE calibration",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "commit": "40a4dd326d8eed63d3153611201341a32bfab329",
+    "pr_number": 1566,
+    "author": "h-guo18",
+    "title": "[Feat]: Eagle Dry Run Mode",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-05-29",
+    "commit": "4b270f0ea6f180ab99e9b6e09b1ff5aea4d74b2e",
+    "pr_number": 1521,
+    "author": "jenchen13",
+    "title": "Support Mixed precision & Static MSE in MCore; Nemotron Super v3 NVFP4 recipe",
+    "tags": [
+      "core",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-05-28",
     "commit": "8bca173f85fde11d04d982dd3f32a2e925a98aee",
     "pr_number": 1555,

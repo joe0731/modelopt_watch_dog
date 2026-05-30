@@ -5,6 +5,10 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-05-29 | [e012f064](https://github.com/NVIDIA/Model-Optimizer/commit/e012f064e1ebc2256f368a84d8e435baa6f10a27) | [#1557](https://github.com/NVIDIA/Model-Optimizer/pull/1557) | [@edmundshieh](https://github.com/edmundshieh) | `quantization` `tests` `torch` | \[Quant\] Fix padded NVFP4 MSE calibration |
+| 2026-05-29 | [eb5ed2df](https://github.com/NVIDIA/Model-Optimizer/commit/eb5ed2df68689690f27231ca614f689d57fb0ea7) | [#1554](https://github.com/NVIDIA/Model-Optimizer/pull/1554) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `quantization` `torch` `vlm` | \[CI\] Bump torch, transformers and dev containers to latest |
+| 2026-05-29 | [f99d83ee](https://github.com/NVIDIA/Model-Optimizer/commit/f99d83eeab48dcab090060850a235569dcfe2506) | [#1565](https://github.com/NVIDIA/Model-Optimizer/pull/1565) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `quantization` `tests` | \[Auto-23/24\]\[ONNX\]\[Autocast\] Clear stale Cast-output type metadata before ORT InferenceSession load |
+| 2026-05-29 | [d7e72f42](https://github.com/NVIDIA/Model-Optimizer/commit/d7e72f42eddb1a6aa63c2dd097af9811255ff74e) | [#1536](https://github.com/NVIDIA/Model-Optimizer/pull/1536) | [@realAsma](https://github.com/realAsma) | `eval` `example` `quantization` `tests` `torch` | Refine static NVFP4 MSE calibration |
+| 2026-05-29 | [4b270f0e](https://github.com/NVIDIA/Model-Optimizer/commit/4b270f0ea6f180ab99e9b6e09b1ff5aea4d74b2e) | [#1521](https://github.com/NVIDIA/Model-Optimizer/pull/1521) | [@jenchen13](https://github.com/jenchen13) | `core` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Support Mixed precision & Static MSE in MCore; Nemotron Super v3 NVFP4 recipe |
 | 2026-05-26 | [cd2ea46e](https://github.com/NVIDIA/Model-Optimizer/commit/cd2ea46e1d1562a62f87876d5b3ecd442b5158a7) | [#1495](https://github.com/NVIDIA/Model-Optimizer/pull/1495) | [@ajrasane](https://github.com/ajrasane) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-4730\] Support quantized nn.Embedding |
 | 2026-05-26 | [9d0d9782](https://github.com/NVIDIA/Model-Optimizer/commit/9d0d97829a739a90fce16030d835acca207e053e) | [#1537](https://github.com/NVIDIA/Model-Optimizer/pull/1537) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` | chore(lint): modernize typing (PEP 604/585) and enable UP032 |
 | 2026-05-22 | [3ff15cce](https://github.com/NVIDIA/Model-Optimizer/commit/3ff15ccef3f0a46703a169272f61640cea311a1c) | [#1195](https://github.com/NVIDIA/Model-Optimizer/pull/1195) | [@ynankani](https://github.com/ynankani) | `diffusers` `example` `export` `quantization` `tests` `torch` | Add support for postprocess exported model for block scale swizzling and support for different padding strategy |
@@ -202,4 +206,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 196 PRs**
+**Total: 200 PRs**

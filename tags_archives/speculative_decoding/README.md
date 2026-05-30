@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-29 | [5eba8790](https://github.com/NVIDIA/Model-Optimizer/commit/5eba879002cb1b9e392c8fe6d71af2859e5827e0) | [#1567](https://github.com/NVIDIA/Model-Optimizer/pull/1567) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `speculative_decoding` `torch` | Launcher nvrx install from PyPI; specdec_bench guard modelopt import |
+| 2026-05-29 | [40a4dd32](https://github.com/NVIDIA/Model-Optimizer/commit/40a4dd326d8eed63d3153611201341a32bfab329) | [#1566](https://github.com/NVIDIA/Model-Optimizer/pull/1566) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Eagle Dry Run Mode |
+| 2026-05-29 | [4b270f0e](https://github.com/NVIDIA/Model-Optimizer/commit/4b270f0ea6f180ab99e9b6e09b1ff5aea4d74b2e) | [#1521](https://github.com/NVIDIA/Model-Optimizer/pull/1521) | [@jenchen13](https://github.com/jenchen13) | `core` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Support Mixed precision & Static MSE in MCore; Nemotron Super v3 NVFP4 recipe |
 | 2026-05-28 | [a2c496af](https://github.com/NVIDIA/Model-Optimizer/commit/a2c496af0dfe6ab699ae3392e0522e35c021e6fd) | [#1531](https://github.com/NVIDIA/Model-Optimizer/pull/1531) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `tests` `torch` | \[OMNIML-4788\] specdec_bench: configuration.json provenance + upload_to_s3 |
 | 2026-05-26 | [9d0d9782](https://github.com/NVIDIA/Model-Optimizer/commit/9d0d97829a739a90fce16030d835acca207e053e) | [#1537](https://github.com/NVIDIA/Model-Optimizer/pull/1537) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` | chore(lint): modernize typing (PEP 604/585) and enable UP032 |
 | 2026-05-21 | [3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9) | [#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522) | [@jenchen13](https://github.com/jenchen13) | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | merge main into feature branch and LM head quantization & W4A16 export in MCore |
@@ -54,4 +57,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 48 PRs**
+**Total: 51 PRs**

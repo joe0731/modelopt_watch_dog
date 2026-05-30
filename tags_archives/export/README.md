@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-29 | [4b270f0e](https://github.com/NVIDIA/Model-Optimizer/commit/4b270f0ea6f180ab99e9b6e09b1ff5aea4d74b2e) | [#1521](https://github.com/NVIDIA/Model-Optimizer/pull/1521) | [@jenchen13](https://github.com/jenchen13) | `core` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Support Mixed precision & Static MSE in MCore; Nemotron Super v3 NVFP4 recipe |
 | 2026-05-26 | [cd2ea46e](https://github.com/NVIDIA/Model-Optimizer/commit/cd2ea46e1d1562a62f87876d5b3ecd442b5158a7) | [#1495](https://github.com/NVIDIA/Model-Optimizer/pull/1495) | [@ajrasane](https://github.com/ajrasane) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-4730\] Support quantized nn.Embedding |
 | 2026-05-26 | [9d0d9782](https://github.com/NVIDIA/Model-Optimizer/commit/9d0d97829a739a90fce16030d835acca207e053e) | [#1537](https://github.com/NVIDIA/Model-Optimizer/pull/1537) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` | chore(lint): modernize typing (PEP 604/585) and enable UP032 |
 | 2026-05-22 | [3ff15cce](https://github.com/NVIDIA/Model-Optimizer/commit/3ff15ccef3f0a46703a169272f61640cea311a1c) | [#1195](https://github.com/NVIDIA/Model-Optimizer/pull/1195) | [@ynankani](https://github.com/ynankani) | `diffusers` `example` `export` `quantization` `tests` `torch` | Add support for postprocess exported model for block scale swizzling and support for different padding strategy |
@@ -104,4 +105,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 98 PRs**
+**Total: 99 PRs**

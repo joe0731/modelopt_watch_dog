@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-29 | [7aa0c956](https://github.com/NVIDIA/Model-Optimizer/commit/7aa0c956465d49da37ee0a3ce66bc49ff28e71d9) | [#1517](https://github.com/NVIDIA/Model-Optimizer/pull/1517) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `infra` `tests` `vllm` | adding vllm unit tests |
 | 2026-05-20 | [c9098b63](https://github.com/NVIDIA/Model-Optimizer/commit/c9098b63fb5e855958182cd760cecb50e9bef794) | [#1127](https://github.com/NVIDIA/Model-Optimizer/pull/1127) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `diffusers` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[4/n\] Add vLLM integration for modelopt sparse attention |
 | 2026-05-11 | [acabf876](https://github.com/NVIDIA/Model-Optimizer/commit/acabf8764f2a27f85995f1441cd5f39054cc279c) | [#1426](https://github.com/NVIDIA/Model-Optimizer/pull/1426) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `eval` `example` `export` `infra` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1393 #1389 #1268 #1397 #1402 #1411 #1410 #1419 #1408 #1416 |
 | 2026-05-05 | [ade95671](https://github.com/NVIDIA/Model-Optimizer/commit/ade956718229333ca044916c0c7cefb921539451) | [#1268](https://github.com/NVIDIA/Model-Optimizer/pull/1268) | [@gcunhase](https://github.com/gcunhase) | `deploy` `onnx` `quantization` `tests` `torch` | Centralize 'trtexec' subprocess runs in ONNX into a single function |
@@ -28,4 +29,4 @@
 | 2026-01-26 | [38403095](https://github.com/NVIDIA/Model-Optimizer/commit/38403095c4a9829b14e0ce45c9b067c16a502b46) | [#731](https://github.com/NVIDIA/Model-Optimizer/pull/731) | [@galagam](https://github.com/galagam) | `deploy` `infra` `onnx` `torch` | \[5725362\] AutoCast Fixes for models with external data |
 
 ---
-**Total: 22 PRs**
+**Total: 23 PRs**

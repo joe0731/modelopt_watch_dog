@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-29 | [f99d83ee](https://github.com/NVIDIA/Model-Optimizer/commit/f99d83eeab48dcab090060850a235569dcfe2506) | [#1565](https://github.com/NVIDIA/Model-Optimizer/pull/1565) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `quantization` `tests` | \[Auto-23/24\]\[ONNX\]\[Autocast\] Clear stale Cast-output type metadata before ORT InferenceSession load |
 | 2026-05-26 | [9d0d9782](https://github.com/NVIDIA/Model-Optimizer/commit/9d0d97829a739a90fce16030d835acca207e053e) | [#1537](https://github.com/NVIDIA/Model-Optimizer/pull/1537) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` | chore(lint): modernize typing (PEP 604/585) and enable UP032 |
 | 2026-05-21 | [3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9) | [#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522) | [@jenchen13](https://github.com/jenchen13) | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | merge main into feature branch and LM head quantization & W4A16 export in MCore |
 | 2026-05-18 | [f5650bd0](https://github.com/NVIDIA/Model-Optimizer/commit/f5650bd02cd1f8180f43d31985d5b8542a602cdc) | [#1405](https://github.com/NVIDIA/Model-Optimizer/pull/1405) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `onnx` `quantization` `tests` `torch` | Schematize config loading and quantizer config entries |
@@ -79,4 +80,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 73 PRs**
+**Total: 74 PRs**
