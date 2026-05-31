@@ -8,6 +8,8 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-05-31 | [54fb87e9](https://github.com/NVIDIA/Model-Optimizer/commit/54fb87e972f4e738aee194445da9b4ec523566e0) | [#1574](https://github.com/NVIDIA/Model-Optimizer/pull/1574) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-4869\] author_yaml |
+| 🔵 | **2026-05-30** | **[7ae4ee7a](https://github.com/NVIDIA/Model-Optimizer/commit/7ae4ee7afd85a5d598c31c4e632d4eb150534c9e)** | **[#1572](https://github.com/NVIDIA/Model-Optimizer/pull/1572)** | **[@mxinO](https://github.com/mxinO)** | `deploy` `example` `vllm` | **Force vLLM non-gated MoE through Triton** |
 |  | 2026-05-29 | [e012f064](https://github.com/NVIDIA/Model-Optimizer/commit/e012f064e1ebc2256f368a84d8e435baa6f10a27) | [#1557](https://github.com/NVIDIA/Model-Optimizer/pull/1557) | [@edmundshieh](https://github.com/edmundshieh) | `quantization` `tests` `torch` | \[Quant\] Fix padded NVFP4 MSE calibration |
 |  | 2026-05-29 | [7ae18651](https://github.com/NVIDIA/Model-Optimizer/commit/7ae18651a5782ca434c7b85d5e345e5ed989ba29) | [#1556](https://github.com/NVIDIA/Model-Optimizer/pull/1556) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Fix puzzletron tests and make FFN pruning check robust |
 |  | 2026-05-29 | [a9c156e2](https://github.com/NVIDIA/Model-Optimizer/commit/a9c156e24a9076d2a7c91c26e07b2a9be78afe3c) | [#1468](https://github.com/NVIDIA/Model-Optimizer/pull/1468) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Split bypass prerequisites |
@@ -106,4 +108,4 @@
 |  | 2026-05-01 | [9d2e6087](https://github.com/NVIDIA/Model-Optimizer/commit/9d2e6087d1c0d99a6d5441dc0c685da36af51055) | [#1365](https://github.com/NVIDIA/Model-Optimizer/pull/1365) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Fix\]: $HOME in launcher eagle example |
 
 ---
-**Total: 96 PRs** | **Highlighted: 28**
+**Total: 98 PRs** | **Highlighted: 29**

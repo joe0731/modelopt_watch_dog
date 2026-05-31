@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-05-31 | [54fb87e9](https://github.com/NVIDIA/Model-Optimizer/commit/54fb87e972f4e738aee194445da9b4ec523566e0) | [#1574](https://github.com/NVIDIA/Model-Optimizer/pull/1574) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-4869\] author_yaml |
 | 2026-05-29 | [7ae18651](https://github.com/NVIDIA/Model-Optimizer/commit/7ae18651a5782ca434c7b85d5e345e5ed989ba29) | [#1556](https://github.com/NVIDIA/Model-Optimizer/pull/1556) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Fix puzzletron tests and make FFN pruning check robust |
 | 2026-05-29 | [a9c156e2](https://github.com/NVIDIA/Model-Optimizer/commit/a9c156e24a9076d2a7c91c26e07b2a9be78afe3c) | [#1468](https://github.com/NVIDIA/Model-Optimizer/pull/1468) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Split bypass prerequisites |
 | 2026-05-29 | [5eba8790](https://github.com/NVIDIA/Model-Optimizer/commit/5eba879002cb1b9e392c8fe6d71af2859e5827e0) | [#1567](https://github.com/NVIDIA/Model-Optimizer/pull/1567) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `speculative_decoding` `torch` | Launcher nvrx install from PyPI; specdec_bench guard modelopt import |
@@ -253,4 +254,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 247 PRs**
+**Total: 248 PRs**
