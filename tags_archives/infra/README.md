@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-01 | [552ab905](https://github.com/NVIDIA/Model-Optimizer/commit/552ab905fc2655d062e5abb28b21d7fbccd98d01) | [#1576](https://github.com/NVIDIA/Model-Optimizer/pull/1576) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-06-01) |
 | 2026-05-31 | [54fb87e9](https://github.com/NVIDIA/Model-Optimizer/commit/54fb87e972f4e738aee194445da9b4ec523566e0) | [#1574](https://github.com/NVIDIA/Model-Optimizer/pull/1574) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-4869\] author_yaml |
 | 2026-05-29 | [7ae18651](https://github.com/NVIDIA/Model-Optimizer/commit/7ae18651a5782ca434c7b85d5e345e5ed989ba29) | [#1556](https://github.com/NVIDIA/Model-Optimizer/pull/1556) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Fix puzzletron tests and make FFN pruning check robust |
 | 2026-05-29 | [a9c156e2](https://github.com/NVIDIA/Model-Optimizer/commit/a9c156e24a9076d2a7c91c26e07b2a9be78afe3c) | [#1468](https://github.com/NVIDIA/Model-Optimizer/pull/1468) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Split bypass prerequisites |
@@ -254,4 +255,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 248 PRs**
+**Total: 249 PRs**

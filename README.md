@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-06-01 | [552ab905](https://github.com/NVIDIA/Model-Optimizer/commit/552ab905fc2655d062e5abb28b21d7fbccd98d01) | [#1576](https://github.com/NVIDIA/Model-Optimizer/pull/1576) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-06-01) |
 | 2026-05-31 | [54fb87e9](https://github.com/NVIDIA/Model-Optimizer/commit/54fb87e972f4e738aee194445da9b4ec523566e0) | [#1574](https://github.com/NVIDIA/Model-Optimizer/pull/1574) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-4869\] author_yaml |
 | 2026-05-30 | [7ae4ee7a](https://github.com/NVIDIA/Model-Optimizer/commit/7ae4ee7afd85a5d598c31c4e632d4eb150534c9e) | [#1572](https://github.com/NVIDIA/Model-Optimizer/pull/1572) | [@mxinO](https://github.com/mxinO) | `deploy` `example` `vllm` | Force vLLM non-gated MoE through Triton |
 | 2026-05-29 | [a9c156e2](https://github.com/NVIDIA/Model-Optimizer/commit/a9c156e24a9076d2a7c91c26e07b2a9be78afe3c) | [#1468](https://github.com/NVIDIA/Model-Optimizer/pull/1468) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Split bypass prerequisites |
