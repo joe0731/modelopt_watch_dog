@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-02 | [72df833e](https://github.com/NVIDIA/Model-Optimizer/commit/72df833e0b85c0e4cd414e5ebd018b8087971071) | [#1497](https://github.com/NVIDIA/Model-Optimizer/pull/1497) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `tests` `torch` | Add active-MoE AutoQuant cost accounting |
+| 2026-06-01 | [f0d2237c](https://github.com/NVIDIA/Model-Optimizer/commit/f0d2237cbc1b56ffc3964ed70053dbe91c414ec6) | [#1482](https://github.com/NVIDIA/Model-Optimizer/pull/1482) | [@hychiang-git](https://github.com/hychiang-git) | `core` `docs` `export` `infra` `tests` `torch` | Add Qwen3VL MCore Export support from PR 895 |
 | 2026-05-29 | [e012f064](https://github.com/NVIDIA/Model-Optimizer/commit/e012f064e1ebc2256f368a84d8e435baa6f10a27) | [#1557](https://github.com/NVIDIA/Model-Optimizer/pull/1557) | [@edmundshieh](https://github.com/edmundshieh) | `quantization` `tests` `torch` | \[Quant\] Fix padded NVFP4 MSE calibration |
 | 2026-05-29 | [7ae18651](https://github.com/NVIDIA/Model-Optimizer/commit/7ae18651a5782ca434c7b85d5e345e5ed989ba29) | [#1556](https://github.com/NVIDIA/Model-Optimizer/pull/1556) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Fix puzzletron tests and make FFN pruning check robust |
 | 2026-05-29 | [a9c156e2](https://github.com/NVIDIA/Model-Optimizer/commit/a9c156e24a9076d2a7c91c26e07b2a9be78afe3c) | [#1468](https://github.com/NVIDIA/Model-Optimizer/pull/1468) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Split bypass prerequisites |
@@ -211,4 +213,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 205 PRs**
+**Total: 207 PRs**

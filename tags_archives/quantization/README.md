@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-02 | [72df833e](https://github.com/NVIDIA/Model-Optimizer/commit/72df833e0b85c0e4cd414e5ebd018b8087971071) | [#1497](https://github.com/NVIDIA/Model-Optimizer/pull/1497) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `tests` `torch` | Add active-MoE AutoQuant cost accounting |
 | 2026-05-29 | [e012f064](https://github.com/NVIDIA/Model-Optimizer/commit/e012f064e1ebc2256f368a84d8e435baa6f10a27) | [#1557](https://github.com/NVIDIA/Model-Optimizer/pull/1557) | [@edmundshieh](https://github.com/edmundshieh) | `quantization` `tests` `torch` | \[Quant\] Fix padded NVFP4 MSE calibration |
 | 2026-05-29 | [eb5ed2df](https://github.com/NVIDIA/Model-Optimizer/commit/eb5ed2df68689690f27231ca614f689d57fb0ea7) | [#1554](https://github.com/NVIDIA/Model-Optimizer/pull/1554) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `quantization` `torch` `vlm` | \[CI\] Bump torch, transformers and dev containers to latest |
 | 2026-05-29 | [f99d83ee](https://github.com/NVIDIA/Model-Optimizer/commit/f99d83eeab48dcab090060850a235569dcfe2506) | [#1565](https://github.com/NVIDIA/Model-Optimizer/pull/1565) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `quantization` `tests` | \[Auto-23/24\]\[ONNX\]\[Autocast\] Clear stale Cast-output type metadata before ORT InferenceSession load |
@@ -206,4 +207,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 200 PRs**
+**Total: 201 PRs**

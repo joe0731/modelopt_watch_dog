@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-02 | [72df833e](https://github.com/NVIDIA/Model-Optimizer/commit/72df833e0b85c0e4cd414e5ebd018b8087971071) | [#1497](https://github.com/NVIDIA/Model-Optimizer/pull/1497) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `tests` `torch` | Add active-MoE AutoQuant cost accounting |
 | 2026-05-30 | [7ae4ee7a](https://github.com/NVIDIA/Model-Optimizer/commit/7ae4ee7afd85a5d598c31c4e632d4eb150534c9e) | [#1572](https://github.com/NVIDIA/Model-Optimizer/pull/1572) | [@mxinO](https://github.com/mxinO) | `deploy` `example` `vllm` | Force vLLM non-gated MoE through Triton |
 | 2026-05-29 | [a9c156e2](https://github.com/NVIDIA/Model-Optimizer/commit/a9c156e24a9076d2a7c91c26e07b2a9be78afe3c) | [#1468](https://github.com/NVIDIA/Model-Optimizer/pull/1468) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Split bypass prerequisites |
 | 2026-05-29 | [5eba8790](https://github.com/NVIDIA/Model-Optimizer/commit/5eba879002cb1b9e392c8fe6d71af2859e5827e0) | [#1567](https://github.com/NVIDIA/Model-Optimizer/pull/1567) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `speculative_decoding` `torch` | Launcher nvrx install from PyPI; specdec_bench guard modelopt import |
@@ -195,4 +196,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 189 PRs**
+**Total: 190 PRs**

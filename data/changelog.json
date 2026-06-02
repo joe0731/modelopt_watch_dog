@@ -1,10 +1,70 @@
 [
   {
+    "date": "2026-06-02",
+    "commit": "db9ea8f17e53a8b1982302dc2dd3d0e0972d958e",
+    "pr_number": 1591,
+    "author": "cjluo-nv",
+    "title": "eval skill: parameterize external judge/user-sim endpoints via .env",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-02",
+    "commit": "72df833e0b85c0e4cd414e5ebd018b8087971071",
+    "pr_number": 1497,
+    "author": "meenchen",
+    "title": "Add active-MoE AutoQuant cost accounting",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-06-01",
     "commit": "552ab905fc2655d062e5abb28b21d7fbccd98d01",
     "pr_number": 1576,
     "author": "github-actions[bot]",
     "title": "[chore]: weekly bump of uv.lock on main (2026-06-01)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "commit": "f0d2237cbc1b56ffc3964ed70053dbe91c414ec6",
+    "pr_number": 1482,
+    "author": "hychiang-git",
+    "title": "Add Qwen3VL MCore Export support from PR 895",
+    "tags": [
+      "core",
+      "docs",
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "commit": "38c78439f2092f0cb2d79e67feb19b0e89ce9dd2",
+    "pr_number": 1583,
+    "author": "cjluo-nv",
+    "title": "Add parallelism sizing reference to evaluation skill",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-01",
+    "commit": "905259fbf5d2dda3da00ef4dfe3c5c22de4155f0",
+    "pr_number": 1590,
+    "author": "cjluo-nv",
+    "title": "Fix: use python3 in debugger server.sh",
     "tags": [
       "infra"
     ]

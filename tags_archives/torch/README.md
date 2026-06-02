@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-02 | [72df833e](https://github.com/NVIDIA/Model-Optimizer/commit/72df833e0b85c0e4cd414e5ebd018b8087971071) | [#1497](https://github.com/NVIDIA/Model-Optimizer/pull/1497) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `tests` `torch` | Add active-MoE AutoQuant cost accounting |
+| 2026-06-01 | [f0d2237c](https://github.com/NVIDIA/Model-Optimizer/commit/f0d2237cbc1b56ffc3964ed70053dbe91c414ec6) | [#1482](https://github.com/NVIDIA/Model-Optimizer/pull/1482) | [@hychiang-git](https://github.com/hychiang-git) | `core` `docs` `export` `infra` `tests` `torch` | Add Qwen3VL MCore Export support from PR 895 |
 | 2026-05-29 | [e012f064](https://github.com/NVIDIA/Model-Optimizer/commit/e012f064e1ebc2256f368a84d8e435baa6f10a27) | [#1557](https://github.com/NVIDIA/Model-Optimizer/pull/1557) | [@edmundshieh](https://github.com/edmundshieh) | `quantization` `tests` `torch` | \[Quant\] Fix padded NVFP4 MSE calibration |
 | 2026-05-29 | [a9c156e2](https://github.com/NVIDIA/Model-Optimizer/commit/a9c156e24a9076d2a7c91c26e07b2a9be78afe3c) | [#1468](https://github.com/NVIDIA/Model-Optimizer/pull/1468) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Split bypass prerequisites |
 | 2026-05-29 | [5eba8790](https://github.com/NVIDIA/Model-Optimizer/commit/5eba879002cb1b9e392c8fe6d71af2859e5827e0) | [#1567](https://github.com/NVIDIA/Model-Optimizer/pull/1567) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `speculative_decoding` `torch` | Launcher nvrx install from PyPI; specdec_bench guard modelopt import |
@@ -302,4 +304,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 296 PRs**
+**Total: 298 PRs**
