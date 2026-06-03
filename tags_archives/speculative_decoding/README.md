@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-02 | [902d3692](https://github.com/NVIDIA/Model-Optimizer/commit/902d36921a26e705db93aeab6eaa272fed975784) | [#1509](https://github.com/NVIDIA/Model-Optimizer/pull/1509) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Streaming Hidden-states Dataset |
 | 2026-05-29 | [5eba8790](https://github.com/NVIDIA/Model-Optimizer/commit/5eba879002cb1b9e392c8fe6d71af2859e5827e0) | [#1567](https://github.com/NVIDIA/Model-Optimizer/pull/1567) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `speculative_decoding` `torch` | Launcher nvrx install from PyPI; specdec_bench guard modelopt import |
 | 2026-05-29 | [40a4dd32](https://github.com/NVIDIA/Model-Optimizer/commit/40a4dd326d8eed63d3153611201341a32bfab329) | [#1566](https://github.com/NVIDIA/Model-Optimizer/pull/1566) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Eagle Dry Run Mode |
 | 2026-05-29 | [4b270f0e](https://github.com/NVIDIA/Model-Optimizer/commit/4b270f0ea6f180ab99e9b6e09b1ff5aea4d74b2e) | [#1521](https://github.com/NVIDIA/Model-Optimizer/pull/1521) | [@jenchen13](https://github.com/jenchen13) | `core` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | Support Mixed precision & Static MSE in MCore; Nemotron Super v3 NVFP4 recipe |
@@ -57,4 +58,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 51 PRs**
+**Total: 52 PRs**

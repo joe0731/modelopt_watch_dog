@@ -4,7 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-03 | [196c0910](https://github.com/NVIDIA/Model-Optimizer/commit/196c091027c8fd6ce0a42c7b36e771f4f7f3be94) | [#1172](https://github.com/NVIDIA/Model-Optimizer/pull/1172) | [@realAsma](https://github.com/realAsma) | `core` `deploy` `distillation` `example` `infra` `quantization` `tests` `torch` `vllm` | \[1/N\] Refactor llm_qat example: YAML configs + ModelOptArgParser |
+| 2026-06-03 | [e40b4d69](https://github.com/NVIDIA/Model-Optimizer/commit/e40b4d69d6979a7726e756f99f40c3201fd7e033) | [#1604](https://github.com/NVIDIA/Model-Optimizer/pull/1604) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `tests` `torch` | Add Minitron pruning support for Gemma3 via Megatron-Bridge |
 | 2026-06-02 | [72df833e](https://github.com/NVIDIA/Model-Optimizer/commit/72df833e0b85c0e4cd414e5ebd018b8087971071) | [#1497](https://github.com/NVIDIA/Model-Optimizer/pull/1497) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `tests` `torch` | Add active-MoE AutoQuant cost accounting |
+| 2026-06-02 | [f21977a5](https://github.com/NVIDIA/Model-Optimizer/commit/f21977a5fcfe194601170ba832cf468f6fca0e71) | [#1589](https://github.com/NVIDIA/Model-Optimizer/pull/1589) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Add Megatron-Bridge PTQ quantize + export example scripts |
+| 2026-06-02 | [902d3692](https://github.com/NVIDIA/Model-Optimizer/commit/902d36921a26e705db93aeab6eaa272fed975784) | [#1509](https://github.com/NVIDIA/Model-Optimizer/pull/1509) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Streaming Hidden-states Dataset |
 | 2026-05-30 | [7ae4ee7a](https://github.com/NVIDIA/Model-Optimizer/commit/7ae4ee7afd85a5d598c31c4e632d4eb150534c9e) | [#1572](https://github.com/NVIDIA/Model-Optimizer/pull/1572) | [@mxinO](https://github.com/mxinO) | `deploy` `example` `vllm` | Force vLLM non-gated MoE through Triton |
 | 2026-05-29 | [a9c156e2](https://github.com/NVIDIA/Model-Optimizer/commit/a9c156e24a9076d2a7c91c26e07b2a9be78afe3c) | [#1468](https://github.com/NVIDIA/Model-Optimizer/pull/1468) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Split bypass prerequisites |
 | 2026-05-29 | [5eba8790](https://github.com/NVIDIA/Model-Optimizer/commit/5eba879002cb1b9e392c8fe6d71af2859e5827e0) | [#1567](https://github.com/NVIDIA/Model-Optimizer/pull/1567) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `speculative_decoding` `torch` | Launcher nvrx install from PyPI; specdec_bench guard modelopt import |
@@ -196,4 +200,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 190 PRs**
+**Total: 194 PRs**

@@ -1,5 +1,48 @@
 [
   {
+    "date": "2026-06-03",
+    "commit": "196c091027c8fd6ce0a42c7b36e771f4f7f3be94",
+    "pr_number": 1172,
+    "author": "realAsma",
+    "title": "[1/N] Refactor llm_qat example: YAML configs + ModelOptArgParser",
+    "tags": [
+      "core",
+      "deploy",
+      "distillation",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "commit": "e40b4d69d6979a7726e756f99f40c3201fd7e033",
+    "pr_number": 1604,
+    "author": "kevalmorabia97",
+    "title": "Add Minitron pruning support for Gemma3 via Megatron-Bridge",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "nas",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "commit": "862ed5ed77e3af676f376fb8d94e30faae263738",
+    "pr_number": 1595,
+    "author": "Edwardf0t1",
+    "title": "[skills] Fix eval/deploy defaults for NVFP4-on-Blackwell + nemo-skills evals",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-06-02",
     "commit": "db9ea8f17e53a8b1982302dc2dd3d0e0972d958e",
     "pr_number": 1591,
@@ -20,6 +63,47 @@
       "example",
       "infra",
       "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-02",
+    "commit": "8f968322f68b3bc2da647cec511975f72285d406",
+    "pr_number": 1560,
+    "author": "sychen52",
+    "title": "[OMNIML-3994] Make sure all weight quantizers have _amax",
+    "tags": [
+      "export",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-02",
+    "commit": "f21977a5fcfe194601170ba832cf468f6fca0e71",
+    "pr_number": 1589,
+    "author": "kevalmorabia97",
+    "title": "Add Megatron-Bridge PTQ quantize + export example scripts",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-02",
+    "commit": "902d36921a26e705db93aeab6eaa272fed975784",
+    "pr_number": 1509,
+    "author": "h-guo18",
+    "title": "[Feat]: Streaming Hidden-states Dataset",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
       "tests",
       "torch"
     ]

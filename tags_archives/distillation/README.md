@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-03 | [196c0910](https://github.com/NVIDIA/Model-Optimizer/commit/196c091027c8fd6ce0a42c7b36e771f4f7f3be94) | [#1172](https://github.com/NVIDIA/Model-Optimizer/pull/1172) | [@realAsma](https://github.com/realAsma) | `core` `deploy` `distillation` `example` `infra` `quantization` `tests` `torch` `vllm` | \[1/N\] Refactor llm_qat example: YAML configs + ModelOptArgParser |
 | 2026-05-26 | [9d0d9782](https://github.com/NVIDIA/Model-Optimizer/commit/9d0d97829a739a90fce16030d835acca207e053e) | [#1537](https://github.com/NVIDIA/Model-Optimizer/pull/1537) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` | chore(lint): modernize typing (PEP 604/585) and enable UP032 |
 | 2026-05-05 | [cc06062b](https://github.com/NVIDIA/Model-Optimizer/commit/cc06062b353c88e497081ca1a5dbed25f702c671) | [#1385](https://github.com/NVIDIA/Model-Optimizer/pull/1385) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1352 #1351 #1330 #1354 #1355 #1360 #1342 #1324 #1340 #1368 #1373 #1359 #1361 #1325 #1369 #1370 #1371 #1375 #1386 #1353 #1356 #1390 |
 | 2026-04-27 | [6e08b13f](https://github.com/NVIDIA/Model-Optimizer/commit/6e08b13fe6eb78c7a8429137f8c604395c6f8174) | [#1355](https://github.com/NVIDIA/Model-Optimizer/pull/1355) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `torch` | Fix regex capture for Megatron KD PP layer renaming |
@@ -18,4 +19,4 @@
 | 2026-01-13 | [b813ab54](https://github.com/NVIDIA/Model-Optimizer/commit/b813ab548b97db9c0780459f1fe743bb88031d99) | [#747](https://github.com/NVIDIA/Model-Optimizer/pull/747) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Top-K KL Divergence loss |
 
 ---
-**Total: 12 PRs**
+**Total: 13 PRs**

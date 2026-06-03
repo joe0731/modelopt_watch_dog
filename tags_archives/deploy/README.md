@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-03 | [196c0910](https://github.com/NVIDIA/Model-Optimizer/commit/196c091027c8fd6ce0a42c7b36e771f4f7f3be94) | [#1172](https://github.com/NVIDIA/Model-Optimizer/pull/1172) | [@realAsma](https://github.com/realAsma) | `core` `deploy` `distillation` `example` `infra` `quantization` `tests` `torch` `vllm` | \[1/N\] Refactor llm_qat example: YAML configs + ModelOptArgParser |
 | 2026-05-30 | [7ae4ee7a](https://github.com/NVIDIA/Model-Optimizer/commit/7ae4ee7afd85a5d598c31c4e632d4eb150534c9e) | [#1572](https://github.com/NVIDIA/Model-Optimizer/pull/1572) | [@mxinO](https://github.com/mxinO) | `deploy` `example` `vllm` | Force vLLM non-gated MoE through Triton |
 | 2026-05-29 | [7aa0c956](https://github.com/NVIDIA/Model-Optimizer/commit/7aa0c956465d49da37ee0a3ce66bc49ff28e71d9) | [#1517](https://github.com/NVIDIA/Model-Optimizer/pull/1517) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `infra` `tests` `vllm` | adding vllm unit tests |
 | 2026-05-20 | [c9098b63](https://github.com/NVIDIA/Model-Optimizer/commit/c9098b63fb5e855958182cd760cecb50e9bef794) | [#1127](https://github.com/NVIDIA/Model-Optimizer/pull/1127) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `diffusers` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[4/n\] Add vLLM integration for modelopt sparse attention |
@@ -30,4 +31,4 @@
 | 2026-01-26 | [38403095](https://github.com/NVIDIA/Model-Optimizer/commit/38403095c4a9829b14e0ce45c9b067c16a502b46) | [#731](https://github.com/NVIDIA/Model-Optimizer/pull/731) | [@galagam](https://github.com/galagam) | `deploy` `infra` `onnx` `torch` | \[5725362\] AutoCast Fixes for models with external data |
 
 ---
-**Total: 24 PRs**
+**Total: 25 PRs**
