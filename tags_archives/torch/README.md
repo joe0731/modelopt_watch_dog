@@ -4,8 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-04 | [ca7eb64a](https://github.com/NVIDIA/Model-Optimizer/commit/ca7eb64ad0acb1a79a731204115ad32b8e19f13f) | [#1341](https://github.com/NVIDIA/Model-Optimizer/pull/1341) | [@mxinO](https://github.com/mxinO) | `example` `infra` `quantization` `torch` | DSV4 PTQ example with dequant on the fly |
 | 2026-06-03 | [196c0910](https://github.com/NVIDIA/Model-Optimizer/commit/196c091027c8fd6ce0a42c7b36e771f4f7f3be94) | [#1172](https://github.com/NVIDIA/Model-Optimizer/pull/1172) | [@realAsma](https://github.com/realAsma) | `core` `deploy` `distillation` `example` `infra` `quantization` `tests` `torch` `vllm` | \[1/N\] Refactor llm_qat example: YAML configs + ModelOptArgParser |
 | 2026-06-03 | [e40b4d69](https://github.com/NVIDIA/Model-Optimizer/commit/e40b4d69d6979a7726e756f99f40c3201fd7e033) | [#1604](https://github.com/NVIDIA/Model-Optimizer/pull/1604) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `tests` `torch` | Add Minitron pruning support for Gemma3 via Megatron-Bridge |
+| 2026-06-03 | [651fd223](https://github.com/NVIDIA/Model-Optimizer/commit/651fd223e6c94a272983af1870e6c6d31b0e1e77) | [#1607](https://github.com/NVIDIA/Model-Optimizer/pull/1607) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | feat: EAGLE3 LoRA co-training improvements |
+| 2026-06-03 | [a7b0a920](https://github.com/NVIDIA/Model-Optimizer/commit/a7b0a92047962cf9347300533f2f7b3c7c826000) | [#1417](https://github.com/NVIDIA/Model-Optimizer/pull/1417) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `infra` `speculative_decoding` `torch` | EAGLE3 new model support: pipeline configs, triage docs, and Ministral-3 fixes |
+| 2026-06-03 | [5bd04c38](https://github.com/NVIDIA/Model-Optimizer/commit/5bd04c3876f844781974cea23347c1a2d9392f04) | [#1623](https://github.com/NVIDIA/Model-Optimizer/pull/1623) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `infra` `speculative_decoding` `torch` | Revert unverified EAGLE3 model examples; keep triage code + baseline |
 | 2026-06-02 | [72df833e](https://github.com/NVIDIA/Model-Optimizer/commit/72df833e0b85c0e4cd414e5ebd018b8087971071) | [#1497](https://github.com/NVIDIA/Model-Optimizer/pull/1497) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `tests` `torch` | Add active-MoE AutoQuant cost accounting |
 | 2026-06-02 | [8f968322](https://github.com/NVIDIA/Model-Optimizer/commit/8f968322f68b3bc2da647cec511975f72285d406) | [#1560](https://github.com/NVIDIA/Model-Optimizer/pull/1560) | [@sychen52](https://github.com/sychen52) | `export` `quantization` `tests` `torch` | \[OMNIML-3994\] Make sure all weight quantizers have _amax |
 | 2026-06-02 | [f21977a5](https://github.com/NVIDIA/Model-Optimizer/commit/f21977a5fcfe194601170ba832cf468f6fca0e71) | [#1589](https://github.com/NVIDIA/Model-Optimizer/pull/1589) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Add Megatron-Bridge PTQ quantize + export example scripts |
@@ -309,4 +313,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 303 PRs**
+**Total: 307 PRs**

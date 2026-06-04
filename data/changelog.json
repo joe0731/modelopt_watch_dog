@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-06-04",
+    "commit": "ca7eb64ad0acb1a79a731204115ad32b8e19f13f",
+    "pr_number": 1341,
+    "author": "mxinO",
+    "title": "DSV4 PTQ example with dequant on the fly",
+    "tags": [
+      "example",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-06-03",
     "commit": "196c091027c8fd6ce0a42c7b36e771f4f7f3be94",
     "pr_number": 1172,
@@ -38,6 +51,75 @@
     "pr_number": 1595,
     "author": "Edwardf0t1",
     "title": "[skills] Fix eval/deploy defaults for NVFP4-on-Blackwell + nemo-skills evals",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "commit": "651fd223e6c94a272983af1870e6c6d31b0e1e77",
+    "pr_number": 1607,
+    "author": "yeyu-nvidia",
+    "title": "feat: EAGLE3 LoRA co-training improvements",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "commit": "88fd7ff95816975dd3edd1cf830584887572f7eb",
+    "pr_number": 1599,
+    "author": "cjluo-nv",
+    "title": "eval skill: auto-detect predefined per-cluster execution configs",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "commit": "a7b0a92047962cf9347300533f2f7b3c7c826000",
+    "pr_number": 1417,
+    "author": "yeyu-nvidia",
+    "title": "EAGLE3 new model support: pipeline configs, triage docs, and Ministral-3 fixes",
+    "tags": [
+      "example",
+      "export",
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "commit": "5bd04c3876f844781974cea23347c1a2d9392f04",
+    "pr_number": 1623,
+    "author": "yeyu-nvidia",
+    "title": "Revert unverified EAGLE3 model examples; keep triage code + baseline",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "commit": "a548be5da61732fe3e23f9693ef3cb8c78e33f75",
+    "pr_number": 1610,
+    "author": "cjluo-nv",
+    "title": "[Eval skill] Add reasoning adapter_config to eval template",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-03",
+    "commit": "f9423c0d352dd5c740680e01d778f4f255b1a433",
+    "pr_number": 1429,
+    "author": "yeyu-nvidia",
+    "title": "feat(okr30): add EAGLE3 Claude Code skills for triage, validation, and new-model support",
     "tags": [
       "infra"
     ]

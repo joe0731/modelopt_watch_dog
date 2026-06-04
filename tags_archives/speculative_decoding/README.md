@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-03 | [651fd223](https://github.com/NVIDIA/Model-Optimizer/commit/651fd223e6c94a272983af1870e6c6d31b0e1e77) | [#1607](https://github.com/NVIDIA/Model-Optimizer/pull/1607) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | feat: EAGLE3 LoRA co-training improvements |
+| 2026-06-03 | [a7b0a920](https://github.com/NVIDIA/Model-Optimizer/commit/a7b0a92047962cf9347300533f2f7b3c7c826000) | [#1417](https://github.com/NVIDIA/Model-Optimizer/pull/1417) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `infra` `speculative_decoding` `torch` | EAGLE3 new model support: pipeline configs, triage docs, and Ministral-3 fixes |
+| 2026-06-03 | [5bd04c38](https://github.com/NVIDIA/Model-Optimizer/commit/5bd04c3876f844781974cea23347c1a2d9392f04) | [#1623](https://github.com/NVIDIA/Model-Optimizer/pull/1623) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `infra` `speculative_decoding` `torch` | Revert unverified EAGLE3 model examples; keep triage code + baseline |
 | 2026-06-02 | [902d3692](https://github.com/NVIDIA/Model-Optimizer/commit/902d36921a26e705db93aeab6eaa272fed975784) | [#1509](https://github.com/NVIDIA/Model-Optimizer/pull/1509) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Streaming Hidden-states Dataset |
 | 2026-05-29 | [5eba8790](https://github.com/NVIDIA/Model-Optimizer/commit/5eba879002cb1b9e392c8fe6d71af2859e5827e0) | [#1567](https://github.com/NVIDIA/Model-Optimizer/pull/1567) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `speculative_decoding` `torch` | Launcher nvrx install from PyPI; specdec_bench guard modelopt import |
 | 2026-05-29 | [40a4dd32](https://github.com/NVIDIA/Model-Optimizer/commit/40a4dd326d8eed63d3153611201341a32bfab329) | [#1566](https://github.com/NVIDIA/Model-Optimizer/pull/1566) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Eagle Dry Run Mode |
@@ -58,4 +61,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 52 PRs**
+**Total: 55 PRs**
