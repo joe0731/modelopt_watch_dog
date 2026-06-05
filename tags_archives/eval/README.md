@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
 | 2026-06-02 | [72df833e](https://github.com/NVIDIA/Model-Optimizer/commit/72df833e0b85c0e4cd414e5ebd018b8087971071) | [#1497](https://github.com/NVIDIA/Model-Optimizer/pull/1497) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `tests` `torch` | Add active-MoE AutoQuant cost accounting |
 | 2026-05-29 | [eb5ed2df](https://github.com/NVIDIA/Model-Optimizer/commit/eb5ed2df68689690f27231ca614f689d57fb0ea7) | [#1554](https://github.com/NVIDIA/Model-Optimizer/pull/1554) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `quantization` `torch` `vlm` | \[CI\] Bump torch, transformers and dev containers to latest |
 | 2026-05-29 | [d7e72f42](https://github.com/NVIDIA/Model-Optimizer/commit/d7e72f42eddb1a6aa63c2dd097af9811255ff74e) | [#1536](https://github.com/NVIDIA/Model-Optimizer/pull/1536) | [@realAsma](https://github.com/realAsma) | `eval` `example` `quantization` `tests` `torch` | Refine static NVFP4 MSE calibration |
@@ -76,4 +77,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 70 PRs**
+**Total: 71 PRs**

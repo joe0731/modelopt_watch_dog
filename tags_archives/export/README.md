@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
 | 2026-06-03 | [a7b0a920](https://github.com/NVIDIA/Model-Optimizer/commit/a7b0a92047962cf9347300533f2f7b3c7c826000) | [#1417](https://github.com/NVIDIA/Model-Optimizer/pull/1417) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `infra` `speculative_decoding` `torch` | EAGLE3 new model support: pipeline configs, triage docs, and Ministral-3 fixes |
 | 2026-06-02 | [8f968322](https://github.com/NVIDIA/Model-Optimizer/commit/8f968322f68b3bc2da647cec511975f72285d406) | [#1560](https://github.com/NVIDIA/Model-Optimizer/pull/1560) | [@sychen52](https://github.com/sychen52) | `export` `quantization` `tests` `torch` | \[OMNIML-3994\] Make sure all weight quantizers have _amax |
 | 2026-06-01 | [f0d2237c](https://github.com/NVIDIA/Model-Optimizer/commit/f0d2237cbc1b56ffc3964ed70053dbe91c414ec6) | [#1482](https://github.com/NVIDIA/Model-Optimizer/pull/1482) | [@hychiang-git](https://github.com/hychiang-git) | `core` `docs` `export` `infra` `tests` `torch` | Add Qwen3VL MCore Export support from PR 895 |
@@ -108,4 +109,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 102 PRs**
+**Total: 103 PRs**

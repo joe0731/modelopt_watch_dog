@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
 | 2026-06-03 | [651fd223](https://github.com/NVIDIA/Model-Optimizer/commit/651fd223e6c94a272983af1870e6c6d31b0e1e77) | [#1607](https://github.com/NVIDIA/Model-Optimizer/pull/1607) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | feat: EAGLE3 LoRA co-training improvements |
 | 2026-06-03 | [a7b0a920](https://github.com/NVIDIA/Model-Optimizer/commit/a7b0a92047962cf9347300533f2f7b3c7c826000) | [#1417](https://github.com/NVIDIA/Model-Optimizer/pull/1417) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `infra` `speculative_decoding` `torch` | EAGLE3 new model support: pipeline configs, triage docs, and Ministral-3 fixes |
 | 2026-06-03 | [5bd04c38](https://github.com/NVIDIA/Model-Optimizer/commit/5bd04c3876f844781974cea23347c1a2d9392f04) | [#1623](https://github.com/NVIDIA/Model-Optimizer/pull/1623) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `infra` `speculative_decoding` `torch` | Revert unverified EAGLE3 model examples; keep triage code + baseline |
@@ -61,4 +62,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 55 PRs**
+**Total: 56 PRs**

@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-06-04 | [ca7eb64a](https://github.com/NVIDIA/Model-Optimizer/commit/ca7eb64ad0acb1a79a731204115ad32b8e19f13f) | [#1341](https://github.com/NVIDIA/Model-Optimizer/pull/1341) | [@mxinO](https://github.com/mxinO) | `example` `infra` `quantization` `torch` | DSV4 PTQ example with dequant on the fly |
+| 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
 | 2026-06-03 | [196c0910](https://github.com/NVIDIA/Model-Optimizer/commit/196c091027c8fd6ce0a42c7b36e771f4f7f3be94) | [#1172](https://github.com/NVIDIA/Model-Optimizer/pull/1172) | [@realAsma](https://github.com/realAsma) | `core` `deploy` `distillation` `example` `infra` `quantization` `tests` `torch` `vllm` | \[1/N\] Refactor llm_qat example: YAML configs + ModelOptArgParser |
 | 2026-06-02 | [72df833e](https://github.com/NVIDIA/Model-Optimizer/commit/72df833e0b85c0e4cd414e5ebd018b8087971071) | [#1497](https://github.com/NVIDIA/Model-Optimizer/pull/1497) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `tests` `torch` | Add active-MoE AutoQuant cost accounting |
 | 2026-06-02 | [8f968322](https://github.com/NVIDIA/Model-Optimizer/commit/8f968322f68b3bc2da647cec511975f72285d406) | [#1560](https://github.com/NVIDIA/Model-Optimizer/pull/1560) | [@sychen52](https://github.com/sychen52) | `export` `quantization` `tests` `torch` | \[OMNIML-3994\] Make sure all weight quantizers have _amax |
@@ -210,4 +211,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 204 PRs**
+**Total: 205 PRs**

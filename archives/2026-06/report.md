@@ -8,7 +8,11 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-06-05 | [115cae25](https://github.com/NVIDIA/Model-Optimizer/commit/115cae2584245b8727d13cef7984eeddc77f246c) | [#1469](https://github.com/NVIDIA/Model-Optimizer/pull/1469) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Puzzletron bypass distillation part 2 core |
 |  | 2026-06-04 | [ca7eb64a](https://github.com/NVIDIA/Model-Optimizer/commit/ca7eb64ad0acb1a79a731204115ad32b8e19f13f) | [#1341](https://github.com/NVIDIA/Model-Optimizer/pull/1341) | [@mxinO](https://github.com/mxinO) | `example` `infra` `quantization` `torch` | DSV4 PTQ example with dequant on the fly |
+| 🟡🟠 | **2026-06-04** | **[00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f)** | **[#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | **Speed up slow unit/gpu/example tests** |
+|  | 2026-06-04 | [6b73e933](https://github.com/NVIDIA/Model-Optimizer/commit/6b73e933bfc84d5f191360127e30eb9eda523e05) | [#1609](https://github.com/NVIDIA/Model-Optimizer/pull/1609) | [@jenchen13](https://github.com/jenchen13) | `infra` | Nemotron Ultra & Super launcher examples |
+| 🟠 | **2026-06-04** | **[01dec935](https://github.com/NVIDIA/Model-Optimizer/commit/01dec9358079e55d7e16e3c8d271d4653facc51c)** | **[#1626](https://github.com/NVIDIA/Model-Optimizer/pull/1626)** | **[@ajrasane](https://github.com/ajrasane)** | `infra` `onnx` `tests` | **\[6058870\] Fix ONNX AutoCast keep_io_types for empty I/O tensors** |
 | 🔵 | **2026-06-03** | **[196c0910](https://github.com/NVIDIA/Model-Optimizer/commit/196c091027c8fd6ce0a42c7b36e771f4f7f3be94)** | **[#1172](https://github.com/NVIDIA/Model-Optimizer/pull/1172)** | **[@realAsma](https://github.com/realAsma)** | `core` `deploy` `distillation` `example` `infra` `quantization` `tests` `torch` `vllm` | **\[1/N\] Refactor llm_qat example: YAML configs + ModelOptArgParser** |
 |  | 2026-06-03 | [e40b4d69](https://github.com/NVIDIA/Model-Optimizer/commit/e40b4d69d6979a7726e756f99f40c3201fd7e033) | [#1604](https://github.com/NVIDIA/Model-Optimizer/pull/1604) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `tests` `torch` | Add Minitron pruning support for Gemma3 via Megatron-Bridge |
 |  | 2026-06-03 | [862ed5ed](https://github.com/NVIDIA/Model-Optimizer/commit/862ed5ed77e3af676f376fb8d94e30faae263738) | [#1595](https://github.com/NVIDIA/Model-Optimizer/pull/1595) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | \[skills\] Fix eval/deploy defaults for NVFP4-on-Blackwell + nemo-skills evals |
@@ -29,4 +33,4 @@
 |  | 2026-06-01 | [905259fb](https://github.com/NVIDIA/Model-Optimizer/commit/905259fbf5d2dda3da00ef4dfe3c5c22de4155f0) | [#1590](https://github.com/NVIDIA/Model-Optimizer/pull/1590) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Fix: use python3 in debugger server.sh |
 
 ---
-**Total: 19 PRs** | **Highlighted: 2**
+**Total: 23 PRs** | **Highlighted: 4**

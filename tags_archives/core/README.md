@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-05 | [115cae25](https://github.com/NVIDIA/Model-Optimizer/commit/115cae2584245b8727d13cef7984eeddc77f246c) | [#1469](https://github.com/NVIDIA/Model-Optimizer/pull/1469) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Puzzletron bypass distillation part 2 core |
+| 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
 | 2026-06-03 | [196c0910](https://github.com/NVIDIA/Model-Optimizer/commit/196c091027c8fd6ce0a42c7b36e771f4f7f3be94) | [#1172](https://github.com/NVIDIA/Model-Optimizer/pull/1172) | [@realAsma](https://github.com/realAsma) | `core` `deploy` `distillation` `example` `infra` `quantization` `tests` `torch` `vllm` | \[1/N\] Refactor llm_qat example: YAML configs + ModelOptArgParser |
 | 2026-06-03 | [e40b4d69](https://github.com/NVIDIA/Model-Optimizer/commit/e40b4d69d6979a7726e756f99f40c3201fd7e033) | [#1604](https://github.com/NVIDIA/Model-Optimizer/pull/1604) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `tests` `torch` | Add Minitron pruning support for Gemma3 via Megatron-Bridge |
 | 2026-06-02 | [f21977a5](https://github.com/NVIDIA/Model-Optimizer/commit/f21977a5fcfe194601170ba832cf468f6fca0e71) | [#1589](https://github.com/NVIDIA/Model-Optimizer/pull/1589) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Add Megatron-Bridge PTQ quantize + export example scripts |
@@ -99,4 +101,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 93 PRs**
+**Total: 95 PRs**

@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-05",
+    "commit": "115cae2584245b8727d13cef7984eeddc77f246c",
+    "pr_number": 1469,
+    "author": "Separius",
+    "title": "Puzzletron bypass distillation part 2 core",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-06-04",
     "commit": "ca7eb64ad0acb1a79a731204115ad32b8e19f13f",
     "pr_number": 1341,
@@ -10,6 +24,51 @@
       "infra",
       "quantization",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-06-04",
+    "commit": "0081473861cd5095bdbcd9f3dd05171dea04e68f",
+    "pr_number": 1616,
+    "author": "kevalmorabia97",
+    "title": "Speed up slow unit/gpu/example tests",
+    "tags": [
+      "core",
+      "deploy",
+      "diffusers",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "nas",
+      "onnx",
+      "quantization",
+      "sparsity",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-04",
+    "commit": "6b73e933bfc84d5f191360127e30eb9eda523e05",
+    "pr_number": 1609,
+    "author": "jenchen13",
+    "title": "Nemotron Ultra & Super launcher examples",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-04",
+    "commit": "01dec9358079e55d7e16e3c8d271d4653facc51c",
+    "pr_number": 1626,
+    "author": "ajrasane",
+    "title": "[6058870] Fix ONNX AutoCast keep_io_types for empty I/O tensors",
+    "tags": [
+      "infra",
+      "onnx",
+      "tests"
     ]
   },
   {

@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
+| 2026-06-04 | [01dec935](https://github.com/NVIDIA/Model-Optimizer/commit/01dec9358079e55d7e16e3c8d271d4653facc51c) | [#1626](https://github.com/NVIDIA/Model-Optimizer/pull/1626) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `tests` | \[6058870\] Fix ONNX AutoCast keep_io_types for empty I/O tensors |
 | 2026-05-29 | [f99d83ee](https://github.com/NVIDIA/Model-Optimizer/commit/f99d83eeab48dcab090060850a235569dcfe2506) | [#1565](https://github.com/NVIDIA/Model-Optimizer/pull/1565) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `quantization` `tests` | \[Auto-23/24\]\[ONNX\]\[Autocast\] Clear stale Cast-output type metadata before ORT InferenceSession load |
 | 2026-05-26 | [9d0d9782](https://github.com/NVIDIA/Model-Optimizer/commit/9d0d97829a739a90fce16030d835acca207e053e) | [#1537](https://github.com/NVIDIA/Model-Optimizer/pull/1537) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` | chore(lint): modernize typing (PEP 604/585) and enable UP032 |
 | 2026-05-21 | [3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9) | [#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522) | [@jenchen13](https://github.com/jenchen13) | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | merge main into feature branch and LM head quantization & W4A16 export in MCore |
@@ -80,4 +82,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 74 PRs**
+**Total: 76 PRs**
