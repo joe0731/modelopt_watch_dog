@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-05 | [433b549c](https://github.com/NVIDIA/Model-Optimizer/commit/433b549cd89303971b48c0c49c7208dded1a605c) | [#1191](https://github.com/NVIDIA/Model-Optimizer/pull/1191) | [@realAsma](https://github.com/realAsma) | `core` `distillation` `example` `infra` `quantization` `tests` `torch` | \[2/N\] Simplify KDTrainer and enhance ModelOptHFTrainer |
+| 2026-06-05 | [bcbe2b95](https://github.com/NVIDIA/Model-Optimizer/commit/bcbe2b957e32529369c0cbb3743041f0ea193d39) | [#1636](https://github.com/NVIDIA/Model-Optimizer/pull/1636) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `quantization` `torch` | Fix non-deterministic T5 calibration NaN on multi-GPU |
+| 2026-06-05 | [de525973](https://github.com/NVIDIA/Model-Optimizer/commit/de525973cfc07d0e9454c1e672c688027a5a9d24) | [#1630](https://github.com/NVIDIA/Model-Optimizer/pull/1630) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `quantization` `tests` `torch` | \[minor\] fix for GLM4.7 mtp module in PTQ |
+| 2026-06-05 | [dbdff11a](https://github.com/NVIDIA/Model-Optimizer/commit/dbdff11a7f999036bd89486490c70bfea3e065c5) | [#1525](https://github.com/NVIDIA/Model-Optimizer/pull/1525) | [@shengliangxu](https://github.com/shengliangxu) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | \[OMNIML-3708\] Drive PTQ example qformat choices from preset YAMLs (hf_ptq, multinode_ptq, megatron_bridge) |
+| 2026-06-05 | [54ce4e09](https://github.com/NVIDIA/Model-Optimizer/commit/54ce4e09d8cae20a35322a6d7492fbe02c18cda7) | [#1600](https://github.com/NVIDIA/Model-Optimizer/pull/1600) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `eval` `example` `export` `infra` `pruning` `quantization` `tests` `torch` | Add Quantization Aware Distillation (QAD) to Megatron-Bridge example |
 | 2026-06-04 | [ca7eb64a](https://github.com/NVIDIA/Model-Optimizer/commit/ca7eb64ad0acb1a79a731204115ad32b8e19f13f) | [#1341](https://github.com/NVIDIA/Model-Optimizer/pull/1341) | [@mxinO](https://github.com/mxinO) | `example` `infra` `quantization` `torch` | DSV4 PTQ example with dequant on the fly |
 | 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
 | 2026-06-03 | [196c0910](https://github.com/NVIDIA/Model-Optimizer/commit/196c091027c8fd6ce0a42c7b36e771f4f7f3be94) | [#1172](https://github.com/NVIDIA/Model-Optimizer/pull/1172) | [@realAsma](https://github.com/realAsma) | `core` `deploy` `distillation` `example` `infra` `quantization` `tests` `torch` `vllm` | \[1/N\] Refactor llm_qat example: YAML configs + ModelOptArgParser |
@@ -211,4 +216,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 205 PRs**
+**Total: 210 PRs**

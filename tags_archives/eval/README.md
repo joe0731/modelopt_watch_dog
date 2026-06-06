@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-05 | [bcbe2b95](https://github.com/NVIDIA/Model-Optimizer/commit/bcbe2b957e32529369c0cbb3743041f0ea193d39) | [#1636](https://github.com/NVIDIA/Model-Optimizer/pull/1636) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `quantization` `torch` | Fix non-deterministic T5 calibration NaN on multi-GPU |
+| 2026-06-05 | [de525973](https://github.com/NVIDIA/Model-Optimizer/commit/de525973cfc07d0e9454c1e672c688027a5a9d24) | [#1630](https://github.com/NVIDIA/Model-Optimizer/pull/1630) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `quantization` `tests` `torch` | \[minor\] fix for GLM4.7 mtp module in PTQ |
+| 2026-06-05 | [dbdff11a](https://github.com/NVIDIA/Model-Optimizer/commit/dbdff11a7f999036bd89486490c70bfea3e065c5) | [#1525](https://github.com/NVIDIA/Model-Optimizer/pull/1525) | [@shengliangxu](https://github.com/shengliangxu) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | \[OMNIML-3708\] Drive PTQ example qformat choices from preset YAMLs (hf_ptq, multinode_ptq, megatron_bridge) |
+| 2026-06-05 | [54ce4e09](https://github.com/NVIDIA/Model-Optimizer/commit/54ce4e09d8cae20a35322a6d7492fbe02c18cda7) | [#1600](https://github.com/NVIDIA/Model-Optimizer/pull/1600) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `eval` `example` `export` `infra` `pruning` `quantization` `tests` `torch` | Add Quantization Aware Distillation (QAD) to Megatron-Bridge example |
 | 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
 | 2026-06-02 | [72df833e](https://github.com/NVIDIA/Model-Optimizer/commit/72df833e0b85c0e4cd414e5ebd018b8087971071) | [#1497](https://github.com/NVIDIA/Model-Optimizer/pull/1497) | [@meenchen](https://github.com/meenchen) | `eval` `example` `infra` `quantization` `tests` `torch` | Add active-MoE AutoQuant cost accounting |
 | 2026-05-29 | [eb5ed2df](https://github.com/NVIDIA/Model-Optimizer/commit/eb5ed2df68689690f27231ca614f689d57fb0ea7) | [#1554](https://github.com/NVIDIA/Model-Optimizer/pull/1554) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `quantization` `torch` `vlm` | \[CI\] Bump torch, transformers and dev containers to latest |
@@ -77,4 +81,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 71 PRs**
+**Total: 75 PRs**

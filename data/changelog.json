@@ -14,6 +14,114 @@
     ]
   },
   {
+    "date": "2026-06-05",
+    "commit": "433b549cd89303971b48c0c49c7208dded1a605c",
+    "pr_number": 1191,
+    "author": "realAsma",
+    "title": "[2/N] Simplify KDTrainer and enhance ModelOptHFTrainer",
+    "tags": [
+      "core",
+      "distillation",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "commit": "4eaf90a6ca69732f1d85b07496f937a44a1def33",
+    "pr_number": 1593,
+    "author": "meenchen",
+    "title": "Skill for searching quantization recipes",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "commit": "bcbe2b957e32529369c0cbb3743041f0ea193d39",
+    "pr_number": 1636,
+    "author": "kevalmorabia97",
+    "title": "Fix non-deterministic T5 calibration NaN on multi-GPU",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "commit": "de525973cfc07d0e9454c1e672c688027a5a9d24",
+    "pr_number": 1630,
+    "author": "Fridah-nv",
+    "title": "[minor] fix for GLM4.7 mtp module in PTQ",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "commit": "dbdff11a7f999036bd89486490c70bfea3e065c5",
+    "pr_number": 1525,
+    "author": "shengliangxu",
+    "title": "[OMNIML-3708] Drive PTQ example qformat choices from preset YAMLs (hf_ptq, multinode_ptq, megatron_bridge)",
+    "tags": [
+      "core",
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "commit": "54ce4e09d8cae20a35322a6d7492fbe02c18cda7",
+    "pr_number": 1600,
+    "author": "kevalmorabia97",
+    "title": "Add Quantization Aware Distillation (QAD) to Megatron-Bridge example",
+    "tags": [
+      "core",
+      "distillation",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "pruning",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "commit": "bdb793a42d3e0abc52c08ee39610782d9a76ef45",
+    "pr_number": 1362,
+    "author": "shljessie",
+    "title": "[SKILL.md Chore] Make `.agents/` the canonical agent-skills location",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-05",
+    "commit": "6f08731fe6e13b5d64cec7fdf1c193ba9ce330cc",
+    "pr_number": 1625,
+    "author": "cjluo-nv",
+    "title": "docs(eval skill): vLLM backend env vars + SLURM HF-cache/cpu_partition guidance",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-06-04",
     "commit": "ca7eb64ad0acb1a79a731204115ad32b8e19f13f",
     "pr_number": 1341,

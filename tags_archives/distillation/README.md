@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-05 | [433b549c](https://github.com/NVIDIA/Model-Optimizer/commit/433b549cd89303971b48c0c49c7208dded1a605c) | [#1191](https://github.com/NVIDIA/Model-Optimizer/pull/1191) | [@realAsma](https://github.com/realAsma) | `core` `distillation` `example` `infra` `quantization` `tests` `torch` | \[2/N\] Simplify KDTrainer and enhance ModelOptHFTrainer |
+| 2026-06-05 | [54ce4e09](https://github.com/NVIDIA/Model-Optimizer/commit/54ce4e09d8cae20a35322a6d7492fbe02c18cda7) | [#1600](https://github.com/NVIDIA/Model-Optimizer/pull/1600) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `eval` `example` `export` `infra` `pruning` `quantization` `tests` `torch` | Add Quantization Aware Distillation (QAD) to Megatron-Bridge example |
 | 2026-06-03 | [196c0910](https://github.com/NVIDIA/Model-Optimizer/commit/196c091027c8fd6ce0a42c7b36e771f4f7f3be94) | [#1172](https://github.com/NVIDIA/Model-Optimizer/pull/1172) | [@realAsma](https://github.com/realAsma) | `core` `deploy` `distillation` `example` `infra` `quantization` `tests` `torch` `vllm` | \[1/N\] Refactor llm_qat example: YAML configs + ModelOptArgParser |
 | 2026-05-26 | [9d0d9782](https://github.com/NVIDIA/Model-Optimizer/commit/9d0d97829a739a90fce16030d835acca207e053e) | [#1537](https://github.com/NVIDIA/Model-Optimizer/pull/1537) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `example` `export` `infra` `onnx` `quantization` `speculative_decoding` `tests` `torch` | chore(lint): modernize typing (PEP 604/585) and enable UP032 |
 | 2026-05-05 | [cc06062b](https://github.com/NVIDIA/Model-Optimizer/commit/cc06062b353c88e497081ca1a5dbed25f702c671) | [#1385](https://github.com/NVIDIA/Model-Optimizer/pull/1385) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1352 #1351 #1330 #1354 #1355 #1360 #1342 #1324 #1340 #1368 #1373 #1359 #1361 #1325 #1369 #1370 #1371 #1375 #1386 #1353 #1356 #1390 |
@@ -19,4 +21,4 @@
 | 2026-01-13 | [b813ab54](https://github.com/NVIDIA/Model-Optimizer/commit/b813ab548b97db9c0780459f1fe743bb88031d99) | [#747](https://github.com/NVIDIA/Model-Optimizer/pull/747) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Top-K KL Divergence loss |
 
 ---
-**Total: 13 PRs**
+**Total: 15 PRs**
