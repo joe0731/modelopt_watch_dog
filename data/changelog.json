@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-06-07",
+    "commit": "f3fc3088c7a4003445d7d92c716b77154222aabc",
+    "pr_number": 1643,
+    "author": "Edwardf0t1",
+    "title": "docs(skills): list .agents/clusters.yaml as canonical in deployment + env-setup hints",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-07",
+    "commit": "2c52e7bf4e4e305d3a071a1976ab044ef3365b4e",
+    "pr_number": 1564,
+    "author": "ChenhanYu",
+    "title": "[OMNIML-4788] specdec_bench/Qwen3.5-4B: throughput_32k benchmark + S3 upload step",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-06",
+    "commit": "52f1ccbeeec4738f4bc72735ec04b915b48dc063",
+    "pr_number": 1644,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-06-06)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-06-05",
     "commit": "115cae2584245b8727d13cef7984eeddc77f246c",
     "pr_number": 1469,

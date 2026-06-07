@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-07 | [2c52e7bf](https://github.com/NVIDIA/Model-Optimizer/commit/2c52e7bf4e4e305d3a071a1976ab044ef3365b4e) | [#1564](https://github.com/NVIDIA/Model-Optimizer/pull/1564) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | \[OMNIML-4788\] specdec_bench/Qwen3.5-4B: throughput_32k benchmark + S3 upload step |
 | 2026-06-05 | [115cae25](https://github.com/NVIDIA/Model-Optimizer/commit/115cae2584245b8727d13cef7984eeddc77f246c) | [#1469](https://github.com/NVIDIA/Model-Optimizer/pull/1469) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Puzzletron bypass distillation part 2 core |
 | 2026-06-05 | [433b549c](https://github.com/NVIDIA/Model-Optimizer/commit/433b549cd89303971b48c0c49c7208dded1a605c) | [#1191](https://github.com/NVIDIA/Model-Optimizer/pull/1191) | [@realAsma](https://github.com/realAsma) | `core` `distillation` `example` `infra` `quantization` `tests` `torch` | \[2/N\] Simplify KDTrainer and enhance ModelOptHFTrainer |
 | 2026-06-05 | [bcbe2b95](https://github.com/NVIDIA/Model-Optimizer/commit/bcbe2b957e32529369c0cbb3743041f0ea193d39) | [#1636](https://github.com/NVIDIA/Model-Optimizer/pull/1636) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `quantization` `torch` | Fix non-deterministic T5 calibration NaN on multi-GPU |
@@ -211,4 +212,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 205 PRs**
+**Total: 206 PRs**

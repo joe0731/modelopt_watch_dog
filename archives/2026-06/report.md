@@ -8,6 +8,9 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-06-07 | [f3fc3088](https://github.com/NVIDIA/Model-Optimizer/commit/f3fc3088c7a4003445d7d92c716b77154222aabc) | [#1643](https://github.com/NVIDIA/Model-Optimizer/pull/1643) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | docs(skills): list .agents/clusters.yaml as canonical in deployment + env-setup hints |
+|  | 2026-06-07 | [2c52e7bf](https://github.com/NVIDIA/Model-Optimizer/commit/2c52e7bf4e4e305d3a071a1976ab044ef3365b4e) | [#1564](https://github.com/NVIDIA/Model-Optimizer/pull/1564) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | \[OMNIML-4788\] specdec_bench/Qwen3.5-4B: throughput_32k benchmark + S3 upload step |
+|  | 2026-06-06 | [52f1ccbe](https://github.com/NVIDIA/Model-Optimizer/commit/52f1ccbeeec4738f4bc72735ec04b915b48dc063) | [#1644](https://github.com/NVIDIA/Model-Optimizer/pull/1644) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-06-06) |
 |  | 2026-06-05 | [115cae25](https://github.com/NVIDIA/Model-Optimizer/commit/115cae2584245b8727d13cef7984eeddc77f246c) | [#1469](https://github.com/NVIDIA/Model-Optimizer/pull/1469) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Puzzletron bypass distillation part 2 core |
 |  | 2026-06-05 | [433b549c](https://github.com/NVIDIA/Model-Optimizer/commit/433b549cd89303971b48c0c49c7208dded1a605c) | [#1191](https://github.com/NVIDIA/Model-Optimizer/pull/1191) | [@realAsma](https://github.com/realAsma) | `core` `distillation` `example` `infra` `quantization` `tests` `torch` | \[2/N\] Simplify KDTrainer and enhance ModelOptHFTrainer |
 |  | 2026-06-05 | [4eaf90a6](https://github.com/NVIDIA/Model-Optimizer/commit/4eaf90a6ca69732f1d85b07496f937a44a1def33) | [#1593](https://github.com/NVIDIA/Model-Optimizer/pull/1593) | [@meenchen](https://github.com/meenchen) | `infra` | Skill for searching quantization recipes |
@@ -41,4 +44,4 @@
 |  | 2026-06-01 | [905259fb](https://github.com/NVIDIA/Model-Optimizer/commit/905259fbf5d2dda3da00ef4dfe3c5c22de4155f0) | [#1590](https://github.com/NVIDIA/Model-Optimizer/pull/1590) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Fix: use python3 in debugger server.sh |
 
 ---
-**Total: 31 PRs** | **Highlighted: 8**
+**Total: 34 PRs** | **Highlighted: 8**
