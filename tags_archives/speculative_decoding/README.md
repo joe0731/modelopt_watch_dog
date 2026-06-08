@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-08 | [d9d43924](https://github.com/NVIDIA/Model-Optimizer/commit/d9d4392409e41d77634eb288cad82131ef5c9289) | [#1642](https://github.com/NVIDIA/Model-Optimizer/pull/1642) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Feat\]: Zero-disk hidden-state transfer for specdec streaming via NIXL RDMA |
 | 2026-06-07 | [2c52e7bf](https://github.com/NVIDIA/Model-Optimizer/commit/2c52e7bf4e4e305d3a071a1976ab044ef3365b4e) | [#1564](https://github.com/NVIDIA/Model-Optimizer/pull/1564) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | \[OMNIML-4788\] specdec_bench/Qwen3.5-4B: throughput_32k benchmark + S3 upload step |
 | 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
 | 2026-06-03 | [651fd223](https://github.com/NVIDIA/Model-Optimizer/commit/651fd223e6c94a272983af1870e6c6d31b0e1e77) | [#1607](https://github.com/NVIDIA/Model-Optimizer/pull/1607) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | feat: EAGLE3 LoRA co-training improvements |
@@ -63,4 +64,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 57 PRs**
+**Total: 58 PRs**

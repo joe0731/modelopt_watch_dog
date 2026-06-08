@@ -14,15 +14,15 @@ Click a tag to see its full history.
 | [`example`](example/) | example scripts and notebooks | 206 |
 | [`experimental`](experimental/) | experimental features, research prototypes | 6 |
 | [`export`](export/) | model export, torch-to-ONNX conversion | 104 |
-| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 278 |
+| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 279 |
 | [`nas`](nas/) | neural architecture search, hyperparameter optimization | 13 |
 | [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 76 |
 | [`pruning`](pruning/) | model pruning, structured and unstructured | 23 |
 | [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 210 |
 | [`sparsity`](sparsity/) | weight sparsity, attention sparsity | 22 |
-| [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 57 |
+| [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 58 |
 | [`tests`](tests/) | test infrastructure, test utilities | 219 |
-| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 315 |
+| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 316 |
 | [`vllm`](vllm/) | vLLM serving and integration | 13 |
 | [`vlm`](vlm/) | vision-language model optimization | 3 |
 | [`windows`](windows/) | Windows platform-specific code and examples | 15 |

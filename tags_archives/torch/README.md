@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-08 | [d9d43924](https://github.com/NVIDIA/Model-Optimizer/commit/d9d4392409e41d77634eb288cad82131ef5c9289) | [#1642](https://github.com/NVIDIA/Model-Optimizer/pull/1642) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Feat\]: Zero-disk hidden-state transfer for specdec streaming via NIXL RDMA |
 | 2026-06-07 | [2c52e7bf](https://github.com/NVIDIA/Model-Optimizer/commit/2c52e7bf4e4e305d3a071a1976ab044ef3365b4e) | [#1564](https://github.com/NVIDIA/Model-Optimizer/pull/1564) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | \[OMNIML-4788\] specdec_bench/Qwen3.5-4B: throughput_32k benchmark + S3 upload step |
 | 2026-06-05 | [115cae25](https://github.com/NVIDIA/Model-Optimizer/commit/115cae2584245b8727d13cef7984eeddc77f246c) | [#1469](https://github.com/NVIDIA/Model-Optimizer/pull/1469) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Puzzletron bypass distillation part 2 core |
 | 2026-06-05 | [433b549c](https://github.com/NVIDIA/Model-Optimizer/commit/433b549cd89303971b48c0c49c7208dded1a605c) | [#1191](https://github.com/NVIDIA/Model-Optimizer/pull/1191) | [@realAsma](https://github.com/realAsma) | `core` `distillation` `example` `infra` `quantization` `tests` `torch` | \[2/N\] Simplify KDTrainer and enhance ModelOptHFTrainer |
@@ -321,4 +322,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 315 PRs**
+**Total: 316 PRs**

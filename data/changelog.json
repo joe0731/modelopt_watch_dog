@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-06-08",
+    "commit": "d9d4392409e41d77634eb288cad82131ef5c9289",
+    "pr_number": 1642,
+    "author": "h-guo18",
+    "title": "[Feat]: Zero-disk hidden-state transfer for specdec streaming via NIXL RDMA",
+    "tags": [
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-06-07",
     "commit": "f3fc3088c7a4003445d7d92c716b77154222aabc",
     "pr_number": 1643,

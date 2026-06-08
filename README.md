@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-06-08 | [d9d43924](https://github.com/NVIDIA/Model-Optimizer/commit/d9d4392409e41d77634eb288cad82131ef5c9289) | [#1642](https://github.com/NVIDIA/Model-Optimizer/pull/1642) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Feat\]: Zero-disk hidden-state transfer for specdec streaming via NIXL RDMA |
 | 2026-06-07 | [f3fc3088](https://github.com/NVIDIA/Model-Optimizer/commit/f3fc3088c7a4003445d7d92c716b77154222aabc) | [#1643](https://github.com/NVIDIA/Model-Optimizer/pull/1643) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | docs(skills): list .agents/clusters.yaml as canonical in deployment + env-setup hints |
 | 2026-06-07 | [2c52e7bf](https://github.com/NVIDIA/Model-Optimizer/commit/2c52e7bf4e4e305d3a071a1976ab044ef3365b4e) | [#1564](https://github.com/NVIDIA/Model-Optimizer/pull/1564) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | \[OMNIML-4788\] specdec_bench/Qwen3.5-4B: throughput_32k benchmark + S3 upload step |
 | 2026-06-06 | [52f1ccbe](https://github.com/NVIDIA/Model-Optimizer/commit/52f1ccbeeec4738f4bc72735ec04b915b48dc063) | [#1644](https://github.com/NVIDIA/Model-Optimizer/pull/1644) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-06-06) |
