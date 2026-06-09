@@ -4,7 +4,13 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-09 | [8b01ba42](https://github.com/NVIDIA/Model-Optimizer/commit/8b01ba42741ea4d9a58dc9c335a34e073c3951c2) | [#1597](https://github.com/NVIDIA/Model-Optimizer/pull/1597) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `infra` `sparsity` `tests` `torch` | Skip softmax calibration via Triton kernel |
 | 2026-06-08 | [d9d43924](https://github.com/NVIDIA/Model-Optimizer/commit/d9d4392409e41d77634eb288cad82131ef5c9289) | [#1642](https://github.com/NVIDIA/Model-Optimizer/pull/1642) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Feat\]: Zero-disk hidden-state transfer for specdec streaming via NIXL RDMA |
+| 2026-06-08 | [1f4a489b](https://github.com/NVIDIA/Model-Optimizer/commit/1f4a489b0fe326712c290e12d5193fe19a948fc8) | [#1381](https://github.com/NVIDIA/Model-Optimizer/pull/1381) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `tests` `torch` | Adds AutoQuant support for VLM / Qwen3.5-Qwen3.6 style models |
+| 2026-06-08 | [01415c27](https://github.com/NVIDIA/Model-Optimizer/commit/01415c27888741249fe597a4d2cab06e2a8a9aea) | [#1650](https://github.com/NVIDIA/Model-Optimizer/pull/1650) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `deploy` `eval` `example` `quantization` `tests` `torch` | fix(llm_eval): repair test_qwen3_eval_fp8 end-to-end |
+| 2026-06-08 | [16d562a0](https://github.com/NVIDIA/Model-Optimizer/commit/16d562a0bfe7e8a7b0bc7e24a068f5bdfc43916b) | [#1578](https://github.com/NVIDIA/Model-Optimizer/pull/1578) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Refactor local_hessian onto shared MSE flow + fused-MoE expert support |
+| 2026-06-08 | [c78e6547](https://github.com/NVIDIA/Model-Optimizer/commit/c78e6547440141176ffbe5b4b0935f5e8ebe767e) | [#1269](https://github.com/NVIDIA/Model-Optimizer/pull/1269) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `infra` `sparsity` `tests` `torch` | Skip Softmax diffusion export |
+| 2026-06-08 | [aec72ffa](https://github.com/NVIDIA/Model-Optimizer/commit/aec72ffa68b71fb3f6ab8b7cd49f8044f09fb448) | [#1326](https://github.com/NVIDIA/Model-Optimizer/pull/1326) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `infra` `tests` `torch` | Add DMD2 distillation for Qwen-Image (fastgen) |
 | 2026-06-07 | [2c52e7bf](https://github.com/NVIDIA/Model-Optimizer/commit/2c52e7bf4e4e305d3a071a1976ab044ef3365b4e) | [#1564](https://github.com/NVIDIA/Model-Optimizer/pull/1564) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | \[OMNIML-4788\] specdec_bench/Qwen3.5-4B: throughput_32k benchmark + S3 upload step |
 | 2026-06-05 | [115cae25](https://github.com/NVIDIA/Model-Optimizer/commit/115cae2584245b8727d13cef7984eeddc77f246c) | [#1469](https://github.com/NVIDIA/Model-Optimizer/pull/1469) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Puzzletron bypass distillation part 2 core |
 | 2026-06-05 | [433b549c](https://github.com/NVIDIA/Model-Optimizer/commit/433b549cd89303971b48c0c49c7208dded1a605c) | [#1191](https://github.com/NVIDIA/Model-Optimizer/pull/1191) | [@realAsma](https://github.com/realAsma) | `core` `distillation` `example` `infra` `quantization` `tests` `torch` | \[2/N\] Simplify KDTrainer and enhance ModelOptHFTrainer |
@@ -322,4 +328,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 316 PRs**
+**Total: 322 PRs**

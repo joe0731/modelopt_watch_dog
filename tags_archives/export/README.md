@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-08 | [c78e6547](https://github.com/NVIDIA/Model-Optimizer/commit/c78e6547440141176ffbe5b4b0935f5e8ebe767e) | [#1269](https://github.com/NVIDIA/Model-Optimizer/pull/1269) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `infra` `sparsity` `tests` `torch` | Skip Softmax diffusion export |
 | 2026-06-05 | [54ce4e09](https://github.com/NVIDIA/Model-Optimizer/commit/54ce4e09d8cae20a35322a6d7492fbe02c18cda7) | [#1600](https://github.com/NVIDIA/Model-Optimizer/pull/1600) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `eval` `example` `export` `infra` `pruning` `quantization` `tests` `torch` | Add Quantization Aware Distillation (QAD) to Megatron-Bridge example |
 | 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
 | 2026-06-03 | [a7b0a920](https://github.com/NVIDIA/Model-Optimizer/commit/a7b0a92047962cf9347300533f2f7b3c7c826000) | [#1417](https://github.com/NVIDIA/Model-Optimizer/pull/1417) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `infra` `speculative_decoding` `torch` | EAGLE3 new model support: pipeline configs, triage docs, and Ministral-3 fixes |
@@ -110,4 +111,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 104 PRs**
+**Total: 105 PRs**

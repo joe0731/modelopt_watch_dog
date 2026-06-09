@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-08 | [b98a5955](https://github.com/NVIDIA/Model-Optimizer/commit/b98a59557a61d496b0232b97ebd5c4fdc1e17391) | [#1358](https://github.com/NVIDIA/Model-Optimizer/pull/1358) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `docs` `infra` `tests` | Add vLLM-based runtime statistics for subblock latency measurement |
+| 2026-06-08 | [56c4af23](https://github.com/NVIDIA/Model-Optimizer/commit/56c4af233358e521382659cdd33334cb983f481c) | [#1652](https://github.com/NVIDIA/Model-Optimizer/pull/1652) | [@cjluo-nv](https://github.com/cjluo-nv) | `docs` `infra` `tests` | feat(recipes): add kv_fp8_cast variants for partial-NVFP4 and weight-only PTQ recipes |
 | 2026-06-01 | [f0d2237c](https://github.com/NVIDIA/Model-Optimizer/commit/f0d2237cbc1b56ffc3964ed70053dbe91c414ec6) | [#1482](https://github.com/NVIDIA/Model-Optimizer/pull/1482) | [@hychiang-git](https://github.com/hychiang-git) | `core` `docs` `export` `infra` `tests` `torch` | Add Qwen3VL MCore Export support from PR 895 |
 | 2026-05-22 | [04f58166](https://github.com/NVIDIA/Model-Optimizer/commit/04f58166abe86b2e37212247ec80f15d726ef19d) | [#1506](https://github.com/NVIDIA/Model-Optimizer/pull/1506) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `eval` `example` `infra` `quantization` `torch` | \[OMNIML-3707\] Model-specific PTQ recipes bootstrap |
 | 2026-05-21 | [3e85e701](https://github.com/NVIDIA/Model-Optimizer/commit/3e85e70111b88555746924cd5f417e91402827f9) | [#1522](https://github.com/NVIDIA/Model-Optimizer/pull/1522) | [@jenchen13](https://github.com/jenchen13) | `core` `docs` `eval` `example` `export` `infra` `nas` `onnx` `pruning` `quantization` `speculative_decoding` `tests` `torch` | merge main into feature branch and LM head quantization & W4A16 export in MCore |
@@ -36,4 +38,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 30 PRs**
+**Total: 32 PRs**

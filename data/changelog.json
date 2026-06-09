@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-06-09",
+    "commit": "e2c3e036a3bd26ab7651fb39ab454a180e05a8aa",
+    "pr_number": 1596,
+    "author": "Edwardf0t1",
+    "title": "Add day0-release orchestration skill with enforced gates",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "commit": "8b01ba42741ea4d9a58dc9c335a34e073c3951c2",
+    "pr_number": 1597,
+    "author": "rohansjoshi",
+    "title": "Skip softmax calibration via Triton kernel",
+    "tags": [
+      "example",
+      "infra",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-06-08",
     "commit": "d9d4392409e41d77634eb288cad82131ef5c9289",
     "pr_number": 1642,
@@ -9,6 +33,132 @@
       "infra",
       "speculative_decoding",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "commit": "1555e6de208ac26d8d766ff75510f4f24b86eb5f",
+    "pr_number": 1648,
+    "author": "kevalmorabia97",
+    "title": "Fix CodeCov upload issues",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "commit": "1f4a489b0fe326712c290e12d5193fe19a948fc8",
+    "pr_number": 1381,
+    "author": "meenchen",
+    "title": "Adds AutoQuant support for VLM / Qwen3.5-Qwen3.6 style models",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "commit": "01415c27888741249fe597a4d2cab06e2a8a9aea",
+    "pr_number": 1650,
+    "author": "kevalmorabia97",
+    "title": "fix(llm_eval): repair test_qwen3_eval_fp8 end-to-end",
+    "tags": [
+      "deploy",
+      "eval",
+      "example",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "commit": "b98a59557a61d496b0232b97ebd5c4fdc1e17391",
+    "pr_number": 1358,
+    "author": "grzegorz-k-karch",
+    "title": "Add vLLM-based runtime statistics for subblock latency measurement",
+    "tags": [
+      "docs",
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "commit": "16d562a0bfe7e8a7b0bc7e24a068f5bdfc43916b",
+    "pr_number": 1578,
+    "author": "Fridah-nv",
+    "title": "Refactor local_hessian onto shared MSE flow + fused-MoE expert support",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "commit": "49ea3140ce0fc262f780844f1599c75c42c9f844",
+    "pr_number": 1632,
+    "author": "Edwardf0t1",
+    "title": "docs(skills): fix VLM PTQ ViT-quantization + AA eval judge/tool-call gaps",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "commit": "275d45dce208ee9acac162513726ebb35e6e8c91",
+    "pr_number": 1594,
+    "author": "rohansjoshi",
+    "title": "Add Alpamayo-1 example",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "commit": "c78e6547440141176ffbe5b4b0935f5e8ebe767e",
+    "pr_number": 1269,
+    "author": "jingyu-ml",
+    "title": "Skip Softmax diffusion export",
+    "tags": [
+      "diffusers",
+      "example",
+      "export",
+      "infra",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "commit": "aec72ffa68b71fb3f6ab8b7cd49f8044f09fb448",
+    "pr_number": 1326,
+    "author": "jingyu-ml",
+    "title": "Add DMD2 distillation for Qwen-Image (fastgen)",
+    "tags": [
+      "diffusers",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-08",
+    "commit": "56c4af233358e521382659cdd33334cb983f481c",
+    "pr_number": 1652,
+    "author": "cjluo-nv",
+    "title": "feat(recipes): add kv_fp8_cast variants for partial-NVFP4 and weight-only PTQ recipes",
+    "tags": [
+      "docs",
+      "infra",
+      "tests"
     ]
   },
   {

@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-08 | [1f4a489b](https://github.com/NVIDIA/Model-Optimizer/commit/1f4a489b0fe326712c290e12d5193fe19a948fc8) | [#1381](https://github.com/NVIDIA/Model-Optimizer/pull/1381) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `tests` `torch` | Adds AutoQuant support for VLM / Qwen3.5-Qwen3.6 style models |
+| 2026-06-08 | [01415c27](https://github.com/NVIDIA/Model-Optimizer/commit/01415c27888741249fe597a4d2cab06e2a8a9aea) | [#1650](https://github.com/NVIDIA/Model-Optimizer/pull/1650) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `deploy` `eval` `example` `quantization` `tests` `torch` | fix(llm_eval): repair test_qwen3_eval_fp8 end-to-end |
 | 2026-06-05 | [bcbe2b95](https://github.com/NVIDIA/Model-Optimizer/commit/bcbe2b957e32529369c0cbb3743041f0ea193d39) | [#1636](https://github.com/NVIDIA/Model-Optimizer/pull/1636) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `quantization` `torch` | Fix non-deterministic T5 calibration NaN on multi-GPU |
 | 2026-06-05 | [de525973](https://github.com/NVIDIA/Model-Optimizer/commit/de525973cfc07d0e9454c1e672c688027a5a9d24) | [#1630](https://github.com/NVIDIA/Model-Optimizer/pull/1630) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `quantization` `tests` `torch` | \[minor\] fix for GLM4.7 mtp module in PTQ |
 | 2026-06-05 | [dbdff11a](https://github.com/NVIDIA/Model-Optimizer/commit/dbdff11a7f999036bd89486490c70bfea3e065c5) | [#1525](https://github.com/NVIDIA/Model-Optimizer/pull/1525) | [@shengliangxu](https://github.com/shengliangxu) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | \[OMNIML-3708\] Drive PTQ example qformat choices from preset YAMLs (hf_ptq, multinode_ptq, megatron_bridge) |
@@ -81,4 +83,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 75 PRs**
+**Total: 77 PRs**
