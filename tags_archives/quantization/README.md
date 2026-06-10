@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-10 | [bde162a7](https://github.com/NVIDIA/Model-Optimizer/commit/bde162a701b48a6bcc2db33f395822ab725fd102) | [#1653](https://github.com/NVIDIA/Model-Optimizer/pull/1653) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(deepseek): add --cast_mxfp4_to_nvfp4 to deepseek_v4 quantize step |
+| 2026-06-09 | [d3acf45f](https://github.com/NVIDIA/Model-Optimizer/commit/d3acf45fabae1b372be4ede093121acd3141c03a) | [#1605](https://github.com/NVIDIA/Model-Optimizer/pull/1605) | [@sychen52](https://github.com/sychen52) | `quantization` `tests` `torch` | \[OMNIML-3994\] Add SharedQuantState |
 | 2026-06-08 | [1f4a489b](https://github.com/NVIDIA/Model-Optimizer/commit/1f4a489b0fe326712c290e12d5193fe19a948fc8) | [#1381](https://github.com/NVIDIA/Model-Optimizer/pull/1381) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `tests` `torch` | Adds AutoQuant support for VLM / Qwen3.5-Qwen3.6 style models |
 | 2026-06-08 | [01415c27](https://github.com/NVIDIA/Model-Optimizer/commit/01415c27888741249fe597a4d2cab06e2a8a9aea) | [#1650](https://github.com/NVIDIA/Model-Optimizer/pull/1650) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `deploy` `eval` `example` `quantization` `tests` `torch` | fix(llm_eval): repair test_qwen3_eval_fp8 end-to-end |
 | 2026-06-08 | [16d562a0](https://github.com/NVIDIA/Model-Optimizer/commit/16d562a0bfe7e8a7b0bc7e24a068f5bdfc43916b) | [#1578](https://github.com/NVIDIA/Model-Optimizer/pull/1578) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Refactor local_hessian onto shared MSE flow + fused-MoE expert support |
@@ -219,4 +221,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 213 PRs**
+**Total: 215 PRs**

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-09 | [5584ce45](https://github.com/NVIDIA/Model-Optimizer/commit/5584ce455826174efaaab1641133e749d283dd1b) | [#1601](https://github.com/NVIDIA/Model-Optimizer/pull/1601) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Migrate Nemotron-3-Nano tutorial PTQ to MBridge scripts and move under examples/megatron_bridge |
 | 2026-06-05 | [115cae25](https://github.com/NVIDIA/Model-Optimizer/commit/115cae2584245b8727d13cef7984eeddc77f246c) | [#1469](https://github.com/NVIDIA/Model-Optimizer/pull/1469) | [@Separius](https://github.com/Separius) | `core` `example` `infra` `tests` `torch` | Puzzletron bypass distillation part 2 core |
 | 2026-06-05 | [433b549c](https://github.com/NVIDIA/Model-Optimizer/commit/433b549cd89303971b48c0c49c7208dded1a605c) | [#1191](https://github.com/NVIDIA/Model-Optimizer/pull/1191) | [@realAsma](https://github.com/realAsma) | `core` `distillation` `example` `infra` `quantization` `tests` `torch` | \[2/N\] Simplify KDTrainer and enhance ModelOptHFTrainer |
 | 2026-06-05 | [dbdff11a](https://github.com/NVIDIA/Model-Optimizer/commit/dbdff11a7f999036bd89486490c70bfea3e065c5) | [#1525](https://github.com/NVIDIA/Model-Optimizer/pull/1525) | [@shengliangxu](https://github.com/shengliangxu) | `core` `eval` `example` `infra` `quantization` `tests` `torch` | \[OMNIML-3708\] Drive PTQ example qformat choices from preset YAMLs (hf_ptq, multinode_ptq, megatron_bridge) |
@@ -104,4 +105,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 98 PRs**
+**Total: 99 PRs**

@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-10 | [bde162a7](https://github.com/NVIDIA/Model-Optimizer/commit/bde162a701b48a6bcc2db33f395822ab725fd102) | [#1653](https://github.com/NVIDIA/Model-Optimizer/pull/1653) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(deepseek): add --cast_mxfp4_to_nvfp4 to deepseek_v4 quantize step |
 | 2026-06-09 | [8b01ba42](https://github.com/NVIDIA/Model-Optimizer/commit/8b01ba42741ea4d9a58dc9c335a34e073c3951c2) | [#1597](https://github.com/NVIDIA/Model-Optimizer/pull/1597) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `infra` `sparsity` `tests` `torch` | Skip softmax calibration via Triton kernel |
+| 2026-06-09 | [5584ce45](https://github.com/NVIDIA/Model-Optimizer/commit/5584ce455826174efaaab1641133e749d283dd1b) | [#1601](https://github.com/NVIDIA/Model-Optimizer/pull/1601) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Migrate Nemotron-3-Nano tutorial PTQ to MBridge scripts and move under examples/megatron_bridge |
 | 2026-06-08 | [1f4a489b](https://github.com/NVIDIA/Model-Optimizer/commit/1f4a489b0fe326712c290e12d5193fe19a948fc8) | [#1381](https://github.com/NVIDIA/Model-Optimizer/pull/1381) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `tests` `torch` | Adds AutoQuant support for VLM / Qwen3.5-Qwen3.6 style models |
 | 2026-06-08 | [01415c27](https://github.com/NVIDIA/Model-Optimizer/commit/01415c27888741249fe597a4d2cab06e2a8a9aea) | [#1650](https://github.com/NVIDIA/Model-Optimizer/pull/1650) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `deploy` `eval` `example` `quantization` `tests` `torch` | fix(llm_eval): repair test_qwen3_eval_fp8 end-to-end |
 | 2026-06-08 | [c78e6547](https://github.com/NVIDIA/Model-Optimizer/commit/c78e6547440141176ffbe5b4b0935f5e8ebe767e) | [#1269](https://github.com/NVIDIA/Model-Optimizer/pull/1269) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `infra` `sparsity` `tests` `torch` | Skip Softmax diffusion export |
@@ -217,4 +219,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 211 PRs**
+**Total: 213 PRs**

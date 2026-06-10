@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-06-10",
+    "commit": "bde162a701b48a6bcc2db33f395822ab725fd102",
+    "pr_number": 1653,
+    "author": "cjluo-nv",
+    "title": "feat(deepseek): add --cast_mxfp4_to_nvfp4 to deepseek_v4 quantize step",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-06-09",
     "commit": "e2c3e036a3bd26ab7651fb39ab454a180e05a8aa",
     "pr_number": 1596,
@@ -21,6 +36,53 @@
       "sparsity",
       "tests",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "commit": "d3acf45fabae1b372be4ede093121acd3141c03a",
+    "pr_number": 1605,
+    "author": "sychen52",
+    "title": "[OMNIML-3994] Add SharedQuantState",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "commit": "d87f810953aec38978e1353d4b9c489dfda31d21",
+    "pr_number": 1651,
+    "author": "kevalmorabia97",
+    "title": "ci: cache JIT-compiled CUDA torch extensions in GPU/example tests",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "commit": "5584ce455826174efaaab1641133e749d283dd1b",
+    "pr_number": 1601,
+    "author": "kevalmorabia97",
+    "title": "Migrate Nemotron-3-Nano tutorial PTQ to MBridge scripts and move under examples/megatron_bridge",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-09",
+    "commit": "111b7ebd29a628ccfc17621529ceee6285cd5de7",
+    "pr_number": 1656,
+    "author": "ChenhanYu",
+    "title": "[OMNIML-4969] specdec_bench cell t0_d3 — nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16 / dflash / vllm",
+    "tags": [
+      "infra"
     ]
   },
   {

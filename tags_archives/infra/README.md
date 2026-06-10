@@ -4,8 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-10 | [bde162a7](https://github.com/NVIDIA/Model-Optimizer/commit/bde162a701b48a6bcc2db33f395822ab725fd102) | [#1653](https://github.com/NVIDIA/Model-Optimizer/pull/1653) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(deepseek): add --cast_mxfp4_to_nvfp4 to deepseek_v4 quantize step |
 | 2026-06-09 | [e2c3e036](https://github.com/NVIDIA/Model-Optimizer/commit/e2c3e036a3bd26ab7651fb39ab454a180e05a8aa) | [#1596](https://github.com/NVIDIA/Model-Optimizer/pull/1596) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | Add day0-release orchestration skill with enforced gates |
 | 2026-06-09 | [8b01ba42](https://github.com/NVIDIA/Model-Optimizer/commit/8b01ba42741ea4d9a58dc9c335a34e073c3951c2) | [#1597](https://github.com/NVIDIA/Model-Optimizer/pull/1597) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `infra` `sparsity` `tests` `torch` | Skip softmax calibration via Triton kernel |
+| 2026-06-09 | [d87f8109](https://github.com/NVIDIA/Model-Optimizer/commit/d87f810953aec38978e1353d4b9c489dfda31d21) | [#1651](https://github.com/NVIDIA/Model-Optimizer/pull/1651) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | ci: cache JIT-compiled CUDA torch extensions in GPU/example tests |
+| 2026-06-09 | [5584ce45](https://github.com/NVIDIA/Model-Optimizer/commit/5584ce455826174efaaab1641133e749d283dd1b) | [#1601](https://github.com/NVIDIA/Model-Optimizer/pull/1601) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Migrate Nemotron-3-Nano tutorial PTQ to MBridge scripts and move under examples/megatron_bridge |
+| 2026-06-09 | [111b7ebd](https://github.com/NVIDIA/Model-Optimizer/commit/111b7ebd29a628ccfc17621529ceee6285cd5de7) | [#1656](https://github.com/NVIDIA/Model-Optimizer/pull/1656) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-4969\] specdec_bench cell t0_d3 — nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16 / dflash / vllm |
 | 2026-06-08 | [d9d43924](https://github.com/NVIDIA/Model-Optimizer/commit/d9d4392409e41d77634eb288cad82131ef5c9289) | [#1642](https://github.com/NVIDIA/Model-Optimizer/pull/1642) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Feat\]: Zero-disk hidden-state transfer for specdec streaming via NIXL RDMA |
 | 2026-06-08 | [1555e6de](https://github.com/NVIDIA/Model-Optimizer/commit/1555e6de208ac26d8d766ff75510f4f24b86eb5f) | [#1648](https://github.com/NVIDIA/Model-Optimizer/pull/1648) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Fix CodeCov upload issues |
 | 2026-06-08 | [b98a5955](https://github.com/NVIDIA/Model-Optimizer/commit/b98a59557a61d496b0232b97ebd5c4fdc1e17391) | [#1358](https://github.com/NVIDIA/Model-Optimizer/pull/1358) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `docs` `infra` `tests` | Add vLLM-based runtime statistics for subblock latency measurement |
@@ -294,4 +298,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 288 PRs**
+**Total: 292 PRs**
