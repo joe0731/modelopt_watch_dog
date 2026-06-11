@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-11 | [46eddab8](https://github.com/NVIDIA/Model-Optimizer/commit/46eddab877df5860b6578c9cf1f508bc4e7eea60) | [#1611](https://github.com/NVIDIA/Model-Optimizer/pull/1611) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Specdec Streaming: RDMA + Multinode |
+| 2026-06-11 | [43b67a83](https://github.com/NVIDIA/Model-Optimizer/commit/43b67a83c5b3d02c3c742a3f0fd097068e00eb41) | [#1677](https://github.com/NVIDIA/Model-Optimizer/pull/1677) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `speculative_decoding` `torch` | specdec_bench: keep method=mtp when adding model=\<assistant\> for Gemma 4 MTP |
+| 2026-06-10 | [66b54ed0](https://github.com/NVIDIA/Model-Optimizer/commit/66b54ed040fac301c5f2d2e880c9d67be13db8c9) | [#1663](https://github.com/NVIDIA/Model-Optimizer/pull/1663) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | \[OMNIML-5024\] specdec_bench cell t0_d3 — google/gemma-4-E4B-it / MTP / vllm |
 | 2026-06-08 | [d9d43924](https://github.com/NVIDIA/Model-Optimizer/commit/d9d4392409e41d77634eb288cad82131ef5c9289) | [#1642](https://github.com/NVIDIA/Model-Optimizer/pull/1642) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Feat\]: Zero-disk hidden-state transfer for specdec streaming via NIXL RDMA |
 | 2026-06-07 | [2c52e7bf](https://github.com/NVIDIA/Model-Optimizer/commit/2c52e7bf4e4e305d3a071a1976ab044ef3365b4e) | [#1564](https://github.com/NVIDIA/Model-Optimizer/pull/1564) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | \[OMNIML-4788\] specdec_bench/Qwen3.5-4B: throughput_32k benchmark + S3 upload step |
 | 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
@@ -64,4 +67,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 58 PRs**
+**Total: 61 PRs**

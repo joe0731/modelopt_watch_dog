@@ -1,5 +1,55 @@
 [
   {
+    "date": "2026-06-11",
+    "commit": "46eddab877df5860b6578c9cf1f508bc4e7eea60",
+    "pr_number": 1611,
+    "author": "h-guo18",
+    "title": "[Feat]: Specdec Streaming: RDMA + Multinode",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-11",
+    "commit": "43b67a83c5b3d02c3c742a3f0fd097068e00eb41",
+    "pr_number": 1677,
+    "author": "ChenhanYu",
+    "title": "specdec_bench: keep method=mtp when adding model=<assistant> for Gemma 4 MTP",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-11",
+    "commit": "129d22d4ab5b660f5d1395154d9a54b6404c1025",
+    "pr_number": 1327,
+    "author": "ajrasane",
+    "title": "Add Nemotron-H mixed-precision PTQ recipe (GGUF Q4_K_M-mirrored)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-11",
+    "commit": "c88b62beec5a0eb3a689965b83941cef2a99dbf8",
+    "pr_number": 1673,
+    "author": "Fridah-nv",
+    "title": "Fix garbage generation preview in hf_ptq.py when pad_token == eos_token",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-06-10",
     "commit": "bde162a701b48a6bcc2db33f395822ab725fd102",
     "pr_number": 1653,
@@ -12,6 +62,85 @@
       "quantization",
       "tests",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "commit": "48767a0c70172ceb4867516e000875512129636f",
+    "pr_number": 1558,
+    "author": "ajrasane",
+    "title": "[5924759] Fix fp16 ONNX INT8 entropy calibration on numpy >= 2.0",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "commit": "66b54ed040fac301c5f2d2e880c9d67be13db8c9",
+    "pr_number": 1663,
+    "author": "ChenhanYu",
+    "title": "[OMNIML-5024] specdec_bench cell t0_d3 — google/gemma-4-E4B-it / MTP / vllm",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "commit": "a638fe0344b06417c099b6ce38df7cef1eeb8c2b",
+    "pr_number": 1670,
+    "author": "kevalmorabia97",
+    "title": "Fix chat_template handling in get_dataset_dataloader",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "commit": "06af68cbdb9af67cdf2ab6579ff19e6657127add",
+    "pr_number": 1638,
+    "author": "ChenhanYu",
+    "title": "[OMNIML-4962] specdec_bench parent — Qwen/Qwen3.5-4B / DFlash / vLLM",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "commit": "808e8b3320b03a5d303809f1b70c22036ce6c2a1",
+    "pr_number": 1674,
+    "author": "sychen52",
+    "title": "Make .claude/skills a real folder for claude sandbox to work",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "commit": "9cb00ce43a022a917902f3dcb7e4185c0926824b",
+    "pr_number": 1662,
+    "author": "cjluo-nv",
+    "title": "docs: add modelopt_recipes README and PTQ recipe/scheme guide",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-10",
+    "commit": "13e540f0b3d8da5908a45abd4b4eeee2d8e4a074",
+    "pr_number": 1675,
+    "author": "ChenhanYu",
+    "title": "launcher: add draft_model to GlobalVariables for spec-decode parents",
+    "tags": [
+      "infra"
     ]
   },
   {

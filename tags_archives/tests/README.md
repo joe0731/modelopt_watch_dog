@@ -4,7 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-11 | [46eddab8](https://github.com/NVIDIA/Model-Optimizer/commit/46eddab877df5860b6578c9cf1f508bc4e7eea60) | [#1611](https://github.com/NVIDIA/Model-Optimizer/pull/1611) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Specdec Streaming: RDMA + Multinode |
 | 2026-06-10 | [bde162a7](https://github.com/NVIDIA/Model-Optimizer/commit/bde162a701b48a6bcc2db33f395822ab725fd102) | [#1653](https://github.com/NVIDIA/Model-Optimizer/pull/1653) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(deepseek): add --cast_mxfp4_to_nvfp4 to deepseek_v4 quantize step |
+| 2026-06-10 | [48767a0c](https://github.com/NVIDIA/Model-Optimizer/commit/48767a0c70172ceb4867516e000875512129636f) | [#1558](https://github.com/NVIDIA/Model-Optimizer/pull/1558) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `quantization` `tests` | \[5924759\] Fix fp16 ONNX INT8 entropy calibration on numpy \>= 2.0 |
+| 2026-06-10 | [a638fe03](https://github.com/NVIDIA/Model-Optimizer/commit/a638fe0344b06417c099b6ce38df7cef1eeb8c2b) | [#1670](https://github.com/NVIDIA/Model-Optimizer/pull/1670) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `tests` `torch` | Fix chat_template handling in get_dataset_dataloader |
 | 2026-06-09 | [8b01ba42](https://github.com/NVIDIA/Model-Optimizer/commit/8b01ba42741ea4d9a58dc9c335a34e073c3951c2) | [#1597](https://github.com/NVIDIA/Model-Optimizer/pull/1597) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `infra` `sparsity` `tests` `torch` | Skip softmax calibration via Triton kernel |
 | 2026-06-09 | [d3acf45f](https://github.com/NVIDIA/Model-Optimizer/commit/d3acf45fabae1b372be4ede093121acd3141c03a) | [#1605](https://github.com/NVIDIA/Model-Optimizer/pull/1605) | [@sychen52](https://github.com/sychen52) | `quantization` `tests` `torch` | \[OMNIML-3994\] Add SharedQuantState |
 | 2026-06-09 | [5584ce45](https://github.com/NVIDIA/Model-Optimizer/commit/5584ce455826174efaaab1641133e749d283dd1b) | [#1601](https://github.com/NVIDIA/Model-Optimizer/pull/1601) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Migrate Nemotron-3-Nano tutorial PTQ to MBridge scripts and move under examples/megatron_bridge |
@@ -237,4 +240,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 231 PRs**
+**Total: 234 PRs**

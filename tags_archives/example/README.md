@@ -4,7 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-11 | [46eddab8](https://github.com/NVIDIA/Model-Optimizer/commit/46eddab877df5860b6578c9cf1f508bc4e7eea60) | [#1611](https://github.com/NVIDIA/Model-Optimizer/pull/1611) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Specdec Streaming: RDMA + Multinode |
+| 2026-06-11 | [43b67a83](https://github.com/NVIDIA/Model-Optimizer/commit/43b67a83c5b3d02c3c742a3f0fd097068e00eb41) | [#1677](https://github.com/NVIDIA/Model-Optimizer/pull/1677) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `speculative_decoding` `torch` | specdec_bench: keep method=mtp when adding model=\<assistant\> for Gemma 4 MTP |
+| 2026-06-11 | [c88b62be](https://github.com/NVIDIA/Model-Optimizer/commit/c88b62beec5a0eb3a689965b83941cef2a99dbf8) | [#1673](https://github.com/NVIDIA/Model-Optimizer/pull/1673) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `quantization` `torch` | Fix garbage generation preview in hf_ptq.py when pad_token == eos_token |
 | 2026-06-10 | [bde162a7](https://github.com/NVIDIA/Model-Optimizer/commit/bde162a701b48a6bcc2db33f395822ab725fd102) | [#1653](https://github.com/NVIDIA/Model-Optimizer/pull/1653) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(deepseek): add --cast_mxfp4_to_nvfp4 to deepseek_v4 quantize step |
+| 2026-06-10 | [66b54ed0](https://github.com/NVIDIA/Model-Optimizer/commit/66b54ed040fac301c5f2d2e880c9d67be13db8c9) | [#1663](https://github.com/NVIDIA/Model-Optimizer/pull/1663) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | \[OMNIML-5024\] specdec_bench cell t0_d3 — google/gemma-4-E4B-it / MTP / vllm |
 | 2026-06-09 | [8b01ba42](https://github.com/NVIDIA/Model-Optimizer/commit/8b01ba42741ea4d9a58dc9c335a34e073c3951c2) | [#1597](https://github.com/NVIDIA/Model-Optimizer/pull/1597) | [@rohansjoshi](https://github.com/rohansjoshi) | `example` `infra` `sparsity` `tests` `torch` | Skip softmax calibration via Triton kernel |
 | 2026-06-09 | [5584ce45](https://github.com/NVIDIA/Model-Optimizer/commit/5584ce455826174efaaab1641133e749d283dd1b) | [#1601](https://github.com/NVIDIA/Model-Optimizer/pull/1601) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Migrate Nemotron-3-Nano tutorial PTQ to MBridge scripts and move under examples/megatron_bridge |
 | 2026-06-08 | [1f4a489b](https://github.com/NVIDIA/Model-Optimizer/commit/1f4a489b0fe326712c290e12d5193fe19a948fc8) | [#1381](https://github.com/NVIDIA/Model-Optimizer/pull/1381) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `tests` `torch` | Adds AutoQuant support for VLM / Qwen3.5-Qwen3.6 style models |
@@ -219,4 +223,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 213 PRs**
+**Total: 217 PRs**

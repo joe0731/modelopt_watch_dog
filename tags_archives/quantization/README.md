@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-11 | [c88b62be](https://github.com/NVIDIA/Model-Optimizer/commit/c88b62beec5a0eb3a689965b83941cef2a99dbf8) | [#1673](https://github.com/NVIDIA/Model-Optimizer/pull/1673) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `quantization` `torch` | Fix garbage generation preview in hf_ptq.py when pad_token == eos_token |
 | 2026-06-10 | [bde162a7](https://github.com/NVIDIA/Model-Optimizer/commit/bde162a701b48a6bcc2db33f395822ab725fd102) | [#1653](https://github.com/NVIDIA/Model-Optimizer/pull/1653) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(deepseek): add --cast_mxfp4_to_nvfp4 to deepseek_v4 quantize step |
+| 2026-06-10 | [48767a0c](https://github.com/NVIDIA/Model-Optimizer/commit/48767a0c70172ceb4867516e000875512129636f) | [#1558](https://github.com/NVIDIA/Model-Optimizer/pull/1558) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `quantization` `tests` | \[5924759\] Fix fp16 ONNX INT8 entropy calibration on numpy \>= 2.0 |
 | 2026-06-09 | [d3acf45f](https://github.com/NVIDIA/Model-Optimizer/commit/d3acf45fabae1b372be4ede093121acd3141c03a) | [#1605](https://github.com/NVIDIA/Model-Optimizer/pull/1605) | [@sychen52](https://github.com/sychen52) | `quantization` `tests` `torch` | \[OMNIML-3994\] Add SharedQuantState |
 | 2026-06-08 | [1f4a489b](https://github.com/NVIDIA/Model-Optimizer/commit/1f4a489b0fe326712c290e12d5193fe19a948fc8) | [#1381](https://github.com/NVIDIA/Model-Optimizer/pull/1381) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `tests` `torch` | Adds AutoQuant support for VLM / Qwen3.5-Qwen3.6 style models |
 | 2026-06-08 | [01415c27](https://github.com/NVIDIA/Model-Optimizer/commit/01415c27888741249fe597a4d2cab06e2a8a9aea) | [#1650](https://github.com/NVIDIA/Model-Optimizer/pull/1650) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `deploy` `eval` `example` `quantization` `tests` `torch` | fix(llm_eval): repair test_qwen3_eval_fp8 end-to-end |
@@ -221,4 +223,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 215 PRs**
+**Total: 217 PRs**
