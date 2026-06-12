@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-06-12",
+    "commit": "cfc823d12740fa672d7435cf112b333bbf961eff",
+    "pr_number": 1527,
+    "author": "h-guo18",
+    "title": "[Tests]: Precommit Check for Spec-Dec Recipes",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "commit": "8a973ce90d397be7080a5f8562ea5bc644fd087c",
+    "pr_number": 1687,
+    "author": "meenchen",
+    "title": "[nvbug 6294744] Exclude Qwen visual modules from NVFP4 quantization",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "commit": "cc17f2c45984d9524a71a0d9d7b308408ea8fe65",
+    "pr_number": 1685,
+    "author": "Edwardf0t1",
+    "title": "deployment skill: add SGLang cookbook cross-check (analog of recipes.vllm.ai)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-06-11",
     "commit": "46eddab877df5860b6578c9cf1f508bc4e7eea60",
     "pr_number": 1611,
@@ -47,6 +78,28 @@
       "example",
       "quantization",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-06-11",
+    "commit": "dd49a460c8063f175c25e789fb2d758b10d72ef6",
+    "pr_number": 1676,
+    "author": "kinjalpatel27",
+    "title": "[6294905] Fix --quant_cfg CLI parsing type in transformer trainer",
+    "tags": [
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-11",
+    "commit": "cb5be1f92b64978a1ea43637ece919f671d094cf",
+    "pr_number": 1689,
+    "author": "ChenhanYu",
+    "title": "launcher: move gemma-4-E4B-it yaml to google/ subdir",
+    "tags": [
+      "infra"
     ]
   },
   {

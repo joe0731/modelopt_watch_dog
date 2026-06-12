@@ -4,8 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-12 | [cfc823d1](https://github.com/NVIDIA/Model-Optimizer/commit/cfc823d12740fa672d7435cf112b333bbf961eff) | [#1527](https://github.com/NVIDIA/Model-Optimizer/pull/1527) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Tests\]: Precommit Check for Spec-Dec Recipes |
+| 2026-06-12 | [8a973ce9](https://github.com/NVIDIA/Model-Optimizer/commit/8a973ce90d397be7080a5f8562ea5bc644fd087c) | [#1687](https://github.com/NVIDIA/Model-Optimizer/pull/1687) | [@meenchen](https://github.com/meenchen) | `infra` `tests` | \[nvbug 6294744\] Exclude Qwen visual modules from NVFP4 quantization |
+| 2026-06-12 | [cc17f2c4](https://github.com/NVIDIA/Model-Optimizer/commit/cc17f2c45984d9524a71a0d9d7b308408ea8fe65) | [#1685](https://github.com/NVIDIA/Model-Optimizer/pull/1685) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | deployment skill: add SGLang cookbook cross-check (analog of recipes.vllm.ai) |
 | 2026-06-11 | [46eddab8](https://github.com/NVIDIA/Model-Optimizer/commit/46eddab877df5860b6578c9cf1f508bc4e7eea60) | [#1611](https://github.com/NVIDIA/Model-Optimizer/pull/1611) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Specdec Streaming: RDMA + Multinode |
 | 2026-06-11 | [129d22d4](https://github.com/NVIDIA/Model-Optimizer/commit/129d22d4ab5b660f5d1395154d9a54b6404c1025) | [#1327](https://github.com/NVIDIA/Model-Optimizer/pull/1327) | [@ajrasane](https://github.com/ajrasane) | `infra` | Add Nemotron-H mixed-precision PTQ recipe (GGUF Q4_K_M-mirrored) |
+| 2026-06-11 | [cb5be1f9](https://github.com/NVIDIA/Model-Optimizer/commit/cb5be1f92b64978a1ea43637ece919f671d094cf) | [#1689](https://github.com/NVIDIA/Model-Optimizer/pull/1689) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | launcher: move gemma-4-E4B-it yaml to google/ subdir |
 | 2026-06-10 | [bde162a7](https://github.com/NVIDIA/Model-Optimizer/commit/bde162a701b48a6bcc2db33f395822ab725fd102) | [#1653](https://github.com/NVIDIA/Model-Optimizer/pull/1653) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(deepseek): add --cast_mxfp4_to_nvfp4 to deepseek_v4 quantize step |
 | 2026-06-10 | [48767a0c](https://github.com/NVIDIA/Model-Optimizer/commit/48767a0c70172ceb4867516e000875512129636f) | [#1558](https://github.com/NVIDIA/Model-Optimizer/pull/1558) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `quantization` `tests` | \[5924759\] Fix fp16 ONNX INT8 entropy calibration on numpy \>= 2.0 |
 | 2026-06-10 | [66b54ed0](https://github.com/NVIDIA/Model-Optimizer/commit/66b54ed040fac301c5f2d2e880c9d67be13db8c9) | [#1663](https://github.com/NVIDIA/Model-Optimizer/pull/1663) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | \[OMNIML-5024\] specdec_bench cell t0_d3 — google/gemma-4-E4B-it / MTP / vllm |
@@ -307,4 +311,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 301 PRs**
+**Total: 305 PRs**

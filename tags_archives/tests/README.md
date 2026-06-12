@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-12 | [8a973ce9](https://github.com/NVIDIA/Model-Optimizer/commit/8a973ce90d397be7080a5f8562ea5bc644fd087c) | [#1687](https://github.com/NVIDIA/Model-Optimizer/pull/1687) | [@meenchen](https://github.com/meenchen) | `infra` `tests` | \[nvbug 6294744\] Exclude Qwen visual modules from NVFP4 quantization |
 | 2026-06-11 | [46eddab8](https://github.com/NVIDIA/Model-Optimizer/commit/46eddab877df5860b6578c9cf1f508bc4e7eea60) | [#1611](https://github.com/NVIDIA/Model-Optimizer/pull/1611) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Specdec Streaming: RDMA + Multinode |
 | 2026-06-10 | [bde162a7](https://github.com/NVIDIA/Model-Optimizer/commit/bde162a701b48a6bcc2db33f395822ab725fd102) | [#1653](https://github.com/NVIDIA/Model-Optimizer/pull/1653) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(deepseek): add --cast_mxfp4_to_nvfp4 to deepseek_v4 quantize step |
 | 2026-06-10 | [48767a0c](https://github.com/NVIDIA/Model-Optimizer/commit/48767a0c70172ceb4867516e000875512129636f) | [#1558](https://github.com/NVIDIA/Model-Optimizer/pull/1558) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `quantization` `tests` | \[5924759\] Fix fp16 ONNX INT8 entropy calibration on numpy \>= 2.0 |
@@ -240,4 +241,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 234 PRs**
+**Total: 235 PRs**

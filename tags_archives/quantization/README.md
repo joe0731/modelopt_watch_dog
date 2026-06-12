@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-06-11 | [c88b62be](https://github.com/NVIDIA/Model-Optimizer/commit/c88b62beec5a0eb3a689965b83941cef2a99dbf8) | [#1673](https://github.com/NVIDIA/Model-Optimizer/pull/1673) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `quantization` `torch` | Fix garbage generation preview in hf_ptq.py when pad_token == eos_token |
+| 2026-06-11 | [dd49a460](https://github.com/NVIDIA/Model-Optimizer/commit/dd49a460c8063f175c25e789fb2d758b10d72ef6) | [#1676](https://github.com/NVIDIA/Model-Optimizer/pull/1676) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `example` `quantization` `torch` | \[6294905\] Fix --quant_cfg CLI parsing type in transformer trainer |
 | 2026-06-10 | [bde162a7](https://github.com/NVIDIA/Model-Optimizer/commit/bde162a701b48a6bcc2db33f395822ab725fd102) | [#1653](https://github.com/NVIDIA/Model-Optimizer/pull/1653) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat(deepseek): add --cast_mxfp4_to_nvfp4 to deepseek_v4 quantize step |
 | 2026-06-10 | [48767a0c](https://github.com/NVIDIA/Model-Optimizer/commit/48767a0c70172ceb4867516e000875512129636f) | [#1558](https://github.com/NVIDIA/Model-Optimizer/pull/1558) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `quantization` `tests` | \[5924759\] Fix fp16 ONNX INT8 entropy calibration on numpy \>= 2.0 |
 | 2026-06-09 | [d3acf45f](https://github.com/NVIDIA/Model-Optimizer/commit/d3acf45fabae1b372be4ede093121acd3141c03a) | [#1605](https://github.com/NVIDIA/Model-Optimizer/pull/1605) | [@sychen52](https://github.com/sychen52) | `quantization` `tests` `torch` | \[OMNIML-3994\] Add SharedQuantState |
@@ -223,4 +224,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 217 PRs**
+**Total: 218 PRs**
