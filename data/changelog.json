@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-06-13",
+    "commit": "9f37fe196941f8663309aaa39b9ec458de4965bb",
+    "pr_number": 1701,
+    "author": "ChenhanYu",
+    "title": "feat(tools/mcp): MCP server for ModelOpt launcher (OMNIML-5123)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-06-12",
     "commit": "cfc823d12740fa672d7435cf112b333bbf961eff",
     "pr_number": 1527,
@@ -28,6 +38,85 @@
     "title": "deployment skill: add SGLang cookbook cross-check (analog of recipes.vllm.ai)",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "commit": "60b1af5fb2728bb966321802a1d064f376050915",
+    "pr_number": 1678,
+    "author": "cjluo-nv",
+    "title": "Fix GPT-OSS MXFP4->NVFP4 PTQ load, export, and cast (nvbug 6295279, 6295242)",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "commit": "28c9601e28240a25f20ca9c9d626a0d076310eae",
+    "pr_number": 1691,
+    "author": "Edwardf0t1",
+    "title": "Exclude multimodal vision branch from quantization by default (NVBug 6293731, 6293762)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "commit": "2201edebd90e11ae12c88c61fe47d392991b95b2",
+    "pr_number": 1698,
+    "author": "meenchen",
+    "title": "Fix Qwen AutoQuant disabled layer test",
+    "tags": [
+      "eval",
+      "example",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "commit": "ddc0a8e3ef9aca91451351427b88143b6206b987",
+    "pr_number": 1697,
+    "author": "gcunhase",
+    "title": "[6287717][ONNX][Quantization] Preserve trt.plugins custom-op value_info in clear_stale_value_info",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "commit": "26405515153c76abaddd40e6ccae3b93de088c9f",
+    "pr_number": 1571,
+    "author": "Fridah-nv",
+    "title": "feat: Layerwise calibration: nested config + QDQ-from-prev-layer flag + checkpoint I/O knobs",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "commit": "d26c8af0021d01ebae6370cb01e07310b5b0555a",
+    "pr_number": 1702,
+    "author": "cjluo-nv",
+    "title": "Fix DeepSeek V3 ptq.py inference-repo path resolution (nvbug 6311147)",
+    "tags": [
+      "example",
+      "quantization",
+      "torch"
     ]
   },
   {
