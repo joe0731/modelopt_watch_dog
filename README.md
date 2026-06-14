@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-06-14 | [463229ad](https://github.com/NVIDIA/Model-Optimizer/commit/463229ad34c74d104938fa2483910c1562696a53) | [#1712](https://github.com/NVIDIA/Model-Optimizer/pull/1712) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | docs(tools/mcp): scope policy — environment tooling, not workflow policy |
 | 2026-06-13 | [9f37fe19](https://github.com/NVIDIA/Model-Optimizer/commit/9f37fe196941f8663309aaa39b9ec458de4965bb) | [#1701](https://github.com/NVIDIA/Model-Optimizer/pull/1701) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | feat(tools/mcp): MCP server for ModelOpt launcher (OMNIML-5123) |
 | 2026-06-12 | [60b1af5f](https://github.com/NVIDIA/Model-Optimizer/commit/60b1af5fb2728bb966321802a1d064f376050915) | [#1678](https://github.com/NVIDIA/Model-Optimizer/pull/1678) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | Fix GPT-OSS MXFP4-\>NVFP4 PTQ load, export, and cast (nvbug 6295279, 6295242) |
 | 2026-06-12 | [28c9601e](https://github.com/NVIDIA/Model-Optimizer/commit/28c9601e28240a25f20ca9c9d626a0d076310eae) | [#1691](https://github.com/NVIDIA/Model-Optimizer/pull/1691) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | Exclude multimodal vision branch from quantization by default (NVBug 6293731, 6293762) |

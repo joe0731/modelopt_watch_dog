@@ -8,6 +8,7 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-06-14 | [463229ad](https://github.com/NVIDIA/Model-Optimizer/commit/463229ad34c74d104938fa2483910c1562696a53) | [#1712](https://github.com/NVIDIA/Model-Optimizer/pull/1712) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | docs(tools/mcp): scope policy — environment tooling, not workflow policy |
 |  | 2026-06-13 | [9f37fe19](https://github.com/NVIDIA/Model-Optimizer/commit/9f37fe196941f8663309aaa39b9ec458de4965bb) | [#1701](https://github.com/NVIDIA/Model-Optimizer/pull/1701) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | feat(tools/mcp): MCP server for ModelOpt launcher (OMNIML-5123) |
 |  | 2026-06-12 | [cfc823d1](https://github.com/NVIDIA/Model-Optimizer/commit/cfc823d12740fa672d7435cf112b333bbf961eff) | [#1527](https://github.com/NVIDIA/Model-Optimizer/pull/1527) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Tests\]: Precommit Check for Spec-Dec Recipes |
 |  | 2026-06-12 | [8a973ce9](https://github.com/NVIDIA/Model-Optimizer/commit/8a973ce90d397be7080a5f8562ea5bc644fd087c) | [#1687](https://github.com/NVIDIA/Model-Optimizer/pull/1687) | [@meenchen](https://github.com/meenchen) | `infra` `tests` | \[nvbug 6294744\] Exclude Qwen visual modules from NVFP4 quantization |
@@ -85,4 +86,4 @@
 |  | 2026-06-01 | [905259fb](https://github.com/NVIDIA/Model-Optimizer/commit/905259fbf5d2dda3da00ef4dfe3c5c22de4155f0) | [#1590](https://github.com/NVIDIA/Model-Optimizer/pull/1590) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Fix: use python3 in debugger server.sh |
 
 ---
-**Total: 75 PRs** | **Highlighted: 17**
+**Total: 76 PRs** | **Highlighted: 17**

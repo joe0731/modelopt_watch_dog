@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-14 | [463229ad](https://github.com/NVIDIA/Model-Optimizer/commit/463229ad34c74d104938fa2483910c1562696a53) | [#1712](https://github.com/NVIDIA/Model-Optimizer/pull/1712) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | docs(tools/mcp): scope policy — environment tooling, not workflow policy |
 | 2026-06-13 | [9f37fe19](https://github.com/NVIDIA/Model-Optimizer/commit/9f37fe196941f8663309aaa39b9ec458de4965bb) | [#1701](https://github.com/NVIDIA/Model-Optimizer/pull/1701) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | feat(tools/mcp): MCP server for ModelOpt launcher (OMNIML-5123) |
 | 2026-06-12 | [cfc823d1](https://github.com/NVIDIA/Model-Optimizer/commit/cfc823d12740fa672d7435cf112b333bbf961eff) | [#1527](https://github.com/NVIDIA/Model-Optimizer/pull/1527) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Tests\]: Precommit Check for Spec-Dec Recipes |
 | 2026-06-12 | [8a973ce9](https://github.com/NVIDIA/Model-Optimizer/commit/8a973ce90d397be7080a5f8562ea5bc644fd087c) | [#1687](https://github.com/NVIDIA/Model-Optimizer/pull/1687) | [@meenchen](https://github.com/meenchen) | `infra` `tests` | \[nvbug 6294744\] Exclude Qwen visual modules from NVFP4 quantization |
@@ -316,4 +317,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 310 PRs**
+**Total: 311 PRs**

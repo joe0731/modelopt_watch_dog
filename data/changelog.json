@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-06-14",
+    "commit": "463229ad34c74d104938fa2483910c1562696a53",
+    "pr_number": 1712,
+    "author": "ChenhanYu",
+    "title": "docs(tools/mcp): scope policy — environment tooling, not workflow policy",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-06-13",
     "commit": "9f37fe196941f8663309aaa39b9ec458de4965bb",
     "pr_number": 1701,
