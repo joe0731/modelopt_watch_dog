@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-15 | [6d9a8125](https://github.com/NVIDIA/Model-Optimizer/commit/6d9a8125635a35e0f521688dc56662df9620f839) | [#1727](https://github.com/NVIDIA/Model-Optimizer/pull/1727) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-06-15) |
+| 2026-06-15 | [95d4e12c](https://github.com/NVIDIA/Model-Optimizer/commit/95d4e12c708c393d473af99775d44eb05da9be53) | [#1726](https://github.com/NVIDIA/Model-Optimizer/pull/1726) | [@TheSabari07](https://github.com/TheSabari07) | `infra` | fix(puzzletron): use prebuilt KD dataset to avoid 136GB download |
 | 2026-06-14 | [463229ad](https://github.com/NVIDIA/Model-Optimizer/commit/463229ad34c74d104938fa2483910c1562696a53) | [#1712](https://github.com/NVIDIA/Model-Optimizer/pull/1712) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | docs(tools/mcp): scope policy — environment tooling, not workflow policy |
 | 2026-06-13 | [9f37fe19](https://github.com/NVIDIA/Model-Optimizer/commit/9f37fe196941f8663309aaa39b9ec458de4965bb) | [#1701](https://github.com/NVIDIA/Model-Optimizer/pull/1701) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | feat(tools/mcp): MCP server for ModelOpt launcher (OMNIML-5123) |
 | 2026-06-12 | [cfc823d1](https://github.com/NVIDIA/Model-Optimizer/commit/cfc823d12740fa672d7435cf112b333bbf961eff) | [#1527](https://github.com/NVIDIA/Model-Optimizer/pull/1527) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Tests\]: Precommit Check for Spec-Dec Recipes |
@@ -317,4 +319,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 311 PRs**
+**Total: 313 PRs**

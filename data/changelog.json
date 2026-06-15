@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-15",
+    "commit": "6d9a8125635a35e0f521688dc56662df9620f839",
+    "pr_number": 1727,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-06-15)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "commit": "95d4e12c708c393d473af99775d44eb05da9be53",
+    "pr_number": 1726,
+    "author": "TheSabari07",
+    "title": "fix(puzzletron): use prebuilt KD dataset to avoid 136GB download",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-06-14",
     "commit": "463229ad34c74d104938fa2483910c1562696a53",
     "pr_number": 1712,
