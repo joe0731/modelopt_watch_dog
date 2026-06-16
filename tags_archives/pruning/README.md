@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-15 | [55a2101e](https://github.com/NVIDIA/Model-Optimizer/commit/55a2101e2f2e3d4a5c95f8324aec8a1a911379d2) | [#1660](https://github.com/NVIDIA/Model-Optimizer/pull/1660) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `torch` | Update Nemotron-3 Pruning, Distillation and PTQ results based on new shared calibration loop with seq packing and add tool-calling eval fix |
+| 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
 | 2026-06-09 | [5584ce45](https://github.com/NVIDIA/Model-Optimizer/commit/5584ce455826174efaaab1641133e749d283dd1b) | [#1601](https://github.com/NVIDIA/Model-Optimizer/pull/1601) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Migrate Nemotron-3-Nano tutorial PTQ to MBridge scripts and move under examples/megatron_bridge |
 | 2026-06-05 | [54ce4e09](https://github.com/NVIDIA/Model-Optimizer/commit/54ce4e09d8cae20a35322a6d7492fbe02c18cda7) | [#1600](https://github.com/NVIDIA/Model-Optimizer/pull/1600) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `eval` `example` `export` `infra` `pruning` `quantization` `tests` `torch` | Add Quantization Aware Distillation (QAD) to Megatron-Bridge example |
 | 2026-05-28 | [5d0441ae](https://github.com/NVIDIA/Model-Optimizer/commit/5d0441ae3d613333ce1274e685e3b595aff08936) | [#1501](https://github.com/NVIDIA/Model-Optimizer/pull/1501) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Create shared Megatron calibration forward loop for prune / quantize with megatron pretraining data style sequence packing |
@@ -30,4 +32,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 24 PRs**
+**Total: 26 PRs**

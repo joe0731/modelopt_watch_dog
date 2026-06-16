@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
+| 2026-06-15 | [e004d8d9](https://github.com/NVIDIA/Model-Optimizer/commit/e004d8d90e1358108217fca6d255782df38dd7cb) | [#1621](https://github.com/NVIDIA/Model-Optimizer/pull/1621) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | DFlash speculative decoding for MiniMax-M2.7 (FSDP2): auto mask-token, FSDP2 resume fixes, per-checkpoint draft export |
+| 2026-06-15 | [e6790ef7](https://github.com/NVIDIA/Model-Optimizer/commit/e6790ef7b46d0e6290b6c33b41a9a9f20b1bb88b) | [#1692](https://github.com/NVIDIA/Model-Optimizer/pull/1692) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `torch` | \[Examples\]: GPT-oss, Qwen3Moe streaming specdec example |
 | 2026-06-11 | [46eddab8](https://github.com/NVIDIA/Model-Optimizer/commit/46eddab877df5860b6578c9cf1f508bc4e7eea60) | [#1611](https://github.com/NVIDIA/Model-Optimizer/pull/1611) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Specdec Streaming: RDMA + Multinode |
 | 2026-06-11 | [43b67a83](https://github.com/NVIDIA/Model-Optimizer/commit/43b67a83c5b3d02c3c742a3f0fd097068e00eb41) | [#1677](https://github.com/NVIDIA/Model-Optimizer/pull/1677) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `speculative_decoding` `torch` | specdec_bench: keep method=mtp when adding model=\<assistant\> for Gemma 4 MTP |
 | 2026-06-10 | [66b54ed0](https://github.com/NVIDIA/Model-Optimizer/commit/66b54ed040fac301c5f2d2e880c9d67be13db8c9) | [#1663](https://github.com/NVIDIA/Model-Optimizer/pull/1663) | [@ChenhanYu](https://github.com/ChenhanYu) | `example` `infra` `speculative_decoding` `torch` | \[OMNIML-5024\] specdec_bench cell t0_d3 — google/gemma-4-E4B-it / MTP / vllm |
@@ -67,4 +70,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 61 PRs**
+**Total: 64 PRs**

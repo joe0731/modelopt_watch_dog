@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
 | 2026-06-08 | [b98a5955](https://github.com/NVIDIA/Model-Optimizer/commit/b98a59557a61d496b0232b97ebd5c4fdc1e17391) | [#1358](https://github.com/NVIDIA/Model-Optimizer/pull/1358) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `docs` `infra` `tests` | Add vLLM-based runtime statistics for subblock latency measurement |
 | 2026-06-08 | [56c4af23](https://github.com/NVIDIA/Model-Optimizer/commit/56c4af233358e521382659cdd33334cb983f481c) | [#1652](https://github.com/NVIDIA/Model-Optimizer/pull/1652) | [@cjluo-nv](https://github.com/cjluo-nv) | `docs` `infra` `tests` | feat(recipes): add kv_fp8_cast variants for partial-NVFP4 and weight-only PTQ recipes |
 | 2026-06-01 | [f0d2237c](https://github.com/NVIDIA/Model-Optimizer/commit/f0d2237cbc1b56ffc3964ed70053dbe91c414ec6) | [#1482](https://github.com/NVIDIA/Model-Optimizer/pull/1482) | [@hychiang-git](https://github.com/hychiang-git) | `core` `docs` `export` `infra` `tests` `torch` | Add Qwen3VL MCore Export support from PR 895 |
@@ -38,4 +39,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 32 PRs**
+**Total: 33 PRs**

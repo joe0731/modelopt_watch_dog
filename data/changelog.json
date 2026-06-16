@@ -1,5 +1,52 @@
 [
   {
+    "date": "2026-06-16",
+    "commit": "bcd8dd4aa45b111b943465d2d80c976e27036485",
+    "pr_number": 1659,
+    "author": "Fridah-nv",
+    "title": "Add fused Triton kernel for local-Hessian NVFP4 weight-scale search",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "commit": "a21197c277c749bbf3751e5260ac49f4571aaf16",
+    "pr_number": 1740,
+    "author": "kevalmorabia97",
+    "title": "Remove unsafe torch.load from examples/diffusers/fastgen",
+    "tags": [
+      "diffusers",
+      "example",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "commit": "1e461dd79163709cb749cb256be0d0e5479f0e14",
+    "pr_number": 1744,
+    "author": "shengliangxu",
+    "title": "[NVBug 6287315] Fix unified HF export for Llama4 MoE models",
+    "tags": [
+      "export",
+      "infra",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "commit": "d1fd121e5f904617a2902c5f7208b4113e07592a",
+    "pr_number": 1737,
+    "author": "kevalmorabia97",
+    "title": "Re-organize Changelog for 0.45",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-06-15",
     "commit": "6d9a8125635a35e0f521688dc56662df9620f839",
     "pr_number": 1727,
@@ -17,6 +64,124 @@
     "title": "fix(puzzletron): use prebuilt KD dataset to avoid 136GB download",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "commit": "4be7c7f8d825086ecd6b9f0f937e5ca9abb2a43e",
+    "pr_number": 1729,
+    "author": "Separius",
+    "title": "fix memory leak issue during puzzletron scoring, #1681",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "commit": "d7df14d12ac9a17c2952af6fc8682416cb709a8a",
+    "pr_number": 1735,
+    "author": "cjluo-nv",
+    "title": "[tools/debugger] Enforce a single relay owner across hosts",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "commit": "55a2101e2f2e3d4a5c95f8324aec8a1a911379d2",
+    "pr_number": 1660,
+    "author": "kevalmorabia97",
+    "title": "Update Nemotron-3 Pruning, Distillation and PTQ results based on new shared calibration loop with seq packing and add tool-calling eval fix",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "pruning",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "commit": "a6c7243307bea826cab0814f7ad451c2a3da4376",
+    "pr_number": 1734,
+    "author": "kevalmorabia97",
+    "title": "[Cherry-pick] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729",
+    "tags": [
+      "core",
+      "deploy",
+      "diffusers",
+      "docs",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "pruning",
+      "quantization",
+      "sparsity",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "commit": "c661366352c1b9a76da53cc31d2d6e45ff32df02",
+    "pr_number": 1741,
+    "author": "ChenhanYu",
+    "title": "launcher: Nemotron-120B specdec_bench — kill stale _cells/ reference (post-PR-#1564)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "commit": "601401b13495127e3e12b54d7026fedb1ff10a61",
+    "pr_number": 1738,
+    "author": "ChenhanYu",
+    "title": "[OMNIML-5025] cell_t0_d7",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "commit": "fa94e6ea4db4a7d4232954d80f83d1cbcaadd457",
+    "pr_number": 1742,
+    "author": "kinjalpatel27",
+    "title": "[6309094] updated readme to clarify simple_qat_train.py usecase",
+    "tags": [
+      "example",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "commit": "e004d8d90e1358108217fca6d255782df38dd7cb",
+    "pr_number": 1621,
+    "author": "yeyu-nvidia",
+    "title": "DFlash speculative decoding for MiniMax-M2.7 (FSDP2): auto mask-token, FSDP2 resume fixes, per-checkpoint draft export",
+    "tags": [
+      "example",
+      "export",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-15",
+    "commit": "e6790ef7b46d0e6290b6c33b41a9a9f20b1bb88b",
+    "pr_number": 1692,
+    "author": "h-guo18",
+    "title": "[Examples]: GPT-oss, Qwen3Moe streaming specdec example",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "torch"
     ]
   },
   {

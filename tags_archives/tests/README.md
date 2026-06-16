@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-16 | [bcd8dd4a](https://github.com/NVIDIA/Model-Optimizer/commit/bcd8dd4aa45b111b943465d2d80c976e27036485) | [#1659](https://github.com/NVIDIA/Model-Optimizer/pull/1659) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `quantization` `tests` `torch` | Add fused Triton kernel for local-Hessian NVFP4 weight-scale search |
+| 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
+| 2026-06-15 | [e004d8d9](https://github.com/NVIDIA/Model-Optimizer/commit/e004d8d90e1358108217fca6d255782df38dd7cb) | [#1621](https://github.com/NVIDIA/Model-Optimizer/pull/1621) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | DFlash speculative decoding for MiniMax-M2.7 (FSDP2): auto mask-token, FSDP2 resume fixes, per-checkpoint draft export |
 | 2026-06-12 | [8a973ce9](https://github.com/NVIDIA/Model-Optimizer/commit/8a973ce90d397be7080a5f8562ea5bc644fd087c) | [#1687](https://github.com/NVIDIA/Model-Optimizer/pull/1687) | [@meenchen](https://github.com/meenchen) | `infra` `tests` | \[nvbug 6294744\] Exclude Qwen visual modules from NVFP4 quantization |
 | 2026-06-12 | [60b1af5f](https://github.com/NVIDIA/Model-Optimizer/commit/60b1af5fb2728bb966321802a1d064f376050915) | [#1678](https://github.com/NVIDIA/Model-Optimizer/pull/1678) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | Fix GPT-OSS MXFP4-\>NVFP4 PTQ load, export, and cast (nvbug 6295279, 6295242) |
 | 2026-06-12 | [2201edeb](https://github.com/NVIDIA/Model-Optimizer/commit/2201edebd90e11ae12c88c61fe47d392991b95b2) | [#1698](https://github.com/NVIDIA/Model-Optimizer/pull/1698) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `tests` `torch` | Fix Qwen AutoQuant disabled layer test |
@@ -245,4 +248,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 239 PRs**
+**Total: 242 PRs**

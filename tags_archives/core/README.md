@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-15 | [55a2101e](https://github.com/NVIDIA/Model-Optimizer/commit/55a2101e2f2e3d4a5c95f8324aec8a1a911379d2) | [#1660](https://github.com/NVIDIA/Model-Optimizer/pull/1660) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `torch` | Update Nemotron-3 Pruning, Distillation and PTQ results based on new shared calibration loop with seq packing and add tool-calling eval fix |
+| 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
 | 2026-06-11 | [46eddab8](https://github.com/NVIDIA/Model-Optimizer/commit/46eddab877df5860b6578c9cf1f508bc4e7eea60) | [#1611](https://github.com/NVIDIA/Model-Optimizer/pull/1611) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Specdec Streaming: RDMA + Multinode |
 | 2026-06-10 | [a638fe03](https://github.com/NVIDIA/Model-Optimizer/commit/a638fe0344b06417c099b6ce38df7cef1eeb8c2b) | [#1670](https://github.com/NVIDIA/Model-Optimizer/pull/1670) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `tests` `torch` | Fix chat_template handling in get_dataset_dataloader |
 | 2026-06-09 | [5584ce45](https://github.com/NVIDIA/Model-Optimizer/commit/5584ce455826174efaaab1641133e749d283dd1b) | [#1601](https://github.com/NVIDIA/Model-Optimizer/pull/1601) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `tests` `torch` | Migrate Nemotron-3-Nano tutorial PTQ to MBridge scripts and move under examples/megatron_bridge |
@@ -107,4 +109,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 101 PRs**
+**Total: 103 PRs**

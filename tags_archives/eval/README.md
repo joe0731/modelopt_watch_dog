@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
 | 2026-06-12 | [60b1af5f](https://github.com/NVIDIA/Model-Optimizer/commit/60b1af5fb2728bb966321802a1d064f376050915) | [#1678](https://github.com/NVIDIA/Model-Optimizer/pull/1678) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | Fix GPT-OSS MXFP4-\>NVFP4 PTQ load, export, and cast (nvbug 6295279, 6295242) |
 | 2026-06-12 | [2201edeb](https://github.com/NVIDIA/Model-Optimizer/commit/2201edebd90e11ae12c88c61fe47d392991b95b2) | [#1698](https://github.com/NVIDIA/Model-Optimizer/pull/1698) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `tests` `torch` | Fix Qwen AutoQuant disabled layer test |
 | 2026-06-12 | [26405515](https://github.com/NVIDIA/Model-Optimizer/commit/26405515153c76abaddd40e6ccae3b93de088c9f) | [#1571](https://github.com/NVIDIA/Model-Optimizer/pull/1571) | [@Fridah-nv](https://github.com/Fridah-nv) | `eval` `example` `infra` `quantization` `tests` `torch` | feat: Layerwise calibration: nested config + QDQ-from-prev-layer flag + checkpoint I/O knobs |
@@ -88,4 +89,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 82 PRs**
+**Total: 83 PRs**

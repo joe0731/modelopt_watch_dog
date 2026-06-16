@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-16 | [1e461dd7](https://github.com/NVIDIA/Model-Optimizer/commit/1e461dd79163709cb749cb256be0d0e5479f0e14) | [#1744](https://github.com/NVIDIA/Model-Optimizer/pull/1744) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `torch` | \[NVBug 6287315\] Fix unified HF export for Llama4 MoE models |
+| 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
+| 2026-06-15 | [e004d8d9](https://github.com/NVIDIA/Model-Optimizer/commit/e004d8d90e1358108217fca6d255782df38dd7cb) | [#1621](https://github.com/NVIDIA/Model-Optimizer/pull/1621) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | DFlash speculative decoding for MiniMax-M2.7 (FSDP2): auto mask-token, FSDP2 resume fixes, per-checkpoint draft export |
 | 2026-06-08 | [c78e6547](https://github.com/NVIDIA/Model-Optimizer/commit/c78e6547440141176ffbe5b4b0935f5e8ebe767e) | [#1269](https://github.com/NVIDIA/Model-Optimizer/pull/1269) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `infra` `sparsity` `tests` `torch` | Skip Softmax diffusion export |
 | 2026-06-05 | [54ce4e09](https://github.com/NVIDIA/Model-Optimizer/commit/54ce4e09d8cae20a35322a6d7492fbe02c18cda7) | [#1600](https://github.com/NVIDIA/Model-Optimizer/pull/1600) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `eval` `example` `export` `infra` `pruning` `quantization` `tests` `torch` | Add Quantization Aware Distillation (QAD) to Megatron-Bridge example |
 | 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
@@ -111,4 +114,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 105 PRs**
+**Total: 108 PRs**
