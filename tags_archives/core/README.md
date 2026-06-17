@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-17 | [769ea5f5](https://github.com/NVIDIA/Model-Optimizer/commit/769ea5f51c4122444363d57c16cf062232fad124) | [#1761](https://github.com/NVIDIA/Model-Optimizer/pull/1761) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `core` `torch` | Pass USE_CUDA to compilation of cuda-ext to avoid failure on Windows |
+| 2026-06-16 | [977d34dc](https://github.com/NVIDIA/Model-Optimizer/commit/977d34dc3c74715ecd8e7519ac8573c1dffec7e7) | [#1755](https://github.com/NVIDIA/Model-Optimizer/pull/1755) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `speculative_decoding` `torch` | \[Fix\](nvbug6304585): specdec README online base-model example should use Instruct model |
 | 2026-06-15 | [55a2101e](https://github.com/NVIDIA/Model-Optimizer/commit/55a2101e2f2e3d4a5c95f8324aec8a1a911379d2) | [#1660](https://github.com/NVIDIA/Model-Optimizer/pull/1660) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `torch` | Update Nemotron-3 Pruning, Distillation and PTQ results based on new shared calibration loop with seq packing and add tool-calling eval fix |
 | 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
 | 2026-06-11 | [46eddab8](https://github.com/NVIDIA/Model-Optimizer/commit/46eddab877df5860b6578c9cf1f508bc4e7eea60) | [#1611](https://github.com/NVIDIA/Model-Optimizer/pull/1611) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Specdec Streaming: RDMA + Multinode |
@@ -109,4 +111,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 103 PRs**
+**Total: 105 PRs**

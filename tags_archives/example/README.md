@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-17 | [6c32c376](https://github.com/NVIDIA/Model-Optimizer/commit/6c32c376717289baefd829c37374f6a73ebbcc4e) | [#1705](https://github.com/NVIDIA/Model-Optimizer/pull/1705) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `infra` `quantization` `tests` `torch` `vlm` | refactor(examples): consolidate vlm_ptq into llm_ptq |
 | 2026-06-16 | [a21197c2](https://github.com/NVIDIA/Model-Optimizer/commit/a21197c277c749bbf3751e5260ac49f4571aaf16) | [#1740](https://github.com/NVIDIA/Model-Optimizer/pull/1740) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `example` `torch` | Remove unsafe torch.load from examples/diffusers/fastgen |
+| 2026-06-16 | [977d34dc](https://github.com/NVIDIA/Model-Optimizer/commit/977d34dc3c74715ecd8e7519ac8573c1dffec7e7) | [#1755](https://github.com/NVIDIA/Model-Optimizer/pull/1755) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `speculative_decoding` `torch` | \[Fix\](nvbug6304585): specdec README online base-model example should use Instruct model |
 | 2026-06-15 | [55a2101e](https://github.com/NVIDIA/Model-Optimizer/commit/55a2101e2f2e3d4a5c95f8324aec8a1a911379d2) | [#1660](https://github.com/NVIDIA/Model-Optimizer/pull/1660) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `pruning` `torch` | Update Nemotron-3 Pruning, Distillation and PTQ results based on new shared calibration loop with seq packing and add tool-calling eval fix |
 | 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
 | 2026-06-15 | [fa94e6ea](https://github.com/NVIDIA/Model-Optimizer/commit/fa94e6ea4db4a7d4232954d80f83d1cbcaadd457) | [#1742](https://github.com/NVIDIA/Model-Optimizer/pull/1742) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `example` `quantization` `torch` | \[6309094\] updated readme to clarify simple_qat_train.py usecase |
@@ -234,4 +236,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 228 PRs**
+**Total: 230 PRs**

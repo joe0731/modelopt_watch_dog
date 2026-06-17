@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-06-17",
+    "commit": "6c32c376717289baefd829c37374f6a73ebbcc4e",
+    "pr_number": 1705,
+    "author": "Edwardf0t1",
+    "title": "refactor(examples): consolidate vlm_ptq into llm_ptq",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch",
+      "vlm"
+    ]
+  },
+  {
+    "date": "2026-06-17",
+    "commit": "50cfa7bf8a8cf48daaa5d12a489ff0b4a9f92443",
+    "pr_number": 1754,
+    "author": "realAsma",
+    "title": "fix(qad): report KD as default eval loss",
+    "tags": [
+      "distillation",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-17",
+    "commit": "769ea5f51c4122444363d57c16cf062232fad124",
+    "pr_number": 1761,
+    "author": "vishalpandya1990",
+    "title": "Pass USE_CUDA to compilation of cuda-ext to avoid failure on Windows",
+    "tags": [
+      "core",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-06-16",
     "commit": "bcd8dd4aa45b111b943465d2d80c976e27036485",
     "pr_number": 1659,
@@ -44,6 +84,39 @@
     "title": "Re-organize Changelog for 0.45",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "commit": "106781659ea6453e6ba871633aa8769de74829e3",
+    "pr_number": 1620,
+    "author": "cjluo-nv",
+    "title": "Add W4A16 NVFP4-MSE Qwen3.5 dense/MoE PTQ recipes",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "commit": "ba4340aeca91353f9ce84c7469ce8a849a3643b4",
+    "pr_number": 1758,
+    "author": "yeyu-nvidia",
+    "title": "chore: stop tracking .claude/scheduled_tasks.lock",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "commit": "977d34dc3c74715ecd8e7519ac8573c1dffec7e7",
+    "pr_number": 1755,
+    "author": "h-guo18",
+    "title": "[Fix](nvbug6304585): specdec README online base-model example should use Instruct model",
+    "tags": [
+      "core",
+      "example",
+      "speculative_decoding",
+      "torch"
     ]
   },
   {
