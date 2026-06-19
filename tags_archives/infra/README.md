@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-19 | [93dd08f4](https://github.com/NVIDIA/Model-Optimizer/commit/93dd08f42944568fc9a2228d056c172ecae75e29) | [#1696](https://github.com/NVIDIA/Model-Optimizer/pull/1696) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-4760\] synth_support |
+| 2026-06-18 | [e0125294](https://github.com/NVIDIA/Model-Optimizer/commit/e0125294f9c6194f50ccf7e013e824e615b28a3a) | [#1764](https://github.com/NVIDIA/Model-Optimizer/pull/1764) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | launcher: add Qwen3-8B/specdec_bench_dflash_vllm.yaml parent (OMNIML-5057) |
 | 2026-06-17 | [6c32c376](https://github.com/NVIDIA/Model-Optimizer/commit/6c32c376717289baefd829c37374f6a73ebbcc4e) | [#1705](https://github.com/NVIDIA/Model-Optimizer/pull/1705) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `infra` `quantization` `tests` `torch` `vlm` | refactor(examples): consolidate vlm_ptq into llm_ptq |
 | 2026-06-17 | [50cfa7bf](https://github.com/NVIDIA/Model-Optimizer/commit/50cfa7bf8a8cf48daaa5d12a489ff0b4a9f92443) | [#1754](https://github.com/NVIDIA/Model-Optimizer/pull/1754) | [@realAsma](https://github.com/realAsma) | `distillation` `infra` `tests` `torch` | fix(qad): report KD as default eval loss |
 | 2026-06-16 | [bcd8dd4a](https://github.com/NVIDIA/Model-Optimizer/commit/bcd8dd4aa45b111b943465d2d80c976e27036485) | [#1659](https://github.com/NVIDIA/Model-Optimizer/pull/1659) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `quantization` `tests` `torch` | Add fused Triton kernel for local-Hessian NVFP4 weight-scale search |
@@ -334,4 +336,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 328 PRs**
+**Total: 330 PRs**

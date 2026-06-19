@@ -14,7 +14,7 @@ Click a tag to see its full history.
 | [`example`](example/) | example scripts and notebooks | 230 |
 | [`experimental`](experimental/) | experimental features, research prototypes | 6 |
 | [`export`](export/) | model export, torch-to-ONNX conversion | 108 |
-| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 328 |
+| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 330 |
 | [`nas`](nas/) | neural architecture search, hyperparameter optimization | 13 |
 | [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 79 |
 | [`pruning`](pruning/) | model pruning, structured and unstructured | 26 |

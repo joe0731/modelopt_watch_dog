@@ -8,6 +8,8 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-06-19 | [93dd08f4](https://github.com/NVIDIA/Model-Optimizer/commit/93dd08f42944568fc9a2228d056c172ecae75e29) | [#1696](https://github.com/NVIDIA/Model-Optimizer/pull/1696) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-4760\] synth_support |
+|  | 2026-06-18 | [e0125294](https://github.com/NVIDIA/Model-Optimizer/commit/e0125294f9c6194f50ccf7e013e824e615b28a3a) | [#1764](https://github.com/NVIDIA/Model-Optimizer/pull/1764) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | launcher: add Qwen3-8B/specdec_bench_dflash_vllm.yaml parent (OMNIML-5057) |
 | 🟡🟣 | **2026-06-17** | **[6c32c376](https://github.com/NVIDIA/Model-Optimizer/commit/6c32c376717289baefd829c37374f6a73ebbcc4e)** | **[#1705](https://github.com/NVIDIA/Model-Optimizer/pull/1705)** | **[@Edwardf0t1](https://github.com/Edwardf0t1)** | `eval` `example` `infra` `quantization` `tests` `torch` `vlm` | **refactor(examples): consolidate vlm_ptq into llm_ptq** |
 |  | 2026-06-17 | [50cfa7bf](https://github.com/NVIDIA/Model-Optimizer/commit/50cfa7bf8a8cf48daaa5d12a489ff0b4a9f92443) | [#1754](https://github.com/NVIDIA/Model-Optimizer/pull/1754) | [@realAsma](https://github.com/realAsma) | `distillation` `infra` `tests` `torch` | fix(qad): report KD as default eval loss |
 |  | 2026-06-17 | [769ea5f5](https://github.com/NVIDIA/Model-Optimizer/commit/769ea5f51c4122444363d57c16cf062232fad124) | [#1761](https://github.com/NVIDIA/Model-Optimizer/pull/1761) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `core` `torch` | Pass USE_CUDA to compilation of cuda-ext to avoid failure on Windows |
@@ -107,4 +109,4 @@
 |  | 2026-06-01 | [905259fb](https://github.com/NVIDIA/Model-Optimizer/commit/905259fbf5d2dda3da00ef4dfe3c5c22de4155f0) | [#1590](https://github.com/NVIDIA/Model-Optimizer/pull/1590) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Fix: use python3 in debugger server.sh |
 
 ---
-**Total: 97 PRs** | **Highlighted: 19**
+**Total: 99 PRs** | **Highlighted: 19**

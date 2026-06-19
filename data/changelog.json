@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-19",
+    "commit": "93dd08f42944568fc9a2228d056c172ecae75e29",
+    "pr_number": 1696,
+    "author": "ChenhanYu",
+    "title": "[OMNIML-4760] synth_support",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "commit": "e0125294f9c6194f50ccf7e013e824e615b28a3a",
+    "pr_number": 1764,
+    "author": "ChenhanYu",
+    "title": "launcher: add Qwen3-8B/specdec_bench_dflash_vllm.yaml parent (OMNIML-5057)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-06-17",
     "commit": "6c32c376717289baefd829c37374f6a73ebbcc4e",
     "pr_number": 1705,
