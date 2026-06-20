@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 | 2026-06-17 | [6c32c376](https://github.com/NVIDIA/Model-Optimizer/commit/6c32c376717289baefd829c37374f6a73ebbcc4e) | [#1705](https://github.com/NVIDIA/Model-Optimizer/pull/1705) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `infra` `quantization` `tests` `torch` `vlm` | refactor(examples): consolidate vlm_ptq into llm_ptq |
 | 2026-06-17 | [50cfa7bf](https://github.com/NVIDIA/Model-Optimizer/commit/50cfa7bf8a8cf48daaa5d12a489ff0b4a9f92443) | [#1754](https://github.com/NVIDIA/Model-Optimizer/pull/1754) | [@realAsma](https://github.com/realAsma) | `distillation` `infra` `tests` `torch` | fix(qad): report KD as default eval loss |
 | 2026-06-17 | [769ea5f5](https://github.com/NVIDIA/Model-Optimizer/commit/769ea5f51c4122444363d57c16cf062232fad124) | [#1761](https://github.com/NVIDIA/Model-Optimizer/pull/1761) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `core` `torch` | Pass USE_CUDA to compilation of cuda-ext to avoid failure on Windows |
@@ -353,4 +354,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 347 PRs**
+**Total: 348 PRs**

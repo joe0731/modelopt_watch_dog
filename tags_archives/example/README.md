@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 | 2026-06-17 | [6c32c376](https://github.com/NVIDIA/Model-Optimizer/commit/6c32c376717289baefd829c37374f6a73ebbcc4e) | [#1705](https://github.com/NVIDIA/Model-Optimizer/pull/1705) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `infra` `quantization` `tests` `torch` `vlm` | refactor(examples): consolidate vlm_ptq into llm_ptq |
 | 2026-06-16 | [a21197c2](https://github.com/NVIDIA/Model-Optimizer/commit/a21197c277c749bbf3751e5260ac49f4571aaf16) | [#1740](https://github.com/NVIDIA/Model-Optimizer/pull/1740) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `example` `torch` | Remove unsafe torch.load from examples/diffusers/fastgen |
 | 2026-06-16 | [977d34dc](https://github.com/NVIDIA/Model-Optimizer/commit/977d34dc3c74715ecd8e7519ac8573c1dffec7e7) | [#1755](https://github.com/NVIDIA/Model-Optimizer/pull/1755) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `speculative_decoding` `torch` | \[Fix\](nvbug6304585): specdec README online base-model example should use Instruct model |
@@ -236,4 +237,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 230 PRs**
+**Total: 231 PRs**

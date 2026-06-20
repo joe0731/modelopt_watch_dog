@@ -1,10 +1,44 @@
 [
   {
+    "date": "2026-06-20",
+    "commit": "9048d13b86e537ce42323c586d13d0f085304032",
+    "pr_number": 1724,
+    "author": "h-guo18",
+    "title": "[Feat]:Support DPace",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-06-19",
     "commit": "93dd08f42944568fc9a2228d056c172ecae75e29",
     "pr_number": 1696,
     "author": "ChenhanYu",
     "title": "[OMNIML-4760] synth_support",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-19",
+    "commit": "fa1d13f85d49f5bb6784300cd407cf3e2bfe292d",
+    "pr_number": 1714,
+    "author": "ChenhanYu",
+    "title": "launcher: add Nemotron-3-Super-120B-A12B-BF16 MTP vLLM specdec bench config",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-19",
+    "commit": "12ae5fbb353a33affbd277ce480ce0e0f8b0d4fe",
+    "pr_number": 1773,
+    "author": "ChenhanYu",
+    "title": "[OMNIML-5233] hf_synth.yaml: relative-leaf output_dir contract",
     "tags": [
       "infra"
     ]

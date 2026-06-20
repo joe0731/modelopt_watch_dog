@@ -8,7 +8,10 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 |  | 2026-06-19 | [93dd08f4](https://github.com/NVIDIA/Model-Optimizer/commit/93dd08f42944568fc9a2228d056c172ecae75e29) | [#1696](https://github.com/NVIDIA/Model-Optimizer/pull/1696) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-4760\] synth_support |
+|  | 2026-06-19 | [fa1d13f8](https://github.com/NVIDIA/Model-Optimizer/commit/fa1d13f85d49f5bb6784300cd407cf3e2bfe292d) | [#1714](https://github.com/NVIDIA/Model-Optimizer/pull/1714) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | launcher: add Nemotron-3-Super-120B-A12B-BF16 MTP vLLM specdec bench config |
+|  | 2026-06-19 | [12ae5fbb](https://github.com/NVIDIA/Model-Optimizer/commit/12ae5fbb353a33affbd277ce480ce0e0f8b0d4fe) | [#1773](https://github.com/NVIDIA/Model-Optimizer/pull/1773) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-5233\] hf_synth.yaml: relative-leaf output_dir contract |
 |  | 2026-06-18 | [e0125294](https://github.com/NVIDIA/Model-Optimizer/commit/e0125294f9c6194f50ccf7e013e824e615b28a3a) | [#1764](https://github.com/NVIDIA/Model-Optimizer/pull/1764) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | launcher: add Qwen3-8B/specdec_bench_dflash_vllm.yaml parent (OMNIML-5057) |
 | 🟡🟣 | **2026-06-17** | **[6c32c376](https://github.com/NVIDIA/Model-Optimizer/commit/6c32c376717289baefd829c37374f6a73ebbcc4e)** | **[#1705](https://github.com/NVIDIA/Model-Optimizer/pull/1705)** | **[@Edwardf0t1](https://github.com/Edwardf0t1)** | `eval` `example` `infra` `quantization` `tests` `torch` `vlm` | **refactor(examples): consolidate vlm_ptq into llm_ptq** |
 |  | 2026-06-17 | [50cfa7bf](https://github.com/NVIDIA/Model-Optimizer/commit/50cfa7bf8a8cf48daaa5d12a489ff0b4a9f92443) | [#1754](https://github.com/NVIDIA/Model-Optimizer/pull/1754) | [@realAsma](https://github.com/realAsma) | `distillation` `infra` `tests` `torch` | fix(qad): report KD as default eval loss |
@@ -109,4 +112,4 @@
 |  | 2026-06-01 | [905259fb](https://github.com/NVIDIA/Model-Optimizer/commit/905259fbf5d2dda3da00ef4dfe3c5c22de4155f0) | [#1590](https://github.com/NVIDIA/Model-Optimizer/pull/1590) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Fix: use python3 in debugger server.sh |
 
 ---
-**Total: 99 PRs** | **Highlighted: 19**
+**Total: 102 PRs** | **Highlighted: 19**
