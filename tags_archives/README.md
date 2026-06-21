@@ -5,13 +5,13 @@ Click a tag to see its full history.
 
 | Tag | Description | PRs |
 |-----|-------------|:---:|
-| [`core`](core/) | core utilities, tracing, optimization pipeline, common infrastructure | 105 |
+| [`core`](core/) | core utilities, tracing, optimization pipeline, common infrastructure | 106 |
 | [`deploy`](deploy/) | modelopt.deploy - deployment tools, serving, vLLM, TensorRT-LLM integration | 28 |
 | [`diffusers`](diffusers/) | diffusion model optimization (Stable Diffusion, FLUX, etc.) | 27 |
 | [`distillation`](distillation/) | knowledge distillation, teacher-student training | 16 |
 | [`docs`](docs/) | documentation, guides, API reference | 33 |
 | [`eval`](eval/) | model evaluation, benchmarking, accuracy metrics | 84 |
-| [`example`](example/) | example scripts and notebooks | 231 |
+| [`example`](example/) | example scripts and notebooks | 232 |
 | [`experimental`](experimental/) | experimental features, research prototypes | 6 |
 | [`export`](export/) | model export, torch-to-ONNX conversion | 108 |
 | [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 333 |
@@ -22,7 +22,7 @@ Click a tag to see its full history.
 | [`sparsity`](sparsity/) | weight sparsity, attention sparsity | 25 |
 | [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 66 |
 | [`tests`](tests/) | test infrastructure, test utilities | 245 |
-| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 348 |
+| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 349 |
 | [`vllm`](vllm/) | vLLM serving and integration | 13 |
 | [`vlm`](vlm/) | vision-language model optimization | 4 |
 | [`windows`](windows/) | Windows platform-specific code and examples | 15 |

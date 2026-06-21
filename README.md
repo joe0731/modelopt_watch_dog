@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-06-20 | [c2e95a50](https://github.com/NVIDIA/Model-Optimizer/commit/c2e95a50e841b2d9414ab267c47dbd969284c714) | [#1763](https://github.com/NVIDIA/Model-Optimizer/pull/1763) | [@thannan-ctrl](https://github.com/thannan-ctrl) | `core` `example` `torch` | Lmikaelyan/compress vlms |
 | 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 | 2026-06-19 | [fa1d13f8](https://github.com/NVIDIA/Model-Optimizer/commit/fa1d13f85d49f5bb6784300cd407cf3e2bfe292d) | [#1714](https://github.com/NVIDIA/Model-Optimizer/pull/1714) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | launcher: add Nemotron-3-Super-120B-A12B-BF16 MTP vLLM specdec bench config |
 | 2026-06-19 | [12ae5fbb](https://github.com/NVIDIA/Model-Optimizer/commit/12ae5fbb353a33affbd277ce480ce0e0f8b0d4fe) | [#1773](https://github.com/NVIDIA/Model-Optimizer/pull/1773) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-5233\] hf_synth.yaml: relative-leaf output_dir contract |

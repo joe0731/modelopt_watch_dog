@@ -14,6 +14,18 @@
     ]
   },
   {
+    "date": "2026-06-20",
+    "commit": "c2e95a50e841b2d9414ab267c47dbd969284c714",
+    "pr_number": 1763,
+    "author": "thannan-ctrl",
+    "title": "Lmikaelyan/compress vlms",
+    "tags": [
+      "core",
+      "example",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-06-19",
     "commit": "93dd08f42944568fc9a2228d056c172ecae75e29",
     "pr_number": 1696,
