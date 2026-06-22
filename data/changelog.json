@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-06-22",
+    "commit": "9ad5962e2bd36b9c3355e8698078eac1f2c314aa",
+    "pr_number": 1785,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-06-22)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-06-20",
     "commit": "9048d13b86e537ce42323c586d13d0f085304032",
     "pr_number": 1724,

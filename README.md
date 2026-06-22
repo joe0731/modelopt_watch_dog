@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-06-22 | [9ad5962e](https://github.com/NVIDIA/Model-Optimizer/commit/9ad5962e2bd36b9c3355e8698078eac1f2c314aa) | [#1785](https://github.com/NVIDIA/Model-Optimizer/pull/1785) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-06-22) |
 | 2026-06-20 | [c2e95a50](https://github.com/NVIDIA/Model-Optimizer/commit/c2e95a50e841b2d9414ab267c47dbd969284c714) | [#1763](https://github.com/NVIDIA/Model-Optimizer/pull/1763) | [@thannan-ctrl](https://github.com/thannan-ctrl) | `core` `example` `torch` | Lmikaelyan/compress vlms |
 | 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 | 2026-06-19 | [fa1d13f8](https://github.com/NVIDIA/Model-Optimizer/commit/fa1d13f85d49f5bb6784300cd407cf3e2bfe292d) | [#1714](https://github.com/NVIDIA/Model-Optimizer/pull/1714) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | launcher: add Nemotron-3-Super-120B-A12B-BF16 MTP vLLM specdec bench config |

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-22 | [9ad5962e](https://github.com/NVIDIA/Model-Optimizer/commit/9ad5962e2bd36b9c3355e8698078eac1f2c314aa) | [#1785](https://github.com/NVIDIA/Model-Optimizer/pull/1785) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-06-22) |
 | 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 | 2026-06-19 | [93dd08f4](https://github.com/NVIDIA/Model-Optimizer/commit/93dd08f42944568fc9a2228d056c172ecae75e29) | [#1696](https://github.com/NVIDIA/Model-Optimizer/pull/1696) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | \[OMNIML-4760\] synth_support |
 | 2026-06-19 | [fa1d13f8](https://github.com/NVIDIA/Model-Optimizer/commit/fa1d13f85d49f5bb6784300cd407cf3e2bfe292d) | [#1714](https://github.com/NVIDIA/Model-Optimizer/pull/1714) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | launcher: add Nemotron-3-Super-120B-A12B-BF16 MTP vLLM specdec bench config |
@@ -339,4 +340,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 333 PRs**
+**Total: 334 PRs**
