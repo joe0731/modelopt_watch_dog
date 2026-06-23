@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-23 | [c3b913b9](https://github.com/NVIDIA/Model-Optimizer/commit/c3b913b9cc1d82d5a0af9fa77b4db87829e6f158) | [#1801](https://github.com/NVIDIA/Model-Optimizer/pull/1801) | [@mxinO](https://github.com/mxinO) | `quantization` `torch` | Fix real quant backend import cycle |
 | 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 | 2026-06-20 | [c2e95a50](https://github.com/NVIDIA/Model-Optimizer/commit/c2e95a50e841b2d9414ab267c47dbd969284c714) | [#1763](https://github.com/NVIDIA/Model-Optimizer/pull/1763) | [@thannan-ctrl](https://github.com/thannan-ctrl) | `core` `example` `torch` | Lmikaelyan/compress vlms |
 | 2026-06-17 | [6c32c376](https://github.com/NVIDIA/Model-Optimizer/commit/6c32c376717289baefd829c37374f6a73ebbcc4e) | [#1705](https://github.com/NVIDIA/Model-Optimizer/pull/1705) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `infra` `quantization` `tests` `torch` `vlm` | refactor(examples): consolidate vlm_ptq into llm_ptq |
@@ -355,4 +356,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 349 PRs**
+**Total: 350 PRs**

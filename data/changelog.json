@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-06-23",
+    "commit": "c3b913b9cc1d82d5a0af9fa77b4db87829e6f158",
+    "pr_number": 1801,
+    "author": "mxinO",
+    "title": "Fix real quant backend import cycle",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-06-22",
     "commit": "9ad5962e2bd36b9c3355e8698078eac1f2c314aa",
     "pr_number": 1785,
