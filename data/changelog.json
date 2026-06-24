@@ -11,6 +11,53 @@
     ]
   },
   {
+    "date": "2026-06-23",
+    "commit": "28b5e26fdbd0084900abab9318d62275995c237d",
+    "pr_number": 1606,
+    "author": "jenchen13",
+    "title": "[OMNIML-5105] Fix torch import error to remove circular dependency & move Nemotron configs ",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-23",
+    "commit": "c81210faecc096a7bd802cca2cda909ac43f7759",
+    "pr_number": 1756,
+    "author": "jenchen13",
+    "title": "[OMNIML-5003] Support non-gated fused MoE experts (NemotronH) in HF PTQ",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-23",
+    "commit": "37dbbdac5af21aa8ea5fa5e7796071becab13c03",
+    "pr_number": 1799,
+    "author": "ChenhanYu",
+    "title": "Fix ModelOpt MCP Slurm launcher submit",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-23",
+    "commit": "1766d55a7b440dc5ce4aa88bf46931274c5c87f6",
+    "pr_number": 1808,
+    "author": "ajrasane",
+    "title": "[6281412] docs: update TensorRT-Edge-LLM CLI commands in torch_onnx example",
+    "tags": [
+      "example",
+      "export",
+      "onnx",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-06-22",
     "commit": "9ad5962e2bd36b9c3355e8698078eac1f2c314aa",
     "pr_number": 1785,

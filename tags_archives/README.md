@@ -11,18 +11,18 @@ Click a tag to see its full history.
 | [`distillation`](distillation/) | knowledge distillation, teacher-student training | 16 |
 | [`docs`](docs/) | documentation, guides, API reference | 33 |
 | [`eval`](eval/) | model evaluation, benchmarking, accuracy metrics | 84 |
-| [`example`](example/) | example scripts and notebooks | 232 |
+| [`example`](example/) | example scripts and notebooks | 233 |
 | [`experimental`](experimental/) | experimental features, research prototypes | 6 |
-| [`export`](export/) | model export, torch-to-ONNX conversion | 108 |
-| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 334 |
+| [`export`](export/) | model export, torch-to-ONNX conversion | 110 |
+| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 337 |
 | [`nas`](nas/) | neural architecture search, hyperparameter optimization | 13 |
-| [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 79 |
+| [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 80 |
 | [`pruning`](pruning/) | model pruning, structured and unstructured | 26 |
-| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 228 |
+| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 229 |
 | [`sparsity`](sparsity/) | weight sparsity, attention sparsity | 25 |
 | [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 66 |
-| [`tests`](tests/) | test infrastructure, test utilities | 245 |
-| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 350 |
+| [`tests`](tests/) | test infrastructure, test utilities | 246 |
+| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 352 |
 | [`vllm`](vllm/) | vLLM serving and integration | 13 |
 | [`vlm`](vlm/) | vision-language model optimization | 4 |
 | [`windows`](windows/) | Windows platform-specific code and examples | 15 |

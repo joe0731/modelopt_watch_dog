@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-23 | [c81210fa](https://github.com/NVIDIA/Model-Optimizer/commit/c81210faecc096a7bd802cca2cda909ac43f7759) | [#1756](https://github.com/NVIDIA/Model-Optimizer/pull/1756) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5003\] Support non-gated fused MoE experts (NemotronH) in HF PTQ |
+| 2026-06-23 | [1766d55a](https://github.com/NVIDIA/Model-Optimizer/commit/1766d55a7b440dc5ce4aa88bf46931274c5c87f6) | [#1808](https://github.com/NVIDIA/Model-Optimizer/pull/1808) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `torch` | \[6281412\] docs: update TensorRT-Edge-LLM CLI commands in torch_onnx example |
 | 2026-06-16 | [1e461dd7](https://github.com/NVIDIA/Model-Optimizer/commit/1e461dd79163709cb749cb256be0d0e5479f0e14) | [#1744](https://github.com/NVIDIA/Model-Optimizer/pull/1744) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `torch` | \[NVBug 6287315\] Fix unified HF export for Llama4 MoE models |
 | 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
 | 2026-06-15 | [e004d8d9](https://github.com/NVIDIA/Model-Optimizer/commit/e004d8d90e1358108217fca6d255782df38dd7cb) | [#1621](https://github.com/NVIDIA/Model-Optimizer/pull/1621) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | DFlash speculative decoding for MiniMax-M2.7 (FSDP2): auto mask-token, FSDP2 resume fixes, per-checkpoint draft export |
@@ -114,4 +116,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 108 PRs**
+**Total: 110 PRs**

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-23 | [1766d55a](https://github.com/NVIDIA/Model-Optimizer/commit/1766d55a7b440dc5ce4aa88bf46931274c5c87f6) | [#1808](https://github.com/NVIDIA/Model-Optimizer/pull/1808) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `torch` | \[6281412\] docs: update TensorRT-Edge-LLM CLI commands in torch_onnx example |
 | 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 | 2026-06-20 | [c2e95a50](https://github.com/NVIDIA/Model-Optimizer/commit/c2e95a50e841b2d9414ab267c47dbd969284c714) | [#1763](https://github.com/NVIDIA/Model-Optimizer/pull/1763) | [@thannan-ctrl](https://github.com/thannan-ctrl) | `core` `example` `torch` | Lmikaelyan/compress vlms |
 | 2026-06-17 | [6c32c376](https://github.com/NVIDIA/Model-Optimizer/commit/6c32c376717289baefd829c37374f6a73ebbcc4e) | [#1705](https://github.com/NVIDIA/Model-Optimizer/pull/1705) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `infra` `quantization` `tests` `torch` `vlm` | refactor(examples): consolidate vlm_ptq into llm_ptq |
@@ -238,4 +239,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 232 PRs**
+**Total: 233 PRs**

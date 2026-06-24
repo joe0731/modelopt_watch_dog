@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-23 | [c81210fa](https://github.com/NVIDIA/Model-Optimizer/commit/c81210faecc096a7bd802cca2cda909ac43f7759) | [#1756](https://github.com/NVIDIA/Model-Optimizer/pull/1756) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5003\] Support non-gated fused MoE experts (NemotronH) in HF PTQ |
 | 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 | 2026-06-17 | [6c32c376](https://github.com/NVIDIA/Model-Optimizer/commit/6c32c376717289baefd829c37374f6a73ebbcc4e) | [#1705](https://github.com/NVIDIA/Model-Optimizer/pull/1705) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `infra` `quantization` `tests` `torch` `vlm` | refactor(examples): consolidate vlm_ptq into llm_ptq |
 | 2026-06-17 | [50cfa7bf](https://github.com/NVIDIA/Model-Optimizer/commit/50cfa7bf8a8cf48daaa5d12a489ff0b4a9f92443) | [#1754](https://github.com/NVIDIA/Model-Optimizer/pull/1754) | [@realAsma](https://github.com/realAsma) | `distillation` `infra` `tests` `torch` | fix(qad): report KD as default eval loss |
@@ -251,4 +252,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 245 PRs**
+**Total: 246 PRs**

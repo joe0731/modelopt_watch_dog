@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-23 | [1766d55a](https://github.com/NVIDIA/Model-Optimizer/commit/1766d55a7b440dc5ce4aa88bf46931274c5c87f6) | [#1808](https://github.com/NVIDIA/Model-Optimizer/pull/1808) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `torch` | \[6281412\] docs: update TensorRT-Edge-LLM CLI commands in torch_onnx example |
 | 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
 | 2026-06-12 | [ddc0a8e3](https://github.com/NVIDIA/Model-Optimizer/commit/ddc0a8e3ef9aca91451351427b88143b6206b987) | [#1697](https://github.com/NVIDIA/Model-Optimizer/pull/1697) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `quantization` `tests` | \[6287717\]\[ONNX\]\[Quantization\] Preserve trt.plugins custom-op value_info in clear_stale_value_info |
 | 2026-06-10 | [48767a0c](https://github.com/NVIDIA/Model-Optimizer/commit/48767a0c70172ceb4867516e000875512129636f) | [#1558](https://github.com/NVIDIA/Model-Optimizer/pull/1558) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `quantization` `tests` | \[5924759\] Fix fp16 ONNX INT8 entropy calibration on numpy \>= 2.0 |
@@ -85,4 +86,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 79 PRs**
+**Total: 80 PRs**

@@ -9,6 +9,10 @@
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
 |  | 2026-06-23 | [c3b913b9](https://github.com/NVIDIA/Model-Optimizer/commit/c3b913b9cc1d82d5a0af9fa77b4db87829e6f158) | [#1801](https://github.com/NVIDIA/Model-Optimizer/pull/1801) | [@mxinO](https://github.com/mxinO) | `quantization` `torch` | Fix real quant backend import cycle |
+|  | 2026-06-23 | [28b5e26f](https://github.com/NVIDIA/Model-Optimizer/commit/28b5e26fdbd0084900abab9318d62275995c237d) | [#1606](https://github.com/NVIDIA/Model-Optimizer/pull/1606) | [@jenchen13](https://github.com/jenchen13) | `infra` | \[OMNIML-5105\] Fix torch import error to remove circular dependency & move Nemotron configs  |
+|  | 2026-06-23 | [c81210fa](https://github.com/NVIDIA/Model-Optimizer/commit/c81210faecc096a7bd802cca2cda909ac43f7759) | [#1756](https://github.com/NVIDIA/Model-Optimizer/pull/1756) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5003\] Support non-gated fused MoE experts (NemotronH) in HF PTQ |
+|  | 2026-06-23 | [37dbbdac](https://github.com/NVIDIA/Model-Optimizer/commit/37dbbdac5af21aa8ea5fa5e7796071becab13c03) | [#1799](https://github.com/NVIDIA/Model-Optimizer/pull/1799) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | Fix ModelOpt MCP Slurm launcher submit |
+| 🟠 | **2026-06-23** | **[1766d55a](https://github.com/NVIDIA/Model-Optimizer/commit/1766d55a7b440dc5ce4aa88bf46931274c5c87f6)** | **[#1808](https://github.com/NVIDIA/Model-Optimizer/pull/1808)** | **[@ajrasane](https://github.com/ajrasane)** | `example` `export` `onnx` `torch` | **\[6281412\] docs: update TensorRT-Edge-LLM CLI commands in torch_onnx example** |
 |  | 2026-06-22 | [9ad5962e](https://github.com/NVIDIA/Model-Optimizer/commit/9ad5962e2bd36b9c3355e8698078eac1f2c314aa) | [#1785](https://github.com/NVIDIA/Model-Optimizer/pull/1785) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-06-22) |
 |  | 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 |  | 2026-06-20 | [c2e95a50](https://github.com/NVIDIA/Model-Optimizer/commit/c2e95a50e841b2d9414ab267c47dbd969284c714) | [#1763](https://github.com/NVIDIA/Model-Optimizer/pull/1763) | [@thannan-ctrl](https://github.com/thannan-ctrl) | `core` `example` `torch` | Lmikaelyan/compress vlms |
@@ -115,4 +119,4 @@
 |  | 2026-06-01 | [905259fb](https://github.com/NVIDIA/Model-Optimizer/commit/905259fbf5d2dda3da00ef4dfe3c5c22de4155f0) | [#1590](https://github.com/NVIDIA/Model-Optimizer/pull/1590) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Fix: use python3 in debugger server.sh |
 
 ---
-**Total: 105 PRs** | **Highlighted: 19**
+**Total: 109 PRs** | **Highlighted: 20**
