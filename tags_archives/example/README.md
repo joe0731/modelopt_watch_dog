@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-24 | [aa2a6a1b](https://github.com/NVIDIA/Model-Optimizer/commit/aa2a6a1b5d9dc3d518d387718ef5fe1464e37d8c) | [#1804](https://github.com/NVIDIA/Model-Optimizer/pull/1804) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Add context-parallel (CP) and data-parallel (DP) support to Megatron calibration, and MMLU |
+| 2026-06-24 | [d0c01a4e](https://github.com/NVIDIA/Model-Optimizer/commit/d0c01a4e9615eaaf0015ec0a5c7c54c5e41eda90) | [#1757](https://github.com/NVIDIA/Model-Optimizer/pull/1757) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add p quantization to our triton fa kernel |
 | 2026-06-23 | [1766d55a](https://github.com/NVIDIA/Model-Optimizer/commit/1766d55a7b440dc5ce4aa88bf46931274c5c87f6) | [#1808](https://github.com/NVIDIA/Model-Optimizer/pull/1808) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `torch` | \[6281412\] docs: update TensorRT-Edge-LLM CLI commands in torch_onnx example |
 | 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 | 2026-06-20 | [c2e95a50](https://github.com/NVIDIA/Model-Optimizer/commit/c2e95a50e841b2d9414ab267c47dbd969284c714) | [#1763](https://github.com/NVIDIA/Model-Optimizer/pull/1763) | [@thannan-ctrl](https://github.com/thannan-ctrl) | `core` `example` `torch` | Lmikaelyan/compress vlms |
@@ -239,4 +241,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 233 PRs**
+**Total: 235 PRs**

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-24 | [d0c01a4e](https://github.com/NVIDIA/Model-Optimizer/commit/d0c01a4e9615eaaf0015ec0a5c7c54c5e41eda90) | [#1757](https://github.com/NVIDIA/Model-Optimizer/pull/1757) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add p quantization to our triton fa kernel |
 | 2026-06-03 | [196c0910](https://github.com/NVIDIA/Model-Optimizer/commit/196c091027c8fd6ce0a42c7b36e771f4f7f3be94) | [#1172](https://github.com/NVIDIA/Model-Optimizer/pull/1172) | [@realAsma](https://github.com/realAsma) | `core` `deploy` `distillation` `example` `infra` `quantization` `tests` `torch` `vllm` | \[1/N\] Refactor llm_qat example: YAML configs + ModelOptArgParser |
 | 2026-05-30 | [7ae4ee7a](https://github.com/NVIDIA/Model-Optimizer/commit/7ae4ee7afd85a5d598c31c4e632d4eb150534c9e) | [#1572](https://github.com/NVIDIA/Model-Optimizer/pull/1572) | [@mxinO](https://github.com/mxinO) | `deploy` `example` `vllm` | Force vLLM non-gated MoE through Triton |
 | 2026-05-29 | [7aa0c956](https://github.com/NVIDIA/Model-Optimizer/commit/7aa0c956465d49da37ee0a3ce66bc49ff28e71d9) | [#1517](https://github.com/NVIDIA/Model-Optimizer/pull/1517) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `infra` `tests` `vllm` | adding vllm unit tests |
@@ -19,4 +20,4 @@
 | 2026-03-24 | [a108883c](https://github.com/NVIDIA/Model-Optimizer/commit/a108883ccad9ae1cec059d9c0eae935d00b7d316) | [#1068](https://github.com/NVIDIA/Model-Optimizer/pull/1068) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `eval` `example` `quantization` `torch` `vllm` | Fridah/kinjal/vllm modelopt reload |
 
 ---
-**Total: 13 PRs**
+**Total: 14 PRs**

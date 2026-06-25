@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-24 | [e2c7da70](https://github.com/NVIDIA/Model-Optimizer/commit/e2c7da707e1e5887b300aa3e9138e56bc3631a5f) | [#1629](https://github.com/NVIDIA/Model-Optimizer/pull/1629) | [@dimapihtar](https://github.com/dimapihtar) | `core` `torch` | remove deprecated get_default_load_sharded_strategy |
+| 2026-06-24 | [e2c4d083](https://github.com/NVIDIA/Model-Optimizer/commit/e2c4d083d40976c38bf7efd9a05628ef5eed80a5) | [#1684](https://github.com/NVIDIA/Model-Optimizer/pull/1684) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-4922\] Four over Six PTQ & Updating Nemotron Ultra Example |
+| 2026-06-24 | [aa2a6a1b](https://github.com/NVIDIA/Model-Optimizer/commit/aa2a6a1b5d9dc3d518d387718ef5fe1464e37d8c) | [#1804](https://github.com/NVIDIA/Model-Optimizer/pull/1804) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Add context-parallel (CP) and data-parallel (DP) support to Megatron calibration, and MMLU |
+| 2026-06-24 | [d0c01a4e](https://github.com/NVIDIA/Model-Optimizer/commit/d0c01a4e9615eaaf0015ec0a5c7c54c5e41eda90) | [#1757](https://github.com/NVIDIA/Model-Optimizer/pull/1757) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add p quantization to our triton fa kernel |
 | 2026-06-23 | [c3b913b9](https://github.com/NVIDIA/Model-Optimizer/commit/c3b913b9cc1d82d5a0af9fa77b4db87829e6f158) | [#1801](https://github.com/NVIDIA/Model-Optimizer/pull/1801) | [@mxinO](https://github.com/mxinO) | `quantization` `torch` | Fix real quant backend import cycle |
 | 2026-06-23 | [c81210fa](https://github.com/NVIDIA/Model-Optimizer/commit/c81210faecc096a7bd802cca2cda909ac43f7759) | [#1756](https://github.com/NVIDIA/Model-Optimizer/pull/1756) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5003\] Support non-gated fused MoE experts (NemotronH) in HF PTQ |
 | 2026-06-23 | [1766d55a](https://github.com/NVIDIA/Model-Optimizer/commit/1766d55a7b440dc5ce4aa88bf46931274c5c87f6) | [#1808](https://github.com/NVIDIA/Model-Optimizer/pull/1808) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `torch` | \[6281412\] docs: update TensorRT-Edge-LLM CLI commands in torch_onnx example |
@@ -358,4 +362,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 352 PRs**
+**Total: 356 PRs**

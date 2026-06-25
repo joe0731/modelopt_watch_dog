@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-24 | [e2c4d083](https://github.com/NVIDIA/Model-Optimizer/commit/e2c4d083d40976c38bf7efd9a05628ef5eed80a5) | [#1684](https://github.com/NVIDIA/Model-Optimizer/pull/1684) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-4922\] Four over Six PTQ & Updating Nemotron Ultra Example |
+| 2026-06-24 | [aa2a6a1b](https://github.com/NVIDIA/Model-Optimizer/commit/aa2a6a1b5d9dc3d518d387718ef5fe1464e37d8c) | [#1804](https://github.com/NVIDIA/Model-Optimizer/pull/1804) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Add context-parallel (CP) and data-parallel (DP) support to Megatron calibration, and MMLU |
+| 2026-06-24 | [d0c01a4e](https://github.com/NVIDIA/Model-Optimizer/commit/d0c01a4e9615eaaf0015ec0a5c7c54c5e41eda90) | [#1757](https://github.com/NVIDIA/Model-Optimizer/pull/1757) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add p quantization to our triton fa kernel |
+| 2026-06-24 | [2f516a7d](https://github.com/NVIDIA/Model-Optimizer/commit/2f516a7d02af1388a4c2b0de8dcb60f0f09a6e60) | [#1627](https://github.com/NVIDIA/Model-Optimizer/pull/1627) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `tests` | \[6058907\] Fix ShapeInferenceError in ONNX int8+fp16 quantization of weakly-typed models |
 | 2026-06-23 | [c81210fa](https://github.com/NVIDIA/Model-Optimizer/commit/c81210faecc096a7bd802cca2cda909ac43f7759) | [#1756](https://github.com/NVIDIA/Model-Optimizer/pull/1756) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5003\] Support non-gated fused MoE experts (NemotronH) in HF PTQ |
 | 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 | 2026-06-17 | [6c32c376](https://github.com/NVIDIA/Model-Optimizer/commit/6c32c376717289baefd829c37374f6a73ebbcc4e) | [#1705](https://github.com/NVIDIA/Model-Optimizer/pull/1705) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `eval` `example` `infra` `quantization` `tests` `torch` `vlm` | refactor(examples): consolidate vlm_ptq into llm_ptq |
@@ -252,4 +256,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 246 PRs**
+**Total: 250 PRs**

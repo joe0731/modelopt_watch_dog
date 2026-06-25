@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-24 | [e2c7da70](https://github.com/NVIDIA/Model-Optimizer/commit/e2c7da707e1e5887b300aa3e9138e56bc3631a5f) | [#1629](https://github.com/NVIDIA/Model-Optimizer/pull/1629) | [@dimapihtar](https://github.com/dimapihtar) | `core` `torch` | remove deprecated get_default_load_sharded_strategy |
+| 2026-06-24 | [aa2a6a1b](https://github.com/NVIDIA/Model-Optimizer/commit/aa2a6a1b5d9dc3d518d387718ef5fe1464e37d8c) | [#1804](https://github.com/NVIDIA/Model-Optimizer/pull/1804) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Add context-parallel (CP) and data-parallel (DP) support to Megatron calibration, and MMLU |
 | 2026-06-20 | [c2e95a50](https://github.com/NVIDIA/Model-Optimizer/commit/c2e95a50e841b2d9414ab267c47dbd969284c714) | [#1763](https://github.com/NVIDIA/Model-Optimizer/pull/1763) | [@thannan-ctrl](https://github.com/thannan-ctrl) | `core` `example` `torch` | Lmikaelyan/compress vlms |
 | 2026-06-17 | [769ea5f5](https://github.com/NVIDIA/Model-Optimizer/commit/769ea5f51c4122444363d57c16cf062232fad124) | [#1761](https://github.com/NVIDIA/Model-Optimizer/pull/1761) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `core` `torch` | Pass USE_CUDA to compilation of cuda-ext to avoid failure on Windows |
 | 2026-06-16 | [977d34dc](https://github.com/NVIDIA/Model-Optimizer/commit/977d34dc3c74715ecd8e7519ac8573c1dffec7e7) | [#1755](https://github.com/NVIDIA/Model-Optimizer/pull/1755) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `speculative_decoding` `torch` | \[Fix\](nvbug6304585): specdec README online base-model example should use Instruct model |
@@ -112,4 +114,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 106 PRs**
+**Total: 108 PRs**
