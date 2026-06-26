@@ -8,6 +8,12 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-06-26 | [6cc52265](https://github.com/NVIDIA/Model-Optimizer/commit/6cc5226588f0668679df03ba4646b7dfec32f99c) | [#1760](https://github.com/NVIDIA/Model-Optimizer/pull/1760) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `tests` | feat(recipes): add nvfp4_mlp_only-novit-kv_fp8 (exclude VL vision tower) |
+|  | 2026-06-25 | [e19f793f](https://github.com/NVIDIA/Model-Optimizer/commit/e19f793f1f25742393ac3bfebbd1e3e24e979014) | [#1422](https://github.com/NVIDIA/Model-Optimizer/pull/1422) | [@jinhangchoi](https://github.com/jinhangchoi) | `core` `export` `tests` `torch` | Safetensor metadata mismatch fix in Mcore export |
+|  | 2026-06-25 | [64f355eb](https://github.com/NVIDIA/Model-Optimizer/commit/64f355ebe2540088a64c7db0622a5ed19503c87b) | [#1654](https://github.com/NVIDIA/Model-Optimizer/pull/1654) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | docs(deployment skill): drop wrong "release predates arch" cu130 fallback |
+|  | 2026-06-25 | [1c6bdb30](https://github.com/NVIDIA/Model-Optimizer/commit/1c6bdb3021fcaeb8f29b45f17e4b1519e68b1ee8) | [#1824](https://github.com/NVIDIA/Model-Optimizer/pull/1824) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Fix reduce_amax NotImplementedError on FP8 weights (NVBug 6360175) |
+|  | 2026-06-25 | [66c7b469](https://github.com/NVIDIA/Model-Optimizer/commit/66c7b469f299c4d0c4291dfe3ff0c36a90a99007) | [#1826](https://github.com/NVIDIA/Model-Optimizer/pull/1826) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | fix(recipes): exclude Llama-4 vision branch from default PTQ quantization |
+|  | 2026-06-25 | [51774473](https://github.com/NVIDIA/Model-Optimizer/commit/51774473c6ab083bd7c7dddb4eba36f0f2c9de4b) | [#1830](https://github.com/NVIDIA/Model-Optimizer/pull/1830) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` | using validation keyword both in puzzletron configs and in dataset pr… |
 |  | 2026-06-24 | [e2c7da70](https://github.com/NVIDIA/Model-Optimizer/commit/e2c7da707e1e5887b300aa3e9138e56bc3631a5f) | [#1629](https://github.com/NVIDIA/Model-Optimizer/pull/1629) | [@dimapihtar](https://github.com/dimapihtar) | `core` `torch` | remove deprecated get_default_load_sharded_strategy |
 |  | 2026-06-24 | [e2c4d083](https://github.com/NVIDIA/Model-Optimizer/commit/e2c4d083d40976c38bf7efd9a05628ef5eed80a5) | [#1684](https://github.com/NVIDIA/Model-Optimizer/pull/1684) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-4922\] Four over Six PTQ & Updating Nemotron Ultra Example |
 |  | 2026-06-24 | [aa2a6a1b](https://github.com/NVIDIA/Model-Optimizer/commit/aa2a6a1b5d9dc3d518d387718ef5fe1464e37d8c) | [#1804](https://github.com/NVIDIA/Model-Optimizer/pull/1804) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Add context-parallel (CP) and data-parallel (DP) support to Megatron calibration, and MMLU |
@@ -128,4 +134,4 @@
 |  | 2026-06-01 | [905259fb](https://github.com/NVIDIA/Model-Optimizer/commit/905259fbf5d2dda3da00ef4dfe3c5c22de4155f0) | [#1590](https://github.com/NVIDIA/Model-Optimizer/pull/1590) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Fix: use python3 in debugger server.sh |
 
 ---
-**Total: 118 PRs** | **Highlighted: 22**
+**Total: 124 PRs** | **Highlighted: 22**

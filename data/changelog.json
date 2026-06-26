@@ -1,5 +1,72 @@
 [
   {
+    "date": "2026-06-26",
+    "commit": "6cc5226588f0668679df03ba4646b7dfec32f99c",
+    "pr_number": 1760,
+    "author": "Edwardf0t1",
+    "title": "feat(recipes): add nvfp4_mlp_only-novit-kv_fp8 (exclude VL vision tower)",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-06-25",
+    "commit": "e19f793f1f25742393ac3bfebbd1e3e24e979014",
+    "pr_number": 1422,
+    "author": "jinhangchoi",
+    "title": "Safetensor metadata mismatch fix in Mcore export",
+    "tags": [
+      "core",
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-25",
+    "commit": "64f355ebe2540088a64c7db0622a5ed19503c87b",
+    "pr_number": 1654,
+    "author": "Edwardf0t1",
+    "title": "docs(deployment skill): drop wrong \"release predates arch\" cu130 fallback",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-25",
+    "commit": "1c6bdb3021fcaeb8f29b45f17e4b1519e68b1ee8",
+    "pr_number": 1824,
+    "author": "cjluo-nv",
+    "title": "Fix reduce_amax NotImplementedError on FP8 weights (NVBug 6360175)",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-25",
+    "commit": "66c7b469f299c4d0c4291dfe3ff0c36a90a99007",
+    "pr_number": 1826,
+    "author": "Edwardf0t1",
+    "title": "fix(recipes): exclude Llama-4 vision branch from default PTQ quantization",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-25",
+    "commit": "51774473c6ab083bd7c7dddb4eba36f0f2c9de4b",
+    "pr_number": 1830,
+    "author": "grzegorz-k-karch",
+    "title": "using validation keyword both in puzzletron configs and in dataset pr…",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-06-24",
     "commit": "e2c7da707e1e5887b300aa3e9138e56bc3631a5f",
     "pr_number": 1629,

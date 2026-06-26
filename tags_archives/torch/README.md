@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-25 | [e19f793f](https://github.com/NVIDIA/Model-Optimizer/commit/e19f793f1f25742393ac3bfebbd1e3e24e979014) | [#1422](https://github.com/NVIDIA/Model-Optimizer/pull/1422) | [@jinhangchoi](https://github.com/jinhangchoi) | `core` `export` `tests` `torch` | Safetensor metadata mismatch fix in Mcore export |
+| 2026-06-25 | [1c6bdb30](https://github.com/NVIDIA/Model-Optimizer/commit/1c6bdb3021fcaeb8f29b45f17e4b1519e68b1ee8) | [#1824](https://github.com/NVIDIA/Model-Optimizer/pull/1824) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Fix reduce_amax NotImplementedError on FP8 weights (NVBug 6360175) |
 | 2026-06-24 | [e2c7da70](https://github.com/NVIDIA/Model-Optimizer/commit/e2c7da707e1e5887b300aa3e9138e56bc3631a5f) | [#1629](https://github.com/NVIDIA/Model-Optimizer/pull/1629) | [@dimapihtar](https://github.com/dimapihtar) | `core` `torch` | remove deprecated get_default_load_sharded_strategy |
 | 2026-06-24 | [e2c4d083](https://github.com/NVIDIA/Model-Optimizer/commit/e2c4d083d40976c38bf7efd9a05628ef5eed80a5) | [#1684](https://github.com/NVIDIA/Model-Optimizer/pull/1684) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-4922\] Four over Six PTQ & Updating Nemotron Ultra Example |
 | 2026-06-24 | [aa2a6a1b](https://github.com/NVIDIA/Model-Optimizer/commit/aa2a6a1b5d9dc3d518d387718ef5fe1464e37d8c) | [#1804](https://github.com/NVIDIA/Model-Optimizer/pull/1804) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Add context-parallel (CP) and data-parallel (DP) support to Megatron calibration, and MMLU |
@@ -362,4 +364,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 356 PRs**
+**Total: 358 PRs**

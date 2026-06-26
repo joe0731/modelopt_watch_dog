@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-25 | [e19f793f](https://github.com/NVIDIA/Model-Optimizer/commit/e19f793f1f25742393ac3bfebbd1e3e24e979014) | [#1422](https://github.com/NVIDIA/Model-Optimizer/pull/1422) | [@jinhangchoi](https://github.com/jinhangchoi) | `core` `export` `tests` `torch` | Safetensor metadata mismatch fix in Mcore export |
 | 2026-06-24 | [e2c7da70](https://github.com/NVIDIA/Model-Optimizer/commit/e2c7da707e1e5887b300aa3e9138e56bc3631a5f) | [#1629](https://github.com/NVIDIA/Model-Optimizer/pull/1629) | [@dimapihtar](https://github.com/dimapihtar) | `core` `torch` | remove deprecated get_default_load_sharded_strategy |
 | 2026-06-24 | [aa2a6a1b](https://github.com/NVIDIA/Model-Optimizer/commit/aa2a6a1b5d9dc3d518d387718ef5fe1464e37d8c) | [#1804](https://github.com/NVIDIA/Model-Optimizer/pull/1804) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Add context-parallel (CP) and data-parallel (DP) support to Megatron calibration, and MMLU |
 | 2026-06-20 | [c2e95a50](https://github.com/NVIDIA/Model-Optimizer/commit/c2e95a50e841b2d9414ab267c47dbd969284c714) | [#1763](https://github.com/NVIDIA/Model-Optimizer/pull/1763) | [@thannan-ctrl](https://github.com/thannan-ctrl) | `core` `example` `torch` | Lmikaelyan/compress vlms |
@@ -114,4 +115,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 108 PRs**
+**Total: 109 PRs**

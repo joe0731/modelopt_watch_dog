@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-25 | [1c6bdb30](https://github.com/NVIDIA/Model-Optimizer/commit/1c6bdb3021fcaeb8f29b45f17e4b1519e68b1ee8) | [#1824](https://github.com/NVIDIA/Model-Optimizer/pull/1824) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Fix reduce_amax NotImplementedError on FP8 weights (NVBug 6360175) |
 | 2026-06-24 | [e2c4d083](https://github.com/NVIDIA/Model-Optimizer/commit/e2c4d083d40976c38bf7efd9a05628ef5eed80a5) | [#1684](https://github.com/NVIDIA/Model-Optimizer/pull/1684) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-4922\] Four over Six PTQ & Updating Nemotron Ultra Example |
 | 2026-06-24 | [d0c01a4e](https://github.com/NVIDIA/Model-Optimizer/commit/d0c01a4e9615eaaf0015ec0a5c7c54c5e41eda90) | [#1757](https://github.com/NVIDIA/Model-Optimizer/pull/1757) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add p quantization to our triton fa kernel |
 | 2026-06-23 | [c3b913b9](https://github.com/NVIDIA/Model-Optimizer/commit/c3b913b9cc1d82d5a0af9fa77b4db87829e6f158) | [#1801](https://github.com/NVIDIA/Model-Optimizer/pull/1801) | [@mxinO](https://github.com/mxinO) | `quantization` `torch` | Fix real quant backend import cycle |
@@ -237,4 +238,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 231 PRs**
+**Total: 232 PRs**
