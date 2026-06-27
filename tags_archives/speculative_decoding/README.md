@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-27 | [30035893](https://github.com/NVIDIA/Model-Optimizer/commit/30035893799617f998069a942361aebda381ef76) | [#1837](https://github.com/NVIDIA/Model-Optimizer/pull/1837) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Chore\]: Add license for Dflash code |
+| 2026-06-27 | [c248dd54](https://github.com/NVIDIA/Model-Optimizer/commit/c248dd5434d511107fa59cbdf42a0f6e0e82689e) | [#1710](https://github.com/NVIDIA/Model-Optimizer/pull/1710) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Domino support |
+| 2026-06-27 | [f335459d](https://github.com/NVIDIA/Model-Optimizer/commit/f335459dc053895bd7b0a77ecaa47e87c2080ab3) | [#1759](https://github.com/NVIDIA/Model-Optimizer/pull/1759) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `deploy` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `tests` `torch` `vllm` `vlm` | refactor(examples): rename llm_ptq → hf_ptq (symlink for back-compat) |
+| 2026-06-26 | [33bfa8b1](https://github.com/NVIDIA/Model-Optimizer/commit/33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2) | [#1818](https://github.com/NVIDIA/Model-Optimizer/pull/1818) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `distillation` `docs` `eval` `example` `export` `infra` `nas` `onnx` `peft` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `windows` | CI/Dev env bump |
 | 2026-06-20 | [9048d13b](https://github.com/NVIDIA/Model-Optimizer/commit/9048d13b86e537ce42323c586d13d0f085304032) | [#1724](https://github.com/NVIDIA/Model-Optimizer/pull/1724) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]:Support DPace |
 | 2026-06-16 | [977d34dc](https://github.com/NVIDIA/Model-Optimizer/commit/977d34dc3c74715ecd8e7519ac8573c1dffec7e7) | [#1755](https://github.com/NVIDIA/Model-Optimizer/pull/1755) | [@h-guo18](https://github.com/h-guo18) | `core` `example` `speculative_decoding` `torch` | \[Fix\](nvbug6304585): specdec README online base-model example should use Instruct model |
 | 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
@@ -72,4 +76,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 66 PRs**
+**Total: 70 PRs**

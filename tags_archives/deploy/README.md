@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-27 | [d5962c4f](https://github.com/NVIDIA/Model-Optimizer/commit/d5962c4f3bb17bea4000067ab8f498fda05a24c7) | [#1797](https://github.com/NVIDIA/Model-Optimizer/pull/1797) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `example` `infra` `tests` | Remove deprecated examples/llm_autodeploy |
+| 2026-06-27 | [f335459d](https://github.com/NVIDIA/Model-Optimizer/commit/f335459dc053895bd7b0a77ecaa47e87c2080ab3) | [#1759](https://github.com/NVIDIA/Model-Optimizer/pull/1759) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `deploy` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `tests` `torch` `vllm` `vlm` | refactor(examples): rename llm_ptq → hf_ptq (symlink for back-compat) |
+| 2026-06-26 | [33bfa8b1](https://github.com/NVIDIA/Model-Optimizer/commit/33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2) | [#1818](https://github.com/NVIDIA/Model-Optimizer/pull/1818) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `distillation` `docs` `eval` `example` `export` `infra` `nas` `onnx` `peft` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `windows` | CI/Dev env bump |
 | 2026-06-24 | [d0c01a4e](https://github.com/NVIDIA/Model-Optimizer/commit/d0c01a4e9615eaaf0015ec0a5c7c54c5e41eda90) | [#1757](https://github.com/NVIDIA/Model-Optimizer/pull/1757) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add p quantization to our triton fa kernel |
 | 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
 | 2026-06-08 | [01415c27](https://github.com/NVIDIA/Model-Optimizer/commit/01415c27888741249fe597a4d2cab06e2a8a9aea) | [#1650](https://github.com/NVIDIA/Model-Optimizer/pull/1650) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `deploy` `eval` `example` `quantization` `tests` `torch` | fix(llm_eval): repair test_qwen3_eval_fp8 end-to-end |
@@ -35,4 +38,4 @@
 | 2026-01-26 | [38403095](https://github.com/NVIDIA/Model-Optimizer/commit/38403095c4a9829b14e0ce45c9b067c16a502b46) | [#731](https://github.com/NVIDIA/Model-Optimizer/pull/731) | [@galagam](https://github.com/galagam) | `deploy` `infra` `onnx` `torch` | \[5725362\] AutoCast Fixes for models with external data |
 
 ---
-**Total: 29 PRs**
+**Total: 32 PRs**

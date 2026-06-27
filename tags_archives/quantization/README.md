@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-27 | [7e5bd889](https://github.com/NVIDIA/Model-Optimizer/commit/7e5bd8894530ba3b25367f4b25884b00a907f873) | [#1711](https://github.com/NVIDIA/Model-Optimizer/pull/1711) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `quantization` `tests` `torch` | fix(quantization): detect fused MoE experts without act_fn (MiniMax-M3) |
+| 2026-06-27 | [f335459d](https://github.com/NVIDIA/Model-Optimizer/commit/f335459dc053895bd7b0a77ecaa47e87c2080ab3) | [#1759](https://github.com/NVIDIA/Model-Optimizer/pull/1759) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `deploy` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `tests` `torch` `vllm` `vlm` | refactor(examples): rename llm_ptq → hf_ptq (symlink for back-compat) |
+| 2026-06-26 | [33bfa8b1](https://github.com/NVIDIA/Model-Optimizer/commit/33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2) | [#1818](https://github.com/NVIDIA/Model-Optimizer/pull/1818) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `distillation` `docs` `eval` `example` `export` `infra` `nas` `onnx` `peft` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `windows` | CI/Dev env bump |
 | 2026-06-25 | [1c6bdb30](https://github.com/NVIDIA/Model-Optimizer/commit/1c6bdb3021fcaeb8f29b45f17e4b1519e68b1ee8) | [#1824](https://github.com/NVIDIA/Model-Optimizer/pull/1824) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Fix reduce_amax NotImplementedError on FP8 weights (NVBug 6360175) |
 | 2026-06-24 | [e2c4d083](https://github.com/NVIDIA/Model-Optimizer/commit/e2c4d083d40976c38bf7efd9a05628ef5eed80a5) | [#1684](https://github.com/NVIDIA/Model-Optimizer/pull/1684) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-4922\] Four over Six PTQ & Updating Nemotron Ultra Example |
 | 2026-06-24 | [d0c01a4e](https://github.com/NVIDIA/Model-Optimizer/commit/d0c01a4e9615eaaf0015ec0a5c7c54c5e41eda90) | [#1757](https://github.com/NVIDIA/Model-Optimizer/pull/1757) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add p quantization to our triton fa kernel |
@@ -238,4 +241,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 232 PRs**
+**Total: 235 PRs**

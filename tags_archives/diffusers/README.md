@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-26 | [33bfa8b1](https://github.com/NVIDIA/Model-Optimizer/commit/33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2) | [#1818](https://github.com/NVIDIA/Model-Optimizer/pull/1818) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `distillation` `docs` `eval` `example` `export` `infra` `nas` `onnx` `peft` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `windows` | CI/Dev env bump |
 | 2026-06-16 | [a21197c2](https://github.com/NVIDIA/Model-Optimizer/commit/a21197c277c749bbf3751e5260ac49f4571aaf16) | [#1740](https://github.com/NVIDIA/Model-Optimizer/pull/1740) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `example` `torch` | Remove unsafe torch.load from examples/diffusers/fastgen |
 | 2026-06-15 | [a6c72433](https://github.com/NVIDIA/Model-Optimizer/commit/a6c7243307bea826cab0814f7ad451c2a3da4376) | [#1734](https://github.com/NVIDIA/Model-Optimizer/pull/1734) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `docs` `eval` `example` `export` `infra` `onnx` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #1648 #1650 #1594 #1269 #1326 #1652 #1651 #1601 #1653 #1558 #1670 #1662 #1677 #1327 #1673 #1676 #1687 #1678 #1691 #1697 #1702 #1704 #1726 #1729 |
 | 2026-06-08 | [c78e6547](https://github.com/NVIDIA/Model-Optimizer/commit/c78e6547440141176ffbe5b4b0935f5e8ebe767e) | [#1269](https://github.com/NVIDIA/Model-Optimizer/pull/1269) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `infra` `sparsity` `tests` `torch` | Skip Softmax diffusion export |
@@ -33,4 +34,4 @@
 | 2026-01-15 | [e6e4efd6](https://github.com/NVIDIA/Model-Optimizer/commit/e6e4efd61efcc87de10a6a72274e2017cbc13438) | [#783](https://github.com/NVIDIA/Model-Optimizer/pull/783) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `eval` `example` `export` `quantization` `torch` | \[0.5/3\] Diffusion ckpt export for NVFP4 & FP8 |
 
 ---
-**Total: 27 PRs**
+**Total: 28 PRs**

@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-27 | [4b04e732](https://github.com/NVIDIA/Model-Optimizer/commit/4b04e732ed9d84b26e23d1c9330771de2175a830) | [#1838](https://github.com/NVIDIA/Model-Optimizer/pull/1838) | [@realAsma](https://github.com/realAsma) | `export` `infra` `tests` `torch` | Fix prequant layernorm export without scales |
+| 2026-06-27 | [c248dd54](https://github.com/NVIDIA/Model-Optimizer/commit/c248dd5434d511107fa59cbdf42a0f6e0e82689e) | [#1710](https://github.com/NVIDIA/Model-Optimizer/pull/1710) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Domino support |
+| 2026-06-27 | [f335459d](https://github.com/NVIDIA/Model-Optimizer/commit/f335459dc053895bd7b0a77ecaa47e87c2080ab3) | [#1759](https://github.com/NVIDIA/Model-Optimizer/pull/1759) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `deploy` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `tests` `torch` `vllm` `vlm` | refactor(examples): rename llm_ptq → hf_ptq (symlink for back-compat) |
+| 2026-06-26 | [33bfa8b1](https://github.com/NVIDIA/Model-Optimizer/commit/33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2) | [#1818](https://github.com/NVIDIA/Model-Optimizer/pull/1818) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `distillation` `docs` `eval` `example` `export` `infra` `nas` `onnx` `peft` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `windows` | CI/Dev env bump |
 | 2026-06-25 | [e19f793f](https://github.com/NVIDIA/Model-Optimizer/commit/e19f793f1f25742393ac3bfebbd1e3e24e979014) | [#1422](https://github.com/NVIDIA/Model-Optimizer/pull/1422) | [@jinhangchoi](https://github.com/jinhangchoi) | `core` `export` `tests` `torch` | Safetensor metadata mismatch fix in Mcore export |
 | 2026-06-24 | [e2c4d083](https://github.com/NVIDIA/Model-Optimizer/commit/e2c4d083d40976c38bf7efd9a05628ef5eed80a5) | [#1684](https://github.com/NVIDIA/Model-Optimizer/pull/1684) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-4922\] Four over Six PTQ & Updating Nemotron Ultra Example |
 | 2026-06-23 | [c81210fa](https://github.com/NVIDIA/Model-Optimizer/commit/c81210faecc096a7bd802cca2cda909ac43f7759) | [#1756](https://github.com/NVIDIA/Model-Optimizer/pull/1756) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5003\] Support non-gated fused MoE experts (NemotronH) in HF PTQ |
@@ -118,4 +122,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 112 PRs**
+**Total: 116 PRs**

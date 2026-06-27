@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-26 | [55d6e758](https://github.com/NVIDIA/Model-Optimizer/commit/55d6e75833657997cf91914035834abdb40e9b7e) | [#1805](https://github.com/NVIDIA/Model-Optimizer/pull/1805) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `distillation` `tests` `torch` | Account for CE loss for MTP heads in Megatron KD |
+| 2026-06-26 | [33bfa8b1](https://github.com/NVIDIA/Model-Optimizer/commit/33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2) | [#1818](https://github.com/NVIDIA/Model-Optimizer/pull/1818) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `distillation` `docs` `eval` `example` `export` `infra` `nas` `onnx` `peft` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `windows` | CI/Dev env bump |
 | 2026-06-17 | [50cfa7bf](https://github.com/NVIDIA/Model-Optimizer/commit/50cfa7bf8a8cf48daaa5d12a489ff0b4a9f92443) | [#1754](https://github.com/NVIDIA/Model-Optimizer/pull/1754) | [@realAsma](https://github.com/realAsma) | `distillation` `infra` `tests` `torch` | fix(qad): report KD as default eval loss |
 | 2026-06-05 | [433b549c](https://github.com/NVIDIA/Model-Optimizer/commit/433b549cd89303971b48c0c49c7208dded1a605c) | [#1191](https://github.com/NVIDIA/Model-Optimizer/pull/1191) | [@realAsma](https://github.com/realAsma) | `core` `distillation` `example` `infra` `quantization` `tests` `torch` | \[2/N\] Simplify KDTrainer and enhance ModelOptHFTrainer |
 | 2026-06-05 | [54ce4e09](https://github.com/NVIDIA/Model-Optimizer/commit/54ce4e09d8cae20a35322a6d7492fbe02c18cda7) | [#1600](https://github.com/NVIDIA/Model-Optimizer/pull/1600) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `eval` `example` `export` `infra` `pruning` `quantization` `tests` `torch` | Add Quantization Aware Distillation (QAD) to Megatron-Bridge example |
@@ -22,4 +24,4 @@
 | 2026-01-13 | [b813ab54](https://github.com/NVIDIA/Model-Optimizer/commit/b813ab548b97db9c0780459f1fe743bb88031d99) | [#747](https://github.com/NVIDIA/Model-Optimizer/pull/747) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Top-K KL Divergence loss |
 
 ---
-**Total: 16 PRs**
+**Total: 18 PRs**

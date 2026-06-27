@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-26 | [33bfa8b1](https://github.com/NVIDIA/Model-Optimizer/commit/33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2) | [#1818](https://github.com/NVIDIA/Model-Optimizer/pull/1818) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `distillation` `docs` `eval` `example` `export` `infra` `nas` `onnx` `peft` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `windows` | CI/Dev env bump |
 | 2026-04-17 | [fe8c5178](https://github.com/NVIDIA/Model-Optimizer/commit/fe8c5178c7ad1faa10f1321208123fadc1bda255) | [#1275](https://github.com/NVIDIA/Model-Optimizer/pull/1275) | [@hthadicherla](https://github.com/hthadicherla) | `example` `onnx` `quantization` `windows` | Removed version fixes for torch transformers in windows ptq example requirements |
 | 2026-04-13 | [80a77d1c](https://github.com/NVIDIA/Model-Optimizer/commit/80a77d1cc0179810089bb3ee20bc3006315042f4) | [#1226](https://github.com/NVIDIA/Model-Optimizer/pull/1226) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `distillation` `example` `export` `infra` `quantization` `torch` `windows` | Add LTX-2 third-party license notices for legal compliance |
 | 2026-04-10 | [3baa2da6](https://github.com/NVIDIA/Model-Optimizer/commit/3baa2da62e695e210d00f95ca7f06ac2a69bef71) | [#1207](https://github.com/NVIDIA/Model-Optimizer/pull/1207) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` `windows` | Upgrade ONNX from 1.19 to 1.21 |
@@ -21,4 +22,4 @@
 | 2026-01-25 | [5cc2a545](https://github.com/NVIDIA/Model-Optimizer/commit/5cc2a5451984ba0f1225153c7df68746313118f5) | [#762](https://github.com/NVIDIA/Model-Optimizer/pull/762) | [@ynankani](https://github.com/ynankani) | `example` `onnx` `quantization` `windows` | Ynankani/update windows benchmark md |
 
 ---
-**Total: 15 PRs**
+**Total: 16 PRs**

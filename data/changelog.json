@@ -1,5 +1,94 @@
 [
   {
+    "date": "2026-06-27",
+    "commit": "4b04e732ed9d84b26e23d1c9330771de2175a830",
+    "pr_number": 1838,
+    "author": "realAsma",
+    "title": "Fix prequant layernorm export without scales",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-27",
+    "commit": "d5962c4f3bb17bea4000067ab8f498fda05a24c7",
+    "pr_number": 1797,
+    "author": "Fridah-nv",
+    "title": "Remove deprecated examples/llm_autodeploy",
+    "tags": [
+      "deploy",
+      "example",
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-06-27",
+    "commit": "7e5bd8894530ba3b25367f4b25884b00a907f873",
+    "pr_number": 1711,
+    "author": "Edwardf0t1",
+    "title": "fix(quantization): detect fused MoE experts without act_fn (MiniMax-M3)",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-27",
+    "commit": "30035893799617f998069a942361aebda381ef76",
+    "pr_number": 1837,
+    "author": "h-guo18",
+    "title": "[Chore]: Add license for Dflash code",
+    "tags": [
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-27",
+    "commit": "c248dd5434d511107fa59cbdf42a0f6e0e82689e",
+    "pr_number": 1710,
+    "author": "h-guo18",
+    "title": "[Feat]: Domino support",
+    "tags": [
+      "example",
+      "export",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-27",
+    "commit": "f335459dc053895bd7b0a77ecaa47e87c2080ab3",
+    "pr_number": 1759,
+    "author": "Edwardf0t1",
+    "title": "refactor(examples): rename llm_ptq → hf_ptq (symlink for back-compat)",
+    "tags": [
+      "core",
+      "deploy",
+      "docs",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "pruning",
+      "quantization",
+      "speculative_decoding",
+      "tests",
+      "torch",
+      "vllm",
+      "vlm"
+    ]
+  },
+  {
     "date": "2026-06-26",
     "commit": "6cc5226588f0668679df03ba4646b7dfec32f99c",
     "pr_number": 1760,
@@ -8,6 +97,57 @@
     "tags": [
       "infra",
       "tests"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "commit": "138564f4432ab076b96cdb7bdbb8007c590b93e0",
+    "pr_number": 1834,
+    "author": "cjluo-nv",
+    "title": "Add AA-Omniscience eval recipe; harden judge/run conventions in the eval skill",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "commit": "55d6e75833657997cf91914035834abdb40e9b7e",
+    "pr_number": 1805,
+    "author": "AAnoosheh",
+    "title": "Account for CE loss for MTP heads in Megatron KD",
+    "tags": [
+      "core",
+      "distillation",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "commit": "33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2",
+    "pr_number": 1818,
+    "author": "kevalmorabia97",
+    "title": "CI/Dev env bump",
+    "tags": [
+      "core",
+      "deploy",
+      "diffusers",
+      "distillation",
+      "docs",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "nas",
+      "onnx",
+      "peft",
+      "pruning",
+      "quantization",
+      "sparsity",
+      "speculative_decoding",
+      "tests",
+      "torch",
+      "windows"
     ]
   },
   {

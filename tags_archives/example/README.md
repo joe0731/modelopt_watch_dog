@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-27 | [d5962c4f](https://github.com/NVIDIA/Model-Optimizer/commit/d5962c4f3bb17bea4000067ab8f498fda05a24c7) | [#1797](https://github.com/NVIDIA/Model-Optimizer/pull/1797) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `example` `infra` `tests` | Remove deprecated examples/llm_autodeploy |
+| 2026-06-27 | [c248dd54](https://github.com/NVIDIA/Model-Optimizer/commit/c248dd5434d511107fa59cbdf42a0f6e0e82689e) | [#1710](https://github.com/NVIDIA/Model-Optimizer/pull/1710) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Domino support |
+| 2026-06-27 | [f335459d](https://github.com/NVIDIA/Model-Optimizer/commit/f335459dc053895bd7b0a77ecaa47e87c2080ab3) | [#1759](https://github.com/NVIDIA/Model-Optimizer/pull/1759) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `deploy` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `tests` `torch` `vllm` `vlm` | refactor(examples): rename llm_ptq → hf_ptq (symlink for back-compat) |
+| 2026-06-26 | [33bfa8b1](https://github.com/NVIDIA/Model-Optimizer/commit/33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2) | [#1818](https://github.com/NVIDIA/Model-Optimizer/pull/1818) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `distillation` `docs` `eval` `example` `export` `infra` `nas` `onnx` `peft` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `windows` | CI/Dev env bump |
 | 2026-06-24 | [aa2a6a1b](https://github.com/NVIDIA/Model-Optimizer/commit/aa2a6a1b5d9dc3d518d387718ef5fe1464e37d8c) | [#1804](https://github.com/NVIDIA/Model-Optimizer/pull/1804) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | Add context-parallel (CP) and data-parallel (DP) support to Megatron calibration, and MMLU |
 | 2026-06-24 | [d0c01a4e](https://github.com/NVIDIA/Model-Optimizer/commit/d0c01a4e9615eaaf0015ec0a5c7c54c5e41eda90) | [#1757](https://github.com/NVIDIA/Model-Optimizer/pull/1757) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add p quantization to our triton fa kernel |
 | 2026-06-23 | [1766d55a](https://github.com/NVIDIA/Model-Optimizer/commit/1766d55a7b440dc5ce4aa88bf46931274c5c87f6) | [#1808](https://github.com/NVIDIA/Model-Optimizer/pull/1808) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `torch` | \[6281412\] docs: update TensorRT-Edge-LLM CLI commands in torch_onnx example |
@@ -241,4 +245,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 235 PRs**
+**Total: 239 PRs**
