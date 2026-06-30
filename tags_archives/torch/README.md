@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-30 | [6e2efd74](https://github.com/NVIDIA/Model-Optimizer/commit/6e2efd749bc84b5a2ad3dedce767670eff10a118) | [#1831](https://github.com/NVIDIA/Model-Optimizer/pull/1831) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `eval` `example` `infra` `torch` | Fix lm_eval_hf freezing issue on multi-gpu slurm interactive node |
 | 2026-06-27 | [4b04e732](https://github.com/NVIDIA/Model-Optimizer/commit/4b04e732ed9d84b26e23d1c9330771de2175a830) | [#1838](https://github.com/NVIDIA/Model-Optimizer/pull/1838) | [@realAsma](https://github.com/realAsma) | `export` `infra` `tests` `torch` | Fix prequant layernorm export without scales |
 | 2026-06-27 | [7e5bd889](https://github.com/NVIDIA/Model-Optimizer/commit/7e5bd8894530ba3b25367f4b25884b00a907f873) | [#1711](https://github.com/NVIDIA/Model-Optimizer/pull/1711) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `quantization` `tests` `torch` | fix(quantization): detect fused MoE experts without act_fn (MiniMax-M3) |
 | 2026-06-27 | [30035893](https://github.com/NVIDIA/Model-Optimizer/commit/30035893799617f998069a942361aebda381ef76) | [#1837](https://github.com/NVIDIA/Model-Optimizer/pull/1837) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Chore\]: Add license for Dflash code |
@@ -371,4 +372,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 365 PRs**
+**Total: 366 PRs**

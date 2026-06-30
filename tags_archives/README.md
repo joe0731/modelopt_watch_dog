@@ -10,11 +10,11 @@ Click a tag to see its full history.
 | [`diffusers`](diffusers/) | diffusion model optimization (Stable Diffusion, FLUX, etc.) | 28 |
 | [`distillation`](distillation/) | knowledge distillation, teacher-student training | 18 |
 | [`docs`](docs/) | documentation, guides, API reference | 35 |
-| [`eval`](eval/) | model evaluation, benchmarking, accuracy metrics | 86 |
-| [`example`](example/) | example scripts and notebooks | 239 |
+| [`eval`](eval/) | model evaluation, benchmarking, accuracy metrics | 87 |
+| [`example`](example/) | example scripts and notebooks | 240 |
 | [`experimental`](experimental/) | experimental features, research prototypes | 6 |
 | [`export`](export/) | model export, torch-to-ONNX conversion | 116 |
-| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 358 |
+| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 361 |
 | [`nas`](nas/) | neural architecture search, hyperparameter optimization | 14 |
 | [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 82 |
 | [`peft`](peft/) | parameter-efficient fine-tuning, LoRA, adapters | 1 |
@@ -22,8 +22,8 @@ Click a tag to see its full history.
 | [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 235 |
 | [`sparsity`](sparsity/) | weight sparsity, attention sparsity | 26 |
 | [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 70 |
-| [`tests`](tests/) | test infrastructure, test utilities | 260 |
-| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 365 |
+| [`tests`](tests/) | test infrastructure, test utilities | 261 |
+| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 366 |
 | [`vllm`](vllm/) | vLLM serving and integration | 15 |
 | [`vlm`](vlm/) | vision-language model optimization | 5 |
 | [`windows`](windows/) | Windows platform-specific code and examples | 16 |

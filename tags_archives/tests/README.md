@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-29 | [72651b29](https://github.com/NVIDIA/Model-Optimizer/commit/72651b29a84e8d1f4a20e36f32054281fa78f816) | [#1839](https://github.com/NVIDIA/Model-Optimizer/pull/1839) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `tests` | Fix Nemotron-H PTQ failure on Transformers 5.x with --trust_remote_code (moe_latent_size AttributeError) |
 | 2026-06-27 | [4b04e732](https://github.com/NVIDIA/Model-Optimizer/commit/4b04e732ed9d84b26e23d1c9330771de2175a830) | [#1838](https://github.com/NVIDIA/Model-Optimizer/pull/1838) | [@realAsma](https://github.com/realAsma) | `export` `infra` `tests` `torch` | Fix prequant layernorm export without scales |
 | 2026-06-27 | [d5962c4f](https://github.com/NVIDIA/Model-Optimizer/commit/d5962c4f3bb17bea4000067ab8f498fda05a24c7) | [#1797](https://github.com/NVIDIA/Model-Optimizer/pull/1797) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `example` `infra` `tests` | Remove deprecated examples/llm_autodeploy |
 | 2026-06-27 | [7e5bd889](https://github.com/NVIDIA/Model-Optimizer/commit/7e5bd8894530ba3b25367f4b25884b00a907f873) | [#1711](https://github.com/NVIDIA/Model-Optimizer/pull/1711) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `quantization` `tests` `torch` | fix(quantization): detect fused MoE experts without act_fn (MiniMax-M3) |
@@ -266,4 +267,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 260 PRs**
+**Total: 261 PRs**

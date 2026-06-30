@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-06-30 | [6e2efd74](https://github.com/NVIDIA/Model-Optimizer/commit/6e2efd749bc84b5a2ad3dedce767670eff10a118) | [#1831](https://github.com/NVIDIA/Model-Optimizer/pull/1831) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `eval` `example` `infra` `torch` | Fix lm_eval_hf freezing issue on multi-gpu slurm interactive node |
 | 2026-06-27 | [d5962c4f](https://github.com/NVIDIA/Model-Optimizer/commit/d5962c4f3bb17bea4000067ab8f498fda05a24c7) | [#1797](https://github.com/NVIDIA/Model-Optimizer/pull/1797) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `example` `infra` `tests` | Remove deprecated examples/llm_autodeploy |
 | 2026-06-27 | [c248dd54](https://github.com/NVIDIA/Model-Optimizer/commit/c248dd5434d511107fa59cbdf42a0f6e0e82689e) | [#1710](https://github.com/NVIDIA/Model-Optimizer/pull/1710) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Domino support |
 | 2026-06-27 | [f335459d](https://github.com/NVIDIA/Model-Optimizer/commit/f335459dc053895bd7b0a77ecaa47e87c2080ab3) | [#1759](https://github.com/NVIDIA/Model-Optimizer/pull/1759) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `deploy` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `tests` `torch` `vllm` `vlm` | refactor(examples): rename llm_ptq → hf_ptq (symlink for back-compat) |
@@ -245,4 +246,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 239 PRs**
+**Total: 240 PRs**

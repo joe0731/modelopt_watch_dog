@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-06-30",
+    "commit": "6e2efd749bc84b5a2ad3dedce767670eff10a118",
+    "pr_number": 1831,
+    "author": "danielkorzekwa",
+    "title": "Fix lm_eval_hf freezing issue on multi-gpu slurm interactive node",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-29",
+    "commit": "248cbf2fd2c0e2112c78149107d0049038b2b8a6",
+    "pr_number": 1840,
+    "author": "ChenhanYu",
+    "title": "OMNIML-5128 Capture Docker experiment id",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-29",
+    "commit": "72651b29a84e8d1f4a20e36f32054281fa78f816",
+    "pr_number": 1839,
+    "author": "Fridah-nv",
+    "title": "Fix Nemotron-H PTQ failure on Transformers 5.x with --trust_remote_code (moe_latent_size AttributeError)",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-06-27",
     "commit": "4b04e732ed9d84b26e23d1c9330771de2175a830",
     "pr_number": 1838,
