@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-07-01",
+    "commit": "84fc1f985b24272b7addc3b007480deeb28a7f43",
+    "pr_number": 1870,
+    "author": "Edwardf0t1",
+    "title": "docs(deployment): add AIPerf throughput/latency benchmarking reference",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-01",
+    "commit": "af923139ef6bd3a736438acbb1d1dbe143069e9b",
+    "pr_number": 1858,
+    "author": "Edwardf0t1",
+    "title": "fix(export): list unquantized MoE routers in exclude_modules (NVBug 5718750)",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-01",
+    "commit": "a05850bffad6f254f265d7e30b46823a6064d8f7",
+    "pr_number": 1861,
+    "author": "cjluo-nv",
+    "title": "Add nel-next (0.3.x) agentic AA benchmark support to eval skill",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-06-30",
     "commit": "6e2efd749bc84b5a2ad3dedce767670eff10a118",
     "pr_number": 1831,
@@ -10,6 +43,56 @@
       "example",
       "infra",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "commit": "2f6b51bd9d8b19680cb344497cbdc3c9013be873",
+    "pr_number": 1864,
+    "author": "danielkorzekwa",
+    "title": "Add a citation file",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "commit": "2fc352be2d223bbb321ca30a5e10b095caf8602e",
+    "pr_number": 1792,
+    "author": "kevalmorabia97",
+    "title": "Add VLM pruning and PTQ with image-text calibration (Megatron-Bridge)",
+    "tags": [
+      "core",
+      "docs",
+      "example",
+      "infra",
+      "nas",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "commit": "838b2053df5d4ebd7f78cadd68c2c6a404a7937e",
+    "pr_number": 1867,
+    "author": "danielkorzekwa",
+    "title": "Improve lm_eval readme to clarify how accelerate launch works",
+    "tags": [
+      "eval",
+      "example",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-06-30",
+    "commit": "d70c48c1ff3cab72d1351e1350b447e169fed550",
+    "pr_number": 1857,
+    "author": "realAsma",
+    "title": "Fix HF PTQ empty-init dtype kwargs",
+    "tags": [
+      "infra",
+      "tests"
     ]
   },
   {

@@ -9,6 +9,10 @@
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
 | 🟡 | **2026-06-30** | **[6e2efd74](https://github.com/NVIDIA/Model-Optimizer/commit/6e2efd749bc84b5a2ad3dedce767670eff10a118)** | **[#1831](https://github.com/NVIDIA/Model-Optimizer/pull/1831)** | **[@danielkorzekwa](https://github.com/danielkorzekwa)** | `eval` `example` `infra` `torch` | **Fix lm_eval_hf freezing issue on multi-gpu slurm interactive node** |
+|  | 2026-06-30 | [2f6b51bd](https://github.com/NVIDIA/Model-Optimizer/commit/2f6b51bd9d8b19680cb344497cbdc3c9013be873) | [#1864](https://github.com/NVIDIA/Model-Optimizer/pull/1864) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` | Add a citation file |
+|  | 2026-06-30 | [2fc352be](https://github.com/NVIDIA/Model-Optimizer/commit/2fc352be2d223bbb321ca30a5e10b095caf8602e) | [#1792](https://github.com/NVIDIA/Model-Optimizer/pull/1792) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `tests` `torch` | Add VLM pruning and PTQ with image-text calibration (Megatron-Bridge) |
+| 🟡 | **2026-06-30** | **[838b2053](https://github.com/NVIDIA/Model-Optimizer/commit/838b2053df5d4ebd7f78cadd68c2c6a404a7937e)** | **[#1867](https://github.com/NVIDIA/Model-Optimizer/pull/1867)** | **[@danielkorzekwa](https://github.com/danielkorzekwa)** | `eval` `example` `torch` | **Improve lm_eval readme to clarify how accelerate launch works** |
+|  | 2026-06-30 | [d70c48c1](https://github.com/NVIDIA/Model-Optimizer/commit/d70c48c1ff3cab72d1351e1350b447e169fed550) | [#1857](https://github.com/NVIDIA/Model-Optimizer/pull/1857) | [@realAsma](https://github.com/realAsma) | `infra` `tests` | Fix HF PTQ empty-init dtype kwargs |
 |  | 2026-06-29 | [248cbf2f](https://github.com/NVIDIA/Model-Optimizer/commit/248cbf2fd2c0e2112c78149107d0049038b2b8a6) | [#1840](https://github.com/NVIDIA/Model-Optimizer/pull/1840) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | OMNIML-5128 Capture Docker experiment id |
 |  | 2026-06-29 | [72651b29](https://github.com/NVIDIA/Model-Optimizer/commit/72651b29a84e8d1f4a20e36f32054281fa78f816) | [#1839](https://github.com/NVIDIA/Model-Optimizer/pull/1839) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `tests` | Fix Nemotron-H PTQ failure on Transformers 5.x with --trust_remote_code (moe_latent_size AttributeError) |
 |  | 2026-06-27 | [4b04e732](https://github.com/NVIDIA/Model-Optimizer/commit/4b04e732ed9d84b26e23d1c9330771de2175a830) | [#1838](https://github.com/NVIDIA/Model-Optimizer/pull/1838) | [@realAsma](https://github.com/realAsma) | `export` `infra` `tests` `torch` | Fix prequant layernorm export without scales |
@@ -146,4 +150,4 @@
 |  | 2026-06-01 | [905259fb](https://github.com/NVIDIA/Model-Optimizer/commit/905259fbf5d2dda3da00ef4dfe3c5c22de4155f0) | [#1590](https://github.com/NVIDIA/Model-Optimizer/pull/1590) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Fix: use python3 in debugger server.sh |
 
 ---
-**Total: 136 PRs** | **Highlighted: 25**
+**Total: 140 PRs** | **Highlighted: 26**
