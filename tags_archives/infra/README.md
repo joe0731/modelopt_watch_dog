@@ -4,9 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-02 | [85d5201f](https://github.com/NVIDIA/Model-Optimizer/commit/85d5201f8b07288f8318030f25252685023425f1) | [#1880](https://github.com/NVIDIA/Model-Optimizer/pull/1880) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[Cherry-pick\] PRs #1801 #1808 #1629 #1627 #1824 #1826 #1830 #1760 #1831 #1858 #1839 #1857 #1869 |
 | 2026-07-01 | [84fc1f98](https://github.com/NVIDIA/Model-Optimizer/commit/84fc1f985b24272b7addc3b007480deeb28a7f43) | [#1870](https://github.com/NVIDIA/Model-Optimizer/pull/1870) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | docs(deployment): add AIPerf throughput/latency benchmarking reference |
 | 2026-07-01 | [af923139](https://github.com/NVIDIA/Model-Optimizer/commit/af923139ef6bd3a736438acbb1d1dbe143069e9b) | [#1858](https://github.com/NVIDIA/Model-Optimizer/pull/1858) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `tests` `torch` | fix(export): list unquantized MoE routers in exclude_modules (NVBug 5718750) |
 | 2026-07-01 | [a05850bf](https://github.com/NVIDIA/Model-Optimizer/commit/a05850bffad6f254f265d7e30b46823a6064d8f7) | [#1861](https://github.com/NVIDIA/Model-Optimizer/pull/1861) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Add nel-next (0.3.x) agentic AA benchmark support to eval skill |
+| 2026-07-01 | [892d27aa](https://github.com/NVIDIA/Model-Optimizer/commit/892d27aa768ac92f00423b9069467a8eb24f9e98) | [#1877](https://github.com/NVIDIA/Model-Optimizer/pull/1877) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | Fix expert-only MSE recipe matching for NemotronH |
 | 2026-06-30 | [6e2efd74](https://github.com/NVIDIA/Model-Optimizer/commit/6e2efd749bc84b5a2ad3dedce767670eff10a118) | [#1831](https://github.com/NVIDIA/Model-Optimizer/pull/1831) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `eval` `example` `infra` `torch` | Fix lm_eval_hf freezing issue on multi-gpu slurm interactive node |
 | 2026-06-30 | [2f6b51bd](https://github.com/NVIDIA/Model-Optimizer/commit/2f6b51bd9d8b19680cb344497cbdc3c9013be873) | [#1864](https://github.com/NVIDIA/Model-Optimizer/pull/1864) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `infra` | Add a citation file |
 | 2026-06-30 | [2fc352be](https://github.com/NVIDIA/Model-Optimizer/commit/2fc352be2d223bbb321ca30a5e10b095caf8602e) | [#1792](https://github.com/NVIDIA/Model-Optimizer/pull/1792) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `tests` `torch` | Add VLM pruning and PTQ with image-text calibration (Megatron-Bridge) |
@@ -373,4 +375,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 367 PRs**
+**Total: 369 PRs**

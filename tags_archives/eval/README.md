@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-02 | [85d5201f](https://github.com/NVIDIA/Model-Optimizer/commit/85d5201f8b07288f8318030f25252685023425f1) | [#1880](https://github.com/NVIDIA/Model-Optimizer/pull/1880) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[Cherry-pick\] PRs #1801 #1808 #1629 #1627 #1824 #1826 #1830 #1760 #1831 #1858 #1839 #1857 #1869 |
 | 2026-06-30 | [6e2efd74](https://github.com/NVIDIA/Model-Optimizer/commit/6e2efd749bc84b5a2ad3dedce767670eff10a118) | [#1831](https://github.com/NVIDIA/Model-Optimizer/pull/1831) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `eval` `example` `infra` `torch` | Fix lm_eval_hf freezing issue on multi-gpu slurm interactive node |
 | 2026-06-30 | [838b2053](https://github.com/NVIDIA/Model-Optimizer/commit/838b2053df5d4ebd7f78cadd68c2c6a404a7937e) | [#1867](https://github.com/NVIDIA/Model-Optimizer/pull/1867) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `eval` `example` `torch` | Improve lm_eval readme to clarify how accelerate launch works |
 | 2026-06-27 | [f335459d](https://github.com/NVIDIA/Model-Optimizer/commit/f335459dc053895bd7b0a77ecaa47e87c2080ab3) | [#1759](https://github.com/NVIDIA/Model-Optimizer/pull/1759) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `deploy` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `tests` `torch` `vllm` `vlm` | refactor(examples): rename llm_ptq → hf_ptq (symlink for back-compat) |
@@ -94,4 +95,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 88 PRs**
+**Total: 89 PRs**

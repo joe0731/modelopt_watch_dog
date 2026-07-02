@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-02 | [85d5201f](https://github.com/NVIDIA/Model-Optimizer/commit/85d5201f8b07288f8318030f25252685023425f1) | [#1880](https://github.com/NVIDIA/Model-Optimizer/pull/1880) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[Cherry-pick\] PRs #1801 #1808 #1629 #1627 #1824 #1826 #1830 #1760 #1831 #1858 #1839 #1857 #1869 |
 | 2026-07-01 | [af923139](https://github.com/NVIDIA/Model-Optimizer/commit/af923139ef6bd3a736438acbb1d1dbe143069e9b) | [#1858](https://github.com/NVIDIA/Model-Optimizer/pull/1858) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `tests` `torch` | fix(export): list unquantized MoE routers in exclude_modules (NVBug 5718750) |
+| 2026-07-01 | [892d27aa](https://github.com/NVIDIA/Model-Optimizer/commit/892d27aa768ac92f00423b9069467a8eb24f9e98) | [#1877](https://github.com/NVIDIA/Model-Optimizer/pull/1877) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | Fix expert-only MSE recipe matching for NemotronH |
 | 2026-06-30 | [2fc352be](https://github.com/NVIDIA/Model-Optimizer/commit/2fc352be2d223bbb321ca30a5e10b095caf8602e) | [#1792](https://github.com/NVIDIA/Model-Optimizer/pull/1792) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `tests` `torch` | Add VLM pruning and PTQ with image-text calibration (Megatron-Bridge) |
 | 2026-06-30 | [d70c48c1](https://github.com/NVIDIA/Model-Optimizer/commit/d70c48c1ff3cab72d1351e1350b447e169fed550) | [#1857](https://github.com/NVIDIA/Model-Optimizer/pull/1857) | [@realAsma](https://github.com/realAsma) | `infra` `tests` | Fix HF PTQ empty-init dtype kwargs |
 | 2026-06-29 | [72651b29](https://github.com/NVIDIA/Model-Optimizer/commit/72651b29a84e8d1f4a20e36f32054281fa78f816) | [#1839](https://github.com/NVIDIA/Model-Optimizer/pull/1839) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `tests` | Fix Nemotron-H PTQ failure on Transformers 5.x with --trust_remote_code (moe_latent_size AttributeError) |
@@ -270,4 +272,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 264 PRs**
+**Total: 266 PRs**

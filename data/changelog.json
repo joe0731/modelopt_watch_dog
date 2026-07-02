@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-07-02",
+    "commit": "85d5201f8b07288f8318030f25252685023425f1",
+    "pr_number": 1880,
+    "author": "kevalmorabia97",
+    "title": "[Cherry-pick] PRs #1801 #1808 #1629 #1627 #1824 #1826 #1830 #1760 #1831 #1858 #1839 #1857 #1869",
+    "tags": [
+      "core",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-01",
     "commit": "84fc1f985b24272b7addc3b007480deeb28a7f43",
     "pr_number": 1870,
@@ -30,6 +48,19 @@
     "title": "Add nel-next (0.3.x) agentic AA benchmark support to eval skill",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-07-01",
+    "commit": "892d27aa768ac92f00423b9069467a8eb24f9e98",
+    "pr_number": 1877,
+    "author": "meenchen",
+    "title": "Fix expert-only MSE recipe matching for NemotronH",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
     ]
   },
   {
