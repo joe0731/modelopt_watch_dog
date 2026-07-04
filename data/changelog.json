@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-07-03",
+    "commit": "75b580379a0e5bca52265639cdfb7a9a11265c6a",
+    "pr_number": 1872,
+    "author": "danielkorzekwa",
+    "title": "Create a user guide: ModelOpt for Researchers: Fast Experimentation Workflows",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-02",
     "commit": "85d5201f8b07288f8318030f25252685023425f1",
     "pr_number": 1880,
