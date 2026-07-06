@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-06 | [795c5894](https://github.com/NVIDIA/Model-Optimizer/commit/795c589428f62869a8800392d753a70eb1b167ba) | [#1901](https://github.com/NVIDIA/Model-Optimizer/pull/1901) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `quantization` `tests` `torch` | CI: CUDA build/test hygiene + fix Puzzletron Nemotron test failures |
+| 2026-07-05 | [b96a785b](https://github.com/NVIDIA/Model-Optimizer/commit/b96a785b3c36be9d8b5d0be3fc44f31566183eb6) | [#1856](https://github.com/NVIDIA/Model-Optimizer/pull/1856) | [@juhi10071998](https://github.com/juhi10071998) | `infra` `quantization` `tests` `torch` | Add AutoQuantize recipe support |
 | 2026-07-02 | [85d5201f](https://github.com/NVIDIA/Model-Optimizer/commit/85d5201f8b07288f8318030f25252685023425f1) | [#1880](https://github.com/NVIDIA/Model-Optimizer/pull/1880) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[Cherry-pick\] PRs #1801 #1808 #1629 #1627 #1824 #1826 #1830 #1760 #1831 #1858 #1839 #1857 #1869 |
 | 2026-07-01 | [af923139](https://github.com/NVIDIA/Model-Optimizer/commit/af923139ef6bd3a736438acbb1d1dbe143069e9b) | [#1858](https://github.com/NVIDIA/Model-Optimizer/pull/1858) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `tests` `torch` | fix(export): list unquantized MoE routers in exclude_modules (NVBug 5718750) |
 | 2026-07-01 | [892d27aa](https://github.com/NVIDIA/Model-Optimizer/commit/892d27aa768ac92f00423b9069467a8eb24f9e98) | [#1877](https://github.com/NVIDIA/Model-Optimizer/pull/1877) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | Fix expert-only MSE recipe matching for NemotronH |
@@ -272,4 +274,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 266 PRs**
+**Total: 268 PRs**

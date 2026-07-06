@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-06 | [795c5894](https://github.com/NVIDIA/Model-Optimizer/commit/795c589428f62869a8800392d753a70eb1b167ba) | [#1901](https://github.com/NVIDIA/Model-Optimizer/pull/1901) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `quantization` `tests` `torch` | CI: CUDA build/test hygiene + fix Puzzletron Nemotron test failures |
 | 2026-07-02 | [85d5201f](https://github.com/NVIDIA/Model-Optimizer/commit/85d5201f8b07288f8318030f25252685023425f1) | [#1880](https://github.com/NVIDIA/Model-Optimizer/pull/1880) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[Cherry-pick\] PRs #1801 #1808 #1629 #1627 #1824 #1826 #1830 #1760 #1831 #1858 #1839 #1857 #1869 |
 | 2026-06-30 | [2fc352be](https://github.com/NVIDIA/Model-Optimizer/commit/2fc352be2d223bbb321ca30a5e10b095caf8602e) | [#1792](https://github.com/NVIDIA/Model-Optimizer/pull/1792) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `tests` `torch` | Add VLM pruning and PTQ with image-text calibration (Megatron-Bridge) |
 | 2026-06-27 | [f335459d](https://github.com/NVIDIA/Model-Optimizer/commit/f335459dc053895bd7b0a77ecaa47e87c2080ab3) | [#1759](https://github.com/NVIDIA/Model-Optimizer/pull/1759) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `deploy` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `tests` `torch` `vllm` `vlm` | refactor(examples): rename llm_ptq → hf_ptq (symlink for back-compat) |
@@ -120,4 +121,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 114 PRs**
+**Total: 115 PRs**

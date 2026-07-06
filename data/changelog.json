@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-07-06",
+    "commit": "795c589428f62869a8800392d753a70eb1b167ba",
+    "pr_number": 1901,
+    "author": "kevalmorabia97",
+    "title": "CI: CUDA build/test hygiene + fix Puzzletron Nemotron test failures",
+    "tags": [
+      "core",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-05",
+    "commit": "d1c8ea95eb135ea99c0020409a32c3e9885e302c",
+    "pr_number": 1891,
+    "author": "arham766",
+    "title": "ci: gate example and GPU tests on changes to their own runner and cache action",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-05",
+    "commit": "b96a785b3c36be9d8b5d0be3fc44f31566183eb6",
+    "pr_number": 1856,
+    "author": "juhi10071998",
+    "title": "Add AutoQuantize recipe support",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-03",
     "commit": "75b580379a0e5bca52265639cdfb7a9a11265c6a",
     "pr_number": 1872,
