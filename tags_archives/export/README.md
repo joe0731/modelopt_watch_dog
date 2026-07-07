@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-07 | [d290839d](https://github.com/NVIDIA/Model-Optimizer/commit/d290839dc91339094c55077175ff2205a4f88960) | [#1849](https://github.com/NVIDIA/Model-Optimizer/pull/1849) | [@h-guo18](https://github.com/h-guo18) | `export` `speculative_decoding` `tests` `torch` | \[Feat\]: Support Dspark |
+| 2026-07-06 | [43fee0cd](https://github.com/NVIDIA/Model-Optimizer/commit/43fee0cd70fa9e5f85782d52a4bd8ad9c8b88446) | [#1833](https://github.com/NVIDIA/Model-Optimizer/pull/1833) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `tests` `torch` | feat(export): quant-aware reverse weight conversion for unified HF export |
+| 2026-07-06 | [32925cdf](https://github.com/NVIDIA/Model-Optimizer/commit/32925cdf95982bc9a13f034c12bdd02eeb08ec1e) | [#1879](https://github.com/NVIDIA/Model-Optimizer/pull/1879) | [@realAsma](https://github.com/realAsma) | `export` `infra` `quantization` `tests` `torch` | Add TensorQuantizer rotate-back mode |
 | 2026-07-02 | [85d5201f](https://github.com/NVIDIA/Model-Optimizer/commit/85d5201f8b07288f8318030f25252685023425f1) | [#1880](https://github.com/NVIDIA/Model-Optimizer/pull/1880) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[Cherry-pick\] PRs #1801 #1808 #1629 #1627 #1824 #1826 #1830 #1760 #1831 #1858 #1839 #1857 #1869 |
 | 2026-07-01 | [af923139](https://github.com/NVIDIA/Model-Optimizer/commit/af923139ef6bd3a736438acbb1d1dbe143069e9b) | [#1858](https://github.com/NVIDIA/Model-Optimizer/pull/1858) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `tests` `torch` | fix(export): list unquantized MoE routers in exclude_modules (NVBug 5718750) |
 | 2026-06-27 | [4b04e732](https://github.com/NVIDIA/Model-Optimizer/commit/4b04e732ed9d84b26e23d1c9330771de2175a830) | [#1838](https://github.com/NVIDIA/Model-Optimizer/pull/1838) | [@realAsma](https://github.com/realAsma) | `export` `infra` `tests` `torch` | Fix prequant layernorm export without scales |
@@ -124,4 +127,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 118 PRs**
+**Total: 121 PRs**

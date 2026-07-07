@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-07 | [bc5bc1ac](https://github.com/NVIDIA/Model-Optimizer/commit/bc5bc1ac5f64fd24395f3ee65311b2d158957b54) | [#1846](https://github.com/NVIDIA/Model-Optimizer/pull/1846) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Add Final Norm for vLLM Hidden Extractor |
 | 2026-07-03 | [75b58037](https://github.com/NVIDIA/Model-Optimizer/commit/75b580379a0e5bca52265639cdfb7a9a11265c6a) | [#1872](https://github.com/NVIDIA/Model-Optimizer/pull/1872) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `eval` `example` `infra` `torch` | Create a user guide: ModelOpt for Researchers: Fast Experimentation Workflows |
 | 2026-07-02 | [85d5201f](https://github.com/NVIDIA/Model-Optimizer/commit/85d5201f8b07288f8318030f25252685023425f1) | [#1880](https://github.com/NVIDIA/Model-Optimizer/pull/1880) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[Cherry-pick\] PRs #1801 #1808 #1629 #1627 #1824 #1826 #1830 #1760 #1831 #1858 #1839 #1857 #1869 |
 | 2026-06-30 | [6e2efd74](https://github.com/NVIDIA/Model-Optimizer/commit/6e2efd749bc84b5a2ad3dedce767670eff10a118) | [#1831](https://github.com/NVIDIA/Model-Optimizer/pull/1831) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `eval` `example` `infra` `torch` | Fix lm_eval_hf freezing issue on multi-gpu slurm interactive node |
@@ -250,4 +251,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 244 PRs**
+**Total: 245 PRs**

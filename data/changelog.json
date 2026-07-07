@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-07-07",
+    "commit": "bc5bc1ac5f64fd24395f3ee65311b2d158957b54",
+    "pr_number": 1846,
+    "author": "h-guo18",
+    "title": "[Feat]: Add Final Norm for vLLM Hidden Extractor",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-07",
+    "commit": "d290839dc91339094c55077175ff2205a4f88960",
+    "pr_number": 1849,
+    "author": "h-guo18",
+    "title": "[Feat]: Support Dspark",
+    "tags": [
+      "export",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-06",
     "commit": "795c589428f62869a8800392d753a70eb1b167ba",
     "pr_number": 1901,
@@ -7,6 +34,53 @@
     "title": "CI: CUDA build/test hygiene + fix Puzzletron Nemotron test failures",
     "tags": [
       "core",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "commit": "360c999dd51db733c143d07be6632c2bf35fae3f",
+    "pr_number": 1929,
+    "author": "coderabbitai[bot]",
+    "title": "📝 CodeRabbit Chat: Update dataset blend preparation example",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "commit": "e0124bd5e57ee4673509a591d00fa8bc782a0a80",
+    "pr_number": 1930,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-07-06)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "commit": "43fee0cd70fa9e5f85782d52a4bd8ad9c8b88446",
+    "pr_number": 1833,
+    "author": "Edwardf0t1",
+    "title": "feat(export): quant-aware reverse weight conversion for unified HF export",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "commit": "32925cdf95982bc9a13f034c12bdd02eeb08ec1e",
+    "pr_number": 1879,
+    "author": "realAsma",
+    "title": "Add TensorQuantizer rotate-back mode",
+    "tags": [
+      "export",
       "infra",
       "quantization",
       "tests",

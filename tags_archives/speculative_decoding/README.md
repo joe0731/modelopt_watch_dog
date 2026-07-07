@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-07 | [bc5bc1ac](https://github.com/NVIDIA/Model-Optimizer/commit/bc5bc1ac5f64fd24395f3ee65311b2d158957b54) | [#1846](https://github.com/NVIDIA/Model-Optimizer/pull/1846) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Add Final Norm for vLLM Hidden Extractor |
+| 2026-07-07 | [d290839d](https://github.com/NVIDIA/Model-Optimizer/commit/d290839dc91339094c55077175ff2205a4f88960) | [#1849](https://github.com/NVIDIA/Model-Optimizer/pull/1849) | [@h-guo18](https://github.com/h-guo18) | `export` `speculative_decoding` `tests` `torch` | \[Feat\]: Support Dspark |
 | 2026-06-27 | [30035893](https://github.com/NVIDIA/Model-Optimizer/commit/30035893799617f998069a942361aebda381ef76) | [#1837](https://github.com/NVIDIA/Model-Optimizer/pull/1837) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Chore\]: Add license for Dflash code |
 | 2026-06-27 | [c248dd54](https://github.com/NVIDIA/Model-Optimizer/commit/c248dd5434d511107fa59cbdf42a0f6e0e82689e) | [#1710](https://github.com/NVIDIA/Model-Optimizer/pull/1710) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Domino support |
 | 2026-06-27 | [f335459d](https://github.com/NVIDIA/Model-Optimizer/commit/f335459dc053895bd7b0a77ecaa47e87c2080ab3) | [#1759](https://github.com/NVIDIA/Model-Optimizer/pull/1759) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `deploy` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `tests` `torch` `vllm` `vlm` | refactor(examples): rename llm_ptq → hf_ptq (symlink for back-compat) |
@@ -76,4 +78,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 70 PRs**
+**Total: 72 PRs**
