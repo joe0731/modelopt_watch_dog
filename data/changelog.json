@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-07-08",
+    "commit": "6b4ad85849268105f0586d166871fc7140cc1b1e",
+    "pr_number": 1706,
+    "author": "jingyu-ml",
+    "title": "Qwen-Image diffusers PTQ: FP8 / NVFP4 / NVFP4-SVDQuant HF checkpoints",
+    "tags": [
+      "diffusers",
+      "example",
+      "export",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-07",
     "commit": "bc5bc1ac5f64fd24395f3ee65311b2d158957b54",
     "pr_number": 1846,

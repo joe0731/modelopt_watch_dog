@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-08 | [6b4ad858](https://github.com/NVIDIA/Model-Optimizer/commit/6b4ad85849268105f0586d166871fc7140cc1b1e) | [#1706](https://github.com/NVIDIA/Model-Optimizer/pull/1706) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Qwen-Image diffusers PTQ: FP8 / NVFP4 / NVFP4-SVDQuant HF checkpoints |
 | 2026-07-07 | [d290839d](https://github.com/NVIDIA/Model-Optimizer/commit/d290839dc91339094c55077175ff2205a4f88960) | [#1849](https://github.com/NVIDIA/Model-Optimizer/pull/1849) | [@h-guo18](https://github.com/h-guo18) | `export` `speculative_decoding` `tests` `torch` | \[Feat\]: Support Dspark |
 | 2026-07-06 | [43fee0cd](https://github.com/NVIDIA/Model-Optimizer/commit/43fee0cd70fa9e5f85782d52a4bd8ad9c8b88446) | [#1833](https://github.com/NVIDIA/Model-Optimizer/pull/1833) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `tests` `torch` | feat(export): quant-aware reverse weight conversion for unified HF export |
 | 2026-07-06 | [32925cdf](https://github.com/NVIDIA/Model-Optimizer/commit/32925cdf95982bc9a13f034c12bdd02eeb08ec1e) | [#1879](https://github.com/NVIDIA/Model-Optimizer/pull/1879) | [@realAsma](https://github.com/realAsma) | `export` `infra` `quantization` `tests` `torch` | Add TensorQuantizer rotate-back mode |
@@ -127,4 +128,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 121 PRs**
+**Total: 122 PRs**

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-08 | [6b4ad858](https://github.com/NVIDIA/Model-Optimizer/commit/6b4ad85849268105f0586d166871fc7140cc1b1e) | [#1706](https://github.com/NVIDIA/Model-Optimizer/pull/1706) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Qwen-Image diffusers PTQ: FP8 / NVFP4 / NVFP4-SVDQuant HF checkpoints |
 | 2026-07-07 | [bc5bc1ac](https://github.com/NVIDIA/Model-Optimizer/commit/bc5bc1ac5f64fd24395f3ee65311b2d158957b54) | [#1846](https://github.com/NVIDIA/Model-Optimizer/pull/1846) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Add Final Norm for vLLM Hidden Extractor |
 | 2026-07-07 | [d290839d](https://github.com/NVIDIA/Model-Optimizer/commit/d290839dc91339094c55077175ff2205a4f88960) | [#1849](https://github.com/NVIDIA/Model-Optimizer/pull/1849) | [@h-guo18](https://github.com/h-guo18) | `export` `speculative_decoding` `tests` `torch` | \[Feat\]: Support Dspark |
 | 2026-07-06 | [795c5894](https://github.com/NVIDIA/Model-Optimizer/commit/795c589428f62869a8800392d753a70eb1b167ba) | [#1901](https://github.com/NVIDIA/Model-Optimizer/pull/1901) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `quantization` `tests` `torch` | CI: CUDA build/test hygiene + fix Puzzletron Nemotron test failures |
@@ -278,4 +279,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 272 PRs**
+**Total: 273 PRs**

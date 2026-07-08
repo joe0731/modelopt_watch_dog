@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-08 | [6b4ad858](https://github.com/NVIDIA/Model-Optimizer/commit/6b4ad85849268105f0586d166871fc7140cc1b1e) | [#1706](https://github.com/NVIDIA/Model-Optimizer/pull/1706) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Qwen-Image diffusers PTQ: FP8 / NVFP4 / NVFP4-SVDQuant HF checkpoints |
 | 2026-07-06 | [795c5894](https://github.com/NVIDIA/Model-Optimizer/commit/795c589428f62869a8800392d753a70eb1b167ba) | [#1901](https://github.com/NVIDIA/Model-Optimizer/pull/1901) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `quantization` `tests` `torch` | CI: CUDA build/test hygiene + fix Puzzletron Nemotron test failures |
 | 2026-07-06 | [32925cdf](https://github.com/NVIDIA/Model-Optimizer/commit/32925cdf95982bc9a13f034c12bdd02eeb08ec1e) | [#1879](https://github.com/NVIDIA/Model-Optimizer/pull/1879) | [@realAsma](https://github.com/realAsma) | `export` `infra` `quantization` `tests` `torch` | Add TensorQuantizer rotate-back mode |
 | 2026-07-05 | [b96a785b](https://github.com/NVIDIA/Model-Optimizer/commit/b96a785b3c36be9d8b5d0be3fc44f31566183eb6) | [#1856](https://github.com/NVIDIA/Model-Optimizer/pull/1856) | [@juhi10071998](https://github.com/juhi10071998) | `infra` `quantization` `tests` `torch` | Add AutoQuantize recipe support |
@@ -246,4 +247,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 240 PRs**
+**Total: 241 PRs**
