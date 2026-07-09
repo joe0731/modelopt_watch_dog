@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-09 | [e96d7a21](https://github.com/NVIDIA/Model-Optimizer/commit/e96d7a21e8de28d5b0c3a712ff327d2fd3d37daf) | [#1948](https://github.com/NVIDIA/Model-Optimizer/pull/1948) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Chore\]Dspark license |
+| 2026-07-08 | [0185726d](https://github.com/NVIDIA/Model-Optimizer/commit/0185726d621b364d9d8d49f696f3e464afae96f5) | [#1900](https://github.com/NVIDIA/Model-Optimizer/pull/1900) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | fix: make MCP Slurm wait poll remote job state |
+| 2026-07-08 | [adeca905](https://github.com/NVIDIA/Model-Optimizer/commit/adeca905d476c0235102661e7a814cf04c499a36) | [#1931](https://github.com/NVIDIA/Model-Optimizer/pull/1931) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | example(megatron_lm): Llama-3.2-1B-Instruct Megatron QAD launcher example |
 | 2026-07-07 | [bc5bc1ac](https://github.com/NVIDIA/Model-Optimizer/commit/bc5bc1ac5f64fd24395f3ee65311b2d158957b54) | [#1846](https://github.com/NVIDIA/Model-Optimizer/pull/1846) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Add Final Norm for vLLM Hidden Extractor |
 | 2026-07-06 | [795c5894](https://github.com/NVIDIA/Model-Optimizer/commit/795c589428f62869a8800392d753a70eb1b167ba) | [#1901](https://github.com/NVIDIA/Model-Optimizer/pull/1901) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `quantization` `tests` `torch` | CI: CUDA build/test hygiene + fix Puzzletron Nemotron test failures |
 | 2026-07-06 | [360c999d](https://github.com/NVIDIA/Model-Optimizer/commit/360c999dd51db733c143d07be6632c2bf35fae3f) | [#1929](https://github.com/NVIDIA/Model-Optimizer/pull/1929) | [@coderabbitai[bot]](https://github.com/coderabbitai[bot]) | `infra` | 📝 CodeRabbit Chat: Update dataset blend preparation example |
@@ -384,4 +387,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 378 PRs**
+**Total: 381 PRs**

@@ -1,5 +1,39 @@
 [
   {
+    "date": "2026-07-09",
+    "commit": "66633d820fc0eb824c6f769a1f0f1f331b2633b1",
+    "pr_number": 1935,
+    "author": "mxinO",
+    "title": "Minor fix constant amax repr",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "commit": "e96d7a21e8de28d5b0c3a712ff327d2fd3d37daf",
+    "pr_number": 1948,
+    "author": "h-guo18",
+    "title": "[Chore]Dspark license",
+    "tags": [
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "commit": "f7bd18e38cada83bd2d25c4e9611bb40e1c7d75a",
+    "pr_number": 1873,
+    "author": "nvSiruiW",
+    "title": "Add deployment test cases, fix deployment-related issues, and remove private models",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
     "date": "2026-07-08",
     "commit": "6b4ad85849268105f0586d166871fc7140cc1b1e",
     "pr_number": 1706,
@@ -9,6 +43,52 @@
       "diffusers",
       "example",
       "export",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-08",
+    "commit": "0185726d621b364d9d8d49f696f3e464afae96f5",
+    "pr_number": 1900,
+    "author": "ChenhanYu",
+    "title": "fix: make MCP Slurm wait poll remote job state",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-08",
+    "commit": "adeca905d476c0235102661e7a814cf04c499a36",
+    "pr_number": 1931,
+    "author": "ChenhanYu",
+    "title": "example(megatron_lm): Llama-3.2-1B-Instruct Megatron QAD launcher example",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-08",
+    "commit": "b012e4c2632f3c60db5548c6c4826deaeca094f7",
+    "pr_number": 1942,
+    "author": "kevalmorabia97",
+    "title": "fix: mcore_param_count for GatedDeltaNet, MLA, and latent-MoE layers",
+    "tags": [
+      "core",
+      "nas",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-08",
+    "commit": "2d4e47202b5fb0fbb3f9a77759680c7d5d9918fc",
+    "pr_number": 1937,
+    "author": "AAnoosheh",
+    "title": "fix: handle TE 2.16+ GroupedLinear new signature args",
+    "tags": [
+      "core",
       "quantization",
       "tests",
       "torch"

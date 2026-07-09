@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-08 | [b012e4c2](https://github.com/NVIDIA/Model-Optimizer/commit/b012e4c2632f3c60db5548c6c4826deaeca094f7) | [#1942](https://github.com/NVIDIA/Model-Optimizer/pull/1942) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `nas` `tests` `torch` | fix: mcore_param_count for GatedDeltaNet, MLA, and latent-MoE layers |
 | 2026-06-30 | [2fc352be](https://github.com/NVIDIA/Model-Optimizer/commit/2fc352be2d223bbb321ca30a5e10b095caf8602e) | [#1792](https://github.com/NVIDIA/Model-Optimizer/pull/1792) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `tests` `torch` | Add VLM pruning and PTQ with image-text calibration (Megatron-Bridge) |
 | 2026-06-26 | [33bfa8b1](https://github.com/NVIDIA/Model-Optimizer/commit/33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2) | [#1818](https://github.com/NVIDIA/Model-Optimizer/pull/1818) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `distillation` `docs` `eval` `example` `export` `infra` `nas` `onnx` `peft` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `windows` | CI/Dev env bump |
 | 2026-06-04 | [00814738](https://github.com/NVIDIA/Model-Optimizer/commit/0081473861cd5095bdbcd9f3dd05171dea04e68f) | [#1616](https://github.com/NVIDIA/Model-Optimizer/pull/1616) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `eval` `example` `export` `infra` `nas` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Speed up slow unit/gpu/example tests |
@@ -21,4 +22,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 15 PRs**
+**Total: 16 PRs**
