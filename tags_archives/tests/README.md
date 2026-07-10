@@ -6,6 +6,8 @@
 |------|--------|-------|--------|----------|-------------|
 | 2026-07-09 | [66633d82](https://github.com/NVIDIA/Model-Optimizer/commit/66633d820fc0eb824c6f769a1f0f1f331b2633b1) | [#1935](https://github.com/NVIDIA/Model-Optimizer/pull/1935) | [@mxinO](https://github.com/mxinO) | `quantization` `tests` `torch` | Minor fix constant amax repr |
 | 2026-07-09 | [f7bd18e3](https://github.com/NVIDIA/Model-Optimizer/commit/f7bd18e38cada83bd2d25c4e9611bb40e1c7d75a) | [#1873](https://github.com/NVIDIA/Model-Optimizer/pull/1873) | [@nvSiruiW](https://github.com/nvSiruiW) | `tests` | Add deployment test cases, fix deployment-related issues, and remove private models |
+| 2026-07-09 | [aeb1ab4d](https://github.com/NVIDIA/Model-Optimizer/commit/aeb1ab4df5f449742e3edf4b04795aa7c2d0f46f) | [#1946](https://github.com/NVIDIA/Model-Optimizer/pull/1946) | [@gcunhase](https://github.com/gcunhase) | `onnx` `tests` | \[6385268\]\[ONNX\]\[Autocast\] Fix BF16 autocast for FP16 initializers |
+| 2026-07-09 | [0593df0e](https://github.com/NVIDIA/Model-Optimizer/commit/0593df0eb3d9db822618fc7547b2db0183bdcbe7) | [#1661](https://github.com/NVIDIA/Model-Optimizer/pull/1661) | [@gcunhase](https://github.com/gcunhase) | `example` `infra` `onnx` `quantization` `tests` | \[6241485\] Add support for ONNX Q/DQ node placement for DLA |
 | 2026-07-08 | [6b4ad858](https://github.com/NVIDIA/Model-Optimizer/commit/6b4ad85849268105f0586d166871fc7140cc1b1e) | [#1706](https://github.com/NVIDIA/Model-Optimizer/pull/1706) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Qwen-Image diffusers PTQ: FP8 / NVFP4 / NVFP4-SVDQuant HF checkpoints |
 | 2026-07-08 | [b012e4c2](https://github.com/NVIDIA/Model-Optimizer/commit/b012e4c2632f3c60db5548c6c4826deaeca094f7) | [#1942](https://github.com/NVIDIA/Model-Optimizer/pull/1942) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `nas` `tests` `torch` | fix: mcore_param_count for GatedDeltaNet, MLA, and latent-MoE layers |
 | 2026-07-08 | [2d4e4720](https://github.com/NVIDIA/Model-Optimizer/commit/2d4e47202b5fb0fbb3f9a77759680c7d5d9918fc) | [#1937](https://github.com/NVIDIA/Model-Optimizer/pull/1937) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `quantization` `tests` `torch` | fix: handle TE 2.16+ GroupedLinear new signature args |
@@ -283,4 +285,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 277 PRs**
+**Total: 279 PRs**

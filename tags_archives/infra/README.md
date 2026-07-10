@@ -4,7 +4,13 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-10 | [d69d5aab](https://github.com/NVIDIA/Model-Optimizer/commit/d69d5aab8bcc7f905d39f96953621286bc2533be) | [#1934](https://github.com/NVIDIA/Model-Optimizer/pull/1934) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Examples\]: Kimi-K2.6/K2.7-Code Dflash/Dspark |
 | 2026-07-09 | [e96d7a21](https://github.com/NVIDIA/Model-Optimizer/commit/e96d7a21e8de28d5b0c3a712ff327d2fd3d37daf) | [#1948](https://github.com/NVIDIA/Model-Optimizer/pull/1948) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Chore\]Dspark license |
+| 2026-07-09 | [42458def](https://github.com/NVIDIA/Model-Optimizer/commit/42458def249ff92d03016be2b37431e1f0505f20) | [#1951](https://github.com/NVIDIA/Model-Optimizer/pull/1951) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | ci: fix torch_trt on torch 2.13; default unit tests to torch 2.13; add example allow-failure hatch |
+| 2026-07-09 | [e911c3b7](https://github.com/NVIDIA/Model-Optimizer/commit/e911c3b7fd75a5775a644df9e5579c6588c87022) | [#1803](https://github.com/NVIDIA/Model-Optimizer/pull/1803) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` | Puzzletron tutorial fixes for runtime optimization |
+| 2026-07-09 | [9c40c346](https://github.com/NVIDIA/Model-Optimizer/commit/9c40c346747519ef8554f9b08db0678161681c5e) | [#1952](https://github.com/NVIDIA/Model-Optimizer/pull/1952) | [@realAsma](https://github.com/realAsma) | `infra` | Clarify end-to-end test expectations |
+| 2026-07-09 | [0593df0e](https://github.com/NVIDIA/Model-Optimizer/commit/0593df0eb3d9db822618fc7547b2db0183bdcbe7) | [#1661](https://github.com/NVIDIA/Model-Optimizer/pull/1661) | [@gcunhase](https://github.com/gcunhase) | `example` `infra` `onnx` `quantization` `tests` | \[6241485\] Add support for ONNX Q/DQ node placement for DLA |
+| 2026-07-09 | [089c06e4](https://github.com/NVIDIA/Model-Optimizer/commit/089c06e4133f28c78a8fef97089ec3bffe4206b7) | [#1945](https://github.com/NVIDIA/Model-Optimizer/pull/1945) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | fix(skills): Update Agent Skills Based on Observed Failures Modes in Trials |
 | 2026-07-08 | [0185726d](https://github.com/NVIDIA/Model-Optimizer/commit/0185726d621b364d9d8d49f696f3e464afae96f5) | [#1900](https://github.com/NVIDIA/Model-Optimizer/pull/1900) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | fix: make MCP Slurm wait poll remote job state |
 | 2026-07-08 | [adeca905](https://github.com/NVIDIA/Model-Optimizer/commit/adeca905d476c0235102661e7a814cf04c499a36) | [#1931](https://github.com/NVIDIA/Model-Optimizer/pull/1931) | [@ChenhanYu](https://github.com/ChenhanYu) | `infra` | example(megatron_lm): Llama-3.2-1B-Instruct Megatron QAD launcher example |
 | 2026-07-07 | [bc5bc1ac](https://github.com/NVIDIA/Model-Optimizer/commit/bc5bc1ac5f64fd24395f3ee65311b2d158957b54) | [#1846](https://github.com/NVIDIA/Model-Optimizer/pull/1846) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Add Final Norm for vLLM Hidden Extractor |
@@ -387,4 +393,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 381 PRs**
+**Total: 387 PRs**

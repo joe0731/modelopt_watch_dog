@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-10",
+    "commit": "d69d5aab8bcc7f905d39f96953621286bc2533be",
+    "pr_number": 1934,
+    "author": "h-guo18",
+    "title": "[Examples]: Kimi-K2.6/K2.7-Code Dflash/Dspark",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-07-09",
     "commit": "66633d820fc0eb824c6f769a1f0f1f331b2633b1",
     "pr_number": 1935,
@@ -31,6 +41,71 @@
     "title": "Add deployment test cases, fix deployment-related issues, and remove private models",
     "tags": [
       "tests"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "commit": "42458def249ff92d03016be2b37431e1f0505f20",
+    "pr_number": 1951,
+    "author": "kevalmorabia97",
+    "title": "ci: fix torch_trt on torch 2.13; default unit tests to torch 2.13; add example allow-failure hatch",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "commit": "aeb1ab4df5f449742e3edf4b04795aa7c2d0f46f",
+    "pr_number": 1946,
+    "author": "gcunhase",
+    "title": "[6385268][ONNX][Autocast] Fix BF16 autocast for FP16 initializers",
+    "tags": [
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "commit": "e911c3b7fd75a5775a644df9e5579c6588c87022",
+    "pr_number": 1803,
+    "author": "grzegorz-k-karch",
+    "title": "Puzzletron tutorial fixes for runtime optimization",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "commit": "9c40c346747519ef8554f9b08db0678161681c5e",
+    "pr_number": 1952,
+    "author": "realAsma",
+    "title": "Clarify end-to-end test expectations",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "commit": "0593df0eb3d9db822618fc7547b2db0183bdcbe7",
+    "pr_number": 1661,
+    "author": "gcunhase",
+    "title": "[6241485] Add support for ONNX Q/DQ node placement for DLA",
+    "tags": [
+      "example",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "commit": "089c06e4133f28c78a8fef97089ec3bffe4206b7",
+    "pr_number": 1945,
+    "author": "chadvoegele",
+    "title": "fix(skills): Update Agent Skills Based on Observed Failures Modes in Trials",
+    "tags": [
+      "infra"
     ]
   },
   {

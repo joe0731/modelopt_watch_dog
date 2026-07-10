@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-09 | [0593df0e](https://github.com/NVIDIA/Model-Optimizer/commit/0593df0eb3d9db822618fc7547b2db0183bdcbe7) | [#1661](https://github.com/NVIDIA/Model-Optimizer/pull/1661) | [@gcunhase](https://github.com/gcunhase) | `example` `infra` `onnx` `quantization` `tests` | \[6241485\] Add support for ONNX Q/DQ node placement for DLA |
 | 2026-07-08 | [6b4ad858](https://github.com/NVIDIA/Model-Optimizer/commit/6b4ad85849268105f0586d166871fc7140cc1b1e) | [#1706](https://github.com/NVIDIA/Model-Optimizer/pull/1706) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Qwen-Image diffusers PTQ: FP8 / NVFP4 / NVFP4-SVDQuant HF checkpoints |
 | 2026-07-07 | [bc5bc1ac](https://github.com/NVIDIA/Model-Optimizer/commit/bc5bc1ac5f64fd24395f3ee65311b2d158957b54) | [#1846](https://github.com/NVIDIA/Model-Optimizer/pull/1846) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Add Final Norm for vLLM Hidden Extractor |
 | 2026-07-03 | [75b58037](https://github.com/NVIDIA/Model-Optimizer/commit/75b580379a0e5bca52265639cdfb7a9a11265c6a) | [#1872](https://github.com/NVIDIA/Model-Optimizer/pull/1872) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `eval` `example` `infra` `torch` | Create a user guide: ModelOpt for Researchers: Fast Experimentation Workflows |
@@ -252,4 +253,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 246 PRs**
+**Total: 247 PRs**
