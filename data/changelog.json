@@ -1,5 +1,33 @@
 [
   {
+    "date": "2026-07-11",
+    "commit": "d641b4a5242f36815019169776a84a8e882565ca",
+    "pr_number": 1884,
+    "author": "realAsma",
+    "title": "Add LSQ (Learned Scale Quantization) support and recipes",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-11",
+    "commit": "7ed19b290692f801a54be7266de0c34871a58949",
+    "pr_number": 1960,
+    "author": "h-guo18",
+    "title": "[Feat]: SWA (sliding-window attention) support for DFlash drafter training",
+    "tags": [
+      "export",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-10",
     "commit": "d69d5aab8bcc7f905d39f96953621286bc2533be",
     "pr_number": 1934,
@@ -7,6 +35,19 @@
     "title": "[Examples]: Kimi-K2.6/K2.7-Code Dflash/Dspark",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-07-10",
+    "commit": "aa183868cd0808b31e886bfc62fa8559df92da22",
+    "pr_number": 1947,
+    "author": "Edwardf0t1",
+    "title": "feat(quant): add constant_amax to pin activation input_scale (NVFP4 experts input_scale=1.0)",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
     ]
   },
   {

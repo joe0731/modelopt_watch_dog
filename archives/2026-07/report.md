@@ -8,7 +8,10 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-07-11 | [d641b4a5](https://github.com/NVIDIA/Model-Optimizer/commit/d641b4a5242f36815019169776a84a8e882565ca) | [#1884](https://github.com/NVIDIA/Model-Optimizer/pull/1884) | [@realAsma](https://github.com/realAsma) | `core` `example` `infra` `quantization` `tests` `torch` | Add LSQ (Learned Scale Quantization) support and recipes |
+|  | 2026-07-11 | [7ed19b29](https://github.com/NVIDIA/Model-Optimizer/commit/7ed19b290692f801a54be7266de0c34871a58949) | [#1960](https://github.com/NVIDIA/Model-Optimizer/pull/1960) | [@h-guo18](https://github.com/h-guo18) | `export` `speculative_decoding` `tests` `torch` | \[Feat\]: SWA (sliding-window attention) support for DFlash drafter training |
 |  | 2026-07-10 | [d69d5aab](https://github.com/NVIDIA/Model-Optimizer/commit/d69d5aab8bcc7f905d39f96953621286bc2533be) | [#1934](https://github.com/NVIDIA/Model-Optimizer/pull/1934) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Examples\]: Kimi-K2.6/K2.7-Code Dflash/Dspark |
+|  | 2026-07-10 | [aa183868](https://github.com/NVIDIA/Model-Optimizer/commit/aa183868cd0808b31e886bfc62fa8559df92da22) | [#1947](https://github.com/NVIDIA/Model-Optimizer/pull/1947) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `quantization` `tests` `torch` | feat(quant): add constant_amax to pin activation input_scale (NVFP4 experts input_scale=1.0) |
 |  | 2026-07-09 | [66633d82](https://github.com/NVIDIA/Model-Optimizer/commit/66633d820fc0eb824c6f769a1f0f1f331b2633b1) | [#1935](https://github.com/NVIDIA/Model-Optimizer/pull/1935) | [@mxinO](https://github.com/mxinO) | `quantization` `tests` `torch` | Minor fix constant amax repr |
 |  | 2026-07-09 | [e96d7a21](https://github.com/NVIDIA/Model-Optimizer/commit/e96d7a21e8de28d5b0c3a712ff327d2fd3d37daf) | [#1948](https://github.com/NVIDIA/Model-Optimizer/pull/1948) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Chore\]Dspark license |
 |  | 2026-07-09 | [f7bd18e3](https://github.com/NVIDIA/Model-Optimizer/commit/f7bd18e38cada83bd2d25c4e9611bb40e1c7d75a) | [#1873](https://github.com/NVIDIA/Model-Optimizer/pull/1873) | [@nvSiruiW](https://github.com/nvSiruiW) | `tests` | Add deployment test cases, fix deployment-related issues, and remove private models |
@@ -40,4 +43,4 @@
 |  | 2026-07-01 | [892d27aa](https://github.com/NVIDIA/Model-Optimizer/commit/892d27aa768ac92f00423b9069467a8eb24f9e98) | [#1877](https://github.com/NVIDIA/Model-Optimizer/pull/1877) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | Fix expert-only MSE recipe matching for NemotronH |
 
 ---
-**Total: 30 PRs** | **Highlighted: 4**
+**Total: 33 PRs** | **Highlighted: 4**

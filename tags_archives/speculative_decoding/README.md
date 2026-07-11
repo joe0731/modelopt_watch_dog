@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-11 | [7ed19b29](https://github.com/NVIDIA/Model-Optimizer/commit/7ed19b290692f801a54be7266de0c34871a58949) | [#1960](https://github.com/NVIDIA/Model-Optimizer/pull/1960) | [@h-guo18](https://github.com/h-guo18) | `export` `speculative_decoding` `tests` `torch` | \[Feat\]: SWA (sliding-window attention) support for DFlash drafter training |
 | 2026-07-09 | [e96d7a21](https://github.com/NVIDIA/Model-Optimizer/commit/e96d7a21e8de28d5b0c3a712ff327d2fd3d37daf) | [#1948](https://github.com/NVIDIA/Model-Optimizer/pull/1948) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Chore\]Dspark license |
 | 2026-07-07 | [bc5bc1ac](https://github.com/NVIDIA/Model-Optimizer/commit/bc5bc1ac5f64fd24395f3ee65311b2d158957b54) | [#1846](https://github.com/NVIDIA/Model-Optimizer/pull/1846) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Feat\]: Add Final Norm for vLLM Hidden Extractor |
 | 2026-07-07 | [d290839d](https://github.com/NVIDIA/Model-Optimizer/commit/d290839dc91339094c55077175ff2205a4f88960) | [#1849](https://github.com/NVIDIA/Model-Optimizer/pull/1849) | [@h-guo18](https://github.com/h-guo18) | `export` `speculative_decoding` `tests` `torch` | \[Feat\]: Support Dspark |
@@ -79,4 +80,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 73 PRs**
+**Total: 74 PRs**

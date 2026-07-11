@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-11 | [d641b4a5](https://github.com/NVIDIA/Model-Optimizer/commit/d641b4a5242f36815019169776a84a8e882565ca) | [#1884](https://github.com/NVIDIA/Model-Optimizer/pull/1884) | [@realAsma](https://github.com/realAsma) | `core` `example` `infra` `quantization` `tests` `torch` | Add LSQ (Learned Scale Quantization) support and recipes |
 | 2026-07-10 | [d69d5aab](https://github.com/NVIDIA/Model-Optimizer/commit/d69d5aab8bcc7f905d39f96953621286bc2533be) | [#1934](https://github.com/NVIDIA/Model-Optimizer/pull/1934) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Examples\]: Kimi-K2.6/K2.7-Code Dflash/Dspark |
+| 2026-07-10 | [aa183868](https://github.com/NVIDIA/Model-Optimizer/commit/aa183868cd0808b31e886bfc62fa8559df92da22) | [#1947](https://github.com/NVIDIA/Model-Optimizer/pull/1947) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `quantization` `tests` `torch` | feat(quant): add constant_amax to pin activation input_scale (NVFP4 experts input_scale=1.0) |
 | 2026-07-09 | [e96d7a21](https://github.com/NVIDIA/Model-Optimizer/commit/e96d7a21e8de28d5b0c3a712ff327d2fd3d37daf) | [#1948](https://github.com/NVIDIA/Model-Optimizer/pull/1948) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Chore\]Dspark license |
 | 2026-07-09 | [42458def](https://github.com/NVIDIA/Model-Optimizer/commit/42458def249ff92d03016be2b37431e1f0505f20) | [#1951](https://github.com/NVIDIA/Model-Optimizer/pull/1951) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | ci: fix torch_trt on torch 2.13; default unit tests to torch 2.13; add example allow-failure hatch |
 | 2026-07-09 | [e911c3b7](https://github.com/NVIDIA/Model-Optimizer/commit/e911c3b7fd75a5775a644df9e5579c6588c87022) | [#1803](https://github.com/NVIDIA/Model-Optimizer/pull/1803) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` | Puzzletron tutorial fixes for runtime optimization |
@@ -393,4 +395,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 387 PRs**
+**Total: 389 PRs**
