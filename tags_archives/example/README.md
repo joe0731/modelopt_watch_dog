@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-13 | [4d19ca1a](https://github.com/NVIDIA/Model-Optimizer/commit/4d19ca1a08183701fbb99ce2026336cd9a309f25) | [#1888](https://github.com/NVIDIA/Model-Optimizer/pull/1888) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `example` `infra` `pruning` `tests` `torch` | Create a tool for data blend preparation to enable fast experimentation with distillation |
 | 2026-07-11 | [d641b4a5](https://github.com/NVIDIA/Model-Optimizer/commit/d641b4a5242f36815019169776a84a8e882565ca) | [#1884](https://github.com/NVIDIA/Model-Optimizer/pull/1884) | [@realAsma](https://github.com/realAsma) | `core` `example` `infra` `quantization` `tests` `torch` | Add LSQ (Learned Scale Quantization) support and recipes |
 | 2026-07-09 | [0593df0e](https://github.com/NVIDIA/Model-Optimizer/commit/0593df0eb3d9db822618fc7547b2db0183bdcbe7) | [#1661](https://github.com/NVIDIA/Model-Optimizer/pull/1661) | [@gcunhase](https://github.com/gcunhase) | `example` `infra` `onnx` `quantization` `tests` | \[6241485\] Add support for ONNX Q/DQ node placement for DLA |
 | 2026-07-08 | [6b4ad858](https://github.com/NVIDIA/Model-Optimizer/commit/6b4ad85849268105f0586d166871fc7140cc1b1e) | [#1706](https://github.com/NVIDIA/Model-Optimizer/pull/1706) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Qwen-Image diffusers PTQ: FP8 / NVFP4 / NVFP4-SVDQuant HF checkpoints |
@@ -254,4 +255,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 248 PRs**
+**Total: 249 PRs**

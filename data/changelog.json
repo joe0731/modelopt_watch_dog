@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-07-14",
+    "commit": "7b8da80205ba07a6ec630529d683047cdbce9b42",
+    "pr_number": 1970,
+    "author": "cjluo-nv",
+    "title": "docs(recipes): sync ptq.md with shipped recipes and enforce via unit tests",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-07-14",
+    "commit": "92296aeac2027f13073e9457792fe10f54553287",
+    "pr_number": 1967,
+    "author": "ChenhanYu",
+    "title": "fix(mmlu): expert-DP batch sharding for MoE + Nano-30B-A3B PTQ example",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-14",
+    "commit": "dca6ecd80434896cb12516e703818c24e410e9e1",
+    "pr_number": 1939,
+    "author": "sychen52",
+    "title": "Registry-based module dispatch for unified_export_hf.py",
+    "tags": [
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-14",
+    "commit": "f479e7890f0d276e061d69b5a0d70d477ec863f2",
+    "pr_number": 1631,
+    "author": "yueshen2016",
+    "title": "fix(export): correct unified_export_megatron at EP > 1 and DP > 1",
+    "tags": [
+      "core",
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-13",
     "commit": "429373bdaa6d2b6f575350a33a06de3a5476c33a",
     "pr_number": 1968,
@@ -7,6 +56,21 @@
     "title": "[chore]: weekly bump of uv.lock on main (2026-07-13)",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-07-13",
+    "commit": "4d19ca1a08183701fbb99ce2026336cd9a309f25",
+    "pr_number": 1888,
+    "author": "danielkorzekwa",
+    "title": "Create a tool for data blend preparation to enable fast experimentation with distillation",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "pruning",
+      "tests",
+      "torch"
     ]
   },
   {

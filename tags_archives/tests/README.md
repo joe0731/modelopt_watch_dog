@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-14 | [7b8da802](https://github.com/NVIDIA/Model-Optimizer/commit/7b8da80205ba07a6ec630529d683047cdbce9b42) | [#1970](https://github.com/NVIDIA/Model-Optimizer/pull/1970) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `tests` | docs(recipes): sync ptq.md with shipped recipes and enforce via unit tests |
+| 2026-07-14 | [92296aea](https://github.com/NVIDIA/Model-Optimizer/commit/92296aeac2027f13073e9457792fe10f54553287) | [#1967](https://github.com/NVIDIA/Model-Optimizer/pull/1967) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `infra` `tests` `torch` | fix(mmlu): expert-DP batch sharding for MoE + Nano-30B-A3B PTQ example |
+| 2026-07-14 | [dca6ecd8](https://github.com/NVIDIA/Model-Optimizer/commit/dca6ecd80434896cb12516e703818c24e410e9e1) | [#1939](https://github.com/NVIDIA/Model-Optimizer/pull/1939) | [@sychen52](https://github.com/sychen52) | `export` `tests` `torch` | Registry-based module dispatch for unified_export_hf.py |
+| 2026-07-14 | [f479e789](https://github.com/NVIDIA/Model-Optimizer/commit/f479e7890f0d276e061d69b5a0d70d477ec863f2) | [#1631](https://github.com/NVIDIA/Model-Optimizer/pull/1631) | [@yueshen2016](https://github.com/yueshen2016) | `core` `export` `tests` `torch` | fix(export): correct unified_export_megatron at EP \> 1 and DP \> 1 |
+| 2026-07-13 | [4d19ca1a](https://github.com/NVIDIA/Model-Optimizer/commit/4d19ca1a08183701fbb99ce2026336cd9a309f25) | [#1888](https://github.com/NVIDIA/Model-Optimizer/pull/1888) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `example` `infra` `pruning` `tests` `torch` | Create a tool for data blend preparation to enable fast experimentation with distillation |
 | 2026-07-11 | [d641b4a5](https://github.com/NVIDIA/Model-Optimizer/commit/d641b4a5242f36815019169776a84a8e882565ca) | [#1884](https://github.com/NVIDIA/Model-Optimizer/pull/1884) | [@realAsma](https://github.com/realAsma) | `core` `example` `infra` `quantization` `tests` `torch` | Add LSQ (Learned Scale Quantization) support and recipes |
 | 2026-07-11 | [7ed19b29](https://github.com/NVIDIA/Model-Optimizer/commit/7ed19b290692f801a54be7266de0c34871a58949) | [#1960](https://github.com/NVIDIA/Model-Optimizer/pull/1960) | [@h-guo18](https://github.com/h-guo18) | `export` `speculative_decoding` `tests` `torch` | \[Feat\]: SWA (sliding-window attention) support for DFlash drafter training |
 | 2026-07-10 | [aa183868](https://github.com/NVIDIA/Model-Optimizer/commit/aa183868cd0808b31e886bfc62fa8559df92da22) | [#1947](https://github.com/NVIDIA/Model-Optimizer/pull/1947) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `quantization` `tests` `torch` | feat(quant): add constant_amax to pin activation input_scale (NVFP4 experts input_scale=1.0) |
@@ -288,4 +293,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 282 PRs**
+**Total: 287 PRs**

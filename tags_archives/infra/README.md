@@ -4,7 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-14 | [7b8da802](https://github.com/NVIDIA/Model-Optimizer/commit/7b8da80205ba07a6ec630529d683047cdbce9b42) | [#1970](https://github.com/NVIDIA/Model-Optimizer/pull/1970) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `tests` | docs(recipes): sync ptq.md with shipped recipes and enforce via unit tests |
+| 2026-07-14 | [92296aea](https://github.com/NVIDIA/Model-Optimizer/commit/92296aeac2027f13073e9457792fe10f54553287) | [#1967](https://github.com/NVIDIA/Model-Optimizer/pull/1967) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `infra` `tests` `torch` | fix(mmlu): expert-DP batch sharding for MoE + Nano-30B-A3B PTQ example |
 | 2026-07-13 | [429373bd](https://github.com/NVIDIA/Model-Optimizer/commit/429373bdaa6d2b6f575350a33a06de3a5476c33a) | [#1968](https://github.com/NVIDIA/Model-Optimizer/pull/1968) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-07-13) |
+| 2026-07-13 | [4d19ca1a](https://github.com/NVIDIA/Model-Optimizer/commit/4d19ca1a08183701fbb99ce2026336cd9a309f25) | [#1888](https://github.com/NVIDIA/Model-Optimizer/pull/1888) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `example` `infra` `pruning` `tests` `torch` | Create a tool for data blend preparation to enable fast experimentation with distillation |
 | 2026-07-11 | [d641b4a5](https://github.com/NVIDIA/Model-Optimizer/commit/d641b4a5242f36815019169776a84a8e882565ca) | [#1884](https://github.com/NVIDIA/Model-Optimizer/pull/1884) | [@realAsma](https://github.com/realAsma) | `core` `example` `infra` `quantization` `tests` `torch` | Add LSQ (Learned Scale Quantization) support and recipes |
 | 2026-07-10 | [d69d5aab](https://github.com/NVIDIA/Model-Optimizer/commit/d69d5aab8bcc7f905d39f96953621286bc2533be) | [#1934](https://github.com/NVIDIA/Model-Optimizer/pull/1934) | [@h-guo18](https://github.com/h-guo18) | `infra` | \[Examples\]: Kimi-K2.6/K2.7-Code Dflash/Dspark |
 | 2026-07-10 | [aa183868](https://github.com/NVIDIA/Model-Optimizer/commit/aa183868cd0808b31e886bfc62fa8559df92da22) | [#1947](https://github.com/NVIDIA/Model-Optimizer/pull/1947) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `quantization` `tests` `torch` | feat(quant): add constant_amax to pin activation input_scale (NVFP4 experts input_scale=1.0) |
@@ -396,4 +399,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 390 PRs**
+**Total: 393 PRs**
