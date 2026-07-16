@@ -1,5 +1,59 @@
 [
   {
+    "date": "2026-07-16",
+    "commit": "85bc559cb78ad873f5ef52dfc3b81a9ab4592063",
+    "pr_number": 1898,
+    "author": "kaix-nv",
+    "title": "Add nvfp4 attention support for vLLM serving",
+    "tags": [
+      "deploy",
+      "example",
+      "infra",
+      "quantization",
+      "sparsity",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "commit": "3a2f6160935c19b9d29a871428e0ba352e3df94e",
+    "pr_number": 1963,
+    "author": "Edwardf0t1",
+    "title": "feat(quant): skip max-calib forward when no activation needs data",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-16",
+    "commit": "cba8a5c62a1a54fe89fb69bfd484ea0a653c633a",
+    "pr_number": 1782,
+    "author": "haoxiz-nvidia",
+    "title": "Add: support input_shape_profile for trt-rtx ep",
+    "tags": [
+      "example",
+      "onnx",
+      "quantization",
+      "tests",
+      "windows"
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "commit": "95ee9c40c658d132594fd4e31d51aa3d9405f03d",
+    "pr_number": 1868,
+    "author": "sugunav14",
+    "title": "Add recipe used for Qwen3.5 397B NVFP4 V2 checkpoint",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-07-14",
     "commit": "7b8da80205ba07a6ec630529d683047cdbce9b42",
     "pr_number": 1970,

@@ -8,6 +8,10 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+| 🔵 | **2026-07-16** | **[85bc559c](https://github.com/NVIDIA/Model-Optimizer/commit/85bc559cb78ad873f5ef52dfc3b81a9ab4592063)** | **[#1898](https://github.com/NVIDIA/Model-Optimizer/pull/1898)** | **[@kaix-nv](https://github.com/kaix-nv)** | `deploy` `example` `infra` `quantization` `sparsity` `tests` `torch` `vllm` | **Add nvfp4 attention support for vLLM serving** |
+|  | 2026-07-16 | [3a2f6160](https://github.com/NVIDIA/Model-Optimizer/commit/3a2f6160935c19b9d29a871428e0ba352e3df94e) | [#1963](https://github.com/NVIDIA/Model-Optimizer/pull/1963) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `quantization` `tests` `torch` | feat(quant): skip max-calib forward when no activation needs data |
+| 🟠 | **2026-07-16** | **[cba8a5c6](https://github.com/NVIDIA/Model-Optimizer/commit/cba8a5c62a1a54fe89fb69bfd484ea0a653c633a)** | **[#1782](https://github.com/NVIDIA/Model-Optimizer/pull/1782)** | **[@haoxiz-nvidia](https://github.com/haoxiz-nvidia)** | `example` `onnx` `quantization` `tests` `windows` | **Add: support input_shape_profile for trt-rtx ep** |
+|  | 2026-07-15 | [95ee9c40](https://github.com/NVIDIA/Model-Optimizer/commit/95ee9c40c658d132594fd4e31d51aa3d9405f03d) | [#1868](https://github.com/NVIDIA/Model-Optimizer/pull/1868) | [@sugunav14](https://github.com/sugunav14) | `infra` | Add recipe used for Qwen3.5 397B NVFP4 V2 checkpoint |
 |  | 2026-07-14 | [7b8da802](https://github.com/NVIDIA/Model-Optimizer/commit/7b8da80205ba07a6ec630529d683047cdbce9b42) | [#1970](https://github.com/NVIDIA/Model-Optimizer/pull/1970) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `tests` | docs(recipes): sync ptq.md with shipped recipes and enforce via unit tests |
 |  | 2026-07-14 | [92296aea](https://github.com/NVIDIA/Model-Optimizer/commit/92296aeac2027f13073e9457792fe10f54553287) | [#1967](https://github.com/NVIDIA/Model-Optimizer/pull/1967) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `infra` `tests` `torch` | fix(mmlu): expert-DP batch sharding for MoE + Nano-30B-A3B PTQ example |
 |  | 2026-07-14 | [dca6ecd8](https://github.com/NVIDIA/Model-Optimizer/commit/dca6ecd80434896cb12516e703818c24e410e9e1) | [#1939](https://github.com/NVIDIA/Model-Optimizer/pull/1939) | [@sychen52](https://github.com/sychen52) | `export` `tests` `torch` | Registry-based module dispatch for unified_export_hf.py |
@@ -49,4 +53,4 @@
 |  | 2026-07-01 | [892d27aa](https://github.com/NVIDIA/Model-Optimizer/commit/892d27aa768ac92f00423b9069467a8eb24f9e98) | [#1877](https://github.com/NVIDIA/Model-Optimizer/pull/1877) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | Fix expert-only MSE recipe matching for NemotronH |
 
 ---
-**Total: 39 PRs** | **Highlighted: 4**
+**Total: 43 PRs** | **Highlighted: 6**
