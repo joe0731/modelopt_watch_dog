@@ -6,6 +6,8 @@
 |------|--------|-------|--------|----------|-------------|
 | 2026-07-16 | [85bc559c](https://github.com/NVIDIA/Model-Optimizer/commit/85bc559cb78ad873f5ef52dfc3b81a9ab4592063) | [#1898](https://github.com/NVIDIA/Model-Optimizer/pull/1898) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `quantization` `sparsity` `tests` `torch` `vllm` | Add nvfp4 attention support for vLLM serving |
 | 2026-07-16 | [3a2f6160](https://github.com/NVIDIA/Model-Optimizer/commit/3a2f6160935c19b9d29a871428e0ba352e3df94e) | [#1963](https://github.com/NVIDIA/Model-Optimizer/pull/1963) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `quantization` `tests` `torch` | feat(quant): skip max-calib forward when no activation needs data |
+| 2026-07-16 | [21d0069e](https://github.com/NVIDIA/Model-Optimizer/commit/21d0069e4d6c2a609081a74816cc5a841d770292) | [#1938](https://github.com/NVIDIA/Model-Optimizer/pull/1938) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | MBridge VLM distillation / QAD support |
+| 2026-07-16 | [bd1864df](https://github.com/NVIDIA/Model-Optimizer/commit/bd1864df5850791026c6aef88d3fdfaaef255d3c) | [#1928](https://github.com/NVIDIA/Model-Optimizer/pull/1928) | [@galagam](https://github.com/galagam) | `infra` `onnx` `quantization` `tests` | \[6403893\]\[ONNX\]\[AutoCast\] Fix false-success TRT parse for large ModelProto |
 | 2026-07-15 | [95ee9c40](https://github.com/NVIDIA/Model-Optimizer/commit/95ee9c40c658d132594fd4e31d51aa3d9405f03d) | [#1868](https://github.com/NVIDIA/Model-Optimizer/pull/1868) | [@sugunav14](https://github.com/sugunav14) | `infra` | Add recipe used for Qwen3.5 397B NVFP4 V2 checkpoint |
 | 2026-07-14 | [7b8da802](https://github.com/NVIDIA/Model-Optimizer/commit/7b8da80205ba07a6ec630529d683047cdbce9b42) | [#1970](https://github.com/NVIDIA/Model-Optimizer/pull/1970) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `tests` | docs(recipes): sync ptq.md with shipped recipes and enforce via unit tests |
 | 2026-07-14 | [92296aea](https://github.com/NVIDIA/Model-Optimizer/commit/92296aeac2027f13073e9457792fe10f54553287) | [#1967](https://github.com/NVIDIA/Model-Optimizer/pull/1967) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `infra` `tests` `torch` | fix(mmlu): expert-DP batch sharding for MoE + Nano-30B-A3B PTQ example |
@@ -402,4 +404,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 396 PRs**
+**Total: 398 PRs**

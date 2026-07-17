@@ -6,6 +6,7 @@
 |------|--------|-------|--------|----------|-------------|
 | 2026-07-16 | [85bc559c](https://github.com/NVIDIA/Model-Optimizer/commit/85bc559cb78ad873f5ef52dfc3b81a9ab4592063) | [#1898](https://github.com/NVIDIA/Model-Optimizer/pull/1898) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `quantization` `sparsity` `tests` `torch` `vllm` | Add nvfp4 attention support for vLLM serving |
 | 2026-07-16 | [3a2f6160](https://github.com/NVIDIA/Model-Optimizer/commit/3a2f6160935c19b9d29a871428e0ba352e3df94e) | [#1963](https://github.com/NVIDIA/Model-Optimizer/pull/1963) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `quantization` `tests` `torch` | feat(quant): skip max-calib forward when no activation needs data |
+| 2026-07-16 | [21d0069e](https://github.com/NVIDIA/Model-Optimizer/commit/21d0069e4d6c2a609081a74816cc5a841d770292) | [#1938](https://github.com/NVIDIA/Model-Optimizer/pull/1938) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | MBridge VLM distillation / QAD support |
 | 2026-07-14 | [92296aea](https://github.com/NVIDIA/Model-Optimizer/commit/92296aeac2027f13073e9457792fe10f54553287) | [#1967](https://github.com/NVIDIA/Model-Optimizer/pull/1967) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `infra` `tests` `torch` | fix(mmlu): expert-DP batch sharding for MoE + Nano-30B-A3B PTQ example |
 | 2026-07-14 | [dca6ecd8](https://github.com/NVIDIA/Model-Optimizer/commit/dca6ecd80434896cb12516e703818c24e410e9e1) | [#1939](https://github.com/NVIDIA/Model-Optimizer/pull/1939) | [@sychen52](https://github.com/sychen52) | `export` `tests` `torch` | Registry-based module dispatch for unified_export_hf.py |
 | 2026-07-14 | [f479e789](https://github.com/NVIDIA/Model-Optimizer/commit/f479e7890f0d276e061d69b5a0d70d477ec863f2) | [#1631](https://github.com/NVIDIA/Model-Optimizer/pull/1631) | [@yueshen2016](https://github.com/yueshen2016) | `core` `export` `tests` `torch` | fix(export): correct unified_export_megatron at EP \> 1 and DP \> 1 |
@@ -398,4 +399,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 392 PRs**
+**Total: 393 PRs**
