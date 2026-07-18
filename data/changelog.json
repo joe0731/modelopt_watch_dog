@@ -1,5 +1,43 @@
 [
   {
+    "date": "2026-07-17",
+    "commit": "c9dbb5e157fc68934641bf5928a8e34fa3a3a90d",
+    "pr_number": 1962,
+    "author": "chadvoegele",
+    "title": "Fix per-tensor FP8 weight dequantization",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "commit": "d142f7ee10851bd223ea76b4d611074c37b3d014",
+    "pr_number": 1943,
+    "author": "gcunhase",
+    "title": "[6385267][ONNX][Autocast] Preserve graph-output Cast producers",
+    "tags": [
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "commit": "9392dfeabfde8695e9f58421c551ea8004fc3a1a",
+    "pr_number": 1987,
+    "author": "Separius",
+    "title": "Remove Puzzletron bypass distillation",
+    "tags": [
+      "example",
+      "infra",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-16",
     "commit": "85bc559cb78ad873f5ef52dfc3b81a9ab4592063",
     "pr_number": 1898,

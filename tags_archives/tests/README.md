@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-17 | [c9dbb5e1](https://github.com/NVIDIA/Model-Optimizer/commit/c9dbb5e157fc68934641bf5928a8e34fa3a3a90d) | [#1962](https://github.com/NVIDIA/Model-Optimizer/pull/1962) | [@chadvoegele](https://github.com/chadvoegele) | `infra` `quantization` `tests` `torch` | Fix per-tensor FP8 weight dequantization |
+| 2026-07-17 | [d142f7ee](https://github.com/NVIDIA/Model-Optimizer/commit/d142f7ee10851bd223ea76b4d611074c37b3d014) | [#1943](https://github.com/NVIDIA/Model-Optimizer/pull/1943) | [@gcunhase](https://github.com/gcunhase) | `onnx` `tests` | \[6385267\]\[ONNX\]\[Autocast\] Preserve graph-output Cast producers |
+| 2026-07-17 | [9392dfea](https://github.com/NVIDIA/Model-Optimizer/commit/9392dfeabfde8695e9f58421c551ea8004fc3a1a) | [#1987](https://github.com/NVIDIA/Model-Optimizer/pull/1987) | [@Separius](https://github.com/Separius) | `example` `infra` `pruning` `tests` `torch` | Remove Puzzletron bypass distillation |
 | 2026-07-16 | [85bc559c](https://github.com/NVIDIA/Model-Optimizer/commit/85bc559cb78ad873f5ef52dfc3b81a9ab4592063) | [#1898](https://github.com/NVIDIA/Model-Optimizer/pull/1898) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `quantization` `sparsity` `tests` `torch` `vllm` | Add nvfp4 attention support for vLLM serving |
 | 2026-07-16 | [3a2f6160](https://github.com/NVIDIA/Model-Optimizer/commit/3a2f6160935c19b9d29a871428e0ba352e3df94e) | [#1963](https://github.com/NVIDIA/Model-Optimizer/pull/1963) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `quantization` `tests` `torch` | feat(quant): skip max-calib forward when no activation needs data |
 | 2026-07-16 | [cba8a5c6](https://github.com/NVIDIA/Model-Optimizer/commit/cba8a5c62a1a54fe89fb69bfd484ea0a653c633a) | [#1782](https://github.com/NVIDIA/Model-Optimizer/pull/1782) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `example` `onnx` `quantization` `tests` `windows` | Add: support input_shape_profile for trt-rtx ep |
@@ -298,4 +301,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 292 PRs**
+**Total: 295 PRs**

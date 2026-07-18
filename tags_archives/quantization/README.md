@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-17 | [c9dbb5e1](https://github.com/NVIDIA/Model-Optimizer/commit/c9dbb5e157fc68934641bf5928a8e34fa3a3a90d) | [#1962](https://github.com/NVIDIA/Model-Optimizer/pull/1962) | [@chadvoegele](https://github.com/chadvoegele) | `infra` `quantization` `tests` `torch` | Fix per-tensor FP8 weight dequantization |
 | 2026-07-16 | [85bc559c](https://github.com/NVIDIA/Model-Optimizer/commit/85bc559cb78ad873f5ef52dfc3b81a9ab4592063) | [#1898](https://github.com/NVIDIA/Model-Optimizer/pull/1898) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `quantization` `sparsity` `tests` `torch` `vllm` | Add nvfp4 attention support for vLLM serving |
 | 2026-07-16 | [3a2f6160](https://github.com/NVIDIA/Model-Optimizer/commit/3a2f6160935c19b9d29a871428e0ba352e3df94e) | [#1963](https://github.com/NVIDIA/Model-Optimizer/pull/1963) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `quantization` `tests` `torch` | feat(quant): skip max-calib forward when no activation needs data |
 | 2026-07-16 | [cba8a5c6](https://github.com/NVIDIA/Model-Optimizer/commit/cba8a5c62a1a54fe89fb69bfd484ea0a653c633a) | [#1782](https://github.com/NVIDIA/Model-Optimizer/pull/1782) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `example` `onnx` `quantization` `tests` `windows` | Add: support input_shape_profile for trt-rtx ep |
@@ -256,4 +257,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 250 PRs**
+**Total: 251 PRs**

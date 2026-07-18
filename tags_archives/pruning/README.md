@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-17 | [9392dfea](https://github.com/NVIDIA/Model-Optimizer/commit/9392dfeabfde8695e9f58421c551ea8004fc3a1a) | [#1987](https://github.com/NVIDIA/Model-Optimizer/pull/1987) | [@Separius](https://github.com/Separius) | `example` `infra` `pruning` `tests` `torch` | Remove Puzzletron bypass distillation |
 | 2026-07-16 | [21d0069e](https://github.com/NVIDIA/Model-Optimizer/commit/21d0069e4d6c2a609081a74816cc5a841d770292) | [#1938](https://github.com/NVIDIA/Model-Optimizer/pull/1938) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | MBridge VLM distillation / QAD support |
 | 2026-07-13 | [4d19ca1a](https://github.com/NVIDIA/Model-Optimizer/commit/4d19ca1a08183701fbb99ce2026336cd9a309f25) | [#1888](https://github.com/NVIDIA/Model-Optimizer/pull/1888) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `example` `infra` `pruning` `tests` `torch` | Create a tool for data blend preparation to enable fast experimentation with distillation |
 | 2026-06-30 | [2fc352be](https://github.com/NVIDIA/Model-Optimizer/commit/2fc352be2d223bbb321ca30a5e10b095caf8602e) | [#1792](https://github.com/NVIDIA/Model-Optimizer/pull/1792) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `tests` `torch` | Add VLM pruning and PTQ with image-text calibration (Megatron-Bridge) |
@@ -37,4 +38,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 31 PRs**
+**Total: 32 PRs**
