@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-20 | [8ae74079](https://github.com/NVIDIA/Model-Optimizer/commit/8ae7407973f2db8e369d1abd0bc0127a3eb3d327) | [#1985](https://github.com/NVIDIA/Model-Optimizer/pull/1985) | [@gcunhase](https://github.com/gcunhase) | `export` `infra` `onnx` `quantization` `tests` `torch` | \[6421642\]\[ONNX\]\[Quantization\] Fix NVFP4 exporter node ordering |
+| 2026-07-20 | [7d5d3f90](https://github.com/NVIDIA/Model-Optimizer/commit/7d5d3f904620289e76287db865307168e79d68a6) | [#1806](https://github.com/NVIDIA/Model-Optimizer/pull/1806) | [@chadvoegele](https://github.com/chadvoegele) | `docs` `infra` `quantization` `tests` `torch` | MiniMax-M3 mixed MXFP8-base + NVFP4-experts PTQ export |
 | 2026-07-17 | [c9dbb5e1](https://github.com/NVIDIA/Model-Optimizer/commit/c9dbb5e157fc68934641bf5928a8e34fa3a3a90d) | [#1962](https://github.com/NVIDIA/Model-Optimizer/pull/1962) | [@chadvoegele](https://github.com/chadvoegele) | `infra` `quantization` `tests` `torch` | Fix per-tensor FP8 weight dequantization |
 | 2026-07-17 | [9392dfea](https://github.com/NVIDIA/Model-Optimizer/commit/9392dfeabfde8695e9f58421c551ea8004fc3a1a) | [#1987](https://github.com/NVIDIA/Model-Optimizer/pull/1987) | [@Separius](https://github.com/Separius) | `example` `infra` `pruning` `tests` `torch` | Remove Puzzletron bypass distillation |
 | 2026-07-16 | [85bc559c](https://github.com/NVIDIA/Model-Optimizer/commit/85bc559cb78ad873f5ef52dfc3b81a9ab4592063) | [#1898](https://github.com/NVIDIA/Model-Optimizer/pull/1898) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `quantization` `sparsity` `tests` `torch` `vllm` | Add nvfp4 attention support for vLLM serving |
@@ -401,4 +403,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 395 PRs**
+**Total: 397 PRs**

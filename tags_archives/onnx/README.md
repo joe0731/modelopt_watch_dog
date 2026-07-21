@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-20 | [8ae74079](https://github.com/NVIDIA/Model-Optimizer/commit/8ae7407973f2db8e369d1abd0bc0127a3eb3d327) | [#1985](https://github.com/NVIDIA/Model-Optimizer/pull/1985) | [@gcunhase](https://github.com/gcunhase) | `export` `infra` `onnx` `quantization` `tests` `torch` | \[6421642\]\[ONNX\]\[Quantization\] Fix NVFP4 exporter node ordering |
 | 2026-07-17 | [d142f7ee](https://github.com/NVIDIA/Model-Optimizer/commit/d142f7ee10851bd223ea76b4d611074c37b3d014) | [#1943](https://github.com/NVIDIA/Model-Optimizer/pull/1943) | [@gcunhase](https://github.com/gcunhase) | `onnx` `tests` | \[6385267\]\[ONNX\]\[Autocast\] Preserve graph-output Cast producers |
 | 2026-07-16 | [cba8a5c6](https://github.com/NVIDIA/Model-Optimizer/commit/cba8a5c62a1a54fe89fb69bfd484ea0a653c633a) | [#1782](https://github.com/NVIDIA/Model-Optimizer/pull/1782) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `example` `onnx` `quantization` `tests` `windows` | Add: support input_shape_profile for trt-rtx ep |
 | 2026-07-16 | [bd1864df](https://github.com/NVIDIA/Model-Optimizer/commit/bd1864df5850791026c6aef88d3fdfaaef255d3c) | [#1928](https://github.com/NVIDIA/Model-Optimizer/pull/1928) | [@galagam](https://github.com/galagam) | `infra` `onnx` `quantization` `tests` | \[6403893\]\[ONNX\]\[AutoCast\] Fix false-success TRT parse for large ModelProto |
@@ -94,4 +95,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 88 PRs**
+**Total: 89 PRs**

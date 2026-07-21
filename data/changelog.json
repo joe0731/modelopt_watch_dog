@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-07-20",
+    "commit": "5d0e9b2ca7f6cb44466dd22ed96a4729ca9b35d5",
+    "pr_number": 1994,
+    "author": "kevalmorabia97",
+    "title": "Fix MBridge VLM distill/qad tests using PP until 26.08",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-07-20",
+    "commit": "2e8722d41c1f93d3a09c24956ac9dafb19e28f61",
+    "pr_number": 1995,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-07-20)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-20",
+    "commit": "8ae7407973f2db8e369d1abd0bc0127a3eb3d327",
+    "pr_number": 1985,
+    "author": "gcunhase",
+    "title": "[6421642][ONNX][Quantization] Fix NVFP4 exporter node ordering",
+    "tags": [
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-20",
+    "commit": "7d5d3f904620289e76287db865307168e79d68a6",
+    "pr_number": 1806,
+    "author": "chadvoegele",
+    "title": "MiniMax-M3 mixed MXFP8-base + NVFP4-experts PTQ export",
+    "tags": [
+      "docs",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-17",
     "commit": "c9dbb5e157fc68934641bf5928a8e34fa3a3a90d",
     "pr_number": 1962,

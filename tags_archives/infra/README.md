@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-20 | [2e8722d4](https://github.com/NVIDIA/Model-Optimizer/commit/2e8722d41c1f93d3a09c24956ac9dafb19e28f61) | [#1995](https://github.com/NVIDIA/Model-Optimizer/pull/1995) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-07-20) |
+| 2026-07-20 | [8ae74079](https://github.com/NVIDIA/Model-Optimizer/commit/8ae7407973f2db8e369d1abd0bc0127a3eb3d327) | [#1985](https://github.com/NVIDIA/Model-Optimizer/pull/1985) | [@gcunhase](https://github.com/gcunhase) | `export` `infra` `onnx` `quantization` `tests` `torch` | \[6421642\]\[ONNX\]\[Quantization\] Fix NVFP4 exporter node ordering |
+| 2026-07-20 | [7d5d3f90](https://github.com/NVIDIA/Model-Optimizer/commit/7d5d3f904620289e76287db865307168e79d68a6) | [#1806](https://github.com/NVIDIA/Model-Optimizer/pull/1806) | [@chadvoegele](https://github.com/chadvoegele) | `docs` `infra` `quantization` `tests` `torch` | MiniMax-M3 mixed MXFP8-base + NVFP4-experts PTQ export |
 | 2026-07-17 | [c9dbb5e1](https://github.com/NVIDIA/Model-Optimizer/commit/c9dbb5e157fc68934641bf5928a8e34fa3a3a90d) | [#1962](https://github.com/NVIDIA/Model-Optimizer/pull/1962) | [@chadvoegele](https://github.com/chadvoegele) | `infra` `quantization` `tests` `torch` | Fix per-tensor FP8 weight dequantization |
 | 2026-07-17 | [9392dfea](https://github.com/NVIDIA/Model-Optimizer/commit/9392dfeabfde8695e9f58421c551ea8004fc3a1a) | [#1987](https://github.com/NVIDIA/Model-Optimizer/pull/1987) | [@Separius](https://github.com/Separius) | `example` `infra` `pruning` `tests` `torch` | Remove Puzzletron bypass distillation |
 | 2026-07-16 | [85bc559c](https://github.com/NVIDIA/Model-Optimizer/commit/85bc559cb78ad873f5ef52dfc3b81a9ab4592063) | [#1898](https://github.com/NVIDIA/Model-Optimizer/pull/1898) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `quantization` `sparsity` `tests` `torch` `vllm` | Add nvfp4 attention support for vLLM serving |
@@ -406,4 +409,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 400 PRs**
+**Total: 403 PRs**

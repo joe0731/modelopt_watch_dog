@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-20 | [7d5d3f90](https://github.com/NVIDIA/Model-Optimizer/commit/7d5d3f904620289e76287db865307168e79d68a6) | [#1806](https://github.com/NVIDIA/Model-Optimizer/pull/1806) | [@chadvoegele](https://github.com/chadvoegele) | `docs` `infra` `quantization` `tests` `torch` | MiniMax-M3 mixed MXFP8-base + NVFP4-experts PTQ export |
 | 2026-06-30 | [2fc352be](https://github.com/NVIDIA/Model-Optimizer/commit/2fc352be2d223bbb321ca30a5e10b095caf8602e) | [#1792](https://github.com/NVIDIA/Model-Optimizer/pull/1792) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `infra` `nas` `pruning` `tests` `torch` | Add VLM pruning and PTQ with image-text calibration (Megatron-Bridge) |
 | 2026-06-27 | [f335459d](https://github.com/NVIDIA/Model-Optimizer/commit/f335459dc053895bd7b0a77ecaa47e87c2080ab3) | [#1759](https://github.com/NVIDIA/Model-Optimizer/pull/1759) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `deploy` `docs` `eval` `example` `export` `infra` `pruning` `quantization` `speculative_decoding` `tests` `torch` `vllm` `vlm` | refactor(examples): rename llm_ptq → hf_ptq (symlink for back-compat) |
 | 2026-06-26 | [33bfa8b1](https://github.com/NVIDIA/Model-Optimizer/commit/33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2) | [#1818](https://github.com/NVIDIA/Model-Optimizer/pull/1818) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `distillation` `docs` `eval` `example` `export` `infra` `nas` `onnx` `peft` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `windows` | CI/Dev env bump |
@@ -42,4 +43,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 36 PRs**
+**Total: 37 PRs**

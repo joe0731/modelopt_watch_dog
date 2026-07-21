@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-20 | [5d0e9b2c](https://github.com/NVIDIA/Model-Optimizer/commit/5d0e9b2ca7f6cb44466dd22ed96a4729ca9b35d5) | [#1994](https://github.com/NVIDIA/Model-Optimizer/pull/1994) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `tests` | Fix MBridge VLM distill/qad tests using PP until 26.08 |
+| 2026-07-20 | [8ae74079](https://github.com/NVIDIA/Model-Optimizer/commit/8ae7407973f2db8e369d1abd0bc0127a3eb3d327) | [#1985](https://github.com/NVIDIA/Model-Optimizer/pull/1985) | [@gcunhase](https://github.com/gcunhase) | `export` `infra` `onnx` `quantization` `tests` `torch` | \[6421642\]\[ONNX\]\[Quantization\] Fix NVFP4 exporter node ordering |
+| 2026-07-20 | [7d5d3f90](https://github.com/NVIDIA/Model-Optimizer/commit/7d5d3f904620289e76287db865307168e79d68a6) | [#1806](https://github.com/NVIDIA/Model-Optimizer/pull/1806) | [@chadvoegele](https://github.com/chadvoegele) | `docs` `infra` `quantization` `tests` `torch` | MiniMax-M3 mixed MXFP8-base + NVFP4-experts PTQ export |
 | 2026-07-17 | [c9dbb5e1](https://github.com/NVIDIA/Model-Optimizer/commit/c9dbb5e157fc68934641bf5928a8e34fa3a3a90d) | [#1962](https://github.com/NVIDIA/Model-Optimizer/pull/1962) | [@chadvoegele](https://github.com/chadvoegele) | `infra` `quantization` `tests` `torch` | Fix per-tensor FP8 weight dequantization |
 | 2026-07-17 | [d142f7ee](https://github.com/NVIDIA/Model-Optimizer/commit/d142f7ee10851bd223ea76b4d611074c37b3d014) | [#1943](https://github.com/NVIDIA/Model-Optimizer/pull/1943) | [@gcunhase](https://github.com/gcunhase) | `onnx` `tests` | \[6385267\]\[ONNX\]\[Autocast\] Preserve graph-output Cast producers |
 | 2026-07-17 | [9392dfea](https://github.com/NVIDIA/Model-Optimizer/commit/9392dfeabfde8695e9f58421c551ea8004fc3a1a) | [#1987](https://github.com/NVIDIA/Model-Optimizer/pull/1987) | [@Separius](https://github.com/Separius) | `example` `infra` `pruning` `tests` `torch` | Remove Puzzletron bypass distillation |
@@ -301,4 +304,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 295 PRs**
+**Total: 298 PRs**
