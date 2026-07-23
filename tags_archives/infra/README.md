@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-22 | [309f0ea5](https://github.com/NVIDIA/Model-Optimizer/commit/309f0ea58d99aa54fbc52f445d9a8f7099bfa45b) | [#1949](https://github.com/NVIDIA/Model-Optimizer/pull/1949) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | \[OMNIML-5477, OMNIML-5119\] Add module-specific AutoQuant search spaces |
+| 2026-07-22 | [0baad645](https://github.com/NVIDIA/Model-Optimizer/commit/0baad6453a8123a4b4098ad9a86c404f7bc4694e) | [#1640](https://github.com/NVIDIA/Model-Optimizer/pull/1640) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `quantization` `tests` `torch` | feat: Layerwise calibration memory optimizations (non-mutating skip + meta placeholders) |
 | 2026-07-20 | [2e8722d4](https://github.com/NVIDIA/Model-Optimizer/commit/2e8722d41c1f93d3a09c24956ac9dafb19e28f61) | [#1995](https://github.com/NVIDIA/Model-Optimizer/pull/1995) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-07-20) |
 | 2026-07-20 | [8ae74079](https://github.com/NVIDIA/Model-Optimizer/commit/8ae7407973f2db8e369d1abd0bc0127a3eb3d327) | [#1985](https://github.com/NVIDIA/Model-Optimizer/pull/1985) | [@gcunhase](https://github.com/gcunhase) | `export` `infra` `onnx` `quantization` `tests` `torch` | \[6421642\]\[ONNX\]\[Quantization\] Fix NVFP4 exporter node ordering |
 | 2026-07-20 | [7d5d3f90](https://github.com/NVIDIA/Model-Optimizer/commit/7d5d3f904620289e76287db865307168e79d68a6) | [#1806](https://github.com/NVIDIA/Model-Optimizer/pull/1806) | [@chadvoegele](https://github.com/chadvoegele) | `docs` `infra` `quantization` `tests` `torch` | MiniMax-M3 mixed MXFP8-base + NVFP4-experts PTQ export |
@@ -409,4 +411,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 403 PRs**
+**Total: 405 PRs**

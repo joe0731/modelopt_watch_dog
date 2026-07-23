@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-07-22",
+    "commit": "309f0ea58d99aa54fbc52f445d9a8f7099bfa45b",
+    "pr_number": 1949,
+    "author": "meenchen",
+    "title": "[OMNIML-5477, OMNIML-5119] Add module-specific AutoQuant search spaces",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-22",
+    "commit": "0baad6453a8123a4b4098ad9a86c404f7bc4694e",
+    "pr_number": 1640,
+    "author": "Fridah-nv",
+    "title": "feat: Layerwise calibration memory optimizations (non-mutating skip + meta placeholders)",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-20",
     "commit": "5d0e9b2ca7f6cb44466dd22ed96a4729ca9b35d5",
     "pr_number": 1994,
