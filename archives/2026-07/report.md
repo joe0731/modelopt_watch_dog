@@ -8,6 +8,9 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-07-23 | [d39f385f](https://github.com/NVIDIA/Model-Optimizer/commit/d39f385fb86f132e462c0425a3156eb59b6b6458) | [#1897](https://github.com/NVIDIA/Model-Optimizer/pull/1897) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `example` `infra` `tests` `torch` | Save hf checkpoint at every valitation iteration during distillation. |
+|  | 2026-07-23 | [3edd137d](https://github.com/NVIDIA/Model-Optimizer/commit/3edd137d22ee51e0dd880b9741fac3308448a227) | [#1956](https://github.com/NVIDIA/Model-Optimizer/pull/1956) | [@shljessie](https://github.com/shljessie) | `infra` | docs: add Nemotron 3 Ultra NVFP4 blog to Latest News |
+| 🟠 | **2026-07-23** | **[d984de37](https://github.com/NVIDIA/Model-Optimizer/commit/d984de3795c2da5f5add1e08f775cdc80ea7ca1b)** | **[#1989](https://github.com/NVIDIA/Model-Optimizer/pull/1989)** | **[@gcunhase](https://github.com/gcunhase)** | `docs` `example` `onnx` `quantization` | **\[6008361\]\[ONNX\]\[Quantization\] Clarify autotune guidance** |
 |  | 2026-07-22 | [309f0ea5](https://github.com/NVIDIA/Model-Optimizer/commit/309f0ea58d99aa54fbc52f445d9a8f7099bfa45b) | [#1949](https://github.com/NVIDIA/Model-Optimizer/pull/1949) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | \[OMNIML-5477, OMNIML-5119\] Add module-specific AutoQuant search spaces |
 |  | 2026-07-22 | [0baad645](https://github.com/NVIDIA/Model-Optimizer/commit/0baad6453a8123a4b4098ad9a86c404f7bc4694e) | [#1640](https://github.com/NVIDIA/Model-Optimizer/pull/1640) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `quantization` `tests` `torch` | feat: Layerwise calibration memory optimizations (non-mutating skip + meta placeholders) |
 |  | 2026-07-20 | [5d0e9b2c](https://github.com/NVIDIA/Model-Optimizer/commit/5d0e9b2ca7f6cb44466dd22ed96a4729ca9b35d5) | [#1994](https://github.com/NVIDIA/Model-Optimizer/pull/1994) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `tests` | Fix MBridge VLM distill/qad tests using PP until 26.08 |
@@ -64,4 +67,4 @@
 |  | 2026-07-01 | [892d27aa](https://github.com/NVIDIA/Model-Optimizer/commit/892d27aa768ac92f00423b9069467a8eb24f9e98) | [#1877](https://github.com/NVIDIA/Model-Optimizer/pull/1877) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | Fix expert-only MSE recipe matching for NemotronH |
 
 ---
-**Total: 54 PRs** | **Highlighted: 9**
+**Total: 57 PRs** | **Highlighted: 10**

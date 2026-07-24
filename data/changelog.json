@@ -1,5 +1,42 @@
 [
   {
+    "date": "2026-07-23",
+    "commit": "d39f385fb86f132e462c0425a3156eb59b6b6458",
+    "pr_number": 1897,
+    "author": "danielkorzekwa",
+    "title": "Save hf checkpoint at every valitation iteration during distillation.",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "commit": "3edd137d22ee51e0dd880b9741fac3308448a227",
+    "pr_number": 1956,
+    "author": "shljessie",
+    "title": "docs: add Nemotron 3 Ultra NVFP4 blog to Latest News",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-23",
+    "commit": "d984de3795c2da5f5add1e08f775cdc80ea7ca1b",
+    "pr_number": 1989,
+    "author": "gcunhase",
+    "title": "[6008361][ONNX][Quantization] Clarify autotune guidance",
+    "tags": [
+      "docs",
+      "example",
+      "onnx",
+      "quantization"
+    ]
+  },
+  {
     "date": "2026-07-22",
     "commit": "309f0ea58d99aa54fbc52f445d9a8f7099bfa45b",
     "pr_number": 1949,

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-23 | [d39f385f](https://github.com/NVIDIA/Model-Optimizer/commit/d39f385fb86f132e462c0425a3156eb59b6b6458) | [#1897](https://github.com/NVIDIA/Model-Optimizer/pull/1897) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `example` `infra` `tests` `torch` | Save hf checkpoint at every valitation iteration during distillation. |
 | 2026-07-22 | [309f0ea5](https://github.com/NVIDIA/Model-Optimizer/commit/309f0ea58d99aa54fbc52f445d9a8f7099bfa45b) | [#1949](https://github.com/NVIDIA/Model-Optimizer/pull/1949) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | \[OMNIML-5477, OMNIML-5119\] Add module-specific AutoQuant search spaces |
 | 2026-07-22 | [0baad645](https://github.com/NVIDIA/Model-Optimizer/commit/0baad6453a8123a4b4098ad9a86c404f7bc4694e) | [#1640](https://github.com/NVIDIA/Model-Optimizer/pull/1640) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `quantization` `tests` `torch` | feat: Layerwise calibration memory optimizations (non-mutating skip + meta placeholders) |
 | 2026-07-20 | [8ae74079](https://github.com/NVIDIA/Model-Optimizer/commit/8ae7407973f2db8e369d1abd0bc0127a3eb3d327) | [#1985](https://github.com/NVIDIA/Model-Optimizer/pull/1985) | [@gcunhase](https://github.com/gcunhase) | `export` `infra` `onnx` `quantization` `tests` `torch` | \[6421642\]\[ONNX\]\[Quantization\] Fix NVFP4 exporter node ordering |
@@ -405,4 +406,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 399 PRs**
+**Total: 400 PRs**

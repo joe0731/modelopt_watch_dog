@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-23 | [d39f385f](https://github.com/NVIDIA/Model-Optimizer/commit/d39f385fb86f132e462c0425a3156eb59b6b6458) | [#1897](https://github.com/NVIDIA/Model-Optimizer/pull/1897) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `example` `infra` `tests` `torch` | Save hf checkpoint at every valitation iteration during distillation. |
+| 2026-07-23 | [d984de37](https://github.com/NVIDIA/Model-Optimizer/commit/d984de3795c2da5f5add1e08f775cdc80ea7ca1b) | [#1989](https://github.com/NVIDIA/Model-Optimizer/pull/1989) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `onnx` `quantization` | \[6008361\]\[ONNX\]\[Quantization\] Clarify autotune guidance |
 | 2026-07-17 | [9392dfea](https://github.com/NVIDIA/Model-Optimizer/commit/9392dfeabfde8695e9f58421c551ea8004fc3a1a) | [#1987](https://github.com/NVIDIA/Model-Optimizer/pull/1987) | [@Separius](https://github.com/Separius) | `example` `infra` `pruning` `tests` `torch` | Remove Puzzletron bypass distillation |
 | 2026-07-16 | [85bc559c](https://github.com/NVIDIA/Model-Optimizer/commit/85bc559cb78ad873f5ef52dfc3b81a9ab4592063) | [#1898](https://github.com/NVIDIA/Model-Optimizer/pull/1898) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `quantization` `sparsity` `tests` `torch` `vllm` | Add nvfp4 attention support for vLLM serving |
 | 2026-07-16 | [cba8a5c6](https://github.com/NVIDIA/Model-Optimizer/commit/cba8a5c62a1a54fe89fb69bfd484ea0a653c633a) | [#1782](https://github.com/NVIDIA/Model-Optimizer/pull/1782) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `example` `onnx` `quantization` `tests` `windows` | Add: support input_shape_profile for trt-rtx ep |
@@ -259,4 +261,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 253 PRs**
+**Total: 255 PRs**

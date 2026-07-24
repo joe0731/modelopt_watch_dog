@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-23 | [d39f385f](https://github.com/NVIDIA/Model-Optimizer/commit/d39f385fb86f132e462c0425a3156eb59b6b6458) | [#1897](https://github.com/NVIDIA/Model-Optimizer/pull/1897) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `example` `infra` `tests` `torch` | Save hf checkpoint at every valitation iteration during distillation. |
 | 2026-07-16 | [21d0069e](https://github.com/NVIDIA/Model-Optimizer/commit/21d0069e4d6c2a609081a74816cc5a841d770292) | [#1938](https://github.com/NVIDIA/Model-Optimizer/pull/1938) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | MBridge VLM distillation / QAD support |
 | 2026-07-14 | [92296aea](https://github.com/NVIDIA/Model-Optimizer/commit/92296aeac2027f13073e9457792fe10f54553287) | [#1967](https://github.com/NVIDIA/Model-Optimizer/pull/1967) | [@ChenhanYu](https://github.com/ChenhanYu) | `core` `infra` `tests` `torch` | fix(mmlu): expert-DP batch sharding for MoE + Nano-30B-A3B PTQ example |
 | 2026-07-14 | [f479e789](https://github.com/NVIDIA/Model-Optimizer/commit/f479e7890f0d276e061d69b5a0d70d477ec863f2) | [#1631](https://github.com/NVIDIA/Model-Optimizer/pull/1631) | [@yueshen2016](https://github.com/yueshen2016) | `core` `export` `tests` `torch` | fix(export): correct unified_export_megatron at EP \> 1 and DP \> 1 |
@@ -128,4 +129,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 122 PRs**
+**Total: 123 PRs**

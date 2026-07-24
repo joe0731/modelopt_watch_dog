@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-23 | [d39f385f](https://github.com/NVIDIA/Model-Optimizer/commit/d39f385fb86f132e462c0425a3156eb59b6b6458) | [#1897](https://github.com/NVIDIA/Model-Optimizer/pull/1897) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `example` `infra` `tests` `torch` | Save hf checkpoint at every valitation iteration during distillation. |
+| 2026-07-23 | [3edd137d](https://github.com/NVIDIA/Model-Optimizer/commit/3edd137d22ee51e0dd880b9741fac3308448a227) | [#1956](https://github.com/NVIDIA/Model-Optimizer/pull/1956) | [@shljessie](https://github.com/shljessie) | `infra` | docs: add Nemotron 3 Ultra NVFP4 blog to Latest News |
 | 2026-07-22 | [309f0ea5](https://github.com/NVIDIA/Model-Optimizer/commit/309f0ea58d99aa54fbc52f445d9a8f7099bfa45b) | [#1949](https://github.com/NVIDIA/Model-Optimizer/pull/1949) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | \[OMNIML-5477, OMNIML-5119\] Add module-specific AutoQuant search spaces |
 | 2026-07-22 | [0baad645](https://github.com/NVIDIA/Model-Optimizer/commit/0baad6453a8123a4b4098ad9a86c404f7bc4694e) | [#1640](https://github.com/NVIDIA/Model-Optimizer/pull/1640) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `quantization` `tests` `torch` | feat: Layerwise calibration memory optimizations (non-mutating skip + meta placeholders) |
 | 2026-07-20 | [2e8722d4](https://github.com/NVIDIA/Model-Optimizer/commit/2e8722d41c1f93d3a09c24956ac9dafb19e28f61) | [#1995](https://github.com/NVIDIA/Model-Optimizer/pull/1995) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-07-20) |
@@ -411,4 +413,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 405 PRs**
+**Total: 407 PRs**
