@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-07-24",
+    "commit": "effbd7b1e3ec40008a81228c6d7b47d09efbcbb6",
+    "pr_number": 2014,
+    "author": "kevalmorabia97",
+    "title": "Reorganize 0.46 Changelog",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-24",
+    "commit": "d143276c39a995edea89dd98224bd423bce80867",
+    "pr_number": 1955,
+    "author": "kevalmorabia97",
+    "title": "Support efficient TEGroupedMLP (moe_grouped_gemm=True) for Minitron Pruning",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "nas",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-23",
     "commit": "d39f385fb86f132e462c0425a3156eb59b6b6458",
     "pr_number": 1897,

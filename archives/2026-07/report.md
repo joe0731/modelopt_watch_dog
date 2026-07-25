@@ -8,6 +8,8 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-07-24 | [effbd7b1](https://github.com/NVIDIA/Model-Optimizer/commit/effbd7b1e3ec40008a81228c6d7b47d09efbcbb6) | [#2014](https://github.com/NVIDIA/Model-Optimizer/pull/2014) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Reorganize 0.46 Changelog |
+|  | 2026-07-24 | [d143276c](https://github.com/NVIDIA/Model-Optimizer/commit/d143276c39a995edea89dd98224bd423bce80867) | [#1955](https://github.com/NVIDIA/Model-Optimizer/pull/1955) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Support efficient TEGroupedMLP (moe_grouped_gemm=True) for Minitron Pruning |
 |  | 2026-07-23 | [d39f385f](https://github.com/NVIDIA/Model-Optimizer/commit/d39f385fb86f132e462c0425a3156eb59b6b6458) | [#1897](https://github.com/NVIDIA/Model-Optimizer/pull/1897) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `example` `infra` `tests` `torch` | Save hf checkpoint at every valitation iteration during distillation. |
 |  | 2026-07-23 | [3edd137d](https://github.com/NVIDIA/Model-Optimizer/commit/3edd137d22ee51e0dd880b9741fac3308448a227) | [#1956](https://github.com/NVIDIA/Model-Optimizer/pull/1956) | [@shljessie](https://github.com/shljessie) | `infra` | docs: add Nemotron 3 Ultra NVFP4 blog to Latest News |
 | 🟠 | **2026-07-23** | **[d984de37](https://github.com/NVIDIA/Model-Optimizer/commit/d984de3795c2da5f5add1e08f775cdc80ea7ca1b)** | **[#1989](https://github.com/NVIDIA/Model-Optimizer/pull/1989)** | **[@gcunhase](https://github.com/gcunhase)** | `docs` `example` `onnx` `quantization` | **\[6008361\]\[ONNX\]\[Quantization\] Clarify autotune guidance** |
@@ -67,4 +69,4 @@
 |  | 2026-07-01 | [892d27aa](https://github.com/NVIDIA/Model-Optimizer/commit/892d27aa768ac92f00423b9069467a8eb24f9e98) | [#1877](https://github.com/NVIDIA/Model-Optimizer/pull/1877) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | Fix expert-only MSE recipe matching for NemotronH |
 
 ---
-**Total: 57 PRs** | **Highlighted: 10**
+**Total: 59 PRs** | **Highlighted: 10**
