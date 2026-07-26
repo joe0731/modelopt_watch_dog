@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-07-26",
+    "commit": "6105fe84e944615ec0201976286438ecc6ae020a",
+    "pr_number": 1965,
+    "author": "h-guo18",
+    "title": "[Examples]: MiniMax-M3 DSpark",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-26",
+    "commit": "33d05b0c446f528914173041057050f6d135fbf4",
+    "pr_number": 1563,
+    "author": "sugunav14",
+    "title": "FSDP2 calibration with hf_ptq.py [1/2]",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-24",
     "commit": "effbd7b1e3ec40008a81228c6d7b47d09efbcbb6",
     "pr_number": 2014,
