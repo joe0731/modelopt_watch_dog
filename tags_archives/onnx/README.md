@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-28 | [87c9f8cf](https://github.com/NVIDIA/Model-Optimizer/commit/87c9f8cf83021957d1a1a575c90c9a4eaaf7ef0c) | [#2022](https://github.com/NVIDIA/Model-Optimizer/pull/2022) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `docs` `example` `onnx` `quantization` `windows` | Update documentation guide for ONNX INT4 PTQ on Windows cuda13 host |
 | 2026-07-23 | [d984de37](https://github.com/NVIDIA/Model-Optimizer/commit/d984de3795c2da5f5add1e08f775cdc80ea7ca1b) | [#1989](https://github.com/NVIDIA/Model-Optimizer/pull/1989) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `onnx` `quantization` | \[6008361\]\[ONNX\]\[Quantization\] Clarify autotune guidance |
 | 2026-07-20 | [8ae74079](https://github.com/NVIDIA/Model-Optimizer/commit/8ae7407973f2db8e369d1abd0bc0127a3eb3d327) | [#1985](https://github.com/NVIDIA/Model-Optimizer/pull/1985) | [@gcunhase](https://github.com/gcunhase) | `export` `infra` `onnx` `quantization` `tests` `torch` | \[6421642\]\[ONNX\]\[Quantization\] Fix NVFP4 exporter node ordering |
 | 2026-07-17 | [d142f7ee](https://github.com/NVIDIA/Model-Optimizer/commit/d142f7ee10851bd223ea76b4d611074c37b3d014) | [#1943](https://github.com/NVIDIA/Model-Optimizer/pull/1943) | [@gcunhase](https://github.com/gcunhase) | `onnx` `tests` | \[6385267\]\[ONNX\]\[Autocast\] Preserve graph-output Cast producers |
@@ -96,4 +97,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 90 PRs**
+**Total: 91 PRs**

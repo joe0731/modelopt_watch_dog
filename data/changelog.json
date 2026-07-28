@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-28",
+    "commit": "87c9f8cf83021957d1a1a575c90c9a4eaaf7ef0c",
+    "pr_number": 2022,
+    "author": "vishalpandya1990",
+    "title": "Update documentation guide for ONNX INT4 PTQ on Windows cuda13 host",
+    "tags": [
+      "docs",
+      "example",
+      "onnx",
+      "quantization",
+      "windows"
+    ]
+  },
+  {
     "date": "2026-07-26",
     "commit": "6105fe84e944615ec0201976286438ecc6ae020a",
     "pr_number": 1965,

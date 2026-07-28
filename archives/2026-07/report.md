@@ -8,6 +8,7 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+| 🟠 | **2026-07-28** | **[87c9f8cf](https://github.com/NVIDIA/Model-Optimizer/commit/87c9f8cf83021957d1a1a575c90c9a4eaaf7ef0c)** | **[#2022](https://github.com/NVIDIA/Model-Optimizer/pull/2022)** | **[@vishalpandya1990](https://github.com/vishalpandya1990)** | `docs` `example` `onnx` `quantization` `windows` | **Update documentation guide for ONNX INT4 PTQ on Windows cuda13 host** |
 |  | 2026-07-26 | [6105fe84](https://github.com/NVIDIA/Model-Optimizer/commit/6105fe84e944615ec0201976286438ecc6ae020a) | [#1965](https://github.com/NVIDIA/Model-Optimizer/pull/1965) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Examples\]: MiniMax-M3 DSpark |
 |  | 2026-07-26 | [33d05b0c](https://github.com/NVIDIA/Model-Optimizer/commit/33d05b0c446f528914173041057050f6d135fbf4) | [#1563](https://github.com/NVIDIA/Model-Optimizer/pull/1563) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 calibration with hf_ptq.py \[1/2\] |
 |  | 2026-07-24 | [effbd7b1](https://github.com/NVIDIA/Model-Optimizer/commit/effbd7b1e3ec40008a81228c6d7b47d09efbcbb6) | [#2014](https://github.com/NVIDIA/Model-Optimizer/pull/2014) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Reorganize 0.46 Changelog |
@@ -71,4 +72,4 @@
 |  | 2026-07-01 | [892d27aa](https://github.com/NVIDIA/Model-Optimizer/commit/892d27aa768ac92f00423b9069467a8eb24f9e98) | [#1877](https://github.com/NVIDIA/Model-Optimizer/pull/1877) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | Fix expert-only MSE recipe matching for NemotronH |
 
 ---
-**Total: 61 PRs** | **Highlighted: 10**
+**Total: 62 PRs** | **Highlighted: 11**
