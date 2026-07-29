@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-07-29",
+    "commit": "ca0b615bd0a62460bfa97cf16413a859ea572f1b",
+    "pr_number": 1980,
+    "author": "sychen52",
+    "title": "Scripts and a skill to do per-layer benchmark using flashinfer",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "commit": "a3ac4759dd83a5086af919457ea4317ccdf20684",
+    "pr_number": 2026,
+    "author": "Fridah-nv",
+    "title": "tools/mcp: pin mcp<2 to fix unit CI collection",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "commit": "c2070cfd7ab3fd6bf286f333c5ec74626ac706ef",
+    "pr_number": 2029,
+    "author": "h-guo18",
+    "title": "ci: skip docs preview deploy for fork PRs",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-07-28",
     "commit": "87c9f8cf83021957d1a1a575c90c9a4eaaf7ef0c",
     "pr_number": 2022,
