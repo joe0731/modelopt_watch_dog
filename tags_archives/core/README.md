@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-30 | [c94405e6](https://github.com/NVIDIA/Model-Optimizer/commit/c94405e602ae3accdfd99666fdff929095b0e810) | [#1975](https://github.com/NVIDIA/Model-Optimizer/pull/1975) | [@skierat](https://github.com/skierat) | `core` `example` `export` `speculative_decoding` `tests` `torch` | add Qwen3-VL support for DFlash training |
 | 2026-07-26 | [33d05b0c](https://github.com/NVIDIA/Model-Optimizer/commit/33d05b0c446f528914173041057050f6d135fbf4) | [#1563](https://github.com/NVIDIA/Model-Optimizer/pull/1563) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 calibration with hf_ptq.py \[1/2\] |
 | 2026-07-24 | [d143276c](https://github.com/NVIDIA/Model-Optimizer/commit/d143276c39a995edea89dd98224bd423bce80867) | [#1955](https://github.com/NVIDIA/Model-Optimizer/pull/1955) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Support efficient TEGroupedMLP (moe_grouped_gemm=True) for Minitron Pruning |
 | 2026-07-23 | [d39f385f](https://github.com/NVIDIA/Model-Optimizer/commit/d39f385fb86f132e462c0425a3156eb59b6b6458) | [#1897](https://github.com/NVIDIA/Model-Optimizer/pull/1897) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `core` `example` `infra` `tests` `torch` | Save hf checkpoint at every valitation iteration during distillation. |
@@ -131,4 +132,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 125 PRs**
+**Total: 126 PRs**

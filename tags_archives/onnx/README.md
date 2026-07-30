@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-29 | [ddd2fb98](https://github.com/NVIDIA/Model-Optimizer/commit/ddd2fb98e3e1587d7198a70b4b84e53c102cdd21) | [#1983](https://github.com/NVIDIA/Model-Optimizer/pull/1983) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `tests` | \[6425069\]\[ONNX\]\[Autocast\] Fix autocast metadata propagation |
+| 2026-07-29 | [e55fa027](https://github.com/NVIDIA/Model-Optimizer/commit/e55fa027705f358847bc27b53e0e36a50e5f6a79) | [#1628](https://github.com/NVIDIA/Model-Optimizer/pull/1628) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `tests` | \[6058841\] Fix inconsistent tensor types on control-flow (If/Loop/Scan) subgraphs during FP16/BF16 conversion |
 | 2026-07-28 | [87c9f8cf](https://github.com/NVIDIA/Model-Optimizer/commit/87c9f8cf83021957d1a1a575c90c9a4eaaf7ef0c) | [#2022](https://github.com/NVIDIA/Model-Optimizer/pull/2022) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `docs` `example` `onnx` `quantization` `windows` | Update documentation guide for ONNX INT4 PTQ on Windows cuda13 host |
 | 2026-07-23 | [d984de37](https://github.com/NVIDIA/Model-Optimizer/commit/d984de3795c2da5f5add1e08f775cdc80ea7ca1b) | [#1989](https://github.com/NVIDIA/Model-Optimizer/pull/1989) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `onnx` `quantization` | \[6008361\]\[ONNX\]\[Quantization\] Clarify autotune guidance |
 | 2026-07-20 | [8ae74079](https://github.com/NVIDIA/Model-Optimizer/commit/8ae7407973f2db8e369d1abd0bc0127a3eb3d327) | [#1985](https://github.com/NVIDIA/Model-Optimizer/pull/1985) | [@gcunhase](https://github.com/gcunhase) | `export` `infra` `onnx` `quantization` `tests` `torch` | \[6421642\]\[ONNX\]\[Quantization\] Fix NVFP4 exporter node ordering |
@@ -97,4 +99,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 91 PRs**
+**Total: 93 PRs**

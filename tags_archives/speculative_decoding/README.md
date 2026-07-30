@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-30 | [c94405e6](https://github.com/NVIDIA/Model-Optimizer/commit/c94405e602ae3accdfd99666fdff929095b0e810) | [#1975](https://github.com/NVIDIA/Model-Optimizer/pull/1975) | [@skierat](https://github.com/skierat) | `core` `example` `export` `speculative_decoding` `tests` `torch` | add Qwen3-VL support for DFlash training |
 | 2026-07-26 | [6105fe84](https://github.com/NVIDIA/Model-Optimizer/commit/6105fe84e944615ec0201976286438ecc6ae020a) | [#1965](https://github.com/NVIDIA/Model-Optimizer/pull/1965) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Examples\]: MiniMax-M3 DSpark |
 | 2026-07-11 | [7ed19b29](https://github.com/NVIDIA/Model-Optimizer/commit/7ed19b290692f801a54be7266de0c34871a58949) | [#1960](https://github.com/NVIDIA/Model-Optimizer/pull/1960) | [@h-guo18](https://github.com/h-guo18) | `export` `speculative_decoding` `tests` `torch` | \[Feat\]: SWA (sliding-window attention) support for DFlash drafter training |
 | 2026-07-09 | [e96d7a21](https://github.com/NVIDIA/Model-Optimizer/commit/e96d7a21e8de28d5b0c3a712ff327d2fd3d37daf) | [#1948](https://github.com/NVIDIA/Model-Optimizer/pull/1948) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `torch` | \[Chore\]Dspark license |
@@ -81,4 +82,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 75 PRs**
+**Total: 76 PRs**

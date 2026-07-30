@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-30 | [c94405e6](https://github.com/NVIDIA/Model-Optimizer/commit/c94405e602ae3accdfd99666fdff929095b0e810) | [#1975](https://github.com/NVIDIA/Model-Optimizer/pull/1975) | [@skierat](https://github.com/skierat) | `core` `example` `export` `speculative_decoding` `tests` `torch` | add Qwen3-VL support for DFlash training |
+| 2026-07-30 | [4c3d3647](https://github.com/NVIDIA/Model-Optimizer/commit/4c3d364750a605ffaae0e4d57968023456225866) | [#2032](https://github.com/NVIDIA/Model-Optimizer/pull/2032) | [@meenchen](https://github.com/meenchen) | `export` `infra` `tests` `torch` | fix(export): \[NVBug 6525534\] preserve nested VLM namespaces |
 | 2026-07-26 | [33d05b0c](https://github.com/NVIDIA/Model-Optimizer/commit/33d05b0c446f528914173041057050f6d135fbf4) | [#1563](https://github.com/NVIDIA/Model-Optimizer/pull/1563) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 calibration with hf_ptq.py \[1/2\] |
 | 2026-07-20 | [8ae74079](https://github.com/NVIDIA/Model-Optimizer/commit/8ae7407973f2db8e369d1abd0bc0127a3eb3d327) | [#1985](https://github.com/NVIDIA/Model-Optimizer/pull/1985) | [@gcunhase](https://github.com/gcunhase) | `export` `infra` `onnx` `quantization` `tests` `torch` | \[6421642\]\[ONNX\]\[Quantization\] Fix NVFP4 exporter node ordering |
 | 2026-07-14 | [dca6ecd8](https://github.com/NVIDIA/Model-Optimizer/commit/dca6ecd80434896cb12516e703818c24e410e9e1) | [#1939](https://github.com/NVIDIA/Model-Optimizer/pull/1939) | [@sychen52](https://github.com/sychen52) | `export` `tests` `torch` | Registry-based module dispatch for unified_export_hf.py |
@@ -133,4 +135,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 127 PRs**
+**Total: 129 PRs**

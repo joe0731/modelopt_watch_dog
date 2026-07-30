@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-30 | [c94405e6](https://github.com/NVIDIA/Model-Optimizer/commit/c94405e602ae3accdfd99666fdff929095b0e810) | [#1975](https://github.com/NVIDIA/Model-Optimizer/pull/1975) | [@skierat](https://github.com/skierat) | `core` `example` `export` `speculative_decoding` `tests` `torch` | add Qwen3-VL support for DFlash training |
+| 2026-07-30 | [4c3d3647](https://github.com/NVIDIA/Model-Optimizer/commit/4c3d364750a605ffaae0e4d57968023456225866) | [#2032](https://github.com/NVIDIA/Model-Optimizer/pull/2032) | [@meenchen](https://github.com/meenchen) | `export` `infra` `tests` `torch` | fix(export): \[NVBug 6525534\] preserve nested VLM namespaces |
 | 2026-07-26 | [6105fe84](https://github.com/NVIDIA/Model-Optimizer/commit/6105fe84e944615ec0201976286438ecc6ae020a) | [#1965](https://github.com/NVIDIA/Model-Optimizer/pull/1965) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Examples\]: MiniMax-M3 DSpark |
 | 2026-07-26 | [33d05b0c](https://github.com/NVIDIA/Model-Optimizer/commit/33d05b0c446f528914173041057050f6d135fbf4) | [#1563](https://github.com/NVIDIA/Model-Optimizer/pull/1563) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 calibration with hf_ptq.py \[1/2\] |
 | 2026-07-24 | [d143276c](https://github.com/NVIDIA/Model-Optimizer/commit/d143276c39a995edea89dd98224bd423bce80867) | [#1955](https://github.com/NVIDIA/Model-Optimizer/pull/1955) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Support efficient TEGroupedMLP (moe_grouped_gemm=True) for Minitron Pruning |
@@ -409,4 +411,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 403 PRs**
+**Total: 405 PRs**

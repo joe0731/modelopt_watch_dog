@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-07-30",
+    "commit": "c94405e602ae3accdfd99666fdff929095b0e810",
+    "pr_number": 1975,
+    "author": "skierat",
+    "title": "add Qwen3-VL support for DFlash training",
+    "tags": [
+      "core",
+      "example",
+      "export",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "commit": "c062b3f829e76c55f90be44508d5b41b19d35e6b",
+    "pr_number": 2000,
+    "author": "Fridah-nv",
+    "title": "Add sidecar GPU/CPU memory+utilization monitor for HF PTQ",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "commit": "4c3d364750a605ffaae0e4d57968023456225866",
+    "pr_number": 2032,
+    "author": "meenchen",
+    "title": "fix(export): [NVBug 6525534] preserve nested VLM namespaces",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "commit": "495d4551b0e110a094b08fc4dad8c1f7b27ee6ea",
+    "pr_number": 2035,
+    "author": "coderabbitai[bot]",
+    "title": "📝 Add docstrings to `gkarch/add_lmms_eval`",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-07-29",
     "commit": "ca0b615bd0a62460bfa97cf16413a859ea572f1b",
     "pr_number": 1980,
@@ -27,6 +76,40 @@
     "title": "ci: skip docs preview deploy for fork PRs",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "commit": "ddd2fb98e3e1587d7198a70b4b84e53c102cdd21",
+    "pr_number": 1983,
+    "author": "gcunhase",
+    "title": "[6425069][ONNX][Autocast] Fix autocast metadata propagation",
+    "tags": [
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "commit": "943c0b2f7d696e63d16fa12f8fdb5736e9f75685",
+    "pr_number": 2020,
+    "author": "rishiskhare",
+    "title": "docs(puzzletron): install lm-eval in container setup",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-29",
+    "commit": "e55fa027705f358847bc27b53e0e36a50e5f6a79",
+    "pr_number": 1628,
+    "author": "ajrasane",
+    "title": "[6058841] Fix inconsistent tensor types on control-flow (If/Loop/Scan) subgraphs during FP16/BF16 conversion",
+    "tags": [
+      "infra",
+      "onnx",
+      "tests"
     ]
   },
   {

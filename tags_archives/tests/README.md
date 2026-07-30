@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-07-30 | [c94405e6](https://github.com/NVIDIA/Model-Optimizer/commit/c94405e602ae3accdfd99666fdff929095b0e810) | [#1975](https://github.com/NVIDIA/Model-Optimizer/pull/1975) | [@skierat](https://github.com/skierat) | `core` `example` `export` `speculative_decoding` `tests` `torch` | add Qwen3-VL support for DFlash training |
+| 2026-07-30 | [c062b3f8](https://github.com/NVIDIA/Model-Optimizer/commit/c062b3f829e76c55f90be44508d5b41b19d35e6b) | [#2000](https://github.com/NVIDIA/Model-Optimizer/pull/2000) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `tests` | Add sidecar GPU/CPU memory+utilization monitor for HF PTQ |
+| 2026-07-30 | [4c3d3647](https://github.com/NVIDIA/Model-Optimizer/commit/4c3d364750a605ffaae0e4d57968023456225866) | [#2032](https://github.com/NVIDIA/Model-Optimizer/pull/2032) | [@meenchen](https://github.com/meenchen) | `export` `infra` `tests` `torch` | fix(export): \[NVBug 6525534\] preserve nested VLM namespaces |
+| 2026-07-29 | [ddd2fb98](https://github.com/NVIDIA/Model-Optimizer/commit/ddd2fb98e3e1587d7198a70b4b84e53c102cdd21) | [#1983](https://github.com/NVIDIA/Model-Optimizer/pull/1983) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `tests` | \[6425069\]\[ONNX\]\[Autocast\] Fix autocast metadata propagation |
+| 2026-07-29 | [e55fa027](https://github.com/NVIDIA/Model-Optimizer/commit/e55fa027705f358847bc27b53e0e36a50e5f6a79) | [#1628](https://github.com/NVIDIA/Model-Optimizer/pull/1628) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `tests` | \[6058841\] Fix inconsistent tensor types on control-flow (If/Loop/Scan) subgraphs during FP16/BF16 conversion |
 | 2026-07-26 | [6105fe84](https://github.com/NVIDIA/Model-Optimizer/commit/6105fe84e944615ec0201976286438ecc6ae020a) | [#1965](https://github.com/NVIDIA/Model-Optimizer/pull/1965) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | \[Examples\]: MiniMax-M3 DSpark |
 | 2026-07-26 | [33d05b0c](https://github.com/NVIDIA/Model-Optimizer/commit/33d05b0c446f528914173041057050f6d135fbf4) | [#1563](https://github.com/NVIDIA/Model-Optimizer/pull/1563) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 calibration with hf_ptq.py \[1/2\] |
 | 2026-07-24 | [d143276c](https://github.com/NVIDIA/Model-Optimizer/commit/d143276c39a995edea89dd98224bd423bce80867) | [#1955](https://github.com/NVIDIA/Model-Optimizer/pull/1955) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Support efficient TEGroupedMLP (moe_grouped_gemm=True) for Minitron Pruning |
@@ -310,4 +315,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 304 PRs**
+**Total: 309 PRs**
