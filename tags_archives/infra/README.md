@@ -7,6 +7,8 @@
 | 2026-07-30 | [c062b3f8](https://github.com/NVIDIA/Model-Optimizer/commit/c062b3f829e76c55f90be44508d5b41b19d35e6b) | [#2000](https://github.com/NVIDIA/Model-Optimizer/pull/2000) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `tests` | Add sidecar GPU/CPU memory+utilization monitor for HF PTQ |
 | 2026-07-30 | [4c3d3647](https://github.com/NVIDIA/Model-Optimizer/commit/4c3d364750a605ffaae0e4d57968023456225866) | [#2032](https://github.com/NVIDIA/Model-Optimizer/pull/2032) | [@meenchen](https://github.com/meenchen) | `export` `infra` `tests` `torch` | fix(export): \[NVBug 6525534\] preserve nested VLM namespaces |
 | 2026-07-30 | [495d4551](https://github.com/NVIDIA/Model-Optimizer/commit/495d4551b0e110a094b08fc4dad8c1f7b27ee6ea) | [#2035](https://github.com/NVIDIA/Model-Optimizer/pull/2035) | [@coderabbitai[bot]](https://github.com/coderabbitai[bot]) | `infra` | 📝 Add docstrings to \`gkarch/add_lmms_eval\` |
+| 2026-07-30 | [05e1c5f8](https://github.com/NVIDIA/Model-Optimizer/commit/05e1c5f8a6fe34fe2d68dc563bfcdbab0d1680aa) | [#2036](https://github.com/NVIDIA/Model-Optimizer/pull/2036) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` | Reduce the list of codeowners for feature/puzzletron_v2 branch |
+| 2026-07-30 | [a23390db](https://github.com/NVIDIA/Model-Optimizer/commit/a23390dbb6e52b0c028f3e9455a74da824c88735) | [#1981](https://github.com/NVIDIA/Model-Optimizer/pull/1981) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[5726458\] \[Experimental\] Add NVFP4 projection-output-quantizer recipe and HF embedding ONNX export example |
 | 2026-07-29 | [ca0b615b](https://github.com/NVIDIA/Model-Optimizer/commit/ca0b615bd0a62460bfa97cf16413a859ea572f1b) | [#1980](https://github.com/NVIDIA/Model-Optimizer/pull/1980) | [@sychen52](https://github.com/sychen52) | `infra` | Scripts and a skill to do per-layer benchmark using flashinfer |
 | 2026-07-29 | [a3ac4759](https://github.com/NVIDIA/Model-Optimizer/commit/a3ac4759dd83a5086af919457ea4317ccdf20684) | [#2026](https://github.com/NVIDIA/Model-Optimizer/pull/2026) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` | tools/mcp: pin mcp\<2 to fix unit CI collection |
 | 2026-07-29 | [c2070cfd](https://github.com/NVIDIA/Model-Optimizer/commit/c2070cfd7ab3fd6bf286f333c5ec74626ac706ef) | [#2029](https://github.com/NVIDIA/Model-Optimizer/pull/2029) | [@h-guo18](https://github.com/h-guo18) | `infra` | ci: skip docs preview deploy for fork PRs |
@@ -426,4 +428,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 420 PRs**
+**Total: 422 PRs**

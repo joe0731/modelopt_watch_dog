@@ -49,6 +49,32 @@
     ]
   },
   {
+    "date": "2026-07-30",
+    "commit": "05e1c5f8a6fe34fe2d68dc563bfcdbab0d1680aa",
+    "pr_number": 2036,
+    "author": "grzegorz-k-karch",
+    "title": "Reduce the list of codeowners for feature/puzzletron_v2 branch",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-07-30",
+    "commit": "a23390dbb6e52b0c028f3e9455a74da824c88735",
+    "pr_number": 1981,
+    "author": "ajrasane",
+    "title": "[5726458] [Experimental] Add NVFP4 projection-output-quantizer recipe and HF embedding ONNX export example",
+    "tags": [
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-29",
     "commit": "ca0b615bd0a62460bfa97cf16413a859ea572f1b",
     "pr_number": 1980,
