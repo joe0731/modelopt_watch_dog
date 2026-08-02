@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-01",
+    "commit": "9d360af34f907c8d64544797a803132a9a5d502d",
+    "pr_number": 2010,
+    "author": "mxinO",
+    "title": "Add ModelOpt QAD skill for Slurm workflows",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-07-30",
     "commit": "c94405e602ae3accdfd99666fdff929095b0e810",
     "pr_number": 1975,

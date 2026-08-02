@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 | 2026-07-30 | [c062b3f8](https://github.com/NVIDIA/Model-Optimizer/commit/c062b3f829e76c55f90be44508d5b41b19d35e6b) | [#2000](https://github.com/NVIDIA/Model-Optimizer/pull/2000) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `tests` | Add sidecar GPU/CPU memory+utilization monitor for HF PTQ |
 | 2026-07-30 | [4c3d3647](https://github.com/NVIDIA/Model-Optimizer/commit/4c3d364750a605ffaae0e4d57968023456225866) | [#2032](https://github.com/NVIDIA/Model-Optimizer/pull/2032) | [@meenchen](https://github.com/meenchen) | `export` `infra` `tests` `torch` | fix(export): \[NVBug 6525534\] preserve nested VLM namespaces |
 | 2026-07-30 | [495d4551](https://github.com/NVIDIA/Model-Optimizer/commit/495d4551b0e110a094b08fc4dad8c1f7b27ee6ea) | [#2035](https://github.com/NVIDIA/Model-Optimizer/pull/2035) | [@coderabbitai[bot]](https://github.com/coderabbitai[bot]) | `infra` | 📝 Add docstrings to \`gkarch/add_lmms_eval\` |
@@ -428,4 +429,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 422 PRs**
+**Total: 423 PRs**
