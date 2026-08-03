@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-08-03 | [2f6e77f1](https://github.com/NVIDIA/Model-Optimizer/commit/2f6e77f14cd80593ddc0dda434f5acfb77a62e7c) | [#2043](https://github.com/NVIDIA/Model-Optimizer/pull/2043) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Skip zero-quota splits in get_dataset_samples |
 | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 | 2026-07-30 | [05e1c5f8](https://github.com/NVIDIA/Model-Optimizer/commit/05e1c5f8a6fe34fe2d68dc563bfcdbab0d1680aa) | [#2036](https://github.com/NVIDIA/Model-Optimizer/pull/2036) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` | Reduce the list of codeowners for feature/puzzletron_v2 branch |
 | 2026-07-30 | [a23390db](https://github.com/NVIDIA/Model-Optimizer/commit/a23390dbb6e52b0c028f3e9455a74da824c88735) | [#1981](https://github.com/NVIDIA/Model-Optimizer/pull/1981) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[5726458\] \[Experimental\] Add NVFP4 projection-output-quantizer recipe and HF embedding ONNX export example |

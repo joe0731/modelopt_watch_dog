@@ -8,7 +8,8 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-08-03 | [2f6e77f1](https://github.com/NVIDIA/Model-Optimizer/commit/2f6e77f14cd80593ddc0dda434f5acfb77a62e7c) | [#2043](https://github.com/NVIDIA/Model-Optimizer/pull/2043) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Skip zero-quota splits in get_dataset_samples |
 |  | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 
 ---
-**Total: 1 PRs** | **Highlighted: 0**
+**Total: 2 PRs** | **Highlighted: 0**

@@ -5,7 +5,7 @@ Click a tag to see its full history.
 
 | Tag | Description | PRs |
 |-----|-------------|:---:|
-| [`core`](core/) | core utilities, tracing, optimization pipeline, common infrastructure | 127 |
+| [`core`](core/) | core utilities, tracing, optimization pipeline, common infrastructure | 128 |
 | [`deploy`](deploy/) | modelopt.deploy - deployment tools, serving, vLLM, TensorRT-LLM integration | 33 |
 | [`diffusers`](diffusers/) | diffusion model optimization (Stable Diffusion, FLUX, etc.) | 29 |
 | [`distillation`](distillation/) | knowledge distillation, teacher-student training | 18 |
@@ -22,8 +22,8 @@ Click a tag to see its full history.
 | [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 259 |
 | [`sparsity`](sparsity/) | weight sparsity, attention sparsity | 27 |
 | [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 76 |
-| [`tests`](tests/) | test infrastructure, test utilities | 311 |
-| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 407 |
+| [`tests`](tests/) | test infrastructure, test utilities | 312 |
+| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 408 |
 | [`vllm`](vllm/) | vLLM serving and integration | 16 |
 | [`vlm`](vlm/) | vision-language model optimization | 5 |
 | [`windows`](windows/) | Windows platform-specific code and examples | 18 |
