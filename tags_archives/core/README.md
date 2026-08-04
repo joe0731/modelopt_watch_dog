@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-04 | [93b9e4b1](https://github.com/NVIDIA/Model-Optimizer/commit/93b9e4b1768aec9577ed0badbb197820c1770545) | [#2031](https://github.com/NVIDIA/Model-Optimizer/pull/2031) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add Megatron-Bridge prune & quantize launcher pipelines |
+| 2026-08-04 | [77dbeb18](https://github.com/NVIDIA/Model-Optimizer/commit/77dbeb1872d1672b0662adf75199a92df8523689) | [#2023](https://github.com/NVIDIA/Model-Optimizer/pull/2023) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `infra` `tests` `torch` | Add optional MLflow tracking to hf_ptq.py |
 | 2026-08-03 | [2f6e77f1](https://github.com/NVIDIA/Model-Optimizer/commit/2f6e77f14cd80593ddc0dda434f5acfb77a62e7c) | [#2043](https://github.com/NVIDIA/Model-Optimizer/pull/2043) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Skip zero-quota splits in get_dataset_samples |
 | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 | 2026-07-30 | [c94405e6](https://github.com/NVIDIA/Model-Optimizer/commit/c94405e602ae3accdfd99666fdff929095b0e810) | [#1975](https://github.com/NVIDIA/Model-Optimizer/pull/1975) | [@skierat](https://github.com/skierat) | `core` `example` `export` `speculative_decoding` `tests` `torch` | add Qwen3-VL support for DFlash training |
@@ -134,4 +136,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 128 PRs**
+**Total: 130 PRs**

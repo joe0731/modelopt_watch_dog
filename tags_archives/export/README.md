@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-03 | [b75227ce](https://github.com/NVIDIA/Model-Optimizer/commit/b75227ce1bd143871c69d31330be5a327cfbdd7a) | [#2038](https://github.com/NVIDIA/Model-Optimizer/pull/2038) | [@cjluo-nv](https://github.com/cjluo-nv) | `deploy` `export` `infra` `quantization` `tests` `torch` | \[NVBug: 5987078\] Fix unified HF export of compressed NVFP4 weights (--low_memory_mode) |
 | 2026-07-30 | [c94405e6](https://github.com/NVIDIA/Model-Optimizer/commit/c94405e602ae3accdfd99666fdff929095b0e810) | [#1975](https://github.com/NVIDIA/Model-Optimizer/pull/1975) | [@skierat](https://github.com/skierat) | `core` `example` `export` `speculative_decoding` `tests` `torch` | add Qwen3-VL support for DFlash training |
 | 2026-07-30 | [4c3d3647](https://github.com/NVIDIA/Model-Optimizer/commit/4c3d364750a605ffaae0e4d57968023456225866) | [#2032](https://github.com/NVIDIA/Model-Optimizer/pull/2032) | [@meenchen](https://github.com/meenchen) | `export` `infra` `tests` `torch` | fix(export): \[NVBug 6525534\] preserve nested VLM namespaces |
 | 2026-07-30 | [a23390db](https://github.com/NVIDIA/Model-Optimizer/commit/a23390dbb6e52b0c028f3e9455a74da824c88735) | [#1981](https://github.com/NVIDIA/Model-Optimizer/pull/1981) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[5726458\] \[Experimental\] Add NVFP4 projection-output-quantizer recipe and HF embedding ONNX export example |
@@ -136,4 +137,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 130 PRs**
+**Total: 131 PRs**

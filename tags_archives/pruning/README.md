@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-04 | [93b9e4b1](https://github.com/NVIDIA/Model-Optimizer/commit/93b9e4b1768aec9577ed0badbb197820c1770545) | [#2031](https://github.com/NVIDIA/Model-Optimizer/pull/2031) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add Megatron-Bridge prune & quantize launcher pipelines |
 | 2026-07-24 | [d143276c](https://github.com/NVIDIA/Model-Optimizer/commit/d143276c39a995edea89dd98224bd423bce80867) | [#1955](https://github.com/NVIDIA/Model-Optimizer/pull/1955) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Support efficient TEGroupedMLP (moe_grouped_gemm=True) for Minitron Pruning |
 | 2026-07-17 | [9392dfea](https://github.com/NVIDIA/Model-Optimizer/commit/9392dfeabfde8695e9f58421c551ea8004fc3a1a) | [#1987](https://github.com/NVIDIA/Model-Optimizer/pull/1987) | [@Separius](https://github.com/Separius) | `example` `infra` `pruning` `tests` `torch` | Remove Puzzletron bypass distillation |
 | 2026-07-16 | [21d0069e](https://github.com/NVIDIA/Model-Optimizer/commit/21d0069e4d6c2a609081a74816cc5a841d770292) | [#1938](https://github.com/NVIDIA/Model-Optimizer/pull/1938) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | MBridge VLM distillation / QAD support |
@@ -39,4 +40,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 33 PRs**
+**Total: 34 PRs**

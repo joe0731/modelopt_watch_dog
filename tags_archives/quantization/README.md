@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-03 | [23be8265](https://github.com/NVIDIA/Model-Optimizer/commit/23be82655b2debcf8a22250acd66e6aea370264a) | [#2028](https://github.com/NVIDIA/Model-Optimizer/pull/2028) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Add nvfp4_act_headroom activation calibration for NVFP4 |
+| 2026-08-03 | [b75227ce](https://github.com/NVIDIA/Model-Optimizer/commit/b75227ce1bd143871c69d31330be5a327cfbdd7a) | [#2038](https://github.com/NVIDIA/Model-Optimizer/pull/2038) | [@cjluo-nv](https://github.com/cjluo-nv) | `deploy` `export` `infra` `quantization` `tests` `torch` | \[NVBug: 5987078\] Fix unified HF export of compressed NVFP4 weights (--low_memory_mode) |
 | 2026-07-30 | [a23390db](https://github.com/NVIDIA/Model-Optimizer/commit/a23390dbb6e52b0c028f3e9455a74da824c88735) | [#1981](https://github.com/NVIDIA/Model-Optimizer/pull/1981) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[5726458\] \[Experimental\] Add NVFP4 projection-output-quantizer recipe and HF embedding ONNX export example |
 | 2026-07-28 | [87c9f8cf](https://github.com/NVIDIA/Model-Optimizer/commit/87c9f8cf83021957d1a1a575c90c9a4eaaf7ef0c) | [#2022](https://github.com/NVIDIA/Model-Optimizer/pull/2022) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `docs` `example` `onnx` `quantization` `windows` | Update documentation guide for ONNX INT4 PTQ on Windows cuda13 host |
 | 2026-07-26 | [33d05b0c](https://github.com/NVIDIA/Model-Optimizer/commit/33d05b0c446f528914173041057050f6d135fbf4) | [#1563](https://github.com/NVIDIA/Model-Optimizer/pull/1563) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 calibration with hf_ptq.py \[1/2\] |
@@ -265,4 +267,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 259 PRs**
+**Total: 261 PRs**

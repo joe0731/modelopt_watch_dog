@@ -4,7 +4,15 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-04 | [93b9e4b1](https://github.com/NVIDIA/Model-Optimizer/commit/93b9e4b1768aec9577ed0badbb197820c1770545) | [#2031](https://github.com/NVIDIA/Model-Optimizer/pull/2031) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add Megatron-Bridge prune & quantize launcher pipelines |
+| 2026-08-04 | [77dbeb18](https://github.com/NVIDIA/Model-Optimizer/commit/77dbeb1872d1672b0662adf75199a92df8523689) | [#2023](https://github.com/NVIDIA/Model-Optimizer/pull/2023) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `infra` `tests` `torch` | Add optional MLflow tracking to hf_ptq.py |
+| 2026-08-04 | [eda8b3aa](https://github.com/NVIDIA/Model-Optimizer/commit/eda8b3aa7333ec62eab1b037d95b5cc06b4cad63) | [#2051](https://github.com/NVIDIA/Model-Optimizer/pull/2051) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Establish Puzzletron v2 CI against its pinned runtime |
 | 2026-08-03 | [2f6e77f1](https://github.com/NVIDIA/Model-Optimizer/commit/2f6e77f14cd80593ddc0dda434f5acfb77a62e7c) | [#2043](https://github.com/NVIDIA/Model-Optimizer/pull/2043) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Skip zero-quota splits in get_dataset_samples |
+| 2026-08-03 | [23be8265](https://github.com/NVIDIA/Model-Optimizer/commit/23be82655b2debcf8a22250acd66e6aea370264a) | [#2028](https://github.com/NVIDIA/Model-Optimizer/pull/2028) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Add nvfp4_act_headroom activation calibration for NVFP4 |
+| 2026-08-03 | [b75227ce](https://github.com/NVIDIA/Model-Optimizer/commit/b75227ce1bd143871c69d31330be5a327cfbdd7a) | [#2038](https://github.com/NVIDIA/Model-Optimizer/pull/2038) | [@cjluo-nv](https://github.com/cjluo-nv) | `deploy` `export` `infra` `quantization` `tests` `torch` | \[NVBug: 5987078\] Fix unified HF export of compressed NVFP4 weights (--low_memory_mode) |
+| 2026-08-03 | [7ed91540](https://github.com/NVIDIA/Model-Optimizer/commit/7ed91540fa2807f6c9be75e9cbcc58d150d3c848) | [#2056](https://github.com/NVIDIA/Model-Optimizer/pull/2056) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `tests` `torch` | \[NVBug: 6538278\] Pass trust_remote_code to the TRT-LLM model load in deploy/eval examples |
+| 2026-08-03 | [38826351](https://github.com/NVIDIA/Model-Optimizer/commit/38826351eb704305806af501e1b89646c611ff32) | [#2050](https://github.com/NVIDIA/Model-Optimizer/pull/2050) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Bump transformers dependency to \>=4.57,\<5.15 |
+| 2026-08-03 | [302a7ad4](https://github.com/NVIDIA/Model-Optimizer/commit/302a7ad4ea42081c90f5377c7d0a98951d05ae63) | [#2041](https://github.com/NVIDIA/Model-Optimizer/pull/2041) | [@juhi10071998](https://github.com/juhi10071998) | `infra` `tests` | \[NVBug: 6524370\] use sequential device_map for DiffusionGemma |
 | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 | 2026-07-30 | [c94405e6](https://github.com/NVIDIA/Model-Optimizer/commit/c94405e602ae3accdfd99666fdff929095b0e810) | [#1975](https://github.com/NVIDIA/Model-Optimizer/pull/1975) | [@skierat](https://github.com/skierat) | `core` `example` `export` `speculative_decoding` `tests` `torch` | add Qwen3-VL support for DFlash training |
 | 2026-07-30 | [c062b3f8](https://github.com/NVIDIA/Model-Optimizer/commit/c062b3f829e76c55f90be44508d5b41b19d35e6b) | [#2000](https://github.com/NVIDIA/Model-Optimizer/pull/2000) | [@Fridah-nv](https://github.com/Fridah-nv) | `infra` `tests` | Add sidecar GPU/CPU memory+utilization monitor for HF PTQ |
@@ -318,4 +326,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 312 PRs**
+**Total: 320 PRs**

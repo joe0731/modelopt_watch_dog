@@ -1,5 +1,55 @@
 [
   {
+    "date": "2026-08-04",
+    "commit": "93b9e4b1768aec9577ed0badbb197820c1770545",
+    "pr_number": 2031,
+    "author": "kevalmorabia97",
+    "title": "Add Megatron-Bridge prune & quantize launcher pipelines",
+    "tags": [
+      "core",
+      "eval",
+      "example",
+      "infra",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "commit": "5e019d882f7ecc3ded3aca6eebd3d54ddb754920",
+    "pr_number": 2057,
+    "author": "cjluo-nv",
+    "title": "Add PR review-feedback guidance to AGENTS.md",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "commit": "77dbeb1872d1672b0662adf75199a92df8523689",
+    "pr_number": 2023,
+    "author": "cjluo-nv",
+    "title": "Add optional MLflow tracking to hf_ptq.py",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "commit": "eda8b3aa7333ec62eab1b037d95b5cc06b4cad63",
+    "pr_number": 2051,
+    "author": "j-rausch",
+    "title": "Establish Puzzletron v2 CI against its pinned runtime",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-08-03",
     "commit": "2f6e77f14cd80593ddc0dda434f5acfb77a62e7c",
     "pr_number": 2043,
@@ -9,6 +59,100 @@
       "core",
       "tests",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "commit": "00d356ab2c2b322ef38cdbfe7ab6f53ea7e0285e",
+    "pr_number": 2052,
+    "author": "kevalmorabia97",
+    "title": "Refactor 0.46.0 Changelog",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "commit": "23be82655b2debcf8a22250acd66e6aea370264a",
+    "pr_number": 2028,
+    "author": "cjluo-nv",
+    "title": "Add nvfp4_act_headroom activation calibration for NVFP4",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "commit": "b75227ce1bd143871c69d31330be5a327cfbdd7a",
+    "pr_number": 2038,
+    "author": "cjluo-nv",
+    "title": "[NVBug: 5987078] Fix unified HF export of compressed NVFP4 weights (--low_memory_mode)",
+    "tags": [
+      "deploy",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "commit": "55f1880f7027cee4083d30f22f8b08bc21a4fd0b",
+    "pr_number": 2042,
+    "author": "cjluo-nv",
+    "title": "[skill] evaluation: correct the stale vLLM CUDA-13 image tag rule",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "commit": "7ed91540fa2807f6c9be75e9cbcc58d150d3c848",
+    "pr_number": 2056,
+    "author": "cjluo-nv",
+    "title": "[NVBug: 6538278] Pass trust_remote_code to the TRT-LLM model load in deploy/eval examples",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "commit": "38826351eb704305806af501e1b89646c611ff32",
+    "pr_number": 2050,
+    "author": "kevalmorabia97",
+    "title": "Bump transformers dependency to >=4.57,<5.15",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "commit": "14b20c0a121d87a4847ab22521e2e2f3f0ab1e80",
+    "pr_number": 2039,
+    "author": "cjluo-nv",
+    "title": "[skill] evaluation: add GDPVal (NeMo Gym Stirrup agent) support",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-03",
+    "commit": "302a7ad4ea42081c90f5377c7d0a98951d05ae63",
+    "pr_number": 2041,
+    "author": "juhi10071998",
+    "title": "[NVBug: 6524370] use sequential device_map for DiffusionGemma",
+    "tags": [
+      "infra",
+      "tests"
     ]
   },
   {
