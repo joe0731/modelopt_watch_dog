@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-05 | [2c93627a](https://github.com/NVIDIA/Model-Optimizer/commit/2c93627a4a71d2c4901fdfbe4a5abfa89f046462) | [#2075](https://github.com/NVIDIA/Model-Optimizer/pull/2075) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Fix Qwen 3.5 descriptor routing |
 | 2026-08-04 | [93b9e4b1](https://github.com/NVIDIA/Model-Optimizer/commit/93b9e4b1768aec9577ed0badbb197820c1770545) | [#2031](https://github.com/NVIDIA/Model-Optimizer/pull/2031) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add Megatron-Bridge prune & quantize launcher pipelines |
 | 2026-08-04 | [77dbeb18](https://github.com/NVIDIA/Model-Optimizer/commit/77dbeb1872d1672b0662adf75199a92df8523689) | [#2023](https://github.com/NVIDIA/Model-Optimizer/pull/2023) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `infra` `tests` `torch` | Add optional MLflow tracking to hf_ptq.py |
 | 2026-08-04 | [eda8b3aa](https://github.com/NVIDIA/Model-Optimizer/commit/eda8b3aa7333ec62eab1b037d95b5cc06b4cad63) | [#2051](https://github.com/NVIDIA/Model-Optimizer/pull/2051) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Establish Puzzletron v2 CI against its pinned runtime |
@@ -326,4 +327,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 320 PRs**
+**Total: 321 PRs**

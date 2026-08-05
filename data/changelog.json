@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-05",
+    "commit": "7afbfbc85ce145d5233bcb8ec38445394dcb3944",
+    "pr_number": 1998,
+    "author": "AAnoosheh",
+    "title": "Offline-KD QAD example",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "commit": "2c93627a4a71d2c4901fdfbe4a5abfa89f046462",
+    "pr_number": 2075,
+    "author": "j-rausch",
+    "title": "Fix Qwen 3.5 descriptor routing",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "commit": "3485fd0aa5b3a63e4b13146148fb9a2ffe05c0c2",
+    "pr_number": 2074,
+    "author": "j-rausch",
+    "title": "Make Puzzletron v2 CI visible and required",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-08-04",
     "commit": "93b9e4b1768aec9577ed0badbb197820c1770545",
     "pr_number": 2031,
