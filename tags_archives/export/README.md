@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-06 | [089109db](https://github.com/NVIDIA/Model-Optimizer/commit/089109dbd905467e4fe10e21e0f6d1c8029acf14) | [#2076](https://github.com/NVIDIA/Model-Optimizer/pull/2076) | [@yueshen2016](https://github.com/yueshen2016) | `export` `infra` `tests` `torch` | fix(export): honor sub-model scope_prefix in quant-aware reverse rename (NVBug 6525511) |
+| 2026-08-05 | [19e0121d](https://github.com/NVIDIA/Model-Optimizer/commit/19e0121d0a5d450b69a7de65ccc2ff3028faca14) | [#2079](https://github.com/NVIDIA/Model-Optimizer/pull/2079) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Fix 2-GPU test_model_load_utils hang; test import and fixture cleanup |
+| 2026-08-05 | [6a810259](https://github.com/NVIDIA/Model-Optimizer/commit/6a8102591e93370ebadde8b7faa71cfcea84632d) | [#2008](https://github.com/NVIDIA/Model-Optimizer/pull/2008) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `infra` `quantization` `tests` `torch` | Single gpu disk offload PTQ for DSR1/Ultra |
 | 2026-08-03 | [b75227ce](https://github.com/NVIDIA/Model-Optimizer/commit/b75227ce1bd143871c69d31330be5a327cfbdd7a) | [#2038](https://github.com/NVIDIA/Model-Optimizer/pull/2038) | [@cjluo-nv](https://github.com/cjluo-nv) | `deploy` `export` `infra` `quantization` `tests` `torch` | \[NVBug: 5987078\] Fix unified HF export of compressed NVFP4 weights (--low_memory_mode) |
 | 2026-07-30 | [c94405e6](https://github.com/NVIDIA/Model-Optimizer/commit/c94405e602ae3accdfd99666fdff929095b0e810) | [#1975](https://github.com/NVIDIA/Model-Optimizer/pull/1975) | [@skierat](https://github.com/skierat) | `core` `example` `export` `speculative_decoding` `tests` `torch` | add Qwen3-VL support for DFlash training |
 | 2026-07-30 | [4c3d3647](https://github.com/NVIDIA/Model-Optimizer/commit/4c3d364750a605ffaae0e4d57968023456225866) | [#2032](https://github.com/NVIDIA/Model-Optimizer/pull/2032) | [@meenchen](https://github.com/meenchen) | `export` `infra` `tests` `torch` | fix(export): \[NVBug 6525534\] preserve nested VLM namespaces |
@@ -137,4 +140,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 131 PRs**
+**Total: 134 PRs**

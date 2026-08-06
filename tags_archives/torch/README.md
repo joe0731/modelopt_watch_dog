@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-06 | [089109db](https://github.com/NVIDIA/Model-Optimizer/commit/089109dbd905467e4fe10e21e0f6d1c8029acf14) | [#2076](https://github.com/NVIDIA/Model-Optimizer/pull/2076) | [@yueshen2016](https://github.com/yueshen2016) | `export` `infra` `tests` `torch` | fix(export): honor sub-model scope_prefix in quant-aware reverse rename (NVBug 6525511) |
+| 2026-08-05 | [19e0121d](https://github.com/NVIDIA/Model-Optimizer/commit/19e0121d0a5d450b69a7de65ccc2ff3028faca14) | [#2079](https://github.com/NVIDIA/Model-Optimizer/pull/2079) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Fix 2-GPU test_model_load_utils hang; test import and fixture cleanup |
+| 2026-08-05 | [6a810259](https://github.com/NVIDIA/Model-Optimizer/commit/6a8102591e93370ebadde8b7faa71cfcea84632d) | [#2008](https://github.com/NVIDIA/Model-Optimizer/pull/2008) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `infra` `quantization` `tests` `torch` | Single gpu disk offload PTQ for DSR1/Ultra |
 | 2026-08-04 | [93b9e4b1](https://github.com/NVIDIA/Model-Optimizer/commit/93b9e4b1768aec9577ed0badbb197820c1770545) | [#2031](https://github.com/NVIDIA/Model-Optimizer/pull/2031) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add Megatron-Bridge prune & quantize launcher pipelines |
 | 2026-08-04 | [77dbeb18](https://github.com/NVIDIA/Model-Optimizer/commit/77dbeb1872d1672b0662adf75199a92df8523689) | [#2023](https://github.com/NVIDIA/Model-Optimizer/pull/2023) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `infra` `tests` `torch` | Add optional MLflow tracking to hf_ptq.py |
 | 2026-08-03 | [2f6e77f1](https://github.com/NVIDIA/Model-Optimizer/commit/2f6e77f14cd80593ddc0dda434f5acfb77a62e7c) | [#2043](https://github.com/NVIDIA/Model-Optimizer/pull/2043) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Skip zero-quota splits in get_dataset_samples |
@@ -419,4 +422,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 413 PRs**
+**Total: 416 PRs**

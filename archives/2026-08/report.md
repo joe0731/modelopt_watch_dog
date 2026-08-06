@@ -8,9 +8,12 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-08-06 | [089109db](https://github.com/NVIDIA/Model-Optimizer/commit/089109dbd905467e4fe10e21e0f6d1c8029acf14) | [#2076](https://github.com/NVIDIA/Model-Optimizer/pull/2076) | [@yueshen2016](https://github.com/yueshen2016) | `export` `infra` `tests` `torch` | fix(export): honor sub-model scope_prefix in quant-aware reverse rename (NVBug 6525511) |
 |  | 2026-08-05 | [7afbfbc8](https://github.com/NVIDIA/Model-Optimizer/commit/7afbfbc85ce145d5233bcb8ec38445394dcb3944) | [#1998](https://github.com/NVIDIA/Model-Optimizer/pull/1998) | [@AAnoosheh](https://github.com/AAnoosheh) | `infra` | Offline-KD QAD example |
 |  | 2026-08-05 | [2c93627a](https://github.com/NVIDIA/Model-Optimizer/commit/2c93627a4a71d2c4901fdfbe4a5abfa89f046462) | [#2075](https://github.com/NVIDIA/Model-Optimizer/pull/2075) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Fix Qwen 3.5 descriptor routing |
 |  | 2026-08-05 | [3485fd0a](https://github.com/NVIDIA/Model-Optimizer/commit/3485fd0aa5b3a63e4b13146148fb9a2ffe05c0c2) | [#2074](https://github.com/NVIDIA/Model-Optimizer/pull/2074) | [@j-rausch](https://github.com/j-rausch) | `infra` | Make Puzzletron v2 CI visible and required |
+| 🟠 | **2026-08-05** | **[19e0121d](https://github.com/NVIDIA/Model-Optimizer/commit/19e0121d0a5d450b69a7de65ccc2ff3028faca14)** | **[#2079](https://github.com/NVIDIA/Model-Optimizer/pull/2079)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `core` `deploy` `export` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | **Fix 2-GPU test_model_load_utils hang; test import and fixture cleanup** |
+|  | 2026-08-05 | [6a810259](https://github.com/NVIDIA/Model-Optimizer/commit/6a8102591e93370ebadde8b7faa71cfcea84632d) | [#2008](https://github.com/NVIDIA/Model-Optimizer/pull/2008) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `infra` `quantization` `tests` `torch` | Single gpu disk offload PTQ for DSR1/Ultra |
 | 🟡 | **2026-08-04** | **[93b9e4b1](https://github.com/NVIDIA/Model-Optimizer/commit/93b9e4b1768aec9577ed0badbb197820c1770545)** | **[#2031](https://github.com/NVIDIA/Model-Optimizer/pull/2031)** | **[@kevalmorabia97](https://github.com/kevalmorabia97)** | `core` `eval` `example` `infra` `pruning` `tests` `torch` | **Add Megatron-Bridge prune & quantize launcher pipelines** |
 |  | 2026-08-04 | [5e019d88](https://github.com/NVIDIA/Model-Optimizer/commit/5e019d882f7ecc3ded3aca6eebd3d54ddb754920) | [#2057](https://github.com/NVIDIA/Model-Optimizer/pull/2057) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Add PR review-feedback guidance to AGENTS.md |
 |  | 2026-08-04 | [77dbeb18](https://github.com/NVIDIA/Model-Optimizer/commit/77dbeb1872d1672b0662adf75199a92df8523689) | [#2023](https://github.com/NVIDIA/Model-Optimizer/pull/2023) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `infra` `tests` `torch` | Add optional MLflow tracking to hf_ptq.py |
@@ -27,4 +30,4 @@
 |  | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 
 ---
-**Total: 17 PRs** | **Highlighted: 2**
+**Total: 20 PRs** | **Highlighted: 3**

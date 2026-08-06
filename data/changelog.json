@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-06",
+    "commit": "089109dbd905467e4fe10e21e0f6d1c8029acf14",
+    "pr_number": 2076,
+    "author": "yueshen2016",
+    "title": "fix(export): honor sub-model scope_prefix in quant-aware reverse rename (NVBug 6525511)",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-08-05",
     "commit": "7afbfbc85ce145d5233bcb8ec38445394dcb3944",
     "pr_number": 1998,
@@ -28,6 +41,38 @@
     "title": "Make Puzzletron v2 CI visible and required",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "commit": "19e0121d0a5d450b69a7de65ccc2ff3028faca14",
+    "pr_number": 2079,
+    "author": "kevalmorabia97",
+    "title": "Fix 2-GPU test_model_load_utils hang; test import and fixture cleanup",
+    "tags": [
+      "core",
+      "deploy",
+      "export",
+      "onnx",
+      "quantization",
+      "sparsity",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "commit": "6a8102591e93370ebadde8b7faa71cfcea84632d",
+    "pr_number": 2008,
+    "author": "Fridah-nv",
+    "title": "Single gpu disk offload PTQ for DSR1/Ultra",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
     ]
   },
   {
