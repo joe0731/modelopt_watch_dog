@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-07 | [ccf44ea6](https://github.com/NVIDIA/Model-Optimizer/commit/ccf44ea67a14eb87765e771501f9aae4cfb0ec48) | [#2012](https://github.com/NVIDIA/Model-Optimizer/pull/2012) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` | \[OMNIML-5562\] Add FAR3D ONNX PTQ and accuracy evaluation example |
+| 2026-08-06 | [22b6a148](https://github.com/NVIDIA/Model-Optimizer/commit/22b6a148b040a331b9c6d26f9397900927a7eb3a) | [#2086](https://github.com/NVIDIA/Model-Optimizer/pull/2086) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `speculative_decoding` `tests` `torch` | Fix EAGLE-3 context-parallel training and re-enable its tests |
 | 2026-08-04 | [93b9e4b1](https://github.com/NVIDIA/Model-Optimizer/commit/93b9e4b1768aec9577ed0badbb197820c1770545) | [#2031](https://github.com/NVIDIA/Model-Optimizer/pull/2031) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add Megatron-Bridge prune & quantize launcher pipelines |
 | 2026-08-03 | [7ed91540](https://github.com/NVIDIA/Model-Optimizer/commit/7ed91540fa2807f6c9be75e9cbcc58d150d3c848) | [#2056](https://github.com/NVIDIA/Model-Optimizer/pull/2056) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `tests` `torch` | \[NVBug: 6538278\] Pass trust_remote_code to the TRT-LLM model load in deploy/eval examples |
 | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
@@ -269,4 +271,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 263 PRs**
+**Total: 265 PRs**

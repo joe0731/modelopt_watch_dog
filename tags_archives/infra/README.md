@@ -4,7 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-07 | [ccf44ea6](https://github.com/NVIDIA/Model-Optimizer/commit/ccf44ea67a14eb87765e771501f9aae4cfb0ec48) | [#2012](https://github.com/NVIDIA/Model-Optimizer/pull/2012) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` | \[OMNIML-5562\] Add FAR3D ONNX PTQ and accuracy evaluation example |
+| 2026-08-07 | [3d4d9249](https://github.com/NVIDIA/Model-Optimizer/commit/3d4d9249f4a3333f782e24fb9a830ca7a0dc5d5d) | [#2090](https://github.com/NVIDIA/Model-Optimizer/pull/2090) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Gate example and GPU test lanes on the files they cover, and consolidate the CI gate |
 | 2026-08-06 | [089109db](https://github.com/NVIDIA/Model-Optimizer/commit/089109dbd905467e4fe10e21e0f6d1c8029acf14) | [#2076](https://github.com/NVIDIA/Model-Optimizer/pull/2076) | [@yueshen2016](https://github.com/yueshen2016) | `export` `infra` `tests` `torch` | fix(export): honor sub-model scope_prefix in quant-aware reverse rename (NVBug 6525511) |
+| 2026-08-06 | [22b6a148](https://github.com/NVIDIA/Model-Optimizer/commit/22b6a148b040a331b9c6d26f9397900927a7eb3a) | [#2086](https://github.com/NVIDIA/Model-Optimizer/pull/2086) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `speculative_decoding` `tests` `torch` | Fix EAGLE-3 context-parallel training and re-enable its tests |
 | 2026-08-05 | [7afbfbc8](https://github.com/NVIDIA/Model-Optimizer/commit/7afbfbc85ce145d5233bcb8ec38445394dcb3944) | [#1998](https://github.com/NVIDIA/Model-Optimizer/pull/1998) | [@AAnoosheh](https://github.com/AAnoosheh) | `infra` | Offline-KD QAD example |
 | 2026-08-05 | [2c93627a](https://github.com/NVIDIA/Model-Optimizer/commit/2c93627a4a71d2c4901fdfbe4a5abfa89f046462) | [#2075](https://github.com/NVIDIA/Model-Optimizer/pull/2075) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Fix Qwen 3.5 descriptor routing |
 | 2026-08-05 | [3485fd0a](https://github.com/NVIDIA/Model-Optimizer/commit/3485fd0aa5b3a63e4b13146148fb9a2ffe05c0c2) | [#2074](https://github.com/NVIDIA/Model-Optimizer/pull/2074) | [@j-rausch](https://github.com/j-rausch) | `infra` | Make Puzzletron v2 CI visible and required |
@@ -446,4 +449,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 440 PRs**
+**Total: 443 PRs**

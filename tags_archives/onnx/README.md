@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-07 | [ccf44ea6](https://github.com/NVIDIA/Model-Optimizer/commit/ccf44ea67a14eb87765e771501f9aae4cfb0ec48) | [#2012](https://github.com/NVIDIA/Model-Optimizer/pull/2012) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` | \[OMNIML-5562\] Add FAR3D ONNX PTQ and accuracy evaluation example |
 | 2026-08-05 | [19e0121d](https://github.com/NVIDIA/Model-Optimizer/commit/19e0121d0a5d450b69a7de65ccc2ff3028faca14) | [#2079](https://github.com/NVIDIA/Model-Optimizer/pull/2079) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Fix 2-GPU test_model_load_utils hang; test import and fixture cleanup |
 | 2026-07-30 | [a23390db](https://github.com/NVIDIA/Model-Optimizer/commit/a23390dbb6e52b0c028f3e9455a74da824c88735) | [#1981](https://github.com/NVIDIA/Model-Optimizer/pull/1981) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[5726458\] \[Experimental\] Add NVFP4 projection-output-quantizer recipe and HF embedding ONNX export example |
 | 2026-07-29 | [ddd2fb98](https://github.com/NVIDIA/Model-Optimizer/commit/ddd2fb98e3e1587d7198a70b4b84e53c102cdd21) | [#1983](https://github.com/NVIDIA/Model-Optimizer/pull/1983) | [@gcunhase](https://github.com/gcunhase) | `infra` `onnx` `tests` | \[6425069\]\[ONNX\]\[Autocast\] Fix autocast metadata propagation |
@@ -101,4 +102,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 95 PRs**
+**Total: 96 PRs**
