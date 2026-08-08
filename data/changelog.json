@@ -24,6 +24,141 @@
     ]
   },
   {
+    "date": "2026-08-07",
+    "commit": "3d4430f367b6f94447c41f19e5dbedef9cf6e044",
+    "pr_number": 2101,
+    "author": "kevalmorabia97",
+    "title": "Apply the docs-only ignore to the example lane groups",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "commit": "380527f1ce689a7284ed9fef2568a4edc2b0e61d",
+    "pr_number": 2105,
+    "author": "coderabbitai[bot]",
+    "title": "📝 Add docstrings to `gkarch/add_downstream_eval`",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "commit": "3798b10f6478f9c6e7679f0ff879616a08dac526",
+    "pr_number": 2106,
+    "author": "coderabbitai[bot]",
+    "title": "fix: CodeRabbit auto-fixes for PR #2104",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "commit": "30b68c38c7cf3c65cf23c81cf35c1daaee68f9db",
+    "pr_number": 2102,
+    "author": "kevalmorabia97",
+    "title": "Bump the Node 20 actions that have no behavior change",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "commit": "02b64bcce7813452d738c9b2a76f3ed2ba780981",
+    "pr_number": 2103,
+    "author": "kevalmorabia97",
+    "title": "Bump step-security/changed-files to v47",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "commit": "8c576b63b0fb1cc7e209db255cdf4bbb31218a17",
+    "pr_number": 2109,
+    "author": "kevalmorabia97",
+    "title": "Give the EAGLE-3 cp_size=2 compile case a longer timeout",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "commit": "99116c3fb91799e8a68ad575b98f8f769c8b79ad",
+    "pr_number": 2110,
+    "author": "kevalmorabia97",
+    "title": "Bump codecov-action to v7, the last Node 20 warning",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "commit": "43e9d15e0b74031e71949cd585fd5d15ade4a3d5",
+    "pr_number": 2111,
+    "author": "kevalmorabia97",
+    "title": "Give each example lane its own Codecov flag",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "commit": "2ded5aba37a71917443f6f432019611a878cdf61",
+    "pr_number": 1550,
+    "author": "jenchen13",
+    "title": "Support per expert weight quantizer in TEGroupedMLP",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "commit": "75f6c81575b50e280ff20515e7aed58541e05f0a",
+    "pr_number": 2071,
+    "author": "Edwardf0t1",
+    "title": "fix(export): save models with legacy list-style _tied_weights_keys (NVBug 6518665)",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "commit": "bd3798a79495c54c46d6d6233701b7d559c68f65",
+    "pr_number": 2093,
+    "author": "kinjalpatel27",
+    "title": "[6562078]: fix calibration for vLLM 0.26.0",
+    "tags": [
+      "deploy",
+      "example",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-08-07",
+    "commit": "9b8caf623ab0e547189f7d8a5b079a830eb58351",
+    "pr_number": 2066,
+    "author": "cjluo-nv",
+    "title": "Use lm-eval 0.4.12's built-in trtllm backend, deprecate lm_eval_tensorrt_llm.py",
+    "tags": [
+      "eval",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-08-06",
     "commit": "089109dbd905467e4fe10e21e0f6d1c8029acf14",
     "pr_number": 2076,

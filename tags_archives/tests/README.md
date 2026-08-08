@@ -5,6 +5,11 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-08-07 | [3d4d9249](https://github.com/NVIDIA/Model-Optimizer/commit/3d4d9249f4a3333f782e24fb9a830ca7a0dc5d5d) | [#2090](https://github.com/NVIDIA/Model-Optimizer/pull/2090) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Gate example and GPU test lanes on the files they cover, and consolidate the CI gate |
+| 2026-08-07 | [3798b10f](https://github.com/NVIDIA/Model-Optimizer/commit/3798b10f6478f9c6e7679f0ff879616a08dac526) | [#2106](https://github.com/NVIDIA/Model-Optimizer/pull/2106) | [@coderabbitai[bot]](https://github.com/coderabbitai[bot]) | `infra` `tests` | fix: CodeRabbit auto-fixes for PR #2104 |
+| 2026-08-07 | [8c576b63](https://github.com/NVIDIA/Model-Optimizer/commit/8c576b63b0fb1cc7e209db255cdf4bbb31218a17) | [#2109](https://github.com/NVIDIA/Model-Optimizer/pull/2109) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `tests` | Give the EAGLE-3 cp_size=2 compile case a longer timeout |
+| 2026-08-07 | [2ded5aba](https://github.com/NVIDIA/Model-Optimizer/commit/2ded5aba37a71917443f6f432019611a878cdf61) | [#1550](https://github.com/NVIDIA/Model-Optimizer/pull/1550) | [@jenchen13](https://github.com/jenchen13) | `core` `export` `infra` `quantization` `tests` `torch` | Support per expert weight quantizer in TEGroupedMLP |
+| 2026-08-07 | [75f6c815](https://github.com/NVIDIA/Model-Optimizer/commit/75f6c81575b50e280ff20515e7aed58541e05f0a) | [#2071](https://github.com/NVIDIA/Model-Optimizer/pull/2071) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `infra` `tests` `torch` | fix(export): save models with legacy list-style _tied_weights_keys (NVBug 6518665) |
+| 2026-08-07 | [9b8caf62](https://github.com/NVIDIA/Model-Optimizer/commit/9b8caf623ab0e547189f7d8a5b079a830eb58351) | [#2066](https://github.com/NVIDIA/Model-Optimizer/pull/2066) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `tests` `torch` | Use lm-eval 0.4.12's built-in trtllm backend, deprecate lm_eval_tensorrt_llm.py |
 | 2026-08-06 | [089109db](https://github.com/NVIDIA/Model-Optimizer/commit/089109dbd905467e4fe10e21e0f6d1c8029acf14) | [#2076](https://github.com/NVIDIA/Model-Optimizer/pull/2076) | [@yueshen2016](https://github.com/yueshen2016) | `export` `infra` `tests` `torch` | fix(export): honor sub-model scope_prefix in quant-aware reverse rename (NVBug 6525511) |
 | 2026-08-06 | [22b6a148](https://github.com/NVIDIA/Model-Optimizer/commit/22b6a148b040a331b9c6d26f9397900927a7eb3a) | [#2086](https://github.com/NVIDIA/Model-Optimizer/pull/2086) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `speculative_decoding` `tests` `torch` | Fix EAGLE-3 context-parallel training and re-enable its tests |
 | 2026-08-05 | [2c93627a](https://github.com/NVIDIA/Model-Optimizer/commit/2c93627a4a71d2c4901fdfbe4a5abfa89f046462) | [#2075](https://github.com/NVIDIA/Model-Optimizer/pull/2075) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Fix Qwen 3.5 descriptor routing |
@@ -332,4 +337,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 326 PRs**
+**Total: 331 PRs**

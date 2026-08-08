@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-07 | [2ded5aba](https://github.com/NVIDIA/Model-Optimizer/commit/2ded5aba37a71917443f6f432019611a878cdf61) | [#1550](https://github.com/NVIDIA/Model-Optimizer/pull/1550) | [@jenchen13](https://github.com/jenchen13) | `core` `export` `infra` `quantization` `tests` `torch` | Support per expert weight quantizer in TEGroupedMLP |
+| 2026-08-07 | [75f6c815](https://github.com/NVIDIA/Model-Optimizer/commit/75f6c81575b50e280ff20515e7aed58541e05f0a) | [#2071](https://github.com/NVIDIA/Model-Optimizer/pull/2071) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `infra` `tests` `torch` | fix(export): save models with legacy list-style _tied_weights_keys (NVBug 6518665) |
 | 2026-08-05 | [19e0121d](https://github.com/NVIDIA/Model-Optimizer/commit/19e0121d0a5d450b69a7de65ccc2ff3028faca14) | [#2079](https://github.com/NVIDIA/Model-Optimizer/pull/2079) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Fix 2-GPU test_model_load_utils hang; test import and fixture cleanup |
 | 2026-08-04 | [93b9e4b1](https://github.com/NVIDIA/Model-Optimizer/commit/93b9e4b1768aec9577ed0badbb197820c1770545) | [#2031](https://github.com/NVIDIA/Model-Optimizer/pull/2031) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add Megatron-Bridge prune & quantize launcher pipelines |
 | 2026-08-04 | [77dbeb18](https://github.com/NVIDIA/Model-Optimizer/commit/77dbeb1872d1672b0662adf75199a92df8523689) | [#2023](https://github.com/NVIDIA/Model-Optimizer/pull/2023) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `infra` `tests` `torch` | Add optional MLflow tracking to hf_ptq.py |
@@ -137,4 +139,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 131 PRs**
+**Total: 133 PRs**

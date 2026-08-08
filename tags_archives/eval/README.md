@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-07 | [9b8caf62](https://github.com/NVIDIA/Model-Optimizer/commit/9b8caf623ab0e547189f7d8a5b079a830eb58351) | [#2066](https://github.com/NVIDIA/Model-Optimizer/pull/2066) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `tests` `torch` | Use lm-eval 0.4.12's built-in trtllm backend, deprecate lm_eval_tensorrt_llm.py |
 | 2026-08-04 | [93b9e4b1](https://github.com/NVIDIA/Model-Optimizer/commit/93b9e4b1768aec9577ed0badbb197820c1770545) | [#2031](https://github.com/NVIDIA/Model-Optimizer/pull/2031) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add Megatron-Bridge prune & quantize launcher pipelines |
 | 2026-08-03 | [7ed91540](https://github.com/NVIDIA/Model-Optimizer/commit/7ed91540fa2807f6c9be75e9cbcc58d150d3c848) | [#2056](https://github.com/NVIDIA/Model-Optimizer/pull/2056) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `tests` `torch` | \[NVBug: 6538278\] Pass trust_remote_code to the TRT-LLM model load in deploy/eval examples |
 | 2026-07-03 | [75b58037](https://github.com/NVIDIA/Model-Optimizer/commit/75b580379a0e5bca52265639cdfb7a9a11265c6a) | [#1872](https://github.com/NVIDIA/Model-Optimizer/pull/1872) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `eval` `example` `infra` `torch` | Create a user guide: ModelOpt for Researchers: Fast Experimentation Workflows |
@@ -98,4 +99,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 92 PRs**
+**Total: 93 PRs**
