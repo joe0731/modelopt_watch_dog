@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-10 | [c6889c67](https://github.com/NVIDIA/Model-Optimizer/commit/c6889c6720fbd36a7ee4d6ab42da7e5216e335eb) | [#2118](https://github.com/NVIDIA/Model-Optimizer/pull/2118) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Mark the MLflow test's fake credentials for TruffleHog |
 | 2026-08-07 | [3d4d9249](https://github.com/NVIDIA/Model-Optimizer/commit/3d4d9249f4a3333f782e24fb9a830ca7a0dc5d5d) | [#2090](https://github.com/NVIDIA/Model-Optimizer/pull/2090) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Gate example and GPU test lanes on the files they cover, and consolidate the CI gate |
 | 2026-08-07 | [3798b10f](https://github.com/NVIDIA/Model-Optimizer/commit/3798b10f6478f9c6e7679f0ff879616a08dac526) | [#2106](https://github.com/NVIDIA/Model-Optimizer/pull/2106) | [@coderabbitai[bot]](https://github.com/coderabbitai[bot]) | `infra` `tests` | fix: CodeRabbit auto-fixes for PR #2104 |
 | 2026-08-07 | [8c576b63](https://github.com/NVIDIA/Model-Optimizer/commit/8c576b63b0fb1cc7e209db255cdf4bbb31218a17) | [#2109](https://github.com/NVIDIA/Model-Optimizer/pull/2109) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `tests` | Give the EAGLE-3 cp_size=2 compile case a longer timeout |
@@ -337,4 +338,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 331 PRs**
+**Total: 332 PRs**

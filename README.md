@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-08-10 | [c6889c67](https://github.com/NVIDIA/Model-Optimizer/commit/c6889c6720fbd36a7ee4d6ab42da7e5216e335eb) | [#2118](https://github.com/NVIDIA/Model-Optimizer/pull/2118) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Mark the MLflow test's fake credentials for TruffleHog |
 | 2026-08-07 | [3d4430f3](https://github.com/NVIDIA/Model-Optimizer/commit/3d4430f367b6f94447c41f19e5dbedef9cf6e044) | [#2101](https://github.com/NVIDIA/Model-Optimizer/pull/2101) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Apply the docs-only ignore to the example lane groups |
 | 2026-08-07 | [380527f1](https://github.com/NVIDIA/Model-Optimizer/commit/380527f1ce689a7284ed9fef2568a4edc2b0e61d) | [#2105](https://github.com/NVIDIA/Model-Optimizer/pull/2105) | [@coderabbitai[bot]](https://github.com/coderabbitai[bot]) | `infra` | 📝 Add docstrings to \`gkarch/add_downstream_eval\` |
 | 2026-08-07 | [3798b10f](https://github.com/NVIDIA/Model-Optimizer/commit/3798b10f6478f9c6e7679f0ff879616a08dac526) | [#2106](https://github.com/NVIDIA/Model-Optimizer/pull/2106) | [@coderabbitai[bot]](https://github.com/coderabbitai[bot]) | `infra` `tests` | fix: CodeRabbit auto-fixes for PR #2104 |

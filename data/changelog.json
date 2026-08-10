@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-08-10",
+    "commit": "c6889c6720fbd36a7ee4d6ab42da7e5216e335eb",
+    "pr_number": 2118,
+    "author": "kevalmorabia97",
+    "title": "Mark the MLflow test's fake credentials for TruffleHog",
+    "tags": [
+      "core",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-08-07",
     "commit": "ccf44ea67a14eb87765e771501f9aae4cfb0ec48",
     "pr_number": 2012,

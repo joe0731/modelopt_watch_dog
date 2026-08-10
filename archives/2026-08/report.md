@@ -8,6 +8,7 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-08-10 | [c6889c67](https://github.com/NVIDIA/Model-Optimizer/commit/c6889c6720fbd36a7ee4d6ab42da7e5216e335eb) | [#2118](https://github.com/NVIDIA/Model-Optimizer/pull/2118) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Mark the MLflow test's fake credentials for TruffleHog |
 | 🟠 | **2026-08-07** | **[ccf44ea6](https://github.com/NVIDIA/Model-Optimizer/commit/ccf44ea67a14eb87765e771501f9aae4cfb0ec48)** | **[#2012](https://github.com/NVIDIA/Model-Optimizer/pull/2012)** | **[@ajrasane](https://github.com/ajrasane)** | `example` `infra` `onnx` `quantization` | **\[OMNIML-5562\] Add FAR3D ONNX PTQ and accuracy evaluation example** |
 |  | 2026-08-07 | [3d4d9249](https://github.com/NVIDIA/Model-Optimizer/commit/3d4d9249f4a3333f782e24fb9a830ca7a0dc5d5d) | [#2090](https://github.com/NVIDIA/Model-Optimizer/pull/2090) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Gate example and GPU test lanes on the files they cover, and consolidate the CI gate |
 |  | 2026-08-07 | [3d4430f3](https://github.com/NVIDIA/Model-Optimizer/commit/3d4430f367b6f94447c41f19e5dbedef9cf6e044) | [#2101](https://github.com/NVIDIA/Model-Optimizer/pull/2101) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Apply the docs-only ignore to the example lane groups |
@@ -45,4 +46,4 @@
 |  | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 
 ---
-**Total: 35 PRs** | **Highlighted: 6**
+**Total: 36 PRs** | **Highlighted: 6**

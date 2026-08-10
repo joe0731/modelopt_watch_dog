@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-10 | [c6889c67](https://github.com/NVIDIA/Model-Optimizer/commit/c6889c6720fbd36a7ee4d6ab42da7e5216e335eb) | [#2118](https://github.com/NVIDIA/Model-Optimizer/pull/2118) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Mark the MLflow test's fake credentials for TruffleHog |
 | 2026-08-07 | [2ded5aba](https://github.com/NVIDIA/Model-Optimizer/commit/2ded5aba37a71917443f6f432019611a878cdf61) | [#1550](https://github.com/NVIDIA/Model-Optimizer/pull/1550) | [@jenchen13](https://github.com/jenchen13) | `core` `export` `infra` `quantization` `tests` `torch` | Support per expert weight quantizer in TEGroupedMLP |
 | 2026-08-07 | [75f6c815](https://github.com/NVIDIA/Model-Optimizer/commit/75f6c81575b50e280ff20515e7aed58541e05f0a) | [#2071](https://github.com/NVIDIA/Model-Optimizer/pull/2071) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `core` `infra` `tests` `torch` | fix(export): save models with legacy list-style _tied_weights_keys (NVBug 6518665) |
 | 2026-08-07 | [9b8caf62](https://github.com/NVIDIA/Model-Optimizer/commit/9b8caf623ab0e547189f7d8a5b079a830eb58351) | [#2066](https://github.com/NVIDIA/Model-Optimizer/pull/2066) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `tests` `torch` | Use lm-eval 0.4.12's built-in trtllm backend, deprecate lm_eval_tensorrt_llm.py |
@@ -426,4 +427,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 420 PRs**
+**Total: 421 PRs**
