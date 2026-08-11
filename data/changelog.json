@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-08-11",
+    "commit": "07745593819f348327341e0df660e3375edfbfd2",
+    "pr_number": 2130,
+    "author": "j-rausch",
+    "title": "Unify Puzzletron v2 stage completion contracts",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-08-10",
     "commit": "c6889c6720fbd36a7ee4d6ab42da7e5216e335eb",
     "pr_number": 2118,
@@ -9,6 +20,105 @@
       "core",
       "tests",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "commit": "6b02f528bbc46b5ed474fade47add23f6810f0f3",
+    "pr_number": 2124,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-08-10)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "commit": "17a28519da18e58fba5b25dc02379d78f8d7a75f",
+    "pr_number": 2114,
+    "author": "j-rausch",
+    "title": "Fail closed on Puzzletron correctness failures",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "commit": "13fff8a9693fab1b001893f36fab7469799dff44",
+    "pr_number": 2121,
+    "author": "j-rausch",
+    "title": "Catalog Puzzletron campaign report evidence",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "commit": "9b079ef33ff33f53a13e539d00859b31354bfbda",
+    "pr_number": 2116,
+    "author": "j-rausch",
+    "title": "Add Qwen 3.5 0.8B Puzzletron configs",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "commit": "20e960df272f81ea965c9c40a99605181c3d56ef",
+    "pr_number": 2122,
+    "author": "j-rausch",
+    "title": "Propagate candidate-library import failures",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "commit": "41b18a8568fd97eb45981814cacfe4de7fe88671",
+    "pr_number": 2084,
+    "author": "sychen52",
+    "title": "[NVBUG: 6562021] Fix vLLM FlashAttention KV cache layout handling",
+    "tags": [
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "commit": "f2bfe63183feb956a5217facbe9683f81d0da370",
+    "pr_number": 2134,
+    "author": "jenchen13",
+    "title": "Nemotron Nano 3 QAD Launcher Example on OSS Nemotron-Post-Training-V2 data",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "commit": "9220fac0535e4afd7e9929822eb332e09ea8a4f8",
+    "pr_number": 2115,
+    "author": "cjluo-nv",
+    "title": "[NVBug: 6563509] Drop Phi-3-vision / Phi-4-multimodal PTQ support",
+    "tags": [
+      "export",
+      "infra",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "commit": "f10a88d4496420a2cec66eca73ec62d075334e67",
+    "pr_number": 2133,
+    "author": "meenchen",
+    "title": "[NVBug 6571812] Fix NemotronH dense MLP quantization recipes",
+    "tags": [
+      "infra",
+      "tests"
     ]
   },
   {

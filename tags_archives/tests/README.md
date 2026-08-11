@@ -4,7 +4,14 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-11 | [07745593](https://github.com/NVIDIA/Model-Optimizer/commit/07745593819f348327341e0df660e3375edfbfd2) | [#2130](https://github.com/NVIDIA/Model-Optimizer/pull/2130) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Unify Puzzletron v2 stage completion contracts |
 | 2026-08-10 | [c6889c67](https://github.com/NVIDIA/Model-Optimizer/commit/c6889c6720fbd36a7ee4d6ab42da7e5216e335eb) | [#2118](https://github.com/NVIDIA/Model-Optimizer/pull/2118) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `tests` `torch` | Mark the MLflow test's fake credentials for TruffleHog |
+| 2026-08-10 | [17a28519](https://github.com/NVIDIA/Model-Optimizer/commit/17a28519da18e58fba5b25dc02379d78f8d7a75f) | [#2114](https://github.com/NVIDIA/Model-Optimizer/pull/2114) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Fail closed on Puzzletron correctness failures |
+| 2026-08-10 | [13fff8a9](https://github.com/NVIDIA/Model-Optimizer/commit/13fff8a9693fab1b001893f36fab7469799dff44) | [#2121](https://github.com/NVIDIA/Model-Optimizer/pull/2121) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Catalog Puzzletron campaign report evidence |
+| 2026-08-10 | [9b079ef3](https://github.com/NVIDIA/Model-Optimizer/commit/9b079ef33ff33f53a13e539d00859b31354bfbda) | [#2116](https://github.com/NVIDIA/Model-Optimizer/pull/2116) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 0.8B Puzzletron configs |
+| 2026-08-10 | [20e960df](https://github.com/NVIDIA/Model-Optimizer/commit/20e960df272f81ea965c9c40a99605181c3d56ef) | [#2122](https://github.com/NVIDIA/Model-Optimizer/pull/2122) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Propagate candidate-library import failures |
+| 2026-08-10 | [41b18a85](https://github.com/NVIDIA/Model-Optimizer/commit/41b18a8568fd97eb45981814cacfe4de7fe88671) | [#2084](https://github.com/NVIDIA/Model-Optimizer/pull/2084) | [@sychen52](https://github.com/sychen52) | `sparsity` `tests` `torch` | \[NVBUG: 6562021\] Fix vLLM FlashAttention KV cache layout handling |
+| 2026-08-10 | [f10a88d4](https://github.com/NVIDIA/Model-Optimizer/commit/f10a88d4496420a2cec66eca73ec62d075334e67) | [#2133](https://github.com/NVIDIA/Model-Optimizer/pull/2133) | [@meenchen](https://github.com/meenchen) | `infra` `tests` | \[NVBug 6571812\] Fix NemotronH dense MLP quantization recipes |
 | 2026-08-07 | [3d4d9249](https://github.com/NVIDIA/Model-Optimizer/commit/3d4d9249f4a3333f782e24fb9a830ca7a0dc5d5d) | [#2090](https://github.com/NVIDIA/Model-Optimizer/pull/2090) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Gate example and GPU test lanes on the files they cover, and consolidate the CI gate |
 | 2026-08-07 | [3798b10f](https://github.com/NVIDIA/Model-Optimizer/commit/3798b10f6478f9c6e7679f0ff879616a08dac526) | [#2106](https://github.com/NVIDIA/Model-Optimizer/pull/2106) | [@coderabbitai[bot]](https://github.com/coderabbitai[bot]) | `infra` `tests` | fix: CodeRabbit auto-fixes for PR #2104 |
 | 2026-08-07 | [8c576b63](https://github.com/NVIDIA/Model-Optimizer/commit/8c576b63b0fb1cc7e209db255cdf4bbb31218a17) | [#2109](https://github.com/NVIDIA/Model-Optimizer/pull/2109) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `tests` | Give the EAGLE-3 cp_size=2 compile case a longer timeout |
@@ -338,4 +345,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 332 PRs**
+**Total: 339 PRs**

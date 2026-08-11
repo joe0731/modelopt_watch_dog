@@ -4,6 +4,15 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-11 | [07745593](https://github.com/NVIDIA/Model-Optimizer/commit/07745593819f348327341e0df660e3375edfbfd2) | [#2130](https://github.com/NVIDIA/Model-Optimizer/pull/2130) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Unify Puzzletron v2 stage completion contracts |
+| 2026-08-10 | [6b02f528](https://github.com/NVIDIA/Model-Optimizer/commit/6b02f528bbc46b5ed474fade47add23f6810f0f3) | [#2124](https://github.com/NVIDIA/Model-Optimizer/pull/2124) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-08-10) |
+| 2026-08-10 | [17a28519](https://github.com/NVIDIA/Model-Optimizer/commit/17a28519da18e58fba5b25dc02379d78f8d7a75f) | [#2114](https://github.com/NVIDIA/Model-Optimizer/pull/2114) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Fail closed on Puzzletron correctness failures |
+| 2026-08-10 | [13fff8a9](https://github.com/NVIDIA/Model-Optimizer/commit/13fff8a9693fab1b001893f36fab7469799dff44) | [#2121](https://github.com/NVIDIA/Model-Optimizer/pull/2121) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Catalog Puzzletron campaign report evidence |
+| 2026-08-10 | [9b079ef3](https://github.com/NVIDIA/Model-Optimizer/commit/9b079ef33ff33f53a13e539d00859b31354bfbda) | [#2116](https://github.com/NVIDIA/Model-Optimizer/pull/2116) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 0.8B Puzzletron configs |
+| 2026-08-10 | [20e960df](https://github.com/NVIDIA/Model-Optimizer/commit/20e960df272f81ea965c9c40a99605181c3d56ef) | [#2122](https://github.com/NVIDIA/Model-Optimizer/pull/2122) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Propagate candidate-library import failures |
+| 2026-08-10 | [f2bfe631](https://github.com/NVIDIA/Model-Optimizer/commit/f2bfe63183feb956a5217facbe9683f81d0da370) | [#2134](https://github.com/NVIDIA/Model-Optimizer/pull/2134) | [@jenchen13](https://github.com/jenchen13) | `infra` | Nemotron Nano 3 QAD Launcher Example on OSS Nemotron-Post-Training-V2 data |
+| 2026-08-10 | [9220fac0](https://github.com/NVIDIA/Model-Optimizer/commit/9220fac0535e4afd7e9929822eb332e09ea8a4f8) | [#2115](https://github.com/NVIDIA/Model-Optimizer/pull/2115) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `torch` | \[NVBug: 6563509\] Drop Phi-3-vision / Phi-4-multimodal PTQ support |
+| 2026-08-10 | [f10a88d4](https://github.com/NVIDIA/Model-Optimizer/commit/f10a88d4496420a2cec66eca73ec62d075334e67) | [#2133](https://github.com/NVIDIA/Model-Optimizer/pull/2133) | [@meenchen](https://github.com/meenchen) | `infra` `tests` | \[NVBug 6571812\] Fix NemotronH dense MLP quantization recipes |
 | 2026-08-07 | [ccf44ea6](https://github.com/NVIDIA/Model-Optimizer/commit/ccf44ea67a14eb87765e771501f9aae4cfb0ec48) | [#2012](https://github.com/NVIDIA/Model-Optimizer/pull/2012) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` | \[OMNIML-5562\] Add FAR3D ONNX PTQ and accuracy evaluation example |
 | 2026-08-07 | [3d4d9249](https://github.com/NVIDIA/Model-Optimizer/commit/3d4d9249f4a3333f782e24fb9a830ca7a0dc5d5d) | [#2090](https://github.com/NVIDIA/Model-Optimizer/pull/2090) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Gate example and GPU test lanes on the files they cover, and consolidate the CI gate |
 | 2026-08-07 | [3d4430f3](https://github.com/NVIDIA/Model-Optimizer/commit/3d4430f367b6f94447c41f19e5dbedef9cf6e044) | [#2101](https://github.com/NVIDIA/Model-Optimizer/pull/2101) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Apply the docs-only ignore to the example lane groups |
@@ -459,4 +468,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 453 PRs**
+**Total: 462 PRs**

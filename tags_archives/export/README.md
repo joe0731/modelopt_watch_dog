@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-10 | [9220fac0](https://github.com/NVIDIA/Model-Optimizer/commit/9220fac0535e4afd7e9929822eb332e09ea8a4f8) | [#2115](https://github.com/NVIDIA/Model-Optimizer/pull/2115) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `torch` | \[NVBug: 6563509\] Drop Phi-3-vision / Phi-4-multimodal PTQ support |
 | 2026-08-07 | [2ded5aba](https://github.com/NVIDIA/Model-Optimizer/commit/2ded5aba37a71917443f6f432019611a878cdf61) | [#1550](https://github.com/NVIDIA/Model-Optimizer/pull/1550) | [@jenchen13](https://github.com/jenchen13) | `core` `export` `infra` `quantization` `tests` `torch` | Support per expert weight quantizer in TEGroupedMLP |
 | 2026-08-06 | [089109db](https://github.com/NVIDIA/Model-Optimizer/commit/089109dbd905467e4fe10e21e0f6d1c8029acf14) | [#2076](https://github.com/NVIDIA/Model-Optimizer/pull/2076) | [@yueshen2016](https://github.com/yueshen2016) | `export` `infra` `tests` `torch` | fix(export): honor sub-model scope_prefix in quant-aware reverse rename (NVBug 6525511) |
 | 2026-08-05 | [19e0121d](https://github.com/NVIDIA/Model-Optimizer/commit/19e0121d0a5d450b69a7de65ccc2ff3028faca14) | [#2079](https://github.com/NVIDIA/Model-Optimizer/pull/2079) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Fix 2-GPU test_model_load_utils hang; test import and fixture cleanup |
@@ -141,4 +142,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 135 PRs**
+**Total: 136 PRs**
