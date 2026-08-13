@@ -1,5 +1,187 @@
 [
   {
+    "date": "2026-08-13",
+    "commit": "b96841db3e161763c552db627d55e28ea90de950",
+    "pr_number": 2120,
+    "author": "cjluo-nv",
+    "title": "Add optional MLflow tracking to the vLLM fake-quant server",
+    "tags": [
+      "core",
+      "deploy",
+      "example",
+      "infra",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "commit": "71b3d884eec4ea789db352bf4546f10df1bc1d03",
+    "pr_number": 2142,
+    "author": "yueshen2016",
+    "title": "example(launcher): Megatron-Bridge NVFP4 QAD launcher example for Nemotron-3.5-Lightning-30B-A3B",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "commit": "686da8d893536688e86adae41aa628aa740a1a35",
+    "pr_number": 2113,
+    "author": "yueshen2016",
+    "title": "feat(megatron-bridge): SFT-masked data support in distillation",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "commit": "f99523279a43af036a12e8bff5baed58146d9abe",
+    "pr_number": 2159,
+    "author": "kevalmorabia97",
+    "title": "Minitron pruning fixes for Nemotron-3.5-Lightning-30B-A3B and Deepseek",
+    "tags": [
+      "core",
+      "example",
+      "pruning",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "commit": "1b3fd43015dc1dfc2b59dfe1629640499c26fe18",
+    "pr_number": 2112,
+    "author": "yueshen2016",
+    "title": "fix(megatron): restore untied output_layer quantization under Megatron-Bridge",
+    "tags": [
+      "core",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "commit": "bee497de0386c6b79d299a4e22685dc9fc79c595",
+    "pr_number": 2172,
+    "author": "kevalmorabia97",
+    "title": "Fix EAGLE3 offline dump skipping all conversations on newer transformers",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "commit": "278f44b6c3735fc67683e18f03ddfbec19ce45cd",
+    "pr_number": 2179,
+    "author": "kevalmorabia97",
+    "title": "[Cherry-pick] PRs #1975 #2076 #2071 #2093 #2084 #2115 #2133 #2146 #2064 #2159 #2112",
+    "tags": [
+      "core",
+      "deploy",
+      "example",
+      "export",
+      "infra",
+      "pruning",
+      "quantization",
+      "sparsity",
+      "speculative_decoding",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "commit": "6261f854aa2415c0b790de15b38e58af0e918482",
+    "pr_number": 2087,
+    "author": "Edwardf0t1",
+    "title": "docs: rebuild the unified HF deployment support matrix from the deploy test suite (NVBug 6550792)",
+    "tags": [
+      "diffusers",
+      "docs",
+      "example",
+      "infra",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "commit": "96b4aac90a8a8c2aeccfb6a77b5f98991a7cc7aa",
+    "pr_number": 2181,
+    "author": "kevalmorabia97",
+    "title": "Condense changelog entries and tighten conciseness guidelines",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "commit": "c15d2b5746820d2528ce716dca1ebbb008fff5da",
+    "pr_number": 2152,
+    "author": "sugunav14",
+    "title": "bug fix 6567139",
+    "tags": [
+      "core",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "commit": "5da9a05b6f0807702fba03b57e0331c750b69b0b",
+    "pr_number": 2178,
+    "author": "j-rausch",
+    "title": "Fix changed-file code quality checks",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "commit": "f3e88df9ea7740ade0fa1d5ccaaa3b8b243f5460",
+    "pr_number": 2150,
+    "author": "chadvoegele",
+    "title": "Move Mistral Medium recipe under canonical base model",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "commit": "6f1da0f5e5ba26c22feb90f733eb148cdb538d8e",
+    "pr_number": 2184,
+    "author": "j-rausch",
+    "title": "Test Puzzletron Fire import behavior",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-12",
+    "commit": "fa8aae28fc16574c18b95a6f25b79e0779d1d445",
+    "pr_number": 2177,
+    "author": "j-rausch",
+    "title": "Add standalone checkpoint evaluation for Puzzletron",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-08-11",
     "commit": "07745593819f348327341e0df660e3375edfbfd2",
     "pr_number": 2130,
@@ -8,6 +190,32 @@
     "tags": [
       "infra",
       "tests"
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "commit": "4ca7dd887113d2b4a0b9f0e92b51ded2506ce12f",
+    "pr_number": 2146,
+    "author": "jenchen13",
+    "title": "Add Nemotron Lightning 3.5 NVFP4 recipe and QAD example",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-11",
+    "commit": "a21173a4d52cd7376a9e1ae274944d5983e3897c",
+    "pr_number": 2064,
+    "author": "sugunav14",
+    "title": "Bug fix: 6542481",
+    "tags": [
+      "core",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
     ]
   },
   {

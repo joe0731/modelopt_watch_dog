@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-12 | [6261f854](https://github.com/NVIDIA/Model-Optimizer/commit/6261f854aa2415c0b790de15b38e58af0e918482) | [#2087](https://github.com/NVIDIA/Model-Optimizer/pull/2087) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `diffusers` `docs` `example` `infra` `torch` | docs: rebuild the unified HF deployment support matrix from the deploy test suite (NVBug 6550792) |
 | 2026-07-28 | [87c9f8cf](https://github.com/NVIDIA/Model-Optimizer/commit/87c9f8cf83021957d1a1a575c90c9a4eaaf7ef0c) | [#2022](https://github.com/NVIDIA/Model-Optimizer/pull/2022) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `docs` `example` `onnx` `quantization` `windows` | Update documentation guide for ONNX INT4 PTQ on Windows cuda13 host |
 | 2026-07-23 | [d984de37](https://github.com/NVIDIA/Model-Optimizer/commit/d984de3795c2da5f5add1e08f775cdc80ea7ca1b) | [#1989](https://github.com/NVIDIA/Model-Optimizer/pull/1989) | [@gcunhase](https://github.com/gcunhase) | `docs` `example` `onnx` `quantization` | \[6008361\]\[ONNX\]\[Quantization\] Clarify autotune guidance |
 | 2026-07-20 | [7d5d3f90](https://github.com/NVIDIA/Model-Optimizer/commit/7d5d3f904620289e76287db865307168e79d68a6) | [#1806](https://github.com/NVIDIA/Model-Optimizer/pull/1806) | [@chadvoegele](https://github.com/chadvoegele) | `docs` `infra` `quantization` `tests` `torch` | MiniMax-M3 mixed MXFP8-base + NVFP4-experts PTQ export |
@@ -45,4 +46,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 39 PRs**
+**Total: 40 PRs**

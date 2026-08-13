@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-12 | [1b3fd430](https://github.com/NVIDIA/Model-Optimizer/commit/1b3fd43015dc1dfc2b59dfe1629640499c26fe18) | [#2112](https://github.com/NVIDIA/Model-Optimizer/pull/2112) | [@yueshen2016](https://github.com/yueshen2016) | `core` `quantization` `tests` `torch` | fix(megatron): restore untied output_layer quantization under Megatron-Bridge |
+| 2026-08-12 | [278f44b6](https://github.com/NVIDIA/Model-Optimizer/commit/278f44b6c3735fc67683e18f03ddfbec19ce45cd) | [#2179](https://github.com/NVIDIA/Model-Optimizer/pull/2179) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1975 #2076 #2071 #2093 #2084 #2115 #2133 #2146 #2064 #2159 #2112 |
+| 2026-08-12 | [c15d2b57](https://github.com/NVIDIA/Model-Optimizer/commit/c15d2b5746820d2528ce716dca1ebbb008fff5da) | [#2152](https://github.com/NVIDIA/Model-Optimizer/pull/2152) | [@sugunav14](https://github.com/sugunav14) | `core` `infra` `quantization` `tests` `torch` | bug fix 6567139 |
+| 2026-08-11 | [a21173a4](https://github.com/NVIDIA/Model-Optimizer/commit/a21173a4d52cd7376a9e1ae274944d5983e3897c) | [#2064](https://github.com/NVIDIA/Model-Optimizer/pull/2064) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `export` `infra` `quantization` `tests` `torch` | Bug fix: 6542481 |
 | 2026-08-07 | [ccf44ea6](https://github.com/NVIDIA/Model-Optimizer/commit/ccf44ea67a14eb87765e771501f9aae4cfb0ec48) | [#2012](https://github.com/NVIDIA/Model-Optimizer/pull/2012) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` | \[OMNIML-5562\] Add FAR3D ONNX PTQ and accuracy evaluation example |
 | 2026-08-07 | [2ded5aba](https://github.com/NVIDIA/Model-Optimizer/commit/2ded5aba37a71917443f6f432019611a878cdf61) | [#1550](https://github.com/NVIDIA/Model-Optimizer/pull/1550) | [@jenchen13](https://github.com/jenchen13) | `core` `export` `infra` `quantization` `tests` `torch` | Support per expert weight quantizer in TEGroupedMLP |
 | 2026-08-05 | [19e0121d](https://github.com/NVIDIA/Model-Optimizer/commit/19e0121d0a5d450b69a7de65ccc2ff3028faca14) | [#2079](https://github.com/NVIDIA/Model-Optimizer/pull/2079) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Fix 2-GPU test_model_load_utils hang; test import and fixture cleanup |
@@ -271,4 +275,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 265 PRs**
+**Total: 269 PRs**

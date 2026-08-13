@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-12 | [bee497de](https://github.com/NVIDIA/Model-Optimizer/commit/bee497de0386c6b79d299a4e22685dc9fc79c595) | [#2172](https://github.com/NVIDIA/Model-Optimizer/pull/2172) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `speculative_decoding` `tests` `torch` | Fix EAGLE3 offline dump skipping all conversations on newer transformers |
+| 2026-08-12 | [278f44b6](https://github.com/NVIDIA/Model-Optimizer/commit/278f44b6c3735fc67683e18f03ddfbec19ce45cd) | [#2179](https://github.com/NVIDIA/Model-Optimizer/pull/2179) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1975 #2076 #2071 #2093 #2084 #2115 #2133 #2146 #2064 #2159 #2112 |
 | 2026-08-06 | [22b6a148](https://github.com/NVIDIA/Model-Optimizer/commit/22b6a148b040a331b9c6d26f9397900927a7eb3a) | [#2086](https://github.com/NVIDIA/Model-Optimizer/pull/2086) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `speculative_decoding` `tests` `torch` | Fix EAGLE-3 context-parallel training and re-enable its tests |
 | 2026-08-05 | [19e0121d](https://github.com/NVIDIA/Model-Optimizer/commit/19e0121d0a5d450b69a7de65ccc2ff3028faca14) | [#2079](https://github.com/NVIDIA/Model-Optimizer/pull/2079) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Fix 2-GPU test_model_load_utils hang; test import and fixture cleanup |
 | 2026-07-30 | [c94405e6](https://github.com/NVIDIA/Model-Optimizer/commit/c94405e602ae3accdfd99666fdff929095b0e810) | [#1975](https://github.com/NVIDIA/Model-Optimizer/pull/1975) | [@skierat](https://github.com/skierat) | `core` `example` `export` `speculative_decoding` `tests` `torch` | add Qwen3-VL support for DFlash training |
@@ -84,4 +86,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 78 PRs**
+**Total: 80 PRs**

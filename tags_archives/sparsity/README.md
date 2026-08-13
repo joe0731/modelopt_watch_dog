@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-12 | [278f44b6](https://github.com/NVIDIA/Model-Optimizer/commit/278f44b6c3735fc67683e18f03ddfbec19ce45cd) | [#2179](https://github.com/NVIDIA/Model-Optimizer/pull/2179) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1975 #2076 #2071 #2093 #2084 #2115 #2133 #2146 #2064 #2159 #2112 |
 | 2026-08-10 | [41b18a85](https://github.com/NVIDIA/Model-Optimizer/commit/41b18a8568fd97eb45981814cacfe4de7fe88671) | [#2084](https://github.com/NVIDIA/Model-Optimizer/pull/2084) | [@sychen52](https://github.com/sychen52) | `sparsity` `tests` `torch` | \[NVBUG: 6562021\] Fix vLLM FlashAttention KV cache layout handling |
 | 2026-08-05 | [19e0121d](https://github.com/NVIDIA/Model-Optimizer/commit/19e0121d0a5d450b69a7de65ccc2ff3028faca14) | [#2079](https://github.com/NVIDIA/Model-Optimizer/pull/2079) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Fix 2-GPU test_model_load_utils hang; test import and fixture cleanup |
 | 2026-07-16 | [85bc559c](https://github.com/NVIDIA/Model-Optimizer/commit/85bc559cb78ad873f5ef52dfc3b81a9ab4592063) | [#1898](https://github.com/NVIDIA/Model-Optimizer/pull/1898) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `quantization` `sparsity` `tests` `torch` `vllm` | Add nvfp4 attention support for vLLM serving |
@@ -35,4 +36,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 29 PRs**
+**Total: 30 PRs**

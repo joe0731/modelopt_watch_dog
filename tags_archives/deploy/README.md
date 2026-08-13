@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-13 | [b96841db](https://github.com/NVIDIA/Model-Optimizer/commit/b96841db3e161763c552db627d55e28ea90de950) | [#2120](https://github.com/NVIDIA/Model-Optimizer/pull/2120) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add optional MLflow tracking to the vLLM fake-quant server |
+| 2026-08-12 | [278f44b6](https://github.com/NVIDIA/Model-Optimizer/commit/278f44b6c3735fc67683e18f03ddfbec19ce45cd) | [#2179](https://github.com/NVIDIA/Model-Optimizer/pull/2179) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1975 #2076 #2071 #2093 #2084 #2115 #2133 #2146 #2064 #2159 #2112 |
 | 2026-08-07 | [bd3798a7](https://github.com/NVIDIA/Model-Optimizer/commit/bd3798a79495c54c46d6d6233701b7d559c68f65) | [#2093](https://github.com/NVIDIA/Model-Optimizer/pull/2093) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `vllm` | \[6562078\]: fix calibration for vLLM 0.26.0 |
 | 2026-08-05 | [19e0121d](https://github.com/NVIDIA/Model-Optimizer/commit/19e0121d0a5d450b69a7de65ccc2ff3028faca14) | [#2079](https://github.com/NVIDIA/Model-Optimizer/pull/2079) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Fix 2-GPU test_model_load_utils hang; test import and fixture cleanup |
 | 2026-08-03 | [b75227ce](https://github.com/NVIDIA/Model-Optimizer/commit/b75227ce1bd143871c69d31330be5a327cfbdd7a) | [#2038](https://github.com/NVIDIA/Model-Optimizer/pull/2038) | [@cjluo-nv](https://github.com/cjluo-nv) | `deploy` `export` `infra` `quantization` `tests` `torch` | \[NVBug: 5987078\] Fix unified HF export of compressed NVFP4 weights (--low_memory_mode) |
@@ -42,4 +44,4 @@
 | 2026-01-26 | [38403095](https://github.com/NVIDIA/Model-Optimizer/commit/38403095c4a9829b14e0ce45c9b067c16a502b46) | [#731](https://github.com/NVIDIA/Model-Optimizer/pull/731) | [@galagam](https://github.com/galagam) | `deploy` `infra` `onnx` `torch` | \[5725362\] AutoCast Fixes for models with external data |
 
 ---
-**Total: 36 PRs**
+**Total: 38 PRs**

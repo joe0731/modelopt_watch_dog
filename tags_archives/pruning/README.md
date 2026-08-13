@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-12 | [f9952327](https://github.com/NVIDIA/Model-Optimizer/commit/f99523279a43af036a12e8bff5baed58146d9abe) | [#2159](https://github.com/NVIDIA/Model-Optimizer/pull/2159) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `pruning` `tests` `torch` | Minitron pruning fixes for Nemotron-3.5-Lightning-30B-A3B and Deepseek |
+| 2026-08-12 | [278f44b6](https://github.com/NVIDIA/Model-Optimizer/commit/278f44b6c3735fc67683e18f03ddfbec19ce45cd) | [#2179](https://github.com/NVIDIA/Model-Optimizer/pull/2179) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1975 #2076 #2071 #2093 #2084 #2115 #2133 #2146 #2064 #2159 #2112 |
 | 2026-08-04 | [93b9e4b1](https://github.com/NVIDIA/Model-Optimizer/commit/93b9e4b1768aec9577ed0badbb197820c1770545) | [#2031](https://github.com/NVIDIA/Model-Optimizer/pull/2031) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add Megatron-Bridge prune & quantize launcher pipelines |
 | 2026-07-24 | [d143276c](https://github.com/NVIDIA/Model-Optimizer/commit/d143276c39a995edea89dd98224bd423bce80867) | [#1955](https://github.com/NVIDIA/Model-Optimizer/pull/1955) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `nas` `pruning` `tests` `torch` | Support efficient TEGroupedMLP (moe_grouped_gemm=True) for Minitron Pruning |
 | 2026-07-17 | [9392dfea](https://github.com/NVIDIA/Model-Optimizer/commit/9392dfeabfde8695e9f58421c551ea8004fc3a1a) | [#1987](https://github.com/NVIDIA/Model-Optimizer/pull/1987) | [@Separius](https://github.com/Separius) | `example` `infra` `pruning` `tests` `torch` | Remove Puzzletron bypass distillation |
@@ -40,4 +42,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 34 PRs**
+**Total: 36 PRs**

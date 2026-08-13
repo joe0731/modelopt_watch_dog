@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-12 | [6261f854](https://github.com/NVIDIA/Model-Optimizer/commit/6261f854aa2415c0b790de15b38e58af0e918482) | [#2087](https://github.com/NVIDIA/Model-Optimizer/pull/2087) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `diffusers` `docs` `example` `infra` `torch` | docs: rebuild the unified HF deployment support matrix from the deploy test suite (NVBug 6550792) |
 | 2026-07-08 | [6b4ad858](https://github.com/NVIDIA/Model-Optimizer/commit/6b4ad85849268105f0586d166871fc7140cc1b1e) | [#1706](https://github.com/NVIDIA/Model-Optimizer/pull/1706) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `example` `export` `quantization` `tests` `torch` | Qwen-Image diffusers PTQ: FP8 / NVFP4 / NVFP4-SVDQuant HF checkpoints |
 | 2026-06-26 | [33bfa8b1](https://github.com/NVIDIA/Model-Optimizer/commit/33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2) | [#1818](https://github.com/NVIDIA/Model-Optimizer/pull/1818) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `distillation` `docs` `eval` `example` `export` `infra` `nas` `onnx` `peft` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `windows` | CI/Dev env bump |
 | 2026-06-16 | [a21197c2](https://github.com/NVIDIA/Model-Optimizer/commit/a21197c277c749bbf3751e5260ac49f4571aaf16) | [#1740](https://github.com/NVIDIA/Model-Optimizer/pull/1740) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `example` `torch` | Remove unsafe torch.load from examples/diffusers/fastgen |
@@ -35,4 +36,4 @@
 | 2026-01-15 | [e6e4efd6](https://github.com/NVIDIA/Model-Optimizer/commit/e6e4efd61efcc87de10a6a72274e2017cbc13438) | [#783](https://github.com/NVIDIA/Model-Optimizer/pull/783) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `eval` `example` `export` `quantization` `torch` | \[0.5/3\] Diffusion ckpt export for NVFP4 & FP8 |
 
 ---
-**Total: 29 PRs**
+**Total: 30 PRs**
