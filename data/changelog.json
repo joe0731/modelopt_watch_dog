@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-14",
+    "commit": "a57fb44d464a4bd66f292239b5a332ee78cee5e4",
+    "pr_number": 2060,
+    "author": "jenchen13",
+    "title": "Preserve HF PTQ checkpoint sidecar files [NV BUG 6491822]",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-08-13",
     "commit": "b96841db3e161763c552db627d55e28ea90de950",
     "pr_number": 2120,
@@ -37,6 +50,17 @@
       "infra",
       "tests",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-08-13",
+    "commit": "ddca53b4bf99a1a370a8f3c8fe562710695a3448",
+    "pr_number": 1971,
+    "author": "ChenhanYu",
+    "title": "docs: add announcements landing page",
+    "tags": [
+      "docs",
+      "infra"
     ]
   },
   {

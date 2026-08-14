@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-14 | [a57fb44d](https://github.com/NVIDIA/Model-Optimizer/commit/a57fb44d464a4bd66f292239b5a332ee78cee5e4) | [#2060](https://github.com/NVIDIA/Model-Optimizer/pull/2060) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `tests` `torch` | Preserve HF PTQ checkpoint sidecar files \[NV BUG 6491822\] |
 | 2026-08-13 | [b96841db](https://github.com/NVIDIA/Model-Optimizer/commit/b96841db3e161763c552db627d55e28ea90de950) | [#2120](https://github.com/NVIDIA/Model-Optimizer/pull/2120) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add optional MLflow tracking to the vLLM fake-quant server |
 | 2026-08-13 | [686da8d8](https://github.com/NVIDIA/Model-Optimizer/commit/686da8d893536688e86adae41aa628aa740a1a35) | [#2113](https://github.com/NVIDIA/Model-Optimizer/pull/2113) | [@yueshen2016](https://github.com/yueshen2016) | `core` `example` `infra` `tests` `torch` | feat(megatron-bridge): SFT-masked data support in distillation |
 | 2026-08-12 | [f9952327](https://github.com/NVIDIA/Model-Optimizer/commit/f99523279a43af036a12e8bff5baed58146d9abe) | [#2159](https://github.com/NVIDIA/Model-Optimizer/pull/2159) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `pruning` `tests` `torch` | Minitron pruning fixes for Nemotron-3.5-Lightning-30B-A3B and Deepseek |
@@ -438,4 +439,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 432 PRs**
+**Total: 433 PRs**

@@ -4,9 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-14 | [a57fb44d](https://github.com/NVIDIA/Model-Optimizer/commit/a57fb44d464a4bd66f292239b5a332ee78cee5e4) | [#2060](https://github.com/NVIDIA/Model-Optimizer/pull/2060) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `tests` `torch` | Preserve HF PTQ checkpoint sidecar files \[NV BUG 6491822\] |
 | 2026-08-13 | [b96841db](https://github.com/NVIDIA/Model-Optimizer/commit/b96841db3e161763c552db627d55e28ea90de950) | [#2120](https://github.com/NVIDIA/Model-Optimizer/pull/2120) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add optional MLflow tracking to the vLLM fake-quant server |
 | 2026-08-13 | [71b3d884](https://github.com/NVIDIA/Model-Optimizer/commit/71b3d884eec4ea789db352bf4546f10df1bc1d03) | [#2142](https://github.com/NVIDIA/Model-Optimizer/pull/2142) | [@yueshen2016](https://github.com/yueshen2016) | `infra` | example(launcher): Megatron-Bridge NVFP4 QAD launcher example for Nemotron-3.5-Lightning-30B-A3B |
 | 2026-08-13 | [686da8d8](https://github.com/NVIDIA/Model-Optimizer/commit/686da8d893536688e86adae41aa628aa740a1a35) | [#2113](https://github.com/NVIDIA/Model-Optimizer/pull/2113) | [@yueshen2016](https://github.com/yueshen2016) | `core` `example` `infra` `tests` `torch` | feat(megatron-bridge): SFT-masked data support in distillation |
+| 2026-08-13 | [ddca53b4](https://github.com/NVIDIA/Model-Optimizer/commit/ddca53b4bf99a1a370a8f3c8fe562710695a3448) | [#1971](https://github.com/NVIDIA/Model-Optimizer/pull/1971) | [@ChenhanYu](https://github.com/ChenhanYu) | `docs` `infra` | docs: add announcements landing page |
 | 2026-08-12 | [278f44b6](https://github.com/NVIDIA/Model-Optimizer/commit/278f44b6c3735fc67683e18f03ddfbec19ce45cd) | [#2179](https://github.com/NVIDIA/Model-Optimizer/pull/2179) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1975 #2076 #2071 #2093 #2084 #2115 #2133 #2146 #2064 #2159 #2112 |
 | 2026-08-12 | [6261f854](https://github.com/NVIDIA/Model-Optimizer/commit/6261f854aa2415c0b790de15b38e58af0e918482) | [#2087](https://github.com/NVIDIA/Model-Optimizer/pull/2087) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `diffusers` `docs` `example` `infra` `torch` | docs: rebuild the unified HF deployment support matrix from the deploy test suite (NVBug 6550792) |
 | 2026-08-12 | [96b4aac9](https://github.com/NVIDIA/Model-Optimizer/commit/96b4aac90a8a8c2aeccfb6a77b5f98991a7cc7aa) | [#2181](https://github.com/NVIDIA/Model-Optimizer/pull/2181) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Condense changelog entries and tighten conciseness guidelines |
@@ -480,4 +482,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 474 PRs**
+**Total: 476 PRs**

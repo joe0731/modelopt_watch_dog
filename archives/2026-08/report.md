@@ -8,9 +8,11 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-08-14 | [a57fb44d](https://github.com/NVIDIA/Model-Optimizer/commit/a57fb44d464a4bd66f292239b5a332ee78cee5e4) | [#2060](https://github.com/NVIDIA/Model-Optimizer/pull/2060) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `tests` `torch` | Preserve HF PTQ checkpoint sidecar files \[NV BUG 6491822\] |
 | 🔵 | **2026-08-13** | **[b96841db](https://github.com/NVIDIA/Model-Optimizer/commit/b96841db3e161763c552db627d55e28ea90de950)** | **[#2120](https://github.com/NVIDIA/Model-Optimizer/pull/2120)** | **[@cjluo-nv](https://github.com/cjluo-nv)** | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | **Add optional MLflow tracking to the vLLM fake-quant server** |
 |  | 2026-08-13 | [71b3d884](https://github.com/NVIDIA/Model-Optimizer/commit/71b3d884eec4ea789db352bf4546f10df1bc1d03) | [#2142](https://github.com/NVIDIA/Model-Optimizer/pull/2142) | [@yueshen2016](https://github.com/yueshen2016) | `infra` | example(launcher): Megatron-Bridge NVFP4 QAD launcher example for Nemotron-3.5-Lightning-30B-A3B |
 |  | 2026-08-13 | [686da8d8](https://github.com/NVIDIA/Model-Optimizer/commit/686da8d893536688e86adae41aa628aa740a1a35) | [#2113](https://github.com/NVIDIA/Model-Optimizer/pull/2113) | [@yueshen2016](https://github.com/yueshen2016) | `core` `example` `infra` `tests` `torch` | feat(megatron-bridge): SFT-masked data support in distillation |
+|  | 2026-08-13 | [ddca53b4](https://github.com/NVIDIA/Model-Optimizer/commit/ddca53b4bf99a1a370a8f3c8fe562710695a3448) | [#1971](https://github.com/NVIDIA/Model-Optimizer/pull/1971) | [@ChenhanYu](https://github.com/ChenhanYu) | `docs` `infra` | docs: add announcements landing page |
 |  | 2026-08-12 | [f9952327](https://github.com/NVIDIA/Model-Optimizer/commit/f99523279a43af036a12e8bff5baed58146d9abe) | [#2159](https://github.com/NVIDIA/Model-Optimizer/pull/2159) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `pruning` `tests` `torch` | Minitron pruning fixes for Nemotron-3.5-Lightning-30B-A3B and Deepseek |
 |  | 2026-08-12 | [1b3fd430](https://github.com/NVIDIA/Model-Optimizer/commit/1b3fd43015dc1dfc2b59dfe1629640499c26fe18) | [#2112](https://github.com/NVIDIA/Model-Optimizer/pull/2112) | [@yueshen2016](https://github.com/yueshen2016) | `core` `quantization` `tests` `torch` | fix(megatron): restore untied output_layer quantization under Megatron-Bridge |
 |  | 2026-08-12 | [bee497de](https://github.com/NVIDIA/Model-Optimizer/commit/bee497de0386c6b79d299a4e22685dc9fc79c595) | [#2172](https://github.com/NVIDIA/Model-Optimizer/pull/2172) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `speculative_decoding` `tests` `torch` | Fix EAGLE3 offline dump skipping all conversations on newer transformers |
@@ -72,4 +74,4 @@
 |  | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 
 ---
-**Total: 62 PRs** | **Highlighted: 8**
+**Total: 64 PRs** | **Highlighted: 8**
