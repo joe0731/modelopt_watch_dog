@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-15 | [3d2522e4](https://github.com/NVIDIA/Model-Optimizer/commit/3d2522e44724683b3292f706c207949b343c8ef1) | [#2194](https://github.com/NVIDIA/Model-Optimizer/pull/2194) | [@juhi10071998](https://github.com/juhi10071998) | `export` `infra` `quantization` `tests` `torch` | Name-based tied-weight deduplication during HF checkpoint export (supersedes #2092) |
 | 2026-08-12 | [1b3fd430](https://github.com/NVIDIA/Model-Optimizer/commit/1b3fd43015dc1dfc2b59dfe1629640499c26fe18) | [#2112](https://github.com/NVIDIA/Model-Optimizer/pull/2112) | [@yueshen2016](https://github.com/yueshen2016) | `core` `quantization` `tests` `torch` | fix(megatron): restore untied output_layer quantization under Megatron-Bridge |
 | 2026-08-12 | [278f44b6](https://github.com/NVIDIA/Model-Optimizer/commit/278f44b6c3735fc67683e18f03ddfbec19ce45cd) | [#2179](https://github.com/NVIDIA/Model-Optimizer/pull/2179) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1975 #2076 #2071 #2093 #2084 #2115 #2133 #2146 #2064 #2159 #2112 |
 | 2026-08-12 | [c15d2b57](https://github.com/NVIDIA/Model-Optimizer/commit/c15d2b5746820d2528ce716dca1ebbb008fff5da) | [#2152](https://github.com/NVIDIA/Model-Optimizer/pull/2152) | [@sugunav14](https://github.com/sugunav14) | `core` `infra` `quantization` `tests` `torch` | bug fix 6567139 |
@@ -275,4 +276,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 269 PRs**
+**Total: 270 PRs**

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-14 | [c4129b6e](https://github.com/NVIDIA/Model-Optimizer/commit/c4129b6e03d3c564e04359e6d0c6057c9a59183f) | [#2053](https://github.com/NVIDIA/Model-Optimizer/pull/2053) | [@skierat](https://github.com/skierat) | `core` `example` `speculative_decoding` `tests` `torch` | Add Cosmos3 Nano DFlash multimodal training recipe |
 | 2026-08-12 | [bee497de](https://github.com/NVIDIA/Model-Optimizer/commit/bee497de0386c6b79d299a4e22685dc9fc79c595) | [#2172](https://github.com/NVIDIA/Model-Optimizer/pull/2172) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `speculative_decoding` `tests` `torch` | Fix EAGLE3 offline dump skipping all conversations on newer transformers |
 | 2026-08-12 | [278f44b6](https://github.com/NVIDIA/Model-Optimizer/commit/278f44b6c3735fc67683e18f03ddfbec19ce45cd) | [#2179](https://github.com/NVIDIA/Model-Optimizer/pull/2179) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1975 #2076 #2071 #2093 #2084 #2115 #2133 #2146 #2064 #2159 #2112 |
 | 2026-08-06 | [22b6a148](https://github.com/NVIDIA/Model-Optimizer/commit/22b6a148b040a331b9c6d26f9397900927a7eb3a) | [#2086](https://github.com/NVIDIA/Model-Optimizer/pull/2086) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `speculative_decoding` `tests` `torch` | Fix EAGLE-3 context-parallel training and re-enable its tests |
@@ -86,4 +87,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 80 PRs**
+**Total: 81 PRs**

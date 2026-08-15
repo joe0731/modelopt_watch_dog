@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-15 | [3d2522e4](https://github.com/NVIDIA/Model-Optimizer/commit/3d2522e44724683b3292f706c207949b343c8ef1) | [#2194](https://github.com/NVIDIA/Model-Optimizer/pull/2194) | [@juhi10071998](https://github.com/juhi10071998) | `export` `infra` `quantization` `tests` `torch` | Name-based tied-weight deduplication during HF checkpoint export (supersedes #2092) |
 | 2026-08-14 | [a57fb44d](https://github.com/NVIDIA/Model-Optimizer/commit/a57fb44d464a4bd66f292239b5a332ee78cee5e4) | [#2060](https://github.com/NVIDIA/Model-Optimizer/pull/2060) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `tests` `torch` | Preserve HF PTQ checkpoint sidecar files \[NV BUG 6491822\] |
 | 2026-08-12 | [278f44b6](https://github.com/NVIDIA/Model-Optimizer/commit/278f44b6c3735fc67683e18f03ddfbec19ce45cd) | [#2179](https://github.com/NVIDIA/Model-Optimizer/pull/2179) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1975 #2076 #2071 #2093 #2084 #2115 #2133 #2146 #2064 #2159 #2112 |
 | 2026-08-11 | [a21173a4](https://github.com/NVIDIA/Model-Optimizer/commit/a21173a4d52cd7376a9e1ae274944d5983e3897c) | [#2064](https://github.com/NVIDIA/Model-Optimizer/pull/2064) | [@sugunav14](https://github.com/sugunav14) | `core` `example` `export` `infra` `quantization` `tests` `torch` | Bug fix: 6542481 |
@@ -145,4 +146,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 139 PRs**
+**Total: 140 PRs**

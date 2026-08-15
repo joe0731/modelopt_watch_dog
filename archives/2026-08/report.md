@@ -8,7 +8,10 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-08-15 | [3d2522e4](https://github.com/NVIDIA/Model-Optimizer/commit/3d2522e44724683b3292f706c207949b343c8ef1) | [#2194](https://github.com/NVIDIA/Model-Optimizer/pull/2194) | [@juhi10071998](https://github.com/juhi10071998) | `export` `infra` `quantization` `tests` `torch` | Name-based tied-weight deduplication during HF checkpoint export (supersedes #2092) |
 |  | 2026-08-14 | [a57fb44d](https://github.com/NVIDIA/Model-Optimizer/commit/a57fb44d464a4bd66f292239b5a332ee78cee5e4) | [#2060](https://github.com/NVIDIA/Model-Optimizer/pull/2060) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `tests` `torch` | Preserve HF PTQ checkpoint sidecar files \[NV BUG 6491822\] |
+|  | 2026-08-14 | [c4129b6e](https://github.com/NVIDIA/Model-Optimizer/commit/c4129b6e03d3c564e04359e6d0c6057c9a59183f) | [#2053](https://github.com/NVIDIA/Model-Optimizer/pull/2053) | [@skierat](https://github.com/skierat) | `core` `example` `speculative_decoding` `tests` `torch` | Add Cosmos3 Nano DFlash multimodal training recipe |
+|  | 2026-08-14 | [53ccec61](https://github.com/NVIDIA/Model-Optimizer/commit/53ccec614f67fae4630ab1959ca5faa6434eef98) | [#2188](https://github.com/NVIDIA/Model-Optimizer/pull/2188) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | Pin GDPVal evaluator launcher to 0.2.6 |
 | 🔵 | **2026-08-13** | **[b96841db](https://github.com/NVIDIA/Model-Optimizer/commit/b96841db3e161763c552db627d55e28ea90de950)** | **[#2120](https://github.com/NVIDIA/Model-Optimizer/pull/2120)** | **[@cjluo-nv](https://github.com/cjluo-nv)** | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | **Add optional MLflow tracking to the vLLM fake-quant server** |
 |  | 2026-08-13 | [71b3d884](https://github.com/NVIDIA/Model-Optimizer/commit/71b3d884eec4ea789db352bf4546f10df1bc1d03) | [#2142](https://github.com/NVIDIA/Model-Optimizer/pull/2142) | [@yueshen2016](https://github.com/yueshen2016) | `infra` | example(launcher): Megatron-Bridge NVFP4 QAD launcher example for Nemotron-3.5-Lightning-30B-A3B |
 |  | 2026-08-13 | [686da8d8](https://github.com/NVIDIA/Model-Optimizer/commit/686da8d893536688e86adae41aa628aa740a1a35) | [#2113](https://github.com/NVIDIA/Model-Optimizer/pull/2113) | [@yueshen2016](https://github.com/yueshen2016) | `core` `example` `infra` `tests` `torch` | feat(megatron-bridge): SFT-masked data support in distillation |
@@ -74,4 +77,4 @@
 |  | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 
 ---
-**Total: 64 PRs** | **Highlighted: 8**
+**Total: 67 PRs** | **Highlighted: 8**
