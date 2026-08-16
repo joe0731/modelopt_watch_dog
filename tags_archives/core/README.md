@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-15 | [43fd41a5](https://github.com/NVIDIA/Model-Optimizer/commit/43fd41a58d52c4e6e5dec1d1ff5989ecc737ae1a) | [#2199](https://github.com/NVIDIA/Model-Optimizer/pull/2199) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `docs` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #2172 #2087 #2152 #2060 #2008 #2194 |
 | 2026-08-14 | [c4129b6e](https://github.com/NVIDIA/Model-Optimizer/commit/c4129b6e03d3c564e04359e6d0c6057c9a59183f) | [#2053](https://github.com/NVIDIA/Model-Optimizer/pull/2053) | [@skierat](https://github.com/skierat) | `core` `example` `speculative_decoding` `tests` `torch` | Add Cosmos3 Nano DFlash multimodal training recipe |
 | 2026-08-13 | [b96841db](https://github.com/NVIDIA/Model-Optimizer/commit/b96841db3e161763c552db627d55e28ea90de950) | [#2120](https://github.com/NVIDIA/Model-Optimizer/pull/2120) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add optional MLflow tracking to the vLLM fake-quant server |
 | 2026-08-13 | [686da8d8](https://github.com/NVIDIA/Model-Optimizer/commit/686da8d893536688e86adae41aa628aa740a1a35) | [#2113](https://github.com/NVIDIA/Model-Optimizer/pull/2113) | [@yueshen2016](https://github.com/yueshen2016) | `core` `example` `infra` `tests` `torch` | feat(megatron-bridge): SFT-masked data support in distillation |
@@ -148,4 +149,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 142 PRs**
+**Total: 143 PRs**

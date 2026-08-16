@@ -9,6 +9,7 @@
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
 |  | 2026-08-15 | [3d2522e4](https://github.com/NVIDIA/Model-Optimizer/commit/3d2522e44724683b3292f706c207949b343c8ef1) | [#2194](https://github.com/NVIDIA/Model-Optimizer/pull/2194) | [@juhi10071998](https://github.com/juhi10071998) | `export` `infra` `quantization` `tests` `torch` | Name-based tied-weight deduplication during HF checkpoint export (supersedes #2092) |
+|  | 2026-08-15 | [43fd41a5](https://github.com/NVIDIA/Model-Optimizer/commit/43fd41a58d52c4e6e5dec1d1ff5989ecc737ae1a) | [#2199](https://github.com/NVIDIA/Model-Optimizer/pull/2199) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `docs` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #2172 #2087 #2152 #2060 #2008 #2194 |
 |  | 2026-08-14 | [a57fb44d](https://github.com/NVIDIA/Model-Optimizer/commit/a57fb44d464a4bd66f292239b5a332ee78cee5e4) | [#2060](https://github.com/NVIDIA/Model-Optimizer/pull/2060) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `tests` `torch` | Preserve HF PTQ checkpoint sidecar files \[NV BUG 6491822\] |
 |  | 2026-08-14 | [c4129b6e](https://github.com/NVIDIA/Model-Optimizer/commit/c4129b6e03d3c564e04359e6d0c6057c9a59183f) | [#2053](https://github.com/NVIDIA/Model-Optimizer/pull/2053) | [@skierat](https://github.com/skierat) | `core` `example` `speculative_decoding` `tests` `torch` | Add Cosmos3 Nano DFlash multimodal training recipe |
 |  | 2026-08-14 | [53ccec61](https://github.com/NVIDIA/Model-Optimizer/commit/53ccec614f67fae4630ab1959ca5faa6434eef98) | [#2188](https://github.com/NVIDIA/Model-Optimizer/pull/2188) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` | Pin GDPVal evaluator launcher to 0.2.6 |
@@ -77,4 +78,4 @@
 |  | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 
 ---
-**Total: 67 PRs** | **Highlighted: 8**
+**Total: 68 PRs** | **Highlighted: 8**

@@ -14,6 +14,25 @@
     ]
   },
   {
+    "date": "2026-08-15",
+    "commit": "43fd41a58d52c4e6e5dec1d1ff5989ecc737ae1a",
+    "pr_number": 2199,
+    "author": "kevalmorabia97",
+    "title": "[Cherry-pick] PRs #2172 #2087 #2152 #2060 #2008 #2194",
+    "tags": [
+      "core",
+      "diffusers",
+      "docs",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-08-14",
     "commit": "a57fb44d464a4bd66f292239b5a332ee78cee5e4",
     "pr_number": 2060,
