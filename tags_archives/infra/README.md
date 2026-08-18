@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-18 | [fbcdc16c](https://github.com/NVIDIA/Model-Optimizer/commit/fbcdc16c2d67ca6db3f33b2848e923600f7012c7) | [#2182](https://github.com/NVIDIA/Model-Optimizer/pull/2182) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vlm` | Remove deprecations marked in 0.45 and 0.46 |
+| 2026-08-17 | [58ad6edc](https://github.com/NVIDIA/Model-Optimizer/commit/58ad6edc5f61fee85a5e9632992952259049db24) | [#2196](https://github.com/NVIDIA/Model-Optimizer/pull/2196) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `torch` | Fix pruned-HF export fallback + add Nemotron-3.5-Lightning launcher examples |
 | 2026-08-15 | [3d2522e4](https://github.com/NVIDIA/Model-Optimizer/commit/3d2522e44724683b3292f706c207949b343c8ef1) | [#2194](https://github.com/NVIDIA/Model-Optimizer/pull/2194) | [@juhi10071998](https://github.com/juhi10071998) | `export` `infra` `quantization` `tests` `torch` | Name-based tied-weight deduplication during HF checkpoint export (supersedes #2092) |
 | 2026-08-15 | [43fd41a5](https://github.com/NVIDIA/Model-Optimizer/commit/43fd41a58d52c4e6e5dec1d1ff5989ecc737ae1a) | [#2199](https://github.com/NVIDIA/Model-Optimizer/pull/2199) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `docs` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #2172 #2087 #2152 #2060 #2008 #2194 |
 | 2026-08-14 | [a57fb44d](https://github.com/NVIDIA/Model-Optimizer/commit/a57fb44d464a4bd66f292239b5a332ee78cee5e4) | [#2060](https://github.com/NVIDIA/Model-Optimizer/pull/2060) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `tests` `torch` | Preserve HF PTQ checkpoint sidecar files \[NV BUG 6491822\] |
@@ -485,4 +487,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 479 PRs**
+**Total: 481 PRs**

@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-18 | [fbcdc16c](https://github.com/NVIDIA/Model-Optimizer/commit/fbcdc16c2d67ca6db3f33b2848e923600f7012c7) | [#2182](https://github.com/NVIDIA/Model-Optimizer/pull/2182) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vlm` | Remove deprecations marked in 0.45 and 0.46 |
+| 2026-08-17 | [58ad6edc](https://github.com/NVIDIA/Model-Optimizer/commit/58ad6edc5f61fee85a5e9632992952259049db24) | [#2196](https://github.com/NVIDIA/Model-Optimizer/pull/2196) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `torch` | Fix pruned-HF export fallback + add Nemotron-3.5-Lightning launcher examples |
 | 2026-08-15 | [43fd41a5](https://github.com/NVIDIA/Model-Optimizer/commit/43fd41a58d52c4e6e5dec1d1ff5989ecc737ae1a) | [#2199](https://github.com/NVIDIA/Model-Optimizer/pull/2199) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `docs` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #2172 #2087 #2152 #2060 #2008 #2194 |
 | 2026-08-14 | [c4129b6e](https://github.com/NVIDIA/Model-Optimizer/commit/c4129b6e03d3c564e04359e6d0c6057c9a59183f) | [#2053](https://github.com/NVIDIA/Model-Optimizer/pull/2053) | [@skierat](https://github.com/skierat) | `core` `example` `speculative_decoding` `tests` `torch` | Add Cosmos3 Nano DFlash multimodal training recipe |
 | 2026-08-13 | [b96841db](https://github.com/NVIDIA/Model-Optimizer/commit/b96841db3e161763c552db627d55e28ea90de950) | [#2120](https://github.com/NVIDIA/Model-Optimizer/pull/2120) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add optional MLflow tracking to the vLLM fake-quant server |
@@ -282,4 +284,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 276 PRs**
+**Total: 278 PRs**

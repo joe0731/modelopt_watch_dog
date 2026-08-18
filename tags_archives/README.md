@@ -5,25 +5,25 @@ Click a tag to see its full history.
 
 | Tag | Description | PRs |
 |-----|-------------|:---:|
-| [`core`](core/) | core utilities, tracing, optimization pipeline, common infrastructure | 143 |
+| [`core`](core/) | core utilities, tracing, optimization pipeline, common infrastructure | 145 |
 | [`deploy`](deploy/) | modelopt.deploy - deployment tools, serving, vLLM, TensorRT-LLM integration | 38 |
 | [`diffusers`](diffusers/) | diffusion model optimization (Stable Diffusion, FLUX, etc.) | 31 |
 | [`distillation`](distillation/) | knowledge distillation, teacher-student training | 18 |
 | [`docs`](docs/) | documentation, guides, API reference | 42 |
-| [`eval`](eval/) | model evaluation, benchmarking, accuracy metrics | 93 |
-| [`example`](example/) | example scripts and notebooks | 276 |
+| [`eval`](eval/) | model evaluation, benchmarking, accuracy metrics | 94 |
+| [`example`](example/) | example scripts and notebooks | 278 |
 | [`experimental`](experimental/) | experimental features, research prototypes | 6 |
-| [`export`](export/) | model export, torch-to-ONNX conversion | 141 |
-| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 479 |
+| [`export`](export/) | model export, torch-to-ONNX conversion | 142 |
+| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 481 |
 | [`nas`](nas/) | neural architecture search, hyperparameter optimization | 18 |
 | [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 96 |
 | [`peft`](peft/) | parameter-efficient fine-tuning, LoRA, adapters | 1 |
 | [`pruning`](pruning/) | model pruning, structured and unstructured | 36 |
-| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 271 |
+| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 272 |
 | [`sparsity`](sparsity/) | weight sparsity, attention sparsity | 30 |
 | [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 82 |
-| [`tests`](tests/) | test infrastructure, test utilities | 355 |
-| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 436 |
+| [`tests`](tests/) | test infrastructure, test utilities | 356 |
+| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 438 |
 | [`vllm`](vllm/) | vLLM serving and integration | 19 |
-| [`vlm`](vlm/) | vision-language model optimization | 5 |
+| [`vlm`](vlm/) | vision-language model optimization | 6 |
 | [`windows`](windows/) | Windows platform-specific code and examples | 18 |

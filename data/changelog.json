@@ -1,5 +1,36 @@
 [
   {
+    "date": "2026-08-18",
+    "commit": "fbcdc16c2d67ca6db3f33b2848e923600f7012c7",
+    "pr_number": 2182,
+    "author": "kevalmorabia97",
+    "title": "Remove deprecations marked in 0.45 and 0.46",
+    "tags": [
+      "core",
+      "eval",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch",
+      "vlm"
+    ]
+  },
+  {
+    "date": "2026-08-17",
+    "commit": "58ad6edc5f61fee85a5e9632992952259049db24",
+    "pr_number": 2196,
+    "author": "kevalmorabia97",
+    "title": "Fix pruned-HF export fallback + add Nemotron-3.5-Lightning launcher examples",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-08-15",
     "commit": "3d2522e44724683b3292f706c207949b343c8ef1",
     "pr_number": 2194,
