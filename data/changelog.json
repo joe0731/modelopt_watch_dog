@@ -18,6 +18,26 @@
     ]
   },
   {
+    "date": "2026-08-18",
+    "commit": "195a5af430c91477089593071f59b5cc1c505c8c",
+    "pr_number": 2212,
+    "author": "cjluo-nv",
+    "title": "Add modelopt-agents-codeowners as owner of plugins/",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-18",
+    "commit": "d32c2c2a56927b4d5b40f1a3e678f7e33632bc0a",
+    "pr_number": 2192,
+    "author": "cjluo-nv",
+    "title": "docs(eval-skill): add MRCR (NeMo Gym) benchmark",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-08-17",
     "commit": "58ad6edc5f61fee85a5e9632992952259049db24",
     "pr_number": 2196,
