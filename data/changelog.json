@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-08-20",
+    "commit": "7c494088fa51ccea22af6df466c392756a8243ee",
+    "pr_number": 2140,
+    "author": "mxinO",
+    "title": "Add reversible weight folding and support TE grouped weights",
+    "tags": [
+      "core",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "commit": "4cb8905baf7388ba2f7cb1dfef6eded13d5968a5",
+    "pr_number": 2214,
+    "author": "j-rausch",
+    "title": "Run Mypy with ModelOpt dependencies",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-19",
+    "commit": "94915a1e5d8a0c6466471c3bd140dbd1662e95ff",
+    "pr_number": 2210,
+    "author": "AAnoosheh",
+    "title": "Fix typo for Tau2 eval config",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-08-18",
     "commit": "fbcdc16c2d67ca6db3f33b2848e923600f7012c7",
     "pr_number": 2182,

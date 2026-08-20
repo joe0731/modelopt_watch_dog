@@ -5,7 +5,7 @@ Click a tag to see its full history.
 
 | Tag | Description | PRs |
 |-----|-------------|:---:|
-| [`core`](core/) | core utilities, tracing, optimization pipeline, common infrastructure | 145 |
+| [`core`](core/) | core utilities, tracing, optimization pipeline, common infrastructure | 146 |
 | [`deploy`](deploy/) | modelopt.deploy - deployment tools, serving, vLLM, TensorRT-LLM integration | 38 |
 | [`diffusers`](diffusers/) | diffusion model optimization (Stable Diffusion, FLUX, etc.) | 31 |
 | [`distillation`](distillation/) | knowledge distillation, teacher-student training | 18 |
@@ -14,16 +14,16 @@ Click a tag to see its full history.
 | [`example`](example/) | example scripts and notebooks | 278 |
 | [`experimental`](experimental/) | experimental features, research prototypes | 6 |
 | [`export`](export/) | model export, torch-to-ONNX conversion | 142 |
-| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 483 |
+| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 486 |
 | [`nas`](nas/) | neural architecture search, hyperparameter optimization | 18 |
 | [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 96 |
 | [`peft`](peft/) | parameter-efficient fine-tuning, LoRA, adapters | 1 |
 | [`pruning`](pruning/) | model pruning, structured and unstructured | 36 |
-| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 272 |
+| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 273 |
 | [`sparsity`](sparsity/) | weight sparsity, attention sparsity | 30 |
 | [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 82 |
-| [`tests`](tests/) | test infrastructure, test utilities | 356 |
-| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 438 |
+| [`tests`](tests/) | test infrastructure, test utilities | 358 |
+| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 439 |
 | [`vllm`](vllm/) | vLLM serving and integration | 19 |
 | [`vlm`](vlm/) | vision-language model optimization | 6 |
 | [`windows`](windows/) | Windows platform-specific code and examples | 18 |
