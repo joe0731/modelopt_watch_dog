@@ -5,6 +5,8 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-08-20 | [7c494088](https://github.com/NVIDIA/Model-Optimizer/commit/7c494088fa51ccea22af6df466c392756a8243ee) | [#2140](https://github.com/NVIDIA/Model-Optimizer/pull/2140) | [@mxinO](https://github.com/mxinO) | `core` `infra` `quantization` `tests` `torch` | Add reversible weight folding and support TE grouped weights |
+| 2026-08-20 | [913f5e22](https://github.com/NVIDIA/Model-Optimizer/commit/913f5e224cb2a9a7754bd2f17edd50395aad7bf7) | [#2217](https://github.com/NVIDIA/Model-Optimizer/pull/2217) | [@gcunhase](https://github.com/gcunhase) | `infra` | \[5922794\] Raise Polygraphy minimum to 0.53.4 |
+| 2026-08-20 | [d16d62ea](https://github.com/NVIDIA/Model-Optimizer/commit/d16d62ea14d36f721bdd007fe70d5c86763c7173) | [#2222](https://github.com/NVIDIA/Model-Optimizer/pull/2222) | [@j-rausch](https://github.com/j-rausch) | `infra` | Fix Mypy availability in unit sessions |
 | 2026-08-19 | [4cb8905b](https://github.com/NVIDIA/Model-Optimizer/commit/4cb8905baf7388ba2f7cb1dfef6eded13d5968a5) | [#2214](https://github.com/NVIDIA/Model-Optimizer/pull/2214) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Run Mypy with ModelOpt dependencies |
 | 2026-08-19 | [94915a1e](https://github.com/NVIDIA/Model-Optimizer/commit/94915a1e5d8a0c6466471c3bd140dbd1662e95ff) | [#2210](https://github.com/NVIDIA/Model-Optimizer/pull/2210) | [@AAnoosheh](https://github.com/AAnoosheh) | `infra` | Fix typo for Tau2 eval config |
 | 2026-08-18 | [fbcdc16c](https://github.com/NVIDIA/Model-Optimizer/commit/fbcdc16c2d67ca6db3f33b2848e923600f7012c7) | [#2182](https://github.com/NVIDIA/Model-Optimizer/pull/2182) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vlm` | Remove deprecations marked in 0.45 and 0.46 |
@@ -492,4 +494,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 486 PRs**
+**Total: 488 PRs**

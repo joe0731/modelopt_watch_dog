@@ -14,6 +14,26 @@
     ]
   },
   {
+    "date": "2026-08-20",
+    "commit": "913f5e224cb2a9a7754bd2f17edd50395aad7bf7",
+    "pr_number": 2217,
+    "author": "gcunhase",
+    "title": "[5922794] Raise Polygraphy minimum to 0.53.4",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-20",
+    "commit": "d16d62ea14d36f721bdd007fe70d5c86763c7173",
+    "pr_number": 2222,
+    "author": "j-rausch",
+    "title": "Fix Mypy availability in unit sessions",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-08-19",
     "commit": "4cb8905baf7388ba2f7cb1dfef6eded13d5968a5",
     "pr_number": 2214,
