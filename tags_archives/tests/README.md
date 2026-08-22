@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-21 | [66aca27d](https://github.com/NVIDIA/Model-Optimizer/commit/66aca27d3d823479df396b16ac9084507c292467) | [#2227](https://github.com/NVIDIA/Model-Optimizer/pull/2227) | [@j-rausch](https://github.com/j-rausch) | `export` `onnx` `quantization` `tests` `torch` | Fix minimum-dependency and cross-platform unit failures |
 | 2026-08-20 | [7c494088](https://github.com/NVIDIA/Model-Optimizer/commit/7c494088fa51ccea22af6df466c392756a8243ee) | [#2140](https://github.com/NVIDIA/Model-Optimizer/pull/2140) | [@mxinO](https://github.com/mxinO) | `core` `infra` `quantization` `tests` `torch` | Add reversible weight folding and support TE grouped weights |
 | 2026-08-19 | [4cb8905b](https://github.com/NVIDIA/Model-Optimizer/commit/4cb8905baf7388ba2f7cb1dfef6eded13d5968a5) | [#2214](https://github.com/NVIDIA/Model-Optimizer/pull/2214) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Run Mypy with ModelOpt dependencies |
 | 2026-08-18 | [fbcdc16c](https://github.com/NVIDIA/Model-Optimizer/commit/fbcdc16c2d67ca6db3f33b2848e923600f7012c7) | [#2182](https://github.com/NVIDIA/Model-Optimizer/pull/2182) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vlm` | Remove deprecations marked in 0.45 and 0.46 |
@@ -364,4 +365,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 358 PRs**
+**Total: 359 PRs**

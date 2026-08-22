@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-21 | [a2fbac7b](https://github.com/NVIDIA/Model-Optimizer/commit/a2fbac7bad8ab446d3f8783dadb0c3366eb0ad73) | [#2226](https://github.com/NVIDIA/Model-Optimizer/pull/2226) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | Pin diffusers\<0.40 for the tf_min unit test env |
 | 2026-08-20 | [7c494088](https://github.com/NVIDIA/Model-Optimizer/commit/7c494088fa51ccea22af6df466c392756a8243ee) | [#2140](https://github.com/NVIDIA/Model-Optimizer/pull/2140) | [@mxinO](https://github.com/mxinO) | `core` `infra` `quantization` `tests` `torch` | Add reversible weight folding and support TE grouped weights |
 | 2026-08-20 | [913f5e22](https://github.com/NVIDIA/Model-Optimizer/commit/913f5e224cb2a9a7754bd2f17edd50395aad7bf7) | [#2217](https://github.com/NVIDIA/Model-Optimizer/pull/2217) | [@gcunhase](https://github.com/gcunhase) | `infra` | \[5922794\] Raise Polygraphy minimum to 0.53.4 |
 | 2026-08-20 | [d16d62ea](https://github.com/NVIDIA/Model-Optimizer/commit/d16d62ea14d36f721bdd007fe70d5c86763c7173) | [#2222](https://github.com/NVIDIA/Model-Optimizer/pull/2222) | [@j-rausch](https://github.com/j-rausch) | `infra` | Fix Mypy availability in unit sessions |
@@ -494,4 +495,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 488 PRs**
+**Total: 489 PRs**

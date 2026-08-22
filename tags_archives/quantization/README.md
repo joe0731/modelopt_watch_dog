@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-21 | [66aca27d](https://github.com/NVIDIA/Model-Optimizer/commit/66aca27d3d823479df396b16ac9084507c292467) | [#2227](https://github.com/NVIDIA/Model-Optimizer/pull/2227) | [@j-rausch](https://github.com/j-rausch) | `export` `onnx` `quantization` `tests` `torch` | Fix minimum-dependency and cross-platform unit failures |
 | 2026-08-20 | [7c494088](https://github.com/NVIDIA/Model-Optimizer/commit/7c494088fa51ccea22af6df466c392756a8243ee) | [#2140](https://github.com/NVIDIA/Model-Optimizer/pull/2140) | [@mxinO](https://github.com/mxinO) | `core` `infra` `quantization` `tests` `torch` | Add reversible weight folding and support TE grouped weights |
 | 2026-08-18 | [fbcdc16c](https://github.com/NVIDIA/Model-Optimizer/commit/fbcdc16c2d67ca6db3f33b2848e923600f7012c7) | [#2182](https://github.com/NVIDIA/Model-Optimizer/pull/2182) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vlm` | Remove deprecations marked in 0.45 and 0.46 |
 | 2026-08-15 | [3d2522e4](https://github.com/NVIDIA/Model-Optimizer/commit/3d2522e44724683b3292f706c207949b343c8ef1) | [#2194](https://github.com/NVIDIA/Model-Optimizer/pull/2194) | [@juhi10071998](https://github.com/juhi10071998) | `export` `infra` `quantization` `tests` `torch` | Name-based tied-weight deduplication during HF checkpoint export (supersedes #2092) |
@@ -279,4 +280,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 273 PRs**
+**Total: 274 PRs**

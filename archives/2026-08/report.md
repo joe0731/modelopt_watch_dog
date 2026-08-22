@@ -8,6 +8,8 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-08-21 | [a2fbac7b](https://github.com/NVIDIA/Model-Optimizer/commit/a2fbac7bad8ab446d3f8783dadb0c3366eb0ad73) | [#2226](https://github.com/NVIDIA/Model-Optimizer/pull/2226) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | Pin diffusers\<0.40 for the tf_min unit test env |
+| 🟠 | **2026-08-21** | **[66aca27d](https://github.com/NVIDIA/Model-Optimizer/commit/66aca27d3d823479df396b16ac9084507c292467)** | **[#2227](https://github.com/NVIDIA/Model-Optimizer/pull/2227)** | **[@j-rausch](https://github.com/j-rausch)** | `export` `onnx` `quantization` `tests` `torch` | **Fix minimum-dependency and cross-platform unit failures** |
 |  | 2026-08-20 | [7c494088](https://github.com/NVIDIA/Model-Optimizer/commit/7c494088fa51ccea22af6df466c392756a8243ee) | [#2140](https://github.com/NVIDIA/Model-Optimizer/pull/2140) | [@mxinO](https://github.com/mxinO) | `core` `infra` `quantization` `tests` `torch` | Add reversible weight folding and support TE grouped weights |
 |  | 2026-08-20 | [913f5e22](https://github.com/NVIDIA/Model-Optimizer/commit/913f5e224cb2a9a7754bd2f17edd50395aad7bf7) | [#2217](https://github.com/NVIDIA/Model-Optimizer/pull/2217) | [@gcunhase](https://github.com/gcunhase) | `infra` | \[5922794\] Raise Polygraphy minimum to 0.53.4 |
 |  | 2026-08-20 | [d16d62ea](https://github.com/NVIDIA/Model-Optimizer/commit/d16d62ea14d36f721bdd007fe70d5c86763c7173) | [#2222](https://github.com/NVIDIA/Model-Optimizer/pull/2222) | [@j-rausch](https://github.com/j-rausch) | `infra` | Fix Mypy availability in unit sessions |
@@ -87,4 +89,4 @@
 |  | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 
 ---
-**Total: 77 PRs** | **Highlighted: 9**
+**Total: 79 PRs** | **Highlighted: 10**

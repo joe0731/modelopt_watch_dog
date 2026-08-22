@@ -1,5 +1,29 @@
 [
   {
+    "date": "2026-08-21",
+    "commit": "a2fbac7bad8ab446d3f8783dadb0c3366eb0ad73",
+    "pr_number": 2226,
+    "author": "shengliangxu",
+    "title": "Pin diffusers<0.40 for the tf_min unit test env",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-21",
+    "commit": "66aca27d3d823479df396b16ac9084507c292467",
+    "pr_number": 2227,
+    "author": "j-rausch",
+    "title": "Fix minimum-dependency and cross-platform unit failures",
+    "tags": [
+      "export",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-08-20",
     "commit": "7c494088fa51ccea22af6df466c392756a8243ee",
     "pr_number": 2140,

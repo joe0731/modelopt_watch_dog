@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-21 | [66aca27d](https://github.com/NVIDIA/Model-Optimizer/commit/66aca27d3d823479df396b16ac9084507c292467) | [#2227](https://github.com/NVIDIA/Model-Optimizer/pull/2227) | [@j-rausch](https://github.com/j-rausch) | `export` `onnx` `quantization` `tests` `torch` | Fix minimum-dependency and cross-platform unit failures |
 | 2026-08-07 | [ccf44ea6](https://github.com/NVIDIA/Model-Optimizer/commit/ccf44ea67a14eb87765e771501f9aae4cfb0ec48) | [#2012](https://github.com/NVIDIA/Model-Optimizer/pull/2012) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` | \[OMNIML-5562\] Add FAR3D ONNX PTQ and accuracy evaluation example |
 | 2026-08-05 | [19e0121d](https://github.com/NVIDIA/Model-Optimizer/commit/19e0121d0a5d450b69a7de65ccc2ff3028faca14) | [#2079](https://github.com/NVIDIA/Model-Optimizer/pull/2079) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `export` `onnx` `quantization` `sparsity` `speculative_decoding` `tests` `torch` | Fix 2-GPU test_model_load_utils hang; test import and fixture cleanup |
 | 2026-07-30 | [a23390db](https://github.com/NVIDIA/Model-Optimizer/commit/a23390dbb6e52b0c028f3e9455a74da824c88735) | [#1981](https://github.com/NVIDIA/Model-Optimizer/pull/1981) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[5726458\] \[Experimental\] Add NVFP4 projection-output-quantizer recipe and HF embedding ONNX export example |
@@ -102,4 +103,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 96 PRs**
+**Total: 97 PRs**
