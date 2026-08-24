@@ -8,6 +8,7 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-08-23 | [2b296b2f](https://github.com/NVIDIA/Model-Optimizer/commit/2b296b2f62cc76cc6452e6ae847c8cc7f7921e16) | [#2149](https://github.com/NVIDIA/Model-Optimizer/pull/2149) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | Support fine-tuning released DFlash/DSpark drafters (causal SWA, attention sink, warm start) |
 |  | 2026-08-21 | [a2fbac7b](https://github.com/NVIDIA/Model-Optimizer/commit/a2fbac7bad8ab446d3f8783dadb0c3366eb0ad73) | [#2226](https://github.com/NVIDIA/Model-Optimizer/pull/2226) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | Pin diffusers\<0.40 for the tf_min unit test env |
 | 🟠 | **2026-08-21** | **[66aca27d](https://github.com/NVIDIA/Model-Optimizer/commit/66aca27d3d823479df396b16ac9084507c292467)** | **[#2227](https://github.com/NVIDIA/Model-Optimizer/pull/2227)** | **[@j-rausch](https://github.com/j-rausch)** | `export` `onnx` `quantization` `tests` `torch` | **Fix minimum-dependency and cross-platform unit failures** |
 |  | 2026-08-20 | [7c494088](https://github.com/NVIDIA/Model-Optimizer/commit/7c494088fa51ccea22af6df466c392756a8243ee) | [#2140](https://github.com/NVIDIA/Model-Optimizer/pull/2140) | [@mxinO](https://github.com/mxinO) | `core` `infra` `quantization` `tests` `torch` | Add reversible weight folding and support TE grouped weights |
@@ -89,4 +90,4 @@
 |  | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 
 ---
-**Total: 79 PRs** | **Highlighted: 10**
+**Total: 80 PRs** | **Highlighted: 10**

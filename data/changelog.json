@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-08-23",
+    "commit": "2b296b2f62cc76cc6452e6ae847c8cc7f7921e16",
+    "pr_number": 2149,
+    "author": "h-guo18",
+    "title": "Support fine-tuning released DFlash/DSpark drafters (causal SWA, attention sink, warm start)",
+    "tags": [
+      "example",
+      "export",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-08-21",
     "commit": "a2fbac7bad8ab446d3f8783dadb0c3366eb0ad73",
     "pr_number": 2226,
