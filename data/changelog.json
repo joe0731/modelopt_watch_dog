@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-08-24",
+    "commit": "73d778422388f0e849ecb180375d34ac445711ca",
+    "pr_number": 2224,
+    "author": "cjluo-nv",
+    "title": "docs(eval-skill): add NVFP4 model-card sampling reference",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "commit": "58baa817ffc208579c1806a0b25325235b19ad1b",
+    "pr_number": 2215,
+    "author": "j-rausch",
+    "title": "Harden Puzzletron orchestration state integrity",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-24",
+    "commit": "a82d885fd20202c72bb2db3b8f932c832e144ce5",
+    "pr_number": 2238,
+    "author": "j-rausch",
+    "title": "Apply main-branch GPU test fixes to Puzzletron v2",
+    "tags": [
+      "core",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-08-23",
     "commit": "2b296b2f62cc76cc6452e6ae847c8cc7f7921e16",
     "pr_number": 2149,

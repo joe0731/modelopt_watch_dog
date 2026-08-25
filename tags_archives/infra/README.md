@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-24 | [73d77842](https://github.com/NVIDIA/Model-Optimizer/commit/73d778422388f0e849ecb180375d34ac445711ca) | [#2224](https://github.com/NVIDIA/Model-Optimizer/pull/2224) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | docs(eval-skill): add NVFP4 model-card sampling reference |
+| 2026-08-24 | [58baa817](https://github.com/NVIDIA/Model-Optimizer/commit/58baa817ffc208579c1806a0b25325235b19ad1b) | [#2215](https://github.com/NVIDIA/Model-Optimizer/pull/2215) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Harden Puzzletron orchestration state integrity |
+| 2026-08-24 | [a82d885f](https://github.com/NVIDIA/Model-Optimizer/commit/a82d885fd20202c72bb2db3b8f932c832e144ce5) | [#2238](https://github.com/NVIDIA/Model-Optimizer/pull/2238) | [@j-rausch](https://github.com/j-rausch) | `core` `infra` `quantization` `tests` `torch` | Apply main-branch GPU test fixes to Puzzletron v2 |
 | 2026-08-23 | [2b296b2f](https://github.com/NVIDIA/Model-Optimizer/commit/2b296b2f62cc76cc6452e6ae847c8cc7f7921e16) | [#2149](https://github.com/NVIDIA/Model-Optimizer/pull/2149) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | Support fine-tuning released DFlash/DSpark drafters (causal SWA, attention sink, warm start) |
 | 2026-08-21 | [a2fbac7b](https://github.com/NVIDIA/Model-Optimizer/commit/a2fbac7bad8ab446d3f8783dadb0c3366eb0ad73) | [#2226](https://github.com/NVIDIA/Model-Optimizer/pull/2226) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | Pin diffusers\<0.40 for the tf_min unit test env |
 | 2026-08-20 | [7c494088](https://github.com/NVIDIA/Model-Optimizer/commit/7c494088fa51ccea22af6df466c392756a8243ee) | [#2140](https://github.com/NVIDIA/Model-Optimizer/pull/2140) | [@mxinO](https://github.com/mxinO) | `core` `infra` `quantization` `tests` `torch` | Add reversible weight folding and support TE grouped weights |
@@ -496,4 +499,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 490 PRs**
+**Total: 493 PRs**
