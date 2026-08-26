@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-08-26",
+    "commit": "15df5e064e0188297688701d783cc4645a2e14a8",
+    "pr_number": 2245,
+    "author": "j-rausch",
+    "title": "Automate Puzzletron setup and fix unattended runtime bugs",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-08-24",
     "commit": "73d778422388f0e849ecb180375d34ac445711ca",
     "pr_number": 2224,
