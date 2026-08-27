@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-08-27",
+    "commit": "449a39922b5f5d45b963e43330f62057db4b2209",
+    "pr_number": 2260,
+    "author": "kevalmorabia97",
+    "title": "Pin nemo_automodel below 0.6 for the fastgen example",
+    "tags": [
+      "diffusers",
+      "example",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-27",
+    "commit": "db31edd560ddf797efb441a76d95e6f3c3e15963",
+    "pr_number": 2267,
+    "author": "j-rausch",
+    "title": "Guide users through a first Puzzletron campaign",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-08-26",
     "commit": "15df5e064e0188297688701d783cc4645a2e14a8",
     "pr_number": 2245,
@@ -8,6 +31,93 @@
     "tags": [
       "infra",
       "tests"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "commit": "fbed2cb2d6cc9fdfb588c2a1252ec8fa6a8e018b",
+    "pr_number": 2252,
+    "author": "grzegorz-k-karch",
+    "title": "Update CODEOWNERS to remove obsolete entries",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "commit": "bc802152feefefd9b4ae09de2606493012c8db5a",
+    "pr_number": 2253,
+    "author": "j-rausch",
+    "title": "Add end-to-end PuzzleTron GPU lifecycle coverage",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "commit": "5db268251945b579d642bbd7449c63006cfa829f",
+    "pr_number": 2027,
+    "author": "h-guo18",
+    "title": "[Example]: Calibration-free FP8/NVFP4 PTQ for speculative-decoding drafters",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "commit": "07b741adeb139b959527adced0b9242879ef408a",
+    "pr_number": 2249,
+    "author": "j-rausch",
+    "title": "Validate Puzzletron campaign configs and reorganize documentation",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "commit": "d0ada2a10acd58e83b3c02807dc1ad2eb5c950d5",
+    "pr_number": 2174,
+    "author": "yeyu-nvidia",
+    "title": "Export quantized/co-trained MTP weights instead of copying BF16",
+    "tags": [
+      "export",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "commit": "d35bf8919c52bf8c0572b3c5872cc21ff48d32c1",
+    "pr_number": 2256,
+    "author": "jenchen13",
+    "title": "README: add Nemotron Lightning 3.5 QAD blog",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "commit": "8c04ce6ee2ea0a22965d79d76e572711f3e3d96a",
+    "pr_number": 1979,
+    "author": "realAsma",
+    "title": "docs: add AutoQuantize mixed-precision search blog",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "date": "2026-08-26",
+    "commit": "a0513f18bd1bfefaa0dcab2d95e24a99c746115f",
+    "pr_number": 2242,
+    "author": "realAsma",
+    "title": "Update documentation theme to Shibuya",
+    "tags": [
+      "docs",
+      "infra"
     ]
   },
   {

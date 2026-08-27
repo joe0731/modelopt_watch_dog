@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-26 | [5db26825](https://github.com/NVIDIA/Model-Optimizer/commit/5db268251945b579d642bbd7449c63006cfa829f) | [#2027](https://github.com/NVIDIA/Model-Optimizer/pull/2027) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `torch` | \[Example\]: Calibration-free FP8/NVFP4 PTQ for speculative-decoding drafters |
 | 2026-08-23 | [2b296b2f](https://github.com/NVIDIA/Model-Optimizer/commit/2b296b2f62cc76cc6452e6ae847c8cc7f7921e16) | [#2149](https://github.com/NVIDIA/Model-Optimizer/pull/2149) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | Support fine-tuning released DFlash/DSpark drafters (causal SWA, attention sink, warm start) |
 | 2026-08-15 | [43fd41a5](https://github.com/NVIDIA/Model-Optimizer/commit/43fd41a58d52c4e6e5dec1d1ff5989ecc737ae1a) | [#2199](https://github.com/NVIDIA/Model-Optimizer/pull/2199) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `docs` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #2172 #2087 #2152 #2060 #2008 #2194 |
 | 2026-08-14 | [c4129b6e](https://github.com/NVIDIA/Model-Optimizer/commit/c4129b6e03d3c564e04359e6d0c6057c9a59183f) | [#2053](https://github.com/NVIDIA/Model-Optimizer/pull/2053) | [@skierat](https://github.com/skierat) | `core` `example` `speculative_decoding` `tests` `torch` | Add Cosmos3 Nano DFlash multimodal training recipe |
@@ -89,4 +90,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 83 PRs**
+**Total: 84 PRs**

@@ -4,7 +4,14 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-27 | [db31edd5](https://github.com/NVIDIA/Model-Optimizer/commit/db31edd560ddf797efb441a76d95e6f3c3e15963) | [#2267](https://github.com/NVIDIA/Model-Optimizer/pull/2267) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Guide users through a first Puzzletron campaign |
 | 2026-08-26 | [15df5e06](https://github.com/NVIDIA/Model-Optimizer/commit/15df5e064e0188297688701d783cc4645a2e14a8) | [#2245](https://github.com/NVIDIA/Model-Optimizer/pull/2245) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Automate Puzzletron setup and fix unattended runtime bugs |
+| 2026-08-26 | [fbed2cb2](https://github.com/NVIDIA/Model-Optimizer/commit/fbed2cb2d6cc9fdfb588c2a1252ec8fa6a8e018b) | [#2252](https://github.com/NVIDIA/Model-Optimizer/pull/2252) | [@grzegorz-k-karch](https://github.com/grzegorz-k-karch) | `infra` | Update CODEOWNERS to remove obsolete entries |
+| 2026-08-26 | [bc802152](https://github.com/NVIDIA/Model-Optimizer/commit/bc802152feefefd9b4ae09de2606493012c8db5a) | [#2253](https://github.com/NVIDIA/Model-Optimizer/pull/2253) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add end-to-end PuzzleTron GPU lifecycle coverage |
+| 2026-08-26 | [5db26825](https://github.com/NVIDIA/Model-Optimizer/commit/5db268251945b579d642bbd7449c63006cfa829f) | [#2027](https://github.com/NVIDIA/Model-Optimizer/pull/2027) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `torch` | \[Example\]: Calibration-free FP8/NVFP4 PTQ for speculative-decoding drafters |
+| 2026-08-26 | [07b741ad](https://github.com/NVIDIA/Model-Optimizer/commit/07b741adeb139b959527adced0b9242879ef408a) | [#2249](https://github.com/NVIDIA/Model-Optimizer/pull/2249) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Validate Puzzletron campaign configs and reorganize documentation |
+| 2026-08-26 | [d35bf891](https://github.com/NVIDIA/Model-Optimizer/commit/d35bf8919c52bf8c0572b3c5872cc21ff48d32c1) | [#2256](https://github.com/NVIDIA/Model-Optimizer/pull/2256) | [@jenchen13](https://github.com/jenchen13) | `infra` | README: add Nemotron Lightning 3.5 QAD blog |
+| 2026-08-26 | [a0513f18](https://github.com/NVIDIA/Model-Optimizer/commit/a0513f18bd1bfefaa0dcab2d95e24a99c746115f) | [#2242](https://github.com/NVIDIA/Model-Optimizer/pull/2242) | [@realAsma](https://github.com/realAsma) | `docs` `infra` | Update documentation theme to Shibuya |
 | 2026-08-24 | [73d77842](https://github.com/NVIDIA/Model-Optimizer/commit/73d778422388f0e849ecb180375d34ac445711ca) | [#2224](https://github.com/NVIDIA/Model-Optimizer/pull/2224) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | docs(eval-skill): add NVFP4 model-card sampling reference |
 | 2026-08-24 | [58baa817](https://github.com/NVIDIA/Model-Optimizer/commit/58baa817ffc208579c1806a0b25325235b19ad1b) | [#2215](https://github.com/NVIDIA/Model-Optimizer/pull/2215) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Harden Puzzletron orchestration state integrity |
 | 2026-08-24 | [a82d885f](https://github.com/NVIDIA/Model-Optimizer/commit/a82d885fd20202c72bb2db3b8f932c832e144ce5) | [#2238](https://github.com/NVIDIA/Model-Optimizer/pull/2238) | [@j-rausch](https://github.com/j-rausch) | `core` `infra` `quantization` `tests` `torch` | Apply main-branch GPU test fixes to Puzzletron v2 |
@@ -500,4 +507,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 494 PRs**
+**Total: 501 PRs**

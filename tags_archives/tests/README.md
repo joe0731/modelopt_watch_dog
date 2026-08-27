@@ -4,7 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-27 | [db31edd5](https://github.com/NVIDIA/Model-Optimizer/commit/db31edd560ddf797efb441a76d95e6f3c3e15963) | [#2267](https://github.com/NVIDIA/Model-Optimizer/pull/2267) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Guide users through a first Puzzletron campaign |
 | 2026-08-26 | [15df5e06](https://github.com/NVIDIA/Model-Optimizer/commit/15df5e064e0188297688701d783cc4645a2e14a8) | [#2245](https://github.com/NVIDIA/Model-Optimizer/pull/2245) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Automate Puzzletron setup and fix unattended runtime bugs |
+| 2026-08-26 | [bc802152](https://github.com/NVIDIA/Model-Optimizer/commit/bc802152feefefd9b4ae09de2606493012c8db5a) | [#2253](https://github.com/NVIDIA/Model-Optimizer/pull/2253) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add end-to-end PuzzleTron GPU lifecycle coverage |
+| 2026-08-26 | [07b741ad](https://github.com/NVIDIA/Model-Optimizer/commit/07b741adeb139b959527adced0b9242879ef408a) | [#2249](https://github.com/NVIDIA/Model-Optimizer/pull/2249) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Validate Puzzletron campaign configs and reorganize documentation |
 | 2026-08-24 | [58baa817](https://github.com/NVIDIA/Model-Optimizer/commit/58baa817ffc208579c1806a0b25325235b19ad1b) | [#2215](https://github.com/NVIDIA/Model-Optimizer/pull/2215) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Harden Puzzletron orchestration state integrity |
 | 2026-08-24 | [a82d885f](https://github.com/NVIDIA/Model-Optimizer/commit/a82d885fd20202c72bb2db3b8f932c832e144ce5) | [#2238](https://github.com/NVIDIA/Model-Optimizer/pull/2238) | [@j-rausch](https://github.com/j-rausch) | `core` `infra` `quantization` `tests` `torch` | Apply main-branch GPU test fixes to Puzzletron v2 |
 | 2026-08-23 | [2b296b2f](https://github.com/NVIDIA/Model-Optimizer/commit/2b296b2f62cc76cc6452e6ae847c8cc7f7921e16) | [#2149](https://github.com/NVIDIA/Model-Optimizer/pull/2149) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | Support fine-tuning released DFlash/DSpark drafters (causal SWA, attention sink, warm start) |
@@ -369,4 +372,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 363 PRs**
+**Total: 366 PRs**

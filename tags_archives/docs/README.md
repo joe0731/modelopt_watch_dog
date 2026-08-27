@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-26 | [8c04ce6e](https://github.com/NVIDIA/Model-Optimizer/commit/8c04ce6ee2ea0a22965d79d76e572711f3e3d96a) | [#1979](https://github.com/NVIDIA/Model-Optimizer/pull/1979) | [@realAsma](https://github.com/realAsma) | `docs` | docs: add AutoQuantize mixed-precision search blog |
+| 2026-08-26 | [a0513f18](https://github.com/NVIDIA/Model-Optimizer/commit/a0513f18bd1bfefaa0dcab2d95e24a99c746115f) | [#2242](https://github.com/NVIDIA/Model-Optimizer/pull/2242) | [@realAsma](https://github.com/realAsma) | `docs` `infra` | Update documentation theme to Shibuya |
 | 2026-08-15 | [43fd41a5](https://github.com/NVIDIA/Model-Optimizer/commit/43fd41a58d52c4e6e5dec1d1ff5989ecc737ae1a) | [#2199](https://github.com/NVIDIA/Model-Optimizer/pull/2199) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `docs` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #2172 #2087 #2152 #2060 #2008 #2194 |
 | 2026-08-13 | [ddca53b4](https://github.com/NVIDIA/Model-Optimizer/commit/ddca53b4bf99a1a370a8f3c8fe562710695a3448) | [#1971](https://github.com/NVIDIA/Model-Optimizer/pull/1971) | [@ChenhanYu](https://github.com/ChenhanYu) | `docs` `infra` | docs: add announcements landing page |
 | 2026-08-12 | [6261f854](https://github.com/NVIDIA/Model-Optimizer/commit/6261f854aa2415c0b790de15b38e58af0e918482) | [#2087](https://github.com/NVIDIA/Model-Optimizer/pull/2087) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `diffusers` `docs` `example` `infra` `torch` | docs: rebuild the unified HF deployment support matrix from the deploy test suite (NVBug 6550792) |
@@ -48,4 +50,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 42 PRs**
+**Total: 44 PRs**

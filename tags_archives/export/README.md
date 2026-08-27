@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-26 | [d0ada2a1](https://github.com/NVIDIA/Model-Optimizer/commit/d0ada2a10acd58e83b3c02807dc1ad2eb5c950d5) | [#2174](https://github.com/NVIDIA/Model-Optimizer/pull/2174) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `export` `torch` | Export quantized/co-trained MTP weights instead of copying BF16 |
 | 2026-08-23 | [2b296b2f](https://github.com/NVIDIA/Model-Optimizer/commit/2b296b2f62cc76cc6452e6ae847c8cc7f7921e16) | [#2149](https://github.com/NVIDIA/Model-Optimizer/pull/2149) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | Support fine-tuning released DFlash/DSpark drafters (causal SWA, attention sink, warm start) |
 | 2026-08-21 | [66aca27d](https://github.com/NVIDIA/Model-Optimizer/commit/66aca27d3d823479df396b16ac9084507c292467) | [#2227](https://github.com/NVIDIA/Model-Optimizer/pull/2227) | [@j-rausch](https://github.com/j-rausch) | `export` `onnx` `quantization` `tests` `torch` | Fix minimum-dependency and cross-platform unit failures |
 | 2026-08-18 | [fbcdc16c](https://github.com/NVIDIA/Model-Optimizer/commit/fbcdc16c2d67ca6db3f33b2848e923600f7012c7) | [#2182](https://github.com/NVIDIA/Model-Optimizer/pull/2182) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vlm` | Remove deprecations marked in 0.45 and 0.46 |
@@ -150,4 +151,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 144 PRs**
+**Total: 145 PRs**

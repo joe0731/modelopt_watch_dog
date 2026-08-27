@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-27 | [449a3992](https://github.com/NVIDIA/Model-Optimizer/commit/449a39922b5f5d45b963e43330f62057db4b2209) | [#2260](https://github.com/NVIDIA/Model-Optimizer/pull/2260) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `example` `torch` | Pin nemo_automodel below 0.6 for the fastgen example |
+| 2026-08-26 | [5db26825](https://github.com/NVIDIA/Model-Optimizer/commit/5db268251945b579d642bbd7449c63006cfa829f) | [#2027](https://github.com/NVIDIA/Model-Optimizer/pull/2027) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `torch` | \[Example\]: Calibration-free FP8/NVFP4 PTQ for speculative-decoding drafters |
 | 2026-08-23 | [2b296b2f](https://github.com/NVIDIA/Model-Optimizer/commit/2b296b2f62cc76cc6452e6ae847c8cc7f7921e16) | [#2149](https://github.com/NVIDIA/Model-Optimizer/pull/2149) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | Support fine-tuning released DFlash/DSpark drafters (causal SWA, attention sink, warm start) |
 | 2026-08-18 | [fbcdc16c](https://github.com/NVIDIA/Model-Optimizer/commit/fbcdc16c2d67ca6db3f33b2848e923600f7012c7) | [#2182](https://github.com/NVIDIA/Model-Optimizer/pull/2182) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vlm` | Remove deprecations marked in 0.45 and 0.46 |
 | 2026-08-17 | [58ad6edc](https://github.com/NVIDIA/Model-Optimizer/commit/58ad6edc5f61fee85a5e9632992952259049db24) | [#2196](https://github.com/NVIDIA/Model-Optimizer/pull/2196) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `torch` | Fix pruned-HF export fallback + add Nemotron-3.5-Lightning launcher examples |
@@ -285,4 +287,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 279 PRs**
+**Total: 281 PRs**
