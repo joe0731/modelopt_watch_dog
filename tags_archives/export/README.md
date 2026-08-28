@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-28 | [5500999d](https://github.com/NVIDIA/Model-Optimizer/commit/5500999d0b3f2e5e209ea4c67ffd5e5335128134) | [#2206](https://github.com/NVIDIA/Model-Optimizer/pull/2206) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `export` `infra` `quantization` `tests` `torch` | Add Kimi-K3 NVFP4 experts and FP8-PB attention recipe |
+| 2026-08-28 | [ebbd7885](https://github.com/NVIDIA/Model-Optimizer/commit/ebbd78857d13244c44a220b1fa110a5b2d61d6f0) | [#2225](https://github.com/NVIDIA/Model-Optimizer/pull/2225) | [@realAsma](https://github.com/realAsma) | `export` `tests` `torch` | Fix Diffusers export dtype resolution |
+| 2026-08-28 | [72e48d51](https://github.com/NVIDIA/Model-Optimizer/commit/72e48d515a12d79784b37ca1ac8c92cc34e85d67) | [#2243](https://github.com/NVIDIA/Model-Optimizer/pull/2243) | [@ajrasane](https://github.com/ajrasane) | `export` `infra` `onnx` `quantization` `tests` `torch` | \[6648996\] Fix NVFP4 ONNX packed-weight scale rounding |
+| 2026-08-27 | [d7327880](https://github.com/NVIDIA/Model-Optimizer/commit/d73278808be3f3231df559c53328436a91270969) | [#2257](https://github.com/NVIDIA/Model-Optimizer/pull/2257) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `nas` `pruning` `quantization` `tests` `torch` | Bump nemo container requirement to 26.08 for MBridge examples |
 | 2026-08-26 | [d0ada2a1](https://github.com/NVIDIA/Model-Optimizer/commit/d0ada2a10acd58e83b3c02807dc1ad2eb5c950d5) | [#2174](https://github.com/NVIDIA/Model-Optimizer/pull/2174) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `export` `torch` | Export quantized/co-trained MTP weights instead of copying BF16 |
 | 2026-08-23 | [2b296b2f](https://github.com/NVIDIA/Model-Optimizer/commit/2b296b2f62cc76cc6452e6ae847c8cc7f7921e16) | [#2149](https://github.com/NVIDIA/Model-Optimizer/pull/2149) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | Support fine-tuning released DFlash/DSpark drafters (causal SWA, attention sink, warm start) |
 | 2026-08-21 | [66aca27d](https://github.com/NVIDIA/Model-Optimizer/commit/66aca27d3d823479df396b16ac9084507c292467) | [#2227](https://github.com/NVIDIA/Model-Optimizer/pull/2227) | [@j-rausch](https://github.com/j-rausch) | `export` `onnx` `quantization` `tests` `torch` | Fix minimum-dependency and cross-platform unit failures |
@@ -151,4 +155,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 145 PRs**
+**Total: 149 PRs**

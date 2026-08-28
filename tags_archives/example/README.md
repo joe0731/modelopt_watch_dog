@@ -4,7 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-28 | [5500999d](https://github.com/NVIDIA/Model-Optimizer/commit/5500999d0b3f2e5e209ea4c67ffd5e5335128134) | [#2206](https://github.com/NVIDIA/Model-Optimizer/pull/2206) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `export` `infra` `quantization` `tests` `torch` | Add Kimi-K3 NVFP4 experts and FP8-PB attention recipe |
+| 2026-08-28 | [5abeae63](https://github.com/NVIDIA/Model-Optimizer/commit/5abeae63bd55261ee44390587f1df44a7c0834f3) | [#2275](https://github.com/NVIDIA/Model-Optimizer/pull/2275) | [@j-rausch](https://github.com/j-rausch) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add teacher-checkpoint text evaluation routing |
+| 2026-08-28 | [6a2ae5a2](https://github.com/NVIDIA/Model-Optimizer/commit/6a2ae5a25bea8244cdfe1a316f12c500296161e4) | [#2270](https://github.com/NVIDIA/Model-Optimizer/pull/2270) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `tests` `torch` `windows` | Fix the llm_eval timeout: reachable MMLU mirror + no pipe deadlock |
 | 2026-08-27 | [449a3992](https://github.com/NVIDIA/Model-Optimizer/commit/449a39922b5f5d45b963e43330f62057db4b2209) | [#2260](https://github.com/NVIDIA/Model-Optimizer/pull/2260) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `example` `torch` | Pin nemo_automodel below 0.6 for the fastgen example |
+| 2026-08-27 | [d7327880](https://github.com/NVIDIA/Model-Optimizer/commit/d73278808be3f3231df559c53328436a91270969) | [#2257](https://github.com/NVIDIA/Model-Optimizer/pull/2257) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `nas` `pruning` `quantization` `tests` `torch` | Bump nemo container requirement to 26.08 for MBridge examples |
+| 2026-08-27 | [7ff81dd7](https://github.com/NVIDIA/Model-Optimizer/commit/7ff81dd795b13a0a70e01db701305aa4b57f40b0) | [#2254](https://github.com/NVIDIA/Model-Optimizer/pull/2254) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `quantization` `torch` | Add day-0 verbosity gate + harden release skills from a live run |
 | 2026-08-26 | [5db26825](https://github.com/NVIDIA/Model-Optimizer/commit/5db268251945b579d642bbd7449c63006cfa829f) | [#2027](https://github.com/NVIDIA/Model-Optimizer/pull/2027) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `torch` | \[Example\]: Calibration-free FP8/NVFP4 PTQ for speculative-decoding drafters |
 | 2026-08-23 | [2b296b2f](https://github.com/NVIDIA/Model-Optimizer/commit/2b296b2f62cc76cc6452e6ae847c8cc7f7921e16) | [#2149](https://github.com/NVIDIA/Model-Optimizer/pull/2149) | [@h-guo18](https://github.com/h-guo18) | `example` `export` `infra` `speculative_decoding` `tests` `torch` | Support fine-tuning released DFlash/DSpark drafters (causal SWA, attention sink, warm start) |
 | 2026-08-18 | [fbcdc16c](https://github.com/NVIDIA/Model-Optimizer/commit/fbcdc16c2d67ca6db3f33b2848e923600f7012c7) | [#2182](https://github.com/NVIDIA/Model-Optimizer/pull/2182) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vlm` | Remove deprecations marked in 0.45 and 0.46 |
@@ -287,4 +292,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 281 PRs**
+**Total: 286 PRs**
