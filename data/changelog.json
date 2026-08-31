@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-31",
+    "commit": "85b9066fe9e35fece6910791b76ed3d3f4047ea7",
+    "pr_number": 2280,
+    "author": "j-rausch",
+    "title": "Evaluate saved pruned text and VLM checkpoints",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-31",
+    "commit": "0b2c40a74465cf289028df315a004fce8f453e70",
+    "pr_number": 2282,
+    "author": "j-rausch",
+    "title": "Document the Qwen 3.5 VLM pruning smoke",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-08-28",
     "commit": "5500999d0b3f2e5e209ea4c67ffd5e5335128134",
     "pr_number": 2206,
