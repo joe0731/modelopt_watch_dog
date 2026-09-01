@@ -1,5 +1,38 @@
 [
   {
+    "date": "2026-09-01",
+    "commit": "09f10c23c099d5d9d3b66e35c521f3a2172194c2",
+    "pr_number": 2290,
+    "author": "j-rausch",
+    "title": "Add Qwen 3.5 0.8B VLM pruning campaign",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "commit": "c72c3f7482eb7eaa7e60468b406acff93c9fc144",
+    "pr_number": 2293,
+    "author": "j-rausch",
+    "title": "Improve Qwen 3.5 pruning campaign evaluation",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "commit": "2faa1e5faee8b6c59e7fb6b50bc3b92b51acc0b0",
+    "pr_number": 2294,
+    "author": "j-rausch",
+    "title": "Extend the Qwen 3.5 0.8B VLM campaign",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-08-31",
     "commit": "85b9066fe9e35fece6910791b76ed3d3f4047ea7",
     "pr_number": 2280,
@@ -18,6 +51,43 @@
     "title": "Document the Qwen 3.5 VLM pruning smoke",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-08-31",
+    "commit": "8ea7e175615d6b41a25649d27db254a15c150b2c",
+    "pr_number": 2286,
+    "author": "j-rausch",
+    "title": "Add Qwen 3.5 0.8B pruning campaign",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-31",
+    "commit": "ab0eba9ac182f998cd0ecf9c291c094eb7cdb6b6",
+    "pr_number": 2241,
+    "author": "jai17",
+    "title": "[ONNX][Autocast] Adds `nodes_to_exclude` regex support to the QDQ-aware `convert_to_f16()` API",
+    "tags": [
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-08-31",
+    "commit": "8810eb5e31ddacc438b08f17317db182e833ef66",
+    "pr_number": 2287,
+    "author": "kevalmorabia97",
+    "title": "Add ModelOpt recipe for DeepSeek-V4-Pro-0813 NVFP4 and --recipe to its PTQ script",
+    "tags": [
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
     ]
   },
   {

@@ -10,6 +10,9 @@
 |:-----:|------|--------|-------|--------|------|-------------|
 |  | 2026-08-31 | [85b9066f](https://github.com/NVIDIA/Model-Optimizer/commit/85b9066fe9e35fece6910791b76ed3d3f4047ea7) | [#2280](https://github.com/NVIDIA/Model-Optimizer/pull/2280) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Evaluate saved pruned text and VLM checkpoints |
 |  | 2026-08-31 | [0b2c40a7](https://github.com/NVIDIA/Model-Optimizer/commit/0b2c40a74465cf289028df315a004fce8f453e70) | [#2282](https://github.com/NVIDIA/Model-Optimizer/pull/2282) | [@j-rausch](https://github.com/j-rausch) | `infra` | Document the Qwen 3.5 VLM pruning smoke |
+|  | 2026-08-31 | [8ea7e175](https://github.com/NVIDIA/Model-Optimizer/commit/8ea7e175615d6b41a25649d27db254a15c150b2c) | [#2286](https://github.com/NVIDIA/Model-Optimizer/pull/2286) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 0.8B pruning campaign |
+| 🟠 | **2026-08-31** | **[ab0eba9a](https://github.com/NVIDIA/Model-Optimizer/commit/ab0eba9ac182f998cd0ecf9c291c094eb7cdb6b6)** | **[#2241](https://github.com/NVIDIA/Model-Optimizer/pull/2241)** | **[@jai17](https://github.com/jai17)** | `infra` `onnx` `tests` | **\[ONNX\]\[Autocast\] Adds \`nodes_to_exclude\` regex support to the QDQ-aware \`convert_to_f16()\` API** |
+|  | 2026-08-31 | [8810eb5e](https://github.com/NVIDIA/Model-Optimizer/commit/8810eb5e31ddacc438b08f17317db182e833ef66) | [#2287](https://github.com/NVIDIA/Model-Optimizer/pull/2287) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `quantization` `tests` `torch` | Add ModelOpt recipe for DeepSeek-V4-Pro-0813 NVFP4 and --recipe to its PTQ script |
 |  | 2026-08-28 | [5500999d](https://github.com/NVIDIA/Model-Optimizer/commit/5500999d0b3f2e5e209ea4c67ffd5e5335128134) | [#2206](https://github.com/NVIDIA/Model-Optimizer/pull/2206) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `export` `infra` `quantization` `tests` `torch` | Add Kimi-K3 NVFP4 experts and FP8-PB attention recipe |
 |  | 2026-08-28 | [af9c81f1](https://github.com/NVIDIA/Model-Optimizer/commit/af9c81f1b4001ba9f4a4b4ce45f0143895fa48ee) | [#2268](https://github.com/NVIDIA/Model-Optimizer/pull/2268) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 0.8B full lifecycle smoke |
 |  | 2026-08-28 | [323d5abb](https://github.com/NVIDIA/Model-Optimizer/commit/323d5abb912ba8fb578665a278431d9be7c76474) | [#2263](https://github.com/NVIDIA/Model-Optimizer/pull/2263) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 teacher-checkpoint VLM benchmark smoke evaluation |
@@ -120,4 +123,4 @@
 |  | 2026-08-01 | [9d360af3](https://github.com/NVIDIA/Model-Optimizer/commit/9d360af34f907c8d64544797a803132a9a5d502d) | [#2010](https://github.com/NVIDIA/Model-Optimizer/pull/2010) | [@mxinO](https://github.com/mxinO) | `core` `example` `infra` `tests` `torch` | Add ModelOpt QAD skill for Slurm workflows |
 
 ---
-**Total: 110 PRs** | **Highlighted: 13**
+**Total: 113 PRs** | **Highlighted: 14**

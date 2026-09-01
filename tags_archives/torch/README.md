@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-08-31 | [8810eb5e](https://github.com/NVIDIA/Model-Optimizer/commit/8810eb5e31ddacc438b08f17317db182e833ef66) | [#2287](https://github.com/NVIDIA/Model-Optimizer/pull/2287) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `quantization` `tests` `torch` | Add ModelOpt recipe for DeepSeek-V4-Pro-0813 NVFP4 and --recipe to its PTQ script |
 | 2026-08-28 | [5500999d](https://github.com/NVIDIA/Model-Optimizer/commit/5500999d0b3f2e5e209ea4c67ffd5e5335128134) | [#2206](https://github.com/NVIDIA/Model-Optimizer/pull/2206) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `export` `infra` `quantization` `tests` `torch` | Add Kimi-K3 NVFP4 experts and FP8-PB attention recipe |
 | 2026-08-28 | [5abeae63](https://github.com/NVIDIA/Model-Optimizer/commit/5abeae63bd55261ee44390587f1df44a7c0834f3) | [#2275](https://github.com/NVIDIA/Model-Optimizer/pull/2275) | [@j-rausch](https://github.com/j-rausch) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add teacher-checkpoint text evaluation routing |
 | 2026-08-28 | [6a2ae5a2](https://github.com/NVIDIA/Model-Optimizer/commit/6a2ae5a25bea8244cdfe1a316f12c500296161e4) | [#2270](https://github.com/NVIDIA/Model-Optimizer/pull/2270) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `tests` `torch` `windows` | Fix the llm_eval timeout: reachable MMLU mirror + no pipe deadlock |
@@ -458,4 +459,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 452 PRs**
+**Total: 453 PRs**

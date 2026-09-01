@@ -4,8 +4,14 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-01 | [09f10c23](https://github.com/NVIDIA/Model-Optimizer/commit/09f10c23c099d5d9d3b66e35c521f3a2172194c2) | [#2290](https://github.com/NVIDIA/Model-Optimizer/pull/2290) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 0.8B VLM pruning campaign |
+| 2026-09-01 | [c72c3f74](https://github.com/NVIDIA/Model-Optimizer/commit/c72c3f7482eb7eaa7e60468b406acff93c9fc144) | [#2293](https://github.com/NVIDIA/Model-Optimizer/pull/2293) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Improve Qwen 3.5 pruning campaign evaluation |
+| 2026-09-01 | [2faa1e5f](https://github.com/NVIDIA/Model-Optimizer/commit/2faa1e5faee8b6c59e7fb6b50bc3b92b51acc0b0) | [#2294](https://github.com/NVIDIA/Model-Optimizer/pull/2294) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Extend the Qwen 3.5 0.8B VLM campaign |
 | 2026-08-31 | [85b9066f](https://github.com/NVIDIA/Model-Optimizer/commit/85b9066fe9e35fece6910791b76ed3d3f4047ea7) | [#2280](https://github.com/NVIDIA/Model-Optimizer/pull/2280) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Evaluate saved pruned text and VLM checkpoints |
 | 2026-08-31 | [0b2c40a7](https://github.com/NVIDIA/Model-Optimizer/commit/0b2c40a74465cf289028df315a004fce8f453e70) | [#2282](https://github.com/NVIDIA/Model-Optimizer/pull/2282) | [@j-rausch](https://github.com/j-rausch) | `infra` | Document the Qwen 3.5 VLM pruning smoke |
+| 2026-08-31 | [8ea7e175](https://github.com/NVIDIA/Model-Optimizer/commit/8ea7e175615d6b41a25649d27db254a15c150b2c) | [#2286](https://github.com/NVIDIA/Model-Optimizer/pull/2286) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 0.8B pruning campaign |
+| 2026-08-31 | [ab0eba9a](https://github.com/NVIDIA/Model-Optimizer/commit/ab0eba9ac182f998cd0ecf9c291c094eb7cdb6b6) | [#2241](https://github.com/NVIDIA/Model-Optimizer/pull/2241) | [@jai17](https://github.com/jai17) | `infra` `onnx` `tests` | \[ONNX\]\[Autocast\] Adds \`nodes_to_exclude\` regex support to the QDQ-aware \`convert_to_f16()\` API |
+| 2026-08-31 | [8810eb5e](https://github.com/NVIDIA/Model-Optimizer/commit/8810eb5e31ddacc438b08f17317db182e833ef66) | [#2287](https://github.com/NVIDIA/Model-Optimizer/pull/2287) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `quantization` `tests` `torch` | Add ModelOpt recipe for DeepSeek-V4-Pro-0813 NVFP4 and --recipe to its PTQ script |
 | 2026-08-28 | [5500999d](https://github.com/NVIDIA/Model-Optimizer/commit/5500999d0b3f2e5e209ea4c67ffd5e5335128134) | [#2206](https://github.com/NVIDIA/Model-Optimizer/pull/2206) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `export` `infra` `quantization` `tests` `torch` | Add Kimi-K3 NVFP4 experts and FP8-PB attention recipe |
 | 2026-08-28 | [af9c81f1](https://github.com/NVIDIA/Model-Optimizer/commit/af9c81f1b4001ba9f4a4b4ce45f0143895fa48ee) | [#2268](https://github.com/NVIDIA/Model-Optimizer/pull/2268) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 0.8B full lifecycle smoke |
 | 2026-08-28 | [323d5abb](https://github.com/NVIDIA/Model-Optimizer/commit/323d5abb912ba8fb578665a278431d9be7c76474) | [#2263](https://github.com/NVIDIA/Model-Optimizer/pull/2263) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 teacher-checkpoint VLM benchmark smoke evaluation |
@@ -521,4 +527,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 515 PRs**
+**Total: 521 PRs**
