@@ -33,6 +33,54 @@
     ]
   },
   {
+    "date": "2026-09-01",
+    "commit": "de3eda8a11131122f4c352340311983dc2a6eef4",
+    "pr_number": 2219,
+    "author": "shengliangxu",
+    "title": "Restructure recipes: split per-model_type recipes from model-hub checkpoint recipes",
+    "tags": [
+      "docs",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "commit": "26efbf6ab30446e35e0a619a407b0b05e1b694ea",
+    "pr_number": 2291,
+    "author": "realAsma",
+    "title": "README: link Announcement Blogs and add AutoQuantize blog to Latest News",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "commit": "c01b4f16091949e1bdd7fe3819b728db102c29ef",
+    "pr_number": 2301,
+    "author": "realAsma",
+    "title": "README: trim AutoQuantize Latest News entry to title only",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-01",
+    "commit": "21b95adabba3ab4f497937980497dee6bb69b207",
+    "pr_number": 2083,
+    "author": "mpariente-nvda",
+    "title": "Add FP8 Vision Encoder quantization for Qwen3-VL and Qwen3.5",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-08-31",
     "commit": "85b9066fe9e35fece6910791b76ed3d3f4047ea7",
     "pr_number": 2280,

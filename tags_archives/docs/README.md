@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-01 | [de3eda8a](https://github.com/NVIDIA/Model-Optimizer/commit/de3eda8a11131122f4c352340311983dc2a6eef4) | [#2219](https://github.com/NVIDIA/Model-Optimizer/pull/2219) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `example` `infra` `quantization` `tests` `torch` | Restructure recipes: split per-model_type recipes from model-hub checkpoint recipes |
 | 2026-08-27 | [d7327880](https://github.com/NVIDIA/Model-Optimizer/commit/d73278808be3f3231df559c53328436a91270969) | [#2257](https://github.com/NVIDIA/Model-Optimizer/pull/2257) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `nas` `pruning` `quantization` `tests` `torch` | Bump nemo container requirement to 26.08 for MBridge examples |
 | 2026-08-26 | [8c04ce6e](https://github.com/NVIDIA/Model-Optimizer/commit/8c04ce6ee2ea0a22965d79d76e572711f3e3d96a) | [#1979](https://github.com/NVIDIA/Model-Optimizer/pull/1979) | [@realAsma](https://github.com/realAsma) | `docs` | docs: add AutoQuantize mixed-precision search blog |
 | 2026-08-26 | [a0513f18](https://github.com/NVIDIA/Model-Optimizer/commit/a0513f18bd1bfefaa0dcab2d95e24a99c746115f) | [#2242](https://github.com/NVIDIA/Model-Optimizer/pull/2242) | [@realAsma](https://github.com/realAsma) | `docs` `infra` | Update documentation theme to Shibuya |
@@ -51,4 +52,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 45 PRs**
+**Total: 46 PRs**
