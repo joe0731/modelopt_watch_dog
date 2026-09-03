@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-02 | [61757c97](https://github.com/NVIDIA/Model-Optimizer/commit/61757c9781099be43b3696410006e40fd0c6a0b6) | [#2276](https://github.com/NVIDIA/Model-Optimizer/pull/2276) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `tests` `torch` | Support quantized Qwen3-VL / Qwen3.5-VL (dense + MoE) export from Megatron-Bridge and verify exported checkpoints |
 | 2026-09-01 | [de3eda8a](https://github.com/NVIDIA/Model-Optimizer/commit/de3eda8a11131122f4c352340311983dc2a6eef4) | [#2219](https://github.com/NVIDIA/Model-Optimizer/pull/2219) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `example` `infra` `quantization` `tests` `torch` | Restructure recipes: split per-model_type recipes from model-hub checkpoint recipes |
 | 2026-08-31 | [8810eb5e](https://github.com/NVIDIA/Model-Optimizer/commit/8810eb5e31ddacc438b08f17317db182e833ef66) | [#2287](https://github.com/NVIDIA/Model-Optimizer/pull/2287) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `quantization` `tests` `torch` | Add ModelOpt recipe for DeepSeek-V4-Pro-0813 NVFP4 and --recipe to its PTQ script |
 | 2026-08-28 | [5500999d](https://github.com/NVIDIA/Model-Optimizer/commit/5500999d0b3f2e5e209ea4c67ffd5e5335128134) | [#2206](https://github.com/NVIDIA/Model-Optimizer/pull/2206) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `example` `export` `infra` `quantization` `tests` `torch` | Add Kimi-K3 NVFP4 experts and FP8-PB attention recipe |
@@ -287,4 +288,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 281 PRs**
+**Total: 282 PRs**

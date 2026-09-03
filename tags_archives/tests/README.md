@@ -4,6 +4,15 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-02 | [61757c97](https://github.com/NVIDIA/Model-Optimizer/commit/61757c9781099be43b3696410006e40fd0c6a0b6) | [#2276](https://github.com/NVIDIA/Model-Optimizer/pull/2276) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `tests` `torch` | Support quantized Qwen3-VL / Qwen3.5-VL (dense + MoE) export from Megatron-Bridge and verify exported checkpoints |
+| 2026-09-02 | [540dd2e5](https://github.com/NVIDIA/Model-Optimizer/commit/540dd2e50eaacdafb1936bc0b02f865c05426cc2) | [#2265](https://github.com/NVIDIA/Model-Optimizer/pull/2265) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add a Docker image for Puzzletron v2 workers |
+| 2026-09-02 | [c95da897](https://github.com/NVIDIA/Model-Optimizer/commit/c95da897aed42f27d7432903ddc5ad35d8cb070b) | [#2304](https://github.com/NVIDIA/Model-Optimizer/pull/2304) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 0.8B VLM Puzzletron campaign and results |
+| 2026-09-02 | [1d3068ff](https://github.com/NVIDIA/Model-Optimizer/commit/1d3068ff789297bcf22d72759946dd9fc4ea7ecb) | [#2298](https://github.com/NVIDIA/Model-Optimizer/pull/2298) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `tests` `torch` | Add Megatron KV cache scale export toggle \[OMNIML-5819\] |
+| 2026-09-02 | [411d072a](https://github.com/NVIDIA/Model-Optimizer/commit/411d072a2e7caad083ee858de8a20caf8b2043f0) | [#2296](https://github.com/NVIDIA/Model-Optimizer/pull/2296) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` `tests` | Speed up megatron_bridge example tests by ~6x on a single GPU |
+| 2026-09-02 | [bb3004de](https://github.com/NVIDIA/Model-Optimizer/commit/bb3004de09d2c8f85493afc058dfa422f96f1c8e) | [#2305](https://github.com/NVIDIA/Model-Optimizer/pull/2305) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add reproducible Qwen VLM serving measurements |
+| 2026-09-02 | [f8eb9adf](https://github.com/NVIDIA/Model-Optimizer/commit/f8eb9adf55f50a89111a9b2fda2afd8c6f18c061) | [#2310](https://github.com/NVIDIA/Model-Optimizer/pull/2310) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 4B VLM pruning example |
+| 2026-09-02 | [a0b15f5a](https://github.com/NVIDIA/Model-Optimizer/commit/a0b15f5a5903c2ad961c8bb79a9d6dceaacf5491) | [#2306](https://github.com/NVIDIA/Model-Optimizer/pull/2306) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add reproducible Qwen 3.5 VLM evaluation profiles |
+| 2026-09-02 | [4f84d57f](https://github.com/NVIDIA/Model-Optimizer/commit/4f84d57fbc221e9c432c1d10fb800eb7e716dc17) | [#2307](https://github.com/NVIDIA/Model-Optimizer/pull/2307) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add native lmms-eval support to the Puzzletron image |
 | 2026-09-01 | [09f10c23](https://github.com/NVIDIA/Model-Optimizer/commit/09f10c23c099d5d9d3b66e35c521f3a2172194c2) | [#2290](https://github.com/NVIDIA/Model-Optimizer/pull/2290) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 0.8B VLM pruning campaign |
 | 2026-09-01 | [c72c3f74](https://github.com/NVIDIA/Model-Optimizer/commit/c72c3f7482eb7eaa7e60468b406acff93c9fc144) | [#2293](https://github.com/NVIDIA/Model-Optimizer/pull/2293) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Improve Qwen 3.5 pruning campaign evaluation |
 | 2026-09-01 | [2faa1e5f](https://github.com/NVIDIA/Model-Optimizer/commit/2faa1e5faee8b6c59e7fb6b50bc3b92b51acc0b0) | [#2294](https://github.com/NVIDIA/Model-Optimizer/pull/2294) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Extend the Qwen 3.5 0.8B VLM campaign |
@@ -393,4 +402,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 387 PRs**
+**Total: 396 PRs**

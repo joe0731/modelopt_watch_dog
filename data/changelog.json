@@ -1,5 +1,131 @@
 [
   {
+    "date": "2026-09-02",
+    "commit": "61757c9781099be43b3696410006e40fd0c6a0b6",
+    "pr_number": 2276,
+    "author": "kevalmorabia97",
+    "title": "Support quantized Qwen3-VL / Qwen3.5-VL (dense + MoE) export from Megatron-Bridge and verify exported checkpoints",
+    "tags": [
+      "core",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "commit": "540dd2e50eaacdafb1936bc0b02f865c05426cc2",
+    "pr_number": 2265,
+    "author": "j-rausch",
+    "title": "Add a Docker image for Puzzletron v2 workers",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "commit": "e803b38662d47a400bf8c842a70a61d8f3e39fbe",
+    "pr_number": 2308,
+    "author": "j-rausch",
+    "title": "Gate CodeRabbit reviews by Puzzletron label",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "commit": "c95da897aed42f27d7432903ddc5ad35d8cb070b",
+    "pr_number": 2304,
+    "author": "j-rausch",
+    "title": "Add Qwen 3.5 0.8B VLM Puzzletron campaign and results",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "commit": "1d3068ff789297bcf22d72759946dd9fc4ea7ecb",
+    "pr_number": 2298,
+    "author": "jenchen13",
+    "title": "Add Megatron KV cache scale export toggle [OMNIML-5819]",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "commit": "411d072a2e7caad083ee858de8a20caf8b2043f0",
+    "pr_number": 2296,
+    "author": "kevalmorabia97",
+    "title": "Speed up megatron_bridge example tests by ~6x on a single GPU",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "commit": "bb3004de09d2c8f85493afc058dfa422f96f1c8e",
+    "pr_number": 2305,
+    "author": "j-rausch",
+    "title": "Add reproducible Qwen VLM serving measurements",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "commit": "51cc5dbadeedd93cba5cc37eec637f26efd3f8ab",
+    "pr_number": 2309,
+    "author": "kevalmorabia97",
+    "title": "Make torch 2.14 the unit-test default and constrain it for the tensorrt example images",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "commit": "f8eb9adf55f50a89111a9b2fda2afd8c6f18c061",
+    "pr_number": 2310,
+    "author": "j-rausch",
+    "title": "Add Qwen 3.5 4B VLM pruning example",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "commit": "a0b15f5a5903c2ad961c8bb79a9d6dceaacf5491",
+    "pr_number": 2306,
+    "author": "j-rausch",
+    "title": "Add reproducible Qwen 3.5 VLM evaluation profiles",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-02",
+    "commit": "4f84d57fbc221e9c432c1d10fb800eb7e716dc17",
+    "pr_number": 2307,
+    "author": "j-rausch",
+    "title": "Add native lmms-eval support to the Puzzletron image",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-09-01",
     "commit": "09f10c23c099d5d9d3b66e35c521f3a2172194c2",
     "pr_number": 2290,
