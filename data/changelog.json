@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-09-04",
+    "commit": "f13a7962aa4a7c35b9648e0d2ddf9ff2a8ada41e",
+    "pr_number": 2332,
+    "author": "kevalmorabia97",
+    "title": "Fix KV-cache scales dropped on Qwen Megatron-Core HF export",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-03",
+    "commit": "c49ce57d75bc4109ba93a5ab171ec920de70c62c",
+    "pr_number": 2318,
+    "author": "ajrasane",
+    "title": "[5591371] Add performance guard for ONNX Autotune",
+    "tags": [
+      "docs",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-03",
+    "commit": "bfd52b3aa9fbe08d7304db0192ad591dedd9124e",
+    "pr_number": 2324,
+    "author": "kevalmorabia97",
+    "title": "Replay VLM vision inputs in megatron_generate without KV cache",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-03",
+    "commit": "c56959cc314d6a5f4e4e8f3ea7bb6565ca26341e",
+    "pr_number": 2325,
+    "author": "kevalmorabia97",
+    "title": "Align changelog versions and dates with GitHub releases",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-09-02",
     "commit": "61757c9781099be43b3696410006e40fd0c6a0b6",
     "pr_number": 2276,

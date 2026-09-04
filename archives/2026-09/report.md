@@ -8,6 +8,10 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-09-04 | [f13a7962](https://github.com/NVIDIA/Model-Optimizer/commit/f13a7962aa4a7c35b9648e0d2ddf9ff2a8ada41e) | [#2332](https://github.com/NVIDIA/Model-Optimizer/pull/2332) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `tests` `torch` | Fix KV-cache scales dropped on Qwen Megatron-Core HF export |
+| 🟠 | **2026-09-03** | **[c49ce57d](https://github.com/NVIDIA/Model-Optimizer/commit/c49ce57d75bc4109ba93a5ab171ec920de70c62c)** | **[#2318](https://github.com/NVIDIA/Model-Optimizer/pull/2318)** | **[@ajrasane](https://github.com/ajrasane)** | `docs` `infra` `onnx` `quantization` `tests` | **\[5591371\] Add performance guard for ONNX Autotune** |
+|  | 2026-09-03 | [bfd52b3a](https://github.com/NVIDIA/Model-Optimizer/commit/bfd52b3aa9fbe08d7304db0192ad591dedd9124e) | [#2324](https://github.com/NVIDIA/Model-Optimizer/pull/2324) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `tests` `torch` | Replay VLM vision inputs in megatron_generate without KV cache |
+|  | 2026-09-03 | [c56959cc](https://github.com/NVIDIA/Model-Optimizer/commit/c56959cc314d6a5f4e4e8f3ea7bb6565ca26341e) | [#2325](https://github.com/NVIDIA/Model-Optimizer/pull/2325) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Align changelog versions and dates with GitHub releases |
 |  | 2026-09-02 | [61757c97](https://github.com/NVIDIA/Model-Optimizer/commit/61757c9781099be43b3696410006e40fd0c6a0b6) | [#2276](https://github.com/NVIDIA/Model-Optimizer/pull/2276) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `tests` `torch` | Support quantized Qwen3-VL / Qwen3.5-VL (dense + MoE) export from Megatron-Bridge and verify exported checkpoints |
 |  | 2026-09-02 | [540dd2e5](https://github.com/NVIDIA/Model-Optimizer/commit/540dd2e50eaacdafb1936bc0b02f865c05426cc2) | [#2265](https://github.com/NVIDIA/Model-Optimizer/pull/2265) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add a Docker image for Puzzletron v2 workers |
 |  | 2026-09-02 | [e803b386](https://github.com/NVIDIA/Model-Optimizer/commit/e803b38662d47a400bf8c842a70a61d8f3e39fbe) | [#2308](https://github.com/NVIDIA/Model-Optimizer/pull/2308) | [@j-rausch](https://github.com/j-rausch) | `infra` | Gate CodeRabbit reviews by Puzzletron label |
@@ -28,4 +32,4 @@
 |  | 2026-09-01 | [21b95ada](https://github.com/NVIDIA/Model-Optimizer/commit/21b95adabba3ab4f497937980497dee6bb69b207) | [#2083](https://github.com/NVIDIA/Model-Optimizer/pull/2083) | [@mpariente-nvda](https://github.com/mpariente-nvda) | `export` `infra` `tests` `torch` | Add FP8 Vision Encoder quantization for Qwen3-VL and Qwen3.5 |
 
 ---
-**Total: 18 PRs** | **Highlighted: 0**
+**Total: 22 PRs** | **Highlighted: 1**

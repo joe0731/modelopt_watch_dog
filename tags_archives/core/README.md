@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-04 | [f13a7962](https://github.com/NVIDIA/Model-Optimizer/commit/f13a7962aa4a7c35b9648e0d2ddf9ff2a8ada41e) | [#2332](https://github.com/NVIDIA/Model-Optimizer/pull/2332) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `tests` `torch` | Fix KV-cache scales dropped on Qwen Megatron-Core HF export |
+| 2026-09-03 | [bfd52b3a](https://github.com/NVIDIA/Model-Optimizer/commit/bfd52b3aa9fbe08d7304db0192ad591dedd9124e) | [#2324](https://github.com/NVIDIA/Model-Optimizer/pull/2324) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `tests` `torch` | Replay VLM vision inputs in megatron_generate without KV cache |
 | 2026-09-02 | [61757c97](https://github.com/NVIDIA/Model-Optimizer/commit/61757c9781099be43b3696410006e40fd0c6a0b6) | [#2276](https://github.com/NVIDIA/Model-Optimizer/pull/2276) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `tests` `torch` | Support quantized Qwen3-VL / Qwen3.5-VL (dense + MoE) export from Megatron-Bridge and verify exported checkpoints |
 | 2026-08-28 | [5abeae63](https://github.com/NVIDIA/Model-Optimizer/commit/5abeae63bd55261ee44390587f1df44a7c0834f3) | [#2275](https://github.com/NVIDIA/Model-Optimizer/pull/2275) | [@j-rausch](https://github.com/j-rausch) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add teacher-checkpoint text evaluation routing |
 | 2026-08-27 | [d7327880](https://github.com/NVIDIA/Model-Optimizer/commit/d73278808be3f3231df559c53328436a91270969) | [#2257](https://github.com/NVIDIA/Model-Optimizer/pull/2257) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `nas` `pruning` `quantization` `tests` `torch` | Bump nemo container requirement to 26.08 for MBridge examples |
@@ -156,4 +158,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 150 PRs**
+**Total: 152 PRs**

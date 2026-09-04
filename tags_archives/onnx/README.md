@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-03 | [c49ce57d](https://github.com/NVIDIA/Model-Optimizer/commit/c49ce57d75bc4109ba93a5ab171ec920de70c62c) | [#2318](https://github.com/NVIDIA/Model-Optimizer/pull/2318) | [@ajrasane](https://github.com/ajrasane) | `docs` `infra` `onnx` `quantization` `tests` | \[5591371\] Add performance guard for ONNX Autotune |
 | 2026-08-31 | [ab0eba9a](https://github.com/NVIDIA/Model-Optimizer/commit/ab0eba9ac182f998cd0ecf9c291c094eb7cdb6b6) | [#2241](https://github.com/NVIDIA/Model-Optimizer/pull/2241) | [@jai17](https://github.com/jai17) | `infra` `onnx` `tests` | \[ONNX\]\[Autocast\] Adds \`nodes_to_exclude\` regex support to the QDQ-aware \`convert_to_f16()\` API |
 | 2026-08-28 | [72e48d51](https://github.com/NVIDIA/Model-Optimizer/commit/72e48d515a12d79784b37ca1ac8c92cc34e85d67) | [#2243](https://github.com/NVIDIA/Model-Optimizer/pull/2243) | [@ajrasane](https://github.com/ajrasane) | `export` `infra` `onnx` `quantization` `tests` `torch` | \[6648996\] Fix NVFP4 ONNX packed-weight scale rounding |
 | 2026-08-21 | [66aca27d](https://github.com/NVIDIA/Model-Optimizer/commit/66aca27d3d823479df396b16ac9084507c292467) | [#2227](https://github.com/NVIDIA/Model-Optimizer/pull/2227) | [@j-rausch](https://github.com/j-rausch) | `export` `onnx` `quantization` `tests` `torch` | Fix minimum-dependency and cross-platform unit failures |
@@ -105,4 +106,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 99 PRs**
+**Total: 100 PRs**
