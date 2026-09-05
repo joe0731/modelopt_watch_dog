@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-09-04 | [f13a7962](https://github.com/NVIDIA/Model-Optimizer/commit/f13a7962aa4a7c35b9648e0d2ddf9ff2a8ada41e) | [#2332](https://github.com/NVIDIA/Model-Optimizer/pull/2332) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `tests` `torch` | Fix KV-cache scales dropped on Qwen Megatron-Core HF export |
+| 2026-09-04 | [a7f339ed](https://github.com/NVIDIA/Model-Optimizer/commit/a7f339ed08fe663ed5cf78d5fedf9ceaeb7c7c8b) | [#2320](https://github.com/NVIDIA/Model-Optimizer/pull/2320) | [@realAsma](https://github.com/realAsma) | `export` `infra` `tests` `torch` | Reject unsupported partial-block INT4/W4A8 AWQ export |
 | 2026-09-02 | [61757c97](https://github.com/NVIDIA/Model-Optimizer/commit/61757c9781099be43b3696410006e40fd0c6a0b6) | [#2276](https://github.com/NVIDIA/Model-Optimizer/pull/2276) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `tests` `torch` | Support quantized Qwen3-VL / Qwen3.5-VL (dense + MoE) export from Megatron-Bridge and verify exported checkpoints |
 | 2026-09-02 | [1d3068ff](https://github.com/NVIDIA/Model-Optimizer/commit/1d3068ff789297bcf22d72759946dd9fc4ea7ecb) | [#2298](https://github.com/NVIDIA/Model-Optimizer/pull/2298) | [@jenchen13](https://github.com/jenchen13) | `export` `infra` `tests` `torch` | Add Megatron KV cache scale export toggle \[OMNIML-5819\] |
 | 2026-09-01 | [21b95ada](https://github.com/NVIDIA/Model-Optimizer/commit/21b95adabba3ab4f497937980497dee6bb69b207) | [#2083](https://github.com/NVIDIA/Model-Optimizer/pull/2083) | [@mpariente-nvda](https://github.com/mpariente-nvda) | `export` `infra` `tests` `torch` | Add FP8 Vision Encoder quantization for Qwen3-VL and Qwen3.5 |
@@ -159,4 +160,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 153 PRs**
+**Total: 154 PRs**

@@ -14,6 +14,49 @@
     ]
   },
   {
+    "date": "2026-09-04",
+    "commit": "a59b07004b250a97331574ad2b6119c28f614aad",
+    "pr_number": 2285,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-08-31)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-04",
+    "commit": "40bed19b2dcfe0990d4d67d9ec369093b86e2224",
+    "pr_number": 2335,
+    "author": "kevalmorabia97",
+    "title": "[chore]: release-branch housekeeping — auto-close stale uv.lock bump PRs, document cherry-pick labels",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-04",
+    "commit": "19ce447d62dc59ce8829832cfbb2cc826696eb5a",
+    "pr_number": 2327,
+    "author": "cjluo-nv",
+    "title": "[skill] evaluation: mandate 8 SciCode runs and report the mean",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-04",
+    "commit": "a7f339ed08fe663ed5cf78d5fedf9ceaeb7c7c8b",
+    "pr_number": 2320,
+    "author": "realAsma",
+    "title": "Reject unsupported partial-block INT4/W4A8 AWQ export",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-09-03",
     "commit": "c49ce57d75bc4109ba93a5ab171ec920de70c62c",
     "pr_number": 2318,
