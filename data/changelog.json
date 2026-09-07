@@ -1,5 +1,45 @@
 [
   {
+    "date": "2026-09-07",
+    "commit": "6e4789fa43726f800b6d6f63d6611b6472b00ba0",
+    "pr_number": 2351,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-09-07)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-07",
+    "commit": "248c3247fc48e5f9bc049d5e6d6a676d520f3ba3",
+    "pr_number": 2352,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on release/0.47.0 (2026-09-07)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "commit": "b165f1afec479751d574cef98463776a9f1902a9",
+    "pr_number": 2346,
+    "author": "j-rausch",
+    "title": "Remove unused PuzzleTron planning documents",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "date": "2026-09-06",
+    "commit": "30d75bb3a3040b532a50e48d488c889fdea017fc",
+    "pr_number": 2349,
+    "author": "j-rausch",
+    "title": "Review PRs on stacked branches",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-09-04",
     "commit": "f13a7962aa4a7c35b9648e0d2ddf9ff2a8ada41e",
     "pr_number": 2332,

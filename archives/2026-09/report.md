@@ -8,6 +8,10 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-09-07 | [6e4789fa](https://github.com/NVIDIA/Model-Optimizer/commit/6e4789fa43726f800b6d6f63d6611b6472b00ba0) | [#2351](https://github.com/NVIDIA/Model-Optimizer/pull/2351) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-09-07) |
+|  | 2026-09-07 | [248c3247](https://github.com/NVIDIA/Model-Optimizer/commit/248c3247fc48e5f9bc049d5e6d6a676d520f3ba3) | [#2352](https://github.com/NVIDIA/Model-Optimizer/pull/2352) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on release/0.47.0 (2026-09-07) |
+|  | 2026-09-06 | [b165f1af](https://github.com/NVIDIA/Model-Optimizer/commit/b165f1afec479751d574cef98463776a9f1902a9) | [#2346](https://github.com/NVIDIA/Model-Optimizer/pull/2346) | [@j-rausch](https://github.com/j-rausch) | `docs` | Remove unused PuzzleTron planning documents |
+|  | 2026-09-06 | [30d75bb3](https://github.com/NVIDIA/Model-Optimizer/commit/30d75bb3a3040b532a50e48d488c889fdea017fc) | [#2349](https://github.com/NVIDIA/Model-Optimizer/pull/2349) | [@j-rausch](https://github.com/j-rausch) | `infra` | Review PRs on stacked branches |
 |  | 2026-09-04 | [f13a7962](https://github.com/NVIDIA/Model-Optimizer/commit/f13a7962aa4a7c35b9648e0d2ddf9ff2a8ada41e) | [#2332](https://github.com/NVIDIA/Model-Optimizer/pull/2332) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `tests` `torch` | Fix KV-cache scales dropped on Qwen Megatron-Core HF export |
 |  | 2026-09-04 | [a59b0700](https://github.com/NVIDIA/Model-Optimizer/commit/a59b07004b250a97331574ad2b6119c28f614aad) | [#2285](https://github.com/NVIDIA/Model-Optimizer/pull/2285) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-08-31) |
 |  | 2026-09-04 | [40bed19b](https://github.com/NVIDIA/Model-Optimizer/commit/40bed19b2dcfe0990d4d67d9ec369093b86e2224) | [#2335](https://github.com/NVIDIA/Model-Optimizer/pull/2335) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | \[chore\]: release-branch housekeeping — auto-close stale uv.lock bump PRs, document cherry-pick labels |
@@ -36,4 +40,4 @@
 |  | 2026-09-01 | [21b95ada](https://github.com/NVIDIA/Model-Optimizer/commit/21b95adabba3ab4f497937980497dee6bb69b207) | [#2083](https://github.com/NVIDIA/Model-Optimizer/pull/2083) | [@mpariente-nvda](https://github.com/mpariente-nvda) | `export` `infra` `tests` `torch` | Add FP8 Vision Encoder quantization for Qwen3-VL and Qwen3.5 |
 
 ---
-**Total: 26 PRs** | **Highlighted: 1**
+**Total: 30 PRs** | **Highlighted: 1**

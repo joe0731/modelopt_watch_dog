@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-06 | [b165f1af](https://github.com/NVIDIA/Model-Optimizer/commit/b165f1afec479751d574cef98463776a9f1902a9) | [#2346](https://github.com/NVIDIA/Model-Optimizer/pull/2346) | [@j-rausch](https://github.com/j-rausch) | `docs` | Remove unused PuzzleTron planning documents |
 | 2026-09-03 | [c49ce57d](https://github.com/NVIDIA/Model-Optimizer/commit/c49ce57d75bc4109ba93a5ab171ec920de70c62c) | [#2318](https://github.com/NVIDIA/Model-Optimizer/pull/2318) | [@ajrasane](https://github.com/ajrasane) | `docs` `infra` `onnx` `quantization` `tests` | \[5591371\] Add performance guard for ONNX Autotune |
 | 2026-09-01 | [de3eda8a](https://github.com/NVIDIA/Model-Optimizer/commit/de3eda8a11131122f4c352340311983dc2a6eef4) | [#2219](https://github.com/NVIDIA/Model-Optimizer/pull/2219) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `example` `infra` `quantization` `tests` `torch` | Restructure recipes: split per-model_type recipes from model-hub checkpoint recipes |
 | 2026-08-27 | [d7327880](https://github.com/NVIDIA/Model-Optimizer/commit/d73278808be3f3231df559c53328436a91270969) | [#2257](https://github.com/NVIDIA/Model-Optimizer/pull/2257) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `nas` `pruning` `quantization` `tests` `torch` | Bump nemo container requirement to 26.08 for MBridge examples |
@@ -53,4 +54,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 47 PRs**
+**Total: 48 PRs**
