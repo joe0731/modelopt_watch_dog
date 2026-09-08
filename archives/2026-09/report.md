@@ -8,6 +8,9 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-09-08 | [4773f72f](https://github.com/NVIDIA/Model-Optimizer/commit/4773f72f8a33cae681459c310afe534e00682bf3) | [#2264](https://github.com/NVIDIA/Model-Optimizer/pull/2264) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `windows` | Docs: Add WOA documentation |
+|  | 2026-09-08 | [5cae3940](https://github.com/NVIDIA/Model-Optimizer/commit/5cae3940402f1ced98069a666b0bec72ec8b33b5) | [#2341](https://github.com/NVIDIA/Model-Optimizer/pull/2341) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Raise puzzletron Hydra minimum to hydra-core~=1.3.4 (CVE-2026-68508) |
+|  | 2026-09-08 | [4f48f344](https://github.com/NVIDIA/Model-Optimizer/commit/4f48f344d0dfe9884d7be709f29951190863965b) | [#2355](https://github.com/NVIDIA/Model-Optimizer/pull/2355) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on release/0.47.0 (2026-09-08) |
 |  | 2026-09-07 | [6e4789fa](https://github.com/NVIDIA/Model-Optimizer/commit/6e4789fa43726f800b6d6f63d6611b6472b00ba0) | [#2351](https://github.com/NVIDIA/Model-Optimizer/pull/2351) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-09-07) |
 |  | 2026-09-07 | [248c3247](https://github.com/NVIDIA/Model-Optimizer/commit/248c3247fc48e5f9bc049d5e6d6a676d520f3ba3) | [#2352](https://github.com/NVIDIA/Model-Optimizer/pull/2352) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on release/0.47.0 (2026-09-07) |
 |  | 2026-09-06 | [b165f1af](https://github.com/NVIDIA/Model-Optimizer/commit/b165f1afec479751d574cef98463776a9f1902a9) | [#2346](https://github.com/NVIDIA/Model-Optimizer/pull/2346) | [@j-rausch](https://github.com/j-rausch) | `docs` | Remove unused PuzzleTron planning documents |
@@ -40,4 +43,4 @@
 |  | 2026-09-01 | [21b95ada](https://github.com/NVIDIA/Model-Optimizer/commit/21b95adabba3ab4f497937980497dee6bb69b207) | [#2083](https://github.com/NVIDIA/Model-Optimizer/pull/2083) | [@mpariente-nvda](https://github.com/mpariente-nvda) | `export` `infra` `tests` `torch` | Add FP8 Vision Encoder quantization for Qwen3-VL and Qwen3.5 |
 
 ---
-**Total: 30 PRs** | **Highlighted: 1**
+**Total: 33 PRs** | **Highlighted: 1**

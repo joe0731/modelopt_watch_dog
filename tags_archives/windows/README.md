@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-08 | [4773f72f](https://github.com/NVIDIA/Model-Optimizer/commit/4773f72f8a33cae681459c310afe534e00682bf3) | [#2264](https://github.com/NVIDIA/Model-Optimizer/pull/2264) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `windows` | Docs: Add WOA documentation |
 | 2026-08-28 | [6a2ae5a2](https://github.com/NVIDIA/Model-Optimizer/commit/6a2ae5a25bea8244cdfe1a316f12c500296161e4) | [#2270](https://github.com/NVIDIA/Model-Optimizer/pull/2270) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `tests` `torch` `windows` | Fix the llm_eval timeout: reachable MMLU mirror + no pipe deadlock |
 | 2026-07-28 | [87c9f8cf](https://github.com/NVIDIA/Model-Optimizer/commit/87c9f8cf83021957d1a1a575c90c9a4eaaf7ef0c) | [#2022](https://github.com/NVIDIA/Model-Optimizer/pull/2022) | [@vishalpandya1990](https://github.com/vishalpandya1990) | `docs` `example` `onnx` `quantization` `windows` | Update documentation guide for ONNX INT4 PTQ on Windows cuda13 host |
 | 2026-07-16 | [cba8a5c6](https://github.com/NVIDIA/Model-Optimizer/commit/cba8a5c62a1a54fe89fb69bfd484ea0a653c633a) | [#1782](https://github.com/NVIDIA/Model-Optimizer/pull/1782) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `example` `onnx` `quantization` `tests` `windows` | Add: support input_shape_profile for trt-rtx ep |
@@ -25,4 +26,4 @@
 | 2026-01-25 | [5cc2a545](https://github.com/NVIDIA/Model-Optimizer/commit/5cc2a5451984ba0f1225153c7df68746313118f5) | [#762](https://github.com/NVIDIA/Model-Optimizer/pull/762) | [@ynankani](https://github.com/ynankani) | `example` `onnx` `quantization` `windows` | Ynankani/update windows benchmark md |
 
 ---
-**Total: 19 PRs**
+**Total: 20 PRs**
