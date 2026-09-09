@@ -4,7 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-09 | [acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80) | [#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | Add TensorRT-RTX ABI EP support for ONNX quantization |
 | 2026-09-08 | [4773f72f](https://github.com/NVIDIA/Model-Optimizer/commit/4773f72f8a33cae681459c310afe534e00682bf3) | [#2264](https://github.com/NVIDIA/Model-Optimizer/pull/2264) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `windows` | Docs: Add WOA documentation |
+| 2026-09-08 | [5c123ce1](https://github.com/NVIDIA/Model-Optimizer/commit/5c123ce1838d64724308ac1378b04a331ae9aa66) | [#2180](https://github.com/NVIDIA/Model-Optimizer/pull/2180) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` | \[OMNIML-5563\] Add PETR ONNX PTQ and accuracy evaluation example |
+| 2026-09-08 | [58eafdf1](https://github.com/NVIDIA/Model-Optimizer/commit/58eafdf172a6cbda4853947763cd36e54f80bd50) | [#2358](https://github.com/NVIDIA/Model-Optimizer/pull/2358) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `torch` | Fix the llm_eval README commands that no longer run as written |
+| 2026-09-08 | [2aefe08f](https://github.com/NVIDIA/Model-Optimizer/commit/2aefe08f20eb989bda5d4f5b0979aba6372bee14) | [#2024](https://github.com/NVIDIA/Model-Optimizer/pull/2024) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `infra` `onnx` `tests` `torch` | \[OMNIML-5613\] Quantize ResNet residual adds in torch ONNX example |
+| 2026-09-08 | [19de0075](https://github.com/NVIDIA/Model-Optimizer/commit/19de0075cb5897f37b69d46947be40cf66fe1075) | [#2300](https://github.com/NVIDIA/Model-Optimizer/pull/2300) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `tests` `torch` | Forward kv_cache_free_gpu_memory_fraction to the lm_eval TensorRT-LLM engine (NVBug 6701763) |
 | 2026-09-02 | [61757c97](https://github.com/NVIDIA/Model-Optimizer/commit/61757c9781099be43b3696410006e40fd0c6a0b6) | [#2276](https://github.com/NVIDIA/Model-Optimizer/pull/2276) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `tests` `torch` | Support quantized Qwen3-VL / Qwen3.5-VL (dense + MoE) export from Megatron-Bridge and verify exported checkpoints |
 | 2026-09-01 | [de3eda8a](https://github.com/NVIDIA/Model-Optimizer/commit/de3eda8a11131122f4c352340311983dc2a6eef4) | [#2219](https://github.com/NVIDIA/Model-Optimizer/pull/2219) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `example` `infra` `quantization` `tests` `torch` | Restructure recipes: split per-model_type recipes from model-hub checkpoint recipes |
 | 2026-08-31 | [8810eb5e](https://github.com/NVIDIA/Model-Optimizer/commit/8810eb5e31ddacc438b08f17317db182e833ef66) | [#2287](https://github.com/NVIDIA/Model-Optimizer/pull/2287) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `quantization` `tests` `torch` | Add ModelOpt recipe for DeepSeek-V4-Pro-0813 NVFP4 and --recipe to its PTQ script |
@@ -296,4 +301,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 290 PRs**
+**Total: 295 PRs**

@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-09 | [acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80) | [#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | Add TensorRT-RTX ABI EP support for ONNX quantization |
+| 2026-09-08 | [5c123ce1](https://github.com/NVIDIA/Model-Optimizer/commit/5c123ce1838d64724308ac1378b04a331ae9aa66) | [#2180](https://github.com/NVIDIA/Model-Optimizer/pull/2180) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` | \[OMNIML-5563\] Add PETR ONNX PTQ and accuracy evaluation example |
+| 2026-09-08 | [2aefe08f](https://github.com/NVIDIA/Model-Optimizer/commit/2aefe08f20eb989bda5d4f5b0979aba6372bee14) | [#2024](https://github.com/NVIDIA/Model-Optimizer/pull/2024) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `infra` `onnx` `tests` `torch` | \[OMNIML-5613\] Quantize ResNet residual adds in torch ONNX example |
 | 2026-09-03 | [c49ce57d](https://github.com/NVIDIA/Model-Optimizer/commit/c49ce57d75bc4109ba93a5ab171ec920de70c62c) | [#2318](https://github.com/NVIDIA/Model-Optimizer/pull/2318) | [@ajrasane](https://github.com/ajrasane) | `docs` `infra` `onnx` `quantization` `tests` | \[5591371\] Add performance guard for ONNX Autotune |
 | 2026-08-31 | [ab0eba9a](https://github.com/NVIDIA/Model-Optimizer/commit/ab0eba9ac182f998cd0ecf9c291c094eb7cdb6b6) | [#2241](https://github.com/NVIDIA/Model-Optimizer/pull/2241) | [@jai17](https://github.com/jai17) | `infra` `onnx` `tests` | \[ONNX\]\[Autocast\] Adds \`nodes_to_exclude\` regex support to the QDQ-aware \`convert_to_f16()\` API |
 | 2026-08-28 | [72e48d51](https://github.com/NVIDIA/Model-Optimizer/commit/72e48d515a12d79784b37ca1ac8c92cc34e85d67) | [#2243](https://github.com/NVIDIA/Model-Optimizer/pull/2243) | [@ajrasane](https://github.com/ajrasane) | `export` `infra` `onnx` `quantization` `tests` `torch` | \[6648996\] Fix NVFP4 ONNX packed-weight scale rounding |
@@ -106,4 +109,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 100 PRs**
+**Total: 103 PRs**

@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-08 | [58eafdf1](https://github.com/NVIDIA/Model-Optimizer/commit/58eafdf172a6cbda4853947763cd36e54f80bd50) | [#2358](https://github.com/NVIDIA/Model-Optimizer/pull/2358) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `torch` | Fix the llm_eval README commands that no longer run as written |
+| 2026-09-08 | [19de0075](https://github.com/NVIDIA/Model-Optimizer/commit/19de0075cb5897f37b69d46947be40cf66fe1075) | [#2300](https://github.com/NVIDIA/Model-Optimizer/pull/2300) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `tests` `torch` | Forward kv_cache_free_gpu_memory_fraction to the lm_eval TensorRT-LLM engine (NVBug 6701763) |
 | 2026-08-28 | [5abeae63](https://github.com/NVIDIA/Model-Optimizer/commit/5abeae63bd55261ee44390587f1df44a7c0834f3) | [#2275](https://github.com/NVIDIA/Model-Optimizer/pull/2275) | [@j-rausch](https://github.com/j-rausch) | `core` `eval` `example` `infra` `pruning` `tests` `torch` | Add teacher-checkpoint text evaluation routing |
 | 2026-08-28 | [6a2ae5a2](https://github.com/NVIDIA/Model-Optimizer/commit/6a2ae5a25bea8244cdfe1a316f12c500296161e4) | [#2270](https://github.com/NVIDIA/Model-Optimizer/pull/2270) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `infra` `tests` `torch` `windows` | Fix the llm_eval timeout: reachable MMLU mirror + no pipe deadlock |
 | 2026-08-18 | [fbcdc16c](https://github.com/NVIDIA/Model-Optimizer/commit/fbcdc16c2d67ca6db3f33b2848e923600f7012c7) | [#2182](https://github.com/NVIDIA/Model-Optimizer/pull/2182) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `eval` `example` `export` `infra` `quantization` `tests` `torch` `vlm` | Remove deprecations marked in 0.45 and 0.46 |
@@ -102,4 +104,4 @@
 | 2026-01-14 | [60384517](https://github.com/NVIDIA/Model-Optimizer/commit/60384517799771989f29b910701c22c357f1876a) | [#749](https://github.com/NVIDIA/Model-Optimizer/pull/749) | [@meenchen](https://github.com/meenchen) | `eval` `example` `quantization` `torch` | Fix Qwen3 recipe and update autoquant example cmd |
 
 ---
-**Total: 96 PRs**
+**Total: 98 PRs**

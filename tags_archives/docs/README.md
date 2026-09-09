@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-09 | [acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80) | [#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | Add TensorRT-RTX ABI EP support for ONNX quantization |
 | 2026-09-08 | [4773f72f](https://github.com/NVIDIA/Model-Optimizer/commit/4773f72f8a33cae681459c310afe534e00682bf3) | [#2264](https://github.com/NVIDIA/Model-Optimizer/pull/2264) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `windows` | Docs: Add WOA documentation |
 | 2026-09-06 | [b165f1af](https://github.com/NVIDIA/Model-Optimizer/commit/b165f1afec479751d574cef98463776a9f1902a9) | [#2346](https://github.com/NVIDIA/Model-Optimizer/pull/2346) | [@j-rausch](https://github.com/j-rausch) | `docs` | Remove unused PuzzleTron planning documents |
 | 2026-09-03 | [c49ce57d](https://github.com/NVIDIA/Model-Optimizer/commit/c49ce57d75bc4109ba93a5ab171ec920de70c62c) | [#2318](https://github.com/NVIDIA/Model-Optimizer/pull/2318) | [@ajrasane](https://github.com/ajrasane) | `docs` `infra` `onnx` `quantization` `tests` | \[5591371\] Add performance guard for ONNX Autotune |
@@ -55,4 +56,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 49 PRs**
+**Total: 50 PRs**

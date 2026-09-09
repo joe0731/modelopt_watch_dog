@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-08 | [58eafdf1](https://github.com/NVIDIA/Model-Optimizer/commit/58eafdf172a6cbda4853947763cd36e54f80bd50) | [#2358](https://github.com/NVIDIA/Model-Optimizer/pull/2358) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `torch` | Fix the llm_eval README commands that no longer run as written |
+| 2026-09-08 | [2aefe08f](https://github.com/NVIDIA/Model-Optimizer/commit/2aefe08f20eb989bda5d4f5b0979aba6372bee14) | [#2024](https://github.com/NVIDIA/Model-Optimizer/pull/2024) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `infra` `onnx` `tests` `torch` | \[OMNIML-5613\] Quantize ResNet residual adds in torch ONNX example |
+| 2026-09-08 | [19de0075](https://github.com/NVIDIA/Model-Optimizer/commit/19de0075cb5897f37b69d46947be40cf66fe1075) | [#2300](https://github.com/NVIDIA/Model-Optimizer/pull/2300) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `tests` `torch` | Forward kv_cache_free_gpu_memory_fraction to the lm_eval TensorRT-LLM engine (NVBug 6701763) |
+| 2026-09-08 | [0688761c](https://github.com/NVIDIA/Model-Optimizer/commit/0688761ce91e533e8838cdb323e4412228672d6a) | [#2303](https://github.com/NVIDIA/Model-Optimizer/pull/2303) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `infra` `quantization` `tests` `torch` | feat(export): support multimodal and MTP models in layerwise export |
 | 2026-09-04 | [f13a7962](https://github.com/NVIDIA/Model-Optimizer/commit/f13a7962aa4a7c35b9648e0d2ddf9ff2a8ada41e) | [#2332](https://github.com/NVIDIA/Model-Optimizer/pull/2332) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `tests` `torch` | Fix KV-cache scales dropped on Qwen Megatron-Core HF export |
 | 2026-09-04 | [a7f339ed](https://github.com/NVIDIA/Model-Optimizer/commit/a7f339ed08fe663ed5cf78d5fedf9ceaeb7c7c8b) | [#2320](https://github.com/NVIDIA/Model-Optimizer/pull/2320) | [@realAsma](https://github.com/realAsma) | `export` `infra` `tests` `torch` | Reject unsupported partial-block INT4/W4A8 AWQ export |
 | 2026-09-03 | [bfd52b3a](https://github.com/NVIDIA/Model-Optimizer/commit/bfd52b3aa9fbe08d7304db0192ad591dedd9124e) | [#2324](https://github.com/NVIDIA/Model-Optimizer/pull/2324) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `tests` `torch` | Replay VLM vision inputs in megatron_generate without KV cache |
@@ -466,4 +470,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 460 PRs**
+**Total: 464 PRs**

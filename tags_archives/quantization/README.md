@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-09 | [acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80) | [#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | Add TensorRT-RTX ABI EP support for ONNX quantization |
+| 2026-09-08 | [5c123ce1](https://github.com/NVIDIA/Model-Optimizer/commit/5c123ce1838d64724308ac1378b04a331ae9aa66) | [#2180](https://github.com/NVIDIA/Model-Optimizer/pull/2180) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` | \[OMNIML-5563\] Add PETR ONNX PTQ and accuracy evaluation example |
+| 2026-09-08 | [0688761c](https://github.com/NVIDIA/Model-Optimizer/commit/0688761ce91e533e8838cdb323e4412228672d6a) | [#2303](https://github.com/NVIDIA/Model-Optimizer/pull/2303) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `infra` `quantization` `tests` `torch` | feat(export): support multimodal and MTP models in layerwise export |
 | 2026-09-03 | [c49ce57d](https://github.com/NVIDIA/Model-Optimizer/commit/c49ce57d75bc4109ba93a5ab171ec920de70c62c) | [#2318](https://github.com/NVIDIA/Model-Optimizer/pull/2318) | [@ajrasane](https://github.com/ajrasane) | `docs` `infra` `onnx` `quantization` `tests` | \[5591371\] Add performance guard for ONNX Autotune |
 | 2026-09-02 | [61757c97](https://github.com/NVIDIA/Model-Optimizer/commit/61757c9781099be43b3696410006e40fd0c6a0b6) | [#2276](https://github.com/NVIDIA/Model-Optimizer/pull/2276) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `export` `infra` `quantization` `tests` `torch` | Support quantized Qwen3-VL / Qwen3.5-VL (dense + MoE) export from Megatron-Bridge and verify exported checkpoints |
 | 2026-09-01 | [de3eda8a](https://github.com/NVIDIA/Model-Optimizer/commit/de3eda8a11131122f4c352340311983dc2a6eef4) | [#2219](https://github.com/NVIDIA/Model-Optimizer/pull/2219) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `example` `infra` `quantization` `tests` `torch` | Restructure recipes: split per-model_type recipes from model-hub checkpoint recipes |
@@ -289,4 +292,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 283 PRs**
+**Total: 286 PRs**
