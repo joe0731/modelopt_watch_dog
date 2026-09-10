@@ -1,5 +1,34 @@
 [
   {
+    "date": "2026-09-10",
+    "commit": "613e5e8b2e52eed20d72d80ce9df6732284e68c1",
+    "pr_number": 2202,
+    "author": "Edwardf0t1",
+    "title": "feat(quantization): PTQ support for Step-3.7 MoE checkpoints",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "commit": "079078de9d3cd26fa5baafdb754bba29dde24f7d",
+    "pr_number": 2207,
+    "author": "sugunav14",
+    "title": "FSDP2 export optimizations",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-09-09",
     "commit": "fbd5e942e2e71d68e5483ad41a63d35c292e290e",
     "pr_number": 2312,

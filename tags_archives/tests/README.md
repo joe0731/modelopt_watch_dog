@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-10 | [613e5e8b](https://github.com/NVIDIA/Model-Optimizer/commit/613e5e8b2e52eed20d72d80ce9df6732284e68c1) | [#2202](https://github.com/NVIDIA/Model-Optimizer/pull/2202) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `quantization` `tests` `torch` | feat(quantization): PTQ support for Step-3.7 MoE checkpoints |
+| 2026-09-10 | [079078de](https://github.com/NVIDIA/Model-Optimizer/commit/079078de9d3cd26fa5baafdb754bba29dde24f7d) | [#2207](https://github.com/NVIDIA/Model-Optimizer/pull/2207) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 export optimizations |
 | 2026-09-09 | [fbd5e942](https://github.com/NVIDIA/Model-Optimizer/commit/fbd5e942e2e71d68e5483ad41a63d35c292e290e) | [#2312](https://github.com/NVIDIA/Model-Optimizer/pull/2312) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | Add NVFP4 PTQ recipe for zai-org/GLM-5.3-Flash (experts + dense MLP) |
 | 2026-09-09 | [acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80) | [#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | Add TensorRT-RTX ABI EP support for ONNX quantization |
 | 2026-09-08 | [c22028c7](https://github.com/NVIDIA/Model-Optimizer/commit/c22028c7271b70c8f95b1815adab4f4313dda83c) | [#2348](https://github.com/NVIDIA/Model-Optimizer/pull/2348) | [@j-rausch](https://github.com/j-rausch) | `infra` `tests` | Add Qwen 3.5 multi-axis VLM pruning campaign |
@@ -419,4 +421,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 413 PRs**
+**Total: 415 PRs**

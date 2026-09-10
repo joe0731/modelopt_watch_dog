@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-10 | [613e5e8b](https://github.com/NVIDIA/Model-Optimizer/commit/613e5e8b2e52eed20d72d80ce9df6732284e68c1) | [#2202](https://github.com/NVIDIA/Model-Optimizer/pull/2202) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `quantization` `tests` `torch` | feat(quantization): PTQ support for Step-3.7 MoE checkpoints |
+| 2026-09-10 | [079078de](https://github.com/NVIDIA/Model-Optimizer/commit/079078de9d3cd26fa5baafdb754bba29dde24f7d) | [#2207](https://github.com/NVIDIA/Model-Optimizer/pull/2207) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 export optimizations |
 | 2026-09-09 | [fbd5e942](https://github.com/NVIDIA/Model-Optimizer/commit/fbd5e942e2e71d68e5483ad41a63d35c292e290e) | [#2312](https://github.com/NVIDIA/Model-Optimizer/pull/2312) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | Add NVFP4 PTQ recipe for zai-org/GLM-5.3-Flash (experts + dense MLP) |
 | 2026-09-09 | [acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80) | [#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | Add TensorRT-RTX ABI EP support for ONNX quantization |
 | 2026-09-08 | [5cae3940](https://github.com/NVIDIA/Model-Optimizer/commit/5cae3940402f1ced98069a666b0bec72ec8b33b5) | [#2341](https://github.com/NVIDIA/Model-Optimizer/pull/2341) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Raise puzzletron Hydra minimum to hydra-core~=1.3.4 (CVE-2026-68508) |
@@ -568,4 +570,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 562 PRs**
+**Total: 564 PRs**

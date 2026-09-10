@@ -8,6 +8,8 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-09-10 | [613e5e8b](https://github.com/NVIDIA/Model-Optimizer/commit/613e5e8b2e52eed20d72d80ce9df6732284e68c1) | [#2202](https://github.com/NVIDIA/Model-Optimizer/pull/2202) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `quantization` `tests` `torch` | feat(quantization): PTQ support for Step-3.7 MoE checkpoints |
+|  | 2026-09-10 | [079078de](https://github.com/NVIDIA/Model-Optimizer/commit/079078de9d3cd26fa5baafdb754bba29dde24f7d) | [#2207](https://github.com/NVIDIA/Model-Optimizer/pull/2207) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 export optimizations |
 |  | 2026-09-09 | [fbd5e942](https://github.com/NVIDIA/Model-Optimizer/commit/fbd5e942e2e71d68e5483ad41a63d35c292e290e) | [#2312](https://github.com/NVIDIA/Model-Optimizer/pull/2312) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | Add NVFP4 PTQ recipe for zai-org/GLM-5.3-Flash (experts + dense MLP) |
 | 🟠 | **2026-09-09** | **[acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80)** | **[#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262)** | **[@haoxiz-nvidia](https://github.com/haoxiz-nvidia)** | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | **Add TensorRT-RTX ABI EP support for ONNX quantization** |
 |  | 2026-09-08 | [4773f72f](https://github.com/NVIDIA/Model-Optimizer/commit/4773f72f8a33cae681459c310afe534e00682bf3) | [#2264](https://github.com/NVIDIA/Model-Optimizer/pull/2264) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `windows` | Docs: Add WOA documentation |
@@ -58,4 +60,4 @@
 |  | 2026-09-01 | [21b95ada](https://github.com/NVIDIA/Model-Optimizer/commit/21b95adabba3ab4f497937980497dee6bb69b207) | [#2083](https://github.com/NVIDIA/Model-Optimizer/pull/2083) | [@mpariente-nvda](https://github.com/mpariente-nvda) | `export` `infra` `tests` `torch` | Add FP8 Vision Encoder quantization for Qwen3-VL and Qwen3.5 |
 
 ---
-**Total: 48 PRs** | **Highlighted: 6**
+**Total: 50 PRs** | **Highlighted: 6**

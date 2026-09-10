@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-10 | [613e5e8b](https://github.com/NVIDIA/Model-Optimizer/commit/613e5e8b2e52eed20d72d80ce9df6732284e68c1) | [#2202](https://github.com/NVIDIA/Model-Optimizer/pull/2202) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `quantization` `tests` `torch` | feat(quantization): PTQ support for Step-3.7 MoE checkpoints |
+| 2026-09-10 | [079078de](https://github.com/NVIDIA/Model-Optimizer/commit/079078de9d3cd26fa5baafdb754bba29dde24f7d) | [#2207](https://github.com/NVIDIA/Model-Optimizer/pull/2207) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 export optimizations |
 | 2026-09-08 | [58eafdf1](https://github.com/NVIDIA/Model-Optimizer/commit/58eafdf172a6cbda4853947763cd36e54f80bd50) | [#2358](https://github.com/NVIDIA/Model-Optimizer/pull/2358) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `eval` `example` `torch` | Fix the llm_eval README commands that no longer run as written |
 | 2026-09-08 | [2aefe08f](https://github.com/NVIDIA/Model-Optimizer/commit/2aefe08f20eb989bda5d4f5b0979aba6372bee14) | [#2024](https://github.com/NVIDIA/Model-Optimizer/pull/2024) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `infra` `onnx` `tests` `torch` | \[OMNIML-5613\] Quantize ResNet residual adds in torch ONNX example |
 | 2026-09-08 | [19de0075](https://github.com/NVIDIA/Model-Optimizer/commit/19de0075cb5897f37b69d46947be40cf66fe1075) | [#2300](https://github.com/NVIDIA/Model-Optimizer/pull/2300) | [@cjluo-nv](https://github.com/cjluo-nv) | `eval` `example` `infra` `tests` `torch` | Forward kv_cache_free_gpu_memory_fraction to the lm_eval TensorRT-LLM engine (NVBug 6701763) |
@@ -470,4 +472,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 464 PRs**
+**Total: 466 PRs**
