@@ -4,8 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-11 | [59d93af0](https://github.com/NVIDIA/Model-Optimizer/commit/59d93af064dc5c4690347be57c5fbc6e3a695035) | [#2272](https://github.com/NVIDIA/Model-Optimizer/pull/2272) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570, OMNIML-5569\] 1/2 Add layer-wise KV-cache AutoQuant with forward KL |
 | 2026-09-10 | [613e5e8b](https://github.com/NVIDIA/Model-Optimizer/commit/613e5e8b2e52eed20d72d80ce9df6732284e68c1) | [#2202](https://github.com/NVIDIA/Model-Optimizer/pull/2202) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `quantization` `tests` `torch` | feat(quantization): PTQ support for Step-3.7 MoE checkpoints |
 | 2026-09-10 | [079078de](https://github.com/NVIDIA/Model-Optimizer/commit/079078de9d3cd26fa5baafdb754bba29dde24f7d) | [#2207](https://github.com/NVIDIA/Model-Optimizer/pull/2207) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 export optimizations |
+| 2026-09-10 | [d19925e4](https://github.com/NVIDIA/Model-Optimizer/commit/d19925e4460855c6ca8beb9fe7466c83be320384) | [#2365](https://github.com/NVIDIA/Model-Optimizer/pull/2365) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | simple refactor(export): split TensorRT-LLM-only code into modelopt/torch/export/trtllm |
+| 2026-09-10 | [7f7c46d8](https://github.com/NVIDIA/Model-Optimizer/commit/7f7c46d82070793fe8cab36edb5469d9a054e942) | [#2314](https://github.com/NVIDIA/Model-Optimizer/pull/2314) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `quantization` `tests` `torch` | \[6508436\] Fix BF16 FP8 ONNX export |
 | 2026-09-08 | [2aefe08f](https://github.com/NVIDIA/Model-Optimizer/commit/2aefe08f20eb989bda5d4f5b0979aba6372bee14) | [#2024](https://github.com/NVIDIA/Model-Optimizer/pull/2024) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `infra` `onnx` `tests` `torch` | \[OMNIML-5613\] Quantize ResNet residual adds in torch ONNX example |
 | 2026-09-08 | [0688761c](https://github.com/NVIDIA/Model-Optimizer/commit/0688761ce91e533e8838cdb323e4412228672d6a) | [#2303](https://github.com/NVIDIA/Model-Optimizer/pull/2303) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `infra` `quantization` `tests` `torch` | feat(export): support multimodal and MTP models in layerwise export |
 | 2026-09-04 | [f13a7962](https://github.com/NVIDIA/Model-Optimizer/commit/f13a7962aa4a7c35b9648e0d2ddf9ff2a8ada41e) | [#2332](https://github.com/NVIDIA/Model-Optimizer/pull/2332) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `tests` `torch` | Fix KV-cache scales dropped on Qwen Megatron-Core HF export |
@@ -164,4 +167,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 158 PRs**
+**Total: 161 PRs**

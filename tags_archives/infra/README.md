@@ -4,8 +4,14 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-11 | [59d93af0](https://github.com/NVIDIA/Model-Optimizer/commit/59d93af064dc5c4690347be57c5fbc6e3a695035) | [#2272](https://github.com/NVIDIA/Model-Optimizer/pull/2272) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570, OMNIML-5569\] 1/2 Add layer-wise KV-cache AutoQuant with forward KL |
 | 2026-09-10 | [613e5e8b](https://github.com/NVIDIA/Model-Optimizer/commit/613e5e8b2e52eed20d72d80ce9df6732284e68c1) | [#2202](https://github.com/NVIDIA/Model-Optimizer/pull/2202) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `quantization` `tests` `torch` | feat(quantization): PTQ support for Step-3.7 MoE checkpoints |
 | 2026-09-10 | [079078de](https://github.com/NVIDIA/Model-Optimizer/commit/079078de9d3cd26fa5baafdb754bba29dde24f7d) | [#2207](https://github.com/NVIDIA/Model-Optimizer/pull/2207) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 export optimizations |
+| 2026-09-10 | [635688d2](https://github.com/NVIDIA/Model-Optimizer/commit/635688d26e575d170f1331d2eb550342ff8622f1) | [#2317](https://github.com/NVIDIA/Model-Optimizer/pull/2317) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `tests` | \[6410139\] Fix ONNX AutoCast for large external initializers |
+| 2026-09-10 | [d19925e4](https://github.com/NVIDIA/Model-Optimizer/commit/d19925e4460855c6ca8beb9fe7466c83be320384) | [#2365](https://github.com/NVIDIA/Model-Optimizer/pull/2365) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | simple refactor(export): split TensorRT-LLM-only code into modelopt/torch/export/trtllm |
+| 2026-09-10 | [7f7c46d8](https://github.com/NVIDIA/Model-Optimizer/commit/7f7c46d82070793fe8cab36edb5469d9a054e942) | [#2314](https://github.com/NVIDIA/Model-Optimizer/pull/2314) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `quantization` `tests` `torch` | \[6508436\] Fix BF16 FP8 ONNX export |
+| 2026-09-10 | [28dc1175](https://github.com/NVIDIA/Model-Optimizer/commit/28dc117594ee98c8875e8e0c9bb4496a4e259475) | [#2006](https://github.com/NVIDIA/Model-Optimizer/pull/2006) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | Add Day 0 Sub-agent Roles |
+| 2026-09-10 | [d69e93a7](https://github.com/NVIDIA/Model-Optimizer/commit/d69e93a72b576f117f8c56df1a93c8ff330f7d2d) | [#2374](https://github.com/NVIDIA/Model-Optimizer/pull/2374) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `infra` `tests` `torch` | Record the MLflow run that produced a checkpoint in .experiment.json |
 | 2026-09-09 | [fbd5e942](https://github.com/NVIDIA/Model-Optimizer/commit/fbd5e942e2e71d68e5483ad41a63d35c292e290e) | [#2312](https://github.com/NVIDIA/Model-Optimizer/pull/2312) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `tests` | Add NVFP4 PTQ recipe for zai-org/GLM-5.3-Flash (experts + dense MLP) |
 | 2026-09-09 | [acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80) | [#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | Add TensorRT-RTX ABI EP support for ONNX quantization |
 | 2026-09-08 | [5cae3940](https://github.com/NVIDIA/Model-Optimizer/commit/5cae3940402f1ced98069a666b0bec72ec8b33b5) | [#2341](https://github.com/NVIDIA/Model-Optimizer/pull/2341) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `infra` | Raise puzzletron Hydra minimum to hydra-core~=1.3.4 (CVE-2026-68508) |
@@ -570,4 +576,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 564 PRs**
+**Total: 570 PRs**

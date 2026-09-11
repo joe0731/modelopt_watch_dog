@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-10 | [a74054ab](https://github.com/NVIDIA/Model-Optimizer/commit/a74054ab2b56d2a3e45a7600e112bd334abd35ee) | [#2364](https://github.com/NVIDIA/Model-Optimizer/pull/2364) | [@cjluo-nv](https://github.com/cjluo-nv) | `deploy` `example` `vllm` | Let callers add MLflow tags to a fakequant serve's run |
 | 2026-08-13 | [b96841db](https://github.com/NVIDIA/Model-Optimizer/commit/b96841db3e161763c552db627d55e28ea90de950) | [#2120](https://github.com/NVIDIA/Model-Optimizer/pull/2120) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add optional MLflow tracking to the vLLM fake-quant server |
 | 2026-08-12 | [278f44b6](https://github.com/NVIDIA/Model-Optimizer/commit/278f44b6c3735fc67683e18f03ddfbec19ce45cd) | [#2179](https://github.com/NVIDIA/Model-Optimizer/pull/2179) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `export` `infra` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `vllm` | \[Cherry-pick\] PRs #1975 #2076 #2071 #2093 #2084 #2115 #2133 #2146 #2064 #2159 #2112 |
 | 2026-08-07 | [bd3798a7](https://github.com/NVIDIA/Model-Optimizer/commit/bd3798a79495c54c46d6d6233701b7d559c68f65) | [#2093](https://github.com/NVIDIA/Model-Optimizer/pull/2093) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `vllm` | \[6562078\]: fix calibration for vLLM 0.26.0 |
@@ -25,4 +26,4 @@
 | 2026-03-24 | [a108883c](https://github.com/NVIDIA/Model-Optimizer/commit/a108883ccad9ae1cec059d9c0eae935d00b7d316) | [#1068](https://github.com/NVIDIA/Model-Optimizer/pull/1068) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `eval` `example` `quantization` `torch` `vllm` | Fridah/kinjal/vllm modelopt reload |
 
 ---
-**Total: 19 PRs**
+**Total: 20 PRs**

@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-11 | [5d2d5a5d](https://github.com/NVIDIA/Model-Optimizer/commit/5d2d5a5d1505c316760f13072d691ca516c4a91a) | [#2371](https://github.com/NVIDIA/Model-Optimizer/pull/2371) | [@noeyy-mino](https://github.com/noeyy-mino) | `example` `sparsity` `torch` | deprecate trtllm-build in weight_sparsity |
+| 2026-09-10 | [9d0df458](https://github.com/NVIDIA/Model-Optimizer/commit/9d0df458495af2020bc64e02d0c4645989c401f1) | [#2289](https://github.com/NVIDIA/Model-Optimizer/pull/2289) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | specdec: config_overrides for nested text_config checkpoints + load VLM-capable bases in merge_lora |
+| 2026-09-10 | [d19925e4](https://github.com/NVIDIA/Model-Optimizer/commit/d19925e4460855c6ca8beb9fe7466c83be320384) | [#2365](https://github.com/NVIDIA/Model-Optimizer/pull/2365) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | simple refactor(export): split TensorRT-LLM-only code into modelopt/torch/export/trtllm |
+| 2026-09-10 | [a74054ab](https://github.com/NVIDIA/Model-Optimizer/commit/a74054ab2b56d2a3e45a7600e112bd334abd35ee) | [#2364](https://github.com/NVIDIA/Model-Optimizer/pull/2364) | [@cjluo-nv](https://github.com/cjluo-nv) | `deploy` `example` `vllm` | Let callers add MLflow tags to a fakequant serve's run |
 | 2026-09-09 | [acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80) | [#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | Add TensorRT-RTX ABI EP support for ONNX quantization |
 | 2026-09-08 | [4773f72f](https://github.com/NVIDIA/Model-Optimizer/commit/4773f72f8a33cae681459c310afe534e00682bf3) | [#2264](https://github.com/NVIDIA/Model-Optimizer/pull/2264) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `windows` | Docs: Add WOA documentation |
 | 2026-09-08 | [5c123ce1](https://github.com/NVIDIA/Model-Optimizer/commit/5c123ce1838d64724308ac1378b04a331ae9aa66) | [#2180](https://github.com/NVIDIA/Model-Optimizer/pull/2180) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` | \[OMNIML-5563\] Add PETR ONNX PTQ and accuracy evaluation example |
@@ -301,4 +305,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 295 PRs**
+**Total: 299 PRs**

@@ -1,5 +1,216 @@
 [
   {
+    "date": "2026-09-11",
+    "commit": "1b2d49415bcdde3622b8ace1cf15ee7c830d586c",
+    "pr_number": 2386,
+    "author": "kaix-nv",
+    "title": "Sort DASC modules by explicit name",
+    "tags": [
+      "sparsity",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "28b1f1a9747214196bb6b65b03d8a12843ac24a3",
+    "pr_number": 2393,
+    "author": "kaix-nv",
+    "title": "Clarify DASC rounding dtype selection",
+    "tags": [
+      "sparsity",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "50013163b9a6f047404d393c8076ac6ef2a32c80",
+    "pr_number": 2390,
+    "author": "kaix-nv",
+    "title": "Validate DASC decay tensors consistently",
+    "tags": [
+      "docs",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "02d8cfe7332525e22dae57bdcfd0381b46cb4c78",
+    "pr_number": 2391,
+    "author": "kaix-nv",
+    "title": "Tighten DASC calibration contract",
+    "tags": [
+      "docs",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "6456c40bf13a5fbe438a5fd7e9157c28e5a91d0a",
+    "pr_number": 2392,
+    "author": "kaix-nv",
+    "title": "Exclude exact casts from DASC bounds",
+    "tags": [
+      "docs",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "431bb04d8c18fa2cd2fc3de468ef5e2592a6448a",
+    "pr_number": 2400,
+    "author": "kaix-nv",
+    "title": "Strengthen DASC device lifecycle regression",
+    "tags": [
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "59d93af064dc5c4690347be57c5fbc6e3a695035",
+    "pr_number": 2272,
+    "author": "meenchen",
+    "title": "[OMNIML-5570, OMNIML-5569] 1/2 Add layer-wise KV-cache AutoQuant with forward KL",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "c318a99b54bd14503396d7d3a484a22619809872",
+    "pr_number": 2396,
+    "author": "kaix-nv",
+    "title": "Preserve DASC numeric argument compatibility",
+    "tags": [
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "b45337065a85c191ab8eb3374911c613c58ce033",
+    "pr_number": 2394,
+    "author": "kaix-nv",
+    "title": "Harden DASC analysis and restore boundaries",
+    "tags": [
+      "docs",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "2f033a1aee5034f4ca6b542ed8c101d80c994ce8",
+    "pr_number": 2397,
+    "author": "kaix-nv",
+    "title": "Align DASC numeric validation with scalar API",
+    "tags": [
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "1dcafa5dc6ff2a70773d2b0654df9d49141fa0cf",
+    "pr_number": 2399,
+    "author": "kaix-nv",
+    "title": "Pin DASC policy validation to CPU",
+    "tags": [
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "bd276a1d9a6140c5b6444861292a6b2df911cddc",
+    "pr_number": 2388,
+    "author": "kaix-nv",
+    "title": "Fix DASC storage-boundary validation",
+    "tags": [
+      "docs",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "e6da8d58373255b4aa12997f78f364feaa1aeab3",
+    "pr_number": 2398,
+    "author": "kaix-nv",
+    "title": "Make DASC scalar analysis device independent",
+    "tags": [
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "0859c13d0f827c479a512bd370c2b0b5528a7037",
+    "pr_number": 2387,
+    "author": "kaix-nv",
+    "title": "Address DASC review feedback",
+    "tags": [
+      "docs",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "d50bd5bd6a9f2f7c1c5e26ca3288e6004ce02cb5",
+    "pr_number": 2389,
+    "author": "kaix-nv",
+    "title": "Align DASC analysis and lifecycle contracts",
+    "tags": [
+      "docs",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "c2da5fa38237210a58f5e097706fcda03ec6a424",
+    "pr_number": 2395,
+    "author": "kaix-nv",
+    "title": "Unify DASC public analysis validation",
+    "tags": [
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "5d2d5a5d1505c316760f13072d691ca516c4a91a",
+    "pr_number": 2371,
+    "author": "noeyy-mino",
+    "title": "deprecate trtllm-build in weight_sparsity",
+    "tags": [
+      "example",
+      "sparsity",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-09-10",
     "commit": "613e5e8b2e52eed20d72d80ce9df6732284e68c1",
     "pr_number": 2202,
@@ -24,6 +235,98 @@
       "export",
       "infra",
       "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "commit": "635688d26e575d170f1331d2eb550342ff8622f1",
+    "pr_number": 2317,
+    "author": "ajrasane",
+    "title": "[6410139] Fix ONNX AutoCast for large external initializers",
+    "tags": [
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "commit": "9d0df458495af2020bc64e02d0c4645989c401f1",
+    "pr_number": 2289,
+    "author": "yeyu-nvidia",
+    "title": "specdec: config_overrides for nested text_config checkpoints + load VLM-capable bases in merge_lora",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "commit": "d19925e4460855c6ca8beb9fe7466c83be320384",
+    "pr_number": 2365,
+    "author": "shengliangxu",
+    "title": "simple refactor(export): split TensorRT-LLM-only code into modelopt/torch/export/trtllm",
+    "tags": [
+      "docs",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "sparsity",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "commit": "7f7c46d82070793fe8cab36edb5469d9a054e942",
+    "pr_number": 2314,
+    "author": "ajrasane",
+    "title": "[6508436] Fix BF16 FP8 ONNX export",
+    "tags": [
+      "deploy",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "commit": "28dc117594ee98c8875e8e0c9bb4496a4e259475",
+    "pr_number": 2006,
+    "author": "chadvoegele",
+    "title": "Add Day 0 Sub-agent Roles",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "commit": "a74054ab2b56d2a3e45a7600e112bd334abd35ee",
+    "pr_number": 2364,
+    "author": "cjluo-nv",
+    "title": "Let callers add MLflow tags to a fakequant serve's run",
+    "tags": [
+      "deploy",
+      "example",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-09-10",
+    "commit": "d69e93a72b576f117f8c56df1a93c8ff330f7d2d",
+    "pr_number": 2374,
+    "author": "cjluo-nv",
+    "title": "Record the MLflow run that produced a checkpoint in .experiment.json",
+    "tags": [
+      "core",
+      "infra",
       "tests",
       "torch"
     ]

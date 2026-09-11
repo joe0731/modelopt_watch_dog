@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-10 | [635688d2](https://github.com/NVIDIA/Model-Optimizer/commit/635688d26e575d170f1331d2eb550342ff8622f1) | [#2317](https://github.com/NVIDIA/Model-Optimizer/pull/2317) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `tests` | \[6410139\] Fix ONNX AutoCast for large external initializers |
+| 2026-09-10 | [7f7c46d8](https://github.com/NVIDIA/Model-Optimizer/commit/7f7c46d82070793fe8cab36edb5469d9a054e942) | [#2314](https://github.com/NVIDIA/Model-Optimizer/pull/2314) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `quantization` `tests` `torch` | \[6508436\] Fix BF16 FP8 ONNX export |
 | 2026-09-09 | [acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80) | [#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | Add TensorRT-RTX ABI EP support for ONNX quantization |
 | 2026-09-08 | [5c123ce1](https://github.com/NVIDIA/Model-Optimizer/commit/5c123ce1838d64724308ac1378b04a331ae9aa66) | [#2180](https://github.com/NVIDIA/Model-Optimizer/pull/2180) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` | \[OMNIML-5563\] Add PETR ONNX PTQ and accuracy evaluation example |
 | 2026-09-08 | [2aefe08f](https://github.com/NVIDIA/Model-Optimizer/commit/2aefe08f20eb989bda5d4f5b0979aba6372bee14) | [#2024](https://github.com/NVIDIA/Model-Optimizer/pull/2024) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `infra` `onnx` `tests` `torch` | \[OMNIML-5613\] Quantize ResNet residual adds in torch ONNX example |
@@ -109,4 +111,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 103 PRs**
+**Total: 105 PRs**

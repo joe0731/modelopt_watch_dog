@@ -4,6 +4,14 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-11 | [50013163](https://github.com/NVIDIA/Model-Optimizer/commit/50013163b9a6f047404d393c8076ac6ef2a32c80) | [#2390](https://github.com/NVIDIA/Model-Optimizer/pull/2390) | [@kaix-nv](https://github.com/kaix-nv) | `docs` `sparsity` `tests` `torch` | Validate DASC decay tensors consistently |
+| 2026-09-11 | [02d8cfe7](https://github.com/NVIDIA/Model-Optimizer/commit/02d8cfe7332525e22dae57bdcfd0381b46cb4c78) | [#2391](https://github.com/NVIDIA/Model-Optimizer/pull/2391) | [@kaix-nv](https://github.com/kaix-nv) | `docs` `sparsity` `tests` `torch` | Tighten DASC calibration contract |
+| 2026-09-11 | [6456c40b](https://github.com/NVIDIA/Model-Optimizer/commit/6456c40bf13a5fbe438a5fd7e9157c28e5a91d0a) | [#2392](https://github.com/NVIDIA/Model-Optimizer/pull/2392) | [@kaix-nv](https://github.com/kaix-nv) | `docs` `sparsity` `tests` `torch` | Exclude exact casts from DASC bounds |
+| 2026-09-11 | [b4533706](https://github.com/NVIDIA/Model-Optimizer/commit/b45337065a85c191ab8eb3374911c613c58ce033) | [#2394](https://github.com/NVIDIA/Model-Optimizer/pull/2394) | [@kaix-nv](https://github.com/kaix-nv) | `docs` `sparsity` `tests` `torch` | Harden DASC analysis and restore boundaries |
+| 2026-09-11 | [bd276a1d](https://github.com/NVIDIA/Model-Optimizer/commit/bd276a1d9a6140c5b6444861292a6b2df911cddc) | [#2388](https://github.com/NVIDIA/Model-Optimizer/pull/2388) | [@kaix-nv](https://github.com/kaix-nv) | `docs` `sparsity` `tests` `torch` | Fix DASC storage-boundary validation |
+| 2026-09-11 | [0859c13d](https://github.com/NVIDIA/Model-Optimizer/commit/0859c13d0f827c479a512bd370c2b0b5528a7037) | [#2387](https://github.com/NVIDIA/Model-Optimizer/pull/2387) | [@kaix-nv](https://github.com/kaix-nv) | `docs` `sparsity` `tests` `torch` | Address DASC review feedback |
+| 2026-09-11 | [d50bd5bd](https://github.com/NVIDIA/Model-Optimizer/commit/d50bd5bd6a9f2f7c1c5e26ca3288e6004ce02cb5) | [#2389](https://github.com/NVIDIA/Model-Optimizer/pull/2389) | [@kaix-nv](https://github.com/kaix-nv) | `docs` `sparsity` `tests` `torch` | Align DASC analysis and lifecycle contracts |
+| 2026-09-10 | [d19925e4](https://github.com/NVIDIA/Model-Optimizer/commit/d19925e4460855c6ca8beb9fe7466c83be320384) | [#2365](https://github.com/NVIDIA/Model-Optimizer/pull/2365) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | simple refactor(export): split TensorRT-LLM-only code into modelopt/torch/export/trtllm |
 | 2026-09-09 | [acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80) | [#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | Add TensorRT-RTX ABI EP support for ONNX quantization |
 | 2026-09-08 | [4773f72f](https://github.com/NVIDIA/Model-Optimizer/commit/4773f72f8a33cae681459c310afe534e00682bf3) | [#2264](https://github.com/NVIDIA/Model-Optimizer/pull/2264) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `windows` | Docs: Add WOA documentation |
 | 2026-09-06 | [b165f1af](https://github.com/NVIDIA/Model-Optimizer/commit/b165f1afec479751d574cef98463776a9f1902a9) | [#2346](https://github.com/NVIDIA/Model-Optimizer/pull/2346) | [@j-rausch](https://github.com/j-rausch) | `docs` | Remove unused PuzzleTron planning documents |
@@ -56,4 +64,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 50 PRs**
+**Total: 58 PRs**
