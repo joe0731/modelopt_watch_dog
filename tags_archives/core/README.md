@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-11 | [5f8c76e2](https://github.com/NVIDIA/Model-Optimizer/commit/5f8c76e2aabd72fd8097de2c72aa0f8e336dffa0) | [#2319](https://github.com/NVIDIA/Model-Optimizer/pull/2319) | [@jenchen13](https://github.com/jenchen13) | `core` `quantization` `tests` `torch` | Fix TEGroupedMLP quantizer checkpoint resharding |
 | 2026-09-10 | [079078de](https://github.com/NVIDIA/Model-Optimizer/commit/079078de9d3cd26fa5baafdb754bba29dde24f7d) | [#2207](https://github.com/NVIDIA/Model-Optimizer/pull/2207) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 export optimizations |
 | 2026-09-10 | [d69e93a7](https://github.com/NVIDIA/Model-Optimizer/commit/d69e93a72b576f117f8c56df1a93c8ff330f7d2d) | [#2374](https://github.com/NVIDIA/Model-Optimizer/pull/2374) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `infra` `tests` `torch` | Record the MLflow run that produced a checkpoint in .experiment.json |
 | 2026-09-04 | [f13a7962](https://github.com/NVIDIA/Model-Optimizer/commit/f13a7962aa4a7c35b9648e0d2ddf9ff2a8ada41e) | [#2332](https://github.com/NVIDIA/Model-Optimizer/pull/2332) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `export` `infra` `tests` `torch` | Fix KV-cache scales dropped on Qwen Megatron-Core HF export |
@@ -160,4 +161,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 154 PRs**
+**Total: 155 PRs**

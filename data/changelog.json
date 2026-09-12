@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-12",
+    "commit": "51de53e48ccae8804f8fe1198b7cf89475c5c4f4",
+    "pr_number": 2412,
+    "author": "ajrasane",
+    "title": "[6463897] Fix narrow FP16 histogram calibration",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
     "date": "2026-09-11",
     "commit": "1b2d49415bcdde3622b8ace1cf15ee7c830d586c",
     "pr_number": 2386,
@@ -208,6 +221,107 @@
       "example",
       "sparsity",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "a1bcda472748f1c9d8bc893e495ce03b00445ad8",
+    "pr_number": 2403,
+    "author": "noeyy-mino",
+    "title": "Fix protobuf size-check failures in ONNX deployment",
+    "tags": [
+      "deploy",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "dbe28e1e050c7ca6f7f7d4319b03e0853aa76307",
+    "pr_number": 2405,
+    "author": "realAsma",
+    "title": "Document the MSE calibration API",
+    "tags": [
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "c5d1065331c96819a20bc20e3346843666b88734",
+    "pr_number": 1828,
+    "author": "h-guo18",
+    "title": "Modeling Lib: per-model architecture kick off with spec registration",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "5f8c76e2aabd72fd8097de2c72aa0f8e336dffa0",
+    "pr_number": 2319,
+    "author": "jenchen13",
+    "title": "Fix TEGroupedMLP quantizer checkpoint resharding",
+    "tags": [
+      "core",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "b80e16447281895e317c85a8bcfa56817fcbcab0",
+    "pr_number": 2407,
+    "author": "cjluo-nv",
+    "title": "Carry a checkpoint's ModelOpt PTQ run into its eval's MLflow run",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "bd90a5ed511bab2227995b524fa2b37719b2bd7e",
+    "pr_number": 2208,
+    "author": "ajrasane",
+    "title": "[OMNIML-5774] Add BEVFormer ONNX PTQ and evaluation example",
+    "tags": [
+      "example",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "c37a6948db327e1cec4f1c595eebf813e1394dd6",
+    "pr_number": 2203,
+    "author": "Edwardf0t1",
+    "title": "feat(quantization): fail fast when a quant config matches no weight quantizer",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-11",
+    "commit": "5b1f7e86cc63732ac68b9f2fc205152e8de046a5",
+    "pr_number": 2413,
+    "author": "ajrasane",
+    "title": "[6701308][OMNIML-5805] Correct ONNX PTQ documentation contracts",
+    "tags": [
+      "docs",
+      "example",
+      "onnx",
+      "quantization",
+      "tests"
     ]
   },
   {

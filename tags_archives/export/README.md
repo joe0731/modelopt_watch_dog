@@ -5,6 +5,8 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-09-11 | [59d93af0](https://github.com/NVIDIA/Model-Optimizer/commit/59d93af064dc5c4690347be57c5fbc6e3a695035) | [#2272](https://github.com/NVIDIA/Model-Optimizer/pull/2272) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570, OMNIML-5569\] 1/2 Add layer-wise KV-cache AutoQuant with forward KL |
+| 2026-09-11 | [c5d10653](https://github.com/NVIDIA/Model-Optimizer/commit/c5d1065331c96819a20bc20e3346843666b88734) | [#1828](https://github.com/NVIDIA/Model-Optimizer/pull/1828) | [@h-guo18](https://github.com/h-guo18) | `export` `infra` `quantization` `tests` `torch` | Modeling Lib: per-model architecture kick off with spec registration |
+| 2026-09-11 | [c37a6948](https://github.com/NVIDIA/Model-Optimizer/commit/c37a6948db327e1cec4f1c595eebf813e1394dd6) | [#2203](https://github.com/NVIDIA/Model-Optimizer/pull/2203) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `quantization` `tests` `torch` | feat(quantization): fail fast when a quant config matches no weight quantizer |
 | 2026-09-10 | [613e5e8b](https://github.com/NVIDIA/Model-Optimizer/commit/613e5e8b2e52eed20d72d80ce9df6732284e68c1) | [#2202](https://github.com/NVIDIA/Model-Optimizer/pull/2202) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `export` `infra` `quantization` `tests` `torch` | feat(quantization): PTQ support for Step-3.7 MoE checkpoints |
 | 2026-09-10 | [079078de](https://github.com/NVIDIA/Model-Optimizer/commit/079078de9d3cd26fa5baafdb754bba29dde24f7d) | [#2207](https://github.com/NVIDIA/Model-Optimizer/pull/2207) | [@sugunav14](https://github.com/sugunav14) | `core` `export` `infra` `quantization` `tests` `torch` | FSDP2 export optimizations |
 | 2026-09-10 | [d19925e4](https://github.com/NVIDIA/Model-Optimizer/commit/d19925e4460855c6ca8beb9fe7466c83be320384) | [#2365](https://github.com/NVIDIA/Model-Optimizer/pull/2365) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | simple refactor(export): split TensorRT-LLM-only code into modelopt/torch/export/trtllm |
@@ -167,4 +169,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 161 PRs**
+**Total: 163 PRs**

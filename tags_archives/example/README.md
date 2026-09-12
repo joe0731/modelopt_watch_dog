@@ -5,6 +5,8 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-09-11 | [5d2d5a5d](https://github.com/NVIDIA/Model-Optimizer/commit/5d2d5a5d1505c316760f13072d691ca516c4a91a) | [#2371](https://github.com/NVIDIA/Model-Optimizer/pull/2371) | [@noeyy-mino](https://github.com/noeyy-mino) | `example` `sparsity` `torch` | deprecate trtllm-build in weight_sparsity |
+| 2026-09-11 | [bd90a5ed](https://github.com/NVIDIA/Model-Optimizer/commit/bd90a5ed511bab2227995b524fa2b37719b2bd7e) | [#2208](https://github.com/NVIDIA/Model-Optimizer/pull/2208) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` | \[OMNIML-5774\] Add BEVFormer ONNX PTQ and evaluation example |
+| 2026-09-11 | [5b1f7e86](https://github.com/NVIDIA/Model-Optimizer/commit/5b1f7e86cc63732ac68b9f2fc205152e8de046a5) | [#2413](https://github.com/NVIDIA/Model-Optimizer/pull/2413) | [@ajrasane](https://github.com/ajrasane) | `docs` `example` `onnx` `quantization` `tests` | \[6701308\]\[OMNIML-5805\] Correct ONNX PTQ documentation contracts |
 | 2026-09-10 | [9d0df458](https://github.com/NVIDIA/Model-Optimizer/commit/9d0df458495af2020bc64e02d0c4645989c401f1) | [#2289](https://github.com/NVIDIA/Model-Optimizer/pull/2289) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `speculative_decoding` `torch` | specdec: config_overrides for nested text_config checkpoints + load VLM-capable bases in merge_lora |
 | 2026-09-10 | [d19925e4](https://github.com/NVIDIA/Model-Optimizer/commit/d19925e4460855c6ca8beb9fe7466c83be320384) | [#2365](https://github.com/NVIDIA/Model-Optimizer/pull/2365) | [@shengliangxu](https://github.com/shengliangxu) | `docs` `example` `export` `infra` `quantization` `sparsity` `tests` `torch` | simple refactor(export): split TensorRT-LLM-only code into modelopt/torch/export/trtllm |
 | 2026-09-10 | [a74054ab](https://github.com/NVIDIA/Model-Optimizer/commit/a74054ab2b56d2a3e45a7600e112bd334abd35ee) | [#2364](https://github.com/NVIDIA/Model-Optimizer/pull/2364) | [@cjluo-nv](https://github.com/cjluo-nv) | `deploy` `example` `vllm` | Let callers add MLflow tags to a fakequant serve's run |
@@ -305,4 +307,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 299 PRs**
+**Total: 301 PRs**

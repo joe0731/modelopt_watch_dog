@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-11 | [a1bcda47](https://github.com/NVIDIA/Model-Optimizer/commit/a1bcda472748f1c9d8bc893e495ce03b00445ad8) | [#2403](https://github.com/NVIDIA/Model-Optimizer/pull/2403) | [@noeyy-mino](https://github.com/noeyy-mino) | `deploy` `torch` | Fix protobuf size-check failures in ONNX deployment |
 | 2026-09-10 | [7f7c46d8](https://github.com/NVIDIA/Model-Optimizer/commit/7f7c46d82070793fe8cab36edb5469d9a054e942) | [#2314](https://github.com/NVIDIA/Model-Optimizer/pull/2314) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `quantization` `tests` `torch` | \[6508436\] Fix BF16 FP8 ONNX export |
 | 2026-09-10 | [a74054ab](https://github.com/NVIDIA/Model-Optimizer/commit/a74054ab2b56d2a3e45a7600e112bd334abd35ee) | [#2364](https://github.com/NVIDIA/Model-Optimizer/pull/2364) | [@cjluo-nv](https://github.com/cjluo-nv) | `deploy` `example` `vllm` | Let callers add MLflow tags to a fakequant serve's run |
 | 2026-08-13 | [b96841db](https://github.com/NVIDIA/Model-Optimizer/commit/b96841db3e161763c552db627d55e28ea90de950) | [#2120](https://github.com/NVIDIA/Model-Optimizer/pull/2120) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add optional MLflow tracking to the vLLM fake-quant server |
@@ -46,4 +47,4 @@
 | 2026-01-26 | [38403095](https://github.com/NVIDIA/Model-Optimizer/commit/38403095c4a9829b14e0ce45c9b067c16a502b46) | [#731](https://github.com/NVIDIA/Model-Optimizer/pull/731) | [@galagam](https://github.com/galagam) | `deploy` `infra` `onnx` `torch` | \[5725362\] AutoCast Fixes for models with external data |
 
 ---
-**Total: 40 PRs**
+**Total: 41 PRs**

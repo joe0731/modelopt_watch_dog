@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-12 | [51de53e4](https://github.com/NVIDIA/Model-Optimizer/commit/51de53e48ccae8804f8fe1198b7cf89475c5c4f4) | [#2412](https://github.com/NVIDIA/Model-Optimizer/pull/2412) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `quantization` `tests` | \[6463897\] Fix narrow FP16 histogram calibration |
+| 2026-09-11 | [bd90a5ed](https://github.com/NVIDIA/Model-Optimizer/commit/bd90a5ed511bab2227995b524fa2b37719b2bd7e) | [#2208](https://github.com/NVIDIA/Model-Optimizer/pull/2208) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` | \[OMNIML-5774\] Add BEVFormer ONNX PTQ and evaluation example |
+| 2026-09-11 | [5b1f7e86](https://github.com/NVIDIA/Model-Optimizer/commit/5b1f7e86cc63732ac68b9f2fc205152e8de046a5) | [#2413](https://github.com/NVIDIA/Model-Optimizer/pull/2413) | [@ajrasane](https://github.com/ajrasane) | `docs` `example` `onnx` `quantization` `tests` | \[6701308\]\[OMNIML-5805\] Correct ONNX PTQ documentation contracts |
 | 2026-09-10 | [635688d2](https://github.com/NVIDIA/Model-Optimizer/commit/635688d26e575d170f1331d2eb550342ff8622f1) | [#2317](https://github.com/NVIDIA/Model-Optimizer/pull/2317) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `tests` | \[6410139\] Fix ONNX AutoCast for large external initializers |
 | 2026-09-10 | [7f7c46d8](https://github.com/NVIDIA/Model-Optimizer/commit/7f7c46d82070793fe8cab36edb5469d9a054e942) | [#2314](https://github.com/NVIDIA/Model-Optimizer/pull/2314) | [@ajrasane](https://github.com/ajrasane) | `deploy` `export` `infra` `onnx` `quantization` `tests` `torch` | \[6508436\] Fix BF16 FP8 ONNX export |
 | 2026-09-09 | [acdf3304](https://github.com/NVIDIA/Model-Optimizer/commit/acdf330414f2d61103de94297ab4697a0d631c80) | [#2262](https://github.com/NVIDIA/Model-Optimizer/pull/2262) | [@haoxiz-nvidia](https://github.com/haoxiz-nvidia) | `docs` `example` `infra` `onnx` `quantization` `tests` `windows` | Add TensorRT-RTX ABI EP support for ONNX quantization |
@@ -111,4 +114,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 105 PRs**
+**Total: 108 PRs**
