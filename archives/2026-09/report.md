@@ -8,6 +8,10 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-09-14 | [6878c0eb](https://github.com/NVIDIA/Model-Optimizer/commit/6878c0ebd2cf7999b3a9278f7b8d3c94c19e7614) | [#2428](https://github.com/NVIDIA/Model-Optimizer/pull/2428) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-09-14) |
+|  | 2026-09-14 | [f70991f3](https://github.com/NVIDIA/Model-Optimizer/commit/f70991f36e697617bad7ca4d00459fff200377a9) | [#2255](https://github.com/NVIDIA/Model-Optimizer/pull/2255) | [@jenchen13](https://github.com/jenchen13) | `docs` | Docs: Add QAT and QAD guide \[OMNIML-4859\] |
+|  | 2026-09-13 | [1030791f](https://github.com/NVIDIA/Model-Optimizer/commit/1030791f53ab35cff02f186d4c47a3b3272d2fb5) | [#2231](https://github.com/NVIDIA/Model-Optimizer/pull/2231) | [@joshua-hill](https://github.com/joshua-hill) | `quantization` `tests` `torch` | Fix distributed AutoQuantize scoring and share backward setup |
+|  | 2026-09-13 | [700e188c](https://github.com/NVIDIA/Model-Optimizer/commit/700e188ce5dc29030569dd092e4b4798ae3a5e20) | [#2423](https://github.com/NVIDIA/Model-Optimizer/pull/2423) | [@realAsma](https://github.com/realAsma) | `infra` | Document copy-PR testing authorization |
 | 🟠 | **2026-09-12** | **[51de53e4](https://github.com/NVIDIA/Model-Optimizer/commit/51de53e48ccae8804f8fe1198b7cf89475c5c4f4)** | **[#2412](https://github.com/NVIDIA/Model-Optimizer/pull/2412)** | **[@ajrasane](https://github.com/ajrasane)** | `infra` `onnx` `quantization` `tests` | **\[6463897\] Fix narrow FP16 histogram calibration** |
 |  | 2026-09-11 | [1b2d4941](https://github.com/NVIDIA/Model-Optimizer/commit/1b2d49415bcdde3622b8ace1cf15ee7c830d586c) | [#2386](https://github.com/NVIDIA/Model-Optimizer/pull/2386) | [@kaix-nv](https://github.com/kaix-nv) | `sparsity` `torch` | Sort DASC modules by explicit name |
 |  | 2026-09-11 | [28b1f1a9](https://github.com/NVIDIA/Model-Optimizer/commit/28b1f1a9747214196bb6b65b03d8a12843ac24a3) | [#2393](https://github.com/NVIDIA/Model-Optimizer/pull/2393) | [@kaix-nv](https://github.com/kaix-nv) | `sparsity` `torch` | Clarify DASC rounding dtype selection |
@@ -93,4 +97,4 @@
 |  | 2026-09-01 | [21b95ada](https://github.com/NVIDIA/Model-Optimizer/commit/21b95adabba3ab4f497937980497dee6bb69b207) | [#2083](https://github.com/NVIDIA/Model-Optimizer/pull/2083) | [@mpariente-nvda](https://github.com/mpariente-nvda) | `export` `infra` `tests` `torch` | Add FP8 Vision Encoder quantization for Qwen3-VL and Qwen3.5 |
 
 ---
-**Total: 83 PRs** | **Highlighted: 12**
+**Total: 87 PRs** | **Highlighted: 12**

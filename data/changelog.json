@@ -1,5 +1,47 @@
 [
   {
+    "date": "2026-09-14",
+    "commit": "6878c0ebd2cf7999b3a9278f7b8d3c94c19e7614",
+    "pr_number": 2428,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-09-14)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-14",
+    "commit": "f70991f36e697617bad7ca4d00459fff200377a9",
+    "pr_number": 2255,
+    "author": "jenchen13",
+    "title": "Docs: Add QAT and QAD guide [OMNIML-4859]",
+    "tags": [
+      "docs"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "commit": "1030791f53ab35cff02f186d4c47a3b3272d2fb5",
+    "pr_number": 2231,
+    "author": "joshua-hill",
+    "title": "Fix distributed AutoQuantize scoring and share backward setup",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "commit": "700e188ce5dc29030569dd092e4b4798ae3a5e20",
+    "pr_number": 2423,
+    "author": "realAsma",
+    "title": "Document copy-PR testing authorization",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
     "date": "2026-09-12",
     "commit": "51de53e48ccae8804f8fe1198b7cf89475c5c4f4",
     "pr_number": 2412,
