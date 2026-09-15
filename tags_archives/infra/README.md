@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-09-14 | [6878c0eb](https://github.com/NVIDIA/Model-Optimizer/commit/6878c0ebd2cf7999b3a9278f7b8d3c94c19e7614) | [#2428](https://github.com/NVIDIA/Model-Optimizer/pull/2428) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-09-14) |
+| 2026-09-14 | [3c877519](https://github.com/NVIDIA/Model-Optimizer/commit/3c87751903124deeb3cb5aaf17b19816cfd9d3de) | [#2426](https://github.com/NVIDIA/Model-Optimizer/pull/2426) | [@shengliangxu](https://github.com/shengliangxu) | `core` `example` `export` `infra` `onnx` `tests` `torch` | Deprecate the single-format quantization CLI flags in favour of --recipe |
 | 2026-09-13 | [700e188c](https://github.com/NVIDIA/Model-Optimizer/commit/700e188ce5dc29030569dd092e4b4798ae3a5e20) | [#2423](https://github.com/NVIDIA/Model-Optimizer/pull/2423) | [@realAsma](https://github.com/realAsma) | `infra` | Document copy-PR testing authorization |
 | 2026-09-12 | [51de53e4](https://github.com/NVIDIA/Model-Optimizer/commit/51de53e48ccae8804f8fe1198b7cf89475c5c4f4) | [#2412](https://github.com/NVIDIA/Model-Optimizer/pull/2412) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `quantization` `tests` | \[6463897\] Fix narrow FP16 histogram calibration |
 | 2026-09-11 | [59d93af0](https://github.com/NVIDIA/Model-Optimizer/commit/59d93af064dc5c4690347be57c5fbc6e3a695035) | [#2272](https://github.com/NVIDIA/Model-Optimizer/pull/2272) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570, OMNIML-5569\] 1/2 Add layer-wise KV-cache AutoQuant with forward KL |
@@ -583,4 +584,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 577 PRs**
+**Total: 578 PRs**

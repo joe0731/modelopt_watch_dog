@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-14 | [3c877519](https://github.com/NVIDIA/Model-Optimizer/commit/3c87751903124deeb3cb5aaf17b19816cfd9d3de) | [#2426](https://github.com/NVIDIA/Model-Optimizer/pull/2426) | [@shengliangxu](https://github.com/shengliangxu) | `core` `example` `export` `infra` `onnx` `tests` `torch` | Deprecate the single-format quantization CLI flags in favour of --recipe |
 | 2026-09-11 | [5d2d5a5d](https://github.com/NVIDIA/Model-Optimizer/commit/5d2d5a5d1505c316760f13072d691ca516c4a91a) | [#2371](https://github.com/NVIDIA/Model-Optimizer/pull/2371) | [@noeyy-mino](https://github.com/noeyy-mino) | `example` `sparsity` `torch` | deprecate trtllm-build in weight_sparsity |
 | 2026-09-11 | [bd90a5ed](https://github.com/NVIDIA/Model-Optimizer/commit/bd90a5ed511bab2227995b524fa2b37719b2bd7e) | [#2208](https://github.com/NVIDIA/Model-Optimizer/pull/2208) | [@ajrasane](https://github.com/ajrasane) | `example` `infra` `onnx` `quantization` `tests` | \[OMNIML-5774\] Add BEVFormer ONNX PTQ and evaluation example |
 | 2026-09-11 | [5b1f7e86](https://github.com/NVIDIA/Model-Optimizer/commit/5b1f7e86cc63732ac68b9f2fc205152e8de046a5) | [#2413](https://github.com/NVIDIA/Model-Optimizer/pull/2413) | [@ajrasane](https://github.com/ajrasane) | `docs` `example` `onnx` `quantization` `tests` | \[6701308\]\[OMNIML-5805\] Correct ONNX PTQ documentation contracts |
@@ -307,4 +308,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 301 PRs**
+**Total: 302 PRs**

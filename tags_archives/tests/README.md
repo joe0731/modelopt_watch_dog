@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-14 | [3c877519](https://github.com/NVIDIA/Model-Optimizer/commit/3c87751903124deeb3cb5aaf17b19816cfd9d3de) | [#2426](https://github.com/NVIDIA/Model-Optimizer/pull/2426) | [@shengliangxu](https://github.com/shengliangxu) | `core` `example` `export` `infra` `onnx` `tests` `torch` | Deprecate the single-format quantization CLI flags in favour of --recipe |
 | 2026-09-13 | [1030791f](https://github.com/NVIDIA/Model-Optimizer/commit/1030791f53ab35cff02f186d4c47a3b3272d2fb5) | [#2231](https://github.com/NVIDIA/Model-Optimizer/pull/2231) | [@joshua-hill](https://github.com/joshua-hill) | `quantization` `tests` `torch` | Fix distributed AutoQuantize scoring and share backward setup |
 | 2026-09-12 | [51de53e4](https://github.com/NVIDIA/Model-Optimizer/commit/51de53e48ccae8804f8fe1198b7cf89475c5c4f4) | [#2412](https://github.com/NVIDIA/Model-Optimizer/pull/2412) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `quantization` `tests` | \[6463897\] Fix narrow FP16 histogram calibration |
 | 2026-09-11 | [50013163](https://github.com/NVIDIA/Model-Optimizer/commit/50013163b9a6f047404d393c8076ac6ef2a32c80) | [#2390](https://github.com/NVIDIA/Model-Optimizer/pull/2390) | [@kaix-nv](https://github.com/kaix-nv) | `docs` `sparsity` `tests` `torch` | Validate DASC decay tensors consistently |
@@ -446,4 +447,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 440 PRs**
+**Total: 441 PRs**

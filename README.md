@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-09-14 | [3c877519](https://github.com/NVIDIA/Model-Optimizer/commit/3c87751903124deeb3cb5aaf17b19816cfd9d3de) | [#2426](https://github.com/NVIDIA/Model-Optimizer/pull/2426) | [@shengliangxu](https://github.com/shengliangxu) | `core` `example` `export` `infra` `onnx` `tests` `torch` | Deprecate the single-format quantization CLI flags in favour of --recipe |
 | 2026-09-14 | [6878c0eb](https://github.com/NVIDIA/Model-Optimizer/commit/6878c0ebd2cf7999b3a9278f7b8d3c94c19e7614) | [#2428](https://github.com/NVIDIA/Model-Optimizer/pull/2428) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-09-14) |
 | 2026-09-14 | [f70991f3](https://github.com/NVIDIA/Model-Optimizer/commit/f70991f36e697617bad7ca4d00459fff200377a9) | [#2255](https://github.com/NVIDIA/Model-Optimizer/pull/2255) | [@jenchen13](https://github.com/jenchen13) | `docs` | Docs: Add QAT and QAD guide \[OMNIML-4859\] |
 | 2026-09-13 | [1030791f](https://github.com/NVIDIA/Model-Optimizer/commit/1030791f53ab35cff02f186d4c47a3b3272d2fb5) | [#2231](https://github.com/NVIDIA/Model-Optimizer/pull/2231) | [@joshua-hill](https://github.com/joshua-hill) | `quantization` `tests` `torch` | Fix distributed AutoQuantize scoring and share backward setup |
