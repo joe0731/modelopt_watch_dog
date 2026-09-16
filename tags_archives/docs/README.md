@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-15 | [c7ed23a1](https://github.com/NVIDIA/Model-Optimizer/commit/c7ed23a1032507bee9e43d94ac858600dbeffaf9) | [#2328](https://github.com/NVIDIA/Model-Optimizer/pull/2328) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Rename modelopt_recipes/huggingface to model_type with backward-compat alias |
 | 2026-09-14 | [f70991f3](https://github.com/NVIDIA/Model-Optimizer/commit/f70991f36e697617bad7ca4d00459fff200377a9) | [#2255](https://github.com/NVIDIA/Model-Optimizer/pull/2255) | [@jenchen13](https://github.com/jenchen13) | `docs` | Docs: Add QAT and QAD guide \[OMNIML-4859\] |
 | 2026-09-11 | [50013163](https://github.com/NVIDIA/Model-Optimizer/commit/50013163b9a6f047404d393c8076ac6ef2a32c80) | [#2390](https://github.com/NVIDIA/Model-Optimizer/pull/2390) | [@kaix-nv](https://github.com/kaix-nv) | `docs` `sparsity` `tests` `torch` | Validate DASC decay tensors consistently |
 | 2026-09-11 | [02d8cfe7](https://github.com/NVIDIA/Model-Optimizer/commit/02d8cfe7332525e22dae57bdcfd0381b46cb4c78) | [#2391](https://github.com/NVIDIA/Model-Optimizer/pull/2391) | [@kaix-nv](https://github.com/kaix-nv) | `docs` `sparsity` `tests` `torch` | Tighten DASC calibration contract |
@@ -66,4 +67,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 60 PRs**
+**Total: 61 PRs**

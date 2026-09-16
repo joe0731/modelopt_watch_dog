@@ -8,6 +8,9 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-09-15 | [30f89908](https://github.com/NVIDIA/Model-Optimizer/commit/30f89908f080fed6b02d0e594b3c5321106de744) | [#2373](https://github.com/NVIDIA/Model-Optimizer/pull/2373) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | Audit missing labels before release cherry-picks |
+| 🟠 | **2026-09-15** | **[c7ed23a1](https://github.com/NVIDIA/Model-Optimizer/commit/c7ed23a1032507bee9e43d94ac858600dbeffaf9)** | **[#2328](https://github.com/NVIDIA/Model-Optimizer/pull/2328)** | **[@shengliangxu](https://github.com/shengliangxu)** | `core` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | **Rename modelopt_recipes/huggingface to model_type with backward-compat alias** |
+|  | 2026-09-15 | [6a4b3f14](https://github.com/NVIDIA/Model-Optimizer/commit/6a4b3f147e14a6fec690fedbced8df402344085d) | [#2339](https://github.com/NVIDIA/Model-Optimizer/pull/2339) | [@realAsma](https://github.com/realAsma) | `infra` `quantization` `tests` `torch` | \[Fix\] Calibrate non-decoder modules during layerwise quantization |
 |  | 2026-09-14 | [6878c0eb](https://github.com/NVIDIA/Model-Optimizer/commit/6878c0ebd2cf7999b3a9278f7b8d3c94c19e7614) | [#2428](https://github.com/NVIDIA/Model-Optimizer/pull/2428) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-09-14) |
 |  | 2026-09-14 | [f70991f3](https://github.com/NVIDIA/Model-Optimizer/commit/f70991f36e697617bad7ca4d00459fff200377a9) | [#2255](https://github.com/NVIDIA/Model-Optimizer/pull/2255) | [@jenchen13](https://github.com/jenchen13) | `docs` | Docs: Add QAT and QAD guide \[OMNIML-4859\] |
 | 🟠 | **2026-09-14** | **[3c877519](https://github.com/NVIDIA/Model-Optimizer/commit/3c87751903124deeb3cb5aaf17b19816cfd9d3de)** | **[#2426](https://github.com/NVIDIA/Model-Optimizer/pull/2426)** | **[@shengliangxu](https://github.com/shengliangxu)** | `core` `example` `export` `infra` `onnx` `tests` `torch` | **Deprecate the single-format quantization CLI flags in favour of --recipe** |
@@ -98,4 +101,4 @@
 |  | 2026-09-01 | [21b95ada](https://github.com/NVIDIA/Model-Optimizer/commit/21b95adabba3ab4f497937980497dee6bb69b207) | [#2083](https://github.com/NVIDIA/Model-Optimizer/pull/2083) | [@mpariente-nvda](https://github.com/mpariente-nvda) | `export` `infra` `tests` `torch` | Add FP8 Vision Encoder quantization for Qwen3-VL and Qwen3.5 |
 
 ---
-**Total: 88 PRs** | **Highlighted: 13**
+**Total: 91 PRs** | **Highlighted: 14**

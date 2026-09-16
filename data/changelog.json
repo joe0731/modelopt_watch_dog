@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-09-15",
+    "commit": "30f89908f080fed6b02d0e594b3c5321106de744",
+    "pr_number": 2373,
+    "author": "chadvoegele",
+    "title": "Audit missing labels before release cherry-picks",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "commit": "c7ed23a1032507bee9e43d94ac858600dbeffaf9",
+    "pr_number": 2328,
+    "author": "shengliangxu",
+    "title": "Rename modelopt_recipes/huggingface to model_type with backward-compat alias",
+    "tags": [
+      "core",
+      "docs",
+      "example",
+      "export",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-15",
+    "commit": "6a4b3f147e14a6fec690fedbced8df402344085d",
+    "pr_number": 2339,
+    "author": "realAsma",
+    "title": "[Fix] Calibrate non-decoder modules during layerwise quantization",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-09-14",
     "commit": "6878c0ebd2cf7999b3a9278f7b8d3c94c19e7614",
     "pr_number": 2428,

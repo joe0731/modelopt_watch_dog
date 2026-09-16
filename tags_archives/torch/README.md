@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-15 | [c7ed23a1](https://github.com/NVIDIA/Model-Optimizer/commit/c7ed23a1032507bee9e43d94ac858600dbeffaf9) | [#2328](https://github.com/NVIDIA/Model-Optimizer/pull/2328) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Rename modelopt_recipes/huggingface to model_type with backward-compat alias |
+| 2026-09-15 | [6a4b3f14](https://github.com/NVIDIA/Model-Optimizer/commit/6a4b3f147e14a6fec690fedbced8df402344085d) | [#2339](https://github.com/NVIDIA/Model-Optimizer/pull/2339) | [@realAsma](https://github.com/realAsma) | `infra` `quantization` `tests` `torch` | \[Fix\] Calibrate non-decoder modules during layerwise quantization |
 | 2026-09-14 | [3c877519](https://github.com/NVIDIA/Model-Optimizer/commit/3c87751903124deeb3cb5aaf17b19816cfd9d3de) | [#2426](https://github.com/NVIDIA/Model-Optimizer/pull/2426) | [@shengliangxu](https://github.com/shengliangxu) | `core` `example` `export` `infra` `onnx` `tests` `torch` | Deprecate the single-format quantization CLI flags in favour of --recipe |
 | 2026-09-13 | [1030791f](https://github.com/NVIDIA/Model-Optimizer/commit/1030791f53ab35cff02f186d4c47a3b3272d2fb5) | [#2231](https://github.com/NVIDIA/Model-Optimizer/pull/2231) | [@joshua-hill](https://github.com/joshua-hill) | `quantization` `tests` `torch` | Fix distributed AutoQuantize scoring and share backward setup |
 | 2026-09-11 | [1b2d4941](https://github.com/NVIDIA/Model-Optimizer/commit/1b2d49415bcdde3622b8ace1cf15ee7c830d586c) | [#2386](https://github.com/NVIDIA/Model-Optimizer/pull/2386) | [@kaix-nv](https://github.com/kaix-nv) | `sparsity` `torch` | Sort DASC modules by explicit name |
@@ -500,4 +502,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 494 PRs**
+**Total: 496 PRs**

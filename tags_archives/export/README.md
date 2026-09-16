@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-15 | [c7ed23a1](https://github.com/NVIDIA/Model-Optimizer/commit/c7ed23a1032507bee9e43d94ac858600dbeffaf9) | [#2328](https://github.com/NVIDIA/Model-Optimizer/pull/2328) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Rename modelopt_recipes/huggingface to model_type with backward-compat alias |
 | 2026-09-14 | [3c877519](https://github.com/NVIDIA/Model-Optimizer/commit/3c87751903124deeb3cb5aaf17b19816cfd9d3de) | [#2426](https://github.com/NVIDIA/Model-Optimizer/pull/2426) | [@shengliangxu](https://github.com/shengliangxu) | `core` `example` `export` `infra` `onnx` `tests` `torch` | Deprecate the single-format quantization CLI flags in favour of --recipe |
 | 2026-09-11 | [59d93af0](https://github.com/NVIDIA/Model-Optimizer/commit/59d93af064dc5c4690347be57c5fbc6e3a695035) | [#2272](https://github.com/NVIDIA/Model-Optimizer/pull/2272) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570, OMNIML-5569\] 1/2 Add layer-wise KV-cache AutoQuant with forward KL |
 | 2026-09-11 | [c5d10653](https://github.com/NVIDIA/Model-Optimizer/commit/c5d1065331c96819a20bc20e3346843666b88734) | [#1828](https://github.com/NVIDIA/Model-Optimizer/pull/1828) | [@h-guo18](https://github.com/h-guo18) | `export` `infra` `quantization` `tests` `torch` | Modeling Lib: per-model architecture kick off with spec registration |
@@ -170,4 +171,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 164 PRs**
+**Total: 165 PRs**
