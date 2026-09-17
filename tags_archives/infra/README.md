@@ -4,6 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-16 | [655f94c2](https://github.com/NVIDIA/Model-Optimizer/commit/655f94c207c94fdf0162543bf3f18d7143b1aa72) | [#2439](https://github.com/NVIDIA/Model-Optimizer/pull/2439) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Document the nvfp4_act_headroom calibration variant in ptq.md |
+| 2026-09-16 | [c118d359](https://github.com/NVIDIA/Model-Optimizer/commit/c118d359c1312be3f88883a87e59b8daf6f8d357) | [#2436](https://github.com/NVIDIA/Model-Optimizer/pull/2436) | [@chadvoegele](https://github.com/chadvoegele) | `docs` `infra` | docs: replace legacy TensorRT-LLM engine deployment guidance |
+| 2026-09-16 | [8025a3dc](https://github.com/NVIDIA/Model-Optimizer/commit/8025a3dc5481129aa21fef99cb13a879e1b5847e) | [#1835](https://github.com/NVIDIA/Model-Optimizer/pull/1835) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `infra` | specdec(recipe): add MiniMax-M2.7-DFlash streaming multi-node pipeline |
+| 2026-09-16 | [f68bf83c](https://github.com/NVIDIA/Model-Optimizer/commit/f68bf83cfa6b5017f7bbfb5018a9703b7b7530e2) | [#2437](https://github.com/NVIDIA/Model-Optimizer/pull/2437) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | Add published MiniMax M2.7 NVFP4 PTQ recipe |
+| 2026-09-16 | [a448ba97](https://github.com/NVIDIA/Model-Optimizer/commit/a448ba9757689f0e287bbdb293c75f8c3908b423) | [#2411](https://github.com/NVIDIA/Model-Optimizer/pull/2411) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `tests` `torch` | Add end-to-end W4A4 NVFP4 + QAD tutorial for Qwen3.6-35B-A3B |
+| 2026-09-16 | [b9cfdce8](https://github.com/NVIDIA/Model-Optimizer/commit/b9cfdce8dc7f0a358391eee363516fdd9dde55ac) | [#2417](https://github.com/NVIDIA/Model-Optimizer/pull/2417) | [@realAsma](https://github.com/realAsma) | `docs` `infra` `quantization` `tests` `torch` | docs: add Local Hessian NVFP4 weight-scale announcement blog |
 | 2026-09-15 | [30f89908](https://github.com/NVIDIA/Model-Optimizer/commit/30f89908f080fed6b02d0e594b3c5321106de744) | [#2373](https://github.com/NVIDIA/Model-Optimizer/pull/2373) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | Audit missing labels before release cherry-picks |
 | 2026-09-15 | [c7ed23a1](https://github.com/NVIDIA/Model-Optimizer/commit/c7ed23a1032507bee9e43d94ac858600dbeffaf9) | [#2328](https://github.com/NVIDIA/Model-Optimizer/pull/2328) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Rename modelopt_recipes/huggingface to model_type with backward-compat alias |
 | 2026-09-15 | [6a4b3f14](https://github.com/NVIDIA/Model-Optimizer/commit/6a4b3f147e14a6fec690fedbced8df402344085d) | [#2339](https://github.com/NVIDIA/Model-Optimizer/pull/2339) | [@realAsma](https://github.com/realAsma) | `infra` `quantization` `tests` `torch` | \[Fix\] Calibrate non-decoder modules during layerwise quantization |
@@ -587,4 +593,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 581 PRs**
+**Total: 587 PRs**

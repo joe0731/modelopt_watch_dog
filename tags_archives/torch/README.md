@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-16 | [a448ba97](https://github.com/NVIDIA/Model-Optimizer/commit/a448ba9757689f0e287bbdb293c75f8c3908b423) | [#2411](https://github.com/NVIDIA/Model-Optimizer/pull/2411) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `tests` `torch` | Add end-to-end W4A4 NVFP4 + QAD tutorial for Qwen3.6-35B-A3B |
+| 2026-09-16 | [b9cfdce8](https://github.com/NVIDIA/Model-Optimizer/commit/b9cfdce8dc7f0a358391eee363516fdd9dde55ac) | [#2417](https://github.com/NVIDIA/Model-Optimizer/pull/2417) | [@realAsma](https://github.com/realAsma) | `docs` `infra` `quantization` `tests` `torch` | docs: add Local Hessian NVFP4 weight-scale announcement blog |
 | 2026-09-15 | [c7ed23a1](https://github.com/NVIDIA/Model-Optimizer/commit/c7ed23a1032507bee9e43d94ac858600dbeffaf9) | [#2328](https://github.com/NVIDIA/Model-Optimizer/pull/2328) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Rename modelopt_recipes/huggingface to model_type with backward-compat alias |
 | 2026-09-15 | [6a4b3f14](https://github.com/NVIDIA/Model-Optimizer/commit/6a4b3f147e14a6fec690fedbced8df402344085d) | [#2339](https://github.com/NVIDIA/Model-Optimizer/pull/2339) | [@realAsma](https://github.com/realAsma) | `infra` `quantization` `tests` `torch` | \[Fix\] Calibrate non-decoder modules during layerwise quantization |
 | 2026-09-14 | [3c877519](https://github.com/NVIDIA/Model-Optimizer/commit/3c87751903124deeb3cb5aaf17b19816cfd9d3de) | [#2426](https://github.com/NVIDIA/Model-Optimizer/pull/2426) | [@shengliangxu](https://github.com/shengliangxu) | `core` `example` `export` `infra` `onnx` `tests` `torch` | Deprecate the single-format quantization CLI flags in favour of --recipe |
@@ -502,4 +504,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 496 PRs**
+**Total: 498 PRs**

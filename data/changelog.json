@@ -1,5 +1,76 @@
 [
   {
+    "date": "2026-09-16",
+    "commit": "655f94c207c94fdf0162543bf3f18d7143b1aa72",
+    "pr_number": 2439,
+    "author": "cjluo-nv",
+    "title": "Document the nvfp4_act_headroom calibration variant in ptq.md",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "commit": "c118d359c1312be3f88883a87e59b8daf6f8d357",
+    "pr_number": 2436,
+    "author": "chadvoegele",
+    "title": "docs: replace legacy TensorRT-LLM engine deployment guidance",
+    "tags": [
+      "docs",
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "commit": "8025a3dc5481129aa21fef99cb13a879e1b5847e",
+    "pr_number": 1835,
+    "author": "yeyu-nvidia",
+    "title": "specdec(recipe): add MiniMax-M2.7-DFlash streaming multi-node pipeline",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "commit": "f68bf83cfa6b5017f7bbfb5018a9703b7b7530e2",
+    "pr_number": 2437,
+    "author": "chadvoegele",
+    "title": "Add published MiniMax M2.7 NVFP4 PTQ recipe",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "commit": "a448ba9757689f0e287bbdb293c75f8c3908b423",
+    "pr_number": 2411,
+    "author": "kevalmorabia97",
+    "title": "Add end-to-end W4A4 NVFP4 + QAD tutorial for Qwen3.6-35B-A3B",
+    "tags": [
+      "core",
+      "docs",
+      "example",
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-16",
+    "commit": "b9cfdce8dc7f0a358391eee363516fdd9dde55ac",
+    "pr_number": 2417,
+    "author": "realAsma",
+    "title": "docs: add Local Hessian NVFP4 weight-scale announcement blog",
+    "tags": [
+      "docs",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-09-15",
     "commit": "30f89908f080fed6b02d0e594b3c5321106de744",
     "pr_number": 2373,
