@@ -4,6 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-18 | [9e3d555a](https://github.com/NVIDIA/Model-Optimizer/commit/9e3d555aa16038f7b46a631ca603351146c09123) | [#2446](https://github.com/NVIDIA/Model-Optimizer/pull/2446) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add IQ quantization codecs and backend |
+| 2026-09-17 | [2ff2e1bc](https://github.com/NVIDIA/Model-Optimizer/commit/2ff2e1bc8045f465d974d1e936e75c3f8099a69e) | [#2448](https://github.com/NVIDIA/Model-Optimizer/pull/2448) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add CUDA kernels for IQ packing |
+| 2026-09-17 | [f377b771](https://github.com/NVIDIA/Model-Optimizer/commit/f377b77116a4b34c11907b5c47a49e8b858d709d) | [#2432](https://github.com/NVIDIA/Model-Optimizer/pull/2432) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | Fail fast on non-finite AutoQuantize output gradients |
+| 2026-09-17 | [b1635677](https://github.com/NVIDIA/Model-Optimizer/commit/b16356776b8dd329059985dea6fc98d26bf07d94) | [#2462](https://github.com/NVIDIA/Model-Optimizer/pull/2462) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Build the GGML IQ packing kernels as a single CUDA extension |
 | 2026-09-16 | [b9cfdce8](https://github.com/NVIDIA/Model-Optimizer/commit/b9cfdce8dc7f0a358391eee363516fdd9dde55ac) | [#2417](https://github.com/NVIDIA/Model-Optimizer/pull/2417) | [@realAsma](https://github.com/realAsma) | `docs` `infra` `quantization` `tests` `torch` | docs: add Local Hessian NVFP4 weight-scale announcement blog |
 | 2026-09-15 | [c7ed23a1](https://github.com/NVIDIA/Model-Optimizer/commit/c7ed23a1032507bee9e43d94ac858600dbeffaf9) | [#2328](https://github.com/NVIDIA/Model-Optimizer/pull/2328) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Rename modelopt_recipes/huggingface to model_type with backward-compat alias |
 | 2026-09-15 | [6a4b3f14](https://github.com/NVIDIA/Model-Optimizer/commit/6a4b3f147e14a6fec690fedbced8df402344085d) | [#2339](https://github.com/NVIDIA/Model-Optimizer/pull/2339) | [@realAsma](https://github.com/realAsma) | `infra` `quantization` `tests` `torch` | \[Fix\] Calibrate non-decoder modules during layerwise quantization |
@@ -308,4 +312,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 302 PRs**
+**Total: 306 PRs**

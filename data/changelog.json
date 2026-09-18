@@ -1,5 +1,149 @@
 [
   {
+    "date": "2026-09-18",
+    "commit": "2f4da27ba59d0ceb3db537f5028acc4f2d24b1b9",
+    "pr_number": 2457,
+    "author": "ajrasane",
+    "title": "Add calibrated ONNX quantization characterization tests",
+    "tags": [
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "commit": "9895d6f129b6c804e0e83fc07217d2f2c1d7dbe0",
+    "pr_number": 2451,
+    "author": "ajrasane",
+    "title": "[6771663] Preserve ONNX API output types when wiring casts",
+    "tags": [
+      "infra",
+      "onnx",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-09-18",
+    "commit": "9e3d555aa16038f7b46a631ca603351146c09123",
+    "pr_number": 2446,
+    "author": "hychiang-git",
+    "title": "[OMNIML-5899] Add IQ quantization codecs and backend",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "commit": "835c041c589677fad68c0bfa0ebc4f58285c0779",
+    "pr_number": 2410,
+    "author": "yeyu-nvidia",
+    "title": "fix(specdec): resolve the eagle aux-layer preset in the vLLM hidden-state dump",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "commit": "2ff2e1bc8045f465d974d1e936e75c3f8099a69e",
+    "pr_number": 2448,
+    "author": "hychiang-git",
+    "title": "[OMNIML-5899] Add CUDA kernels for IQ packing",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "commit": "216f28a6e09001c5dc981ed84b815ddf42e293a1",
+    "pr_number": 2201,
+    "author": "yeyu-nvidia",
+    "title": "Consolidate speculative-decoding agent skills into one stage/algorithm tree",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "commit": "f377b77116a4b34c11907b5c47a49e8b858d709d",
+    "pr_number": 2432,
+    "author": "meenchen",
+    "title": "Fail fast on non-finite AutoQuantize output gradients",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "commit": "ad1bad7817371c1229cabe483067754ebd37a241",
+    "pr_number": 2458,
+    "author": "yeyu-nvidia",
+    "title": "fix(specdec): gather sharded hidden states in DFlash/DSpark AR generation",
+    "tags": [
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "commit": "542012d4d5ac2c0911cafc9970e79177c7fcc637",
+    "pr_number": 2463,
+    "author": "cjluo-nv",
+    "title": "Update CODEOWNERS",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "commit": "b16356776b8dd329059985dea6fc98d26bf07d94",
+    "pr_number": 2462,
+    "author": "cjluo-nv",
+    "title": "Build the GGML IQ packing kernels as a single CUDA extension",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "commit": "2b1f33d0efecafcaf940047144d662b00aa36c2a",
+    "pr_number": 2460,
+    "author": "yeyu-nvidia",
+    "title": "docs(recipes): point chat_template at where the templates actually live",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-17",
+    "commit": "02b58eb14653f9500eda2e3ccfef88a7af82e2ee",
+    "pr_number": 2414,
+    "author": "kinjalpatel27",
+    "title": "Fix vLLM fakequant calibration for hybrid attention models",
+    "tags": [
+      "deploy",
+      "example",
+      "tests",
+      "vllm"
+    ]
+  },
+  {
     "date": "2026-09-16",
     "commit": "655f94c207c94fdf0162543bf3f18d7143b1aa72",
     "pr_number": 2439,

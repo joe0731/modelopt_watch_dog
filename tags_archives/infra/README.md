@@ -4,6 +4,15 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-18 | [9895d6f1](https://github.com/NVIDIA/Model-Optimizer/commit/9895d6f129b6c804e0e83fc07217d2f2c1d7dbe0) | [#2451](https://github.com/NVIDIA/Model-Optimizer/pull/2451) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `tests` | \[6771663\] Preserve ONNX API output types when wiring casts |
+| 2026-09-18 | [9e3d555a](https://github.com/NVIDIA/Model-Optimizer/commit/9e3d555aa16038f7b46a631ca603351146c09123) | [#2446](https://github.com/NVIDIA/Model-Optimizer/pull/2446) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add IQ quantization codecs and backend |
+| 2026-09-17 | [835c041c](https://github.com/NVIDIA/Model-Optimizer/commit/835c041c589677fad68c0bfa0ebc4f58285c0779) | [#2410](https://github.com/NVIDIA/Model-Optimizer/pull/2410) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `infra` `speculative_decoding` `tests` `torch` | fix(specdec): resolve the eagle aux-layer preset in the vLLM hidden-state dump |
+| 2026-09-17 | [2ff2e1bc](https://github.com/NVIDIA/Model-Optimizer/commit/2ff2e1bc8045f465d974d1e936e75c3f8099a69e) | [#2448](https://github.com/NVIDIA/Model-Optimizer/pull/2448) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add CUDA kernels for IQ packing |
+| 2026-09-17 | [216f28a6](https://github.com/NVIDIA/Model-Optimizer/commit/216f28a6e09001c5dc981ed84b815ddf42e293a1) | [#2201](https://github.com/NVIDIA/Model-Optimizer/pull/2201) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `infra` | Consolidate speculative-decoding agent skills into one stage/algorithm tree |
+| 2026-09-17 | [f377b771](https://github.com/NVIDIA/Model-Optimizer/commit/f377b77116a4b34c11907b5c47a49e8b858d709d) | [#2432](https://github.com/NVIDIA/Model-Optimizer/pull/2432) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | Fail fast on non-finite AutoQuantize output gradients |
+| 2026-09-17 | [542012d4](https://github.com/NVIDIA/Model-Optimizer/commit/542012d4d5ac2c0911cafc9970e79177c7fcc637) | [#2463](https://github.com/NVIDIA/Model-Optimizer/pull/2463) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Update CODEOWNERS |
+| 2026-09-17 | [b1635677](https://github.com/NVIDIA/Model-Optimizer/commit/b16356776b8dd329059985dea6fc98d26bf07d94) | [#2462](https://github.com/NVIDIA/Model-Optimizer/pull/2462) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` `quantization` `tests` `torch` | Build the GGML IQ packing kernels as a single CUDA extension |
+| 2026-09-17 | [2b1f33d0](https://github.com/NVIDIA/Model-Optimizer/commit/2b1f33d0efecafcaf940047144d662b00aa36c2a) | [#2460](https://github.com/NVIDIA/Model-Optimizer/pull/2460) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `infra` | docs(recipes): point chat_template at where the templates actually live |
 | 2026-09-16 | [655f94c2](https://github.com/NVIDIA/Model-Optimizer/commit/655f94c207c94fdf0162543bf3f18d7143b1aa72) | [#2439](https://github.com/NVIDIA/Model-Optimizer/pull/2439) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Document the nvfp4_act_headroom calibration variant in ptq.md |
 | 2026-09-16 | [c118d359](https://github.com/NVIDIA/Model-Optimizer/commit/c118d359c1312be3f88883a87e59b8daf6f8d357) | [#2436](https://github.com/NVIDIA/Model-Optimizer/pull/2436) | [@chadvoegele](https://github.com/chadvoegele) | `docs` `infra` | docs: replace legacy TensorRT-LLM engine deployment guidance |
 | 2026-09-16 | [8025a3dc](https://github.com/NVIDIA/Model-Optimizer/commit/8025a3dc5481129aa21fef99cb13a879e1b5847e) | [#1835](https://github.com/NVIDIA/Model-Optimizer/pull/1835) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `infra` | specdec(recipe): add MiniMax-M2.7-DFlash streaming multi-node pipeline |
@@ -593,4 +602,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 587 PRs**
+**Total: 596 PRs**
