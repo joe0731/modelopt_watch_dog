@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-18 | [d23030f9](https://github.com/NVIDIA/Model-Optimizer/commit/d23030f91dc52aec18b93df657dd588ad50d49de) | [#1992](https://github.com/NVIDIA/Model-Optimizer/pull/1992) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[1/n\] Adds skip-softmax calibration through the vLLM serving path |
 | 2026-09-11 | [1b2d4941](https://github.com/NVIDIA/Model-Optimizer/commit/1b2d49415bcdde3622b8ace1cf15ee7c830d586c) | [#2386](https://github.com/NVIDIA/Model-Optimizer/pull/2386) | [@kaix-nv](https://github.com/kaix-nv) | `sparsity` `torch` | Sort DASC modules by explicit name |
 | 2026-09-11 | [28b1f1a9](https://github.com/NVIDIA/Model-Optimizer/commit/28b1f1a9747214196bb6b65b03d8a12843ac24a3) | [#2393](https://github.com/NVIDIA/Model-Optimizer/pull/2393) | [@kaix-nv](https://github.com/kaix-nv) | `sparsity` `torch` | Clarify DASC rounding dtype selection |
 | 2026-09-11 | [50013163](https://github.com/NVIDIA/Model-Optimizer/commit/50013163b9a6f047404d393c8076ac6ef2a32c80) | [#2390](https://github.com/NVIDIA/Model-Optimizer/pull/2390) | [@kaix-nv](https://github.com/kaix-nv) | `docs` `sparsity` `tests` `torch` | Validate DASC decay tensors consistently |
@@ -53,4 +54,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 47 PRs**
+**Total: 48 PRs**

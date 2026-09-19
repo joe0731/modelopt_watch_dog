@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-18 | [cf1f48fa](https://github.com/NVIDIA/Model-Optimizer/commit/cf1f48fa0f7a10684c6f981930e93a6e9eb34225) | [#2336](https://github.com/NVIDIA/Model-Optimizer/pull/2336) | [@ajrasane](https://github.com/ajrasane) | `diffusers` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[5565357\] Fix SDXL NVFP4 export and performance |
 | 2026-08-27 | [449a3992](https://github.com/NVIDIA/Model-Optimizer/commit/449a39922b5f5d45b963e43330f62057db4b2209) | [#2260](https://github.com/NVIDIA/Model-Optimizer/pull/2260) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `diffusers` `example` `torch` | Pin nemo_automodel below 0.6 for the fastgen example |
 | 2026-08-15 | [43fd41a5](https://github.com/NVIDIA/Model-Optimizer/commit/43fd41a58d52c4e6e5dec1d1ff5989ecc737ae1a) | [#2199](https://github.com/NVIDIA/Model-Optimizer/pull/2199) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `diffusers` `docs` `example` `export` `infra` `quantization` `speculative_decoding` `tests` `torch` | \[Cherry-pick\] PRs #2172 #2087 #2152 #2060 #2008 #2194 |
 | 2026-08-12 | [6261f854](https://github.com/NVIDIA/Model-Optimizer/commit/6261f854aa2415c0b790de15b38e58af0e918482) | [#2087](https://github.com/NVIDIA/Model-Optimizer/pull/2087) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `diffusers` `docs` `example` `infra` `torch` | docs: rebuild the unified HF deployment support matrix from the deploy test suite (NVBug 6550792) |
@@ -38,4 +39,4 @@
 | 2026-01-15 | [e6e4efd6](https://github.com/NVIDIA/Model-Optimizer/commit/e6e4efd61efcc87de10a6a72274e2017cbc13438) | [#783](https://github.com/NVIDIA/Model-Optimizer/pull/783) | [@jingyu-ml](https://github.com/jingyu-ml) | `diffusers` `eval` `example` `export` `quantization` `torch` | \[0.5/3\] Diffusion ckpt export for NVFP4 & FP8 |
 
 ---
-**Total: 32 PRs**
+**Total: 33 PRs**

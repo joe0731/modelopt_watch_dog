@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-18 | [cf1f48fa](https://github.com/NVIDIA/Model-Optimizer/commit/cf1f48fa0f7a10684c6f981930e93a6e9eb34225) | [#2336](https://github.com/NVIDIA/Model-Optimizer/pull/2336) | [@ajrasane](https://github.com/ajrasane) | `diffusers` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[5565357\] Fix SDXL NVFP4 export and performance |
+| 2026-09-18 | [d23030f9](https://github.com/NVIDIA/Model-Optimizer/commit/d23030f91dc52aec18b93df657dd588ad50d49de) | [#1992](https://github.com/NVIDIA/Model-Optimizer/pull/1992) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[1/n\] Adds skip-softmax calibration through the vLLM serving path |
 | 2026-09-17 | [835c041c](https://github.com/NVIDIA/Model-Optimizer/commit/835c041c589677fad68c0bfa0ebc4f58285c0779) | [#2410](https://github.com/NVIDIA/Model-Optimizer/pull/2410) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `infra` `speculative_decoding` `tests` `torch` | fix(specdec): resolve the eagle aux-layer preset in the vLLM hidden-state dump |
 | 2026-09-17 | [02b58eb1](https://github.com/NVIDIA/Model-Optimizer/commit/02b58eb14653f9500eda2e3ccfef88a7af82e2ee) | [#2414](https://github.com/NVIDIA/Model-Optimizer/pull/2414) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `tests` `vllm` | Fix vLLM fakequant calibration for hybrid attention models |
 | 2026-09-16 | [a448ba97](https://github.com/NVIDIA/Model-Optimizer/commit/a448ba9757689f0e287bbdb293c75f8c3908b423) | [#2411](https://github.com/NVIDIA/Model-Optimizer/pull/2411) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `tests` `torch` | Add end-to-end W4A4 NVFP4 + QAD tutorial for Qwen3.6-35B-A3B |
@@ -312,4 +314,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 306 PRs**
+**Total: 308 PRs**

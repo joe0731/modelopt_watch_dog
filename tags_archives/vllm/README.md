@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-18 | [d23030f9](https://github.com/NVIDIA/Model-Optimizer/commit/d23030f91dc52aec18b93df657dd588ad50d49de) | [#1992](https://github.com/NVIDIA/Model-Optimizer/pull/1992) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[1/n\] Adds skip-softmax calibration through the vLLM serving path |
 | 2026-09-17 | [02b58eb1](https://github.com/NVIDIA/Model-Optimizer/commit/02b58eb14653f9500eda2e3ccfef88a7af82e2ee) | [#2414](https://github.com/NVIDIA/Model-Optimizer/pull/2414) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `tests` `vllm` | Fix vLLM fakequant calibration for hybrid attention models |
 | 2026-09-10 | [a74054ab](https://github.com/NVIDIA/Model-Optimizer/commit/a74054ab2b56d2a3e45a7600e112bd334abd35ee) | [#2364](https://github.com/NVIDIA/Model-Optimizer/pull/2364) | [@cjluo-nv](https://github.com/cjluo-nv) | `deploy` `example` `vllm` | Let callers add MLflow tags to a fakequant serve's run |
 | 2026-08-13 | [b96841db](https://github.com/NVIDIA/Model-Optimizer/commit/b96841db3e161763c552db627d55e28ea90de950) | [#2120](https://github.com/NVIDIA/Model-Optimizer/pull/2120) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add optional MLflow tracking to the vLLM fake-quant server |
@@ -27,4 +28,4 @@
 | 2026-03-24 | [a108883c](https://github.com/NVIDIA/Model-Optimizer/commit/a108883ccad9ae1cec059d9c0eae935d00b7d316) | [#1068](https://github.com/NVIDIA/Model-Optimizer/pull/1068) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `eval` `example` `quantization` `torch` `vllm` | Fridah/kinjal/vllm modelopt reload |
 
 ---
-**Total: 21 PRs**
+**Total: 22 PRs**

@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-19 | [ed5c5ed3](https://github.com/NVIDIA/Model-Optimizer/commit/ed5c5ed369edea9ea6a3438d96576d1c65121cbb) | [#2447](https://github.com/NVIDIA/Model-Optimizer/pull/2447) | [@hychiang-git](https://github.com/hychiang-git) | `core` `docs` `export` `tests` `torch` | \[OMNIML-5899\] Export IQ checkpoints from HF and Megatron |
+| 2026-09-18 | [76c04dfd](https://github.com/NVIDIA/Model-Optimizer/commit/76c04dfd990660c8a87ae700a89e040a03f278a5) | [#2469](https://github.com/NVIDIA/Model-Optimizer/pull/2469) | [@DIYA73](https://github.com/DIYA73) | `docs` | docs: clarify canonical pruning documentation source (#1871) |
 | 2026-09-16 | [c118d359](https://github.com/NVIDIA/Model-Optimizer/commit/c118d359c1312be3f88883a87e59b8daf6f8d357) | [#2436](https://github.com/NVIDIA/Model-Optimizer/pull/2436) | [@chadvoegele](https://github.com/chadvoegele) | `docs` `infra` | docs: replace legacy TensorRT-LLM engine deployment guidance |
 | 2026-09-16 | [a448ba97](https://github.com/NVIDIA/Model-Optimizer/commit/a448ba9757689f0e287bbdb293c75f8c3908b423) | [#2411](https://github.com/NVIDIA/Model-Optimizer/pull/2411) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `tests` `torch` | Add end-to-end W4A4 NVFP4 + QAD tutorial for Qwen3.6-35B-A3B |
 | 2026-09-16 | [b9cfdce8](https://github.com/NVIDIA/Model-Optimizer/commit/b9cfdce8dc7f0a358391eee363516fdd9dde55ac) | [#2417](https://github.com/NVIDIA/Model-Optimizer/pull/2417) | [@realAsma](https://github.com/realAsma) | `docs` `infra` `quantization` `tests` `torch` | docs: add Local Hessian NVFP4 weight-scale announcement blog |
@@ -70,4 +72,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 64 PRs**
+**Total: 66 PRs**

@@ -4,7 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-19 | [ed5c5ed3](https://github.com/NVIDIA/Model-Optimizer/commit/ed5c5ed369edea9ea6a3438d96576d1c65121cbb) | [#2447](https://github.com/NVIDIA/Model-Optimizer/pull/2447) | [@hychiang-git](https://github.com/hychiang-git) | `core` `docs` `export` `tests` `torch` | \[OMNIML-5899\] Export IQ checkpoints from HF and Megatron |
+| 2026-09-19 | [b311c054](https://github.com/NVIDIA/Model-Optimizer/commit/b311c054de4052df9c7f3de9409b7598f44a0dba) | [#2452](https://github.com/NVIDIA/Model-Optimizer/pull/2452) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `nas` `tests` `torch` | Fix hybrid stack spec serialization in Megatron-Bridge checkpoints |
 | 2026-09-18 | [9e3d555a](https://github.com/NVIDIA/Model-Optimizer/commit/9e3d555aa16038f7b46a631ca603351146c09123) | [#2446](https://github.com/NVIDIA/Model-Optimizer/pull/2446) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add IQ quantization codecs and backend |
+| 2026-09-18 | [cf1f48fa](https://github.com/NVIDIA/Model-Optimizer/commit/cf1f48fa0f7a10684c6f981930e93a6e9eb34225) | [#2336](https://github.com/NVIDIA/Model-Optimizer/pull/2336) | [@ajrasane](https://github.com/ajrasane) | `diffusers` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[5565357\] Fix SDXL NVFP4 export and performance |
+| 2026-09-18 | [d23030f9](https://github.com/NVIDIA/Model-Optimizer/commit/d23030f91dc52aec18b93df657dd588ad50d49de) | [#1992](https://github.com/NVIDIA/Model-Optimizer/pull/1992) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[1/n\] Adds skip-softmax calibration through the vLLM serving path |
 | 2026-09-17 | [835c041c](https://github.com/NVIDIA/Model-Optimizer/commit/835c041c589677fad68c0bfa0ebc4f58285c0779) | [#2410](https://github.com/NVIDIA/Model-Optimizer/pull/2410) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `infra` `speculative_decoding` `tests` `torch` | fix(specdec): resolve the eagle aux-layer preset in the vLLM hidden-state dump |
 | 2026-09-17 | [2ff2e1bc](https://github.com/NVIDIA/Model-Optimizer/commit/2ff2e1bc8045f465d974d1e936e75c3f8099a69e) | [#2448](https://github.com/NVIDIA/Model-Optimizer/pull/2448) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add CUDA kernels for IQ packing |
 | 2026-09-17 | [f377b771](https://github.com/NVIDIA/Model-Optimizer/commit/f377b77116a4b34c11907b5c47a49e8b858d709d) | [#2432](https://github.com/NVIDIA/Model-Optimizer/pull/2432) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | Fail fast on non-finite AutoQuantize output gradients |
@@ -510,4 +514,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 504 PRs**
+**Total: 508 PRs**

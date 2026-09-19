@@ -6,6 +6,8 @@
 |------|--------|-------|--------|----------|-------------|
 | 2026-09-18 | [2f4da27b](https://github.com/NVIDIA/Model-Optimizer/commit/2f4da27ba59d0ceb3db537f5028acc4f2d24b1b9) | [#2457](https://github.com/NVIDIA/Model-Optimizer/pull/2457) | [@ajrasane](https://github.com/ajrasane) | `onnx` `tests` | Add calibrated ONNX quantization characterization tests |
 | 2026-09-18 | [9895d6f1](https://github.com/NVIDIA/Model-Optimizer/commit/9895d6f129b6c804e0e83fc07217d2f2c1d7dbe0) | [#2451](https://github.com/NVIDIA/Model-Optimizer/pull/2451) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `tests` | \[6771663\] Preserve ONNX API output types when wiring casts |
+| 2026-09-18 | [17ef5b6c](https://github.com/NVIDIA/Model-Optimizer/commit/17ef5b6c39bcb170344b6717764b6562570aa806) | [#2468](https://github.com/NVIDIA/Model-Optimizer/pull/2468) | [@ajrasane](https://github.com/ajrasane) | `export` `infra` `onnx` `quantization` `tests` | Split calibrated ONNX graph capabilities |
+| 2026-09-18 | [cf1f48fa](https://github.com/NVIDIA/Model-Optimizer/commit/cf1f48fa0f7a10684c6f981930e93a6e9eb34225) | [#2336](https://github.com/NVIDIA/Model-Optimizer/pull/2336) | [@ajrasane](https://github.com/ajrasane) | `diffusers` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[5565357\] Fix SDXL NVFP4 export and performance |
 | 2026-09-15 | [c7ed23a1](https://github.com/NVIDIA/Model-Optimizer/commit/c7ed23a1032507bee9e43d94ac858600dbeffaf9) | [#2328](https://github.com/NVIDIA/Model-Optimizer/pull/2328) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | Rename modelopt_recipes/huggingface to model_type with backward-compat alias |
 | 2026-09-14 | [3c877519](https://github.com/NVIDIA/Model-Optimizer/commit/3c87751903124deeb3cb5aaf17b19816cfd9d3de) | [#2426](https://github.com/NVIDIA/Model-Optimizer/pull/2426) | [@shengliangxu](https://github.com/shengliangxu) | `core` `example` `export` `infra` `onnx` `tests` `torch` | Deprecate the single-format quantization CLI flags in favour of --recipe |
 | 2026-09-12 | [51de53e4](https://github.com/NVIDIA/Model-Optimizer/commit/51de53e48ccae8804f8fe1198b7cf89475c5c4f4) | [#2412](https://github.com/NVIDIA/Model-Optimizer/pull/2412) | [@ajrasane](https://github.com/ajrasane) | `infra` `onnx` `quantization` `tests` | \[6463897\] Fix narrow FP16 histogram calibration |
@@ -118,4 +120,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 112 PRs**
+**Total: 114 PRs**
