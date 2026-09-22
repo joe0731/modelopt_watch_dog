@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-22 | [d0142c9d](https://github.com/NVIDIA/Model-Optimizer/commit/d0142c9dcad8f456caa482407960dc9cb5f0e710) | [#2376](https://github.com/NVIDIA/Model-Optimizer/pull/2376) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `infra` `tests` `torch` | Reuse a whole recipe via $import, deprecate recipe_type, and start the published-checkpoint backfill with two aliases |
+| 2026-09-21 | [f1abc756](https://github.com/NVIDIA/Model-Optimizer/commit/f1abc75626b88c49ae9e0426c2032bf273e46e25) | [#2427](https://github.com/NVIDIA/Model-Optimizer/pull/2427) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `speculative_decoding` `tests` `torch` | Carry unplaced checkpoint weights using the loader's accounting, replacing MTP name-matching |
 | 2026-09-19 | [ed5c5ed3](https://github.com/NVIDIA/Model-Optimizer/commit/ed5c5ed369edea9ea6a3438d96576d1c65121cbb) | [#2447](https://github.com/NVIDIA/Model-Optimizer/pull/2447) | [@hychiang-git](https://github.com/hychiang-git) | `core` `docs` `export` `tests` `torch` | \[OMNIML-5899\] Export IQ checkpoints from HF and Megatron |
 | 2026-09-19 | [b311c054](https://github.com/NVIDIA/Model-Optimizer/commit/b311c054de4052df9c7f3de9409b7598f44a0dba) | [#2452](https://github.com/NVIDIA/Model-Optimizer/pull/2452) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `nas` `tests` `torch` | Fix hybrid stack spec serialization in Megatron-Bridge checkpoints |
 | 2026-09-16 | [a448ba97](https://github.com/NVIDIA/Model-Optimizer/commit/a448ba9757689f0e287bbdb293c75f8c3908b423) | [#2411](https://github.com/NVIDIA/Model-Optimizer/pull/2411) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `infra` `tests` `torch` | Add end-to-end W4A4 NVFP4 + QAD tutorial for Qwen3.6-35B-A3B |
@@ -166,4 +168,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 160 PRs**
+**Total: 162 PRs**

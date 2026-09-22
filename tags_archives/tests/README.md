@@ -4,6 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-22 | [d0142c9d](https://github.com/NVIDIA/Model-Optimizer/commit/d0142c9dcad8f456caa482407960dc9cb5f0e710) | [#2376](https://github.com/NVIDIA/Model-Optimizer/pull/2376) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `infra` `tests` `torch` | Reuse a whole recipe via $import, deprecate recipe_type, and start the published-checkpoint backfill with two aliases |
+| 2026-09-22 | [5bb73435](https://github.com/NVIDIA/Model-Optimizer/commit/5bb734359217167cd27e85eea56b06c2093b86c9) | [#2434](https://github.com/NVIDIA/Model-Optimizer/pull/2434) | [@yingguo-trt](https://github.com/yingguo-trt) | `quantization` `tests` `torch` | \[https://nvbugspro.nvidia.com/bug/6778095\] Fix fused P-QDQ to respect disabled quantization during calibration |
+| 2026-09-22 | [1b4e7dfb](https://github.com/NVIDIA/Model-Optimizer/commit/1b4e7dfb146fe4450d206ebfd430d66ddd4b3536) | [#2449](https://github.com/NVIDIA/Model-Optimizer/pull/2449) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add IQ post-training quantization recipes |
+| 2026-09-21 | [fc4c40fc](https://github.com/NVIDIA/Model-Optimizer/commit/fc4c40fcbefa4075e4a14c8c3afad99bce30eed1) | [#2438](https://github.com/NVIDIA/Model-Optimizer/pull/2438) | [@yueshen2016](https://github.com/yueshen2016) | `infra` `quantization` `tests` `torch` | Fix HF export crash when a dynamic-block quantizer has zero amax |
+| 2026-09-21 | [f1abc756](https://github.com/NVIDIA/Model-Optimizer/commit/f1abc75626b88c49ae9e0426c2032bf273e46e25) | [#2427](https://github.com/NVIDIA/Model-Optimizer/pull/2427) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `speculative_decoding` `tests` `torch` | Carry unplaced checkpoint weights using the loader's accounting, replacing MTP name-matching |
 | 2026-09-19 | [ed5c5ed3](https://github.com/NVIDIA/Model-Optimizer/commit/ed5c5ed369edea9ea6a3438d96576d1c65121cbb) | [#2447](https://github.com/NVIDIA/Model-Optimizer/pull/2447) | [@hychiang-git](https://github.com/hychiang-git) | `core` `docs` `export` `tests` `torch` | \[OMNIML-5899\] Export IQ checkpoints from HF and Megatron |
 | 2026-09-19 | [0a8e7080](https://github.com/NVIDIA/Model-Optimizer/commit/0a8e70804a8c60ac6618ec75151d1bb49fb48fcb) | [#2480](https://github.com/NVIDIA/Model-Optimizer/pull/2480) | [@Edwardf0t1](https://github.com/Edwardf0t1) | `infra` `tests` | Fix hf_ptq.py discarding completed PTQ run on sanity-generate() failure |
 | 2026-09-19 | [b311c054](https://github.com/NVIDIA/Model-Optimizer/commit/b311c054de4052df9c7f3de9409b7598f44a0dba) | [#2452](https://github.com/NVIDIA/Model-Optimizer/pull/2452) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `infra` `nas` `tests` `torch` | Fix hybrid stack spec serialization in Megatron-Bridge checkpoints |
@@ -466,4 +471,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 460 PRs**
+**Total: 465 PRs**

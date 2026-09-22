@@ -1,5 +1,112 @@
 [
   {
+    "date": "2026-09-22",
+    "commit": "d0142c9dcad8f456caa482407960dc9cb5f0e710",
+    "pr_number": 2376,
+    "author": "shengliangxu",
+    "title": "Reuse a whole recipe via $import, deprecate recipe_type, and start the published-checkpoint backfill with two aliases",
+    "tags": [
+      "core",
+      "docs",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "commit": "ee5c2562047351465e5942d2dbb6f2c01e6495a9",
+    "pr_number": 2402,
+    "author": "noeyy-mino",
+    "title": "[https://nvbugs/6701777] Explicitly exclude nn.LayerNorm from the diffusers NVFP4 presets.",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "commit": "7a35cada394ccd1c54d7e2b9bb92e780595f3ebf",
+    "pr_number": 2494,
+    "author": "cjluo-nv",
+    "title": "Add guidance on sizing and splitting PRs to AGENTS.md",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "commit": "5bb734359217167cd27e85eea56b06c2093b86c9",
+    "pr_number": 2434,
+    "author": "yingguo-trt",
+    "title": "[https://nvbugspro.nvidia.com/bug/6778095] Fix fused P-QDQ to respect disabled quantization during calibration",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "commit": "1b4e7dfb146fe4450d206ebfd430d66ddd4b3536",
+    "pr_number": 2449,
+    "author": "hychiang-git",
+    "title": "[OMNIML-5899] Add IQ post-training quantization recipes",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-22",
+    "commit": "7159c01d9d909ca2431db6332363f07b2137ac09",
+    "pr_number": 2490,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-09-21)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "commit": "fc4c40fcbefa4075e4a14c8c3afad99bce30eed1",
+    "pr_number": 2438,
+    "author": "yueshen2016",
+    "title": "Fix HF export crash when a dynamic-block quantizer has zero amax",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "commit": "051d6adb204f10cd3e78d0f824f31a5a01d54831",
+    "pr_number": 2478,
+    "author": "Zhehao-Hu",
+    "title": "Require PTQ recipe guidance before selecting quantization candidates",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-21",
+    "commit": "f1abc75626b88c49ae9e0426c2032bf273e46e25",
+    "pr_number": 2427,
+    "author": "shengliangxu",
+    "title": "Carry unplaced checkpoint weights using the loader's accounting, replacing MTP name-matching",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-09-19",
     "commit": "ed5c5ed369edea9ea6a3438d96576d1c65121cbb",
     "pr_number": 2447,

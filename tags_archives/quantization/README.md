@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-22 | [5bb73435](https://github.com/NVIDIA/Model-Optimizer/commit/5bb734359217167cd27e85eea56b06c2093b86c9) | [#2434](https://github.com/NVIDIA/Model-Optimizer/pull/2434) | [@yingguo-trt](https://github.com/yingguo-trt) | `quantization` `tests` `torch` | \[https://nvbugspro.nvidia.com/bug/6778095\] Fix fused P-QDQ to respect disabled quantization during calibration |
+| 2026-09-22 | [1b4e7dfb](https://github.com/NVIDIA/Model-Optimizer/commit/1b4e7dfb146fe4450d206ebfd430d66ddd4b3536) | [#2449](https://github.com/NVIDIA/Model-Optimizer/pull/2449) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add IQ post-training quantization recipes |
+| 2026-09-21 | [fc4c40fc](https://github.com/NVIDIA/Model-Optimizer/commit/fc4c40fcbefa4075e4a14c8c3afad99bce30eed1) | [#2438](https://github.com/NVIDIA/Model-Optimizer/pull/2438) | [@yueshen2016](https://github.com/yueshen2016) | `infra` `quantization` `tests` `torch` | Fix HF export crash when a dynamic-block quantizer has zero amax |
 | 2026-09-18 | [9e3d555a](https://github.com/NVIDIA/Model-Optimizer/commit/9e3d555aa16038f7b46a631ca603351146c09123) | [#2446](https://github.com/NVIDIA/Model-Optimizer/pull/2446) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add IQ quantization codecs and backend |
 | 2026-09-18 | [17ef5b6c](https://github.com/NVIDIA/Model-Optimizer/commit/17ef5b6c39bcb170344b6717764b6562570aa806) | [#2468](https://github.com/NVIDIA/Model-Optimizer/pull/2468) | [@ajrasane](https://github.com/ajrasane) | `export` `infra` `onnx` `quantization` `tests` | Split calibrated ONNX graph capabilities |
 | 2026-09-18 | [cf1f48fa](https://github.com/NVIDIA/Model-Optimizer/commit/cf1f48fa0f7a10684c6f981930e93a6e9eb34225) | [#2336](https://github.com/NVIDIA/Model-Optimizer/pull/2336) | [@ajrasane](https://github.com/ajrasane) | `diffusers` `example` `export` `infra` `onnx` `quantization` `tests` `torch` | \[5565357\] Fix SDXL NVFP4 export and performance |
@@ -314,4 +317,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 308 PRs**
+**Total: 311 PRs**
