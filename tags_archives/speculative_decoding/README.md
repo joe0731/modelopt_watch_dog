@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-23 | [87f7d143](https://github.com/NVIDIA/Model-Optimizer/commit/87f7d1432f6dccffe67069c84b9a18877a35019d) | [#2483](https://github.com/NVIDIA/Model-Optimizer/pull/2483) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | fix(speculative): hold the DFlash draft's fp32 master weights in the optimizer |
 | 2026-09-21 | [f1abc756](https://github.com/NVIDIA/Model-Optimizer/commit/f1abc75626b88c49ae9e0426c2032bf273e46e25) | [#2427](https://github.com/NVIDIA/Model-Optimizer/pull/2427) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `speculative_decoding` `tests` `torch` | Carry unplaced checkpoint weights using the loader's accounting, replacing MTP name-matching |
 | 2026-09-17 | [835c041c](https://github.com/NVIDIA/Model-Optimizer/commit/835c041c589677fad68c0bfa0ebc4f58285c0779) | [#2410](https://github.com/NVIDIA/Model-Optimizer/pull/2410) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `example` `infra` `speculative_decoding` `tests` `torch` | fix(specdec): resolve the eagle aux-layer preset in the vLLM hidden-state dump |
 | 2026-09-17 | [ad1bad78](https://github.com/NVIDIA/Model-Optimizer/commit/ad1bad7817371c1229cabe483067754ebd37a241) | [#2458](https://github.com/NVIDIA/Model-Optimizer/pull/2458) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `tests` `torch` | fix(specdec): gather sharded hidden states in DFlash/DSpark AR generation |
@@ -94,4 +95,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 88 PRs**
+**Total: 89 PRs**

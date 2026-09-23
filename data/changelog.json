@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-09-23",
+    "commit": "87f7d1432f6dccffe67069c84b9a18877a35019d",
+    "pr_number": 2483,
+    "author": "h-guo18",
+    "title": "fix(speculative): hold the DFlash draft's fp32 master weights in the optimizer",
+    "tags": [
+      "example",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-09-22",
     "commit": "d0142c9dcad8f456caa482407960dc9cb5f0e710",
     "pr_number": 2376,

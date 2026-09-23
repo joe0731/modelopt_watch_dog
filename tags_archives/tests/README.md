@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-23 | [87f7d143](https://github.com/NVIDIA/Model-Optimizer/commit/87f7d1432f6dccffe67069c84b9a18877a35019d) | [#2483](https://github.com/NVIDIA/Model-Optimizer/pull/2483) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | fix(speculative): hold the DFlash draft's fp32 master weights in the optimizer |
 | 2026-09-22 | [d0142c9d](https://github.com/NVIDIA/Model-Optimizer/commit/d0142c9dcad8f456caa482407960dc9cb5f0e710) | [#2376](https://github.com/NVIDIA/Model-Optimizer/pull/2376) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `infra` `tests` `torch` | Reuse a whole recipe via $import, deprecate recipe_type, and start the published-checkpoint backfill with two aliases |
 | 2026-09-22 | [5bb73435](https://github.com/NVIDIA/Model-Optimizer/commit/5bb734359217167cd27e85eea56b06c2093b86c9) | [#2434](https://github.com/NVIDIA/Model-Optimizer/pull/2434) | [@yingguo-trt](https://github.com/yingguo-trt) | `quantization` `tests` `torch` | \[https://nvbugspro.nvidia.com/bug/6778095\] Fix fused P-QDQ to respect disabled quantization during calibration |
 | 2026-09-22 | [1b4e7dfb](https://github.com/NVIDIA/Model-Optimizer/commit/1b4e7dfb146fe4450d206ebfd430d66ddd4b3536) | [#2449](https://github.com/NVIDIA/Model-Optimizer/pull/2449) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add IQ post-training quantization recipes |
@@ -471,4 +472,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 465 PRs**
+**Total: 466 PRs**
