@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-23 | [f2f0d695](https://github.com/NVIDIA/Model-Optimizer/commit/f2f0d6958eb95374d816f3d6256a0be3738231a3) | [#2477](https://github.com/NVIDIA/Model-Optimizer/pull/2477) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add MLflow tracking flags to megatron_bridge quantize.py |
+| 2026-09-23 | [a21411ad](https://github.com/NVIDIA/Model-Optimizer/commit/a21411adde5ce56457668cb1c3f71ce17f3adcc6) | [#2511](https://github.com/NVIDIA/Model-Optimizer/pull/2511) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `infra` `quantization` `tests` `torch` | Add the IQ2_XXS weight-only quantization format |
+| 2026-09-23 | [400498d8](https://github.com/NVIDIA/Model-Optimizer/commit/400498d82da835b555ee2825f9b0d34f234f2033) | [#2525](https://github.com/NVIDIA/Model-Optimizer/pull/2525) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `quantization` `tests` `torch` | \[2/4\] Register each GGML IQ format once for dispatch and export |
 | 2026-09-22 | [d0142c9d](https://github.com/NVIDIA/Model-Optimizer/commit/d0142c9dcad8f456caa482407960dc9cb5f0e710) | [#2376](https://github.com/NVIDIA/Model-Optimizer/pull/2376) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `infra` `tests` `torch` | Reuse a whole recipe via $import, deprecate recipe_type, and start the published-checkpoint backfill with two aliases |
 | 2026-09-21 | [f1abc756](https://github.com/NVIDIA/Model-Optimizer/commit/f1abc75626b88c49ae9e0426c2032bf273e46e25) | [#2427](https://github.com/NVIDIA/Model-Optimizer/pull/2427) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `speculative_decoding` `tests` `torch` | Carry unplaced checkpoint weights using the loader's accounting, replacing MTP name-matching |
 | 2026-09-19 | [ed5c5ed3](https://github.com/NVIDIA/Model-Optimizer/commit/ed5c5ed369edea9ea6a3438d96576d1c65121cbb) | [#2447](https://github.com/NVIDIA/Model-Optimizer/pull/2447) | [@hychiang-git](https://github.com/hychiang-git) | `core` `docs` `export` `tests` `torch` | \[OMNIML-5899\] Export IQ checkpoints from HF and Megatron |
@@ -168,4 +171,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 162 PRs**
+**Total: 165 PRs**

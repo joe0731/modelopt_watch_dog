@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-24",
+    "commit": "63c4b660bdd51669a7d66fc06742a8475c719d2e",
+    "pr_number": 2183,
+    "author": "joshua-hill",
+    "title": "Add Aumann-Shapley sensitivity scoring method to auto_quantize",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-09-23",
     "commit": "87f7d1432f6dccffe67069c84b9a18877a35019d",
     "pr_number": 2483,
@@ -9,6 +22,106 @@
       "example",
       "infra",
       "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "commit": "25d8c91762e2111f57f8e760a3a42d6c4d929e8f",
+    "pr_number": 2523,
+    "author": "cjluo-nv",
+    "title": "Add guidance on keeping skill updates concise to AGENTS.md",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "commit": "f2f0d6958eb95374d816f3d6256a0be3738231a3",
+    "pr_number": 2477,
+    "author": "kevalmorabia97",
+    "title": "Add MLflow tracking flags to megatron_bridge quantize.py",
+    "tags": [
+      "core",
+      "deploy",
+      "example",
+      "infra",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "commit": "a21411adde5ce56457668cb1c3f71ce17f3adcc6",
+    "pr_number": 2511,
+    "author": "cjluo-nv",
+    "title": "Add the IQ2_XXS weight-only quantization format",
+    "tags": [
+      "core",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "commit": "c10fb3bf061229798b9e5fc53e5d9dd09c1bc7a5",
+    "pr_number": 2528,
+    "author": "chadvoegele",
+    "title": "Date 0.47 changelog for official release",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "commit": "0fdda7937ba49737316603a9cd7a39f00dce0945",
+    "pr_number": 2529,
+    "author": "chadvoegele",
+    "title": "Date 0.47.0 changelog for official release",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "commit": "d16dad1c202483061607269356149752579def6b",
+    "pr_number": 2524,
+    "author": "AAnoosheh",
+    "title": "docs(llm_distill): document KDTrainer-based example flow",
+    "tags": [
+      "distillation",
+      "example",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "commit": "1c4cde7788070ca2567d0a02723b71ffafcd916a",
+    "pr_number": 2466,
+    "author": "Fridah-nv",
+    "title": "Fix: Release per-layer expert weights in layerwise export under offload",
+    "tags": [
+      "export",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-23",
+    "commit": "400498d82da835b555ee2825f9b0d34f234f2033",
+    "pr_number": 2525,
+    "author": "cjluo-nv",
+    "title": "[2/4] Register each GGML IQ format once for dispatch and export",
+    "tags": [
+      "core",
+      "export",
+      "quantization",
       "tests",
       "torch"
     ]

@@ -4,7 +4,13 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-24 | [63c4b660](https://github.com/NVIDIA/Model-Optimizer/commit/63c4b660bdd51669a7d66fc06742a8475c719d2e) | [#2183](https://github.com/NVIDIA/Model-Optimizer/pull/2183) | [@joshua-hill](https://github.com/joshua-hill) | `infra` `quantization` `tests` `torch` | Add Aumann-Shapley sensitivity scoring method to auto_quantize |
 | 2026-09-23 | [87f7d143](https://github.com/NVIDIA/Model-Optimizer/commit/87f7d1432f6dccffe67069c84b9a18877a35019d) | [#2483](https://github.com/NVIDIA/Model-Optimizer/pull/2483) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | fix(speculative): hold the DFlash draft's fp32 master weights in the optimizer |
+| 2026-09-23 | [25d8c917](https://github.com/NVIDIA/Model-Optimizer/commit/25d8c91762e2111f57f8e760a3a42d6c4d929e8f) | [#2523](https://github.com/NVIDIA/Model-Optimizer/pull/2523) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Add guidance on keeping skill updates concise to AGENTS.md |
+| 2026-09-23 | [f2f0d695](https://github.com/NVIDIA/Model-Optimizer/commit/f2f0d6958eb95374d816f3d6256a0be3738231a3) | [#2477](https://github.com/NVIDIA/Model-Optimizer/pull/2477) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add MLflow tracking flags to megatron_bridge quantize.py |
+| 2026-09-23 | [a21411ad](https://github.com/NVIDIA/Model-Optimizer/commit/a21411adde5ce56457668cb1c3f71ce17f3adcc6) | [#2511](https://github.com/NVIDIA/Model-Optimizer/pull/2511) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `infra` `quantization` `tests` `torch` | Add the IQ2_XXS weight-only quantization format |
+| 2026-09-23 | [c10fb3bf](https://github.com/NVIDIA/Model-Optimizer/commit/c10fb3bf061229798b9e5fc53e5d9dd09c1bc7a5) | [#2528](https://github.com/NVIDIA/Model-Optimizer/pull/2528) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | Date 0.47 changelog for official release |
+| 2026-09-23 | [0fdda793](https://github.com/NVIDIA/Model-Optimizer/commit/0fdda7937ba49737316603a9cd7a39f00dce0945) | [#2529](https://github.com/NVIDIA/Model-Optimizer/pull/2529) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | Date 0.47.0 changelog for official release |
 | 2026-09-22 | [d0142c9d](https://github.com/NVIDIA/Model-Optimizer/commit/d0142c9dcad8f456caa482407960dc9cb5f0e710) | [#2376](https://github.com/NVIDIA/Model-Optimizer/pull/2376) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `infra` `tests` `torch` | Reuse a whole recipe via $import, deprecate recipe_type, and start the published-checkpoint backfill with two aliases |
 | 2026-09-22 | [ee5c2562](https://github.com/NVIDIA/Model-Optimizer/commit/ee5c2562047351465e5942d2dbb6f2c01e6495a9) | [#2402](https://github.com/NVIDIA/Model-Optimizer/pull/2402) | [@noeyy-mino](https://github.com/noeyy-mino) | `infra` | \[https://nvbugs/6701777\] Explicitly exclude nn.LayerNorm from the diffusers NVFP4 presets. |
 | 2026-09-22 | [7a35cada](https://github.com/NVIDIA/Model-Optimizer/commit/7a35cada394ccd1c54d7e2b9bb92e780595f3ebf) | [#2494](https://github.com/NVIDIA/Model-Optimizer/pull/2494) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Add guidance on sizing and splitting PRs to AGENTS.md |
@@ -618,4 +624,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 612 PRs**
+**Total: 618 PRs**

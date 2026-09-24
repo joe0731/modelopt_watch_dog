@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-23 | [f2f0d695](https://github.com/NVIDIA/Model-Optimizer/commit/f2f0d6958eb95374d816f3d6256a0be3738231a3) | [#2477](https://github.com/NVIDIA/Model-Optimizer/pull/2477) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add MLflow tracking flags to megatron_bridge quantize.py |
 | 2026-09-18 | [d23030f9](https://github.com/NVIDIA/Model-Optimizer/commit/d23030f91dc52aec18b93df657dd588ad50d49de) | [#1992](https://github.com/NVIDIA/Model-Optimizer/pull/1992) | [@kaix-nv](https://github.com/kaix-nv) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[1/n\] Adds skip-softmax calibration through the vLLM serving path |
 | 2026-09-17 | [02b58eb1](https://github.com/NVIDIA/Model-Optimizer/commit/02b58eb14653f9500eda2e3ccfef88a7af82e2ee) | [#2414](https://github.com/NVIDIA/Model-Optimizer/pull/2414) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `tests` `vllm` | Fix vLLM fakequant calibration for hybrid attention models |
 | 2026-09-11 | [a1bcda47](https://github.com/NVIDIA/Model-Optimizer/commit/a1bcda472748f1c9d8bc893e495ce03b00445ad8) | [#2403](https://github.com/NVIDIA/Model-Optimizer/pull/2403) | [@noeyy-mino](https://github.com/noeyy-mino) | `deploy` `torch` | Fix protobuf size-check failures in ONNX deployment |
@@ -49,4 +50,4 @@
 | 2026-01-26 | [38403095](https://github.com/NVIDIA/Model-Optimizer/commit/38403095c4a9829b14e0ce45c9b067c16a502b46) | [#731](https://github.com/NVIDIA/Model-Optimizer/pull/731) | [@galagam](https://github.com/galagam) | `deploy` `infra` `onnx` `torch` | \[5725362\] AutoCast Fixes for models with external data |
 
 ---
-**Total: 43 PRs**
+**Total: 44 PRs**

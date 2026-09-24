@@ -4,7 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-24 | [63c4b660](https://github.com/NVIDIA/Model-Optimizer/commit/63c4b660bdd51669a7d66fc06742a8475c719d2e) | [#2183](https://github.com/NVIDIA/Model-Optimizer/pull/2183) | [@joshua-hill](https://github.com/joshua-hill) | `infra` `quantization` `tests` `torch` | Add Aumann-Shapley sensitivity scoring method to auto_quantize |
 | 2026-09-23 | [87f7d143](https://github.com/NVIDIA/Model-Optimizer/commit/87f7d1432f6dccffe67069c84b9a18877a35019d) | [#2483](https://github.com/NVIDIA/Model-Optimizer/pull/2483) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | fix(speculative): hold the DFlash draft's fp32 master weights in the optimizer |
+| 2026-09-23 | [f2f0d695](https://github.com/NVIDIA/Model-Optimizer/commit/f2f0d6958eb95374d816f3d6256a0be3738231a3) | [#2477](https://github.com/NVIDIA/Model-Optimizer/pull/2477) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add MLflow tracking flags to megatron_bridge quantize.py |
+| 2026-09-23 | [a21411ad](https://github.com/NVIDIA/Model-Optimizer/commit/a21411adde5ce56457668cb1c3f71ce17f3adcc6) | [#2511](https://github.com/NVIDIA/Model-Optimizer/pull/2511) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `infra` `quantization` `tests` `torch` | Add the IQ2_XXS weight-only quantization format |
+| 2026-09-23 | [1c4cde77](https://github.com/NVIDIA/Model-Optimizer/commit/1c4cde7788070ca2567d0a02723b71ffafcd916a) | [#2466](https://github.com/NVIDIA/Model-Optimizer/pull/2466) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `quantization` `tests` `torch` | Fix: Release per-layer expert weights in layerwise export under offload |
+| 2026-09-23 | [400498d8](https://github.com/NVIDIA/Model-Optimizer/commit/400498d82da835b555ee2825f9b0d34f234f2033) | [#2525](https://github.com/NVIDIA/Model-Optimizer/pull/2525) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `quantization` `tests` `torch` | \[2/4\] Register each GGML IQ format once for dispatch and export |
 | 2026-09-22 | [d0142c9d](https://github.com/NVIDIA/Model-Optimizer/commit/d0142c9dcad8f456caa482407960dc9cb5f0e710) | [#2376](https://github.com/NVIDIA/Model-Optimizer/pull/2376) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `infra` `tests` `torch` | Reuse a whole recipe via $import, deprecate recipe_type, and start the published-checkpoint backfill with two aliases |
 | 2026-09-22 | [5bb73435](https://github.com/NVIDIA/Model-Optimizer/commit/5bb734359217167cd27e85eea56b06c2093b86c9) | [#2434](https://github.com/NVIDIA/Model-Optimizer/pull/2434) | [@yingguo-trt](https://github.com/yingguo-trt) | `quantization` `tests` `torch` | \[https://nvbugspro.nvidia.com/bug/6778095\] Fix fused P-QDQ to respect disabled quantization during calibration |
 | 2026-09-22 | [1b4e7dfb](https://github.com/NVIDIA/Model-Optimizer/commit/1b4e7dfb146fe4450d206ebfd430d66ddd4b3536) | [#2449](https://github.com/NVIDIA/Model-Optimizer/pull/2449) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add IQ post-training quantization recipes |
@@ -472,4 +477,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 466 PRs**
+**Total: 471 PRs**
