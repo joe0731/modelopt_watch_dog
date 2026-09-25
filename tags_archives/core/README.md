@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-24 | [ed7e8795](https://github.com/NVIDIA/Model-Optimizer/commit/ed7e87953c1a3ed6a21c8bf6eac90565fa6b7a36) | [#2500](https://github.com/NVIDIA/Model-Optimizer/pull/2500) | [@hychiang-git](https://github.com/hychiang-git) | `core` `infra` `quantization` `tests` `torch` | Fix grouped expert quantizer checkpoint replicas |
 | 2026-09-23 | [f2f0d695](https://github.com/NVIDIA/Model-Optimizer/commit/f2f0d6958eb95374d816f3d6256a0be3738231a3) | [#2477](https://github.com/NVIDIA/Model-Optimizer/pull/2477) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add MLflow tracking flags to megatron_bridge quantize.py |
 | 2026-09-23 | [a21411ad](https://github.com/NVIDIA/Model-Optimizer/commit/a21411adde5ce56457668cb1c3f71ce17f3adcc6) | [#2511](https://github.com/NVIDIA/Model-Optimizer/pull/2511) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `infra` `quantization` `tests` `torch` | Add the IQ2_XXS weight-only quantization format |
 | 2026-09-23 | [400498d8](https://github.com/NVIDIA/Model-Optimizer/commit/400498d82da835b555ee2825f9b0d34f234f2033) | [#2525](https://github.com/NVIDIA/Model-Optimizer/pull/2525) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `quantization` `tests` `torch` | \[2/4\] Register each GGML IQ format once for dispatch and export |
@@ -171,4 +172,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 165 PRs**
+**Total: 166 PRs**

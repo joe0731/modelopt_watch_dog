@@ -5,6 +5,7 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-09-24 | [63c4b660](https://github.com/NVIDIA/Model-Optimizer/commit/63c4b660bdd51669a7d66fc06742a8475c719d2e) | [#2183](https://github.com/NVIDIA/Model-Optimizer/pull/2183) | [@joshua-hill](https://github.com/joshua-hill) | `infra` `quantization` `tests` `torch` | Add Aumann-Shapley sensitivity scoring method to auto_quantize |
+| 2026-09-24 | [ed7e8795](https://github.com/NVIDIA/Model-Optimizer/commit/ed7e87953c1a3ed6a21c8bf6eac90565fa6b7a36) | [#2500](https://github.com/NVIDIA/Model-Optimizer/pull/2500) | [@hychiang-git](https://github.com/hychiang-git) | `core` `infra` `quantization` `tests` `torch` | Fix grouped expert quantizer checkpoint replicas |
 | 2026-09-23 | [a21411ad](https://github.com/NVIDIA/Model-Optimizer/commit/a21411adde5ce56457668cb1c3f71ce17f3adcc6) | [#2511](https://github.com/NVIDIA/Model-Optimizer/pull/2511) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `infra` `quantization` `tests` `torch` | Add the IQ2_XXS weight-only quantization format |
 | 2026-09-23 | [1c4cde77](https://github.com/NVIDIA/Model-Optimizer/commit/1c4cde7788070ca2567d0a02723b71ffafcd916a) | [#2466](https://github.com/NVIDIA/Model-Optimizer/pull/2466) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `quantization` `tests` `torch` | Fix: Release per-layer expert weights in layerwise export under offload |
 | 2026-09-23 | [400498d8](https://github.com/NVIDIA/Model-Optimizer/commit/400498d82da835b555ee2825f9b0d34f234f2033) | [#2525](https://github.com/NVIDIA/Model-Optimizer/pull/2525) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `quantization` `tests` `torch` | \[2/4\] Register each GGML IQ format once for dispatch and export |
@@ -321,4 +322,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 315 PRs**
+**Total: 316 PRs**

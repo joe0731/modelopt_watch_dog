@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-09-24 | [ed7e8795](https://github.com/NVIDIA/Model-Optimizer/commit/ed7e87953c1a3ed6a21c8bf6eac90565fa6b7a36) | [#2500](https://github.com/NVIDIA/Model-Optimizer/pull/2500) | [@hychiang-git](https://github.com/hychiang-git) | `core` `infra` `quantization` `tests` `torch` | Fix grouped expert quantizer checkpoint replicas |
 | 2026-09-24 | [63c4b660](https://github.com/NVIDIA/Model-Optimizer/commit/63c4b660bdd51669a7d66fc06742a8475c719d2e) | [#2183](https://github.com/NVIDIA/Model-Optimizer/pull/2183) | [@joshua-hill](https://github.com/joshua-hill) | `infra` `quantization` `tests` `torch` | Add Aumann-Shapley sensitivity scoring method to auto_quantize |
 | 2026-09-23 | [25d8c917](https://github.com/NVIDIA/Model-Optimizer/commit/25d8c91762e2111f57f8e760a3a42d6c4d929e8f) | [#2523](https://github.com/NVIDIA/Model-Optimizer/pull/2523) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Add guidance on keeping skill updates concise to AGENTS.md |
 | 2026-09-23 | [f2f0d695](https://github.com/NVIDIA/Model-Optimizer/commit/f2f0d6958eb95374d816f3d6256a0be3738231a3) | [#2477](https://github.com/NVIDIA/Model-Optimizer/pull/2477) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add MLflow tracking flags to megatron_bridge quantize.py |
