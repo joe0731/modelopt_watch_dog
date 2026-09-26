@@ -79,6 +79,7 @@ See [`tags_archives/README.md`](tags_archives/README.md) for the full index.
 <!-- CHANGELOG_TABLE -->
 | Date | Commit | PR | Author | Tags | Description |
 |------|--------|-------|--------|------|-------------|
+| 2026-09-25 | [23355eda](https://github.com/NVIDIA/Model-Optimizer/commit/23355eda90a25c290f9b1fdfb928ad54caae7d10) | [#2547](https://github.com/NVIDIA/Model-Optimizer/pull/2547) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `tests` `torch` | fix(deps): declare httpx, unbreaking partial-install (torch) for every PR |
 | 2026-09-24 | [ed7e8795](https://github.com/NVIDIA/Model-Optimizer/commit/ed7e87953c1a3ed6a21c8bf6eac90565fa6b7a36) | [#2500](https://github.com/NVIDIA/Model-Optimizer/pull/2500) | [@hychiang-git](https://github.com/hychiang-git) | `core` `infra` `quantization` `tests` `torch` | Fix grouped expert quantizer checkpoint replicas |
 | 2026-09-24 | [63c4b660](https://github.com/NVIDIA/Model-Optimizer/commit/63c4b660bdd51669a7d66fc06742a8475c719d2e) | [#2183](https://github.com/NVIDIA/Model-Optimizer/pull/2183) | [@joshua-hill](https://github.com/joshua-hill) | `infra` `quantization` `tests` `torch` | Add Aumann-Shapley sensitivity scoring method to auto_quantize |
 | 2026-09-23 | [25d8c917](https://github.com/NVIDIA/Model-Optimizer/commit/25d8c91762e2111f57f8e760a3a42d6c4d929e8f) | [#2523](https://github.com/NVIDIA/Model-Optimizer/pull/2523) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Add guidance on keeping skill updates concise to AGENTS.md |

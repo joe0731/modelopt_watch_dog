@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-25",
+    "commit": "23355eda90a25c290f9b1fdfb928ad54caae7d10",
+    "pr_number": 2547,
+    "author": "h-guo18",
+    "title": "fix(deps): declare httpx, unbreaking partial-install (torch) for every PR",
+    "tags": [
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-09-24",
     "commit": "63c4b660bdd51669a7d66fc06742a8475c719d2e",
     "pr_number": 2183,
