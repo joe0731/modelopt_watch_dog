@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-29 | [1d392999](https://github.com/NVIDIA/Model-Optimizer/commit/1d392999b45626f9c06ff0bc9797b03529fe24e3) | [#2273](https://github.com/NVIDIA/Model-Optimizer/pull/2273) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570\] 2/2 Compose GEMM and KV-cache AutoQuant workflows |
+| 2026-09-28 | [767ef553](https://github.com/NVIDIA/Model-Optimizer/commit/767ef5533e90a8d09334d8943c474f0703c1a201) | [#2512](https://github.com/NVIDIA/Model-Optimizer/pull/2512) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[3/5\] Add the IQ2_S codec |
+| 2026-09-28 | [de2e8102](https://github.com/NVIDIA/Model-Optimizer/commit/de2e810219086f48607b79a0079df9637a5b8855) | [#2515](https://github.com/NVIDIA/Model-Optimizer/pull/2515) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add Q8_0 CUDA packing kernel |
 | 2026-09-24 | [63c4b660](https://github.com/NVIDIA/Model-Optimizer/commit/63c4b660bdd51669a7d66fc06742a8475c719d2e) | [#2183](https://github.com/NVIDIA/Model-Optimizer/pull/2183) | [@joshua-hill](https://github.com/joshua-hill) | `infra` `quantization` `tests` `torch` | Add Aumann-Shapley sensitivity scoring method to auto_quantize |
 | 2026-09-24 | [ed7e8795](https://github.com/NVIDIA/Model-Optimizer/commit/ed7e87953c1a3ed6a21c8bf6eac90565fa6b7a36) | [#2500](https://github.com/NVIDIA/Model-Optimizer/pull/2500) | [@hychiang-git](https://github.com/hychiang-git) | `core` `infra` `quantization` `tests` `torch` | Fix grouped expert quantizer checkpoint replicas |
 | 2026-09-23 | [a21411ad](https://github.com/NVIDIA/Model-Optimizer/commit/a21411adde5ce56457668cb1c3f71ce17f3adcc6) | [#2511](https://github.com/NVIDIA/Model-Optimizer/pull/2511) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `infra` `quantization` `tests` `torch` | Add the IQ2_XXS weight-only quantization format |
@@ -322,4 +325,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 316 PRs**
+**Total: 319 PRs**

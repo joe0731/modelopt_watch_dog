@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-28 | [57f929e3](https://github.com/NVIDIA/Model-Optimizer/commit/57f929e358549cd23be3f8e45daf74d28f28f0e0) | [#2492](https://github.com/NVIDIA/Model-Optimizer/pull/2492) | [@Edwardssss](https://github.com/Edwardssss) | `distillation` `tests` `torch` | Bound the stale-capture warning to once per capture and name its cause |
 | 2026-09-23 | [d16dad1c](https://github.com/NVIDIA/Model-Optimizer/commit/d16dad1c202483061607269356149752579def6b) | [#2524](https://github.com/NVIDIA/Model-Optimizer/pull/2524) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `example` `torch` | docs(llm_distill): document KDTrainer-based example flow |
 | 2026-06-26 | [55d6e758](https://github.com/NVIDIA/Model-Optimizer/commit/55d6e75833657997cf91914035834abdb40e9b7e) | [#1805](https://github.com/NVIDIA/Model-Optimizer/pull/1805) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `distillation` `tests` `torch` | Account for CE loss for MTP heads in Megatron KD |
 | 2026-06-26 | [33bfa8b1](https://github.com/NVIDIA/Model-Optimizer/commit/33bfa8b1fe47d1a86a1a421e24d84a6acd53aad2) | [#1818](https://github.com/NVIDIA/Model-Optimizer/pull/1818) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `diffusers` `distillation` `docs` `eval` `example` `export` `infra` `nas` `onnx` `peft` `pruning` `quantization` `sparsity` `speculative_decoding` `tests` `torch` `windows` | CI/Dev env bump |
@@ -25,4 +26,4 @@
 | 2026-01-13 | [b813ab54](https://github.com/NVIDIA/Model-Optimizer/commit/b813ab548b97db9c0780459f1fe743bb88031d99) | [#747](https://github.com/NVIDIA/Model-Optimizer/pull/747) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Top-K KL Divergence loss |
 
 ---
-**Total: 19 PRs**
+**Total: 20 PRs**

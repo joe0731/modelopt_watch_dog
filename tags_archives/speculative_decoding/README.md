@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-29 | [c2aaa44f](https://github.com/NVIDIA/Model-Optimizer/commit/c2aaa44f6040658a21a2f5d2213c10ecc6542512) | [#2216](https://github.com/NVIDIA/Model-Optimizer/pull/2216) | [@h-guo18](https://github.com/h-guo18) | `export` `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] DFlash2 draft variant (grouped sublayer convolution + candidate selector) |
 | 2026-09-25 | [23355eda](https://github.com/NVIDIA/Model-Optimizer/commit/23355eda90a25c290f9b1fdfb928ad54caae7d10) | [#2547](https://github.com/NVIDIA/Model-Optimizer/pull/2547) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `tests` `torch` | fix(deps): declare httpx, unbreaking partial-install (torch) for every PR |
 | 2026-09-23 | [87f7d143](https://github.com/NVIDIA/Model-Optimizer/commit/87f7d1432f6dccffe67069c84b9a18877a35019d) | [#2483](https://github.com/NVIDIA/Model-Optimizer/pull/2483) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | fix(speculative): hold the DFlash draft's fp32 master weights in the optimizer |
 | 2026-09-21 | [f1abc756](https://github.com/NVIDIA/Model-Optimizer/commit/f1abc75626b88c49ae9e0426c2032bf273e46e25) | [#2427](https://github.com/NVIDIA/Model-Optimizer/pull/2427) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `infra` `speculative_decoding` `tests` `torch` | Carry unplaced checkpoint weights using the loader's accounting, replacing MTP name-matching |
@@ -96,4 +97,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 90 PRs**
+**Total: 91 PRs**

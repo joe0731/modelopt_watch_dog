@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-29 | [1d392999](https://github.com/NVIDIA/Model-Optimizer/commit/1d392999b45626f9c06ff0bc9797b03529fe24e3) | [#2273](https://github.com/NVIDIA/Model-Optimizer/pull/2273) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570\] 2/2 Compose GEMM and KV-cache AutoQuant workflows |
+| 2026-09-29 | [c2aaa44f](https://github.com/NVIDIA/Model-Optimizer/commit/c2aaa44f6040658a21a2f5d2213c10ecc6542512) | [#2216](https://github.com/NVIDIA/Model-Optimizer/pull/2216) | [@h-guo18](https://github.com/h-guo18) | `export` `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] DFlash2 draft variant (grouped sublayer convolution + candidate selector) |
 | 2026-09-23 | [a21411ad](https://github.com/NVIDIA/Model-Optimizer/commit/a21411adde5ce56457668cb1c3f71ce17f3adcc6) | [#2511](https://github.com/NVIDIA/Model-Optimizer/pull/2511) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `infra` `quantization` `tests` `torch` | Add the IQ2_XXS weight-only quantization format |
 | 2026-09-23 | [1c4cde77](https://github.com/NVIDIA/Model-Optimizer/commit/1c4cde7788070ca2567d0a02723b71ffafcd916a) | [#2466](https://github.com/NVIDIA/Model-Optimizer/pull/2466) | [@Fridah-nv](https://github.com/Fridah-nv) | `export` `quantization` `tests` `torch` | Fix: Release per-layer expert weights in layerwise export under offload |
 | 2026-09-23 | [400498d8](https://github.com/NVIDIA/Model-Optimizer/commit/400498d82da835b555ee2825f9b0d34f234f2033) | [#2525](https://github.com/NVIDIA/Model-Optimizer/pull/2525) | [@cjluo-nv](https://github.com/cjluo-nv) | `core` `export` `quantization` `tests` `torch` | \[2/4\] Register each GGML IQ format once for dispatch and export |
@@ -179,4 +181,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 173 PRs**
+**Total: 175 PRs**

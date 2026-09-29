@@ -1,5 +1,130 @@
 [
   {
+    "date": "2026-09-29",
+    "commit": "1d392999b45626f9c06ff0bc9797b03529fe24e3",
+    "pr_number": 2273,
+    "author": "meenchen",
+    "title": "[OMNIML-5570] 2/2 Compose GEMM and KV-cache AutoQuant workflows",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "commit": "be740012568eb2ff97af1c08f7a283c5edd766c2",
+    "pr_number": 2573,
+    "author": "sychen52",
+    "title": "Add concise AgentX benchmark skill",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "commit": "c2aaa44f6040658a21a2f5d2213c10ecc6542512",
+    "pr_number": 2216,
+    "author": "h-guo18",
+    "title": "[Speculative Decoding] DFlash2 draft variant (grouped sublayer convolution + candidate selector)",
+    "tags": [
+      "export",
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "commit": "94d7272e8be5b24499df74ae866b6feab7e94018",
+    "pr_number": 2584,
+    "author": "danielkorzekwa",
+    "title": "Improve technique-specific documentation links in the main README (OM…",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "commit": "80e04b8816239c33d156ca6411cccd3a51f414bf",
+    "pr_number": 2479,
+    "author": "cjluo-nv",
+    "title": "docs(eval): align Terminal-Bench 2.1 / SWE-bench / MRCR with upstream configs",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "commit": "4eb86524f0769dc69b881febfd7b215b6aa72017",
+    "pr_number": 2544,
+    "author": "kevalmorabia97",
+    "title": "[1/2] One MLflow tracking core behind a Tool record",
+    "tags": [
+      "core",
+      "deploy",
+      "example",
+      "infra",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "commit": "57f929e358549cd23be3f8e45daf74d28f28f0e0",
+    "pr_number": 2492,
+    "author": "Edwardssss",
+    "title": "Bound the stale-capture warning to once per capture and name its cause",
+    "tags": [
+      "distillation",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "commit": "767ef5533e90a8d09334d8943c474f0703c1a201",
+    "pr_number": 2512,
+    "author": "cjluo-nv",
+    "title": "[3/5] Add the IQ2_S codec",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "commit": "0058a155376b2a28fef887fbad7333e0a2a5e711",
+    "pr_number": 2514,
+    "author": "kevalmorabia97",
+    "title": "[2/2] Track every Megatron-Bridge script with MLflow",
+    "tags": [
+      "core",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "commit": "de2e810219086f48607b79a0079df9637a5b8855",
+    "pr_number": 2515,
+    "author": "hychiang-git",
+    "title": "[OMNIML-5899] Add Q8_0 CUDA packing kernel",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-09-25",
     "commit": "23355eda90a25c290f9b1fdfb928ad54caae7d10",
     "pr_number": 2547,

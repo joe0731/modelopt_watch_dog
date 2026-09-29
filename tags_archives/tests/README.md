@@ -4,6 +4,13 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-29 | [1d392999](https://github.com/NVIDIA/Model-Optimizer/commit/1d392999b45626f9c06ff0bc9797b03529fe24e3) | [#2273](https://github.com/NVIDIA/Model-Optimizer/pull/2273) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570\] 2/2 Compose GEMM and KV-cache AutoQuant workflows |
+| 2026-09-29 | [c2aaa44f](https://github.com/NVIDIA/Model-Optimizer/commit/c2aaa44f6040658a21a2f5d2213c10ecc6542512) | [#2216](https://github.com/NVIDIA/Model-Optimizer/pull/2216) | [@h-guo18](https://github.com/h-guo18) | `export` `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] DFlash2 draft variant (grouped sublayer convolution + candidate selector) |
+| 2026-09-28 | [4eb86524](https://github.com/NVIDIA/Model-Optimizer/commit/4eb86524f0769dc69b881febfd7b215b6aa72017) | [#2544](https://github.com/NVIDIA/Model-Optimizer/pull/2544) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | \[1/2\] One MLflow tracking core behind a Tool record |
+| 2026-09-28 | [57f929e3](https://github.com/NVIDIA/Model-Optimizer/commit/57f929e358549cd23be3f8e45daf74d28f28f0e0) | [#2492](https://github.com/NVIDIA/Model-Optimizer/pull/2492) | [@Edwardssss](https://github.com/Edwardssss) | `distillation` `tests` `torch` | Bound the stale-capture warning to once per capture and name its cause |
+| 2026-09-28 | [767ef553](https://github.com/NVIDIA/Model-Optimizer/commit/767ef5533e90a8d09334d8943c474f0703c1a201) | [#2512](https://github.com/NVIDIA/Model-Optimizer/pull/2512) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[3/5\] Add the IQ2_S codec |
+| 2026-09-28 | [0058a155](https://github.com/NVIDIA/Model-Optimizer/commit/0058a155376b2a28fef887fbad7333e0a2a5e711) | [#2514](https://github.com/NVIDIA/Model-Optimizer/pull/2514) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | \[2/2\] Track every Megatron-Bridge script with MLflow |
+| 2026-09-28 | [de2e8102](https://github.com/NVIDIA/Model-Optimizer/commit/de2e810219086f48607b79a0079df9637a5b8855) | [#2515](https://github.com/NVIDIA/Model-Optimizer/pull/2515) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add Q8_0 CUDA packing kernel |
 | 2026-09-25 | [23355eda](https://github.com/NVIDIA/Model-Optimizer/commit/23355eda90a25c290f9b1fdfb928ad54caae7d10) | [#2547](https://github.com/NVIDIA/Model-Optimizer/pull/2547) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `tests` `torch` | fix(deps): declare httpx, unbreaking partial-install (torch) for every PR |
 | 2026-09-24 | [63c4b660](https://github.com/NVIDIA/Model-Optimizer/commit/63c4b660bdd51669a7d66fc06742a8475c719d2e) | [#2183](https://github.com/NVIDIA/Model-Optimizer/pull/2183) | [@joshua-hill](https://github.com/joshua-hill) | `infra` `quantization` `tests` `torch` | Add Aumann-Shapley sensitivity scoring method to auto_quantize |
 | 2026-09-24 | [ed7e8795](https://github.com/NVIDIA/Model-Optimizer/commit/ed7e87953c1a3ed6a21c8bf6eac90565fa6b7a36) | [#2500](https://github.com/NVIDIA/Model-Optimizer/pull/2500) | [@hychiang-git](https://github.com/hychiang-git) | `core` `infra` `quantization` `tests` `torch` | Fix grouped expert quantizer checkpoint replicas |
@@ -479,4 +486,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 473 PRs**
+**Total: 480 PRs**
