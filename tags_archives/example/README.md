@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-09-29 | [ad9ea97a](https://github.com/NVIDIA/Model-Optimizer/commit/ad9ea97a4b03b17c1f3abae4c36c5677eb29be9c) | [#2518](https://github.com/NVIDIA/Model-Optimizer/pull/2518) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `quantization` `tests` `torch` `vllm` | Fix vLLM compilation guard for models without marker |
 | 2026-09-28 | [4eb86524](https://github.com/NVIDIA/Model-Optimizer/commit/4eb86524f0769dc69b881febfd7b215b6aa72017) | [#2544](https://github.com/NVIDIA/Model-Optimizer/pull/2544) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | \[1/2\] One MLflow tracking core behind a Tool record |
 | 2026-09-28 | [0058a155](https://github.com/NVIDIA/Model-Optimizer/commit/0058a155376b2a28fef887fbad7333e0a2a5e711) | [#2514](https://github.com/NVIDIA/Model-Optimizer/pull/2514) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | \[2/2\] Track every Megatron-Bridge script with MLflow |
 | 2026-09-23 | [87f7d143](https://github.com/NVIDIA/Model-Optimizer/commit/87f7d1432f6dccffe67069c84b9a18877a35019d) | [#2483](https://github.com/NVIDIA/Model-Optimizer/pull/2483) | [@h-guo18](https://github.com/h-guo18) | `example` `infra` `speculative_decoding` `tests` `torch` | fix(speculative): hold the DFlash draft's fp32 master weights in the optimizer |
@@ -319,4 +320,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 313 PRs**
+**Total: 314 PRs**

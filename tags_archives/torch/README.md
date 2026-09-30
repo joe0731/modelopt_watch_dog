@@ -6,6 +6,9 @@
 |------|--------|-------|--------|----------|-------------|
 | 2026-09-29 | [1d392999](https://github.com/NVIDIA/Model-Optimizer/commit/1d392999b45626f9c06ff0bc9797b03529fe24e3) | [#2273](https://github.com/NVIDIA/Model-Optimizer/pull/2273) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570\] 2/2 Compose GEMM and KV-cache AutoQuant workflows |
 | 2026-09-29 | [c2aaa44f](https://github.com/NVIDIA/Model-Optimizer/commit/c2aaa44f6040658a21a2f5d2213c10ecc6542512) | [#2216](https://github.com/NVIDIA/Model-Optimizer/pull/2216) | [@h-guo18](https://github.com/h-guo18) | `export` `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] DFlash2 draft variant (grouped sublayer convolution + candidate selector) |
+| 2026-09-29 | [834c90d7](https://github.com/NVIDIA/Model-Optimizer/commit/834c90d7a1e48da28fae8c6611418241074c4fd0) | [#2549](https://github.com/NVIDIA/Model-Optimizer/pull/2549) | [@sychen52](https://github.com/sychen52) | `infra` `quantization` `tests` `torch` | Fix NVFP4 fake quant zeroing blocks with small scales |
+| 2026-09-29 | [3091b8ff](https://github.com/NVIDIA/Model-Optimizer/commit/3091b8ff69a47c1fb49ecbdb03a1c10deb6613dc) | [#2565](https://github.com/NVIDIA/Model-Optimizer/pull/2565) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | \[4/5\] Add the IQ2_S CUDA encoder and register the format |
+| 2026-09-29 | [ad9ea97a](https://github.com/NVIDIA/Model-Optimizer/commit/ad9ea97a4b03b17c1f3abae4c36c5677eb29be9c) | [#2518](https://github.com/NVIDIA/Model-Optimizer/pull/2518) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `quantization` `tests` `torch` `vllm` | Fix vLLM compilation guard for models without marker |
 | 2026-09-28 | [4eb86524](https://github.com/NVIDIA/Model-Optimizer/commit/4eb86524f0769dc69b881febfd7b215b6aa72017) | [#2544](https://github.com/NVIDIA/Model-Optimizer/pull/2544) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | \[1/2\] One MLflow tracking core behind a Tool record |
 | 2026-09-28 | [57f929e3](https://github.com/NVIDIA/Model-Optimizer/commit/57f929e358549cd23be3f8e45daf74d28f28f0e0) | [#2492](https://github.com/NVIDIA/Model-Optimizer/pull/2492) | [@Edwardssss](https://github.com/Edwardssss) | `distillation` `tests` `torch` | Bound the stale-capture warning to once per capture and name its cause |
 | 2026-09-28 | [767ef553](https://github.com/NVIDIA/Model-Optimizer/commit/767ef5533e90a8d09334d8943c474f0703c1a201) | [#2512](https://github.com/NVIDIA/Model-Optimizer/pull/2512) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[3/5\] Add the IQ2_S codec |
@@ -535,4 +538,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 529 PRs**
+**Total: 532 PRs**

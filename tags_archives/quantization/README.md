@@ -5,6 +5,9 @@
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
 | 2026-09-29 | [1d392999](https://github.com/NVIDIA/Model-Optimizer/commit/1d392999b45626f9c06ff0bc9797b03529fe24e3) | [#2273](https://github.com/NVIDIA/Model-Optimizer/pull/2273) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570\] 2/2 Compose GEMM and KV-cache AutoQuant workflows |
+| 2026-09-29 | [834c90d7](https://github.com/NVIDIA/Model-Optimizer/commit/834c90d7a1e48da28fae8c6611418241074c4fd0) | [#2549](https://github.com/NVIDIA/Model-Optimizer/pull/2549) | [@sychen52](https://github.com/sychen52) | `infra` `quantization` `tests` `torch` | Fix NVFP4 fake quant zeroing blocks with small scales |
+| 2026-09-29 | [3091b8ff](https://github.com/NVIDIA/Model-Optimizer/commit/3091b8ff69a47c1fb49ecbdb03a1c10deb6613dc) | [#2565](https://github.com/NVIDIA/Model-Optimizer/pull/2565) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | \[4/5\] Add the IQ2_S CUDA encoder and register the format |
+| 2026-09-29 | [ad9ea97a](https://github.com/NVIDIA/Model-Optimizer/commit/ad9ea97a4b03b17c1f3abae4c36c5677eb29be9c) | [#2518](https://github.com/NVIDIA/Model-Optimizer/pull/2518) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `quantization` `tests` `torch` `vllm` | Fix vLLM compilation guard for models without marker |
 | 2026-09-28 | [767ef553](https://github.com/NVIDIA/Model-Optimizer/commit/767ef5533e90a8d09334d8943c474f0703c1a201) | [#2512](https://github.com/NVIDIA/Model-Optimizer/pull/2512) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[3/5\] Add the IQ2_S codec |
 | 2026-09-28 | [de2e8102](https://github.com/NVIDIA/Model-Optimizer/commit/de2e810219086f48607b79a0079df9637a5b8855) | [#2515](https://github.com/NVIDIA/Model-Optimizer/pull/2515) | [@hychiang-git](https://github.com/hychiang-git) | `infra` `quantization` `tests` `torch` | \[OMNIML-5899\] Add Q8_0 CUDA packing kernel |
 | 2026-09-24 | [63c4b660](https://github.com/NVIDIA/Model-Optimizer/commit/63c4b660bdd51669a7d66fc06742a8475c719d2e) | [#2183](https://github.com/NVIDIA/Model-Optimizer/pull/2183) | [@joshua-hill](https://github.com/joshua-hill) | `infra` `quantization` `tests` `torch` | Add Aumann-Shapley sensitivity scoring method to auto_quantize |
@@ -325,4 +328,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 319 PRs**
+**Total: 322 PRs**

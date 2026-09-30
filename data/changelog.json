@@ -48,6 +48,58 @@
     ]
   },
   {
+    "date": "2026-09-29",
+    "commit": "834c90d7a1e48da28fae8c6611418241074c4fd0",
+    "pr_number": 2549,
+    "author": "sychen52",
+    "title": "Fix NVFP4 fake quant zeroing blocks with small scales",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "commit": "1576f7d4add6f92b3ef494b8b233779819f24ffd",
+    "pr_number": 2591,
+    "author": "ajrasane",
+    "title": "Increase diffusers example-test timeout to 60 minutes",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "commit": "3091b8ff69a47c1fb49ecbdb03a1c10deb6613dc",
+    "pr_number": 2565,
+    "author": "cjluo-nv",
+    "title": "[4/5] Add the IQ2_S CUDA encoder and register the format",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-09-29",
+    "commit": "ad9ea97a4b03b17c1f3abae4c36c5677eb29be9c",
+    "pr_number": 2518,
+    "author": "kinjalpatel27",
+    "title": "Fix vLLM compilation guard for models without marker",
+    "tags": [
+      "deploy",
+      "example",
+      "quantization",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
     "date": "2026-09-28",
     "commit": "80e04b8816239c33d156ca6411cccd3a51f414bf",
     "pr_number": 2479,
