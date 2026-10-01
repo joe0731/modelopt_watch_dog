@@ -1,5 +1,62 @@
 [
   {
+    "date": "2026-10-01",
+    "commit": "bc5d2c361084bc39ae5fb7549b22bf10365b089b",
+    "pr_number": 1700,
+    "author": "Trenton-Starkey",
+    "title": "Update roadmap link in README.md",
+    "tags": []
+  },
+  {
+    "date": "2026-10-01",
+    "commit": "333ace1bc9f7a138fdd19430ecb85cbedfc369a7",
+    "pr_number": 2571,
+    "author": "sychen52",
+    "title": "Fix multi-turn synthetic generation and mark incomplete outputs",
+    "tags": [
+      "example",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "commit": "aa89722d38846a33738d79afdaf03c7c074a6e5f",
+    "pr_number": 2595,
+    "author": "cjluo-nv",
+    "title": "[6/6] Add the IQ1_M CUDA encoder and register the format",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "commit": "7d9e07d14be481b631b012669a7a471050522e97",
+    "pr_number": 2616,
+    "author": "cjluo-nv",
+    "title": "Count only added lines toward the PR size budget in AGENTS.md",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-09-30",
+    "commit": "e5b63320ab648aebafe869ca8cbc802cc4a0098e",
+    "pr_number": 2513,
+    "author": "cjluo-nv",
+    "title": "[5/6] Add the IQ1_M codec",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-09-29",
     "commit": "1d392999b45626f9c06ff0bc9797b03529fe24e3",
     "pr_number": 2273,

@@ -11,19 +11,19 @@ Click a tag to see its full history.
 | [`distillation`](distillation/) | knowledge distillation, teacher-student training | 20 |
 | [`docs`](docs/) | documentation, guides, API reference | 67 |
 | [`eval`](eval/) | model evaluation, benchmarking, accuracy metrics | 98 |
-| [`example`](example/) | example scripts and notebooks | 314 |
+| [`example`](example/) | example scripts and notebooks | 315 |
 | [`experimental`](experimental/) | experimental features, research prototypes | 6 |
-| [`export`](export/) | model export, torch-to-ONNX conversion | 176 |
-| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 631 |
+| [`export`](export/) | model export, torch-to-ONNX conversion | 177 |
+| [`infra`](infra/) | CI/CD, build system, GitHub/GitLab config, packaging | 633 |
 | [`nas`](nas/) | neural architecture search, hyperparameter optimization | 20 |
 | [`onnx`](onnx/) | modelopt.onnx - ONNX graph optimization, autocast, ONNX-specific quantization | 114 |
 | [`peft`](peft/) | parameter-efficient fine-tuning, LoRA, adapters | 1 |
 | [`pruning`](pruning/) | model pruning, structured and unstructured | 38 |
-| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 322 |
+| [`quantization`](quantization/) | post-training quantization (PTQ), QAT, QAD, calibration, quantized layers | 324 |
 | [`sparsity`](sparsity/) | weight sparsity, attention sparsity | 48 |
-| [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 91 |
-| [`tests`](tests/) | test infrastructure, test utilities | 483 |
-| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 532 |
+| [`speculative_decoding`](speculative_decoding/) | speculative decoding, Eagle, Medusa, draft models | 92 |
+| [`tests`](tests/) | test infrastructure, test utilities | 486 |
+| [`torch`](torch/) | modelopt.torch - PyTorch optimization core library | 535 |
 | [`vllm`](vllm/) | vLLM serving and integration | 25 |
 | [`vlm`](vlm/) | vision-language model optimization | 6 |
 | [`windows`](windows/) | Windows platform-specific code and examples | 21 |

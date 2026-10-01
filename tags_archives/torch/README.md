@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-01 | [333ace1b](https://github.com/NVIDIA/Model-Optimizer/commit/333ace1bc9f7a138fdd19430ecb85cbedfc369a7) | [#2571](https://github.com/NVIDIA/Model-Optimizer/pull/2571) | [@sychen52](https://github.com/sychen52) | `example` `speculative_decoding` `tests` `torch` | Fix multi-turn synthetic generation and mark incomplete outputs |
+| 2026-10-01 | [aa89722d](https://github.com/NVIDIA/Model-Optimizer/commit/aa89722d38846a33738d79afdaf03c7c074a6e5f) | [#2595](https://github.com/NVIDIA/Model-Optimizer/pull/2595) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | \[6/6\] Add the IQ1_M CUDA encoder and register the format |
+| 2026-09-30 | [e5b63320](https://github.com/NVIDIA/Model-Optimizer/commit/e5b63320ab648aebafe869ca8cbc802cc4a0098e) | [#2513](https://github.com/NVIDIA/Model-Optimizer/pull/2513) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[5/6\] Add the IQ1_M codec |
 | 2026-09-29 | [1d392999](https://github.com/NVIDIA/Model-Optimizer/commit/1d392999b45626f9c06ff0bc9797b03529fe24e3) | [#2273](https://github.com/NVIDIA/Model-Optimizer/pull/2273) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570\] 2/2 Compose GEMM and KV-cache AutoQuant workflows |
 | 2026-09-29 | [c2aaa44f](https://github.com/NVIDIA/Model-Optimizer/commit/c2aaa44f6040658a21a2f5d2213c10ecc6542512) | [#2216](https://github.com/NVIDIA/Model-Optimizer/pull/2216) | [@h-guo18](https://github.com/h-guo18) | `export` `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] DFlash2 draft variant (grouped sublayer convolution + candidate selector) |
 | 2026-09-29 | [834c90d7](https://github.com/NVIDIA/Model-Optimizer/commit/834c90d7a1e48da28fae8c6611418241074c4fd0) | [#2549](https://github.com/NVIDIA/Model-Optimizer/pull/2549) | [@sychen52](https://github.com/sychen52) | `infra` `quantization` `tests` `torch` | Fix NVFP4 fake quant zeroing blocks with small scales |
@@ -538,4 +541,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 532 PRs**
+**Total: 535 PRs**

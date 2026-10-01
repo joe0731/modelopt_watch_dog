@@ -8,6 +8,7 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-09-30 | [e5b63320](https://github.com/NVIDIA/Model-Optimizer/commit/e5b63320ab648aebafe869ca8cbc802cc4a0098e) | [#2513](https://github.com/NVIDIA/Model-Optimizer/pull/2513) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[5/6\] Add the IQ1_M codec |
 |  | 2026-09-29 | [1d392999](https://github.com/NVIDIA/Model-Optimizer/commit/1d392999b45626f9c06ff0bc9797b03529fe24e3) | [#2273](https://github.com/NVIDIA/Model-Optimizer/pull/2273) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570\] 2/2 Compose GEMM and KV-cache AutoQuant workflows |
 |  | 2026-09-29 | [be740012](https://github.com/NVIDIA/Model-Optimizer/commit/be740012568eb2ff97af1c08f7a283c5edd766c2) | [#2573](https://github.com/NVIDIA/Model-Optimizer/pull/2573) | [@sychen52](https://github.com/sychen52) | `infra` | Add concise AgentX benchmark skill |
 |  | 2026-09-29 | [c2aaa44f](https://github.com/NVIDIA/Model-Optimizer/commit/c2aaa44f6040658a21a2f5d2213c10ecc6542512) | [#2216](https://github.com/NVIDIA/Model-Optimizer/pull/2216) | [@h-guo18](https://github.com/h-guo18) | `export` `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] DFlash2 draft variant (grouped sublayer convolution + candidate selector) |
@@ -163,4 +164,4 @@
 |  | 2026-09-01 | [21b95ada](https://github.com/NVIDIA/Model-Optimizer/commit/21b95adabba3ab4f497937980497dee6bb69b207) | [#2083](https://github.com/NVIDIA/Model-Optimizer/pull/2083) | [@mpariente-nvda](https://github.com/mpariente-nvda) | `export` `infra` `tests` `torch` | Add FP8 Vision Encoder quantization for Qwen3-VL and Qwen3.5 |
 
 ---
-**Total: 153 PRs** | **Highlighted: 23**
+**Total: 154 PRs** | **Highlighted: 23**

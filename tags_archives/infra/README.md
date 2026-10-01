@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-01 | [aa89722d](https://github.com/NVIDIA/Model-Optimizer/commit/aa89722d38846a33738d79afdaf03c7c074a6e5f) | [#2595](https://github.com/NVIDIA/Model-Optimizer/pull/2595) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | \[6/6\] Add the IQ1_M CUDA encoder and register the format |
+| 2026-10-01 | [7d9e07d1](https://github.com/NVIDIA/Model-Optimizer/commit/7d9e07d14be481b631b012669a7a471050522e97) | [#2616](https://github.com/NVIDIA/Model-Optimizer/pull/2616) | [@cjluo-nv](https://github.com/cjluo-nv) | `infra` | Count only added lines toward the PR size budget in AGENTS.md |
 | 2026-09-29 | [1d392999](https://github.com/NVIDIA/Model-Optimizer/commit/1d392999b45626f9c06ff0bc9797b03529fe24e3) | [#2273](https://github.com/NVIDIA/Model-Optimizer/pull/2273) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570\] 2/2 Compose GEMM and KV-cache AutoQuant workflows |
 | 2026-09-29 | [be740012](https://github.com/NVIDIA/Model-Optimizer/commit/be740012568eb2ff97af1c08f7a283c5edd766c2) | [#2573](https://github.com/NVIDIA/Model-Optimizer/pull/2573) | [@sychen52](https://github.com/sychen52) | `infra` | Add concise AgentX benchmark skill |
 | 2026-09-29 | [c2aaa44f](https://github.com/NVIDIA/Model-Optimizer/commit/c2aaa44f6040658a21a2f5d2213c10ecc6542512) | [#2216](https://github.com/NVIDIA/Model-Optimizer/pull/2216) | [@h-guo18](https://github.com/h-guo18) | `export` `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] DFlash2 draft variant (grouped sublayer convolution + candidate selector) |
@@ -637,4 +639,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 631 PRs**
+**Total: 633 PRs**
