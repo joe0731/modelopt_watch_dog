@@ -1,5 +1,46 @@
 [
   {
+    "date": "2026-10-02",
+    "commit": "e3c903c4d14e460b44b42b46fb56f6f76edbc5c6",
+    "pr_number": 2569,
+    "author": "shengliangxu",
+    "title": "Deprecate TensorRT-LLM model_type in favor of Hugging Face model_type",
+    "tags": [
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "263bf7409e317140e5208ef67efeb6aff72ad332",
+    "pr_number": 2604,
+    "author": "cjluo-nv",
+    "title": "Pack each IQ weight once and decode the IQ formats on CUDA",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "bc1e8dbfb944f73c028b88595d7645d7902c0473",
+    "pr_number": 2606,
+    "author": "kevalmorabia97",
+    "title": "docs(qwen3.6): add the decode-time fix for SciCode non-termination",
+    "tags": [
+      "core",
+      "example",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-01",
     "commit": "bc5d2c361084bc39ae5fb7549b22bf10365b089b",
     "pr_number": 1700,
@@ -42,6 +83,70 @@
     "title": "Count only added lines toward the PR size budget in AGENTS.md",
     "tags": [
       "infra"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "commit": "9c1cf80f1bb82d5cb1d885f06f111331ffd89b67",
+    "pr_number": 2592,
+    "author": "kevalmorabia97",
+    "title": "test(megatron_bridge): cover context parallelism in the VLM QAD test",
+    "tags": [
+      "core",
+      "example",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "commit": "4f62d418f402deb34e9d91663909d95668061ec3",
+    "pr_number": 2619,
+    "author": "ajrasane",
+    "title": "Use TensorRT optimization level 0 in Torch ONNX example tests",
+    "tags": [
+      "example",
+      "export",
+      "onnx",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "commit": "fadbf74d31ca7780519b798c313ad7f4351fe565",
+    "pr_number": 2590,
+    "author": "danielkorzekwa",
+    "title": "Make the QAT/QAD guide the central place for concepts, background, and framework selection",
+    "tags": [
+      "docs",
+      "example",
+      "infra",
+      "quantization",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "commit": "ad8cd6384748fec9e142bda707e92c018bd7fbf5",
+    "pr_number": 2615,
+    "author": "cjluo-nv",
+    "title": "Share one CUDA encoder per IQ family",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-01",
+    "commit": "f977c05d40ed376eee0820acc38b170bb43fc271",
+    "pr_number": 2508,
+    "author": "meenchen",
+    "title": "Use HF converter.rename_source_key when available to reverse naming conversion",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
     ]
   },
   {

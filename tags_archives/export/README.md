@@ -4,7 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-02 | [e3c903c4](https://github.com/NVIDIA/Model-Optimizer/commit/e3c903c4d14e460b44b42b46fb56f6f76edbc5c6) | [#2569](https://github.com/NVIDIA/Model-Optimizer/pull/2569) | [@shengliangxu](https://github.com/shengliangxu) | `example` `export` `infra` `quantization` `tests` `torch` | Deprecate TensorRT-LLM model_type in favor of Hugging Face model_type |
+| 2026-10-02 | [263bf740](https://github.com/NVIDIA/Model-Optimizer/commit/263bf7409e317140e5208ef67efeb6aff72ad332) | [#2604](https://github.com/NVIDIA/Model-Optimizer/pull/2604) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | Pack each IQ weight once and decode the IQ formats on CUDA |
 | 2026-10-01 | [aa89722d](https://github.com/NVIDIA/Model-Optimizer/commit/aa89722d38846a33738d79afdaf03c7c074a6e5f) | [#2595](https://github.com/NVIDIA/Model-Optimizer/pull/2595) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | \[6/6\] Add the IQ1_M CUDA encoder and register the format |
+| 2026-10-01 | [4f62d418](https://github.com/NVIDIA/Model-Optimizer/commit/4f62d418f402deb34e9d91663909d95668061ec3) | [#2619](https://github.com/NVIDIA/Model-Optimizer/pull/2619) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `tests` `torch` | Use TensorRT optimization level 0 in Torch ONNX example tests |
+| 2026-10-01 | [f977c05d](https://github.com/NVIDIA/Model-Optimizer/commit/f977c05d40ed376eee0820acc38b170bb43fc271) | [#2508](https://github.com/NVIDIA/Model-Optimizer/pull/2508) | [@meenchen](https://github.com/meenchen) | `export` `infra` `tests` `torch` | Use HF converter.rename_source_key when available to reverse naming conversion |
 | 2026-09-29 | [1d392999](https://github.com/NVIDIA/Model-Optimizer/commit/1d392999b45626f9c06ff0bc9797b03529fe24e3) | [#2273](https://github.com/NVIDIA/Model-Optimizer/pull/2273) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570\] 2/2 Compose GEMM and KV-cache AutoQuant workflows |
 | 2026-09-29 | [c2aaa44f](https://github.com/NVIDIA/Model-Optimizer/commit/c2aaa44f6040658a21a2f5d2213c10ecc6542512) | [#2216](https://github.com/NVIDIA/Model-Optimizer/pull/2216) | [@h-guo18](https://github.com/h-guo18) | `export` `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] DFlash2 draft variant (grouped sublayer convolution + candidate selector) |
 | 2026-09-29 | [3091b8ff](https://github.com/NVIDIA/Model-Optimizer/commit/3091b8ff69a47c1fb49ecbdb03a1c10deb6613dc) | [#2565](https://github.com/NVIDIA/Model-Optimizer/pull/2565) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | \[4/5\] Add the IQ2_S CUDA encoder and register the format |
@@ -183,4 +187,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 177 PRs**
+**Total: 181 PRs**

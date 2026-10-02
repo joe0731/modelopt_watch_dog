@@ -4,7 +4,10 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-02 | [e3c903c4](https://github.com/NVIDIA/Model-Optimizer/commit/e3c903c4d14e460b44b42b46fb56f6f76edbc5c6) | [#2569](https://github.com/NVIDIA/Model-Optimizer/pull/2569) | [@shengliangxu](https://github.com/shengliangxu) | `example` `export` `infra` `quantization` `tests` `torch` | Deprecate TensorRT-LLM model_type in favor of Hugging Face model_type |
+| 2026-10-02 | [263bf740](https://github.com/NVIDIA/Model-Optimizer/commit/263bf7409e317140e5208ef67efeb6aff72ad332) | [#2604](https://github.com/NVIDIA/Model-Optimizer/pull/2604) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | Pack each IQ weight once and decode the IQ formats on CUDA |
 | 2026-10-01 | [aa89722d](https://github.com/NVIDIA/Model-Optimizer/commit/aa89722d38846a33738d79afdaf03c7c074a6e5f) | [#2595](https://github.com/NVIDIA/Model-Optimizer/pull/2595) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | \[6/6\] Add the IQ1_M CUDA encoder and register the format |
+| 2026-10-01 | [fadbf74d](https://github.com/NVIDIA/Model-Optimizer/commit/fadbf74d31ca7780519b798c313ad7f4351fe565) | [#2590](https://github.com/NVIDIA/Model-Optimizer/pull/2590) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `docs` `example` `infra` `quantization` `torch` | Make the QAT/QAD guide the central place for concepts, background, and framework selection |
 | 2026-09-30 | [e5b63320](https://github.com/NVIDIA/Model-Optimizer/commit/e5b63320ab648aebafe869ca8cbc802cc4a0098e) | [#2513](https://github.com/NVIDIA/Model-Optimizer/pull/2513) | [@cjluo-nv](https://github.com/cjluo-nv) | `quantization` `tests` `torch` | \[5/6\] Add the IQ1_M codec |
 | 2026-09-29 | [1d392999](https://github.com/NVIDIA/Model-Optimizer/commit/1d392999b45626f9c06ff0bc9797b03529fe24e3) | [#2273](https://github.com/NVIDIA/Model-Optimizer/pull/2273) | [@meenchen](https://github.com/meenchen) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-5570\] 2/2 Compose GEMM and KV-cache AutoQuant workflows |
 | 2026-09-29 | [834c90d7](https://github.com/NVIDIA/Model-Optimizer/commit/834c90d7a1e48da28fae8c6611418241074c4fd0) | [#2549](https://github.com/NVIDIA/Model-Optimizer/pull/2549) | [@sychen52](https://github.com/sychen52) | `infra` `quantization` `tests` `torch` | Fix NVFP4 fake quant zeroing blocks with small scales |
@@ -330,4 +333,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 324 PRs**
+**Total: 327 PRs**

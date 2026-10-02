@@ -4,7 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-02 | [e3c903c4](https://github.com/NVIDIA/Model-Optimizer/commit/e3c903c4d14e460b44b42b46fb56f6f76edbc5c6) | [#2569](https://github.com/NVIDIA/Model-Optimizer/pull/2569) | [@shengliangxu](https://github.com/shengliangxu) | `example` `export` `infra` `quantization` `tests` `torch` | Deprecate TensorRT-LLM model_type in favor of Hugging Face model_type |
+| 2026-10-02 | [bc1e8dbf](https://github.com/NVIDIA/Model-Optimizer/commit/bc1e8dbfb944f73c028b88595d7645d7902c0473) | [#2606](https://github.com/NVIDIA/Model-Optimizer/pull/2606) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `torch` | docs(qwen3.6): add the decode-time fix for SciCode non-termination |
 | 2026-10-01 | [333ace1b](https://github.com/NVIDIA/Model-Optimizer/commit/333ace1bc9f7a138fdd19430ecb85cbedfc369a7) | [#2571](https://github.com/NVIDIA/Model-Optimizer/pull/2571) | [@sychen52](https://github.com/sychen52) | `example` `speculative_decoding` `tests` `torch` | Fix multi-turn synthetic generation and mark incomplete outputs |
+| 2026-10-01 | [9c1cf80f](https://github.com/NVIDIA/Model-Optimizer/commit/9c1cf80f1bb82d5cb1d885f06f111331ffd89b67) | [#2592](https://github.com/NVIDIA/Model-Optimizer/pull/2592) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `tests` `torch` | test(megatron_bridge): cover context parallelism in the VLM QAD test |
+| 2026-10-01 | [4f62d418](https://github.com/NVIDIA/Model-Optimizer/commit/4f62d418f402deb34e9d91663909d95668061ec3) | [#2619](https://github.com/NVIDIA/Model-Optimizer/pull/2619) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `tests` `torch` | Use TensorRT optimization level 0 in Torch ONNX example tests |
+| 2026-10-01 | [fadbf74d](https://github.com/NVIDIA/Model-Optimizer/commit/fadbf74d31ca7780519b798c313ad7f4351fe565) | [#2590](https://github.com/NVIDIA/Model-Optimizer/pull/2590) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `docs` `example` `infra` `quantization` `torch` | Make the QAT/QAD guide the central place for concepts, background, and framework selection |
 | 2026-09-29 | [ad9ea97a](https://github.com/NVIDIA/Model-Optimizer/commit/ad9ea97a4b03b17c1f3abae4c36c5677eb29be9c) | [#2518](https://github.com/NVIDIA/Model-Optimizer/pull/2518) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `quantization` `tests` `torch` `vllm` | Fix vLLM compilation guard for models without marker |
 | 2026-09-28 | [4eb86524](https://github.com/NVIDIA/Model-Optimizer/commit/4eb86524f0769dc69b881febfd7b215b6aa72017) | [#2544](https://github.com/NVIDIA/Model-Optimizer/pull/2544) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | \[1/2\] One MLflow tracking core behind a Tool record |
 | 2026-09-28 | [0058a155](https://github.com/NVIDIA/Model-Optimizer/commit/0058a155376b2a28fef887fbad7333e0a2a5e711) | [#2514](https://github.com/NVIDIA/Model-Optimizer/pull/2514) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `infra` `tests` `torch` | \[2/2\] Track every Megatron-Bridge script with MLflow |
@@ -321,4 +326,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 315 PRs**
+**Total: 320 PRs**
