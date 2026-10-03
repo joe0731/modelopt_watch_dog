@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-02 | [44b46eba](https://github.com/NVIDIA/Model-Optimizer/commit/44b46eba828f77be44c4d655712b9d6ebeeee456) | [#2461](https://github.com/NVIDIA/Model-Optimizer/pull/2461) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `infra` `onnx` `quantization` `tests` `torch` | Fix three windows issues: extension-build timeout, 0xc000001d crash, and config I/O encoding |
+| 2026-10-02 | [e68eb44e](https://github.com/NVIDIA/Model-Optimizer/commit/e68eb44ee5c7fdb6a86885f457f1cdba0598e0c1) | [#2623](https://github.com/NVIDIA/Model-Optimizer/pull/2623) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `example` `export` `infra` `quantization` `tests` `torch` | \[1/3\] Export expert-parallel Megatron-Bridge MoE checkpoints and fix exporter / QAD gaps |
+| 2026-10-02 | [472c94dd](https://github.com/NVIDIA/Model-Optimizer/commit/472c94ddeffc5b3fec80a600f53e2ccf1ea84dbb) | [#2624](https://github.com/NVIDIA/Model-Optimizer/pull/2624) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `export` `infra` `quantization` `tests` `torch` | \[2/3\] Quantize the DSA KV cache and export GLM-5 / GLM-5.2 from Megatron-Bridge |
 | 2026-09-28 | [57f929e3](https://github.com/NVIDIA/Model-Optimizer/commit/57f929e358549cd23be3f8e45daf74d28f28f0e0) | [#2492](https://github.com/NVIDIA/Model-Optimizer/pull/2492) | [@Edwardssss](https://github.com/Edwardssss) | `distillation` `tests` `torch` | Bound the stale-capture warning to once per capture and name its cause |
 | 2026-09-23 | [d16dad1c](https://github.com/NVIDIA/Model-Optimizer/commit/d16dad1c202483061607269356149752579def6b) | [#2524](https://github.com/NVIDIA/Model-Optimizer/pull/2524) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `example` `torch` | docs(llm_distill): document KDTrainer-based example flow |
 | 2026-06-26 | [55d6e758](https://github.com/NVIDIA/Model-Optimizer/commit/55d6e75833657997cf91914035834abdb40e9b7e) | [#1805](https://github.com/NVIDIA/Model-Optimizer/pull/1805) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `distillation` `tests` `torch` | Account for CE loss for MTP heads in Megatron KD |
@@ -26,4 +29,4 @@
 | 2026-01-13 | [b813ab54](https://github.com/NVIDIA/Model-Optimizer/commit/b813ab548b97db9c0780459f1fe743bb88031d99) | [#747](https://github.com/NVIDIA/Model-Optimizer/pull/747) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Top-K KL Divergence loss |
 
 ---
-**Total: 20 PRs**
+**Total: 23 PRs**

@@ -4,8 +4,12 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-03 | [6a106874](https://github.com/NVIDIA/Model-Optimizer/commit/6a1068746dd0e746fe4bcb79152b86bdcf58cb41) | [#2620](https://github.com/NVIDIA/Model-Optimizer/pull/2620) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `tests` `vllm` | Add vLLM NVFP4 MLA KV-cache fake quant |
 | 2026-10-02 | [e3c903c4](https://github.com/NVIDIA/Model-Optimizer/commit/e3c903c4d14e460b44b42b46fb56f6f76edbc5c6) | [#2569](https://github.com/NVIDIA/Model-Optimizer/pull/2569) | [@shengliangxu](https://github.com/shengliangxu) | `example` `export` `infra` `quantization` `tests` `torch` | Deprecate TensorRT-LLM model_type in favor of Hugging Face model_type |
 | 2026-10-02 | [bc1e8dbf](https://github.com/NVIDIA/Model-Optimizer/commit/bc1e8dbfb944f73c028b88595d7645d7902c0473) | [#2606](https://github.com/NVIDIA/Model-Optimizer/pull/2606) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `torch` | docs(qwen3.6): add the decode-time fix for SciCode non-termination |
+| 2026-10-02 | [e68eb44e](https://github.com/NVIDIA/Model-Optimizer/commit/e68eb44ee5c7fdb6a86885f457f1cdba0598e0c1) | [#2623](https://github.com/NVIDIA/Model-Optimizer/pull/2623) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `example` `export` `infra` `quantization` `tests` `torch` | \[1/3\] Export expert-parallel Megatron-Bridge MoE checkpoints and fix exporter / QAD gaps |
+| 2026-10-02 | [f094f890](https://github.com/NVIDIA/Model-Optimizer/commit/f094f89069e5344cecdb7b55fb070d1610ea7270) | [#2552](https://github.com/NVIDIA/Model-Optimizer/pull/2552) | [@sychen52](https://github.com/sychen52) | `core` `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add sparse-attention indexer Q and K-cache fake quantization |
+| 2026-10-02 | [b1b66cbe](https://github.com/NVIDIA/Model-Optimizer/commit/b1b66cbed6e2cbf9670365b2d759e7b266c3d006) | [#2633](https://github.com/NVIDIA/Model-Optimizer/pull/2633) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Fix vLLM fake-quant serving of FP8 checkpoints, MLA KV presets, CUDA graphs |
 | 2026-10-01 | [333ace1b](https://github.com/NVIDIA/Model-Optimizer/commit/333ace1bc9f7a138fdd19430ecb85cbedfc369a7) | [#2571](https://github.com/NVIDIA/Model-Optimizer/pull/2571) | [@sychen52](https://github.com/sychen52) | `example` `speculative_decoding` `tests` `torch` | Fix multi-turn synthetic generation and mark incomplete outputs |
 | 2026-10-01 | [9c1cf80f](https://github.com/NVIDIA/Model-Optimizer/commit/9c1cf80f1bb82d5cb1d885f06f111331ffd89b67) | [#2592](https://github.com/NVIDIA/Model-Optimizer/pull/2592) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `tests` `torch` | test(megatron_bridge): cover context parallelism in the VLM QAD test |
 | 2026-10-01 | [4f62d418](https://github.com/NVIDIA/Model-Optimizer/commit/4f62d418f402deb34e9d91663909d95668061ec3) | [#2619](https://github.com/NVIDIA/Model-Optimizer/pull/2619) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `tests` `torch` | Use TensorRT optimization level 0 in Torch ONNX example tests |
@@ -326,4 +330,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 320 PRs**
+**Total: 324 PRs**

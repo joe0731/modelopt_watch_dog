@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-10-03",
+    "commit": "6a1068746dd0e746fe4bcb79152b86bdcf58cb41",
+    "pr_number": 2620,
+    "author": "sychen52",
+    "title": "Add vLLM NVFP4 MLA KV-cache fake quant",
+    "tags": [
+      "deploy",
+      "example",
+      "infra",
+      "tests",
+      "vllm"
+    ]
+  },
+  {
     "date": "2026-10-02",
     "commit": "e3c903c4d14e460b44b42b46fb56f6f76edbc5c6",
     "pr_number": 2569,
@@ -37,6 +51,170 @@
     "tags": [
       "core",
       "example",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "f75df4273bb5153c8275328bd72c1436690c2e14",
+    "pr_number": 2634,
+    "author": "cjluo-nv",
+    "title": "Raise the test_qwen_vl timeout to 420s",
+    "tags": [
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "44b46eba828f77be44c4d655712b9d6ebeeee456",
+    "pr_number": 2461,
+    "author": "shengliangxu",
+    "title": "Fix three windows issues: extension-build timeout, 0xc000001d crash, and config I/O encoding",
+    "tags": [
+      "core",
+      "distillation",
+      "infra",
+      "onnx",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "44bbd47147cdcb0396942a5b5d29fcab92d50128",
+    "pr_number": 2642,
+    "author": "shengliangxu",
+    "title": "Recommend gh stack (optional) in the PR sizing/splitting guidance",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "e68eb44ee5c7fdb6a86885f457f1cdba0598e0c1",
+    "pr_number": 2623,
+    "author": "kevalmorabia97",
+    "title": "[1/3] Export expert-parallel Megatron-Bridge MoE checkpoints and fix exporter / QAD gaps",
+    "tags": [
+      "core",
+      "distillation",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "f094f89069e5344cecdb7b55fb070d1610ea7270",
+    "pr_number": 2552,
+    "author": "sychen52",
+    "title": "Add sparse-attention indexer Q and K-cache fake quantization",
+    "tags": [
+      "core",
+      "deploy",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "67a68f8fd4902a7b67c78a2f00f40562b081fe72",
+    "pr_number": 2643,
+    "author": "shengliangxu",
+    "title": "Backfill checkpoint aliases for nine published NVFP4 releases",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "d7545c036aa3053c77b8d8212f19b9f367bd7278",
+    "pr_number": 2641,
+    "author": "chadvoegele",
+    "title": "Make HF PTQ environment isolation and provenance explicit",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "e4884ba644528a2ce36f0f40ac52b22195015062",
+    "pr_number": 2497,
+    "author": "kaix-nv",
+    "title": "[1/6] GDN state/W QAT foundation",
+    "tags": [
+      "core",
+      "docs",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "4e19e0b58eecbe3aa1f4601ecdd437175a038429",
+    "pr_number": 2516,
+    "author": "hychiang-git",
+    "title": "[OMNIML-5899] Add Q8_0 quantization codec and backend",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "b1b66cbed6e2cbf9670365b2d759e7b266c3d006",
+    "pr_number": 2633,
+    "author": "sychen52",
+    "title": "Fix vLLM fake-quant serving of FP8 checkpoints, MLA KV presets, CUDA graphs",
+    "tags": [
+      "deploy",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "a57c5ebddf43cb2e5f65de8f57ceeedb729034ff",
+    "pr_number": 2648,
+    "author": "kevalmorabia97",
+    "title": "Fix TruffleHog PR scans that silently scanned nothing",
+    "tags": [
+      "core",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "commit": "472c94ddeffc5b3fec80a600f53e2ccf1ea84dbb",
+    "pr_number": 2624,
+    "author": "kevalmorabia97",
+    "title": "[2/3] Quantize the DSA KV cache and export GLM-5 / GLM-5.2 from Megatron-Bridge",
+    "tags": [
+      "core",
+      "distillation",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
       "torch"
     ]
   },

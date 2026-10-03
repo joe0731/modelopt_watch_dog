@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-03 | [6a106874](https://github.com/NVIDIA/Model-Optimizer/commit/6a1068746dd0e746fe4bcb79152b86bdcf58cb41) | [#2620](https://github.com/NVIDIA/Model-Optimizer/pull/2620) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `tests` `vllm` | Add vLLM NVFP4 MLA KV-cache fake quant |
+| 2026-10-02 | [f094f890](https://github.com/NVIDIA/Model-Optimizer/commit/f094f89069e5344cecdb7b55fb070d1610ea7270) | [#2552](https://github.com/NVIDIA/Model-Optimizer/pull/2552) | [@sychen52](https://github.com/sychen52) | `core` `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add sparse-attention indexer Q and K-cache fake quantization |
+| 2026-10-02 | [b1b66cbe](https://github.com/NVIDIA/Model-Optimizer/commit/b1b66cbed6e2cbf9670365b2d759e7b266c3d006) | [#2633](https://github.com/NVIDIA/Model-Optimizer/pull/2633) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Fix vLLM fake-quant serving of FP8 checkpoints, MLA KV presets, CUDA graphs |
 | 2026-09-29 | [ad9ea97a](https://github.com/NVIDIA/Model-Optimizer/commit/ad9ea97a4b03b17c1f3abae4c36c5677eb29be9c) | [#2518](https://github.com/NVIDIA/Model-Optimizer/pull/2518) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `quantization` `tests` `torch` `vllm` | Fix vLLM compilation guard for models without marker |
 | 2026-09-28 | [4eb86524](https://github.com/NVIDIA/Model-Optimizer/commit/4eb86524f0769dc69b881febfd7b215b6aa72017) | [#2544](https://github.com/NVIDIA/Model-Optimizer/pull/2544) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | \[1/2\] One MLflow tracking core behind a Tool record |
 | 2026-09-23 | [f2f0d695](https://github.com/NVIDIA/Model-Optimizer/commit/f2f0d6958eb95374d816f3d6256a0be3738231a3) | [#2477](https://github.com/NVIDIA/Model-Optimizer/pull/2477) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `deploy` `example` `infra` `tests` `torch` `vllm` | Add MLflow tracking flags to megatron_bridge quantize.py |
@@ -52,4 +55,4 @@
 | 2026-01-26 | [38403095](https://github.com/NVIDIA/Model-Optimizer/commit/38403095c4a9829b14e0ce45c9b067c16a502b46) | [#731](https://github.com/NVIDIA/Model-Optimizer/pull/731) | [@galagam](https://github.com/galagam) | `deploy` `infra` `onnx` `torch` | \[5725362\] AutoCast Fixes for models with external data |
 
 ---
-**Total: 46 PRs**
+**Total: 49 PRs**
