@@ -1,5 +1,30 @@
 [
   {
+    "date": "2026-10-05",
+    "commit": "49959ef0a91b333867a173993f44130348dc10d2",
+    "pr_number": 2659,
+    "author": "github-actions[bot]",
+    "title": "[chore]: weekly bump of uv.lock on main (2026-10-05)",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "commit": "1a47237994c7a379bd580cf7f859ae00440794f3",
+    "pr_number": 2459,
+    "author": "AAnoosheh",
+    "title": "Bring offline KD upgrades such as Ghost Token and Top-P to Megatron K…",
+    "tags": [
+      "core",
+      "distillation",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-03",
     "commit": "6a1068746dd0e746fe4bcb79152b86bdcf58cb41",
     "pr_number": 2620,
