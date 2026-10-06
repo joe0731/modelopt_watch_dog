@@ -8,8 +8,13 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+|  | 2026-10-06 | [01e3a306](https://github.com/NVIDIA/Model-Optimizer/commit/01e3a306d851214b25091903a15102990e00d915) | [#2666](https://github.com/NVIDIA/Model-Optimizer/pull/2666) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | Pin datasets\<5.1 in the tf_min unit-test env |
+|  | 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
+|  | 2026-10-06 | [f29052ee](https://github.com/NVIDIA/Model-Optimizer/commit/f29052ee29cee57b78bbcbb06ceb7076a53a30d8) | [#2579](https://github.com/NVIDIA/Model-Optimizer/pull/2579) | [@shengliangxu](https://github.com/shengliangxu) |  | Move model-specific PTQ modeling into modelopt/torch/models \[4/5\] |
+|  | 2026-10-06 | [b93a32e7](https://github.com/NVIDIA/Model-Optimizer/commit/b93a32e732d49f6b09b001208ea20d0054e6659e) | [#2589](https://github.com/NVIDIA/Model-Optimizer/pull/2589) | [@mrusanovsky](https://github.com/mrusanovsky) | `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] LiLiCorr: offline/streaming training and an optional calibration loss |
 |  | 2026-10-05 | [49959ef0](https://github.com/NVIDIA/Model-Optimizer/commit/49959ef0a91b333867a173993f44130348dc10d2) | [#2659](https://github.com/NVIDIA/Model-Optimizer/pull/2659) | [@github-actions[bot]](https://github.com/github-actions[bot]) | `infra` | \[chore\]: weekly bump of uv.lock on main (2026-10-05) |
 |  | 2026-10-05 | [1a472379](https://github.com/NVIDIA/Model-Optimizer/commit/1a47237994c7a379bd580cf7f859ae00440794f3) | [#2459](https://github.com/NVIDIA/Model-Optimizer/pull/2459) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `distillation` `example` `infra` `tests` `torch` | Bring offline KD upgrades such as Ghost Token and Top-P to Megatron K… |
+|  | 2026-10-05 | [36103237](https://github.com/NVIDIA/Model-Optimizer/commit/36103237f6bb261386193d19c1c0966d74acec73) | [#2475](https://github.com/NVIDIA/Model-Optimizer/pull/2475) | [@chadvoegele](https://github.com/chadvoegele) | `infra` | docs(eval): tolerate bounded benchmark failures |
 | 🔵 | **2026-10-03** | **[6a106874](https://github.com/NVIDIA/Model-Optimizer/commit/6a1068746dd0e746fe4bcb79152b86bdcf58cb41)** | **[#2620](https://github.com/NVIDIA/Model-Optimizer/pull/2620)** | **[@sychen52](https://github.com/sychen52)** | `deploy` `example` `infra` `tests` `vllm` | **Add vLLM NVFP4 MLA KV-cache fake quant** |
 |  | 2026-10-02 | [e3c903c4](https://github.com/NVIDIA/Model-Optimizer/commit/e3c903c4d14e460b44b42b46fb56f6f76edbc5c6) | [#2569](https://github.com/NVIDIA/Model-Optimizer/pull/2569) | [@shengliangxu](https://github.com/shengliangxu) | `example` `export` `infra` `quantization` `tests` `torch` | Deprecate TensorRT-LLM model_type in favor of Hugging Face model_type |
 |  | 2026-10-02 | [263bf740](https://github.com/NVIDIA/Model-Optimizer/commit/263bf7409e317140e5208ef67efeb6aff72ad332) | [#2604](https://github.com/NVIDIA/Model-Optimizer/pull/2604) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | Pack each IQ weight once and decode the IQ formats on CUDA |
@@ -37,4 +42,4 @@
 |  | 2026-10-01 | [f977c05d](https://github.com/NVIDIA/Model-Optimizer/commit/f977c05d40ed376eee0820acc38b170bb43fc271) | [#2508](https://github.com/NVIDIA/Model-Optimizer/pull/2508) | [@meenchen](https://github.com/meenchen) | `export` `infra` `tests` `torch` | Use HF converter.rename_source_key when available to reverse naming conversion |
 
 ---
-**Total: 27 PRs** | **Highlighted: 5**
+**Total: 32 PRs** | **Highlighted: 5**

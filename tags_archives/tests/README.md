@@ -4,6 +4,8 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
+| 2026-10-06 | [b93a32e7](https://github.com/NVIDIA/Model-Optimizer/commit/b93a32e732d49f6b09b001208ea20d0054e6659e) | [#2589](https://github.com/NVIDIA/Model-Optimizer/pull/2589) | [@mrusanovsky](https://github.com/mrusanovsky) | `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] LiLiCorr: offline/streaming training and an optional calibration loss |
 | 2026-10-05 | [1a472379](https://github.com/NVIDIA/Model-Optimizer/commit/1a47237994c7a379bd580cf7f859ae00440794f3) | [#2459](https://github.com/NVIDIA/Model-Optimizer/pull/2459) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `distillation` `example` `infra` `tests` `torch` | Bring offline KD upgrades such as Ghost Token and Top-P to Megatron K… |
 | 2026-10-03 | [6a106874](https://github.com/NVIDIA/Model-Optimizer/commit/6a1068746dd0e746fe4bcb79152b86bdcf58cb41) | [#2620](https://github.com/NVIDIA/Model-Optimizer/pull/2620) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `tests` `vllm` | Add vLLM NVFP4 MLA KV-cache fake quant |
 | 2026-10-02 | [e3c903c4](https://github.com/NVIDIA/Model-Optimizer/commit/e3c903c4d14e460b44b42b46fb56f6f76edbc5c6) | [#2569](https://github.com/NVIDIA/Model-Optimizer/pull/2569) | [@shengliangxu](https://github.com/shengliangxu) | `example` `export` `infra` `quantization` `tests` `torch` | Deprecate TensorRT-LLM model_type in favor of Hugging Face model_type |
@@ -509,4 +511,4 @@
 | 2025-12-10 | [c77eebca](https://github.com/NVIDIA/Model-Optimizer/commit/c77eebcaccaf3b603f03b7900a972a57249e2e17) | [#650](https://github.com/NVIDIA/Model-Optimizer/pull/650) | [@noeyy-mino](https://github.com/noeyy-mino) | `tests` | Noeyy/add new ckpts test cases |
 
 ---
-**Total: 503 PRs**
+**Total: 505 PRs**

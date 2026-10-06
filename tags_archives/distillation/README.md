@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
 | 2026-10-05 | [1a472379](https://github.com/NVIDIA/Model-Optimizer/commit/1a47237994c7a379bd580cf7f859ae00440794f3) | [#2459](https://github.com/NVIDIA/Model-Optimizer/pull/2459) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `distillation` `example` `infra` `tests` `torch` | Bring offline KD upgrades such as Ghost Token and Top-P to Megatron K… |
 | 2026-10-02 | [44b46eba](https://github.com/NVIDIA/Model-Optimizer/commit/44b46eba828f77be44c4d655712b9d6ebeeee456) | [#2461](https://github.com/NVIDIA/Model-Optimizer/pull/2461) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `infra` `onnx` `quantization` `tests` `torch` | Fix three windows issues: extension-build timeout, 0xc000001d crash, and config I/O encoding |
 | 2026-10-02 | [e68eb44e](https://github.com/NVIDIA/Model-Optimizer/commit/e68eb44ee5c7fdb6a86885f457f1cdba0598e0c1) | [#2623](https://github.com/NVIDIA/Model-Optimizer/pull/2623) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `example` `export` `infra` `quantization` `tests` `torch` | \[1/3\] Export expert-parallel Megatron-Bridge MoE checkpoints and fix exporter / QAD gaps |
@@ -30,4 +31,4 @@
 | 2026-01-13 | [b813ab54](https://github.com/NVIDIA/Model-Optimizer/commit/b813ab548b97db9c0780459f1fe743bb88031d99) | [#747](https://github.com/NVIDIA/Model-Optimizer/pull/747) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Top-K KL Divergence loss |
 
 ---
-**Total: 24 PRs**
+**Total: 25 PRs**

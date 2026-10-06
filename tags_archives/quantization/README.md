@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
 | 2026-10-02 | [e3c903c4](https://github.com/NVIDIA/Model-Optimizer/commit/e3c903c4d14e460b44b42b46fb56f6f76edbc5c6) | [#2569](https://github.com/NVIDIA/Model-Optimizer/pull/2569) | [@shengliangxu](https://github.com/shengliangxu) | `example` `export` `infra` `quantization` `tests` `torch` | Deprecate TensorRT-LLM model_type in favor of Hugging Face model_type |
 | 2026-10-02 | [263bf740](https://github.com/NVIDIA/Model-Optimizer/commit/263bf7409e317140e5208ef67efeb6aff72ad332) | [#2604](https://github.com/NVIDIA/Model-Optimizer/pull/2604) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | Pack each IQ weight once and decode the IQ formats on CUDA |
 | 2026-10-02 | [44b46eba](https://github.com/NVIDIA/Model-Optimizer/commit/44b46eba828f77be44c4d655712b9d6ebeeee456) | [#2461](https://github.com/NVIDIA/Model-Optimizer/pull/2461) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `infra` `onnx` `quantization` `tests` `torch` | Fix three windows issues: extension-build timeout, 0xc000001d crash, and config I/O encoding |
@@ -340,4 +341,4 @@
 | 2026-01-13 | [18d9b1ee](https://github.com/NVIDIA/Model-Optimizer/commit/18d9b1eea40465f73760db3b1a37cd210d553d40) | [#613](https://github.com/NVIDIA/Model-Optimizer/pull/613) | [@Fridah-nv](https://github.com/Fridah-nv) | `quantization` `tests` `torch` | Add static per block MSE for NVFP4 weight |
 
 ---
-**Total: 334 PRs**
+**Total: 335 PRs**

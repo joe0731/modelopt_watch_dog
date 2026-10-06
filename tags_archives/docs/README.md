@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
 | 2026-10-02 | [e4884ba6](https://github.com/NVIDIA/Model-Optimizer/commit/e4884ba644528a2ce36f0f40ac52b22195015062) | [#2497](https://github.com/NVIDIA/Model-Optimizer/pull/2497) | [@kaix-nv](https://github.com/kaix-nv) | `core` `docs` `infra` `quantization` `tests` `torch` | \[1/6\] GDN state/W QAT foundation |
 | 2026-10-01 | [fadbf74d](https://github.com/NVIDIA/Model-Optimizer/commit/fadbf74d31ca7780519b798c313ad7f4351fe565) | [#2590](https://github.com/NVIDIA/Model-Optimizer/pull/2590) | [@danielkorzekwa](https://github.com/danielkorzekwa) | `docs` `example` `infra` `quantization` `torch` | Make the QAT/QAD guide the central place for concepts, background, and framework selection |
 | 2026-09-22 | [d0142c9d](https://github.com/NVIDIA/Model-Optimizer/commit/d0142c9dcad8f456caa482407960dc9cb5f0e710) | [#2376](https://github.com/NVIDIA/Model-Optimizer/pull/2376) | [@shengliangxu](https://github.com/shengliangxu) | `core` `docs` `infra` `tests` `torch` | Reuse a whole recipe via $import, deprecate recipe_type, and start the published-checkpoint backfill with two aliases |
@@ -75,4 +76,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 69 PRs**
+**Total: 70 PRs**

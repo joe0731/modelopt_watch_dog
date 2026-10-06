@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
 | 2026-10-02 | [e3c903c4](https://github.com/NVIDIA/Model-Optimizer/commit/e3c903c4d14e460b44b42b46fb56f6f76edbc5c6) | [#2569](https://github.com/NVIDIA/Model-Optimizer/pull/2569) | [@shengliangxu](https://github.com/shengliangxu) | `example` `export` `infra` `quantization` `tests` `torch` | Deprecate TensorRT-LLM model_type in favor of Hugging Face model_type |
 | 2026-10-02 | [263bf740](https://github.com/NVIDIA/Model-Optimizer/commit/263bf7409e317140e5208ef67efeb6aff72ad332) | [#2604](https://github.com/NVIDIA/Model-Optimizer/pull/2604) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | Pack each IQ weight once and decode the IQ formats on CUDA |
 | 2026-10-02 | [e68eb44e](https://github.com/NVIDIA/Model-Optimizer/commit/e68eb44ee5c7fdb6a86885f457f1cdba0598e0c1) | [#2623](https://github.com/NVIDIA/Model-Optimizer/pull/2623) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `example` `export` `infra` `quantization` `tests` `torch` | \[1/3\] Export expert-parallel Megatron-Bridge MoE checkpoints and fix exporter / QAD gaps |
@@ -189,4 +190,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 183 PRs**
+**Total: 184 PRs**

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-06 | [b93a32e7](https://github.com/NVIDIA/Model-Optimizer/commit/b93a32e732d49f6b09b001208ea20d0054e6659e) | [#2589](https://github.com/NVIDIA/Model-Optimizer/pull/2589) | [@mrusanovsky](https://github.com/mrusanovsky) | `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] LiLiCorr: offline/streaming training and an optional calibration loss |
 | 2026-10-01 | [333ace1b](https://github.com/NVIDIA/Model-Optimizer/commit/333ace1bc9f7a138fdd19430ecb85cbedfc369a7) | [#2571](https://github.com/NVIDIA/Model-Optimizer/pull/2571) | [@sychen52](https://github.com/sychen52) | `example` `speculative_decoding` `tests` `torch` | Fix multi-turn synthetic generation and mark incomplete outputs |
 | 2026-09-29 | [c2aaa44f](https://github.com/NVIDIA/Model-Optimizer/commit/c2aaa44f6040658a21a2f5d2213c10ecc6542512) | [#2216](https://github.com/NVIDIA/Model-Optimizer/pull/2216) | [@h-guo18](https://github.com/h-guo18) | `export` `infra` `speculative_decoding` `tests` `torch` | \[Speculative Decoding\] DFlash2 draft variant (grouped sublayer convolution + candidate selector) |
 | 2026-09-25 | [23355eda](https://github.com/NVIDIA/Model-Optimizer/commit/23355eda90a25c290f9b1fdfb928ad54caae7d10) | [#2547](https://github.com/NVIDIA/Model-Optimizer/pull/2547) | [@h-guo18](https://github.com/h-guo18) | `infra` `speculative_decoding` `tests` `torch` | fix(deps): declare httpx, unbreaking partial-install (torch) for every PR |
@@ -98,4 +99,4 @@
 | 2026-01-13 | [90fa48ce](https://github.com/NVIDIA/Model-Optimizer/commit/90fa48ce143c280b5429020033d239665039a6b4) | [#774](https://github.com/NVIDIA/Model-Optimizer/pull/774) | [@yeyu-nvidia](https://github.com/yeyu-nvidia) | `speculative_decoding` `torch` | remove duplicated RMSNorm and use LlamaRMSNorm from transformers |
 
 ---
-**Total: 92 PRs**
+**Total: 93 PRs**

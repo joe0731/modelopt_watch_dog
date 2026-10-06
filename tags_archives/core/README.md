@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
 | 2026-10-05 | [1a472379](https://github.com/NVIDIA/Model-Optimizer/commit/1a47237994c7a379bd580cf7f859ae00440794f3) | [#2459](https://github.com/NVIDIA/Model-Optimizer/pull/2459) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `distillation` `example` `infra` `tests` `torch` | Bring offline KD upgrades such as Ghost Token and Top-P to Megatron K… |
 | 2026-10-02 | [bc1e8dbf](https://github.com/NVIDIA/Model-Optimizer/commit/bc1e8dbfb944f73c028b88595d7645d7902c0473) | [#2606](https://github.com/NVIDIA/Model-Optimizer/pull/2606) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `torch` | docs(qwen3.6): add the decode-time fix for SciCode non-termination |
 | 2026-10-02 | [44b46eba](https://github.com/NVIDIA/Model-Optimizer/commit/44b46eba828f77be44c4d655712b9d6ebeeee456) | [#2461](https://github.com/NVIDIA/Model-Optimizer/pull/2461) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `infra` `onnx` `quantization` `tests` `torch` | Fix three windows issues: extension-build timeout, 0xc000001d crash, and config I/O encoding |
@@ -183,4 +184,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 177 PRs**
+**Total: 178 PRs**

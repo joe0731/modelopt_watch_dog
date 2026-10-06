@@ -1,5 +1,54 @@
 [
   {
+    "date": "2026-10-06",
+    "commit": "01e3a306d851214b25091903a15102990e00d915",
+    "pr_number": 2666,
+    "author": "shengliangxu",
+    "title": "Pin datasets<5.1 in the tf_min unit-test env",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "commit": "9f902aefdedcc445631170d4ec7da79f911a9f4d",
+    "pr_number": 2649,
+    "author": "kevalmorabia97",
+    "title": "Support transformers 5.15-5.18 (<5.19) and drop DBRX",
+    "tags": [
+      "core",
+      "distillation",
+      "docs",
+      "example",
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "commit": "f29052ee29cee57b78bbcbb06ceb7076a53a30d8",
+    "pr_number": 2579,
+    "author": "shengliangxu",
+    "title": "Move model-specific PTQ modeling into modelopt/torch/models [4/5]",
+    "tags": []
+  },
+  {
+    "date": "2026-10-06",
+    "commit": "b93a32e732d49f6b09b001208ea20d0054e6659e",
+    "pr_number": 2589,
+    "author": "mrusanovsky",
+    "title": "[Speculative Decoding] LiLiCorr: offline/streaming training and an optional calibration loss",
+    "tags": [
+      "infra",
+      "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-05",
     "commit": "49959ef0a91b333867a173993f44130348dc10d2",
     "pr_number": 2659,
@@ -22,6 +71,16 @@
       "infra",
       "tests",
       "torch"
+    ]
+  },
+  {
+    "date": "2026-10-05",
+    "commit": "36103237f6bb261386193d19c1c0966d74acec73",
+    "pr_number": 2475,
+    "author": "chadvoegele",
+    "title": "docs(eval): tolerate bounded benchmark failures",
+    "tags": [
+      "infra"
     ]
   },
   {
