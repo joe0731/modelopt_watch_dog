@@ -1,5 +1,56 @@
 [
   {
+    "date": "2026-10-07",
+    "commit": "7151675a05136480e84d96eb20c95a807f09359c",
+    "pr_number": 2683,
+    "author": "ajrasane",
+    "title": "[2/4] [6466805] Add private Dynamo ONNX quantization lowering",
+    "tags": [
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "commit": "41f89da8f590d5a1395e56338d40d5c255180167",
+    "pr_number": 2581,
+    "author": "meenchen",
+    "title": "[OMNIML-5942] Add Nemotron-H MTP quantization calibration and export support",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "commit": "245d0963725eb1414e534ab1e18c7e75c05daa52",
+    "pr_number": 2607,
+    "author": "shengliangxu",
+    "title": "[1/5] Add ensure_local_checkpoint to load models from local disk, and copy_non_model_files",
+    "tags": [
+      "core",
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "commit": "5b06081cb18436c74c1bd12f244e54c7b0e27c36",
+    "pr_number": 2608,
+    "author": "shengliangxu",
+    "title": "[2/5] HF exporters write off-index safetensors and non-model files",
+    "tags": [
+      "export",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-06",
     "commit": "01e3a306d851214b25091903a15102990e00d915",
     "pr_number": 2666,
@@ -44,6 +95,118 @@
     "tags": [
       "infra",
       "speculative_decoding",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "commit": "33e311770c263d431d4b0330e93e8318623d62b6",
+    "pr_number": 2651,
+    "author": "tritsystem",
+    "title": "Export unquantized FP8Linear layers in the export dtype, not fp32",
+    "tags": [
+      "export",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "commit": "e387d924f0a20fb83a8b03d31aef9a782d02beed",
+    "pr_number": 2626,
+    "author": "kinjalpatel27",
+    "title": "[1/6] Add vLLM fakequant CLI wrapper and app entry point",
+    "tags": [
+      "deploy",
+      "example",
+      "infra",
+      "sparsity",
+      "tests",
+      "torch",
+      "vllm"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "commit": "3b7a8dcbf291f00ed305f80dd81aababd114b45f",
+    "pr_number": 2644,
+    "author": "shengliangxu",
+    "title": "Re-key the GLM-5.3-Flash recipe to its BF16 source checkpoint",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "commit": "e01db0496f325622067db7d1b94494c8e8649279",
+    "pr_number": 2597,
+    "author": "Edwardf0t1",
+    "title": "[OMNIML-5935] Fix hf_ptq overwriting valid pad_token with eos_token",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "commit": "11a4e13121515c0f2e5bd6cec76a691c6e990a40",
+    "pr_number": 2622,
+    "author": "chadvoegele",
+    "title": "Clarify Day 0 sub-agent serving ownership",
+    "tags": [
+      "infra"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "commit": "9ceca982a68c5fa27ef58015de764adf4b9d1ac1",
+    "pr_number": 2329,
+    "author": "mxinO",
+    "title": "Add Parallel Decoding Distillation to FastGen",
+    "tags": [
+      "diffusers",
+      "example",
+      "infra",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "commit": "9f8959ddf18534ddb60c5f382c4757d0c1cff23d",
+    "pr_number": 2665,
+    "author": "cjluo-nv",
+    "title": "Support GPTQ for the GGML formats",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "commit": "a2a554c294ecc36a24a601dbaed46c9eda28d52e",
+    "pr_number": 2576,
+    "author": "shengliangxu",
+    "title": "Move model-specific PTQ modeling into modelopt/torch/models [1/4]",
+    "tags": [
+      "infra",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "commit": "215ce422688392a7e7a730a62dbf653ea54106d9",
+    "pr_number": 2679,
+    "author": "v0ropaev",
+    "title": "Make the OOM batch split tile the batch and keep the entries it allows",
+    "tags": [
+      "core",
+      "infra",
       "tests",
       "torch"
     ]

@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-06 | [e387d924](https://github.com/NVIDIA/Model-Optimizer/commit/e387d924f0a20fb83a8b03d31aef9a782d02beed) | [#2626](https://github.com/NVIDIA/Model-Optimizer/pull/2626) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[1/6\] Add vLLM fakequant CLI wrapper and app entry point |
 | 2026-10-03 | [6a106874](https://github.com/NVIDIA/Model-Optimizer/commit/6a1068746dd0e746fe4bcb79152b86bdcf58cb41) | [#2620](https://github.com/NVIDIA/Model-Optimizer/pull/2620) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `tests` `vllm` | Add vLLM NVFP4 MLA KV-cache fake quant |
 | 2026-10-02 | [f094f890](https://github.com/NVIDIA/Model-Optimizer/commit/f094f89069e5344cecdb7b55fb070d1610ea7270) | [#2552](https://github.com/NVIDIA/Model-Optimizer/pull/2552) | [@sychen52](https://github.com/sychen52) | `core` `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Add sparse-attention indexer Q and K-cache fake quantization |
 | 2026-10-02 | [b1b66cbe](https://github.com/NVIDIA/Model-Optimizer/commit/b1b66cbed6e2cbf9670365b2d759e7b266c3d006) | [#2633](https://github.com/NVIDIA/Model-Optimizer/pull/2633) | [@sychen52](https://github.com/sychen52) | `deploy` `example` `infra` `quantization` `tests` `torch` `vllm` | Fix vLLM fake-quant serving of FP8 checkpoints, MLA KV presets, CUDA graphs |
@@ -34,4 +35,4 @@
 | 2026-03-24 | [a108883c](https://github.com/NVIDIA/Model-Optimizer/commit/a108883ccad9ae1cec059d9c0eae935d00b7d316) | [#1068](https://github.com/NVIDIA/Model-Optimizer/pull/1068) | [@Fridah-nv](https://github.com/Fridah-nv) | `deploy` `eval` `example` `quantization` `torch` `vllm` | Fridah/kinjal/vllm modelopt reload |
 
 ---
-**Total: 28 PRs**
+**Total: 29 PRs**

@@ -4,7 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-07 | [245d0963](https://github.com/NVIDIA/Model-Optimizer/commit/245d0963725eb1414e534ab1e18c7e75c05daa52) | [#2607](https://github.com/NVIDIA/Model-Optimizer/pull/2607) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `tests` `torch` | \[1/5\] Add ensure_local_checkpoint to load models from local disk, and copy_non_model_files |
 | 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
+| 2026-10-06 | [215ce422](https://github.com/NVIDIA/Model-Optimizer/commit/215ce422688392a7e7a730a62dbf653ea54106d9) | [#2679](https://github.com/NVIDIA/Model-Optimizer/pull/2679) | [@v0ropaev](https://github.com/v0ropaev) | `core` `infra` `tests` `torch` | Make the OOM batch split tile the batch and keep the entries it allows |
 | 2026-10-05 | [1a472379](https://github.com/NVIDIA/Model-Optimizer/commit/1a47237994c7a379bd580cf7f859ae00440794f3) | [#2459](https://github.com/NVIDIA/Model-Optimizer/pull/2459) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `distillation` `example` `infra` `tests` `torch` | Bring offline KD upgrades such as Ghost Token and Top-P to Megatron K… |
 | 2026-10-02 | [bc1e8dbf](https://github.com/NVIDIA/Model-Optimizer/commit/bc1e8dbfb944f73c028b88595d7645d7902c0473) | [#2606](https://github.com/NVIDIA/Model-Optimizer/pull/2606) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `example` `torch` | docs(qwen3.6): add the decode-time fix for SciCode non-termination |
 | 2026-10-02 | [44b46eba](https://github.com/NVIDIA/Model-Optimizer/commit/44b46eba828f77be44c4d655712b9d6ebeeee456) | [#2461](https://github.com/NVIDIA/Model-Optimizer/pull/2461) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `infra` `onnx` `quantization` `tests` `torch` | Fix three windows issues: extension-build timeout, 0xc000001d crash, and config I/O encoding |
@@ -184,4 +186,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 178 PRs**
+**Total: 180 PRs**

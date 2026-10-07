@@ -4,7 +4,11 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-07 | [245d0963](https://github.com/NVIDIA/Model-Optimizer/commit/245d0963725eb1414e534ab1e18c7e75c05daa52) | [#2607](https://github.com/NVIDIA/Model-Optimizer/pull/2607) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `tests` `torch` | \[1/5\] Add ensure_local_checkpoint to load models from local disk, and copy_non_model_files |
+| 2026-10-07 | [5b06081c](https://github.com/NVIDIA/Model-Optimizer/commit/5b06081cb18436c74c1bd12f244e54c7b0e27c36) | [#2608](https://github.com/NVIDIA/Model-Optimizer/pull/2608) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `tests` `torch` | \[2/5\] HF exporters write off-index safetensors and non-model files |
 | 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
+| 2026-10-06 | [33e31177](https://github.com/NVIDIA/Model-Optimizer/commit/33e311770c263d431d4b0330e93e8318623d62b6) | [#2651](https://github.com/NVIDIA/Model-Optimizer/pull/2651) | [@tritsystem](https://github.com/tritsystem) | `export` `tests` `torch` | Export unquantized FP8Linear layers in the export dtype, not fp32 |
+| 2026-10-06 | [9f8959dd](https://github.com/NVIDIA/Model-Optimizer/commit/9f8959ddf18534ddb60c5f382c4757d0c1cff23d) | [#2665](https://github.com/NVIDIA/Model-Optimizer/pull/2665) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | Support GPTQ for the GGML formats |
 | 2026-10-02 | [e3c903c4](https://github.com/NVIDIA/Model-Optimizer/commit/e3c903c4d14e460b44b42b46fb56f6f76edbc5c6) | [#2569](https://github.com/NVIDIA/Model-Optimizer/pull/2569) | [@shengliangxu](https://github.com/shengliangxu) | `example` `export` `infra` `quantization` `tests` `torch` | Deprecate TensorRT-LLM model_type in favor of Hugging Face model_type |
 | 2026-10-02 | [263bf740](https://github.com/NVIDIA/Model-Optimizer/commit/263bf7409e317140e5208ef67efeb6aff72ad332) | [#2604](https://github.com/NVIDIA/Model-Optimizer/pull/2604) | [@cjluo-nv](https://github.com/cjluo-nv) | `export` `infra` `quantization` `tests` `torch` | Pack each IQ weight once and decode the IQ formats on CUDA |
 | 2026-10-02 | [e68eb44e](https://github.com/NVIDIA/Model-Optimizer/commit/e68eb44ee5c7fdb6a86885f457f1cdba0598e0c1) | [#2623](https://github.com/NVIDIA/Model-Optimizer/pull/2623) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `example` `export` `infra` `quantization` `tests` `torch` | \[1/3\] Export expert-parallel Megatron-Bridge MoE checkpoints and fix exporter / QAD gaps |
@@ -190,4 +194,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 184 PRs**
+**Total: 188 PRs**
