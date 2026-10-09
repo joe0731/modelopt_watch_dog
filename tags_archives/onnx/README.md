@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-09 | [f299f62d](https://github.com/NVIDIA/Model-Optimizer/commit/f299f62d20df3e69703be31d9afcb570145e8813) | [#2554](https://github.com/NVIDIA/Model-Optimizer/pull/2554) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `quantization` `tests` | fix(onnx): trace Transpose between DequantizeLinear and its consumer in qdq_to_dq |
 | 2026-10-02 | [44b46eba](https://github.com/NVIDIA/Model-Optimizer/commit/44b46eba828f77be44c4d655712b9d6ebeeee456) | [#2461](https://github.com/NVIDIA/Model-Optimizer/pull/2461) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `infra` `onnx` `quantization` `tests` `torch` | Fix three windows issues: extension-build timeout, 0xc000001d crash, and config I/O encoding |
 | 2026-10-01 | [4f62d418](https://github.com/NVIDIA/Model-Optimizer/commit/4f62d418f402deb34e9d91663909d95668061ec3) | [#2619](https://github.com/NVIDIA/Model-Optimizer/pull/2619) | [@ajrasane](https://github.com/ajrasane) | `example` `export` `onnx` `tests` `torch` | Use TensorRT optimization level 0 in Torch ONNX example tests |
 | 2026-09-18 | [2f4da27b](https://github.com/NVIDIA/Model-Optimizer/commit/2f4da27ba59d0ceb3db537f5028acc4f2d24b1b9) | [#2457](https://github.com/NVIDIA/Model-Optimizer/pull/2457) | [@ajrasane](https://github.com/ajrasane) | `onnx` `tests` | Add calibrated ONNX quantization characterization tests |
@@ -122,4 +123,4 @@
 | 2026-01-13 | [b4c77c0d](https://github.com/NVIDIA/Model-Optimizer/commit/b4c77c0d9b79a2ffdae554720ab70aa8d428aab5) | [#777](https://github.com/NVIDIA/Model-Optimizer/pull/777) | [@ajrasane](https://github.com/ajrasane) | `onnx` `quantization` | \[NVBUG 5801937\] Disable dq_only by default |
 
 ---
-**Total: 116 PRs**
+**Total: 117 PRs**

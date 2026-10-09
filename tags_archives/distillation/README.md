@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-09 | [6e6cadcb](https://github.com/NVIDIA/Model-Optimizer/commit/6e6cadcbaf1343e074f00024628fb7fa50fa64cc) | [#2645](https://github.com/NVIDIA/Model-Optimizer/pull/2645) | [@SID-6921](https://github.com/SID-6921) | `distillation` `tests` `torch` | fix(distill): flatten MFTLoss labels along with the logits |
+| 2026-10-09 | [dd36d0dd](https://github.com/NVIDIA/Model-Optimizer/commit/dd36d0dd63a43dfb74d00dec8f67b3d081b5da5a) | [#2527](https://github.com/NVIDIA/Model-Optimizer/pull/2527) | [@TheSabari07](https://github.com/TheSabari07) | `distillation` `example` `infra` `quantization` `tests` `torch` | feat(distill): add kd_loss_weight to KDTrainer for CE+KD loss blending |
+| 2026-10-09 | [91bbe8f6](https://github.com/NVIDIA/Model-Optimizer/commit/91bbe8f657a9ad4bd8691131c5e18bcd9cd6283d) | [#2668](https://github.com/NVIDIA/Model-Optimizer/pull/2668) | [@LinCanNerd](https://github.com/LinCanNerd) | `distillation` `tests` `torch` | Fix MGDLoss teacher gradient leak and enforce abstract loss balancer |
 | 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
 | 2026-10-05 | [1a472379](https://github.com/NVIDIA/Model-Optimizer/commit/1a47237994c7a379bd580cf7f859ae00440794f3) | [#2459](https://github.com/NVIDIA/Model-Optimizer/pull/2459) | [@AAnoosheh](https://github.com/AAnoosheh) | `core` `distillation` `example` `infra` `tests` `torch` | Bring offline KD upgrades such as Ghost Token and Top-P to Megatron K… |
 | 2026-10-02 | [44b46eba](https://github.com/NVIDIA/Model-Optimizer/commit/44b46eba828f77be44c4d655712b9d6ebeeee456) | [#2461](https://github.com/NVIDIA/Model-Optimizer/pull/2461) | [@shengliangxu](https://github.com/shengliangxu) | `core` `distillation` `infra` `onnx` `quantization` `tests` `torch` | Fix three windows issues: extension-build timeout, 0xc000001d crash, and config I/O encoding |
@@ -31,4 +34,4 @@
 | 2026-01-13 | [b813ab54](https://github.com/NVIDIA/Model-Optimizer/commit/b813ab548b97db9c0780459f1fe743bb88031d99) | [#747](https://github.com/NVIDIA/Model-Optimizer/pull/747) | [@AAnoosheh](https://github.com/AAnoosheh) | `distillation` `tests` `torch` | Top-K KL Divergence loss |
 
 ---
-**Total: 25 PRs**
+**Total: 28 PRs**

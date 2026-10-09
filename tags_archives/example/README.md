@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-09 | [dd36d0dd](https://github.com/NVIDIA/Model-Optimizer/commit/dd36d0dd63a43dfb74d00dec8f67b3d081b5da5a) | [#2527](https://github.com/NVIDIA/Model-Optimizer/pull/2527) | [@TheSabari07](https://github.com/TheSabari07) | `distillation` `example` `infra` `quantization` `tests` `torch` | feat(distill): add kd_loss_weight to KDTrainer for CE+KD loss blending |
 | 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
 | 2026-10-06 | [e387d924](https://github.com/NVIDIA/Model-Optimizer/commit/e387d924f0a20fb83a8b03d31aef9a782d02beed) | [#2626](https://github.com/NVIDIA/Model-Optimizer/pull/2626) | [@kinjalpatel27](https://github.com/kinjalpatel27) | `deploy` `example` `infra` `sparsity` `tests` `torch` `vllm` | \[1/6\] Add vLLM fakequant CLI wrapper and app entry point |
 | 2026-10-06 | [9ceca982](https://github.com/NVIDIA/Model-Optimizer/commit/9ceca982a68c5fa27ef58015de764adf4b9d1ac1) | [#2329](https://github.com/NVIDIA/Model-Optimizer/pull/2329) | [@mxinO](https://github.com/mxinO) | `diffusers` `example` `infra` `tests` `torch` | Add Parallel Decoding Distillation to FastGen |
@@ -334,4 +335,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 328 PRs**
+**Total: 329 PRs**

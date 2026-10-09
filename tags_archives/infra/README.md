@@ -4,6 +4,9 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-09 | [f299f62d](https://github.com/NVIDIA/Model-Optimizer/commit/f299f62d20df3e69703be31d9afcb570145e8813) | [#2554](https://github.com/NVIDIA/Model-Optimizer/pull/2554) | [@SID-6921](https://github.com/SID-6921) | `infra` `onnx` `quantization` `tests` | fix(onnx): trace Transpose between DequantizeLinear and its consumer in qdq_to_dq |
+| 2026-10-09 | [5a7bb676](https://github.com/NVIDIA/Model-Optimizer/commit/5a7bb6764e746dc4b69dd3ead9a63be7eb3e4fdc) | [#2578](https://github.com/NVIDIA/Model-Optimizer/pull/2578) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-3817\] Move model-specific PTQ modeling into modelopt/torch/models \[3/4\] |
+| 2026-10-09 | [dd36d0dd](https://github.com/NVIDIA/Model-Optimizer/commit/dd36d0dd63a43dfb74d00dec8f67b3d081b5da5a) | [#2527](https://github.com/NVIDIA/Model-Optimizer/pull/2527) | [@TheSabari07](https://github.com/TheSabari07) | `distillation` `example` `infra` `quantization` `tests` `torch` | feat(distill): add kd_loss_weight to KDTrainer for CE+KD loss blending |
 | 2026-10-07 | [41f89da8](https://github.com/NVIDIA/Model-Optimizer/commit/41f89da8f590d5a1395e56338d40d5c255180167) | [#2581](https://github.com/NVIDIA/Model-Optimizer/pull/2581) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | \[OMNIML-5942\] Add Nemotron-H MTP quantization calibration and export support |
 | 2026-10-07 | [5b06081c](https://github.com/NVIDIA/Model-Optimizer/commit/5b06081cb18436c74c1bd12f244e54c7b0e27c36) | [#2608](https://github.com/NVIDIA/Model-Optimizer/pull/2608) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `tests` `torch` | \[2/5\] HF exporters write off-index safetensors and non-model files |
 | 2026-10-06 | [01e3a306](https://github.com/NVIDIA/Model-Optimizer/commit/01e3a306d851214b25091903a15102990e00d915) | [#2666](https://github.com/NVIDIA/Model-Optimizer/pull/2666) | [@shengliangxu](https://github.com/shengliangxu) | `infra` | Pin datasets\<5.1 in the tf_min unit-test env |
@@ -672,4 +675,4 @@
 | 2026-01-14 | [43b3cfa0](https://github.com/NVIDIA/Model-Optimizer/commit/43b3cfa0205b2da2f590ec26048473f9c9120168) | [#776](https://github.com/NVIDIA/Model-Optimizer/pull/776) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `example` `infra` `nas` `pruning` `tests` `torch` | Rename compress to puzzletron |
 
 ---
-**Total: 666 PRs**
+**Total: 669 PRs**

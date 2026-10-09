@@ -8,6 +8,11 @@
 
 | Focus | Date | Commit | PR | Author | Tags | Description |
 |:-----:|------|--------|-------|--------|------|-------------|
+| 🟠 | **2026-10-09** | **[f299f62d](https://github.com/NVIDIA/Model-Optimizer/commit/f299f62d20df3e69703be31d9afcb570145e8813)** | **[#2554](https://github.com/NVIDIA/Model-Optimizer/pull/2554)** | **[@SID-6921](https://github.com/SID-6921)** | `infra` `onnx` `quantization` `tests` | **fix(onnx): trace Transpose between DequantizeLinear and its consumer in qdq_to_dq** |
+|  | 2026-10-09 | [5a7bb676](https://github.com/NVIDIA/Model-Optimizer/commit/5a7bb6764e746dc4b69dd3ead9a63be7eb3e4fdc) | [#2578](https://github.com/NVIDIA/Model-Optimizer/pull/2578) | [@shengliangxu](https://github.com/shengliangxu) | `infra` `quantization` `tests` `torch` | \[OMNIML-3817\] Move model-specific PTQ modeling into modelopt/torch/models \[3/4\] |
+|  | 2026-10-09 | [6e6cadcb](https://github.com/NVIDIA/Model-Optimizer/commit/6e6cadcbaf1343e074f00024628fb7fa50fa64cc) | [#2645](https://github.com/NVIDIA/Model-Optimizer/pull/2645) | [@SID-6921](https://github.com/SID-6921) | `distillation` `tests` `torch` | fix(distill): flatten MFTLoss labels along with the logits |
+|  | 2026-10-09 | [dd36d0dd](https://github.com/NVIDIA/Model-Optimizer/commit/dd36d0dd63a43dfb74d00dec8f67b3d081b5da5a) | [#2527](https://github.com/NVIDIA/Model-Optimizer/pull/2527) | [@TheSabari07](https://github.com/TheSabari07) | `distillation` `example` `infra` `quantization` `tests` `torch` | feat(distill): add kd_loss_weight to KDTrainer for CE+KD loss blending |
+|  | 2026-10-09 | [91bbe8f6](https://github.com/NVIDIA/Model-Optimizer/commit/91bbe8f657a9ad4bd8691131c5e18bcd9cd6283d) | [#2668](https://github.com/NVIDIA/Model-Optimizer/pull/2668) | [@LinCanNerd](https://github.com/LinCanNerd) | `distillation` `tests` `torch` | Fix MGDLoss teacher gradient leak and enforce abstract loss balancer |
 |  | 2026-10-07 | [7151675a](https://github.com/NVIDIA/Model-Optimizer/commit/7151675a05136480e84d96eb20c95a807f09359c) | [#2683](https://github.com/NVIDIA/Model-Optimizer/pull/2683) | [@ajrasane](https://github.com/ajrasane) | `quantization` `tests` `torch` | \[2/4\] \[6466805\] Add private Dynamo ONNX quantization lowering |
 |  | 2026-10-07 | [41f89da8](https://github.com/NVIDIA/Model-Optimizer/commit/41f89da8f590d5a1395e56338d40d5c255180167) | [#2581](https://github.com/NVIDIA/Model-Optimizer/pull/2581) | [@meenchen](https://github.com/meenchen) | `infra` `quantization` `tests` `torch` | \[OMNIML-5942\] Add Nemotron-H MTP quantization calibration and export support |
 |  | 2026-10-07 | [245d0963](https://github.com/NVIDIA/Model-Optimizer/commit/245d0963725eb1414e534ab1e18c7e75c05daa52) | [#2607](https://github.com/NVIDIA/Model-Optimizer/pull/2607) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `tests` `torch` | \[1/5\] Add ensure_local_checkpoint to load models from local disk, and copy_non_model_files |
@@ -55,4 +60,4 @@
 |  | 2026-10-01 | [f977c05d](https://github.com/NVIDIA/Model-Optimizer/commit/f977c05d40ed376eee0820acc38b170bb43fc271) | [#2508](https://github.com/NVIDIA/Model-Optimizer/pull/2508) | [@meenchen](https://github.com/meenchen) | `export` `infra` `tests` `torch` | Use HF converter.rename_source_key when available to reverse naming conversion |
 
 ---
-**Total: 45 PRs** | **Highlighted: 6**
+**Total: 50 PRs** | **Highlighted: 7**

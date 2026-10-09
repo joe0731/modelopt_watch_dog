@@ -1,5 +1,70 @@
 [
   {
+    "date": "2026-10-09",
+    "commit": "f299f62d20df3e69703be31d9afcb570145e8813",
+    "pr_number": 2554,
+    "author": "SID-6921",
+    "title": "fix(onnx): trace Transpose between DequantizeLinear and its consumer in qdq_to_dq",
+    "tags": [
+      "infra",
+      "onnx",
+      "quantization",
+      "tests"
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "commit": "5a7bb6764e746dc4b69dd3ead9a63be7eb3e4fdc",
+    "pr_number": 2578,
+    "author": "shengliangxu",
+    "title": "[OMNIML-3817] Move model-specific PTQ modeling into modelopt/torch/models [3/4]",
+    "tags": [
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "commit": "6e6cadcbaf1343e074f00024628fb7fa50fa64cc",
+    "pr_number": 2645,
+    "author": "SID-6921",
+    "title": "fix(distill): flatten MFTLoss labels along with the logits",
+    "tags": [
+      "distillation",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "commit": "dd36d0dd63a43dfb74d00dec8f67b3d081b5da5a",
+    "pr_number": 2527,
+    "author": "TheSabari07",
+    "title": "feat(distill): add kd_loss_weight to KDTrainer for CE+KD loss blending",
+    "tags": [
+      "distillation",
+      "example",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "commit": "91bbe8f657a9ad4bd8691131c5e18bcd9cd6283d",
+    "pr_number": 2668,
+    "author": "LinCanNerd",
+    "title": "Fix MGDLoss teacher gradient leak and enforce abstract loss balancer",
+    "tags": [
+      "distillation",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-07",
     "commit": "7151675a05136480e84d96eb20c95a807f09359c",
     "pr_number": 2683,
