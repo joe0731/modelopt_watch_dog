@@ -65,6 +65,34 @@
     ]
   },
   {
+    "date": "2026-10-09",
+    "commit": "530d6a094587a749affa3d9e60def88ffe7bf837",
+    "pr_number": 2580,
+    "author": "shengliangxu",
+    "title": "[OMNIML-3817] Move model-specific PTQ modeling into modelopt/torch/models [4/4]",
+    "tags": [
+      "export",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
+    "date": "2026-10-09",
+    "commit": "4c1f813828cb9dd07b0d842d60ba35e3946237dc",
+    "pr_number": 2727,
+    "author": "cjluo-nv",
+    "title": "Speed up the hf_ptq example tests",
+    "tags": [
+      "core",
+      "infra",
+      "quantization",
+      "tests",
+      "torch"
+    ]
+  },
+  {
     "date": "2026-10-07",
     "commit": "7151675a05136480e84d96eb20c95a807f09359c",
     "pr_number": 2683,

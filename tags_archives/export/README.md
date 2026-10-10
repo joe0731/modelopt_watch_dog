@@ -4,6 +4,7 @@
 
 | Date | Commit | PR | Author | All Tags | Description |
 |------|--------|-------|--------|----------|-------------|
+| 2026-10-09 | [530d6a09](https://github.com/NVIDIA/Model-Optimizer/commit/530d6a094587a749affa3d9e60def88ffe7bf837) | [#2580](https://github.com/NVIDIA/Model-Optimizer/pull/2580) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `quantization` `tests` `torch` | \[OMNIML-3817\] Move model-specific PTQ modeling into modelopt/torch/models \[4/4\] |
 | 2026-10-07 | [245d0963](https://github.com/NVIDIA/Model-Optimizer/commit/245d0963725eb1414e534ab1e18c7e75c05daa52) | [#2607](https://github.com/NVIDIA/Model-Optimizer/pull/2607) | [@shengliangxu](https://github.com/shengliangxu) | `core` `export` `tests` `torch` | \[1/5\] Add ensure_local_checkpoint to load models from local disk, and copy_non_model_files |
 | 2026-10-07 | [5b06081c](https://github.com/NVIDIA/Model-Optimizer/commit/5b06081cb18436c74c1bd12f244e54c7b0e27c36) | [#2608](https://github.com/NVIDIA/Model-Optimizer/pull/2608) | [@shengliangxu](https://github.com/shengliangxu) | `export` `infra` `tests` `torch` | \[2/5\] HF exporters write off-index safetensors and non-model files |
 | 2026-10-06 | [9f902aef](https://github.com/NVIDIA/Model-Optimizer/commit/9f902aefdedcc445631170d4ec7da79f911a9f4d) | [#2649](https://github.com/NVIDIA/Model-Optimizer/pull/2649) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `distillation` `docs` `example` `export` `infra` `quantization` `tests` `torch` | Support transformers 5.15-5.18 (\<5.19) and drop DBRX |
@@ -194,4 +195,4 @@
 | 2026-01-13 | [9de4877d](https://github.com/NVIDIA/Model-Optimizer/commit/9de4877d27cd6a9f1fe8ab52881bb6ee09128b2d) | [#626](https://github.com/NVIDIA/Model-Optimizer/pull/626) | [@kevalmorabia97](https://github.com/kevalmorabia97) | `core` `docs` `example` `export` `onnx` `quantization` `sparsity` `torch` | \[1/2\] Address security concerns in code |
 
 ---
-**Total: 188 PRs**
+**Total: 189 PRs**
